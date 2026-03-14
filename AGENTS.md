@@ -1,139 +1,75 @@
-# CLAUDE.md
+# CLAUDE.md -- English Interjections as HPC
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+## Role: Editor/Researcher
+
+Deep editorial and research work welcome here. This is not a PM session.
 
 ## Project Overview
 
-This is an academic research paper titled "English Interjections as HPC" by Brett Reynolds.
+Paper arguing that English interjections constitute a homeostatic property cluster (HPC), not a marginal or anomalous category. The empirical base is Brett's Wikipedia "Good Article" on English interjections, which covers phonology, morphology, syntax, semantics, pragmatics, variation, and historical treatments. The theoretical payoff: interjections are a particularly strong test case for HPC because they've been denied or marginalised as a category by major grammars.
 
-## Build System
+**Working title:** English Interjections as a Homeostatic Property Cluster
+**Target:** Journal of Historical Pragmatics (John Benjamins)
 
-This LaTeX project requires **XeLaTeX** (not pdfLaTeX) due to the Charis SIL font requirement.
+### Core Argument
 
-**Avoid LuaLaTeX** – it tends to run words together in the underlying PDF text layer, breaking copy-paste and accessibility.
+1. **The problem:** Interjections are denied category status (Jespersen), dismissed as uninteresting (Huddleston & Pullum Student's), or conceded as "marginal and anomalous" (Quirk et al.). Classical category theory can't handle the fuzziness.
 
-### Compilation Commands
+2. **The property cluster:** Non-referential, non-inflecting, prosodically isolated, syntactically supplemental (supplement function), emotively laden, freely coined via onomatopoeia.
+
+3. **Mechanisms:** Semantic bleaching (noun→interjection paths like *God* → *gee*), prosodic isolation reinforcing syntactic independence, pragmatic conventionalisation.
+
+4. **Projectibility:** What does categorising something as an interjection let you *infer*? Primarily pragmatic (prosodic behaviour, syntactic non-integration, emotive/interpersonal force) rather than truth-conditional. This is the paper's distinctive contribution to HPC theory.
+
+5. **Diachronic dimension:** Bleaching paths as mechanism trajectories; *nay* → *yeah* shift; regional variation (*lah*, *yaar*, *haba*) as evidence of dynamic stability. This is the JHP angle.
+
+6. **Boundary disputes as HPC predictions:** Graded boundaries with nouns, verbs, adverbs, fillers, and routine formulae are predicted by HPC, not anomalous.
+
+### Key Sources
+
+| Source | Role |
+|--------|------|
+| Ameka (1992) | Interjections as neglected category; routine formulae debate |
+| Wilkins (1992) | Routine formulae as interjection subtype |
+| Gehweiler (2008) | Diachronic bleaching (*gee!*); published in JHP |
+| Meinard (2015) | Interjection vs. onomatopoeia distinction |
+| Dingemanse (2020) | Liminal signs in interaction |
+| CGEL (Huddleston & Pullum 2002) | Interjection phrases, supplement function |
+| Quirk et al. (1985) | "Marginal and anomalous class" |
+| Boyd (1999) | HPC theory |
+| O'Connell & Kowal (2005) | Interjections vs. fillers |
+
+### Connections to Brett's Research Programme
+
+- **HPC theory in linguistics:** Another category case study, but one that tests HPC at the margins
+- **Boundary phenomena:** Interjections *are* boundary phenomena (graded membership in every direction)
+- **Projectibility:** The pragmatic (not truth-conditional) nature of interjection-inference extends the theory
+- **CGEL syntax:** Supplement function, interjection phrases, category vs. function distinction
+
+## Build
 
 ```bash
-# Full build sequence
-xelatex main.tex
-biber main
-xelatex main.tex
-xelatex main.tex
-
-# Or use automated build
-make              # Full build
-make quick        # Single pass
-make clean        # Clean artifacts
+make              # Full build (xelatex + biber + 2x xelatex)
+make quick        # Single xelatex pass
+make clean        # Remove artifacts, keep PDF
 ```
 
-The multiple runs are necessary to resolve all cross-references and citations.
-
-## File Structure
-
-```
-English_Interjections_as_HPC/
-├── main.tex                  # Main document
-├── references.bib            # Bibliography
-├── .house-style/             # House style snapshot
-│   ├── preamble.tex         # LaTeX preamble
-│   └── style-rules.yaml     # Style conventions
-├── Makefile                  # Build automation
-├── CLAUDE.md                 # This file
-├── AGENTS.md                 # Synced with this file
-└── GEMINI.md                 # Synced with this file
-```
+Requires XeLaTeX (not pdfLaTeX or LuaLaTeX).
 
 ## House Style
 
-This project uses Brett Reynolds house style (see `.house-style/style-rules.yaml`).
-
-### Key LaTeX Conventions
-
-**Terms, Mentions, Quotations:**
-- Use `\term{}` for terms/concepts (small caps): `\term{definiteness}`
-- Use `\mention{}` for mentions/forms (italics): `\mention{the}`
-- Use `\olang{}` for object language (italics): `\olang{der Hund}`
-- Use `\enquote{}` for quotations: `\enquote{actual quote}`
-- Never use raw quotes for mention
-
-**Cross-linguistic Notation:**
-- Cross-linguistic: `\textsc{subject}\crossmark`
-- Language-specific: `\textsc{subject}\textsubscript{eng}`
-
-**Dashes:**
-- Parenthetical: `foo~-- bar~-- baz` (en dash with spaces)
-- Ranges: `2001--2025` (en dash, no spaces)
-- Compounds: `corpus-based` (hyphen)
-
-**Citations:**
-- Parenthetical: `\citep{key}`
-- Textual: `\textcite{key}`
-
-**Citations and BibTeX (LAW):**
-- Citations and BibTeX entries must NEVER be placeholders
-- Citations must NEVER be generated from training data
-- LLMs MUST browse the web to find DOIs and verify bibliographic data
-- Every citation must be confirmed against an authoritative source
-- If you cannot verify a citation, say so. Do not guess. Do not fabricate.
-
-### Writing Style
-
-**Preferred:**
-- Use contractions (don't, won't)
-- Keep paragraphs ~60 words, max 100
-- Direct verbs and short clauses
-- Concrete before abstract
-
-**Avoid:**
-- Throat-clearers: "It is important to note that..."
-- `\paragraph{}` headings (use topic sentences)
-- Bold labels in prose
-- Hackneyed adverbs: moreover, furthermore
-
-**Document Structure:**
-- Use `\section{}` and `\subsection{}` only
-- Avoid bullet points for arguments (use prose)
-- Use ordinal markers: "first," "second," "third"
-
-**Examples (gb4e):**
-```latex
-\ea\label{ex:example}
-\textit{Example sentence.}
-\z
-```
-
-## Common Tasks
-
-**Adding References:**
-1. Add entry to `references.bib`
-2. Protect capitals: `title = {The {Cambridge} Grammar...}`
-3. Use `\textcite{key}` or `\citep{key}`
-
-**Building:**
-```bash
-make              # Full build
-make quick        # Fast build
-make clean        # Clean up
-```
-
-**Git Workflow:**
-- Pre-commit hook keeps CLAUDE.md, AGENTS.md, GEMINI.md synced
-- Commit often with meaningful messages
-- Build before committing to ensure no LaTeX errors
+See `.house-style/style-rules.yaml`. Key rules:
+- `\term{}` for concepts, `\mention{}` for forms, `\enquote{}` for quotes
+- En-dash with spaces (`~-- `), never em-dashes
+- Contractions preferred, ~60 word paragraphs
+- `\textcite{}` narrative, `\citep{}` parenthetical
 
 ## Multi-Agent Dispatch (MANDATORY)
 
 **Before dispatching multiple agents, ALWAYS ask Brett:**
 
 1. **Which model(s)?** Options: Claude, Codex, Gemini, Copilot
-   - Codex is often best for Brett's work
-   - Claude has the smallest context window
-   - Different models have different strengths
-
 2. **Redundant outputs?** Should multiple models tackle the same task?
-   - Useful for judgment calls (e.g., "Should I add this figure?")
-   - Not needed for factual tasks
 
 ### CLI Command Patterns
 
@@ -144,5 +80,3 @@ make clean        # Clean up
 | **Copilot** | `copilot -p 'prompt' > output.txt &` | Fast; add `--allow-all-tools` for file ops |
 
 **Token limits:** Gemini > Codex > Claude (most constrained)
-
-See portfolio `CLAUDE.md` or `HPC book/.agent/workflows/multi-agent-review.md` for full patterns.

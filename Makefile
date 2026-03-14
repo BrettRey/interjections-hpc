@@ -1,5 +1,5 @@
 # Makefile for LaTeX paper compilation
-# Naturalizing Typological Kinds: Comparanda, Mechanisms, and Measurement
+# English Interjections as a Homeostatic Property Cluster
 
 # Configuration
 LATEX = xelatex
