@@ -40,4 +40,19 @@
 
 2026-03-15 — Bib verification complete. Corrections: rosch1975 @book→@article, coulmas1981 Berlin→The Hague, aarts2014 ISBN corrected, murray1824 URL fixed, bullokar1586 editor/series added.
 
+2026-03-15 — Major revision pass addressing two external reviews (both R&R). Changes:
+(1) Claim calibration: "confirms" → "suggests" throughout (abstract, §3.1, conclusion, §6.2). Paper now accurately represents evidence as consistent with HPC, not as empirical confirmation.
+(2) Unit-of-analysis note added to Introduction: HPC membership attaches to constructions, not lexemes.
+(3) Diagnostic matrix table added (Section 2.6): 10 constructions × 8 columns (5 properties + 3 HPCs). Makes the cluster inspectable.
+(4) Interactional recentering: Dingemanse 2024 data (1/7 turns are interjections; most common are continuers, repair initiators, change-of-state tokens). Added interactional perturbation case (mm-hm gaining propositional content). Strengthened pragmatic kind argument in §5.4.
+(5) Perturbation test sharpened: explicit HPC-specific prediction (order of erosion tracks mechanism disruption, not just syntax-before-semantics). Distinguished from CxG and prototype theory.
+(6) Book dependency reduced: 6 → 3 citations to reynolds2025hpcbook. Imported stabiliser definition and three-part slogan directly, attributed to Boyd.
+(7) Missing literature engaged: Wierzbicka 1992 (NSM analysis compatible with non-referentiality claim), Gutzmann 2019 (expressivity as syntactic feature supports interjection_sem), Dingemanse 2024 (interactional recentering), Norrick 2009 (interjections as pragmatic markers).
+(8) Adjective comparison substantiated: parallel sketched (fewer stabilisers, graded boundaries, cross-linguistic instability, tight-before-loose erosion).
+(9) Social indexing labelled as candidate stabiliser (not confirmed); test specified precisely.
+(10) Conditioning test (P5) designed but unexecuted: GloWbE 10 items × 20 countries, pooled vs. conditioned variance.
+(11) Slater hedge committed: escape hatch removed. Paper now commits to Boyd's mechanism requirement.
+(12) Local fixes: ejaculatio footnote cut, Wilkins page ref resolved, dustbin attribution reframed, "All five" → "All four", "pop case" introduced with Meinard citation, Wikipedia acknowledgement tightened, structural analogy defined.
+Draft now 20 pages (was 18).
+
 2026-03-14 — Outline revised to address all five review board concerns. Key structural changes: (1) projectibility promoted from "climax" to "organising question" -- introduced in Section 1, criterion of success in Section 2, threaded through Section 3, paid off in Section 5; (2) circularity broken via partial-observation inference (observing some properties licences prediction of others), field-relative projectibility (interactional, diachronic, lexicographic purposes), and category-vs-function distinction; (3) Section 4 split into recruitment (diachronic pathways) and maintenance (four synchronic feedback loops) with perturbation test; (4) second bleaching path added: verb > interjection (*damn*, CGEL analysis) alongside religious noun > interjection (Gehweiler); (5) HPC-vs-prototype comparison developed substantively in Section 2.2, with four testable predictions (P1, P3, P5, P10) and defeat conditions in Section 6.1. Estimated length ~14--16 pages.

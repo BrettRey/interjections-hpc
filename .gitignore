@@ -13,3 +13,10 @@
 
 # macOS
 .DS_Store
+
+# R output (large binary)
+analysis/*.RData
+analysis/.Rhistory
+
+# Stan compilation cache
+*.rds
