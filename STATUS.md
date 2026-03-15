@@ -2,7 +2,7 @@
 
 ## Current State
 
-**Phase:** Outline revised (all 5 review board concerns addressed). Ready to draft.
+**Phase:** Full draft complete (18 pages). Reviewed by 10 internal + 2 external reviewers. Revision priorities identified. Ready for revision pass.
 **Last updated:** 2026-03-14
 
 ### Genesis
@@ -38,7 +38,15 @@ Interjections are a particularly revealing test case for HPC theory because they
 ### What's Next
 
 1. ~~Revise OUTLINE.md~~ Done (2026-03-14)
-2. Draft (order: Sections 3, 4, 5, 2, 1, 6-7)
-3. Acquire Dingemanse 2023 Annual Review article
-4. Decide Slater engagement strategy
-5. Add new bib entries for added references (Rosch 1975, Taylor 2003, Traugott & Dasher 2002, Heine & Kuteva 2002, Prasertsom, Smith & Culbertson 2026, Seifart 2010)
+2. ~~Draft all sections~~ Done (2026-03-14)
+3. Revision pass addressing external reviews:
+   - Claim calibration ("confirms" → "suggests" throughout)
+   - Add diagnostic matrix table (items × HPCs × diagnostics)
+   - Recenter interactional examples (continuers, repair initiators alongside emotive cases)
+   - Reduce dependency on unpublished HPC book (import minimum apparatus)
+   - Sharpen perturbation test: what does HPC predict that CxG can't?
+   - Add missing literature: Dingemanse 2024 (Annual Review), Wierzbicka 1992, Gutzmann expressivity
+   - Resolve footnotes ("page reference to be verified", "dustbin" attribution)
+   - Decide: keep or cut ejaculatio footnote
+   - Unit-of-analysis clarification (construction, not lexeme) in Introduction
+4. Actual COHA analysis (P5: conditioning recovers structure)

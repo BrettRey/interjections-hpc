@@ -16,4 +16,28 @@
 
 2026-03-14 — Field-relative projectibility reframed using subscript notation: interjection_syn (syntactic, CGEL), interjection_sem (semantic, overlapping Potts's expressives), interjection_int (interactional, overlapping response tokens/liminal signs). The subscript notation makes explicit that these are distinct HPCs with overlapping but non-identical extensions, maintained by different mechanisms, projectible for different purposes. Parallels the book's noun/name distinction but uses subscripts rather than different words because every field uses the term "interjection." Replaces the weaker "three fields' predictions" framing. Potts (2007) / Kaplan (1999) on expressives need source verification before drafting.
 
+2026-03-14 — Data-first structure adopted: Section 2 = property cluster, Section 3 = HPC theory (was the reverse). Motivated by Becker's "demand precedes gift" critique and confirmed by all 5 packaging reviewers. The data creates the need for the theory, not the other way round.
+
+2026-03-14 — Conclusion repointed toward JHP: new paragraph on what the paper means for historical pragmatics specifically, framing it as extending Gehweiler (2008). Previously landed on HPC programme (McCloskey critique).
+
+2026-03-14 — Self-citations reduced from 16 to 5. Remaining 5 are essential: Ch 7 (slogan), Ch 6 (stabiliser definition), Appendix (predictions), Ch 11 x2 (typology).
+
+2026-03-14 — "Attractor" and "attractor basin" language removed throughout (McCloskey: borrowed metaphor passing as evidence). Replaced with plain language ("the cluster persists," "convergent maintenance").
+
+2026-03-14 — Interjection cross-linguistically is a fat class / comparative concept (Haspelmath 2010), not a language-specific category. Added to Introduction.
+
+2026-03-15 — Phase-transition/correlated-change prediction dropped. At population level, the prediction is correlated S-curves, which is just the entry-direction version of asymmetric fraying. Redundant. Three predictions remain (asymmetric fraying, conditioning recovers structure, hub-node asymmetry).
+
+2026-03-15 — P-numbers (P1, P3, P5, P10) removed throughout. Opaque to readers without the HPC book's appendix. Predictions now referenced by descriptive name only.
+
+2026-03-15 — Vocative as gateway (Path 1), imperative as gateway (Path 2). Both provide prosodic isolation that bleaching/deactivation exploits. Made explicit in convergent-pathways comparison.
+
+2026-03-15 — Perturbation test rewritten around *wow* → *wowed* (gaining morphology pulls form out of cluster) instead of *pop*/*God* examples. Shows asymmetric erosion across three HPCs: interjection_syn and _int erode, _sem partially persists.
+
+2026-03-15 — Every bare "interjection" after Section 3.3 must have a subscript or be covered by an explicit convention note. Convention notes added at Section 4 (intersection) and Section 5 (intersection unless subscripted).
+
+2026-03-15 — External reviews received (2 referees, likely GPT-based). Key revision priorities for next session: (1) claim calibration ("confirms" → "suggests"), (2) diagnostic matrix table, (3) interactional recentering (continuers/repair initiators alongside emotive exemplars), (4) reduce book dependency, (5) missing literature (Dingemanse 2024, Wierzbicka 1992, Gutzmann).
+
+2026-03-15 — Bib verification complete. Corrections: rosch1975 @book→@article, coulmas1981 Berlin→The Hague, aarts2014 ISBN corrected, murray1824 URL fixed, bullokar1586 editor/series added.
+
 2026-03-14 — Outline revised to address all five review board concerns. Key structural changes: (1) projectibility promoted from "climax" to "organising question" -- introduced in Section 1, criterion of success in Section 2, threaded through Section 3, paid off in Section 5; (2) circularity broken via partial-observation inference (observing some properties licences prediction of others), field-relative projectibility (interactional, diachronic, lexicographic purposes), and category-vs-function distinction; (3) Section 4 split into recruitment (diachronic pathways) and maintenance (four synchronic feedback loops) with perturbation test; (4) second bleaching path added: verb > interjection (*damn*, CGEL analysis) alongside religious noun > interjection (Gehweiler); (5) HPC-vs-prototype comparison developed substantively in Section 2.2, with four testable predictions (P1, P3, P5, P10) and defeat conditions in Section 6.1. Estimated length ~14--16 pages.
