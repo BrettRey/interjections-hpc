@@ -1,0 +1,63 @@
+# Projectibility Review: Section 5 (Projectibility: what the category lets you predict)
+
+**Reviewer role:** Projectibility specialist
+**Date:** 2026-03-14
+**Scope:** Section 5 only (lines 501--663 of `main.tex`), read against Sections 3--4 and three prior reviews (Round 2 outline, Section 3 review, Section 4 review)
+
+---
+
+## 1. One-sentence assessment
+
+Section 5 delivers the projectibility payoff promised by the paper's organising question: it breaks circularity via partial-observation inference, provides genuinely useful field-relative distinctions, and lands the category-vs-function argument, though the "pragmatic kind" subsection (5.4) remains underdeveloped relative to its theoretical ambition.
+
+---
+
+## 2. Strengths
+
+- **The partial-observation inference move (5.1) breaks circularity convincingly.** The *bruh* example (lines 519--533) does exactly what the outline promised and what was missing pre-revision: from two observed properties (prosodic isolation, stance meaning), five predictions are derived, including non-inflection, resistance to syntactic integration, resistance to restrictive modification, turn-initial availability, and an etymological prediction about bleaching from *brother*. Crucially, the paragraph that follows (lines 535--541) does not leave these predictions hanging -- it traces each inference to a specific maintaining mechanism (non-referentiality ratchet for loss of argument structure, prosodic-syntactic coupling for syntactic independence). This is the section's strongest move, and it justifies the paper's existence as more than a property catalogue. The sentence "the inferences are grounded in mechanisms, not in definitions" (line 541) is the paper's thesis in miniature.
+
+- **The field-relative projectibility architecture (5.2) is substantive and well-executed.** The subscript notation (interjection_syn, interjection_sem, interjection_int) is not mere typography. Each subscript is grounded in a different maintaining mechanism, predicts different observable consequences, and has a different extension. The *damn* example does significant work: *damn* in *the damn car* is interjection_sem (expressive attributive adjective) but not interjection_syn; standalone *damn!* is both (lines 567--570). Similarly, *mm-hm* is interjection_int but debatably interjection_syn (lines 581--584). These are not toy examples -- they are real boundary disputes that the subscript architecture resolves by showing that the disputants are tracking different HPCs. The closing paragraph (lines 586--597) earns its place by explaining both the overlap (shared mechanisms like prosodic isolation) and the non-overlap (field-specific mechanisms like structural analogy vs. conversational routines). The sentence "a syntactician and a conversation analyst can carve the same words differently without either being wrong" (lines 596--597) is a payoff that justifies the entire field-relative apparatus.
+
+- **The category-vs-function argument (5.3) lands.** The five-item bulleted list (lines 609--622) is well-chosen: non-referentiality, emotive force, free coinage, non-inflection, and diachronic trajectory are all predictions that the function label "supplement" cannot generate, because supplements of other categories (NPs, AdjPs, relative clauses) do not share these properties. This answers a question that is live in the CGEL tradition and is not merely internal to HPC theory. The closing paragraph (lines 624--631) correctly generalises beyond CGEL: any framework with a category-function distinction faces the same question. This breadth matters for a JHP audience that may not know CGEL.
+
+---
+
+## 3. Weaknesses
+
+- **The "pragmatic kind" subsection (5.4) remains the thinnest part of the argument, and this was flagged in Round 2.** The subsection runs 28 lines (635--662) and makes three moves: (a) interjections project pragmatically rather than morphosyntactically (lines 636--644), (b) this connects to the content/procedural distinction (lines 646--651), and (c) other domain-specific kinds (animacy, colour) illustrate the general point (lines 653--662). The problem is that move (c) does more work than move (b). The colour/animacy analogy is suggestive but remains an analogy: it shows that domain-specific projectibility exists elsewhere, not that the mechanisms *determine* the domain. The Round 2 review asked for a worked-through example showing *how* the mechanisms determine the domain, and the draft has not provided one. Here is the gap: the subsection says "interjections are maintained by prosodic, interactional, and social-indexing mechanisms, so their strongest projectibility is in those domains" (lines 658--660). But *why does* maintenance by prosodic mechanisms produce prosodic projectibility rather than, say, morphological projectibility? The missing link is a causal argument from mechanism type to prediction domain. Without it, the claim risks circularity at a higher level: the domain of projectibility is pragmatic because the mechanisms are pragmatic, which is true but uninformative unless you can show that the mechanism type *constrains* the prediction domain in a non-trivial way. **Actionable fix:** Add 4--6 sentences showing that the prosodic-syntactic coupling mechanism, for instance, generates predictions *within its operating domain* (prosody, syntax) but not outside it (it does not predict morphological paradigms or truth-conditional content), and that this is a general property of HPC maintenance: mechanisms generate predictions in the domains they operate in, which is why interjection-projectibility is pragmatic while noun-projectibility is morphosyntactic. This would turn the observation into an argument.
+
+- **Section 5.2 no longer includes the lexicographic purpose case from the outline, which is an improvement, but the three subscripts are all academic-disciplinary.** The Round 2 review flagged that the lexicographic case was weaker than the interactional and diachronic cases; it has been dropped (or rather, not drafted -- the outline had "interactional, diachronic, lexicographic" but the draft has "syntactic, semantic, interactional"). The replacement is better: the three subscripts are anchored in established research traditions (generative syntax, formal semantics/Potts 2007, conversation analysis/Stivers 2019 + Dingemanse 2020) rather than in applied tasks. But the three subscripts are now all *academic-research* subscripts. The paper might note, even in a sentence, that practical purposes (lexicography, language teaching, NLP tagging) also benefit from the HPC framework -- not to develop these cases, but to signal that the field-relative architecture extends beyond the three cases examined. This would pre-empt the criticism that field-relative projectibility only works when the "fields" are chosen to match the subscripts.
+
+- **The connection back to Section 3's "inferential contribution" paragraphs is implicit, not explicit.** Section 5's opening paragraph (lines 503--509) refers back to "Sections 3 and 4" and restates the criterion of success. But it does not explicitly distinguish what Section 5 adds beyond Section 3's property-by-property inferential paragraphs. The Section 3 review flagged this as a needed forward reference from 3.6, and indeed lines 252--255 of Section 3.6 now plant the seed ("Section 5 asks what the *package* of predictions amounts to -- not property by property, but as a whole: what does categorizing a novel form as an interjection let you infer, and for whom?"). That is the right setup, but Section 5 does not explicitly *pick it up*. The opening paragraph should echo the distinction: "Section 3 showed what each property, individually, lets you infer. This section asks a different question: what does the *package* license, and for whom?" Without this echo, the reader has to reconstruct the distinction from the structure alone. This is a 1--2 sentence fix.
+
+---
+
+## 4. Key question
+
+"Section 5.1 demonstrates that observing prosodic isolation and stance meaning in *bruh* licenses inference to non-inflection, syntactic non-integration, and etymological bleaching. But the etymological prediction (5e, line 531) is different in kind from the others: it is a diachronic inference, not a synchronic one. A speaker encountering *bruh* for the first time can predict synchronic behaviour (it won't inflect, it won't embed) from the category label, but can they really predict its etymology? Is the diachronic prediction a prediction *from* the category, or a prediction *about* the category that only a linguist would make? If the latter, it belongs in the field-relative subsection (interjection_int or a diachronic subscript), not in the general partial-observation inference example. This matters because it affects what kind of knowledge the category label is claimed to encode."
+
+---
+
+## 5. Verdict
+
+**Needs minor revision.** Section 5 is the paper's payoff, and it substantially delivers. The partial-observation inference (5.1) is strong and non-circular. The field-relative architecture (5.2) is substantive and well-grounded in specific research traditions. The category-vs-function argument (5.3) is clean and lands with a CGEL-aware audience while remaining accessible to others. Three specific revisions would bring the section to final-draft standard:
+
+1. **5.4 (Pragmatic kind):** Add 4--6 sentences providing a causal argument from mechanism type to prediction domain. The current version observes that interjection-projectibility is pragmatic; it needs to explain *why* mechanisms constrain their prediction domain. The colour/animacy analogy alone is suggestive but insufficient for a claim that extends HPC theory.
+
+2. **5.0 (Opening paragraph):** Add 1--2 sentences explicitly distinguishing Section 5's package-level question from Section 3's property-by-property question. Echo the framing planted at the end of Section 3.6. This is a small edit but important for preventing the reader from feeling that Section 5 is redundant.
+
+3. **5.1 (Partial-observation inference):** Consider whether prediction (5e) -- the etymological inference about bleaching from *brother* -- belongs in the general partial-observation example or in the field-relative subsection. A speaker can predict synchronic behaviour from the category label; predicting etymology requires disciplinary knowledge. If retained in 5.1, acknowledge the difference: "The first four predictions are available to any competent speaker; the fifth is available to a linguist who recognises the category." If moved, it could become an example in 5.2 under interjection_sem or a diachronic subscript.
+
+None of these require structural reorganisation. The section's architecture is sound. The argument is present and non-circular. The main risk is that 5.4 under-delivers on the paper's most theoretically ambitious claim -- that interjections extend HPC theory by demonstrating a pragmatic kind -- and this is worth investing another half-page of argumentation to close.
+
+### Cross-check against prior reviews
+
+| Prior concern | Status in Section 5 draft |
+|---|---|
+| Round 2: circularity broken? | Yes -- 5.1 breaks it via partial-observation inference. |
+| Round 2: field-relative purposes specified? | Yes -- 5.2 provides three subscripts with distinct mechanisms and extensions. |
+| Round 2: category-vs-function developed? | Yes -- 5.3 delivers. |
+| Round 2: "pragmatic kind" argued, not asserted? | Partially -- 5.4 is developed beyond assertion but still lacks the causal link from mechanism to prediction domain. Residual concern remains. |
+| Section 3 review: forward reference to Section 5? | Planted in 3.6 (lines 252--255) but not picked up in 5.0. Needs echo. |
+| Section 4 review: mechanisms connect forward to projectibility? | Yes -- 5.1 explicitly traces predictions to mechanisms (ratchet, coupling). The connection that was sometimes missing within Section 4 is made here. |
+| Section 4 review: recruitment pathways link to inferential payoff? | Partially -- 5.1 uses the bleaching mechanism, and 5.2 uses the prosodic-syntactic coupling. But the degree-of-deactivation prediction (added to Path 2 per my Section 4 review suggestion) is not picked up in Section 5. Consider whether interjection_syn in 5.2 should note that forms entering via partial syntactic deactivation have a thinner interjection_syn profile (complement retention in *damn*) than forms entering via full deactivation (*come on*). This would connect 4.1.2 forward to 5.2 and demonstrate that the recruitment pathway predicts the synchronic inferential package. |
