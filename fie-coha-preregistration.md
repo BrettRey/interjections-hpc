@@ -203,3 +203,20 @@ The supplement will include:
 - the token-level dataset
 - the reliability subset
 - the analysis code used to fit the confirmatory and sensitivity models
+
+## Coding Clarification: Multiple *fie* per Line
+
+Some COHA concordance lines contain more than one *fie* token (e.g., "Fie! A fie upon each of you!"). The coding sheet has one row per concordance line, not per token. In such cases, code the **first** *fie* in the concordance context — this is the KWIC target that COHA centred the hit on.
+
+## Coding Notes: Edge Cases Adjudicated with Extended Context
+
+The following tokens required extended COHA context beyond the concordance line to code reliably. Full context and reasoning are recorded here for the supplement.
+
+- **F362** (DrSevier, 1884): Narrator breaks fourth wall — "Shall we follow? Fie!" Addressed to reader as mock-reproach. Coded (1,1,1).
+- **F450** (Bk:DropZone, 2016): "Tee fie!" — nonsense syllables, no interjection properties. Coded (0,0,0).
+- **F522** (VelvetDoublet, 1953): "A fie on conscience!" — noun use with article. Coded (0,1,0).
+- **F545** (AmWhigRev, 1849): "the subordination, that cries fie! continually to his pride of place" — political essay, fie as object of speech verb but retaining full interjection force in the represented speech act. Coded (1,1,1).
+- **F568** (VelvetDoublet, 1953): "a fie for a Portuguese parvenu" — noun use. Coded (0,1,0).
+- **F579** (Chicago, 1929): "Pee, fie, fo, furry" — fee-fi-fo-fum variant, garbled. Coded (1,0,0).
+- **F597** (Play:AmIGoIllSaySo, 1923): Gertrude Stein — "shame shame fie for shame" embedded in phonological/rhythmic chain. Not an interjection; a sound unit in assonance pattern. Coded (0,0,0).
+- **F604** (CopperStreakTrail, 1922): "Fie! A fie upon each of you!" — first fie is standalone exclamation. Coded (1,1,1).

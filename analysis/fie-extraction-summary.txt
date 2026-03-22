@@ -1,0 +1,37 @@
+COHA fie extraction summary
+========================================
+Raw concordance lines: 757
+Included: 616
+Excluded: 141
+
+Exclusion counts:
+  OCR noise: 134
+  metalinguistic mention: 3
+  non-English: 2
+  name fragment: 2
+
+Decade counts (included):
+  1820s: 15
+  1830s: 52
+  1840s: 58
+  1850s: 47
+  1860s: 47
+  1870s: 26
+  1880s: 38
+  1890s: 78
+  1900s: 47
+  1910s: 30
+  1920s: 32
+  1930s: 14
+  1940s: 20
+  1950s: 20
+  1960s: 18
+  1970s: 18
+  1980s: 11
+  1990s: 22
+  2000s: 15
+  2010s: 8
+
+Go/no-go: GO
+Total analysable: 616
+Decades with 3+: 20

@@ -3,15 +3,23 @@
 % House style preamble
 \input{.house-style/preamble.tex}
 
+% Toggle for blind review: set to true before submission
+\newif\ifblind
+\blindtrue  % <-- change to \blindfalse for accepted version
+
 % Update PDF metadata
 \hypersetup{
   pdftitle={English Interjections as a Homeostatic Property Cluster}
 }
 
 \title{English Interjections as a Homeostatic Property Cluster}
+\ifblind
+\author{[Author removed for blind review]}
+\else
 \author{Brett Reynolds \orcidlink{0000-0003-0073-7195}%
 \thanks{Contact: \href{mailto:brett.reynolds@humber.ca}{brett.reynolds@humber.ca}}\\
 Humber Polytechnic \& University of Toronto}
+\fi
 \date{\today}
 
 \begin{document}
@@ -347,7 +355,7 @@ that Section~\ref{sec:boundaries} explains as mechanism overlap.
 
 \begin{table}[htbp]
 \centering
-\small
+\footnotesize
 \caption{Diagnostic matrix: constructions against cluster properties and
 field-relative HPCs. \checkmark\ = property present; ($\checkmark$) =
 partial or debated; --- = absent. Sources: properties from
@@ -406,7 +414,7 @@ The next two sections develop the theoretical framework
 (Section~\ref{sec:hpc}) and the mechanisms themselves
 (Section~\ref{sec:stabilisers}).
 
-\section{HPC theory and why projectibility matters}\label{sec:hpc}
+\section[HPC theory and projectibility]{HPC theory and why projectibility matters}\label{sec:hpc}
 
 The property cluster documented above has a distinctive shape: statistically
 reliable co-occurrence, no necessary and sufficient conditions, graded
@@ -541,7 +549,7 @@ projectible for different purposes. The traditional label
 \enquote{interjection} names the intersection, and the paper's remaining
 sections analyze that intersection from multiple angles.
 
-\section{Stabilisers: recruitment and maintenance}\label{sec:stabilisers}
+\section[Stabilisers]{Stabilisers: recruitment and maintenance}\label{sec:stabilisers}
 
 The property cluster documented in Section~\ref{sec:cluster} raises two
 questions that co-occurrence alone can't answer: how do items enter the
@@ -783,7 +791,7 @@ A third pattern comes from obsolescence. \mention{Fie} and
 \mention{zounds} were live interjections in early modern English;
 neither is used with genuine expressive force today. But the prosodic
 shell persists: a modern speaker can still produce \mention{fie!} or
-\mention{zounds!} as a standalone exclamation, and hearers recognise
+\mention{zounds!} as a standalone exclamation, and hearers recognize
 the prosodic form even if the emotive force is gone. The end state is
 clear: interjection\textsubscript{int} properties are absent (no stance
 display, no backchanneling), the community-dependent aspect of
@@ -795,21 +803,43 @@ mechanisms (conversational routines, social indexing) should weaken
 before structural ones (prosodic-syntactic coupling, the
 non-referentiality ratchet), producing a specific erosion sequence:
 interjection\textsubscript{int} before interjection\textsubscript{sem}
-before interjection\textsubscript{syn}. The end state is consistent
-with this prediction, but the \emph{sequence} has not been
-demonstrated: it would require diachronic corpus evidence (e.g., COHA
-concordance lines for \mention{fie} across decades) to determine
-whether interactional use disappeared before emotive force, or whether
-both declined together as community use contracted.
+before interjection\textsubscript{syn}. A pre-registered test of this
+prediction coded 616 tokens of \mention{fie} in COHA (1820--2019) for
+all three properties and fitted Bayesian logistic decline models to
+estimate the ED50 (the decade at which each property's probability
+crosses 0.5).%
+\footnote{The analysis plan was committed to the project repository
+  before data extraction (\texttt{e18675b}, 15 March 2026).
+  \ifblind The full pre-registration, data, and code are archived
+  at [URL removed for blind review].\else The full pre-registration,
+  data, and code are archived at
+  \url{https://github.com/BrettRey/interjections-hpc}.\fi}
+The result was negative: all three properties declined together
+($\tau_{\text{syn}} \approx 1947$, $\tau_{\text{int}} \approx 1948$,
+$\tau_{\text{sem}} \approx 1949$; 95\% CrIs overlapping), with
+Pr($\tau_{\text{int}} < \tau_{\text{sem}} < \tau_{\text{syn}}$) = 0.13.
+The predicted sequential erosion did not occur. Instead, all three
+HPCs declined simultaneously as \mention{fie} left active use~-- a
+pattern consistent with uniform community attrition rather than
+mechanism-specific erosion. The end state (prosodic shell without
+expressive force) is real, but the \emph{route} to that end state was
+not the one the framework predicted.
 
-The HPC-specific prediction across all three cases is not simply that
-syntactic properties erode before semantic ones~-- any framework distinguishing syntax from
-semantics could accommodate that. It's that the \emph{order} of erosion
-tracks which mechanisms are disrupted: tight diagnostics (those
-maintained by fewer mechanisms) erode before loose ones (those maintained
-by multiple mechanisms). This ordering prediction is unavailable to
-prototype theory, which has no mechanisms, and to construction grammar,
-which has no perturbation probe.
+The HPC-specific prediction is that the \emph{order} of erosion tracks
+which mechanisms are disrupted: tight diagnostics (those maintained by
+fewer mechanisms) erode before loose ones (those maintained by multiple
+mechanisms). The first two cases (morphology gain, propositional content
+gain) are consistent with this: different perturbations produce
+different erosion orders, tracking which mechanism is disrupted. The
+third case (obsolescence) is not: the three properties declined
+together rather than sequentially, suggesting that community attrition
+affects all mechanisms simultaneously rather than picking them off in
+order. This is an informative failure~-- it identifies a boundary
+condition on the ordering prediction (it holds when a single mechanism
+is disrupted, not when the entire community of users contracts). The
+ordering prediction remains unavailable to prototype theory, which has
+no mechanisms, and to construction grammar, which has no perturbation
+probe.
 
 \subsection{Stability through turnover}\label{sec:turnover}
 
@@ -857,7 +887,7 @@ the landscape of possible resources}. HPC provides the framework for
 that landscape: a property space with convergent maintenance by the
 stabilisers above.
 
-\section{Projectibility: what the category lets you predict}\label{sec:projectibility}
+\section[Projectibility]{Projectibility: what the category lets you predict}\label{sec:projectibility}
 
 Section~\ref{sec:cluster} showed what each property, individually, lets
 you infer. Section~\ref{sec:stabilisers} identified the mechanisms that
@@ -1191,13 +1221,14 @@ is 0.44 (95\% CrI: 0.28--0.65), and the conditioned model outperforms
 the unconditional model by 18 ELPD units (SE 13) on exact
 leave-one-out cross-validation. The evidence is directionally clear but
 modest; the CV table above does the heavier lifting. Full model specification and results are in the
-supplementary materials.\footnote{Available at
-  \url{https://github.com/BrettRey/interjections-hpc}.}
+supplementary materials.\footnote{\ifblind Available at
+  [URL removed for blind review].\else Available at
+  \url{https://github.com/BrettRey/interjections-hpc}.\fi}
 Two methodological caveats: GloWbE's
 part-of-speech tagger, trained on inner-circle English, fails to tag
 regional interjections (\mention{yaar} and \mention{haba} receive no
 interjection tag at all), which means the tagged frequencies
-underestimate regional items; and the \mention{ha} data are noisy
+underestimate regional items; and the \mention{ha} data is noisy
 because the tagger captures laughter representations
 (\mention{HA! HA!}) alongside genuine interjection uses.
 
@@ -1327,6 +1358,7 @@ refuted. If it holds, interjections join the growing list of linguistic
 categories whose structure is better explained by mechanisms than by
 definitions.
 
+\ifblind\else
 \section*{Acknowledgements}
 
 I compiled empirical material for the Wikipedia article
@@ -1340,13 +1372,14 @@ conditioning test) are available at
 I drafted this paper with the assistance of Claude (Anthropic). I have
 reviewed and revised all content and take full responsibility for the
 final text.
+\fi
 
 \newpage
 \printbibliography
 
 \newpage
 \appendix
-\section{Supplementary materials: GloWbE conditioning analysis}
+\section[Supplementary materials]{Supplementary materials: GloWbE conditioning analysis}
 \label{app:conditioning}
 
 \subsection{Data}
@@ -1432,5 +1465,82 @@ point estimate, reflecting the small sample (18 items $\times$ 20
 countries = 360 observations). The CV table in the main text provides
 the primary evidence for P5; the model confirms the pattern survives
 the crossed random-effects structure.
+
+\section[Fie in COHA]{Supplementary materials: obsolescence analysis (\mention{fie} in COHA)}
+\label{app:fie}
+
+\subsection{Data and coding}
+
+616 tokens of \mention{fie} were extracted from COHA (1820--2019),
+excluding 141 OCR artefacts (where \mention{fie} represents a
+misread of \mention{he}, \mention{the}, or \mention{five}). Each
+token was coded for three binary properties:
+interjection\textsubscript{syn}, interjection\textsubscript{sem},
+and interjection\textsubscript{int} (coding criteria in the
+pre-registration). The decade column was hidden during coding.
+
+Intra-coder reliability (10\% blind recode, $n = 62$):
+
+\begin{center}
+\begin{tabular}{lrr}
+  \hline
+  Property & Agreement & Cohen's $\kappa$ \\
+  \hline
+  interjection\textsubscript{syn} & 87.1\% & 0.68 \\
+  interjection\textsubscript{sem} & 96.8\% & 0.90 \\
+  interjection\textsubscript{int} & 96.8\% & 0.90 \\
+  \hline
+\end{tabular}
+\end{center}
+
+\subsection{Raw proportions}
+
+Figure~\ref{fig:fie-raw} shows the proportion of tokens retaining
+each property by decade. All three properties are near ceiling
+(85--100\%) through the 1890s, decline sharply between 1900 and 1940,
+and fluctuate at low levels thereafter. The late rebounds (1980s,
+2000s) reflect historical fiction and Shakespeare adaptations in which
+characters use \mention{fie} as a live interjection.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{fie-raw-proportions.pdf}
+  \caption{Proportion of \mention{fie} tokens coded 1 for each
+    property, by decade (COHA, 1820--2019). All three properties
+    decline in parallel.}
+  \label{fig:fie-raw}
+\end{figure}
+
+\subsection{Confirmatory model}
+
+Bayesian logistic decline models (per the pre-registration) estimate
+the ED50 ($\tau$: the year at which each property's probability
+crosses 0.5):
+
+\begin{center}
+\begin{tabular}{lrr}
+  \hline
+  Property & $\tau$ (median) & 95\% CrI \\
+  \hline
+  interjection\textsubscript{syn} & 1947 & 1937--1958 \\
+  interjection\textsubscript{int} & 1948 & 1939--1959 \\
+  interjection\textsubscript{sem} & 1949 & 1941--1960 \\
+  \hline
+\end{tabular}
+\end{center}
+
+Pre-committed prediction: Pr($\tau_{\text{int}} < \tau_{\text{sem}} <
+\tau_{\text{syn}}$) = 0.13 (threshold for \enquote{inconsistent}: $< 0.25$).
+The predicted sequential erosion was not observed. All three
+properties declined together. See Figure~\ref{fig:fie-tau}.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{fie-tau-posteriors.pdf}
+  \caption{Posterior distributions of ED50 ($\tau$) for each property.
+    The three distributions overlap almost completely, indicating
+    simultaneous decline.}
+  \label{fig:fie-tau}
+\end{figure}
 
 \end{document}
