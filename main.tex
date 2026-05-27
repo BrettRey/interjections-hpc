@@ -8,9 +8,17 @@
 \blindtrue  % <-- change to \blindfalse for accepted version
 
 % Update PDF metadata
+\ifblind
 \hypersetup{
-  pdftitle={English Interjections as a Homeostatic Property Cluster}
+  pdftitle={English Interjections as a Homeostatic Property Cluster},
+  pdfauthor={}
 }
+\else
+\hypersetup{
+  pdftitle={English Interjections as a Homeostatic Property Cluster},
+  pdfauthor={Brett Reynolds}
+}
+\fi
 
 \title{English Interjections as a Homeostatic Property Cluster}
 \ifblind
@@ -26,33 +34,29 @@ Humber Polytechnic \& University of Toronto}
 \maketitle
 
 \begin{abstract}
-English interjections have been denied category status
-\citep{jespersen1924}, dismissed as uninteresting
-\citep{HuddlestonPullum2005}, or acknowledged as \enquote{marginal and
-anomalous} \citep[67]{quirk1985}. This paper argues that interjections
-are a thin-but-genuine homeostatic property cluster (HPC): a set of
-co-occurring properties (prosodic isolation, non-inflection, syntactic
-non-integration, non-referentiality, emotive force) maintained by
-identifiable stabilisers. At least three diachronic pathways~--
-grammaticalization via semantic bleaching (historically demonstrated),
-pragmaticalization via syntactic deactivation, and nonce coinage via
-onomatopoeia (both proposed with clear examples)~-- converge on the
-same synchronic cluster, extending \textcite{gehweiler2008}'s analysis
-of \mention{gee!} to a general theoretical claim. A
-perturbation probe suggests that removing a stabiliser produces
-predictable, asymmetric category shifts. The paper's distinctive
-contribution is that interjection projectibility is primarily pragmatic
-rather than truth-conditional: the most frequent interjections are
-interactional tools (continuers, repair initiators, change-of-state
-tokens), and categorizing a novel form as an interjection licenses
-inferences about prosodic behaviour, interactional distribution, and
-stance expression. A field-relative decomposition
-shows that syntacticians, semanticists, and interactional linguists
-each track distinct HPCs with overlapping but non-identical extensions.
-The category that embarrassed classical theory is a natural fit for
-HPC~-- and its pragmatic projectibility extends the framework to a new
-domain of inference.
+English interjections have often been treated as marginal because they
+lack necessary and sufficient conditions: they are prosodically
+isolated, non-inflecting, syntactically supplemental,
+non-referential, and interactionally charged, but none of these
+properties is obligatory. This paper argues that the category is a
+thin but genuine homeostatic property cluster. The historical argument
+is that distinct recruitment processes~-- grammaticalization through
+semantic bleaching, pragmaticalization through syntactic deactivation,
+and nonce coinage through onomatopoeia~-- converge on the same
+pragmatic property profile. The synchronic argument is that
+prosodic-syntactic coupling and non-referentiality stabilise the
+cluster enough to support inference. Corpus evidence from GloWbE and
+COHA tests two predictions: geographic conditioning structures
+apparent boundary gradience, while obsolescence in \mention{fie}
+produces simultaneous rather than sequential property loss.
+Interjections therefore offer a historical-pragmatic case of category
+formation whose projectibility is primarily about use, stance, and
+interaction.
 \end{abstract}
+
+\noindent\textbf{Keywords:} interjections; historical pragmatics;
+grammaticalization; pragmaticalization; pragmatic markers; homeostatic
+property clusters
 
 \section{Introduction}\label{sec:intro}
 
@@ -88,12 +92,22 @@ as an interjection let you predict?} A category that supports no
 inferences is a filing label. A category that supports reliable
 inferences across novel instances is a genuine kind.
 
-A methodological note: HPC membership, as used here, attaches to
-constructions (uses), not to lexemes. \mention{Damn} as a standalone
-interjection, \mention{damn} as an attributive modifier in \mention{the
-damn car}, and \mention{damn} as a verb in \mention{I damn you} are
-different constructions with different cluster profiles~-- they may
-belong to different HPCs or to the same HPC in different degrees.
+For historical pragmatics, this reframes category status as a question
+about communicative use over time. The relevant evidence is not only
+that forms such as \mention{gee}, \mention{damn}, or \mention{bruh}
+have changed category labels, but that historically contentful or
+addressive expressions have come to manage stance, sequence, and
+interactional alignment in recurrent contexts
+\citep[cf.][]{juckertaavitsainen2013}. Diachrony isn't a background
+story here; it is the route by which the pragmatic category becomes
+visible.
+
+HPC membership, as used here, attaches to constructions (uses), not to
+lexemes. \mention{Damn} as a standalone interjection, \mention{damn}
+as an attributive modifier in \mention{the damn car}, and
+\mention{damn} as a verb in \mention{I damn you} are different
+constructions with different cluster profiles~-- they may belong to
+different HPCs or to the same HPC in different degrees.
 Lexemes serve as convenient labels; the unit of analysis is the
 construction.
 
@@ -631,6 +645,12 @@ examples but without the extended diachronic documentation that Path~1
 has. The first two are analysed in detail here; the third is taken up
 in Section~\ref{sec:turnover}.
 
+The issue for historical pragmatics is how changes in communicative use
+become categorially consequential: grammaticalization and
+pragmaticalization matter here because they alter what a form can be
+used to do, not merely where it appears in a syntactic tree
+\citep[cf.][]{TraugottDasher2002, heinekuteva2002lexicon}.
+
 \subsubsection{Path 1: Religious noun to interjection}
 
 \textcite{gehweiler2008} traces a four-stage trajectory from proper name to
@@ -670,6 +690,17 @@ seventeenth and eighteenth centuries, with the transition from
 invocation to primary interjection happening relatively rapidly once the
 modifications appear \citep[80--85]{gehweiler2008}.
 
+Two cautions matter for the general claim. First, the boundary between
+invocation and exclamation is hard to operationalise in historical
+texts, since prosodic and interactional evidence is indirect. Second,
+the seventeenth- and eighteenth-century clustering of euphemistic forms
+may reflect external taboo pressure as well as internal category
+dynamics. The HPC claim therefore doesn't require Gehweiler's sequence
+to be an autonomous internal cline. It requires the weaker and more
+historically plausible claim that social pressure, invited inference,
+and reanalysis can jointly push a source noun toward the same
+interjectional attractor.
+
 Two sub-mechanisms operate within this path.
 \textcite[76]{gehweiler2008} distinguishes gradual Invited Inferencing
 (speaker-based: the expressive use is conversationally implicated, then
@@ -694,11 +725,20 @@ a few constructions~-- an NP complement (\mention{damn these mosquitoes!}).
 The complement retention shows that the bleaching is partial: the form
 carries some verb properties into the interjection cluster. In \textit{CGEL}'s
 terms, it's the head of an IntjP, not a VP
-\citep[1361fn]{HuddlestonPullum2002}. The process involves decategorialization: loss of verbal
-morphosyntax (subject, tense) with gain of expressive force.
+\citep[1361fn]{HuddlestonPullum2002}.
+
+The process involves decategorialization: loss of verbal morphosyntax
+(subject, tense) with gain of expressive force.
 \mention{Damn} as a verb is a speech act (content meaning: condemning),
 while \mention{damn!} as interjection\textsubscript{syn} is a stance
 marker (procedural meaning: frustration).
+
+This is not degrammaticalization in the strict sense, since the form
+doesn't gain the morphosyntactic substance of a major lexical class
+\citep[cf.][]{norde2009}. It is better treated as pragmatic
+conventionalisation with syntactic deactivation: the verbal source
+loses argument-structural obligations as the interjectional use gains
+procedural and interpersonal force.
 
 For other verb-derived interjections, the imperative is the gateway~--
 just as the vocative is for Path~1. Imperatives already lack an overt
@@ -1461,12 +1501,16 @@ formation involves at least three distinct diachronic processes
 pragmaticalization via syntactic deactivation and nonce coinage via
 onomatopoeia, both proposed with synchronic evidence), and HPC theory
 explains why they converge on a recognizable category despite their
-different trajectories. \textcite{gehweiler2008}'s analysis of
-\mention{gee!} is a single case study; the present paper extends it to
-a general claim about how the interjection intersection is recruited
-and maintained, while acknowledging that only the first pathway has
-the corpus documentation that historical pragmatics demands. The mechanisms are diachronic; the stability they produce is
-the kind of thing historical pragmatics is for.
+different trajectories.
+
+\textcite{gehweiler2008}'s analysis of \mention{gee!} is a single case
+study; the present paper extends it to a general claim about how the
+interjection intersection is recruited and maintained, while
+acknowledging that only the first pathway has the corpus documentation
+that historical pragmatics demands. This is a claim about communicative
+use over time, not a claim that one grammaticalization cline subsumes
+every case. The mechanisms are diachronic; the stability they produce
+is the kind of thing historical pragmatics is for.
 
 Of the three predictions examined in Section~\ref{sec:discussion},
 conditioning recovers structure is now supported by GloWbE data:
