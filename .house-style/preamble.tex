@@ -13,20 +13,36 @@
 % ===========================
 \usepackage{fontspec}
 
-\setmainfont{EB Garamond}[
+\setmainfont{EBGaramond}[
+  Extension=.otf,
+  UprightFont=*-Regular,
+  ItalicFont=*-Italic,
+  BoldFont=*-Bold,
+  BoldItalicFont=*-BoldItalic,
   Numbers=OldStyle,
   Ligatures=TeX,
 ]
 
 % IPA fallback font
-\newfontfamily\ipafont{Charis SIL}
+\newfontfamily\ipafont{CharisSIL}[
+  Extension=.ttf,
+  UprightFont=*-Regular,
+  ItalicFont=*-Italic,
+  BoldFont=*-Bold,
+  BoldItalicFont=*-BoldItalic,
+]
 \newcommand{\ipa}[1]{{\ipafont #1}}
 
 % Lining figures when needed (tables, years in isolation)
 \providecommand{\liningnums}[1]{{\addfontfeatures{Numbers=Lining}#1}}
 
 % Monospace
-\setmonofont{Inconsolata}[Scale=MatchLowercase]
+\setmonofont{Inconsolatazi4}[
+  Extension=.otf,
+  UprightFont=*-Regular,
+  BoldFont=*-Bold,
+  Scale=MatchLowercase,
+]
 
 % ===========================
 % PAGE LAYOUT
@@ -80,9 +96,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[LE]{\small\scshape\leftmark}
-\fancyhead[RO]{\small\scshape\@title}
-\fancyfoot[LE,RO]{\thepage}
+\setlength{\headheight}{13.6pt}
 \renewcommand{\headrulewidth}{0pt}
 
 % For oneside documents (most papers):
