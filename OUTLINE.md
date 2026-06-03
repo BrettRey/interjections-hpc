@@ -1,9 +1,10 @@
-# Outline: English Interjections as a Homeostatic Property Cluster
+# Outline: What English Interjections Let Us Predict
 
-**Target:** Journal of Historical Pragmatics (John Benjamins)
-**Strategy:** Problem-first, diachronic emphasis, projectibility as organising question
+**Target:** Journal of Pragmatics (Elsevier)
+**Strategy:** Theoretical-pragmatics framing, pragmatic projectibility as organising question; diachronic and corpus material support profile stability rather than serving as the venue hook
 **Approved:** 2026-03-14
 **Revised:** 2026-03-14 (addressing review board concerns)
+**Retargeted:** 2026-06-03 after JHP scope/fit desk rejection
 
 ---
 
@@ -57,7 +58,7 @@ Survey the co-occurring properties, drawing on the Wikipedia article and sources
 
 Close by noting: these properties co-occur *statistically*, not necessarily. Every property is hedged (Wilkins's "commonly," "typically," "usually," "generally"). This is what HPC predicts. Crucially, the properties are not independent: observing some licenses inference to others, because the maintaining mechanisms couple them. The next section explains how.
 
-## 4. Stabilisers: recruitment and maintenance (~3.5--4 pages, the JHP centrepiece)
+## 4. Stabilisers: recruitment and maintenance (~3.5--4 pages, diachronic support for pragmatic projectibility)
 
 The distinction between how items *enter* the cluster (diachronic recruitment) and what keeps the cluster *coherent* (synchronic maintenance) is critical. Boyd's framework requires the latter; the former explains the trajectory (Reynolds 2026, Ch 6: "The pathways are historical; the stability is mechanistic. Both are needed").
 

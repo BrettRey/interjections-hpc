@@ -1,6 +1,6 @@
-# Supplementary materials: English Interjections as a Homeostatic Property Cluster
+# Supplementary materials: What English Interjections Let Us Predict
 
-Data and analysis code for Reynolds (in preparation), "English Interjections as a Homeostatic Property Cluster," submitted to *Journal of Historical Pragmatics*.
+Data and analysis code for Reynolds (in preparation), "What English Interjections Let Us Predict: Stable Causal-Pragmatic Clustering and Path Dependence," targeted to *Journal of Pragmatics*.
 
 ## Contents
 
@@ -37,4 +37,4 @@ CC-BY 4.0
 
 ## Citation
 
-Reynolds, B. (in preparation). English interjections as a homeostatic property cluster. *Journal of Historical Pragmatics*.
+Reynolds, B. (in preparation). What English interjections let us predict: Stable causal-pragmatic clustering and path dependence.
