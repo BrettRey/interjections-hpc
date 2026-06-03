@@ -51,6 +51,12 @@
 - Editorial Manager status location: "Submissions Being Processed" at https://www.editorialmanager.com/PRAGMA/.
 - Submission materials disclose Claude (Anthropic) use in the blind manuscript and title page.
 
+### 2026-06-03 Shutdown Notes
+- Shipped the morphology-gain reproducibility package in `analysis/morphgain-confirmatory/`, including scripts, raw/coded data, output summaries, run logs, and `RESULTS.md`.
+- Pushed project commits `d4770f1` ("Add morphology-gain reproducibility package") and `d5ab271` ("Ignore local literature scratch directory").
+- Local generated/scratch material is ignored rather than committed: root `main.pdf`, `proofread-output/`, `literature/`, one-off Claude wrapper output, and root-level generated morph-gain JSON files.
+- Project repository is clean after the shutdown ship pass.
+
 ### 2026-06-02 Session Notes
 - Completed coherence, cohesion, and redundancy passes before submission, including the local feedback/control passage, line-overrun repairs, and tighter phrasing around projectibility, maintenance, and homeostasis.
 - Expanded initialisms at first occurrence, including GloWbE, COHA, NP, VP, CV, CrI, ELPD, SE, PSIS, KWIC, OCR, and ED50.
