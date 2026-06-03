@@ -1,0 +1,13 @@
+family,term,chart_total,chart_status,kwic_token_rows,deduplicated_token_rows,duplicate_rows_removed,kwic_status,decades_with_3plus_raw
+wow,wowed,105,ok,105,105,0,ok,8
+wow,wowing,32,ok,32,32,0,ok,7
+wow,wows,31,ok,31,31,0,ok,4
+boo,booed,289,ok,287,287,0,ok,10
+boo,booing,206,ok,205,205,0,ok,11
+boo,boos,269,ok,267,267,0,ok,12
+ooh,oohed,,server_error,27,27,0,ok,0
+ooh,oohing,,server_error,30,30,0,ok,0
+ooh,oohs,38,ok,38,38,0,ok,6
+shoo,shooed,235,ok,233,233,0,ok,13
+shoo,shooing,160,ok,160,160,0,ok,12
+shoo,shoos,47,ok,47,47,0,ok,8

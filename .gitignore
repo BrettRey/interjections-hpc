@@ -1,4 +1,5 @@
 # LaTeX build artifacts
+main.pdf
 *.aux
 *.bbl
 *.bcf
@@ -17,6 +18,12 @@
 # R output (large binary)
 analysis/*.RData
 analysis/.Rhistory
+
+# Local/generated review and scratch outputs
+proofread-output/
+literature/
+analysis/fie-code-opus.py
+analysis/morphgain-*.json
 
 # Stan compilation cache
 *.rds

@@ -1,0 +1,55 @@
+family,coding_id,token_id,term,year,decade,genre,source,context,verbal_syntax,semantic_residue,interactional_residue,targeted_entity
+boo,mgc0400,mg0004,booed,1921,1920,NEWS,NYT-Reg,#Lloyd George and Sir Hamar Greenwood were not hissed or booed at any point in the lecture . At the outset Father Duffy,1,1,1,1
+boo,mgc0010,mg0005,booed,1921,1920,FIC,LizaLambeth,"#and the villains -- the house yelled and hissed and booed , while the poor brutes bowed and tried to look as if",1,1,1,0
+boo,mgc0545,mg0304,booing,1921,1920,NEWS,NYT-Let,"last night , which lost no opportunity ' of hissing and booing at every mention of the name of the President of the United",1,1,1,0
+boo,mgc1445,mg0006,booed,1925,1920,MAG,Nation,"#Pittsburgh , playing as a professional , he has been booed and jeered . Why ? Because the trade goods he had to",1,1,1,1
+boo,mgc0098,mg0007,booed,1925,1920,MAG,Nation,#the story becomes even sadder . Was Master Grange ever booed from the field while he played with his college mates ? He,1,1,1,0
+boo,mgc0622,mg0008,booed,1925,1920,NEWS,NYT-Reg,"#operators . Thomas Horn of Locustdale , Pa. , was booed when he said he opposed the check-off , President , ' C.",1,1,1,1
+boo,mgc0491,mg0009,booed,1925,1920,MAG,Atlantic,"#to make , nor is he more likely to be booed . Modesty stands much in the way . Few indeed have been",1,1,1,0
+boo,mgc0711,mg0306,booing,1925,1920,MAG,NewYorker,"the Colonial 's was the gallery which had the distinction of booing from its stage the great Yvette Guilbert , then , ten years",1,1,1,0
+boo,mgc0993,mg0010,booed,1926,1920,MAG,Time,"#) , by Laborite M. P. 's who cat-called and booed among themselves while a message from the King was read . #",1,1,1,1
+boo,mgc1302,mg0011,booed,1926,1920,NEWS,NYT-Reg,"#speech by Representative Tydings was cheered by the wets and booed by the drys . "" Any one who dares say anything against",1,1,1,0
+boo,mgc0780,mg0012,booed,1926,1920,MAG,Time,"#220399 In Manhattan , a suddenly patriotic mob of pedestrians booed , hissed , cried : "" If you were a man we",1,1,1,0
+boo,mgc0802,mg0013,booed,1928,1920,MAG,Time,"#again . McNamara , "" Iron Man , "" was booed all through the race . Brocco , 43-year old champion trying to",1,1,1,1
+boo,mgc0469,mg0014,booed,1928,1920,MAG,Time,"#. . . . "" the crowd jumped up and booed for 15 minutes .",1,1,1,0
+boo,mgc0307,mg0015,booed,1928,1920,MAG,Harpers,#thousand or more orench spectators cheered the Roueanians and booed the Americans with Teat consistency . That attitude seemd o us,1,1,1,1
+boo,mgc0261,mg0016,booed,1928,1920,MAG,NewYorker,"#that he could n't hit the hall , the stand booed the pitcher.1Vhen he hit a home run and won the game Tuesday",1,1,1,1
+boo,mgc0372,mg0017,booed,1929,1920,MAG,Time,"#pitchers ' battle . "" No one has ever yet booed a homerun and certainly the greatest crowd-getter in recent",1,1,1,1
+boo,mgc0485,mg0018,booed,1929,1920,NEWS,NYT-Reg,"#and the remaining elders , about 300 in all , booed this action . After a lull the demonstration was renewed when the",1,1,1,1
+ooh,mgc0137,mg0766,oohed,1963,1960,MAG,Time,"near the roof girders , and a family-trade crowd of 4,320 oohed and aahed . This was the finale of the Holiday on Ice",1,1,1,0
+ooh,mgc0984,mg0791,oohing,1965,1960,FIC,DoLordRemember,We got in there and she looked all around at everything oohing and aahing . Like I had asked her into my living room,1,1,1,0
+ooh,mgc1052,mg0768,oohed,1969,1960,FIC,SickFriends,mentioned four times a day that she loved him . She oohed and cooed in bed . Her morning breath had never been the,1,1,1,0
+ooh,mgc0892,mg0826,oohs,1973,1970,MAG,NatGeog,"its crystals absorb yellows and reds from the sunlight and reflect the intense blues everyone oohs and ahs about. "" A TINGLING VIBRANCY animates Barbara's voice as she expounds",1,1,1,0
+ooh,mgc0683,mg0792,oohing,1974,1970,MAG,Harpers,"you think of birdwatching , you think of little old ladies oohing and aahing over a Vermilion Flycatcher . I do n't have anything",1,1,1,1
+ooh,mgc0594,mg0769,oohed,1976,1970,MAG,NewRepublic,". Such precious evidence , said Toland ; and the audience oohed and aahed as he said that he had saved it from destruction",1,1,1,0
+ooh,mgc0525,mg0793,oohing,1982,1980,FIC,Mov:MyFavoriteYear,"start . They both begin eating the dim sum and "" oohing "" and "" aahing . "" It 's obvious that K.C. has",1,1,1,0
+ooh,mgc0985,mg0832,oohs,1983,1980,FIC,Changes,"beau. She didn't want to end up like Mel. "" She just oohs and coos and smiles at them all in the halls at school, and I",1,1,1,1
+ooh,mgc0513,mg0770,oohed,1987,1980,MAG,SportsIll,14 of 22 from the Friar patch while the SEC champions oohed and aahed with the rest of the crowd . All season Providence,1,1,1,0
+ooh,mgc0738,mg0794,oohing,1989,1980,NEWS,CSMonitor,went well . Lots of ladies came . I heard them oohing and ahing about the library especially . Don ' t worry .,1,1,1,1
+shoo,mgc0960,mg1091,shooing,1893,1890,FIC,StringAmberBeads,"descended upon the fair territory of my garden . As for shooing a chicken off , my dear , when its gigantic intellect is",1,1,1,1
+shoo,mgc0850,mg0857,shooed,1894,1890,FIC,Pembroke ANovel,"keep ' em in here , "" she said , and shooed them and shook her shawl at them , until they alighted all",1,1,1,1
+shoo,mgc0943,mg0858,shooed,1894,1890,MAG,Atlantic,"toward her ; we threatened her with sticks ; we "" shooed "" at her with demonstrations that would have quickly driven away",1,1,1,0
+shoo,mgc0265,mg0859,shooed,1897,1890,FIC,Child-World,"at him , an ' sticks , an ' got him shooed Down off o ' there , he come a-floppin ' down An",1,1,1,0
+shoo,mgc0575,mg0860,shooed,1900,1900,FIC,MoreFables,"the Dressing Room they Stuck there until they had to be Shooed out . They did not know what they were going against ,",1,1,1,1
+shoo,mgc1223,mg1092,shooing,1900,1900,FIC,VoicePeople,"row of pointed chicken coops the three younger children were "" shooing "" up the tiny yellow broods . The yard was unkempt and",1,1,1,0
+shoo,mgc1395,mg0861,shooed,1905,1900,NEWS,NYT-Reg,"had heart-to-heart talks with the indicator , but they were shooed away . As the game proceeded the crowd saw that it was",1,1,1,1
+shoo,mgc1452,mg0862,shooed,1905,1900,FIC,Motormaniacs,James to switch the car around and back up . I shooed Jones into the tonneau and turned the knob on him . He,1,1,1,0
+shoo,mgc1091,mg0863,shooed,1905,1900,FIC,TalesRoad,"for good . The ' hoppers came abuzzin ' But I shooed them all away , Next blew the hot winds furious ; Still",1,1,1,1
+shoo,mgc0309,mg0864,shooed,1906,1900,FIC,OurTown,"and such a "" swell young man . "" But Nora shooed him off the front porch in the summer following , because he",1,1,1,1
+shoo,mgc0423,mg1093,shooing,1906,1900,MAG,Scribners,"refused to join with Russia , Germany , and France in shooing Japan off the continent . Scrutinizing her attitude at this time",1,1,1,0
+shoo,mgc1409,mg0865,shooed,1907,1900,FIC,Convert,"church . That 's a long skirt . We are usually shooed upstairs directly we get back , to put on a short one",1,1,1,0
+shoo,mgc0109,mg0866,shooed,1908,1900,FIC,TreasureValley,Twelve Tribes emigrated from the back yard they were promptly shooed across the street and over into the doctor 's garden . Davy,1,1,1,0
+shoo,mgc0416,mg0867,shooed,1908,1900,FIC,TreasureValley,"Munn , indignant at this unsolicited presentation , as promptly shooed them back again , and war was declared . Tim had hitherto",1,1,1,1
+shoo,mgc0690,mg1094,shooing,1909,1900,FIC,MaidasLittleShop,", "" Dicky explained . He gathered up the dresses and shooing Betsy ahead of him , followed her into the yard . """,1,1,1,0
+shoo,mgc0641,mg1252,shoos,1909,1900,NEWS,NYT-Reg,"and his skull fractured . BOY DIES SAVING A DOG . Shoos Neighborhood Pet Off Track , but Trips and Is Run Over Himself",1,1,1,1
+wow,mgc0384,mg1297,wowed,1931,1930,FIC,Play:BriefMoment,"#, she 'll wow everybody . HAROLD SIGRIFT She 's wowed Rod already . KATHRYN DEAN Damn good taste , Rod . p.",1,1,0,0
+wow,mgc0389,mg1433,wows,1932,1930,TV/MOV,Is My Face Red?,"has a good joke. He's used it for years and years that still wows him. Sorry. [telephone_ringing] Hello. Oh, just a minute, Mr.",1,1,0,1
+wow,mgc0885,mg1298,wowed,1938,1930,MAG,Time,"#, sailed ahead to roars of laughter . Victor Moore wowed the audience in the role of a dumbbell U. S. Ambassador to",1,1,1,1
+wow,mgc0468,mg1299,wowed,1939,1930,MAG,Time,"#in the past year to have become TIME-worthy , "" wowed "" Their Majesties . Antic : opening conversation at the banquet",1,1,0,0
+wow,mgc0448,mg1434,wows,1940,1940,TV/MOV,Young People,"they were billed under Costello's Trained Seals. She can remember. "" Bob wows them in Cleveland. Flicks legit takes back seat. "" Remember when we were",1,1,0,1
+wow,mgc0415,mg1300,wowed,1943,1940,MAG,Time,"#brooch ) . Last week , suave , dark-eyed Ben wowed the ladies again with a fashion show for Chicago 's pet society",1,1,0,1
+wow,mgc0937,mg1400,wowing,1945,1940,MAG,SatEvePost,"#his birds appear by courtesy of The Bulletin and are wowing them at the rate of 30,000 a year . When the Pigeon",1,1,0,1
+wow,mgc1161,mg1401,wowing,1948,1940,MAG,Time,"#her with excited greetings . Said Jennie , who began wowing U.S. concert audiences after she got out of France in 1940 :",1,1,1,1
+wow,mgc0049,mg1435,wows,1948,1940,MAG,Time,"love to hear their language spoken. "" # A good mimic, she often wows French audiences with take-offs of people who heckle husband George. She has never been",1,1,1,1
+wow,mgc0858,mg1301,wowed,1949,1940,TV/MOV,Alias Nick Beal,#thousand women and ten thousand questions . - The governor wowed them . - I knew he would . I wish everybody has,1,1,0,1
+wow,mgc1331,mg1402,wowing,1949,1940,MAG,SatEvePost,"#'s strategists , brooding over the governor 's propensity for wowing his constituents by dropping out of the Skies like a Bobby Clark",1,1,0,0

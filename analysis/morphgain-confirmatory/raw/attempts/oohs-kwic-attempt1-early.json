@@ -1,0 +1,31 @@
+{
+  "url": "https://www.english-corpora.org/coha/x3.asp?alpha=y&s1=1&s2=2&s3=3&own=y",
+  "title": "",
+  "text": "(SHUFFLE)\nL\t-\t-\t-\t-\t1\t2\t3\tR\t \t*\t \tRE-SORT\t?",
+  "tables": [
+    [
+      [
+        "(SHUFFLE)",
+        "L\t-\t-\t-\t-\t1\t2\t3\tR\t \t*\t \tRE-SORT\t?"
+      ]
+    ],
+    [
+      [
+        "L",
+        "-",
+        "-",
+        "-",
+        "-",
+        "1",
+        "2",
+        "3",
+        "R",
+        "",
+        "*",
+        "",
+        "RE-SORT",
+        "?"
+      ]
+    ]
+  ]
+}

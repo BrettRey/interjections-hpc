@@ -1,0 +1,395 @@
+{
+  "url": "https://www.english-corpora.org/coha/x3.asp?alpha=y&s1=1&s2=2&s3=3&own=y",
+  "title": "",
+  "text": "(SHUFFLE)\nL\t-\t-\t-\t-\t1\t2\t3\tR\t \t*\t \tRE-SORT\t?\n\n     CLICK FOR MORE CONTEXT\t  \t TRANSLATE  \t ANALYZE   \t  HELP     \t    AI: patterns   *\n1\t1929\tMAG\tTime\t\t\t\t\" pitchers ' battle . \" No  one  has  ever  yet \t  booed \t  a   homerun   and   certainly  the greatest crowd-getter in recent\n2\t2012\tNEWS\tNYTimes\t\t\t\tentry , \" Post Tenebras Lux ,  '  had  been  harshly \t  booed \t  after   its   first   press  screening . The screenwriting prize went\n3\t1969\tMAG\tTime\t\t\t\the urged building workers to increase  their  productivity  ,  they \t  booed \t  again   .   He   advised  the unionists to end other practices that\n4\t1928\tMAG\tTime\t\t\t\trode again . McNamara , \" Iron  Man  ,  \"  was \t  booed \t  all   through   the   race  . Brocco , 43-year old champion trying to\n5\t1931\tNEWS\tNYT-Reg\t\t\t\this lifetime associates on the Labor benches  .  They  jeered  and \t  booed \t  all   through   the   speech  whenever Mr. Snowden mentioned economy ,\n6\t1953\tNEWS\tNYT-Reg\t\t\t\tdefected from the Ryan camp were branded  \"  traitors  \"  and \t  booed \t  almost   as   roundly   as  Governor Dewey . The front rows were\n7\t1926\tMAG\tTime\t\t\t\t12 ) , by Laborite M. P.  's  who  cat-called  and \t  booed \t  among   themselves   while   a  message from the King was read . #\n8\t1968\tNEWS\tNYT-Reg\t\t\t\tCommission , said he was representing the  Mayor  ,  one  man \t  booed \t  and   about   150   teachers  and their families , carrying \" Lindsay\n9\t1945\tFIC\tUpstart\t\t\t\tluckily he was too drunk to hit  the  mark  --  he \t  booed \t  and   catcalled   every   time  Penny appeared on the stage . The other\n10\t1958\tMAG\tTime\t\t\t\t, had had enough . At his  first  appearance  ,  they \t  booed \t  and   catcalled   for   20  minutes , while Lewis nervously ran a comb\n11\t1941\tMAG\tTime\t\t\t\twell-mannered meetings of the  Federation  .  The  galleries \t  booed \t  and   cheered   with   organized  isolationist efficiency . # The\n12\t1950\tMAG\tReadersDigest\t\t\t\tto his corner , and inspected his  manicure  while  the  crowd \t  booed \t  and   cheered   .   From  time to time Gorgeous removed a gold bobby\n13\t1976\tMAG\tTime\t\t\t\tstorm of booing deep and raw .  A  few  people  both \t  booed \t  and   clapped   at   once  . Shouting matches broke out between\n14\t2002\tNEWS\tChicago\t\t\t\tMcGriff is down to this : hitting  around  .210  ,  getting \t  booed \t  and   having   fans   outwardly  question whether he 's trying . # The\n15\t1952\tMAG\tTime\t\t\t\ta word the Kremlin likes to hurl  at  Jews  .  Laborites \t  booed \t  and   hissed   as   Churchill  started to stride out of the House .\n16\t1946\tMAG\tTime\t\t\t\tReason : in her last appearance there  in  1940  she  was \t  booed \t  and   hissed   by   a  claque . The claque had been hired ,",
+  "tables": [
+    [
+      [
+        "(SHUFFLE)",
+        "L\t-\t-\t-\t-\t1\t2\t3\tR\t \t*\t \tRE-SORT\t?"
+      ]
+    ],
+    [
+      [
+        "L",
+        "-",
+        "-",
+        "-",
+        "-",
+        "1",
+        "2",
+        "3",
+        "R",
+        "",
+        "*",
+        "",
+        "RE-SORT",
+        "?"
+      ]
+    ],
+    [
+      [
+        "",
+        "SORT",
+        "LIMIT",
+        "Examples / notes"
+      ],
+      [
+        "Genre",
+        "--",
+        "-----\n\t\t\tTV/Movies\n\t\t\tFiction\n\t\t\tMagazine\n\t\t\tNewspaper\n\t\t\tNF/Acad"
+      ],
+      [
+        "Year",
+        "--",
+        "to",
+        "1992 to 1997"
+      ],
+      [
+        "Source",
+        "--",
+        "",
+        "New York Times or bbc.co.uk"
+      ]
+    ],
+    [
+      [
+        "Because both the node word and the collocate occur more than 400,000 times in the corpus, the entries below come from a smaller subset\nof the entire corpus, which represents about 5-10% of the complete corpus."
+      ]
+    ],
+    [
+      [
+        "CLICK FOR MORE CONTEXT",
+        "Click on audio icon at translation site to hear text.",
+        "Translate to EN\n(Change and then reload this page)",
+        "Select entries below | ADD TO\n\n\t----------\n\n NEW\n\n [?]\n  SEE LISTS\n\nEN:\n\nAfrikaans\nAlbanian\nAmharic\nArabic\nArmenian\nAzerbaijani\nBasque\nBelarusian\nBengali\nBosnian\nBulgarian\nBurmese\nCatalan\nCebuano\nChichewa\nChinese (S)\nChinese (T)\nCorsican\nCroatian\nCzech\nDanish\nDutch\nEnglish\nEsperanto\nEstonian\nFilipino\nFinnish\nFrench\nFrisian\nGalician\nGeorgian\nGerman\nGreek\nGujarati\nHaitian C\nHausa\nHawaiian\nHebrew\nHindi\nHmong\nHungarian\nIcelandic\nIgbo\nIndonesian\nIrish\nItalian\nJapanese\nJavanese\nKannada\nKazakh\nKhmer\nKorean\nKurdish\nKyrgyz\nLao\nLatin\nLatvian\nLithuanian\nLuxembourgish\nMacedonian\nMalagasy\nMalay\nMalayalam\nMaltese\nMaori\nMarathi\nMongolian\nNepali\nNorwegian\nPashto\nPersian\nPolish\nPortuguese\nPunjabi\nRomanian\nRussian\nSamoan\nScots Gaelic\nSerbian\nSesotho\nShona\nSindhi\nSinhala\nSlovak\nSlovenian\nSomali\nSpanish\nSundanese\nSwahili\nSwedish\nTajik\nTamil\nTelugu\nThai\nTurkish\nUkrainian\nUrdu\nUzbek\nVietnamese\nWelsh\nXhosa\nYiddish\nYoruba\nZulu\n\nSelect entries below to translate |\nFor one line below:\n\n<< Change language\n\n Select entries below |\nThen click button to analyze text; see word definitions; find related phrases",
+        "",
+        "WORD PAGE:\nCOCA\niWeb",
+        "DIC:\n\nD\nM\nO\nC\nG\nE",
+        "TR\n WEB\n IMG\n VID",
+        "",
+        "TRANSLATE",
+        "ANALYZE",
+        "HELP",
+        "AI: patterns   *"
+      ]
+    ],
+    [
+      [
+        "SINGLE ENTRY / LINE\n\n(CLOSE HELP)"
+      ],
+      [
+        "",
+        "Listen to the text (click on\n\t\t at the translation website)"
+      ],
+      [
+        "",
+        "Translate the text (after the first translation, you can change the language in the\n\t\tblue section above)"
+      ],
+      [
+        "",
+        "Select individual words, and then see info on words (see next\n\t\tsection). Click again to deselect."
+      ],
+      [
+        "SINGLE WORD (choose from words, after clicking\n\t\t on a given line).\n\t\t(See example)"
+      ],
+      [
+        "{ WORD }",
+        "Search for the word in the corpus (from main search page: list,\n\t\tchart, collocates, etc)"
+      ],
+      [
+        "WORD PAGE",
+        "(From COCA or iWeb) Collocates, related topics, related words,\n\t\tsynonyms, clusters, KWIC, and more"
+      ],
+      [
+        "DICTIONARY",
+        "Links to entries from several online dictionaries (Oxford,\n\t\tMerriam-Webster, etymology, etc)"
+      ],
+      [
+        "",
+        "Translation, web search, image search, video/pronunciation"
+      ],
+      [
+        "MULTIPLE ENTRIES (see links in gray above; click on text entries below to add\n\t\tto group)"
+      ],
+      [
+        "SAVE",
+        "",
+        "Save entries for later use. Can also move, delete, and\n\t\texpand entries. Categorize entries by clicking on A|B|C in entry."
+      ],
+      [
+        "TRANSLATE",
+        "",
+        "See translation for multiple lines, with original lines in English\n\t\tand their translations grouped together; you can choose from 100+ languages."
+      ],
+      [
+        "ANALYZE",
+        "",
+        "Create \"text\" composed of selected lines, and then see keywords,\n\t\tfind related phrases for words in the text, and see detailed \"word\"\n\t\tpages for any word in the \"text\"."
+      ]
+    ],
+    [
+      [
+        "Please consider supporting the corpora by getting an (individual)\npremium license or a (university-wide)\nacademic license.\nIf you have a license, you won't see these messages anymore."
+      ]
+    ],
+    [
+      [
+        "1",
+        "163330",
+        "1929",
+        "MAG",
+        "Time",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "\" pitchers ' battle . \" No  one  has  ever  yet",
+        "booed",
+        "a   homerun   and   certainly  the greatest crowd-getter in recent"
+      ],
+      [
+        "2",
+        "4114048",
+        "2012",
+        "NEWS",
+        "NYTimes",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "entry , \" Post Tenebras Lux ,  '  had  been  harshly",
+        "booed",
+        "after   its   first   press  screening . The screenwriting prize went"
+      ],
+      [
+        "3",
+        "273726",
+        "1969",
+        "MAG",
+        "Time",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "he urged building workers to increase  their  productivity  ,  they",
+        "booed",
+        "again   .   He   advised  the unionists to end other practices that"
+      ],
+      [
+        "4",
+        "164019",
+        "1928",
+        "MAG",
+        "Time",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "rode again . McNamara , \" Iron  Man  ,  \"  was",
+        "booed",
+        "all   through   the   race  . Brocco , 43-year old champion trying to"
+      ],
+      [
+        "5",
+        "698144",
+        "1931",
+        "NEWS",
+        "NYT-Reg",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "his lifetime associates on the Labor benches  .  They  jeered  and",
+        "booed",
+        "all   through   the   speech  whenever Mr. Snowden mentioned economy ,"
+      ],
+      [
+        "6",
+        "715831",
+        "1953",
+        "NEWS",
+        "NYT-Reg",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "defected from the Ryan camp were branded  \"  traitors  \"  and",
+        "booed",
+        "almost   as   roundly   as  Governor Dewey . The front rows were"
+      ],
+      [
+        "7",
+        "220464",
+        "1926",
+        "MAG",
+        "Time",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "12 ) , by Laborite M. P.  's  who  cat-called  and",
+        "booed",
+        "among   themselves   while   a  message from the King was read . #"
+      ],
+      [
+        "8",
+        "727446",
+        "1968",
+        "NEWS",
+        "NYT-Reg",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "Commission , said he was representing the  Mayor  ,  one  man",
+        "booed",
+        "and   about   150   teachers  and their families , carrying \" Lindsay"
+      ],
+      [
+        "9",
+        "10193",
+        "1945",
+        "FIC",
+        "Upstart",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "luckily he was too drunk to hit  the  mark  --  he",
+        "booed",
+        "and   catcalled   every   time  Penny appeared on the stage . The other"
+      ],
+      [
+        "10",
+        "242117",
+        "1958",
+        "MAG",
+        "Time",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        ", had had enough . At his  first  appearance  ,  they",
+        "booed",
+        "and   catcalled   for   20  minutes , while Lewis nervously ran a comb"
+      ],
+      [
+        "11",
+        "167321",
+        "1941",
+        "MAG",
+        "Time",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "well-mannered meetings of the  Federation  .  The  galleries",
+        "booed",
+        "and   cheered   with   organized  isolationist efficiency . # The"
+      ],
+      [
+        "12",
+        "431409",
+        "1950",
+        "MAG",
+        "ReadersDigest",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "to his corner , and inspected his  manicure  while  the  crowd",
+        "booed",
+        "and   cheered   .   From  time to time Gorgeous removed a gold bobby"
+      ],
+      [
+        "13",
+        "287156",
+        "1976",
+        "MAG",
+        "Time",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "storm of booing deep and raw .  A  few  people  both",
+        "booed",
+        "and   clapped   at   once  . Shouting matches broke out between"
+      ],
+      [
+        "14",
+        "634258",
+        "2002",
+        "NEWS",
+        "Chicago",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "McGriff is down to this : hitting  around  .210  ,  getting",
+        "booed",
+        "and   having   fans   outwardly  question whether he 's trying . # The"
+      ],
+      [
+        "15",
+        "197667",
+        "1952",
+        "MAG",
+        "Time",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "a word the Kremlin likes to hurl  at  Jews  .  Laborites",
+        "booed",
+        "and   hissed   as   Churchill  started to stride out of the House ."
+      ],
+      [
+        "16",
+        "260025",
+        "1946",
+        "MAG",
+        "Time",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "Reason : in her last appearance there  in  1940  she  was",
+        "booed",
+        "and   hissed   by   a  claque . The claque had been hired ,"
+      ]
+    ]
+  ]
+}

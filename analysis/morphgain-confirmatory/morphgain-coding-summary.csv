@@ -1,0 +1,31 @@
+family,term,status_or_reason,count
+boo,booed,OCR/proper-name/non-target use,3
+boo,booed,included,284
+boo,booing,OCR/proper-name/non-target use,4
+boo,booing,included,71
+boo,booing,no recoverable verbal syntax,71
+boo,booing,noun use,59
+boo,boos,included,9
+boo,boos,noun use,249
+boo,boos,proper-name/metalinguistic/non-target use,9
+ooh,oohed,OCR or unclear context,4
+ooh,oohed,included,23
+ooh,oohing,OCR/adjectival/unclear use,3
+ooh,oohing,included,25
+ooh,oohing,no recoverable verbal syntax,2
+ooh,oohs,included,4
+ooh,oohs,noun use,34
+shoo,shooed,included,233
+shoo,shooing,adjectival use without recoverable verbal syntax,16
+shoo,shooing,included,142
+shoo,shooing,noun use,2
+shoo,shoos,OCR/proper-name/non-target use,6
+shoo,shoos,included,35
+shoo,shoos,unclear or non-verbal use,6
+wow,wowed,included,100
+wow,wowed,non-verbal vocalization,5
+wow,wowing,included,31
+wow,wowing,non-target compound,1
+wow,wows,included,12
+wow,wows,noun or non-verbal use,2
+wow,wows,noun/proper-name/acronym use,17

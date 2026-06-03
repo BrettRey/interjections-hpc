@@ -1,0 +1,5 @@
+family,earliest_window_decades,early_window_n,successes,proportion,jeffreys_lower,jeffreys_upper,supported
+boo,1920,17,17,1.000,0.865,1.000,yes
+ooh,1960 1970 1980,10,10,1.000,0.783,1.000,yes
+shoo,1890 1900,16,16,1.000,0.857,1.000,yes
+wow,1930 1940,11,11,1.000,0.800,1.000,yes

@@ -1,0 +1,23 @@
+{
+  "preregistration_commit": "f1a2193",
+  "extraction_started_at": "2026-05-27T21:58:19.473Z",
+  "corpus": "COHA",
+  "fixed_target_terms": [
+    "wowed",
+    "wowing",
+    "wows",
+    "booed",
+    "booing",
+    "boos",
+    "oohed",
+    "oohing",
+    "oohs",
+    "shooed",
+    "shooing",
+    "shoos"
+  ],
+  "selected_terms": [
+    "wowing"
+  ],
+  "mode": "kwic"
+}

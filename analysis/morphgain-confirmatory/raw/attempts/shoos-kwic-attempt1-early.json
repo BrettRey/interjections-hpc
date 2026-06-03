@@ -1,0 +1,239 @@
+{
+  "url": "https://www.english-corpora.org/coha/x3.asp?alpha=y&s1=1&s2=2&s3=3&own=y",
+  "title": "",
+  "text": "(SHUFFLE)\nL\t-\t-\t-\t-\t1\t2\t3\tR\t \t*\t \tRE-SORT\t?\n\n     CLICK FOR MORE CONTEXT\t  \t TRANSLATE  \t ANALYZE   \t  HELP     \t    AI: patterns   *\n1\t1892\tFIC\tBlueCreekCañon\t\t\t\tswinging out from its next-door neighbor ,  bore  the  legend  , \t  Shoos \t  1/2   Soled   Here   .  \" But , I say , \" he\n2\t1886\tNEWS\tNYT-Reg\t\t\t\tunfounded , that Strikers in the  vicinity  of  the  machine \t  shoos \t  at   Summit-avenue   bad   stopped  the Kirkwood train and detached it\n3\t1942\tFIC\tPlay:Pirate\t\t\t\tShe picks it up , covers his  face  with  it  -- \t  shoos \t  away   a   humming   fly  that wants to settle on his nose .\n4\t1983\tMAG\tTime\t\t\t\tpose , he holds a thick cigar  in  one  hand  and \t  shoos \t  away   his   old   English  sheep dog , Wellington , with the other\n5\t1994\tFIC\tMov:BlueSky\t\t\t\tsleeping . Carly appears at the door  .  The  M.P  . \t  shoos \t  Becky   a   look   and  strides past the girls to hand the envelope\n6\t1984\tNEWS\tCSMonitor\t\t\t\t(Mr. Mom ) Dragoti decides to  close  the  set  and \t  shoos \t  everyone   out.   //   During  our interview , Hanks talked a bit about\n7",
+  "tables": [
+    [
+      [
+        "(SHUFFLE)",
+        "L\t-\t-\t-\t-\t1\t2\t3\tR\t \t*\t \tRE-SORT\t?"
+      ]
+    ],
+    [
+      [
+        "L",
+        "-",
+        "-",
+        "-",
+        "-",
+        "1",
+        "2",
+        "3",
+        "R",
+        "",
+        "*",
+        "",
+        "RE-SORT",
+        "?"
+      ]
+    ],
+    [
+      [
+        "",
+        "SORT",
+        "LIMIT",
+        "Examples / notes"
+      ],
+      [
+        "Genre",
+        "--",
+        "-----\n\t\t\tTV/Movies\n\t\t\tFiction\n\t\t\tMagazine\n\t\t\tNewspaper\n\t\t\tNF/Acad"
+      ],
+      [
+        "Year",
+        "--",
+        "to",
+        "1992 to 1997"
+      ],
+      [
+        "Source",
+        "--",
+        "",
+        "New York Times or bbc.co.uk"
+      ]
+    ],
+    [
+      [
+        "Because both the node word and the collocate occur more than 400,000 times in the corpus, the entries below come from a smaller subset\nof the entire corpus, which represents about 5-10% of the complete corpus."
+      ]
+    ],
+    [
+      [
+        "CLICK FOR MORE CONTEXT",
+        "Click on audio icon at translation site to hear text.",
+        "Translate to EN\n(Change and then reload this page)",
+        "Select entries below | ADD TO\n\n\t----------\n\n NEW\n\n [?]\n  SEE LISTS\n\nEN:\n\nAfrikaans\nAlbanian\nAmharic\nArabic\nArmenian\nAzerbaijani\nBasque\nBelarusian\nBengali\nBosnian\nBulgarian\nBurmese\nCatalan\nCebuano\nChichewa\nChinese (S)\nChinese (T)\nCorsican\nCroatian\nCzech\nDanish\nDutch\nEnglish\nEsperanto\nEstonian\nFilipino\nFinnish\nFrench\nFrisian\nGalician\nGeorgian\nGerman\nGreek\nGujarati\nHaitian C\nHausa\nHawaiian\nHebrew\nHindi\nHmong\nHungarian\nIcelandic\nIgbo\nIndonesian\nIrish\nItalian\nJapanese\nJavanese\nKannada\nKazakh\nKhmer\nKorean\nKurdish\nKyrgyz\nLao\nLatin\nLatvian\nLithuanian\nLuxembourgish\nMacedonian\nMalagasy\nMalay\nMalayalam\nMaltese\nMaori\nMarathi\nMongolian\nNepali\nNorwegian\nPashto\nPersian\nPolish\nPortuguese\nPunjabi\nRomanian\nRussian\nSamoan\nScots Gaelic\nSerbian\nSesotho\nShona\nSindhi\nSinhala\nSlovak\nSlovenian\nSomali\nSpanish\nSundanese\nSwahili\nSwedish\nTajik\nTamil\nTelugu\nThai\nTurkish\nUkrainian\nUrdu\nUzbek\nVietnamese\nWelsh\nXhosa\nYiddish\nYoruba\nZulu\n\nSelect entries below to translate |\nFor one line below:\n\n<< Change language\n\n Select entries below |\nThen click button to analyze text; see word definitions; find related phrases",
+        "",
+        "WORD PAGE:\nCOCA\niWeb",
+        "DIC:\n\nD\nM\nO\nC\nG\nE",
+        "TR\n WEB\n IMG\n VID",
+        "",
+        "TRANSLATE",
+        "ANALYZE",
+        "HELP",
+        "AI: patterns   *"
+      ]
+    ],
+    [
+      [
+        "SINGLE ENTRY / LINE\n\n(CLOSE HELP)"
+      ],
+      [
+        "",
+        "Listen to the text (click on\n\t\t at the translation website)"
+      ],
+      [
+        "",
+        "Translate the text (after the first translation, you can change the language in the\n\t\tblue section above)"
+      ],
+      [
+        "",
+        "Select individual words, and then see info on words (see next\n\t\tsection). Click again to deselect."
+      ],
+      [
+        "SINGLE WORD (choose from words, after clicking\n\t\t on a given line).\n\t\t(See example)"
+      ],
+      [
+        "{ WORD }",
+        "Search for the word in the corpus (from main search page: list,\n\t\tchart, collocates, etc)"
+      ],
+      [
+        "WORD PAGE",
+        "(From COCA or iWeb) Collocates, related topics, related words,\n\t\tsynonyms, clusters, KWIC, and more"
+      ],
+      [
+        "DICTIONARY",
+        "Links to entries from several online dictionaries (Oxford,\n\t\tMerriam-Webster, etymology, etc)"
+      ],
+      [
+        "",
+        "Translation, web search, image search, video/pronunciation"
+      ],
+      [
+        "MULTIPLE ENTRIES (see links in gray above; click on text entries below to add\n\t\tto group)"
+      ],
+      [
+        "SAVE",
+        "",
+        "Save entries for later use. Can also move, delete, and\n\t\texpand entries. Categorize entries by clicking on A|B|C in entry."
+      ],
+      [
+        "TRANSLATE",
+        "",
+        "See translation for multiple lines, with original lines in English\n\t\tand their translations grouped together; you can choose from 100+ languages."
+      ],
+      [
+        "ANALYZE",
+        "",
+        "Create \"text\" composed of selected lines, and then see keywords,\n\t\tfind related phrases for words in the text, and see detailed \"word\"\n\t\tpages for any word in the \"text\"."
+      ]
+    ],
+    [
+      [
+        "Please consider supporting the corpora by getting an (individual)\npremium license or a (university-wide)\nacademic license.\nIf you have a license, you won't see these messages anymore."
+      ]
+    ],
+    [
+      [
+        "1",
+        "4114",
+        "1892",
+        "FIC",
+        "BlueCreekCañon",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "swinging out from its next-door neighbor ,  bore  the  legend  ,",
+        "Shoos",
+        "1/2   Soled   Here   .  \" But , I say , \" he"
+      ],
+      [
+        "2",
+        "745708",
+        "1886",
+        "NEWS",
+        "NYT-Reg",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "unfounded , that Strikers in the  vicinity  of  the  machine",
+        "shoos",
+        "at   Summit-avenue   bad   stopped  the Kirkwood train and detached it"
+      ],
+      [
+        "3",
+        "14507",
+        "1942",
+        "FIC",
+        "Play:Pirate",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "She picks it up , covers his  face  with  it  --",
+        "shoos",
+        "away   a   humming   fly  that wants to settle on his nose ."
+      ],
+      [
+        "4",
+        "296138",
+        "1983",
+        "MAG",
+        "Time",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "pose , he holds a thick cigar  in  one  hand  and",
+        "shoos",
+        "away   his   old   English  sheep dog , Wellington , with the other"
+      ],
+      [
+        "5",
+        "16037",
+        "1994",
+        "FIC",
+        "Mov:BlueSky",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "sleeping . Carly appears at the door  .  The  M.P  .",
+        "shoos",
+        "Becky   a   look   and  strides past the girls to hand the envelope"
+      ],
+      [
+        "6",
+        "669397",
+        "1984",
+        "NEWS",
+        "CSMonitor",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "(Mr. Mom ) Dragoti decides to  close  the  set  and",
+        "shoos",
+        "everyone   out.   //   During  our interview , Hanks talked a bit about"
+      ],
+      [
+        "7",
+        "4167185"
+      ]
+    ]
+  ]
+}

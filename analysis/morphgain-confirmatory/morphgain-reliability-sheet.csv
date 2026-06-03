@@ -1,0 +1,98 @@
+coding_id,family,term,genre,source,left,target,right,exclude,exclusion_reason,verbal_syntax,semantic_residue,interactional_residue,targeted_entity,coder_notes
+mgc0004,shoo,shooing,TV/MOV,Psych,one is not welcome here . Shoo . And we 're,shooing,. We 're shooing . We 're shooing . Auf wiedersehen .,0,,1,1,1,1,
+mgc0018,shoo,shooed,FIC,ThreeWishes,"one who 'll have to cover for you . "" Bree",shooed,"her off . "" No one else is coming in . Not",0,,1,1,1,1,
+mgc0035,boo,booed,FIC,MagnoliaStreet,#that John Cooper was now away at sea . They,booed,as if Benny Edelman had not saved little Tommie Wright from,0,,1,1,1,1,
+mgc0112,boo,booed,MAG,Time,"#'s home state of Colorado last month , football fans",booed,in Denver 's Mile High Stadium . Reason : for nearly nine,0,,1,1,1,1,
+mgc0116,wow,wowed,NEWS,CSMonitor,#unsolicited print to the 1992 Toronto film festival . It,wowed,the programmers . Though the film went on to win the American,0,,1,1,1,1,live festival-screening uptake by selection committee
+mgc0126,shoo,shooed,FIC,ConfidenceInIzmir,and millions of devalued lira were at stake . The waiter,shooed,"the hawker from their table , and a final fingernail of sun",0,,1,1,1,1,
+mgc0129,ooh,oohed,FIC,Analog,"overhead , and Andrea gasped . Several of the other astronomers",oohed,"and aahed . "" Make a wish , "" Craig said .",0,,1,1,1,1,
+mgc0143,shoo,shooed,FIC,VisionsCody,". . "" The non-corn came up at that point and",shooed,"them toward the stairs . They went down the steps , along",0,,1,1,1,1,
+mgc0151,shoo,shooed,FIC,ManWithNoShadow,"tower of yours , so I drove back . The police",shooed,"me away . Sweetie , why do you have the police there",0,,1,1,1,1,
+mgc0168,boo,booed,FIC,DeepRiver,#and stood up ; tenants of the windows catcalled and,booed,", even P343the well-mannered rose hastily for a better look and",0,,1,1,1,1,target recoverable as event/persons on street below windows
+mgc0178,boo,booed,MAG,SportsIll,"#consoling Biggs , who earlier in the evening had been",booed,by his countrymen after he 'd defeated Francesco Damiani of,0,,1,1,1,1,
+mgc0185,boo,booed,MAG,SportsIll,"#New York , early in the 1952-53 season , they",booed,Captain Allan Stanley off the Garden ice and stayed away from,0,,1,1,1,1,
+mgc0220,boo,booing,FIC,BangDrumSlowly,"about it a long time . "" What in hell they",booing,"at ? "" said I. "" Search me , "" said Dutch",0,,1,1,1,1,intransitive but 'at?' explicitly presupposes target
+mgc0316,shoo,shooing,FIC,Ploughshares,who are still standing in the doorway . While he is,shooing,"them away with harsh sounds , the Chinese woman looks at Lavinia",0,,1,1,1,1,
+mgc0340,shoo,shooing,FIC,HeavenHell,"mounted Satan . America 's Ace of Players appeared suddenly ,",shooing,Willa inside so he could speak privately . Trump stepped close to,0,,1,1,1,1,
+mgc0370,ooh,oohed,FIC,FantasySciFi,"to shoulder with him in the watery December light , and",oohed,and ahhed as he showed off the Swiss Army knife Dad had,0,,1,1,1,1,
+mgc0386,shoo,shooing,FIC,Triquarterly (Online),"guards yell at each other and point at the boy ,",shooing,"him away , cursing . The boy stops running and stands frozen",0,,1,1,1,1,
+mgc0394,boo,booed,MAG,Harpers,"#the party , some of them angry at Lee ,",booed,and shouted at him and at almost everyone else who dared to,0,,1,1,1,1,
+mgc0433,boo,booed,NEWS,NYT-Let,"#his head , indicating that such a number would be",booed,"by the thousands of young , collegiate , jitterbug dancers",0,,1,1,1,1,counterfactual ('would be booed') but invokes live audience act
+mgc0440,wow,wowed,NEWS,Denver,"#Eric Decker showed in his interview , and Demaryius Thomas",wowed,the staff with his ability to quickly learn a variety of,0,,1,1,1,1,
+mgc0468,wow,wowed,MAG,Time,"#in the past year to have become TIME-worthy , """,wowed,""" Their Majesties . Antic : opening conversation at the banquet",0,,1,1,1,1,scare quotes around 'wowed' but banquet context interactional
+mgc0476,wow,wowed,MAG,Time,"#looking slim as ever in her well-above-the-knee sequin outfit ,",wowed,the crowd by dancing the Jerk with her host . # *,0,,1,1,1,1,
+mgc0485,boo,booed,NEWS,NYT-Reg,"#and the remaining elders , about 300 in all ,",booed,this action . After a lull the demonstration was renewed when the,0,,1,1,1,1,
+mgc0517,wow,wowed,MAG,Time,"#Open . In practice , Nicklaus shot a 65 ,",wowed,"spectators by reaching Royal Birkdale 's par-five , 510-yd.",0,,1,1,1,1,
+mgc0527,shoo,shooed,TV/MOV,"Third Finger, Left Hand",". OH , YOU DID , HUH ? YES . I-I",SHOOED,"SOME ART DEALER OUT OF HERE , AND THEN THE STEWARD TOLD",0,,1,1,1,1,
+mgc0542,shoo,shooed,MAG,People,"my legs . This was n't his usual behavior . """,Shooed,"away , Midnight persisted . "" I heard him through the baby",0,,1,1,1,1,
+mgc0554,boo,booed,NEWS,Chicago,#just two runs on four hits -- and the crowd,booed,loudly . # The first pitch to Theriot was inside and the,0,,1,1,1,1,
+mgc0560,boo,booed,MAG,Entertainment,#members ' lower extremities . Its Grand Jury Prize was,booed,"by some at the Palais , while Jury members looked on in",0,,1,1,1,1,Cannes live audience booing the prize announcement
+mgc0575,shoo,shooed,FIC,MoreFables,the Dressing Room they Stuck there until they had to be,Shooed,"out . They did not know what they were going against ,",0,,1,1,1,1,
+mgc0607,shoo,shoos,FIC,Play:MyBlueHeaven,OUT ! OUT ! OUT ! ( Goat noise as MOLLY,shoos,"it out . ) DEAR GOD , DELIVER ME ! (MOLLY",0,,1,1,1,1,
+mgc0608,boo,booed,TV/MOV,Married with Children,"#and setting pudding traps , should she awaken we officially",booed,"the baby and began the meeting . Dad , my Daddy once",0,,1,1,1,1,"ritualised performative booing, still interactional"
+mgc0609,wow,wowing,FIC,Ploughshares,#a grin . # I spent most of the day,wowing,"my teachers . Ordinarily , I 'd have kept my mouth shut",0,,1,1,1,1,
+mgc0645,boo,booed,NEWS,Chicago,"#reinstatement until February . . . . Chuck Person ,",booed,"by Indiana Pacer fans when he was drafted , has been named",0,,1,1,1,1,
+mgc0647,shoo,shooed,FIC,GraceHarlowesOverland,"you finish this journey . "" Joe took a broom and",shooed,Henry out into the yard . A scream out there followed almost,0,,1,1,1,1,
+mgc0651,wow,wowed,NEWS,USA TODAY,"#Four was bittersweet . The 6-foot-7 , 285-pound freshman who",wowed,college basketball fans all season long was honored with two,0,,1,1,1,1,season-long but each game is live audience response
+mgc0677,boo,booed,MAG,SportsIll (1),#and I have never seen a white guy get,booed,"in the Stadium , "" he said after the game , apparently",0,,1,1,1,1,
+mgc0687,boo,booed,NEWS,Chicago,#Bears all those years and the Packers fans had always,booed,"me relentlessly , I was surprised at the welcome I got .",0,,1,1,1,1,
+mgc0698,wow,wowing,MAG,SatEvePost,"#Lucy is doing her thing again , and she is",wowing,them today just as she always has . There is an au,0,,1,1,1,1,
+mgc0706,shoo,shoos,FIC,KenyonRev,migrate to the motorhome with their laptops and binders . Bill,shoos,"them back to the dusty house , saying , "" Let 's",0,,1,1,1,1,
+mgc0735,ooh,oohing,FIC,NeeceysLullaby,", laughing , running , waving at bus drivers , and",oohing,"over fancy cars-Buicks , Chevrolets , or Cadillacs that soared",0,,1,1,1,1,
+mgc0758,shoo,shooing,FIC,FantasySciFi,"For some reason , he always chose to join Retsler in",shooing,the gulls away . And then holding watch over the ruined mass,0,,1,1,1,1,
+mgc0771,shoo,shooed,FIC,WorldWithoutEnd,"work . As the Americans left , the consul 's wife",shooed,them away and back to the screen . The twenty-four dollars stayed,0,,1,1,1,1,
+mgc0776,shoo,shooing,FIC,Essence,"stepped around a fresh pile of horse droppings . Then ,",shooing,away a fat green-and-black fly with a quick fan of her,0,,1,1,1,1,
+mgc0785,boo,booed,FIC,LetterLaw,"#One by one the natives nudged one another , and",booed,", and guffawed , until the rising tide of racket drowned out",0,,1,1,1,1,target recoverable as some performance/speech triggering reaction
+mgc0793,wow,wowed,MAG,Parenting,# 408415 They 're the champs-the classic toys that,wowed,kids back then and continue to knock them out now . We,0,,1,1,0,1,"descriptive/diffuse claim about toy impact across time, not a live uptake event"
+mgc0794,shoo,shooed,FIC,HermanHadTwoDaughters,Walter 's garage in Brookfield Heights . Durgin 's honest cops,shooed,"the kids away . Mornings , Celia stood beside the ruin ,",0,,1,1,1,1,
+mgc0800,ooh,oohed,FIC,SouthernRev,"cake , dazzling with sparklers instead of candles , and Harold",oohed,and aahed and slapped at the sparks swarming his legs like,0,,1,1,1,1,
+mgc0813,shoo,shooing,FIC,Apron-Strings,"a foot , for she had slipped . She made """,shooing,""" gestures at Clare . "" How much does Miss Crosby owe",0,,1,1,1,1,scare-quoted 'shooing' but describes actual gestures at Clare
+mgc0834,shoo,shooing,MAG,Parenting,that you could come off like a scrooge if you start,shooing,"kids away . You want to seem reasonable , not inhospitable .",0,,1,1,1,1,habitual/generic but still describes the directive act type
+mgc0853,shoo,shooing,NEWS,Atlanta,", "" said Russell , flicking her left hand as if",shooing,"away a fly . # Rocking slowly on her back-porch swing ,",0,,1,1,1,1,embedded in simile but verb still in its interactional sense
+mgc0861,boo,booed,NEWS,NYTimes,#. ' # She had worried that she might be,booed,"off the stage , her son said . Instead , everyone applauded",0,,1,1,1,1,
+mgc0864,boo,booed,FIC,Bk:ChristmasCarol,"#and more foreclosures are scheduled .... "" # The crowd",booed,", until Seth held up his hand for silence . # """,0,,1,1,1,1,
+mgc0865,shoo,shoos,FIC,JungleLawNovel,", like the dogs in the old fairy tale . He",shoos,these thoughts and images away as he sets his spectacles over his,0,,1,1,0,1,metaphorical extension to thoughts/images; no responsive addressee
+mgc0877,boo,booed,MAG,Time,#of booing deep and raw . A few people both,booed,and clapped at once . Shouting matches broke out between,0,,1,1,1,1,
+mgc0890,boo,booed,MAG,SportsIll,#Hope . We booed him off the stage . We,booed,the Smothers Brothers off the stage . We made Paula Poundstone,0,,1,1,1,1,
+mgc0896,boo,booing,NEWS,Chicago,good prophet : The first mention of the issue brought sustained,booing,from many of the spoo delegates and guests present . A small,0,,1,1,1,1,
+mgc0913,shoo,shooing,FIC,Build-Up,", flushed and ravenously hungry , was in the act of",shooing,away a bothersome yellow jacket which was attacking the food.,0,,1,1,1,1,
+mgc0915,shoo,shooing,FIC,ClockWithoutHands,was turned into the matting . Minna and a maid were,shooing,shrieking children into the dressing rooms . Nobody paid any,0,,1,1,1,1,
+mgc0939,shoo,shoos,FIC,Analog,", but none of the equipment is recognizable . # Nagkmur",shoos,"her away and sits her by the table , where he questions",0,,1,1,1,1,
+mgc0941,boo,booed,MAG,NewRepublic,#accepting speaking engagements for the first time since he was,booed,off the stage at the 1944 Democratic convention at Dallas . He,0,,1,1,1,1,
+mgc0959,shoo,shooing,TV/MOV,Psych,here . Shoo . And we 're shooing . We 're,shooing,. We 're shooing . Auf wiedersehen . Sweet . You heard,0,,1,1,1,1,
+mgc0972,boo,booed,MAG,SportsIll,#docs not tip his cap : a ) he is,booed,; b ) he becomes manager of the Texas Rangers . //,0,,1,1,1,1,
+mgc0996,wow,wowing,MAG,Time,"#City , Rome , Bonn and Geneva . Batoman is",wowing,them on TV in Tokyo and playing in Buenos Aires and London,0,,1,1,1,1,
+mgc1005,wow,wowing,NEWS,WashPost,#bids for minor office . The young Kennedys are n't,wowing,"voters . Now comes the third generation of Bushes , clinging to",0,,1,1,0,1,"generic political assessment; 'voters' as polling abstraction, not live audience"
+mgc1007,boo,booed,NEWS,Chicago,#for the last 16 years . I ' ve been,booed,"by 60 , 000 people . "" Ask Judge Bob Thomas what",0,,1,1,1,1,
+mgc1062,boo,booed,MAG,Time,"#abuse . # "" The first time I was ever",booed,"in my life was with the Cowboys , "" says Meredith .",0,,1,1,1,1,
+mgc1072,wow,wowing,NEWS,WallStJrnl,#and favoring added incentives for private investment .,Wowing,"Colorado Businessmen In Colorado , which just elected a",0,,1,1,1,1,headline elliptical; reads as live political event
+mgc1097,boo,booed,MAG,SportsIll,#If the players here have been spoiled by not being,booed,"and we 've changed that , "" relief pitcher Randy Flores says",0,,1,1,1,1,
+mgc1108,boo,booed,TV/MOV,Freaks and Geeks,#got booed off the stage . We did n't get,booed,off the stage . So what do you say ? You wan,0,,1,1,1,1,
+mgc1121,boo,booed,NEWS,NYT-Reg,"#fans , the gathering could boo , too . It",booed,"President Roosevelt , all New Dealers , Mayor La Guardia ,",0,,1,1,1,1,
+mgc1130,boo,booed,MAG,SportingNews,"#in Boston , mind you-hated Walker . Hated him .",Booed,"him relentlessly , like the time in April 1999 when Walker began",0,,1,1,1,1,
+mgc1143,boo,booed,MAG,NewRepublic,#it is reasonable to suppose that the hostile crowd which,booed,Mr. Wallace on his arrival was either paid by or influenced by,0,,1,1,1,1,
+mgc1171,boo,booed,MAG,Sierra,#The timber industry applauded and the environmental community,booed,". The big problem , complained critics like Chris Ballantyne ,",0,,1,1,0,1,"figurative collective response in journalistic commentary, not live audience"
+mgc1177,shoo,shooing,FIC,ShadowBoxer,"Blood drew him out only once , abou bees , after",shooing,"a yellow jacket off his food . "" I saw a man",0,,1,1,1,1,
+mgc1178,boo,booing,TV/MOV,Married with Children,"for seven years in a row . Why , hissing and",booing,"you actually seems to energize the whole convention . Peg , do",0,,1,1,1,1,
+mgc1202,wow,wowed,MAG,The Verge,#come to life and hopes the people watching are as,wowed,"by the sphere as he is . "" It 's fun to",0,,1,1,1,1,live viewing-and-reacting to the sphere
+mgc1207,shoo,shooed,FIC,Bk:LastChanceBeauty,and peered under the lid of the cardboard box . Granny,shooed,her away . But then Granny lifted up the box lid and,0,,1,1,1,1,
+mgc1213,shoo,shoos,FIC,HeadOW-Hollow,on the fence posts . Constable Ricks runs down there and,shoos,them away and strikes the air at them as they fly with,0,,1,1,1,1,
+mgc1226,ooh,oohing,FIC,Play:IphigeniaCrash,FRESA GIRL 1 2 Take us . ALL FRESA GIRLS IPHIGENIA,Oohing,and aahing into infinity . ALL FRESA GIRLS freeze mid-dance .,0,,1,1,1,0,"stylised stage direction; no specific recoverable target, 'into infinity' is manner"
+mgc1251,shoo,shooed,FIC,VirginiaScout,. And Mrs. Davis bustled out of the cabin and energetically,shooed,the curious youngsters away . And now I was riding away to,0,,1,1,1,1,
+mgc1258,wow,wowed,MAG,USCatholic,#all U.S. prison inmates . By the time Denzel Washington,wowed,"us with his portrayal of Hurricane Carter last year , African",0,,1,1,1,1,film performance + audience uptake; like 'wowed the crowd'
+mgc1273,ooh,oohing,FIC,FantasySciFi,". She spent hours peeking into every nook and cranny ,",oohing,and aahing at the flowery wallpaper and the elegant carved,0,,1,1,1,1,
+mgc1275,wow,wowed,MAG,NewRepublic,"#. ) The earliest commentators , most of whom were",wowed,"by Picasso the person , got wrong who did what . and",0,,1,1,0,1,"descriptive characterisation of commentators' attitudes, not a live event"
+mgc1316,shoo,shooing,FIC,FantasySciFi,"Tell the women to bring hot water-boiling if possible . """,Shooing,"the frightened men away , Klara rapped orders to the women .",0,,1,1,1,1,
+mgc1319,boo,booed,MAG,Newsweek,#. Terry Branstad watched his popularity ratings plummet and was,booed,at football games before he finally said he would no longer stand,0,,1,1,1,1,
+mgc1329,boo,booed,NEWS,Chicago,"#and three members of the community . "" Oviatt was",booed,and jeered during his appearance . The campus has had sporadic,0,,1,1,1,1,
+mgc1345,shoo,shooed,FIC,FranklyMyDearIm,"tour business with no phones , "" Luke grumbled as she",shooed,"him out of the office . # "" You , too ,",0,,1,1,1,1,
+mgc1357,boo,booed,MAG,Time,"#attended a football game in Sao Paulo , the crowd",booed,him out of the stadium .,0,,1,1,1,1,
+mgc1372,shoo,shooing,FIC,Moth,it was Helen that had thrown it . Mr. Legg began,shooing,"her into the house . All that took maybe one second ,",0,,1,1,1,1,
+mgc1382,shoo,shoos,FIC,Mov:TomHorn,"outta here . THE CAMERA PANS To Deputy Proctor , who",shoos,the children away as he approaches . PAN ACROSS the children as,0,,1,1,1,1,
+mgc1390,boo,booed,MAG,Time,#well-mannered meetings of the Federation . The galleries,booed,and cheered with organized isolationist efficiency . # The,0,,1,1,1,1,
+mgc1394,shoo,shooing,FIC,Stroll,"'ll see if he comes up now , she raged ,",shooing,the black smoke out the offending window . He came up all,0,,1,1,0,1,metaphorical extension to smoke; no responsive entity
+mgc1397,shoo,shooed,FIC,Bk:StayNovel,". # The kids ' free time evaporated , and David",shooed,"them one at a time toward the bath , reminding Brent that",0,,1,1,1,1,
+mgc1410,shoo,shooed,FIC,OriginBrunists,"a ragged throw rug in a corner with the cockroaches ,",shooed,"the older one , boy about three or four , on out",0,,1,1,1,1,
+mgc1425,boo,booed,TV/MOV,The Taking of Pelham...,#'ll happen ? What always happens . I 'll get,booed,. - He 's a very sick man . - Will you,0,,1,1,1,1,
+mgc1439,shoo,shooed,FIC,JeremyBell,so a lot of ' em paid their dollar and they,shooed,"the rest of us out . "" "" Hell , "" said",0,,1,1,1,1,
+mgc1448,shoo,shooing,FIC,SouthernRev,"has accumulated , and a flight attendant is already there",shooing,"people back to their seats , and the overhead speaker is going",0,,1,1,1,1,

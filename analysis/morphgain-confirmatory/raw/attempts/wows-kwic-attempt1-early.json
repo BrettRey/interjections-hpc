@@ -1,0 +1,395 @@
+{
+  "url": "https://www.english-corpora.org/coha/x3.asp?alpha=y&s1=1&s2=2&s3=3&own=y",
+  "title": "",
+  "text": "(SHUFFLE)\nL\t-\t-\t-\t-\t1\t2\t3\tR\t \t*\t \tRE-SORT\t?\n\n     CLICK FOR MORE CONTEXT\t  \t TRANSLATE  \t ANALYZE   \t  HELP     \t    AI: patterns   *\n1\t2005\tMAG\tTime\t\t\t\the has aged # WARREN BUFFETT ,  75  The  investment  seer \t  wows \t  20,000   at   his   annual  revival . Lately he has bought utilities\n2\t1981\tNEWS\tChicago\t\t\t\twatch , Now I 'm counting the  days  again  .  Indopondont \t  Wows \t  Alliance\n3\t2013\tNF/ACAD\tJIssuesNursing\t\t\t\treal-time charting as a key time saver  .  Use  of  the \t  WOWs \t  also   allowed   nurses   to  spend more time in the patients ' rooms\n4\t1988\tFIC\tPlay:StickHorse\t\t\t\tWhat else have we done but drink  and  dance  at  pow \t  wows \t  and   hang   around   Indian  rodeo ? JAKE We 've made our donations\n5\t1969\tFIC\tHarpers\t\t\t\t, schmilling it over the side bye-bye  ,  Russians  .  Muffled \t  wows \t  around   the   quiet   trio  , Gary still hanging on the lines .\n6\t2003\tMAG\tSmithsonian\t\t\t\t. The marvel is that  the  septuagenarian  Haynes  still \t  wows \t  cutting-edge   musicians   .   In  1997 , he cut short a vacation in\n7\t2003\tMAG\tSmithsonian\t\t\t\tgreatest drummers of all time still riffs  up  a  storm  and \t  wows \t  fellow   musicians   #    YOU  MAY NOT HAVE HEARD of Roy Haynes ,\n8\t1948\tMAG\tTime\t\t\t\tlanguage spoken . \" # A good  mimic  ,  she  often \t  wows \t  French   audiences   with   take-offs  of people who heckle husband\n9\t1971\tFIC\tHarpers\t\t\t\tin command , no grooving on color  and  form  ,  no \t  wows \t  from   them   ,   but  precision , and only after can they let\n10\t1917\tNEWS\tNYT-Ed\t\t\t\t, Tammany demands , for his  removal  .  But  Commissioner \t  Wows \t  has   the   opportunity   to  increase his already great reputation by\n11\t1932\tTV/MOV\tIs My Face Red?\t\t\t\t. He 's used it for years  and  years  that  still \t  wows \t  him   .   Sorry   .  [telephone_ringing] Hello . Oh , just a minute\n12\t2012\tFIC\tAnalog\t\t\t\tsomething being dissolved running backward . \"   #  \"  It  still \t  wows \t  me   to   see   it  . This kind of work does n't really\n13\t1988\tFIC\tPlay:StickHorse\t\t\t\tthe ditch . We 're the lawnchair  club  at  the  pow \t  wows \t  now   .   The   slow  dance at Factor 's . (JAKE HOLDS\n14\t1969\tFIC\tMov:Creak\t\t\t\tside of an alp , and ran  my  toes  through  the \t  wows \t  of   afghanistan   .   116  In the north was the nothing , towards\n15\t1976\tMAG\tTime\t\t\t\tyou replace a swinging conductor who wears  a  Beatle  hairdo  and \t  wows \t  the   crowds   with   his  lithe podium acrobatics ? If the man is\n16\t1991\tMAG\tRollingStone\t\t\t\tDead (JAY BLAKESBERG ) # Photos  :  Above  :  Ice-T \t  wows \t  the   Lollapalooza   crowd   .  Right : One of the sideshow attractions",
+  "tables": [
+    [
+      [
+        "(SHUFFLE)",
+        "L\t-\t-\t-\t-\t1\t2\t3\tR\t \t*\t \tRE-SORT\t?"
+      ]
+    ],
+    [
+      [
+        "L",
+        "-",
+        "-",
+        "-",
+        "-",
+        "1",
+        "2",
+        "3",
+        "R",
+        "",
+        "*",
+        "",
+        "RE-SORT",
+        "?"
+      ]
+    ],
+    [
+      [
+        "",
+        "SORT",
+        "LIMIT",
+        "Examples / notes"
+      ],
+      [
+        "Genre",
+        "--",
+        "-----\n\t\t\tTV/Movies\n\t\t\tFiction\n\t\t\tMagazine\n\t\t\tNewspaper\n\t\t\tNF/Acad"
+      ],
+      [
+        "Year",
+        "--",
+        "to",
+        "1992 to 1997"
+      ],
+      [
+        "Source",
+        "--",
+        "",
+        "New York Times or bbc.co.uk"
+      ]
+    ],
+    [
+      [
+        "Because both the node word and the collocate occur more than 400,000 times in the corpus, the entries below come from a smaller subset\nof the entire corpus, which represents about 5-10% of the complete corpus."
+      ]
+    ],
+    [
+      [
+        "CLICK FOR MORE CONTEXT",
+        "Click on audio icon at translation site to hear text.",
+        "Translate to EN\n(Change and then reload this page)",
+        "Select entries below | ADD TO\n\n\t----------\n\n NEW\n\n [?]\n  SEE LISTS\n\nEN:\n\nAfrikaans\nAlbanian\nAmharic\nArabic\nArmenian\nAzerbaijani\nBasque\nBelarusian\nBengali\nBosnian\nBulgarian\nBurmese\nCatalan\nCebuano\nChichewa\nChinese (S)\nChinese (T)\nCorsican\nCroatian\nCzech\nDanish\nDutch\nEnglish\nEsperanto\nEstonian\nFilipino\nFinnish\nFrench\nFrisian\nGalician\nGeorgian\nGerman\nGreek\nGujarati\nHaitian C\nHausa\nHawaiian\nHebrew\nHindi\nHmong\nHungarian\nIcelandic\nIgbo\nIndonesian\nIrish\nItalian\nJapanese\nJavanese\nKannada\nKazakh\nKhmer\nKorean\nKurdish\nKyrgyz\nLao\nLatin\nLatvian\nLithuanian\nLuxembourgish\nMacedonian\nMalagasy\nMalay\nMalayalam\nMaltese\nMaori\nMarathi\nMongolian\nNepali\nNorwegian\nPashto\nPersian\nPolish\nPortuguese\nPunjabi\nRomanian\nRussian\nSamoan\nScots Gaelic\nSerbian\nSesotho\nShona\nSindhi\nSinhala\nSlovak\nSlovenian\nSomali\nSpanish\nSundanese\nSwahili\nSwedish\nTajik\nTamil\nTelugu\nThai\nTurkish\nUkrainian\nUrdu\nUzbek\nVietnamese\nWelsh\nXhosa\nYiddish\nYoruba\nZulu\n\nSelect entries below to translate |\nFor one line below:\n\n<< Change language\n\n Select entries below |\nThen click button to analyze text; see word definitions; find related phrases",
+        "",
+        "WORD PAGE:\nCOCA\niWeb",
+        "DIC:\n\nD\nM\nO\nC\nG\nE",
+        "TR\n WEB\n IMG\n VID",
+        "",
+        "TRANSLATE",
+        "ANALYZE",
+        "HELP",
+        "AI: patterns   *"
+      ]
+    ],
+    [
+      [
+        "SINGLE ENTRY / LINE\n\n(CLOSE HELP)"
+      ],
+      [
+        "",
+        "Listen to the text (click on\n\t\t at the translation website)"
+      ],
+      [
+        "",
+        "Translate the text (after the first translation, you can change the language in the\n\t\tblue section above)"
+      ],
+      [
+        "",
+        "Select individual words, and then see info on words (see next\n\t\tsection). Click again to deselect."
+      ],
+      [
+        "SINGLE WORD (choose from words, after clicking\n\t\t on a given line).\n\t\t(See example)"
+      ],
+      [
+        "{ WORD }",
+        "Search for the word in the corpus (from main search page: list,\n\t\tchart, collocates, etc)"
+      ],
+      [
+        "WORD PAGE",
+        "(From COCA or iWeb) Collocates, related topics, related words,\n\t\tsynonyms, clusters, KWIC, and more"
+      ],
+      [
+        "DICTIONARY",
+        "Links to entries from several online dictionaries (Oxford,\n\t\tMerriam-Webster, etymology, etc)"
+      ],
+      [
+        "",
+        "Translation, web search, image search, video/pronunciation"
+      ],
+      [
+        "MULTIPLE ENTRIES (see links in gray above; click on text entries below to add\n\t\tto group)"
+      ],
+      [
+        "SAVE",
+        "",
+        "Save entries for later use. Can also move, delete, and\n\t\texpand entries. Categorize entries by clicking on A|B|C in entry."
+      ],
+      [
+        "TRANSLATE",
+        "",
+        "See translation for multiple lines, with original lines in English\n\t\tand their translations grouped together; you can choose from 100+ languages."
+      ],
+      [
+        "ANALYZE",
+        "",
+        "Create \"text\" composed of selected lines, and then see keywords,\n\t\tfind related phrases for words in the text, and see detailed \"word\"\n\t\tpages for any word in the \"text\"."
+      ]
+    ],
+    [
+      [
+        "Please consider supporting the corpora by getting an (individual)\npremium license or a (university-wide)\nacademic license.\nIf you have a license, you won't see these messages anymore."
+      ]
+    ],
+    [
+      [
+        "1",
+        "379675",
+        "2005",
+        "MAG",
+        "Time",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "he has aged # WARREN BUFFETT ,  75  The  investment  seer",
+        "wows",
+        "20,000   at   his   annual  revival . Lately he has bought utilities"
+      ],
+      [
+        "2",
+        "735160",
+        "1981",
+        "NEWS",
+        "Chicago",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "watch , Now I 'm counting the  days  again  .  Indopondont",
+        "Wows",
+        "Alliance"
+      ],
+      [
+        "3",
+        "4157167",
+        "2013",
+        "NF/ACAD",
+        "JIssuesNursing",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "real-time charting as a key time saver  .  Use  of  the",
+        "WOWs",
+        "also   allowed   nurses   to  spend more time in the patients ' rooms"
+      ],
+      [
+        "4",
+        "13311",
+        "1988",
+        "FIC",
+        "Play:StickHorse",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "What else have we done but drink  and  dance  at  pow",
+        "wows",
+        "and   hang   around   Indian  rodeo ? JAKE We 've made our donations"
+      ],
+      [
+        "5",
+        "23865",
+        "1969",
+        "FIC",
+        "Harpers",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        ", schmilling it over the side bye-bye  ,  Russians  .  Muffled",
+        "wows",
+        "around   the   quiet   trio  , Gary still hanging on the lines ."
+      ],
+      [
+        "6",
+        "386551",
+        "2003",
+        "MAG",
+        "Smithsonian",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        ". The marvel is that  the  septuagenarian  Haynes  still",
+        "wows",
+        "cutting-edge   musicians   .   In  1997 , he cut short a vacation in"
+      ],
+      [
+        "7",
+        "386551",
+        "2003",
+        "MAG",
+        "Smithsonian",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "greatest drummers of all time still riffs  up  a  storm  and",
+        "wows",
+        "fellow   musicians   #    YOU  MAY NOT HAVE HEARD of Roy Haynes ,"
+      ],
+      [
+        "8",
+        "228072",
+        "1948",
+        "MAG",
+        "Time",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "language spoken . \" # A good  mimic  ,  she  often",
+        "wows",
+        "French   audiences   with   take-offs  of people who heckle husband"
+      ],
+      [
+        "9",
+        "23878",
+        "1971",
+        "FIC",
+        "Harpers",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "in command , no grooving on color  and  form  ,  no",
+        "wows",
+        "from   them   ,   but  precision , and only after can they let"
+      ],
+      [
+        "10",
+        "683542",
+        "1917",
+        "NEWS",
+        "NYT-Ed",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        ", Tammany demands , for his  removal  .  But  Commissioner",
+        "Wows",
+        "has   the   opportunity   to  increase his already great reputation by"
+      ],
+      [
+        "11",
+        "1023066",
+        "1932",
+        "TV/MOV",
+        "Is My Face Red?",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        ". He 's used it for years  and  years  that  still",
+        "wows",
+        "him   .   Sorry   .  [telephone_ringing] Hello . Oh , just a minute"
+      ],
+      [
+        "12",
+        "4122013",
+        "2012",
+        "FIC",
+        "Analog",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "something being dissolved running backward . \"   #  \"  It  still",
+        "wows",
+        "me   to   see   it  . This kind of work does n't really"
+      ],
+      [
+        "13",
+        "13311",
+        "1988",
+        "FIC",
+        "Play:StickHorse",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "the ditch . We 're the lawnchair  club  at  the  pow",
+        "wows",
+        "now   .   The   slow  dance at Factor 's . (JAKE HOLDS"
+      ],
+      [
+        "14",
+        "24511",
+        "1969",
+        "FIC",
+        "Mov:Creak",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "side of an alp , and ran  my  toes  through  the",
+        "wows",
+        "of   afghanistan   .   116  In the north was the nothing , towards"
+      ],
+      [
+        "15",
+        "284474",
+        "1976",
+        "MAG",
+        "Time",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "you replace a swinging conductor who wears  a  Beatle  hairdo  and",
+        "wows",
+        "the   crowds   with   his  lithe podium acrobatics ? If the man is"
+      ],
+      [
+        "16",
+        "422593",
+        "1991",
+        "MAG",
+        "RollingStone",
+        "A",
+        "B",
+        "C",
+        "",
+        "",
+        "",
+        "Dead (JAY BLAKESBERG ) # Photos  :  Above  :  Ice-T",
+        "wows",
+        "the   Lollapalooza   crowd   .  Right : One of the sideshow attractions"
+      ]
+    ]
+  ]
+}
