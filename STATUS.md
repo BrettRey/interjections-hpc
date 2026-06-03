@@ -1,13 +1,14 @@
 # STATUS.md — English Interjections as HPC
 
-**Status:** Retargeting from *Journal of Historical Pragmatics* to *Journal of Pragmatics* after scope/fit desk rejection.
+**Status:** Submitted to *Journal of Pragmatics*; acknowledgement received and manuscript number assigned.
 **Preprint:** [LingBuzz 009852](https://lingbuzz.net/lingbuzz/009852) — posted 2026-03-22
 **Primary target:** Journal of Pragmatics (Elsevier), full-length article
 **Backup target:** Corpus Pragmatics, only after moving GloWbE/COHA from supplementary support to a central corpus-pragmatics method.
-**Journal decision:** Journal of Historical Pragmatics (John Benjamins), manuscript JHP-26024; declined without external review on 2026-06-03.
-**Submitted:** 2026-06-02
-**Decision received:** 2026-06-03
-**Pages:** 33 (blind build, 2026-06-02)
+**Current submission:** Journal of Pragmatics, PRAGMA-D-26-00584; submitted/received 2026-06-03; status folder: "Submissions Being Processed."
+**Previous journal decision:** Journal of Historical Pragmatics (John Benjamins), manuscript JHP-26024; declined without external review on 2026-06-03.
+**JHP submitted:** 2026-06-02
+**JHP decision received:** 2026-06-03
+**Pages:** 33 (blind build, 2026-06-03)
 **Blind toggle:** `\blindtrue` / `\blindfalse` in main.tex line 7
 
 ### 2026-03-22 Session Notes
@@ -44,6 +45,12 @@
 - Abstract is 160 words and keywords are within JoP's 1--7 keyword requirement.
 - `make quick` builds the 33-page PDF with no overfull boxes, undefined references, undefined citations, or rerun warnings; 9 underfull hbox warnings remain.
 
+### 2026-06-03 JoP Submission
+- Submitted to *Journal of Pragmatics* as a full-length article under the title "What English Interjections Let Us Predict: Stable Causal-Pragmatic Clustering and Path Dependence."
+- Automated acknowledgement received from *Journal of Pragmatics* with manuscript number PRAGMA-D-26-00584.
+- Editorial Manager status location: "Submissions Being Processed" at https://www.editorialmanager.com/PRAGMA/.
+- Submission materials disclose Claude (Anthropic) use in the blind manuscript and title page.
+
 ### 2026-06-02 Session Notes
 - Completed coherence, cohesion, and redundancy passes before submission, including the local feedback/control passage, line-overrun repairs, and tighter phrasing around projectibility, maintenance, and homeostasis.
 - Expanded initialisms at first occurrence, including GloWbE, COHA, NP, VP, CV, CrI, ELPD, SE, PSIS, KWIC, OCR, and ED50.
@@ -52,6 +59,6 @@
 - `make quick` builds the 33-page PDF with no overfull boxes, undefined references, undefined citations, or rerun warnings; 11 underfull hbox warnings remain.
 
 ### Next Actions
-- Check JoP submission requirements and convert any journal-specific formatting after the framing pass.
+- Monitor Editorial Manager for PRAGMA-D-26-00584.
 - The formalist objection remains the strongest conceptual risk: a feature or constructional account may replicate the projectible payoffs without network order.
 - Next-touch theoretical guardrail: consult `../Grammaticality_de_idealized/subprojects/operator-stratum/` to distinguish stable pragmatic projectibility from operator value. Some interactional interjection tokens may configure uptake in closed, accountable repertoires, but the paper should not imply that all interjections are grammatical operators.

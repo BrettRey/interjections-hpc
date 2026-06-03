@@ -16,6 +16,12 @@ Guide for authors: https://www.sciencedirect.com/journal/journal-of-pragmatics/p
 
 Submission system: Elsevier Editorial Manager, via the ScienceDirect "Submit your article" link
 
+Manuscript number: PRAGMA-D-26-00584
+
+Submission status: received by *Journal of Pragmatics*; listed in Editorial Manager under "Submissions Being Processed"
+
+Submission received: 2026-06-03
+
 Article type: Full-length article
 
 Language: English
@@ -372,4 +378,12 @@ Use highlights.docx for highlights.
 Use author-biography.docx for the author biography.
 Do not put acknowledgements in the anonymized manuscript.
 Do not upload PDF alone as the source file.
+```
+
+## Submission Receipt
+
+```text
+Automated acknowledgement received from Journal of Pragmatics on 2026-06-03.
+Manuscript number: PRAGMA-D-26-00584.
+Status tracking: https://www.editorialmanager.com/PRAGMA/ -> Submissions Being Processed.
 ```
