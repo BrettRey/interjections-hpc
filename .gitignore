@@ -21,6 +21,7 @@ analysis/.Rhistory
 
 # Local/generated review and scratch outputs
 proofread-output/
+literature
 literature/
 analysis/fie-code-opus.py
 analysis/morphgain-*.json
