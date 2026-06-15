@@ -18,7 +18,7 @@ Submission system: Elsevier Editorial Manager, via the ScienceDirect "Submit you
 
 Manuscript number: PRAGMA-D-26-00584
 
-Submission status: received by *Journal of Pragmatics*; listed in Editorial Manager under "Submissions Being Processed"
+Submission status: under review at *Journal of Pragmatics* as of notice received 2026-06-15
 
 Submission received: 2026-06-03
 
@@ -385,5 +385,7 @@ Do not upload PDF alone as the source file.
 ```text
 Automated acknowledgement received from Journal of Pragmatics on 2026-06-03.
 Manuscript number: PRAGMA-D-26-00584.
-Status tracking: https://www.editorialmanager.com/PRAGMA/ -> Submissions Being Processed.
+Status tracking: https://www.editorialmanager.com/PRAGMA/ and Elsevier Track Your Submission.
+Under-review notice received from Journal of Pragmatics / Elsevier on 2026-06-15.
+Track Your Submission URL: https://track.authorhub.elsevier.com?uuid=c4efc397-3350-46c5-b402-fad161e6c246
 ```
