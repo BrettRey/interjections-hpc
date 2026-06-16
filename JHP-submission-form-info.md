@@ -388,4 +388,7 @@ Manuscript number: PRAGMA-D-26-00584.
 Status tracking: https://www.editorialmanager.com/PRAGMA/ and Elsevier Track Your Submission.
 Under-review notice received from Journal of Pragmatics / Elsevier on 2026-06-15.
 Track Your Submission URL: https://track.authorhub.elsevier.com?uuid=c4efc397-3350-46c5-b402-fad161e6c246
+SSRN inclusion notice received from Elsevier / SSRN on 2026-06-16.
+SSRN abstract page: https://ssrn.com/abstract=6954254
+Interpretation: additional public preprint/abstract page associated with Elsevier/SSRN, not a JoP peer-review status change.
 ```

@@ -1,7 +1,7 @@
 # STATUS.md — English Interjections as HPC
 
 **Status:** Under review at *Journal of Pragmatics*.
-**Preprint:** [LingBuzz 009852](https://lingbuzz.net/lingbuzz/009852) — posted 2026-03-22
+**Preprints:** [LingBuzz 009852](https://lingbuzz.net/lingbuzz/009852) — posted 2026-03-22; [SSRN 6954254](https://ssrn.com/abstract=6954254) — Elsevier/SSRN notice received 2026-06-16
 **Primary target:** Journal of Pragmatics (Elsevier), full-length article
 **Backup target:** Corpus Pragmatics, only after moving GloWbE/COHA from supplementary support to a central corpus-pragmatics method.
 **Current submission:** Journal of Pragmatics, PRAGMA-D-26-00584; submitted/received 2026-06-03; under review as of Elsevier/JoP notice received 2026-06-15.
@@ -56,6 +56,12 @@
 - Elsevier Track Your Submission URL, no login required but operational rather than public-facing: https://track.authorhub.elsevier.com?uuid=c4efc397-3350-46c5-b402-fad161e6c246
 - Treat the submitted JoP package in `submission/jop-2026-06-03/` as the version under review.
 
+### 2026-06-16 SSRN Posting
+- Elsevier / SSRN notice says the paper has been included on SSRN, abstract ID 6954254: https://ssrn.com/abstract=6954254.
+- Interpret this as an Elsevier/SSRN preprint posting associated with the JoP submission, not as a peer-review decision or change in JoP status.
+- Elsevier's support page says SSRN First Look postings happen when an author actively opts in during submission to a partner journal. If the SSRN posting is unwanted, the email includes a removal link.
+- Keep LingBuzz 009852 as the canonical preprint record for citation unless Brett decides to make SSRN primary.
+
 ### 2026-06-03 Shutdown Notes
 - Shipped the morphology-gain reproducibility package in `analysis/morphgain-confirmatory/`, including scripts, raw/coded data, output summaries, run logs, and `RESULTS.md`.
 - Pushed project commits `d4770f1` ("Add morphology-gain reproducibility package") and `d5ab271` ("Ignore local literature scratch directory").
@@ -70,6 +76,6 @@
 - `make quick` builds the 33-page PDF with no overfull boxes, undefined references, undefined citations, or rerun warnings; 11 underfull hbox warnings remain.
 
 ### Next Actions
-- Monitor Editorial Manager or Elsevier Track Your Submission for PRAGMA-D-26-00584.
+- Monitor Editorial Manager or Elsevier Track Your Submission for PRAGMA-D-26-00584; keep SSRN 6954254 as a secondary public preprint link unless removed.
 - The formalist objection remains the strongest conceptual risk: a feature or constructional account may replicate the projectible payoffs without network order.
 - Next-touch theoretical guardrail: consult `../Grammaticality_de_idealized/subprojects/operator-stratum/` to distinguish stable pragmatic projectibility from operator value. Some interactional interjection tokens may configure uptake in closed, accountable repertoires, but the paper should not imply that all interjections are grammatical operators.

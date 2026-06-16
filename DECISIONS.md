@@ -88,4 +88,6 @@ Draft now 20 pages (was 18).
 
 2026-06-15 — Submission status: PRAGMA-D-26-00584 is now under review at *Journal of Pragmatics*. Reason: Elsevier / JoP notice says the submitted manuscript is currently under review and provides a Track Your Submission link. Keep the tracking URL in private/local operational notes rather than public website/CV surfaces.
 
+2026-06-16 — SSRN posting: Elsevier / SSRN notice says the JoP-submitted paper has been included on SSRN as abstract 6954254 at https://ssrn.com/abstract=6954254. Treat this as an additional public preprint/abstract page, probably from Elsevier's SSRN First Look opt-in pathway, not as a change in peer-review status. Keep LingBuzz 009852 as the canonical public preprint record for now; add SSRN as a secondary public link. If Brett decides he does not want the SSRN copy, use the removal link from the SSRN email and then update public tracking.
+
 2026-06-03 — Reproducibility package scope: commit the morphology-gain confirmatory scripts, raw exports, coded data, output summaries, run records, and `RESULTS.md` because the submitted manuscript points readers to `analysis/morphgain-confirmatory/`. Ignore only local/generated scratch material: root `main.pdf`, `proofread-output/`, `literature/`, one-off Claude wrapper output, and root-level generated morph-gain JSON files.
