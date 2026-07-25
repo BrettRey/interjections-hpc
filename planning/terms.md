@@ -33,7 +33,7 @@ below with what was done. Verbatim report:
 | stabilizer | **Glossed §1**, ladder item: is something holding the combination together? Nine uses were previously unglossed and `check-terms.py` hard-flagged it. |
 | corrective control | **Glossed §1**, ladder item, with the explicit note that only this would license calling the cluster homeostatic and that the paper doesn't claim it. |
 | homeostatic | Cut from six uses to four. R2 asked why the term appears at all. Four of the six were disclaimers telling the reader it doesn't apply, which is what made the apparatus look unmotivated. The survivors are Boyd's lineage, the Boyd quotation, the ladder's corrective-control gloss, and the conclusion's substantive limit claim. |
-| causal-pragmatic kind | Glossed at first use in §1. |
+| ~~causal-pragmatic kind~~ | **Retired 2026-07-25.** See the Retired table. |
 | property cluster | Glossed at first use ("descriptively for the empirical pattern of co-occurring features"). |
 | token | **Footnoted at first use.** Two senses collide in this paper: the interactional-linguistic sense in *change-of-state token* and *response token*, and the paper's own unit of analysis, token as against lexeme. R1 read the first as a type/token error. |
 | path dependence | Rewritten in §1 with a concrete *damn* vs *gee* contrast after R2 called the original paragraph meaningless. |
@@ -50,6 +50,8 @@ below with what was done. Verbatim report:
 | syntactic supplementarity | supplement function | R2: the compound "is never used to describe interjections' syntactic behavior." It was a coinage sitting next to CGEL's established term, which the paper already used elsewhere. Five occurrences replaced. |
 | supports inferences | licenses defeasible inferences | See *licenses* above. |
 | four-stage trajectory (of Gehweiler's *gee* development) | three positions, two mechanisms | Not a terminology fix but an accuracy one: Gehweiler's thesis is that the two transitions work differently, the second abruptly and by hearer re-analysis. "Stage" implied the uniform ladder she argues against. |
+| causal-pragmatic kind | (nothing; the claim is stated directly) | Brett's coinage from the 2026-06-01 calibration, used five times including a subsection heading and a sentence calling it "the paper's central claim", and appearing **nowhere else in the portfolio**: zero hits in *Not Every Stable Cluster*, *Kinds as Projectibility Profiles*, or the history paper. Retired on his decision: "I think I would need a paper to establish that such kinds exist." It also packaged all four objects of the framework into one label, which is the move the history paper argues against. |
+| stable projectible cluster | (nothing) | Same status, one use, also portfolio-unique. Retired with it. |
 | projection target | projective declaration | Superseded. The history paper divides the earlier broad *profile* notion into a claim-side declaration and a worldly profile. |
 | diagnostic ladder, rungs | the four objects | Superseded, and misleading: a ladder implies an order, but stability and network order are independent. A combination can recur without revealing direction among its parts, and a directed dependence can hold without recurring. |
 
