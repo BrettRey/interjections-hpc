@@ -6,6 +6,15 @@
 \usetikzlibrary{arrows.meta,positioning}
 \setlength{\emergencystretch}{3em}
 
+% Numbered examples are language cited as language, so the whole example is a
+% mention; the element under discussion is picked out in bold. Bold rather than
+% underline (a typewriter substitute for italic) or brackets (already load-
+% bearing here for constituents and feature bundles). Both are macros so that a
+% venue prohibiting italicized examples needs one redefinition, not an edit per
+% example.
+\newcommand{\exmention}[1]{\mention{#1}}
+\newcommand{\exfocus}[1]{\textbf{#1}}
+
 % Toggle for blind review: set to true before submission
 \newif\ifblind
 \blindfalse  % \blindtrue for anonymous journal submission; \blindfalse for preprints
@@ -220,7 +229,7 @@ has a label I'll use throughout.
 One form makes the four concrete. Take \mention{gee}, as in
 (\ref{ex:gee}).
 
-\ea\label{ex:gee} \mention{\emph{Gee}, that's a lot of money.}
+\ea\label{ex:gee} \exmention{\exfocus{Gee}, that's a lot of money.}
 \z
 
 The declaration is the claim itself. Observing that \mention{gee} is set off
@@ -383,9 +392,9 @@ phrases, adjective phrases, and adverb phrases can all function as
 supplements \citep[1356--1360]{HuddlestonPullum2002}:
 
 \ea\label{ex:supplements}
-  \ea \mention{Ah}, so you were there after all! \hfill (interjection, p.~1360)
-  \ex We called in to see Sue's parents, \mention{which made us rather late}. \hfill (relative clause, p.~1356)
-  \ex A university lecturer, \mention{Dr Brown}, was arrested for the crime. \hfill (noun phrase, p.~1357)
+  \ea \exmention{\exfocus{Ah}, so you were there after all!} \hfill (interjection, p.~1360)
+  \ex \exmention{We called in to see Sue's parents, \exfocus{which made us rather late}.} \hfill (relative clause, p.~1356)
+  \ex \exmention{A university lecturer, \exfocus{Dr Brown}, was arrested for the crime.} \hfill (noun phrase, p.~1357)
   \z
 \z
 What distinguishes interjection supplements is their combination with
@@ -411,9 +420,9 @@ Supplement function predicts prosodic isolation and resistance to
 syntactic integration:
 
 \ea\label{ex:syntactic-predictions}
-  \ea[*]{\mention{I think that damn we're going to be late.}}
-  \ex \mention{I think that, damn, we're going to be late.}
-  \ex[*]{\mention{Damn and quickly, we left.}}
+  \ea[*]{\exmention{I think that damn we're going to be late.}}
+  \ex \exmention{I think that, damn, we're going to be late.}
+  \ex[*]{\exmention{Damn and quickly, we left.}}
   \z
 \z
 Supplement function also predicts a semantic consequence: if the form is
