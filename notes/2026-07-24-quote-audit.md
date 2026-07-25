@@ -126,3 +126,22 @@ So Libert's paragraph makes a narrow claim (the gap is specifically morphology) 
 The fix strengthens the paper. Libert's distinction is the one the paper actually needs, and it is sharper than the neglect story: interjections have been written about at length, but their *category status* has been denied (Jespersen, Quirk, H&P 2005) and their morphology has gone undescribed. Those are claims about standing and about coverage of one subfield, not about volume of attention, and they survive Libert's objection intact. Under the lexical-category reframe this matters more, not less, since the premise there is denial of category status rather than neglect.
 
 Note also that Libert supplies a source for half the footnote gloss at l. 747–749: "The word interjection comes from the Latin *interjicere* 'to throw between'." That is the verb, not the noun *interjectio*, and Libert says nothing about *ejaculatio*, so it covers part of the footnote only.
+
+## 2026-07-25 addendum: four new quotations, all verified
+
+Four quotations added with the new sources, all PASS against the local PDFs:
+
+| line | source | page | quotation |
+|---|---|---|---|
+| 320 | Cuenca 2002 | 40 | accompanied by phonetic weakness and word integration |
+| 459 | Elffers 2008 | 18 | turned out to fulfil an expressive illocutionary function |
+| 433 | Wharton 2000 | 211 | partly natural and partly coded / at various points along a continuum between showing and saying |
+| 1514 | Cuenca 2002 | 40 | tend to become syntactically and morphologically invariable, but whenever... |
+
+Gate state: PASS=28, MISSING=2 (both pre-existing extraction artifacts: Bullokar 1586 l.84, Boyd 1999 l.876 where the checker's brace-stripping mangles `{from the point of view of}`), NOSOURCE=1, SCAREQUOTE=16.
+
+**Two method notes from this round, both worth keeping.**
+
+*Attribute the number to its own source, not to the reporter.* The 7.04% figure is Hofstede's (1999), which Elffers reports at p. 18. I nearly wrote it as Elffers's own corpus study. The text now says "in Hofstede's analysis," which is what Elffers says. Reported statistics carry two citations, and the one doing the reporting is not the one doing the counting.
+
+*A bare parenthetical page defeats the quote gate.* I first wrote Wharton's two quotations with `\textcite{wharton2000}` earlier in the sentence and a bare `(211)` after them. The checker classified both as SCAREQUOTE rather than verifying them, because it matches a quotation to a source by finding an adjacent citation key *carrying a page*. So the exact failure class that killed this paper had a silent hole in its own detector, opened by ordinary-looking citation form. Fixed by moving the page onto the narrative cite (`\textcite[211]{wharton2000}`) immediately before the quotations. **Rule: any `\enquote{}` of source wording needs a keyed page adjacent to it, not a bare page number.** Watch the SCAREQUOTE count as well as MISSING; a quotation quietly reclassified is a quotation unchecked.
