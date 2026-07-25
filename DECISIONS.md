@@ -357,3 +357,11 @@ Not fixed, worth a look: the Khalidi passage says several causal pathways "conve
 2026-07-25 — Corrects the entry above. "Three such nodes" had no antecedent it could reach. *Such* was pointing at Khalidi's "nodes in causal structures" roughly ninety lines earlier, across the four-objects list, the \mention{gee} worked case, the diachrony passage, and the word-family paragraph. A demonstrative won't carry that far.
 
 The antecedent was available one paragraph up, which opens "The network classifies lexical items in grammatical environments, not word families as wholes." So the sentence now reads "Three nodes in that network are in play here", where *that network* points back a single paragraph. This also states the relation the previous version only implied: these are nodes in the network, not free-standing labels.
+
+2026-07-25 — §2's opening rewritten to separate two different fives and to say why the subscripts go quiet. Brett: "I've just said I'll use subscripts, and then I don't. Also, I've just invoked three different networks and now I'm identifying properties associated with those networks."
+
+The confusion is real and worse than it first looks. Within about a page the reader meets three nodes (§1), then five *domains* (§2's opening list and its subsection structure: phonology, morphology, syntax, semantics, pragmatics), then five *cluster properties* (the diagnostic matrix: prosodic isolation, non-inflection, syntactic non-integration, non-referentiality, emotive/stance force). The two fives are different fives, both presented as organizing the same material, and nothing said so.
+
+§2 now names both explicitly and states the relation: it takes the five domains in turn, five properties emerge from that survey, and the three nodes regroup those five by what each field needs the category to predict, with the subscripts held back until Section 3.4 defines them. That answers the subscript complaint too: their silence through §2 is now declared rather than merely happening.
+
+Three passes were needed because each insertion stranded an anaphor. Putting the new material after "This section takes ... in turn" separated "It answers two questions" from its antecedent; moving it one sentence later separated "These inferences" from theirs. It now sits at the end of the run, before the forward pointers to Sections 4 and 5.
