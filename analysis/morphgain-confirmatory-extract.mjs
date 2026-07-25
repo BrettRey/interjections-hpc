@@ -4,7 +4,7 @@ import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import process from "node:process";
-import playwright from "/Users/brettreynolds/Documents/LLM-CLI-projects/tools/english-corpora/node_modules/playwright/index.js";
+import playwright from "/Users/brettreynolds/projects/LLM-CLI-projects/tools/english-corpora/node_modules/playwright/index.js";
 
 const { chromium } = playwright;
 const ROOT = "https://www.english-corpora.org";
