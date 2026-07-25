@@ -37,6 +37,7 @@ below with what was done. Verbatim report:
 | property cluster | Glossed at first use ("descriptively for the empirical pattern of co-occurring features"). |
 | token | **Footnoted at first use.** Two senses collide in this paper: the interactional-linguistic sense in *change-of-state token* and *response token*, and the paper's own unit of analysis, token as against lexeme. R1 read the first as a type/token error. |
 | path dependence | Rewritten in §1 with a concrete *damn* vs *gee* contrast after R2 called the original paragraph meaningless. |
+| conversational valence | Glossed at first use in §2.6, where Libert's single-property definition is engaged. Libert's term, not the paper's. |
 
 ## Retired
 
