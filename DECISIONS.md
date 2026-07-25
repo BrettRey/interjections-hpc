@@ -337,3 +337,11 @@ Implemented through two macros, \exmention and \exfocus, rather than raw \mentio
 Seven examples converted; two \ea environments deliberately left. The bleaching stages and the \mention{bruh} predictions are prose lists with embedded mentions, not sentences cited as sentences, so the rule doesn't reach them. The three CGEL supplement examples changed markup only; their wording is verbatim from CGEL with page references, and one of them was the subject of a citation-integrity repair earlier today, so it was checked against the rendered output afterwards and is unchanged.
 
 To do when the house style is next touched: this rule belongs in .house-style/style-guide.md. Not added there now because that file already carries uncommitted work, and committing it would sweep unrelated changes into an unrelated commit, which happened once today already.
+
+2026-07-25 — Nodes no longer overlap; their extensions do. Brett questioned "node" in "The label 'interjection' covers the overlap among three partly overlapping nodes."
+
+The term itself is right and stays: it is Khalidi's, it carries the causal-network spine, and it appears 91 times. The problem was the overlap talk attached to it. A node is a position in a causal structure, and positions don't overlap, so saying nodes overlap either says nothing or quietly converts them into regions. The flagged sentence also repeated itself ("the overlap among ... overlapping").
+
+The paper already had the correct formulation, in the caption to Figure 1: "The three field-relative nodes overlap in extension but support different predictions." Both definitional sentences now match it. §1 reads "covers the forms in the extension of three nodes at once"; §5 reads "refers to forms in the extension of all three field-relative nodes", replacing "the zone where the three field-relative nodes overlap".
+
+Two related uses were checked and left. "The nodes overlap because some links contribute to more than one node" is the paper's own gloss on what the overlap consists in, so it explains rather than assumes. "Routine-formula regions of the network" and "keeps the form near the interjection node" use network topology, where neighbourhoods and distance are well defined, rather than treating a node as an area.
