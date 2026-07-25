@@ -1,4 +1,4 @@
-version: "1.0.0"
+version: "1.1.0"
 name: "Brett Reynolds House Style"
 description: "LaTeX and writing conventions for linguistic typology papers"
 
@@ -14,15 +14,15 @@ latex:
         example: "The notion of \\term{definiteness} is complex."
       mention:
         command: "\\mention{}"
-        rendering: "italics"
+        rendering: "ordinary lowercase italics"
         usage: "Words or expressions under discussion (body text)"
         example: "The determinative \\mention{the} is not always definite."
       mentionhead:
         command: "\\mentionhead{}"
-        rendering: "angle brackets ⟨ ⟩"
+        rendering: "italics"
         usage: "Mentions inside headings (\\section, \\subsection, etc.)"
         example: "\\subsection{The unstable case: \\mentionhead{folks}}"
-        rationale: "Italics don't contrast in small-caps headings; angle brackets do"
+        rationale: "Robust heading-safe form of \\mention{} for moving arguments; resets heading small caps"
       olang:
         command: "\\olang{}"
         rendering: "italics"
@@ -106,11 +106,97 @@ prose:
       - "Clearly"
       - "Obviously"
     meta_commentary_labels:
-      - "A note on X:..."
-      - "A caveat on..."
-      - "An aside on..."
-      - "A word about..."
+      phrases:
+        - "A note on X:..."
+        - "A caveat on..."
+        - "An aside on..."
+        - "A word about..."
       rule: "Just say the thing directly or integrate into prose"
+    corrective_framing:
+      patterns:
+        - "it isn't X; it's Y"
+        - "it's not X but Y"
+        - "this isn't about X — it's about Y"
+        - "the point isn't X; the point is Y"
+        - "not only X but Y"
+        - "not just X but Y"
+        - "not merely X but Y"
+        - "not because X but because Y"
+        - "not X but Y (as sentence frame)"
+      rule: "State what something is. Don't define by negation. One correctio per paper maximum."
+      note: "LLMs massively overuse this pattern. It sounds like a TED talk reveal."
+    metacommentary_frames:
+      phrases:
+        - "A potential worry:"
+        - "A related concern is"
+        - "One might object that"
+        - "It's worth noting that"
+        - "An important point here is"
+        - "It bears mentioning that"
+        - "A further limitation:"
+      rule: "Never announce an observation before making it. Delete the frame; state the fact."
+    faux_coaching_structural_spine:
+      rule: "Avoid LLM-style live coaching, structural-engineering metaphors, and aphoristic claims from absence. State the claim, evidence, and consequence directly."
+      high_signal_phrases:
+        - "Let me refine your claim"
+        - "Let me refine your load-bearing claim"
+        - "the one place I'd still push"
+        - "because I think it matters"
+        - "you're doing zero moves there"
+        - "the gap is what's interesting"
+        - "the tell is"
+        - "content-clothes"
+        - "the content isn't actually there"
+        - "structural spine"
+        - "pull one, and the other goes inert"
+      related_banned_metaphors:
+        - "load-bearing claim"
+        - "load-bearing"
+        - "doing the heavy lifting"
+        - "do real work"
+        - "does real work"
+        - "did real work"
+        - "doing real work"
+        - "deserves the weight"
+      replacement: "Make the substantive assertion in ordinary analytic prose. Name the missing premise, absent evidence, failed contrast, or unsupported inference."
+    restatement_as_revelation:
+      rule: "Do not repeat a payload word and land on a vague abstraction such as 'matters' instead of stating the consequence."
+      trigger: "A repeated noun/verb stem across coordinated clauses plus a vague landing phrase."
+      example_wrong: "But the projections split into two grades, and the split matters."
+      example_right: "But the projections split into two grades: one licenses local sorting, the other licenses cross-context inference."
+      severity: "advisory"
+      replacement: "State what follows from the distinction, or cut the sentence if the point was already made."
+    present_self_reference:
+      rule: "Avoid 'the present' self-reference for Brett, his arguments, or his papers."
+      patterns:
+        - "the present author"
+        - "the present paper"
+        - "the present study"
+        - "the present article"
+        - "the present work"
+        - "the present analysis"
+        - "the present account"
+        - "the present argument"
+        - "the present proposal"
+      replacement: "Use 'I', 'this paper', 'this article', 'the account', or the specific claim."
+    paragraph_opener_cadence:
+      rule: "Treat repeated paragraph openers that name the argumentative object rather than making the move as a cadence warning."
+      trigger: "Distributional problem, not a per-sentence ban."
+      severity: "warning"
+      object_naming_threshold: 4
+      the_x_is_y_threshold: 3
+      examples:
+        - "The claim..."
+        - "The account..."
+        - "The problem..."
+        - "This objection..."
+        - "The X is Y."
+      allowed_uses:
+        - "defining a term"
+        - "protecting a needed contrast"
+        - "marking a section-level pivot"
+      note: "The sentence shape is often right: thesis first, evidence after, without throat-clearing. The problem is a noticeable cadence."
+      replacement: "Keep thesis-first openings, but vary the rhythm before the pattern becomes noticeable."
     paragraph_headings:
       rule: "Never use \\paragraph{} headings"
       instead: "Use strong topic sentences and discourse markers"
@@ -119,23 +205,147 @@ prose:
       example_wrong: "**Observation 1.** The first point..."
       example_right: "First, the diagnostic features must cluster..."
     hackneyed_adverbs:
+      - "additionally"
       - "moreover"
       - "furthermore"
       - "nevertheless"
       - "however (sentence-initial)"
+      - "overall (reflexive summary)"
     strong_modals:
       rule: "Prefer should/would over must"
       example_wrong: "The features must cluster reliably"
       example_right: "The features should cluster reliably"
+    coordinate_overuse:
+      rule: "A gerund-participial adjunct can repair a flat 'X, and it/they Y' coordinate when the second conjunct shares the subject and supplies real event structure."
+      trigger: "Distributional problem (the 'and it ... and it ...' cadence), not a per-sentence ban."
+      severity: "warning"
+      example_wrong: "One refinement decides how the filter is handled, and it turns on which effect is wanted."
+      example_right: "One refinement decides how the filter is handled, turning on which effect is wanted."
+      keep_coordinate_when:
+        - "the second conjunct has a different subject (genuine coordination)"
+        - "the verb is copular and an appositive noun phrase fits better ('a scale, a modelling choice')"
+        - "the participle would dangle onto a nearer wrong nominal"
+        - "the repetition is deliberate emphasis"
+      avoid_overcorrection:
+        rule: "Do not convert appraisal or summary into a trailing evaluative '-ing' tag."
+        patterns:
+          - "..., highlighting ..."
+          - "..., underscoring ..."
+          - "..., reflecting ..."
+          - "..., cementing ..."
+          - "..., solidifying ..."
+          - "..., paving the way for ..."
+          - "..., leading to ..."
+          - "..., allowing ..."
+          - "..., resulting in ..."
+      note: "CGEL: gerund-participial clause as adjunct/supplement. The house-style problem is unsupported evaluation, not the construction itself."
+    llm_formulaic_bundles:
+      rule: "Treat formulaic LLM-associated bundles as stronger signals than isolated words."
+      severity: "warning"
+      examples:
+        - "plays a crucial/significant/vital role"
+        - "stands as a testament to"
+        - "underscores the importance of"
+        - "symbol of resilience"
+        - "watershed moment"
+        - "rich cultural heritage"
+        - "rich history"
+        - "key turning point"
+        - "dynamic hub"
+        - "in today's fast-paced world"
+        - "in the ever-evolving landscape of"
+        - "at the intersection of X and Y"
+        - "a treasure trove of"
+        - "deep dive"
+        - "leaves a lasting impact"
+      note: "Flag the bundle, then replace it with the actual mechanism, evidence, or claim."
+    while_maintaining_frame:
+      rule: "Avoid the 'while maintaining/preserving' trade-off frame unless a real trade-off is stated and evidenced."
+      severity: "warning"
+      patterns:
+        - "while maintaining"
+        - "while preserving"
+        - "while ensuring"
+        - "while retaining"
+      replacement: "Name the two quantities or constraints, or remove the managerial balance claim."
+    false_ranges:
+      rule: "Avoid 'from X to Y' ranges that do not name a real scale or exhaustive contrast."
+      severity: "warning"
+      example_wrong: "from intimate gatherings to global movements"
+      replacement: "Name the actual cases or the scale being compared."
+    weasel_attribution:
+      rule: "Name the source or delete the attribution."
+      severity: "warning"
+      patterns:
+        - "some critics argue"
+        - "some scholars suggest"
+        - "observers have noted"
+        - "industry reports suggest"
+        - "research suggests"
+        - "it is widely believed"
+      replacement: "Use a named source, citation, corpus result, or direct claim."
+    lexical_incidence:
+      rule: "Single lexical hits are weak; repeated non-technical high-signal words should be pruned."
+      high_signal_review_threshold_per_article: 2
+      note: "The threshold is a starting lint heuristic, not an empirical law. Also watch recurrence across Brett's papers."
+      high_signal_words:
+        - "delve"
+        - "underscore"
+        - "showcase"
+        - "tapestry"
+        - "realm"
+        - "foster"
+        - "testament"
+        - "vibrant"
+        - "pivotal"
+        - "groundbreaking"
+        - "transformative"
+        - "profound"
+        - "paramount"
+        - "seamless"
+        - "robust"
+        - "comprehensive"
+        - "curated"
+        - "crafted"
+        - "meticulous"
+        - "invaluable"
+        - "noteworthy"
+        - "ever-evolving"
+        - "multifaceted"
+        - "holistic"
+        - "nuanced"
+        - "leverage"
+        - "utilize"
+      watch_words:
+        - "potential"
+        - "findings"
+        - "crucial"
+        - "essential"
+        - "significant"
+        - "key"
+        - "valuable"
+        - "meaningful"
+        - "diverse"
+        - "complex"
+        - "creative"
+        - "critical"
+        - "landscape"
+        - "enhance"
+        - "navigate"
+        - "journey"
+        - "streamline"
+        - "dynamic"
 
   prefer:
     direct_style:
       - "direct verbs"
       - "short clauses"
       - "active voice where appropriate"
+      - "finite agentive clauses when nominalizations are carrying the argument"
     coordinators:
-      - "and"
-      - "but"
+      items:
+        - "and"
+        - "but"
       note: "Simple coordinators over hackneyed adverbs"
     ordinal_markers:
       sequence:
@@ -155,8 +365,31 @@ prose:
         - "Consider first..."
         - "A second illustration..."
         - "The clearest case..."
+    punctuation:
+      clause_initial_pp_comma:
+        rule: "Prefer a comma after a clause-initial preposition phrase when the PP frames the clause."
+        example_wrong: "For HPC-style work in linguistics this implies a division of labour."
+        example_right: "For HPC-style work in linguistics, this implies a division of labour."
+        note: "Advisory style preference, not a linter rule; automatic detection would be noisy."
+    technical_terms:
+      projectibility_first_mentions:
+        rule: "Projectibility is central to Brett's work but unfamiliar to most audiences; at first mention, usually add a brief gloss and a Goodman citation."
+        default_gloss: "projectibility (what observing some features licenses us to predict about others; Goodman 1955)"
+        latex_citation_key: "Goodman1955"
+        note: "Audience-sensitive advisory rule. Specialist philosophy-of-science audiences may need less; linguistics, education, AI, or public audiences usually need more."
     concrete_before_abstract:
       rule: "Introduce technical apparatus with concrete examples or plain-language motivation"
+    llm_shadow_repairs:
+      rule: "Where the genre allows it, restore interaction, repair, risk, idiolect, punctuation variety, local genre habits, and uneven rhythm lost in LLM-smoothed prose."
+      use_when_warranted:
+        - "first-person stance"
+        - "local qualification"
+        - "self-correction"
+        - "direct criticism"
+        - "concrete verbs and actors"
+        - "short sentences or fragments"
+        - "genre-normal passives and hedges"
+      avoid: "Do not add fake chumminess, errors, or staged informality."
 
 # Citations (biblatex with natbib=true)
 citations:
@@ -175,6 +408,20 @@ citations:
 
 # Document structure
 document_structure:
+  front_matter:
+    keywords:
+      default_in_seed: true
+      visible_line: "\\noindent\\textbf{Keywords:} keyword one; keyword two; keyword three"
+      pdf_metadata: "pdfkeywords={keyword one, keyword two, keyword three}"
+      rule: "Every paper seed should include keywords by default. Keep the visible keyword line and PDF metadata in sync."
+      visible_separator: "semicolon"
+      metadata_separator: "comma"
+      submission_note: "Replace TODO/generic placeholders before submission."
+
+  references:
+    before_printbibliography: "\\clearpage"
+    rule: "Always put \\clearpage before \\printbibliography so references start on a fresh page after pending floats are flushed."
+
   sections:
     allowed:
       - "\\section{}"
@@ -229,6 +476,23 @@ comparanda:
     target: "semantic targets"
     role: "discourse/pragmatic roles"
     category: "lexical categories or phrasal projections"
+    class:
+      rule: "Never use class as a synonym for category"
+      use_for: "descriptive groupings whose mechanism-backed unity is unknown, mixed, or absent"
+      prefer_category_for: "lexical categories and phrasal projections"
+      avoid_as_category_synonyms:
+        - "word class"
+        - "lexical class"
+        - "syntactic class"
+        - "grammatical class"
+        - "adjective class"
+        - "noun class"
+        - "verb class"
+      allowed_fixed_uses:
+        - "classifier"
+        - "class-averaged F1"
+        - "multi-class prediction"
+        - "quoted or source terminology under discussion"
 
   mappings:
     note: "Remind readers that mappings between axes are rarely one-to-one"

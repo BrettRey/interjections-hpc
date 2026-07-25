@@ -1,15 +1,17 @@
 # STATUS.md — English Interjections as HPC
+<!-- SUMMARY: JoP-rejected on citation integrity; reframing from pragmatics to lexical-category paper; venue is Journal of Linguistics but HELD until LIN-2026-0100 resolves (~Dec 2026) · status: fixing-embarrassments · updated: 2026-07-24 -->
 
-**Status:** Under review at *Journal of Pragmatics*.
-**Preprints:** [LingBuzz 009852](https://lingbuzz.net/lingbuzz/009852) — posted 2026-03-22; [SSRN 6954254](https://ssrn.com/abstract=6954254) — Elsevier/SSRN notice received 2026-06-16
-**Primary target:** Journal of Pragmatics (Elsevier), full-length article
-**Backup target:** Corpus Pragmatics, only after moving GloWbE/COHA from supplementary support to a central corpus-pragmatics method.
-**Current submission:** Journal of Pragmatics, PRAGMA-D-26-00584; submitted/received 2026-06-03; under review as of Elsevier/JoP notice received 2026-06-15.
+**Status:** **REJECTED by *Journal of Pragmatics* 2026-07-23** (PRAGMA-D-26-00584; blanket citation-integrity policy, no revised version accepted). See `notes/2026-07-23-jop-rejection-citation-integrity.md`. **Quote audit completed 2026-07-24** (`notes/2026-07-24-quote-audit.md`): of nine checkable quotations, one was clean; six fixes applied, five source lookups still open.
+**Preprints:** [LingBuzz 009852](https://lingbuzz.net/lingbuzz/009852) — posted 2026-03-22; [SSRN 6954254](https://ssrn.com/abstract=6954254) — Elsevier/SSRN notice received 2026-06-16. **Both carry the two confirmed confabulated quotes and are live. Correcting them is the time-sensitive item.**
+**Frame (2026-07-24):** reframing from pragmatics paper to **lexical-category paper**. Thesis: interjection is a genuine lexical category of English; the cluster's projectibility, not a defining property, is what earns it that status. The projectible payoffs stay and remain largely pragmatic, which is a result rather than a venue. See DECISIONS.md 2026-07-24.
+**Primary target:** ***Journal of Linguistics* — intended, HELD, not submitted.** Hold condition: LIN-2026-0100 (definiteness/projectibility) under review at JL since 2026-06-11, reports expected ~December 2026. Same argument applied to a different English category; do not run both at JL simultaneously. Stretch: *Language* (LSA). Fallback: *Glossa* (OLH), fit UNVERIFIED (site blocks automated fetch).
+**Closed venues:** Journal of Pragmatics (permanent, citation-integrity policy); Journal of Historical Pragmatics (scope). Ruled out 2026-07-24: Corpus Pragmatics, Pragmatics (IPrA), Pragmatics & Cognition, International Review of Pragmatics (Brill AI policy), Language Sciences / Lingua (Elsevier), ELL (concurrent submission).
+**Current submission:** none. (Historical: Journal of Pragmatics, PRAGMA-D-26-00584, submitted 2026-06-03, rejected 2026-07-23.)
 **Previous journal decision:** Journal of Historical Pragmatics (John Benjamins), manuscript JHP-26024; declined without external review on 2026-06-03.
 **JHP submitted:** 2026-06-02
 **JHP decision received:** 2026-06-03
 **Pages:** 33 (blind build, 2026-06-03)
-**Blind toggle:** `\blindtrue` / `\blindfalse` in main.tex line 7
+**Blind toggle:** `\blindtrue` / `\blindfalse` in main.tex line 11. **Currently `\blindfalse`** (unblinded, for preprint posting); flip back before any journal submission.
 
 ### 2026-03-22 Session Notes
 - Pre-registered COHA fie study completed: negative result (simultaneous decline, Pr=0.13), reported honestly
@@ -76,6 +78,28 @@
 - `make quick` builds the 33-page PDF with no overfull boxes, undefined references, undefined citations, or rerun warnings; 11 underfull hbox warnings remain.
 
 ### Next Actions
-- Monitor Editorial Manager or Elsevier Track Your Submission for PRAGMA-D-26-00584; keep SSRN 6954254 as a secondary public preprint link unless removed.
+
+**Now — fix the embarrassments (days of work, not months):**
+1. **~~Quote audit~~ DONE 2026-07-24.** All 27 `\enquote{}` occurrences audited; see `notes/2026-07-24-quote-audit.md`. Of the nine quotations checkable against held sources, **one was clean**: two fabricated (H&P p. 1350, Gehweiler p. 72, the latter with no correct page anywhere in the source), one misquoted (Dingemanse, "space" for "landscape"), four invented hedge words presented as the literature's own (l. 423–425), one right-words-wrong-page (Boyd, 160 not 150). Five more are unverifiable for want of the source (Bullokar, Student's Introduction p. 16, Libert, Coulmas, Wilkins). Five fixes applied, clean rebuild at 33 pages matching baseline.
+2. **~~Hedge sentence~~ DONE 2026-07-24.** The four hedges turned out to be Wilkins's own, misfiled onto the wrong properties; §2.6 now quotes his definition whole (Wilkins 1992: 124, verified verbatim from Gehweiler's block quote at p. 73) with the hedges intact. A `% VERIFY BEFORE SUBMISSION` comment marks the one remaining step: confirm p. 124 against a direct copy of Wilkins.
+3. **Still open from the audit:** five quotations need print or paywalled copies (Bullokar, Student's Introduction p. 16, Libert, Coulmas, Wilkins), the Student's Introduction being quickest.
+4. **Correct the live preprints.** Corrected unblinded PDF built 2026-07-24 and ready to post. LingBuzz 009852: use the "edit this article" link on the entry page (note it still carries the March title "English Interjections as a Homeostatic Property Cluster", so updating retitles the public record). SSRN 6954254: Brett's call between revising via My Papers → Revise and removing outright; removal recommended, since the posting is a First Look artifact of the dead JoP submission, is Elsevier-hosted while the paper retargets to CUP, and duplicates LingBuzz as canonical. Watch for "Restricted by Publisher" on the SSRN entry, which would block author-side edits. No change note (Brett, 2026-07-24).
+5. **Add a quote-verification step to `/submission-gate`.** Also teach `.house-style/check-style.py` to skip `\enquote{}` spans: it currently flags four violations inside the corrected quotations, and clearing them in good faith would rewrite the sources. The defect survived from a March draft to a June submission because nothing in the pipeline reads a quote back against its source.
+6. **Fix `literature/ameka1992-interjections.md`.** It is mirror-reversed OCR (each word character-reversed), so ordinary search returns zero hits and any agent following the house "prefer the .md" rule would wrongly conclude a quote was absent. Re-extract from the PDF. The `.md`-first rule needs a prose-integrity check generally; see the audit note's method warning.
+
+**Then — reframe and deepen:**
+7. Reframe to lexical category: abstract, introduction framing, and the section titles that had "pragmatic" bolted on during the 2026-06-03 JoP pass.
+8. Literature depth on the interjection side. Only 11 of 38 cited works are on interjections, anchored on the 1992 *Journal of Pragmatics* special issue plus Dingemanse 2020/2024. R1's Libert (2012) flag was pointing at this.
+9. Adopt R1's punch list (see `notes/2026-07-23-jop-rejection-citation-integrity.md`).
+
+**Return trigger — ~December 2026:**
+10. When LIN-2026-0100 (definiteness, at JL) gets a decision, revisit the venue hold. Decent verdict → submit interjections to JL. Poor verdict → *Language* or Glossa, and check Glossa's fit by hand first. Complete a venue decision record from `Project-Management/templates/venue-decision-record.md` before any package work. Calendar reminder set for 2026-12-08.
+
+**Standing:**
+- The formalist objection remains the strongest conceptual risk: a feature or constructional account may replicate the projectible payoffs without network order.
 - The formalist objection remains the strongest conceptual risk: a feature or constructional account may replicate the projectible payoffs without network order.
 - Next-touch theoretical guardrail: consult `../Grammaticality_de_idealized/subprojects/operator-stratum/` to distinguish stable pragmatic projectibility from operator value. Some interactional interjection tokens may configure uptake in closed, accountable repertoires, but the paper should not imply that all interjections are grammatical operators.
+
+## Related reading — Cognition 2026 intake (2026-07-14)
+Sources routed from a *Cognition* 2026 batch. Central index: `literature/cognition-2026-intake.md`. Verify claims/citations before use.
+- **The wham–womb phoneme–arousal mapping** [strong] — `notes/lit-cognition-2026-wham-womb-sound-symbolism.md`

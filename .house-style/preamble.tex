@@ -13,36 +13,25 @@
 % ===========================
 \usepackage{fontspec}
 
-\setmainfont{EBGaramond}[
-  Extension=.otf,
-  UprightFont=*-Regular,
-  ItalicFont=*-Italic,
-  BoldFont=*-Bold,
-  BoldItalicFont=*-BoldItalic,
+\setmainfont{EB Garamond}[
   Numbers=OldStyle,
   Ligatures=TeX,
+  BoldFont={EB Garamond},
 ]
 
 % IPA fallback font
-\newfontfamily\ipafont{CharisSIL}[
-  Extension=.ttf,
-  UprightFont=*-Regular,
-  ItalicFont=*-Italic,
-  BoldFont=*-Bold,
-  BoldItalicFont=*-BoldItalic,
-]
+\newfontfamily\ipafont{Charis SIL}
 \newcommand{\ipa}[1]{{\ipafont #1}}
+
+% CJK fallback font (Japanese / Chinese / Korean)
+\newfontfamily\cjkfont{Hiragino Mincho ProN}
+\newcommand{\cjk}[1]{{\cjkfont #1}}
 
 % Lining figures when needed (tables, years in isolation)
 \providecommand{\liningnums}[1]{{\addfontfeatures{Numbers=Lining}#1}}
 
 % Monospace
-\setmonofont{Inconsolatazi4}[
-  Extension=.otf,
-  UprightFont=*-Regular,
-  BoldFont=*-Bold,
-  Scale=MatchLowercase,
-]
+\setmonofont{Inconsolata}[Scale=MatchLowercase]
 
 % ===========================
 % PAGE LAYOUT
@@ -56,7 +45,7 @@
   marginparwidth=0.6in,
 ]{geometry}
 
-\usepackage[british]{babel}
+\usepackage[british]{babel} % Oxford spelling: -ize where standard, British punctuation/hyphenation
 \usepackage[final]{microtype}
 
 % ===========================
@@ -73,7 +62,7 @@
 
 % Subsection: small caps sentence case
 \titleformat{\subsection}
-  {\normalfont\scshape}
+  {\normalfont\normalsize\scshape}
   {\thesubsection\quad}
   {0pt}
   {}
@@ -96,7 +85,12 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\setlength{\headheight}{13.6pt}
+\renewcommand{\sectionmark}[1]{%
+  \markboth{\ifnum\value{secnumdepth}>0 \thesection\quad\fi #1}{}%
+}
+\fancyhead[LE]{\small\scshape\leftmark}
+\fancyhead[RO]{\small\scshape\@title}
+\fancyfoot[LE,RO]{\thepage}
 \renewcommand{\headrulewidth}{0pt}
 
 % For oneside documents (most papers):
@@ -136,9 +130,9 @@
 % Mentions (words/expressions under discussion)
 \newcommand{\mention}[1]{\textit{#1}}
 
-% Mentions in headings (angle brackets instead of italics)
+% Mentions in headings (robust italic form)
 % Robust: headings are moving arguments (written to .toc/.aux)
-\DeclareRobustCommand{\mentionhead}[1]{⟨\textup{#1}⟩}
+\DeclareRobustCommand{\mentionhead}[1]{\texorpdfstring{{\normalfont\itshape\NoCaseChange{#1}}}{#1}}
 
 % Object language (cited forms, foreign words)
 \newcommand{\olang}[1]{\textit{#1}}
@@ -188,8 +182,9 @@
 % BIBLIOGRAPHY
 % ===========================
 \usepackage[backend=biber,style=apa,natbib=true,doi=true,isbn=false,url=true]{biblatex}
-\addbibresource{references.bib}
-\IfFileExists{references-local.bib}{\addbibresource{references-local.bib}}{}
+\IfFileExists{references-standalone.bib}
+  {\addbibresource{references-standalone.bib}}
+  {\addbibresource{references.bib}\IfFileExists{references-local.bib}{\addbibresource{references-local.bib}}{}}
 
 % Possessive citation: Author's (Year)
 \newcommand{\posscite}[1]{\citeauthor{#1}'s (\citeyear{#1})}
@@ -201,3 +196,19 @@
 \newcommand{\eg}{e.g.,\xspace}
 \newcommand{\ie}{i.e.,\xspace}
 \newcommand{\etc}{etc.\xspace}
+
+% ===========================
+% AI-USE DISCLOSURE
+% ===========================
+% House style: place on page 1, immediately after the abstract/keywords, so the
+% AI involvement is visible to the reader up front rather than buried at the end.
+% Argument is the model list (use CURRENT names; frontier names change fast).
+%   \aidisclosure{Claude 4.5 \& Opus 4.8; ChatGPT 5.2 pro; Gemini 3; DeepSeek V3}
+\newcommand{\aidisclosure}[1]{%
+  \par\medskip
+  \noindent{\small\textsc{AI use.}\enspace The large language models #1 served as
+  drafting and editing aids throughout the preparation of this paper. I am
+  responsible for all theoretical claims, arguments, errors, and interpretive
+  choices.\par}%
+  \medskip
+}

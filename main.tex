@@ -8,7 +8,7 @@
 
 % Toggle for blind review: set to true before submission
 \newif\ifblind
-\blindtrue  % change to \blindfalse for accepted version
+\blindfalse  % \blindtrue for anonymous journal submission; \blindfalse for preprints
 
 % Update PDF metadata
 \ifblind
@@ -62,6 +62,13 @@ doesn't establish strict homeostatic control.
 
 \noindent Keywords: interjections; theoretical pragmatics; pragmatic
 markers; projectibility; uptake; stance; path dependence
+
+% CONFIRM MODEL LIST: carried over verbatim from the end-of-paper
+% declaration in the JoP submission, which named only "Claude (Anthropic)".
+% The project's own session notes also record ChatGPT and Elicit at the
+% review-board stage (STATUS.md, 2026-03-22). Decide whether those belong
+% here and whether to name versions.
+\aidisclosure{Claude (Anthropic)}
 
 \section{Introduction}\label{sec:intro}
 
@@ -269,8 +276,9 @@ integration with neighbouring material \citep[152]{meinard2015}.
 \subsection{Syntax}
 
 Interjections characteristically function as \term{supplements},
-\enquote{parenthetical strings that are not integrated in clause
-structure} \citep[1350]{HuddlestonPullum2002}. In \mention{Damn, we're going to be late!}, the
+\enquote{elements which occupy a position in linear sequence without
+being integrated into the syntactic structure of the sentence}
+\citep[1350]{HuddlestonPullum2002}. In \mention{Damn, we're going to be late!}, the
 interjection isn't a complement or modifier of anything in the clause.
 It's appended to the beginning as a parenthetical.
 
@@ -345,9 +353,10 @@ definition.
 
 The contrast with nouns is sharpest where both share a lexical source.
 \mention{Jesus} as a noun refers to a person; \mention{Jesus!} as an
-interjection doesn't. The interjection use has been
-\enquote{bleached of [its] original meaning}, and it no longer refers to
-the entity the noun originally picked out \citep[72]{gehweiler2008}.
+interjection doesn't. In the interjection use, as
+\textcite[88]{gehweiler2008} puts it, \mention{Jesus} \enquote{has lost
+its propositional content, i.e.\ it is no longer used to refer and hence
+no longer influences truth conditions}.
 This semantic shift is part of the recruitment pathway from noun to
 interjection (Section~\ref{sec:causal-structure}).
 
@@ -419,12 +428,20 @@ reliable.
 \subsection{Co-occurrence, not necessity}\label{sec:cooccurrence}
 
 These properties co-occur statistically, not necessarily. The
-literature's characteristic hedges are the point:
-interjections \enquote{commonly} occupy their own intonation unit,
-\enquote{typically} lack inflection, \enquote{usually} resist
-syntactic integration, and \enquote{generally} express emotive meaning
-\citep[cf.][]{ameka1992, wilkins1992}. No single property is necessary
-and sufficient.
+literature's own definitions hedge, and the hedges are the point.
+% VERIFY BEFORE SUBMISSION: this Wilkins wording is verified verbatim from
+% Gehweiler (2008: 73), who block-quotes it with the page. Check against
+% Wilkins 1992: 124 directly when a copy is available; if the relay has to
+% stand, change to "quoted in \textcite[73]{gehweiler2008}".
+\textcite[124]{wilkins1992} defines an interjection as
+\enquote{a conventional lexical form which (commonly and) conventionally
+constitutes an utterance on its own, (typically) does not enter into
+constructions with other word classes, is (usually) monomorphemic, and
+(generally) does not host inflectional or derivational morphemes}. Four
+criteria, a parenthetical hedge on each, and
+\textcite[73]{gehweiler2008} adopts the definition while calling those
+criteria the class's \enquote{obligatory properties}. No single property
+is necessary and sufficient.
 
 The pattern calls for explanation. Network order couples the
 properties: prosodic isolation reinforces syntactic non-integration,
@@ -713,8 +730,8 @@ its explanations and predictions.
 
 A parallel formulation in homeostatic-kind theory makes the point
 explicit: \enquote{A kind may be natural \enquote{from the point of view
-of} some discipline or disciplinary matrix but not \enquote{from the
-point of view of} another} \citep[150]{boyd1999}. The present paper
+of} some discipline or disciplinary matrix, but not \enquote{from the
+point of view of} another} \citep[160]{boyd1999}. The present paper
 treats that formulation as a useful gloss on the causal-network account.
 
 The familiar linguistic parallel is the interrogative/question
@@ -743,8 +760,8 @@ predictions. I distinguish these with subscripts:%
   \textcite{dingemanse2020} for the interactional-pragmatic node.
 
   The Latin
-  \term{ejaculatio} (\enquote{a throwing out}, mirroring \term{interjectio},
-  \enquote{a throwing between}) would have been etymologically perfect
+  \term{ejaculatio}, a throwing out, mirroring \term{interjectio},
+  a throwing between, would have been etymologically perfect
   for the interactional-pragmatic category, but modern English has
   rendered the term unavailable.}
 
@@ -1370,9 +1387,9 @@ available even as its members turn over.
 \textcite{dingemanse2020} characterizes such items as \term{liminal signs},
 signs at the boundary between sound and speech, whose liminality is
 functional, not defective. Cultural evolutionary processes \enquote{sample
-the space of possible resources}. The causal-network account
-describes that space as a property space structured by
-the recruitment pathways and synchronic links above.
+the landscape of possible resources} \citep[191]{dingemanse2020}. The
+causal-network account describes that landscape as a property space
+structured by the recruitment pathways and synchronic links above.
 
 The recruited, ordered, and replenished cluster is now ready for the
 paper's central inferential question: what can partial evidence license?
@@ -1841,13 +1858,9 @@ are available at
 \url{https://github.com/BrettRey/interjections-hpc}.
 \fi
 
-\section*{Declaration of generative AI and AI-assisted technologies in
-the manuscript preparation process}
-
-During the preparation of this work the author used Claude (Anthropic)
-for drafting and revision support. After using this tool, the author
-reviewed and edited the content as needed and takes full responsibility
-for the content of the submitted article.
+% AI disclosure moved to page 1 via \aidisclosure{} after the keywords,
+% per house style from 2026-07-16. The end-of-paper Elsevier-form
+% declaration that stood here has been removed to avoid duplication.
 
 \clearpage
 \begingroup
