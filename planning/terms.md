@@ -38,6 +38,10 @@ below with what was done. Verbatim report:
 | token | **Footnoted at first use.** Two senses collide in this paper: the interactional-linguistic sense in *change-of-state token* and *response token*, and the paper's own unit of analysis, token as against lexeme. R1 read the first as a type/token error. |
 | path dependence | Rewritten in §1 with a concrete *damn* vs *gee* contrast after R2 called the original paragraph meaningless. |
 | conversational valence | Glossed at first use in §2.6, where Libert's single-property definition is engaged. Libert's term, not the paper's. |
+| projective declaration | **Glossed §1.** Claim-side object from the history paper: what's observed, what's predicted, over which cases. Replaces the earlier *projection target*. |
+| warrant | **Glossed §1.** Kept separate from the world-side objects, per the history paper's central revision. Table 2 carries it link by link. |
+| profile / stability | **Glossed §1.** *Profile* is the worldly relation the declaration posits; *stability* is the separate claim that it recurs. Note this is the history paper's sense, narrower than the property-bundle sense the paper used before 2026-07-25. |
+| grounds | **Glossed §1.** What explains the profile's obtaining or persisting. *Stabilizers* and *corrective control* are grounds of increasing strength. |
 
 ## Retired
 
@@ -46,6 +50,8 @@ below with what was done. Verbatim report:
 | syntactic supplementarity | supplement function | R2: the compound "is never used to describe interjections' syntactic behavior." It was a coinage sitting next to CGEL's established term, which the paper already used elsewhere. Five occurrences replaced. |
 | supports inferences | licenses defeasible inferences | See *licenses* above. |
 | four-stage trajectory (of Gehweiler's *gee* development) | three positions, two mechanisms | Not a terminology fix but an accuracy one: Gehweiler's thesis is that the two transitions work differently, the second abruptly and by hearer re-analysis. "Stage" implied the uniform ladder she argues against. |
+| projection target | projective declaration | Superseded. The history paper divides the earlier broad *profile* notion into a claim-side declaration and a worldly profile. |
+| diagnostic ladder, rungs | the four objects | Superseded, and misleading: a ladder implies an order, but stability and network order are independent. A combination can recur without revealing direction among its parts, and a directed dependence can hold without recurring. |
 
 ## Standing rule
 
