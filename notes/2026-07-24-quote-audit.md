@@ -145,3 +145,27 @@ Gate state: PASS=28, MISSING=2 (both pre-existing extraction artifacts: Bullokar
 *Attribute the number to its own source, not to the reporter.* The 7.04% figure is Hofstede's (1999), which Elffers reports at p. 18. I nearly wrote it as Elffers's own corpus study. The text now says "in Hofstede's analysis," which is what Elffers says. Reported statistics carry two citations, and the one doing the reporting is not the one doing the counting.
 
 *A bare parenthetical page defeats the quote gate.* I first wrote Wharton's two quotations with `\textcite{wharton2000}` earlier in the sentence and a bare `(211)` after them. The checker classified both as SCAREQUOTE rather than verifying them, because it matches a quotation to a source by finding an adjacent citation key *carrying a page*. So the exact failure class that killed this paper had a silent hole in its own detector, opened by ordinary-looking citation form. Fixed by moving the page onto the narrative cite (`\textcite[211]{wharton2000}`) immediately before the quotations. **Rule: any `\enquote{}` of source wording needs a keyed page adjacent to it, not a bare page number.** Watch the SCAREQUOTE count as well as MISSING; a quotation quietly reclassified is a quotation unchecked.
+
+## 2026-07-25 addendum 2: the gate checks wording, not pages
+
+Six more quotations added (Cram, Cruz, Poggi), all PASS, total now 34. But this round exposed a limitation in `check-quotes.py` that matters more than the passes.
+
+**The gate verifies that quoted wording appears somewhere in the source PDF. It does not verify the page.** Worse, the page it *prints* in the report is inferred from the nearest keyed citation, so a report line can read `PASS cram2008 p.57` for a quotation the manuscript cites as p. 62 while the wording actually sits on p. 63. All three numbers can disagree and the gate still says PASS.
+
+That happened here. I cited two Cram quotations to p. 62, reading `62` in the extracted stream as the head of the page the sentences were on. It was the *footer* of the preceding page, so both quotations are on p. 63. Caught by re-extracting per page and reading the footer digits, not by the gate.
+
+**Consequence for the submission gate: a green quote check is not a citation-integrity clearance.** It rules out fabricated and altered wording, which is what killed this paper, but a wrong page in an otherwise exact quotation is still a citation defect a reviewer can find in one click. Pages need separate verification.
+
+**Method that works**, and is now the standard for this project:
+
+```python
+# split on \f, find the needle per page, read the footer/header digits
+pages = pdftotext_layout(f).split('\f')
+for i, p in enumerate(pages, 1):
+    if needle in flatten(p):
+        print(i, re.findall(r'\b\d{2,3}\b', p[-60:]))   # footer, not head
+```
+
+Two traps in it. A number at the *start* of an extracted page is usually the previous page's footer, so read the tail. And where a PDF prints no folio on some pages (Poggi's do not), establish the offset from two pages that do and check it against a third: Poggi is pdf p.n = printed 169+n, confirmed by the p. 175 running head.
+
+Verified this round: Cram p. 57 and p. 63 (corrected from 62), Cruz p. 241, Poggi p. 171.
