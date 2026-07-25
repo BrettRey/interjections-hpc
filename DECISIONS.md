@@ -345,3 +345,11 @@ The term itself is right and stays: it is Khalidi's, it carries the causal-netwo
 The paper already had the correct formulation, in the caption to Figure 1: "The three field-relative nodes overlap in extension but support different predictions." Both definitional sentences now match it. §1 reads "covers the forms in the extension of three nodes at once"; §5 reads "refers to forms in the extension of all three field-relative nodes", replacing "the zone where the three field-relative nodes overlap".
 
 Two related uses were checked and left. "The nodes overlap because some links contribute to more than one node" is the paper's own gloss on what the overlap consists in, so it explains rather than assumes. "Routine-formula regions of the network" and "keeps the form near the interjection node" use network topology, where neighbourhoods and distance are well defined, rather than treating a node as an area.
+
+2026-07-25 — The network reactivated where the three nodes are introduced. Brett: "the network idea needs to be activated for node to land properly."
+
+It is activated in §1, in the Khalidi passage ("natural kinds are nodes in causal structures rather than sets defined by essences"), but that sits about ninety lines earlier, and by the time the reader reaches the three field-relative labels the frame has faded. The sentence also asked the reader to unpack a compression: a node is a position in a causal structure, so "the extension of a node" means the extension of the category occupying that position.
+
+Now: "Three such nodes are in play here: a syntactic node, a semantic or use-conditional node, and an interactional-pragmatic node. The label 'interjection' covers the forms that occupy all three at once." *Such* points back to Khalidi, the list comes before the claim so the reader has the three in hand first, and *occupy* keeps the network metaphor honest, since forms occupy positions where they cannot overlap them.
+
+Not fixed, worth a look: the Khalidi passage says several causal pathways "converge on the same pragmatic node," singular, and ninety lines later the reader meets three nodes. Those reconcile (the pragmatic node is one of the three), but a reader may trip on the way. Left alone because fixing it means editing the convergence claim, which is a substantive passage rather than a wording repair.
