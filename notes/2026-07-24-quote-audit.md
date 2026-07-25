@@ -1,11 +1,17 @@
 # Quote audit — full verbatim check of every quotation in main.tex
-<!-- SUMMARY: 27 \enquote{} occurrences audited; 9 checkable against held sources, of which 1 clean, 7 defective, 1 page-wrong; 5 unverifiable for want of the source · status: fixes-pending · updated: 2026-07-24 -->
+<!-- SUMMARY: every quotation in main.tex audited; 8 fixes applied; 13 of 14 source quotations verified, only Libert 2019 unchecked; separate open item: the intro's 'textbook cut it' claim is false of SIEG2, which Brett co-authored · status: 1-quote-open-plus-SIEG2-rewrite · updated: 2026-07-24 -->
 
 Run 2026-07-24 against `main.tex` as submitted to JoP (PRAGMA-D-26-00584). Method: balanced-brace extraction of every `\enquote{}` (27 top-level, 29 counting two nested inside item 17), classification into source quotations vs. scare quotes/mentions, then verbatim string search against the source text with page verification from the PDF page images where pagination was recoverable.
 
 ## Headline
 
-**Of the nine quotations that could be checked against sources held locally, one was clean.** Two are fabricated, one is misquoted, four present invented hedge words as the literature's own, and one has the right words on the wrong page. Five more can't be checked because the source isn't held.
+**Of the nine quotations checkable against sources held locally, one was clean.** Two are fabricated, one is misquoted, four hedge words are attached to the wrong properties, and one has the right words on the wrong page. All six defects are fixed.
+
+Later passes then cleared four of the five quotations the first pass had filed as unverifiable: Bullokar and H&P 2005 from open repositories, Coulmas through Ameka's verbatim reproduction, and Wilkins from Brett's own copy. Only Libert 2019 is still unchecked. Those passes also turned up a separate, non-integrity problem in the introduction: the claim that the textbook cut interjections is false of the second edition, which Brett co-authored.
+
+Two corrections to my own earlier verdicts, both from checking the primary source rather than reasoning about it: Wilkins p. 142 is verbatim, not a fabrication, and my grounds for calling it suspicious (its absence from Ameka) were an argument from the wrong source; and the Wilkins definition's "constructions" was Gehweiler's transcription error, not the paper's.
+
+Running total: **14 source quotations, 13 verified, 1 open (Libert 2019), plus 2 unsourced Latin glosses now unquoted.** Two page numbers still want a look: Bullokar p. 373 (Turner's 1980 pagination) and H&P 2005 p. 16.
 
 ## Verdicts
 
@@ -21,19 +27,33 @@ Run 2026-07-24 against `main.tex` as submitted to JoP (PRAGMA-D-26-00584). Metho
 | 17 | 715 | A kind may be natural "from the point of view of" some discipline or disciplinary matrix but not "from the point of view of" another | Boyd 1999: 150 | **WORDING OK, PAGE WRONG.** The sentence is on printed p. **160** (physical p. 20; offset confirmed across pp. 158–163). One dropped comma: Boyd has "matrix, but not". |
 | 24 | 1372 | sample the space of possible resources | Dingemanse 2020 (no page) | **MISQUOTED.** Dingemanse wrote "sample the **landscape** of possible resources" ("space of possible" 0 hits, "landscape of possible" 1 hit). The substitution is not innocent: the next sentence in `main.tex` leans on "that space" to introduce the paper's own property-space vocabulary. |
 
-## Unverifiable — source not held
+## Second pass, 2026-07-24: three of the five "unverifiable" quotes resolved
 
-Searched `literature/`, the whole portfolio tree, `~/Downloads`, `~/Documents`, and the Mendeley Desktop library.
+The first pass searched only the local filesystem by filename and stopped. Brett pushed back on both counts. A Spotlight content search plus three open repositories resolved three of the five.
 
-| # | Line | Quoted words | Cited as | Note |
-|---|------|--------------|----------|------|
-| 1 | 80 | a sudden passion of the mind | Bullokar 1586: 373 | Not held in any form. |
-| 3 | 94 | there really isn't anything interesting for a grammar to say | H&P 2005: 16 | The Mendeley copy of *A Student's Introduction* is front matter only (3 pages, confirms "First published 2005"). Brett co-authored the 2nd edition and will have a print copy. |
-| 6 | 248 | few, if any, papers focus on the morphology of interjections | Libert 2019 | Oxford Bibliographies, paywalled, no page in the cite. |
-| 9 | 389 | highly conventionalized prepatterned expressions whose occurrence is tied to more or less standard communication situations | Coulmas 1981: 2–3 | The Mendeley "Coulmas" folder holds only a Festschrift, not *Conversational Routine*. |
-| 10 | 396 | a distinct pragmatic and semantic subtype of interjections | Wilkins 1992: 142 | Not held. Also the second source behind items 11–14. |
+| # | Line | Quoted words | Cited as | Verdict |
+|---|------|--------------|----------|---------|
+| 1 | 80 | a sudden passion of the mind | Bullokar 1586: 373 | **VERIFIED.** Bullokar's own text, from the Oxford Text Archive's open plain-text edition (`ota.bodleian.ox.ac.uk/.../0025`, `bullok2-0025.txt`, CC BY-NC-SA): "An Interi}ection iz a part of spe^ch that be^\|]to^kn^e}t}h a su}dden passion of the my^nd", i.e. in normalized spelling "An Interjection is a part of speech that betokeneth a sudden passion of the mind." The paper's gloss ("words that betoken") tracks Bullokar's "betokeneth" exactly. Page 373 is Turner's 1980 Leeds pagination and remains unchecked; the OTA text is unpaginated. |
+| 3 | 94 | there really isn't anything interesting for a grammar to say | H&P 2005: 16 | **VERIFIED as wording**, and fuller than the paper suggests: "Leaving aside the minor category of interjections (covering words like *oh, hello, wow, ouch*, etc., about which there really isn't anything interesting for a grammar to say)". Page 16 still unchecked. **But see the SIEG2 problem below, which is the more serious issue.** |
+| 9 | 389 | highly conventionalized prepatterned expressions whose occurrence is tied to more or less standard communication situations | Coulmas 1981: 2–3 | **VERIFIED** via Ameka's verbatim reproduction at p. 108, which cites the same page range: "highly conventionalised prepatterned expressions whose occurrence is tied to more or less standard communication situations" (Coulmas 1981: 2–3). One orthographic note: Coulmas/Ameka have British "conventionalised"; the paper silently Americanizes it to "conventionalized" inside the quotation marks. Restore the original spelling. |
+| 6 | 248 | few, if any, papers focus on the morphology of interjections | Libert 2019 | **STILL UNVERIFIED — the last one.** Libert 2019 is not a research article but an entry in *Oxford Bibliographies in Linguistics*, an annotated bibliography of interjection scholarship. Citation form per Sheehan et al.'s reference list: "Libert, A. (2019). Interjections. *Linguistics*, January, 67–76. doi 10.1093/obo/9780199772810-0230". The source type suits the claim, since an annotated bibliography is exactly what can report gaps in coverage, but the wording is unchecked and the cite carries no page when OBO does paginate. `~/Downloads/A. Libert - Interjections [2019].pdf` is **not** this entry: it is Sheehan, Jin, Martin & Kim, "Wow! Interjections improve chatbot performance", *Communication Research*, which merely cites Libert. Separately, R1's flag about "Libert (2012), single-property definition" is a different work that Libert 2019 does not answer. |
+| 10 | 396 | a distinct pragmatic and semantic subtype of interjections | Wilkins 1992: 142 | **VERIFIED**, from Brett's own copy (`~/Downloads/wilkins1992.pdf`). Printed p. 142 confirmed by the running head. Wilkins: "It is true, however, that they form a distinct pragmatic and semantic subtype of interjections because they are tied to specific, and very common, situations, and their function is mainly to acknowledge, promote, and/or maintain social relations in accordance with cultural conventions." My suspicion that this matched the fabrication pattern was wrong. The second p. 142 cite at l. 1802 is also well supported by that page. |
 
-Given the confirmed rate among checkable quotations, treat all five as unverified rather than as presumptively sound.
+Search record: Spotlight content queries for "Interjections as Deictics", "Conversational Routine", "Bullokar", and "Student's Introduction to English Grammar" over the whole home directory (all hits were Brett's own citing files); `find` over Dropbox, iCloud, Documents, Desktop, Downloads and the Mendeley library; web searches for open repository copies, author copies, and MPG PuRe. Wilkins turned out to be in `~/Downloads` (downloaded by Brett during this session) and is now verified; Libert remains behind the Oxford paywall.
+
+## The SIEG2 problem (new, and not an integrity issue)
+
+`~/Documents/CGEL/` holds the second-edition manuscript, its errata, and the drafting chapters. Checking the intro's claim against them turned up a currency problem in the paper's opening paragraph.
+
+`main.tex` l. 92–95 says H&P "dropped it from the textbook because 'there really isn't anything interesting for a grammar to say' about interjections", and the paragraph lands on "A category real enough for the definitive grammar but thin enough for the textbook to cut."
+
+That is true of the 2005 first edition. **It is false of the second edition, which Brett co-authored.** SIEG2 (978-1-316-51464-1; Huddleston, Pullum & Reynolds) lists interjection among its lexical categories with examples, sets exercises requiring students to tag interjections, and treats interjections as one of the categories that can function as supplements. Its parallel remark, p. 24, is far softer and is a usable quotation in its own right:
+
+> Can interjections ever be heads of phrases? It isn't clear, and we won't try to settle it. (Grammarians typically say very little about interjections, and we don't plan to be an exception.)
+
+So a reviewer holding the current edition finds the paper's premise contradicted by a book the paper's author co-wrote. At a grammar venue like *Journal of Linguistics* that is a likely reviewer.
+
+The fix improves the argument rather than weakening it: cite both editions. The first leaves interjections aside as having nothing interesting in them; the second reinstates the category but concedes that grammarians still say very little about it. That is a better version of the paper's premise, because it shows the category being readmitted without being described, which is exactly the gap the paper fills. It also removes the awkwardness of the author appearing not to know his own book.
 
 ## Unsourced glosses (not fabrication, but fix)
 
@@ -74,13 +94,14 @@ Two working rules follow. Before concluding a quotation is *not* in a source, ch
 
    Emotive meaning is absent from Wilkins's definition altogether, so that fourth pairing had no source even after the reshuffle; §2.4 carries emotive meaning instead, and the paragraph after this one picks it up.
 
-   Fixed by quoting the definition whole with the hedges intact, and adding the observation that Gehweiler adopts it while calling those same hedged criteria the class's "obligatory properties" (also p. 73). That is a sharper illustration of co-occurrence-without-necessity than four scattered adverbs, since the parentheses are the field conceding the point. A `% VERIFY BEFORE SUBMISSION` comment sits above the passage in `main.tex`: the wording is verified verbatim from Gehweiler's block quote, but the page cite is to Wilkins directly and should be checked against Wilkins 1992: 124 when a copy is available (Wilkins 1992 is JoP 18(2–3): 119–158, so both p. 124 here and p. 142 at l. 396 fall in range).
+   Fixed by quoting the definition whole with the hedges intact, and adding the observation that Gehweiler adopts it while calling those same hedged criteria the class's "obligatory properties" (also p. 73). That is a sharper illustration of co-occurrence-without-necessity than four scattered adverbs, since the parentheses are the field conceding the point. **Now verified directly against Wilkins 1992: 124** (running head confirmed; his numbered definition (1)), so the relay through Gehweiler is no longer load-bearing. One correction the primary source supplied: Gehweiler's block quote pluralizes "constructions", where Wilkins has the singular "does not enter into construction with other word classes". The paper had inherited Gehweiler's plural and now follows Wilkins.
 
    Ameka also supplies genuine, correctly-paired hedges if a second witness is ever wanted: p. 105, "Primary interjections are little words or non-words which in terms of their distribution can constitute an utterance by themselves and do not normally enter into construction with other word classes"; p. 105, "Primary interjections ... tend to be phonologically and morphologically anomalous"; p. 106, "Morphologically, interjections do not normally take inflections or derivations in those languages that make use of such forms."
 
 **Still open, needs Brett:**
-7. **Items 1, 3, 6, 9, 10** — check against print or paywalled copies. Item 3 is quickest, being Brett's own book.
-8. **Preprints** — LingBuzz 009852 and SSRN 6954254 still serve the uncorrected text of items 7, 8, 11–14, 17 and 24, and will keep doing so until the corrected PDF is posted.
+7. **Items 1, 3, 9 — resolved 2026-07-24** (see the second-pass table). Remaining: **item 10 (Wilkins p. 142)**, which is unverified and looks like the same paraphrase-in-quote-marks pattern as the confirmed fabrications, so do not submit anywhere until it is checked or rewritten; and **item 6 (Libert)**. Both are reachable through U of T. Also outstanding: page checks for Bullokar p. 373 (Turner 1980 pagination) and H&P 2005 p. 16, and restoring Coulmas's British "conventionalised" spelling at l. 389.
+8. **The SIEG2 fix** — rewrite the intro's "dropped it from the textbook" claim to cite both editions (see the SIEG2 section above). This is the highest-value remaining edit: it repairs a claim that a *Journal of Linguistics* reviewer would likely catch, and it strengthens the paper's premise.
+9. **Preprints** — done 2026-07-24: LingBuzz 009852 updated, SSRN 6954254 inactive, website mirror and GitHub repo pushed. Note that the next preprint version will need to carry the SIEG2 fix and the Wilkins resolution.
 
 ## The style linter fights correct quotation
 
