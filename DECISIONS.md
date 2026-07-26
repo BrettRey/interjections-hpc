@@ -609,3 +609,15 @@ The middle sentence did no work at all. "Interjections have that shape: they lac
 Cutting it stranded the anaphor in the closing sentence, since "that recurrence" pointed at the sentence being removed. This is the fourth time today an edit orphaned a back-reference, so the closing sentence now names its target: "how strong a causal claim the co-occurrence documented in Section 2 supports." That also reads better as the handoff, since what follows is the coupling material.
 
 Three sentences to two, and both remaining ones are doing something no other passage does.
+
+2026-07-26 — HPC theory reduced to the one place it earns. Brett, without prejudice: "why does the reader (who's likely never heard of Boyd) care about HPCs?"
+
+Traced Boyd across five sites. Two earn their place, both in §2.6, and both supply something Khalidi cannot. The fluid edge comes from p. 144, that "the properties that determine the conditions for falling under" a kind term "may vary over time (or space)" while the term keeps its definition, which Boyd calls "the historicity of the individuation conditions". The sharpness contrast comes from p. 164 and from the observation that Boyd treats extensional vagueness as irresolvable in principle, which is how the paper positions itself against him.
+
+The other three didn't. §3's paragraph said that categories without definitional necessary and sufficient conditions can be projectible when their properties are connected non-accidentally, which is Khalidi's point thirty lines earlier ("A kind can be unified by causal relations rather than by an essence"). §3.4's gloss concedes its own redundancy in its framing, calling itself "a parallel formulation". And §1 introduced \term{homeostatic} only to disclaim it, which pays off for a reader who knows the literature and costs one who doesn't.
+
+Three changes. §3's Boyd paragraph is cut, its closing question kept as the transition into the coupling material. §1's forward reference is dropped rather than redirected: pointing it at §2.6 looked right until I checked, and §2.6 uses the word "homeostatic" zero times, so the pointer would have promised a discussion of a term that section never names. It now reads "the cluster \term{homeostatic}, Boyd's term \citep{boyd1999}", giving the attribution without promising a section. And the orphaned one-sentence transition is merged into the paragraph whose material answers it.
+
+Left standing: §3.4's parallel formulation, which is redundant by its own admission but carries a vivid quotation about a kind being natural from one disciplinary point of view and not another. Worth revisiting if §3.4 is ever tightened.
+
+The counter-argument, recorded because it is real: the book is HPC-based, and thinning the vocabulary here loosens the paper's visible tie to the programme. The book carries that argument, and this paper needs projectibility and causal structure rather than HPC theory as such, which is the same conclusion reached earlier in the week about kindhood.
