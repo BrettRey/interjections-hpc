@@ -435,3 +435,11 @@ Rewritten to state the distinction once and plainly (what a form contributes on 
 2026-07-26 — "He reaches it from relevance theory, by a route carrying no HPC commitments at all" cut from §2.4. Brett: "this doesn't belong."
 
 It was a remnant of the convergence argument retired earlier the same day. Once the privileged-case claim went, an observation whose only point is that an independent theorist arrived at the same place has nothing to attach to. It also rates the finding by the provenance of the theorist rather than by its content, and it does programme-level work inside a descriptive subsection on non-referentiality. The paragraph now ends on the substantive point: what varies along Wharton's continuum is how much of an interjection's import is coded rather than shown, which is a gradient within the category and not a blurred edge to it.
+
+2026-07-26 — Poggi's holophrastic/articulated contrast hedged. Brett flagged "Nouns and verbs convey part of a sentence, an interjection a whole one" as needing it.
+
+The flat version is contradicted by the paper's own material. Prenominal \mention{damn} in \mention{the damn car} is an interjection that conveys part of a sentence, not a whole one, and §5 treats it precisely as the case where \term{interjection\textsubscript{syn}} fails while \term{interjection\textsubscript{sem}} holds. Poggi states the contrast flatly herself, so reporting it flatly was faithful but inherited her overstatement, and the paper is careful about exactly this elsewhere: it downgrades Ameka's "always separated by a pause" to "strongly characteristic rather than exceptionless" two sections earlier.
+
+Hedged with *characteristically*, which is the paper's own device (six uses: interjections characteristically don't inflect, characteristically function as supplements, characteristically don't refer), and the exception is named rather than gestured at.
+
+First attempt read "though prenominal \mention{damn} in \mention{the damn car} shows that the second half admits exceptions", which reintroduced the ordinal back-reference just removed from the Wilkins paragraph for being unreadable. Now a separate sentence naming the case.
