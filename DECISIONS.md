@@ -560,3 +560,16 @@ The frequency data carries the recency claim instead: COCA rises from 0.01 per m
 This also vindicates a hedge already in the sentence. It ended "even when the same word families include verbal or nominal lexemes", which anticipated exactly the situation OED documents, so the nominal senses are now named instead of gestured at.
 
 \mention{Yeet} is gone. No data was supplied for it and its only role was as a second recent form, so asserting recency for it would repeat the defect just corrected twice.
+
+2026-07-26 — Editorial scar tissue removed at four sites. Brett on "The form isn't new": "this looks like editorial scar tissue."
+
+It was. "\mention{Oof} is a recent arrival in standalone use" was my claim, corrected once the OED data arrived, and "The form isn't new" existed only to deny it. The reader never saw the false version, so the sentence answered nothing and read as a correction being reported. That is the contrastive-negation tell in the house rule about revising for the end-reader rather than the conversation.
+
+Four sites, three of them from the same day's corrections:
+
+- §3: "The form isn't new. \textcite{oed_oof} records it from 1777\ldots What is recent is its prominence" now opens "\textcite{oed_oof} attests it from 1777\ldots Its prominence is more recent". The 1777 date establishes the age without denying anything, and the cleft goes too, since it had the same contrastive shape.
+- §4: "Take \mention{bruh}. The word family isn't new\ldots What is new is the standalone use" now runs straight into the OED dates, with "The standalone use addressed to nobody is later". Same fault, same correction, introduced within the hour.
+- §3 opening: "That shape isn't peculiar to interjections. It's what a lexical category looks like\ldots" collapses to "That shape is what any lexical category looks like when no definition is holding it together." One positive sentence replaces a denial plus its repair, and *any* now carries the generality the denial was straining for.
+- §4.6: "The residue claim isn't only mine" is now "\textcite[40]{cuenca2002} reaches the same claim from the grammaticalization side, observing that\ldots". The negation was about ownership rather than content, and it was the third instance of the convergence rhetoric already cut from the Wharton and Cruz passages. The corroboration survives; the announcement of it doesn't.
+
+One instance left deliberately. "That isn't a bare preference", in the Libert passage, answers a reading Brett had himself ("Perhaps this looks like mere preference"), so it addresses a reader rather than a deleted draft. It is the weakest of the five and could go, since the sentences after it make the argument positively, but it is not scar tissue in the same sense.
