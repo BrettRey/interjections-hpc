@@ -483,3 +483,18 @@ Two faults. The old title duplicated §5's ("Projectibility: what the category l
 The paper already knew the right name in two places. The label is `sec:causal-framework`, and §1's roadmap says "Section 3 introduces the causal-network framework that explains why the interjection profile supports pragmatic inference." Only the heading disagreed, so the fix was to match what the label and the roadmap already said. The bracketed short form is no longer needed, the title being short enough for a running head.
 
 The heading sequence now reads: Introduction; The property cluster; The causal-network framework; Causal structure: recruitment and coupling; Projectibility: what the category lets you predict; Discussion; Conclusion. Framework, then structure, then payoff, with projectibility named once.
+
+2026-07-26 — Kindhood no longer assumed anywhere in the paper's own voice. Brett on the methodological-claim passage: "this assumes a degree of natural-kindness. Has this been set out or even motivated yet?"
+
+It hadn't, and the paper doesn't need it. The warrant established in §1 is projectibility, not kindhood: "If interjections are a category, the relevant payoff isn't an essence or a single defining feature. It's projectibility: the inferential payoff by which observing some properties of a new case licenses predictions about others" \citep{Goodman1955}. *Kind* enters only as inherited vocabulary from Khalidi ("natural kinds are nodes in causal structures") and Boyd, and the paper never argues that a lexical category is a kind of any sort.
+
+The flagged passage made the problem visible by trying to have it both ways: it disclaimed the heavy version ("need not be genuine kinds in the strongest sense") while presupposing a light one ("only needs to be a projectible kind"). A reader who accepts the disclaimer is still handed the assumption.
+
+Four own-voice sites, all fixed, since leaving three of four would repeat the partial-fix problem raised earlier in the week:
+
+- "Interjections need not be 'genuine kinds' in the strongest sense. The category only needs to be a projectible kind" is now "Nothing here turns on whether interjection is a kind in a metaphysician's sense, and I don't argue that it is one. What the category has to be is projectible for linguistic inquiry."
+- "the causal-kind question" is now "the projectibility question"
+- "part of the causal structure of the kind" is now "of the category"
+- "The parallel with other domain-specific kinds supports the pattern" is now "The same pattern shows up elsewhere", since \term{animacy} and \term{colour} are properties rather than kinds and calling them kinds imported the assumption a second way
+
+Every surviving use of *kind* is now ordinary English (a claim of a different kind, the kind of evidence, what kind of thing) or reported speech about Boyd and Khalidi. This continues the direction of two earlier decisions the same week, retiring "causal-pragmatic kind" and cutting the disclaimer about distinctive types of kind.
