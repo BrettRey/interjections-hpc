@@ -599,3 +599,13 @@ Three faults in one sentence. It announced what the paragraph would do instead o
 The one thing worth keeping was the theory's name, which appears nowhere else in the paper. That now rides on the citation as an appositive: "\textcite{boyd1999}, developing \term{homeostatic-property-cluster theory}, showed that categories with no definitional necessary and sufficient conditions can be useful and projectible when their properties are connected non-accidentally." The theory is named while the sentence does work, and the paragraph now opens on Boyd's claim rather than on a description of itself.
 
 Swept for the same announce-then-do shape across the paper (framework/section/account/analysis/paper + clarifies/shows how/explains how/makes clear/addresses): no other instances.
+
+2026-07-26 — The HPC paragraph in §3 reduced to the work only it does. Brett, a level up from the previous fix: "but why is the paragraph itself there?"
+
+It has one real job. §1 says "Only that would license calling the cluster \term{homeostatic} (Boyd's term, discussed in Section~\ref{sec:causal-framework})", so §3 owes the reader an account of Boyd's term. Sentence one pays that: Boyd, developing homeostatic-property-cluster theory, showed that categories without definitional necessary and sufficient conditions can be projectible when their properties are connected non-accidentally.
+
+The middle sentence did no work at all. "Interjections have that shape: they lack necessary and sufficient conditions, but show recurrent co-occurrence among prosodic, syntactic, semantic, and pragmatic diagnostics" duplicates §3's own opening thirty lines earlier, which already says "statistically reliable co-occurrence, no necessary and sufficient conditions". Same section, same claim, no addition. Cut.
+
+Cutting it stranded the anaphor in the closing sentence, since "that recurrence" pointed at the sentence being removed. This is the fourth time today an edit orphaned a back-reference, so the closing sentence now names its target: "how strong a causal claim the co-occurrence documented in Section 2 supports." That also reads better as the handoff, since what follows is the coupling material.
+
+Three sentences to two, and both remaining ones are doing something no other passage does.
