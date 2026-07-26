@@ -591,3 +591,11 @@ Traced what the walkthrough actually consumes. The 1777 attestation fed nothing;
 The imitative origin was the one live element, and it was being wasted. It sat in the opening, three sentences before Grounds, and Grounds then said only that "a stabilizer would be whatever keeps the combination together", never naming what put \mention{oof} in the cluster. §1's \mention{gee} passage does name it ("the ground was bleaching from a religious invocation"), so §3 was weaker than §1 on the same object. The OED derivation now sits inside Grounds, where it identifies the route of entry, and Grounds opens "how the form got there and why it stays" to cover both.
 
 The data keeps its value without being in the paper. It caught a false claim, and it is saved under `analysis/hand-extracted/` with provenance, since the English-Corpora wrapper is blocked and it cannot be regenerated.
+
+2026-07-26 — "The framework also clarifies how the argument relates to homeostatic-property-cluster theory" cut. Brett: "why is this here?"
+
+Three faults in one sentence. It announced what the paragraph would do instead of doing it, which is the throat-clearer the style rules forbid. It duplicated work finished two sentences earlier, since the relation to homeostasis had just been stated and disclaimed ("That last is what \term{homeostasis} asks for. I don't claim it."). And "the framework clarifies" credited the framework with an act that is the author's.
+
+The one thing worth keeping was the theory's name, which appears nowhere else in the paper. That now rides on the citation as an appositive: "\textcite{boyd1999}, developing \term{homeostatic-property-cluster theory}, showed that categories with no definitional necessary and sufficient conditions can be useful and projectible when their properties are connected non-accidentally." The theory is named while the sentence does work, and the paragraph now opens on Boyd's claim rather than on a description of itself.
+
+Swept for the same announce-then-do shape across the paper (framework/section/account/analysis/paper + clarifies/shows how/explains how/makes clear/addresses): no other instances.
