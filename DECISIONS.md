@@ -546,3 +546,17 @@ What the COHA figures show is different and more useful: three tokens before 190
 The correction improves the example rather than weakening it. \textit{OED} derives \mention{oof} as "an imitative or expressive formation", which places it on the onomatopoeic recruitment route of §4.1 rather than on either bleaching path, so the walkthrough now illustrates a route the paper posits instead of resting on an invented dating. The \textit{OED}'s "occasionally as n." also independently supports the declaration's existing scope restriction to standalone use rather than the whole word family. The warrant sentence keeps its point without the false reason: it now reads "and here it is thin" rather than "for a form this recent".
 
 Contradiction closed: §4 listed \mention{oof} among "recent forms like \mention{bruh}, \mention{yeet}, and \mention{oof}", which §3 now contradicts. Its role there was the onomatopoeic route rather than recency, and §3 handles that, so it comes out of the list. Note \mention{bruh} and \mention{yeet} are still called recent without a source; that is a smaller instance of the same defect and remains open.
+
+2026-07-26 — §4's recent-forms claim replaced with sourced evidence for \mention{bruh}, and \mention{yeet} dropped for want of any.
+
+The old sentence said "standalone interjectional uses of recent forms like \mention{bruh}, \mention{yeet}, and \mention{oof} fit this expectation". All three were called recent without support, and the \mention{oof} data had already shown that kind of claim can be flatly wrong.
+
+Brett supplied OED and corpus data for \mention{bruh}, and it reframes the claim usefully. **OED files \mention{bruh} as a noun**, with two nominal senses: a title before a man's name from 1894, out of African American folk tales, and a familiar form of address from 1967. Every sense-2 quotation is vocative and addressed to someone: \mention{Hey, bruh}, \mention{Be cool, bruh}, \mention{Listen bruh}. **Neither sense is an interjection.**
+
+That silence is evidence for the paper rather than against it. The claim §4 makes is that a *newly conventionalized interjectional use* appears without traversing a bleaching path, and the use in question is the standalone one addressed to nobody, which the entry doesn't record. So OED now supports two things the paper needs, the age of the word family and its vocative source, and the paper is careful not to cite it as authority for an interjectional \mention{bruh}, which would misrepresent the entry.
+
+The frequency data carries the recency claim instead: COCA rises from 0.01 per million in 1990--94 to 1.09 in 2015--19, roughly a hundredfold. Two caveats are in the footnote rather than suppressed. The tokens sit overwhelmingly in television and film (1.44 per million) and are **absent from the spoken section**, so the record is scripted representation of speech, not recorded speech; and COHA has the form absent before the 1980s with nine tokens in all. The footnote also points to `analysis/hand-extracted/`.
+
+This also vindicates a hedge already in the sentence. It ended "even when the same word families include verbal or nominal lexemes", which anticipated exactly the situation OED documents, so the nominal senses are now named instead of gestured at.
+
+\mention{Yeet} is gone. No data was supplied for it and its only role was as a second recent form, so asserting recency for it would repeat the defect just corrected twice.
