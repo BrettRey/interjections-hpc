@@ -526,3 +526,13 @@ Khalidi is doing real work, so the fix was to show it rather than to hedge it. H
 The disclaimers then collapse into one short paragraph, placed after the positive content rather than inside it: the structure is taken and the metaphysics isn't, and the sharp edge is compatible with Khalidi's own p. 66 position. Four disclaimer sentences become two, and neither interrupts.
 
 Style count unchanged at 14. An apparent rise from 13 was an artifact of two different grep expressions on my side, not a new finding.
+
+2026-07-26 — A numbered example added for \mention{oof} in §3, and its recency claim downgraded to a stated assumption.
+
+The example first. §3's walkthrough described its observables rather than showing them ("stands prosodically separate and doesn't inflect", "resist determiners"), so it now runs off example (4), \mention{Oof}. That's going to hurt.
+
+Deliberately a positive instance only, with no starred tests, unlike the \mention{gee} example in §1. Two reasons. A form this recent has unstable distribution, so starring *\mention{the oof} or *\mention{oofed} would mean inventing judgments, and "he let out an oof" is plausible enough that a reader would object. And the asymmetry is principled: \mention{gee} is established, so defeat conditions can be stated with confidence, whereas the passage's own claim is that \mention{oof}'s warrant is thin. Starring its predictions would imply the checking had been done.
+
+The recency claim was a defect. "\mention{Oof} is a recent arrival in standalone use" carried no source and did real work, since the next sentence rests on it ("for a form this recent is thin"). Checked the project properly at Brett's prompting: there is no COHA or GloWbE data on \mention{oof} anywhere. The paper's COHA work covers \mention{fie} and the morphology-gain forms; the GloWbE work covers the frequency and conditioning analysis. Word-boundary search across `analysis/`, the manuscript and the notes finds \mention{oof} only in three reviewer notes, each independently *suggesting* it as a test case for recent coinages. So the claim entered as a reviewer's example and was never grounded.
+
+The house bib has OED entries for other words but none for \mention{oof}, and a first-attestation date won't be invented. It now reads "I treat that use as recent, which is what makes it useful here", which flags the premise instead of asserting a dating finding. The illustration doesn't need the dating to be exactly right, only for the warrant to be thin for some recent form.
