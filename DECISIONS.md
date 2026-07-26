@@ -508,3 +508,11 @@ It also falsified §3's own framing. "The four objects distinguished in Section 
 §3 keeps the walkthrough, being the framework section and the place the homeostasis disclaimer belongs. §1 keeps what it needed the paragraph for: the numbered example, the observables (*\mention{geed}, *\mention{gees}), and the defeat condition (*\mention{gee that it's expensive}), now illustrating the projectibility claim §1 actually makes rather than the four labels.
 
 Density is still better than before the addition on every measure: 1390 words at 12.9 terms per 1000 with no examples and 30 forms cited, then 1612 at 10.5 with one example and 42, now 1501 at 11.3 with one example and 36.
+
+2026-07-26 — §3's opening: the "peculiar" claim replaced with the tradition's own dismissal as the contrast class. Made from an adversarial-pragmatics session, off a quote Brett pasted there by mistake, so this landed without the surrounding context of that day's other §3 work. Flagged here for that reason; revert with `git revert 4a71177` if it cuts across the current direction.
+
+The claim was unearned twice over. "What is peculiar is where the predictions land" then reported cross-level prediction, which is what lexical labels ordinarily do, and no comparison class existed anywhere in the paper to make it strange. The word also did two jobs in consecutive sentences: "peculiar to interjections" (exclusive to) then "what is peculiar" (odd), so the parallelism invited the stronger and false reading.
+
+The contrast class was already in §1 and needed no new source: Jespersen denying categoryhood, Quirk et al.'s "marginal and anomalous", and Huddleston & Pullum's "about which there really isn't anything interesting for a grammar to say". The surprise is that a class the grammars dismiss licenses predictions across five levels, which also answers §1's own "what membership would license". Cleft cut so the claim is made once.
+
+Vocabulary note for later edits: "residue" is load-bearing in this paper for diachronic pathway traces, so wastebasket-category wording has to avoid it.
