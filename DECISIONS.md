@@ -573,3 +573,13 @@ Four sites, three of them from the same day's corrections:
 - §4.6: "The residue claim isn't only mine" is now "\textcite[40]{cuenca2002} reaches the same claim from the grammaticalization side, observing that\ldots". The negation was about ownership rather than content, and it was the third instance of the convergence rhetoric already cut from the Wharton and Cruz passages. The corroboration survives; the announcement of it doesn't.
 
 One instance left deliberately. "That isn't a bare preference", in the Libert passage, answers a reading Brett had himself ("Perhaps this looks like mere preference"), so it addresses a reader rather than a deleted draft. It is the weakest of the five and could go, since the sentences after it make the argument positively, but it is not scar tissue in the same sense.
+
+2026-07-26 — "Carry stance rather than reference" corrected to match §2.4, at two sites. Brett asked whether that was how the semantics subsection framed it. It wasn't.
+
+§2.4 defines \term{non-referentiality} as "absence of ordinary entity/event denotation and argumental construal while allowing semantic content", so the contrast is denotation against content, not stance against reference. The phrase collapsed two of the five cluster properties, which the diagnostic matrix keeps in separate columns as *non-referential* and *emotive/stance*, into a single either/or.
+
+§2.4 also warns in the other direction, and the phrase ran against that warning: "Some interjections are more propositional than emotive: \mention{yes} and \mention{no} affirm or deny propositions, and \mention{oh} can signal recognition of new information rather than expressing feeling." Predicting *stance* as the alternative to reference over-commits on a property the subsection has already qualified.
+
+The §3 declaration now predicts three things in the paper's own vocabulary rather than two in a false contrast: resist determiners, lack ordinary entity or event denotation, and contribute use-conditionally rather than descriptively. The last phrasing matches the \mention{gee} passage in §1.
+
+A milder instance in §5 went the same way. "The semantic node predicts meaning type: that it will convey stance rather than describe" assigned stance to \term{interjection\textsubscript{sem}}, whose own definition four paragraphs earlier is "use-conditional contribution, speaker-oriented attitude, nondisplaceability, and descriptive ineffability". It now reads "that its contribution will be use-conditional rather than descriptive", which is what that node projects and what the matrix column says.
