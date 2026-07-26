@@ -516,3 +516,13 @@ The claim was unearned twice over. "What is peculiar is where the predictions la
 The contrast class was already in §1 and needed no new source: Jespersen denying categoryhood, Quirk et al.'s "marginal and anomalous", and Huddleston & Pullum's "about which there really isn't anything interesting for a grammar to say". The surprise is that a class the grammars dismiss licenses predictions across five levels, which also answers §1's own "what membership would license". Cleft cut so the claim is made once.
 
 Vocabulary note for later edits: "residue" is load-bearing in this paper for diachronic pathway traces, so wastebasket-category wording has to avoid it.
+
+2026-07-26 — The Khalidi passage restructured, because it had accumulated more disclaimer than content. Brett, without prejudice: "What's the point of bringing up Khalidi only to say it doesn't matter?"
+
+A fair question, and the answer is that I did it. Of the passage's ten sentences, four were disclaimers, and three of those were added the same week: the p. 66 compatibility note, "nothing below turns on which way that question goes", and "Nothing here turns on whether interjection is a kind in a metaphysician's sense". Each was individually motivated, the first to avoid over-claiming on boundaries and the second to stop assuming kindhood, but they accumulated into a sequence of retreats interrupting the exposition. A reader met Khalidi and was then told three times that he commits us to nothing.
+
+Khalidi is doing real work, so the fix was to show it rather than to hedge it. His three relation types now get connected to the sections that use them: the coupling links are mutual reinforcement, the non-referentiality ratchet is one-directional, and the recruitment pathways are converging historical routes. That turns a list into a preview of the paper's own structure.
+
+The disclaimers then collapse into one short paragraph, placed after the positive content rather than inside it: the structure is taken and the metaphysics isn't, and the sharp edge is compatible with Khalidi's own p. 66 position. Four disclaimer sentences become two, and neither interrupts.
+
+Style count unchanged at 14. An apparent rise from 13 was an artifact of two different grep expressions on my side, not a new finding.
