@@ -13,7 +13,10 @@
 % venue prohibiting italicized examples needs one redefinition, not an edit per
 % example.
 \newcommand{\exmention}[1]{\mention{#1}}
-\newcommand{\exfocus}[1]{\textbf{#1}}
+% House style maps BoldFont to the regular face, so \textbf is a no-op
+% document-wide. Inside an italic example the working contrast is upright
+% roman, which is also Bringhurst's device for emphasis within italic.
+\newcommand{\exfocus}[1]{\textup{#1}}
 
 % Toggle for blind review: set to true before submission
 \newif\ifblind

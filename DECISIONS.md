@@ -391,3 +391,13 @@ The real defect was a forward reference the target never honoured. §2.2 promise
 The move also gives §2.3 a contrast it lacked. The two residues are different kinds: \mention{damn these mosquitoes!} retains complement-taking, which is external syntax the form can still perform; \mention{Goddammit} preserves a verb-object-pronoun structure inside a single word, which is internal syntax the form can no longer do anything with. §2.3 now marks that as "a second kind of residue, internal rather than external", and Cuenca's word-integration quote belongs to the second, where it does more work than it did as an aside in the morphology section.
 
 §2.2 is left with clean morphological remnants, \mention{heavens} and \mention{bollocks} preserving the nominal plural suffix, followed directly by the non-productivity point.
+
+2026-07-26 — The example focus was invisible; \exfocus switched from bold to upright roman. Brett noticed it in (2), then in (1).
+
+Cause: `.house-style/preamble.tex` sets `\setmainfont{EB Garamond}[..., BoldFont={EB Garamond}]`, which points bold at the regular face, so `\textbf` is a no-op document-wide. `pdffonts` confirmed it: only EBGaramond-Regular and EBGaramond-Italic are embedded, no bold face anywhere in the 40 pages. No warning is issued, because fontspec was told to do this. The system does carry a real `EB Garamond:style=Bold`, so the suppression is a house choice rather than a missing font, and plausibly deliberate given the standing Bringhurst instruction.
+
+That means the earlier decision to prefer bold over upright can't be executed without a house-style change. Since `\exfocus` is defined locally in main.tex, the fix went there rather than into the shared preamble, which also carries uncommitted work: `\exfocus` is now `\textup{}`, which inside the italic carrier gives upright roman, Bringhurst's own device for emphasis within italic and the one this font setup can actually render.
+
+Verified rather than assumed this time, since bold was asserted to work once already. `pdftohtml -xml` shows the focused spans carrying a different font id with no italic tag: in (1), "Gee" is font 1 upright against font 2 italic for the rest; in (2), "which made us rather late" and "Dr Brown" are font 1 against font 3 italic carriers.
+
+Open for Brett: if real bold is wanted in examples, the change is one line in `.house-style/preamble.tex`, giving `BoldFont` an actual bold face instead of the regular one. That affects every paper using the house preamble, so it wasn't made here.
