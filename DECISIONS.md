@@ -457,3 +457,13 @@ Now "What a projective claim licenses depends on what was observed", which is wh
 Re-audited every remaining instance. All are either the analytical sense (occasion-level, inventory-level, category-level, and the explicit "two levels are in play here"), the statistical sense (multilevel model, country-level random effects, token-level analysis), or ordinary quantitative English ("fluctuate at low levels").
 
 One left for Brett to judge: "At the framework level, if a feature-based account ... predicts the same" uses *level* to mean respect or aspect. Idiomatic on its own, but this paper runs a genuine series of occasion-level, inventory-level and category-level, so a reader may take *framework* as a fourth member of it.
+
+2026-07-26 — The Libert disagreement given a principle instead of reading as a preference. Brett: "Perhaps this looks like mere preference. the point is that no other lexical category can be picked out with a single criterion."
+
+He's right, and the paragraph was weaker than the argument behind it. "Libert narrows the category until one criterion suffices, and I keep the wider class" presents two options and picks one, which invites a reader to see taste where there is a standard. What makes Libert's move costly is not that it differs from mine but that it applies a test nothing else in the inventory passes.
+
+Grounded in CGEL's own method rather than asserted. At p. 30, a definition must identify "the grammatical properties that distinguish them from the concepts with which they contrast" — properties in the plural, and the surrounding discussion illustrates "some of the major ways in which nouns differ from verbs", ways in the plural too. Categories in this tradition are clusters by construction.
+
+The claim was phrased to stay checkable. Not "no lexical category anywhere can be picked out by a single criterion", which is an unbounded negative, but that a single criterion would make interjection the only category in *CGEL*'s inventory picked out that way. The conclusion is then Brett's: that is a reason to doubt the standard rather than the category.
+
+Quote gate 40 to 41 PASS, verified against p. 30.
