@@ -13,10 +13,13 @@
 % venue prohibiting italicized examples needs one redefinition, not an edit per
 % example.
 \newcommand{\exmention}[1]{\mention{#1}}
-% House style maps BoldFont to the regular face, so \textbf is a no-op
-% document-wide. Inside an italic example the working contrast is upright
-% roman, which is also Bringhurst's device for emphasis within italic.
-\newcommand{\exfocus}[1]{\textup{#1}}
+% CGEL underlines the element under discussion in examples, and this paper
+% works in that tradition, so \exfocus follows it. [normalem] keeps ulem from
+% redefining \emph, which is used elsewhere. \uline breaks across lines, which
+% \underline does not, and ULdepth is set so the rule clears descenders.
+\usepackage[normalem]{ulem}
+\setlength{\ULdepth}{1.8pt}
+\newcommand{\exfocus}[1]{\uline{#1}}
 
 % Toggle for blind review: set to true before submission
 \newif\ifblind
@@ -431,6 +434,16 @@ syntactic integration:
   \ex[*]{\exmention{Damn and quickly, we left.}}
   \z
 \z
+The contrast in (\ref{ex:syntactic-predictions}) is prosodic rather than
+syntactic: the first two differ only in whether \mention{damn} is set off.
+\textcite[41--42]{Jackendoff2025Parenthetical} generalizes the point beyond
+interjections, showing that parenthetical placement tracks intonational-phrase
+breaks rather than syntactic constituency. He gives pairs of hosts that are
+\enquote{syntactically identical} but differ in where a parenthetical may go,
+since \enquote{the difference in the parenthetical's position is a consequence
+of the difference in position of the IP breaks in the host}
+\citep[42]{Jackendoff2025Parenthetical}.
+
 Supplement function also predicts a semantic consequence: if the form is
 syntactically non-integrated, its contribution is independent of the
 proposition expressed by the host clause. Remove the interjection and the

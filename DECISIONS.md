@@ -401,3 +401,13 @@ That means the earlier decision to prefer bold over upright can't be executed wi
 Verified rather than assumed this time, since bold was asserted to work once already. `pdftohtml -xml` shows the focused spans carrying a different font id with no italic tag: in (1), "Gee" is font 1 upright against font 2 italic for the rest; in (2), "which made us rather late" and "Dr Brown" are font 1 against font 3 italic carriers.
 
 Open for Brett: if real bold is wanted in examples, the change is one line in `.house-style/preamble.tex`, giving `BoldFont` an actual bold face instead of the regular one. That affects every paper using the house preamble, so it wasn't made here.
+
+2026-07-26 — Jackendoff (2025) added in support of example (3). Brett asked what had happened to the Jackendoff citation, then said he was sure it had been there.
+
+It had never been in this paper: no trace of the string across 77 commits, one branch, all files. But the memory was accurate, just about a sibling. `papers/retarget/english-lbc-functionalist` cites \citet{Jackendoff2025Parenthetical} at pp. 33 and 42 for determiner--head packaging, arguing that a determiner and its head form a tight prosodic unit with no internal boundary where a supplement could attach. That is also why the cropped page in `literature/jackendoff_p42_crop.jpg` has *determiner* highlighted: Jackendoff's (33e) is "Break between a quantifier (or determiner) and its head", which is what the BIG MESS paper needed.
+
+The same page supports this paper for a different reason, so the citation is not duplication. Jackendoff's (32) lists positions permitting intonational-phrase breaks and shows parentheticals occurring there; (33) lists configurations where IP breaks are impossible and parentheticals are too. The general principle is that placement tracks IP structure rather than syntactic constituency, which he demonstrates with hosts that are "syntactically identical" but differ in where a parenthetical may go.
+
+That is exactly what example (3) needs. Its first two items differ only in whether \mention{damn} is set off, not in syntactic position, so the contrast is prosodic. §2.3 now says so and cites him, with both quotations verified against p. 42 (quote gate PASS 37 to 39).
+
+Note the file was in `literature/` since 6 February, read and annotated for one paper while a second passage on the same page went unused here for five months. Worth remembering as an argument for the inward-before-outward rule: the source was already held, already read, and already relevant.
