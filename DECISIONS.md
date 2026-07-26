@@ -421,3 +421,13 @@ Note the file was in `literature/` since 6 February, read and annotated for one 
 **Duplication removed, mine.** Brett noticed that §2.3 already says supplement function predicts semantic independence ("remove the interjection and the truth conditions don't change"), which the Poggi passage I added to §2.5 then restated three pages later before explaining it. §2.5 now points back to §2.3 and supplies only the explanation: a form contributes nothing to a host clause's truth conditions if it isn't part of a clause at all, so holophrasis accounts for the property rather than competing with it. Better as well as shorter, since asserting a claim twice and explaining it once reads as repetition, while asserting once and explaining once reads as an argument.
 
 Nothing further in the chapter is usable here. "Truth-conditional" and "non-truth-conditional" appear zero times, so it does not touch §2.4's semantics, and the Parallel Architecture sections are framework-setting rather than evidence.
+
+2026-07-26 — The Wilkins reconciliation paragraph rewritten; Brett couldn't follow it. Three things were breaking it.
+
+"Once the grain is fixed" put unexplained jargon in the topic sentence, where the reader has least to work with. *Grain* is doing real work in the argument, but the paragraph never says what grain, or of what.
+
+"Non-referentiality as I use it denies the first and says nothing about the second" pointed at two halves of a sentence built as "aren't X; they're Y". Since that sentence already denies X of Wilkins's elements, a reader can't tell who is denying which, and the ordinals have no list to number.
+
+The paragraph also missed its own best evidence. Wilkins's quoted words two sentences earlier already concede the point: the "referential arguments in the propositions conveyed by interjections are provided by context". If context supplies them, the form doesn't, which is exactly the distinction the paragraph was labouring to draw. It now opens on that instead of on the grain.
+
+Rewritten to state the distinction once and plainly (what a form contributes on its own, as against what context fills), keep the distributional test as the concrete evidence, and replace "the more demanding of the two" and "the distributional property I need survives it" with "asks more of the semantics than I do" and "hold on his account as readily as on mine". Same length, same argument, no machinery the reader has to decode first.
