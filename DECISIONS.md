@@ -498,3 +498,13 @@ Four own-voice sites, all fixed, since leaving three of four would repeat the pa
 - "The parallel with other domain-specific kinds supports the pattern" is now "The same pattern shows up elsewhere", since \term{animacy} and \term{colour} are properties rather than kinds and calling them kinds imported the assumption a second way
 
 Every surviving use of *kind* is now ordinary English (a claim of a different kind, the kind of evidence, what kind of thing) or reported speech about Boyd and Khalidi. This continues the direction of two earlier decisions the same week, retiring "causal-pragmatic kind" and cutting the disclaimer about distinctive types of kind.
+
+2026-07-26 — §1's four-objects walkthrough cut back to a projectibility illustration, because §3 already had one. Brett: "don't we already run it on a single form?"
+
+Yes, and the duplication was mine. §3 has run the four objects on \mention{oof} all along, and more completely: it reaches corrective control, states what \term{homeostasis} would require, and disclaims it. I added the \mention{gee} walkthrough to §1 earlier the same week to fix a measured density problem without checking whether the demonstration already existed. The result was the same walkthrough twice, thirty pages apart, on two forms.
+
+It also falsified §3's own framing. "The four objects distinguished in Section 1 are easier to see running on a single form" presupposes that §1 defines them without running them, which stopped being true. §1 now defines them in the itemize and doesn't run them, so the sentence holds again.
+
+§3 keeps the walkthrough, being the framework section and the place the homeostasis disclaimer belongs. §1 keeps what it needed the paragraph for: the numbered example, the observables (*\mention{geed}, *\mention{gees}), and the defeat condition (*\mention{gee that it's expensive}), now illustrating the projectibility claim §1 actually makes rather than the four labels.
+
+Density is still better than before the addition on every measure: 1390 words at 12.9 terms per 1000 with no examples and 30 forms cited, then 1612 at 10.5 with one example and 42, now 1501 at 11.3 with one example and 36.
