@@ -583,3 +583,11 @@ One instance left deliberately. "That isn't a bare preference", in the Libert pa
 The §3 declaration now predicts three things in the paper's own vocabulary rather than two in a false contrast: resist determiners, lack ordinary entity or event denotation, and contribute use-conditionally rather than descriptively. The last phrasing matches the \mention{gee} passage in §1.
 
 A milder instance in §5 went the same way. "The semantic node predicts meaning type: that it will convey stance rather than describe" assigned stance to \term{interjection\textsubscript{sem}}, whose own definition four paragraphs earlier is "use-conditional contribution, speaker-oriented attitude, nondisplaceability, and descriptive ineffability". It now reads "that its contribution will be use-conditional rather than descriptive", which is what that node projects and what the matrix column says.
+
+2026-07-26 — The \mention{oof} dating and frequency material cut from §3. Brett: "does any of this matter?" Mostly it didn't, and it was a second kind of scar tissue: material kept because it had been the evidence for a correction, not because the passage used it.
+
+Traced what the walkthrough actually consumes. The 1777 attestation fed nothing; it existed to refute my "recent arrival". The COHA rise fed nothing either, once the warrant sentence stopped saying "for a form this recent", and it invited a question it didn't answer, namely why the warrant should be thin for a form attested for 250 years. Both are gone, along with the footnote qualifying the frequencies.
+
+The imitative origin was the one live element, and it was being wasted. It sat in the opening, three sentences before Grounds, and Grounds then said only that "a stabilizer would be whatever keeps the combination together", never naming what put \mention{oof} in the cluster. §1's \mention{gee} passage does name it ("the ground was bleaching from a religious invocation"), so §3 was weaker than §1 on the same object. The OED derivation now sits inside Grounds, where it identifies the route of entry, and Grounds opens "how the form got there and why it stays" to cover both.
+
+The data keeps its value without being in the paper. It caught a false claim, and it is saved under `analysis/hand-extracted/` with provenance, since the English-Corpora wrapper is blocked and it cannot be regenerated.
