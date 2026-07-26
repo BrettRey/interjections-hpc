@@ -467,3 +467,11 @@ Grounded in CGEL's own method rather than asserted. At p. 30, a definition must 
 The claim was phrased to stay checkable. Not "no lexical category anywhere can be picked out by a single criterion", which is an unbounded negative, but that a single criterion would make interjection the only category in *CGEL*'s inventory picked out that way. The conclusion is then Brett's: that is a reason to doubt the standard rather than the category.
 
 Quote gate 40 to 41 PASS, verified against p. 30.
+
+2026-07-26 — §3's opening rewritten. Three faults, one of them created by yesterday's Libert addition.
+
+The cluster's shape was called "distinctive", and it isn't. Statistically reliable co-occurrence, no necessary and sufficient conditions, disputed boundaries and hedged universals are what §2.6 and the Libert passage establish as the ordinary shape of a lexical category in this tradition. Calling it distinctive of interjections contradicts that, and it concedes Libert's premise: if the shape were peculiar to interjections, demanding a single criterion for them would be reasonable. It now says the shape isn't peculiar, and names what is: where the predictions land.
+
+"That profile" used the term in a third sense. §1 defines a profile as the combination of cluster properties a form shows in a given grammatical environment, which is item-level; here it meant the shape of the category. That is the same overloading repaired at l. 203 earlier the same day, so it now reads "that shape".
+
+"Exactly what makes interjections valuable for pragmatics" was vague on both counts, valuable to whom and for what, and false if the shape is shared. Replaced by the paper's actual thesis, that what distinguishes interjections is where their predictions land rather than what their cluster looks like.
