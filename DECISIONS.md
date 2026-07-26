@@ -475,3 +475,11 @@ The cluster's shape was called "distinctive", and it isn't. Statistically reliab
 "That profile" used the term in a third sense. §1 defines a profile as the combination of cluster properties a form shows in a given grammatical environment, which is item-level; here it meant the shape of the category. That is the same overloading repaired at l. 203 earlier the same day, so it now reads "that shape".
 
 "Exactly what makes interjections valuable for pragmatics" was vague on both counts, valuable to whom and for what, and false if the shape is shared. Replaced by the paper's actual thesis, that what distinguishes interjections is where their predictions land rather than what their cluster looks like.
+
+2026-07-26 — §3 retitled from "Explaining pragmatic projectibility" to "The causal-network framework".
+
+Two faults. The old title duplicated §5's ("Projectibility: what the category lets you predict"), so two of the paper's five substantive sections foregrounded projectibility with nothing in the titles to show the division of labour, and the order looked inverted: explaining before stating. And it over-promised for what §3 does. Its four subsections are The framework, Causal networks vs.\ prototype theory, What causal structure adds, and Field-relative projectibility, which is apparatus and comparison. The explanation proper is §4's causal links; §5 is the payoff.
+
+The paper already knew the right name in two places. The label is `sec:causal-framework`, and §1's roadmap says "Section 3 introduces the causal-network framework that explains why the interjection profile supports pragmatic inference." Only the heading disagreed, so the fix was to match what the label and the roadmap already said. The bracketed short form is no longer needed, the title being short enough for a running head.
+
+The heading sequence now reads: Introduction; The property cluster; The causal-network framework; Causal structure: recruitment and coupling; Projectibility: what the category lets you predict; Discussion; Conclusion. Framework, then structure, then payoff, with projectibility named once.
