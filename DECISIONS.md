@@ -751,3 +751,15 @@ What was wrong was the macro, not the rendering. \term{} says "concept being int
 \node was unavailable because main.tex loads TikZ. The subscript has to sit inside \textsc, not after it, because \term{interjection\textsubscript{sem}} small-capped the subscript too; putting it outside would have quietly changed SEM to sem at 62 sites.
 
 62 call sites for \intj{} and 12 for \intjshort{}, so relabelling a node is now one line. The int-to-prag rename yesterday took 27 edits and missed a bare \textsubscript{int} in an appendix until a leftover check caught it.
+
+2026-07-27 — Folder tidied and a figure plan drafted; nothing built yet. Brett: "OK, tidy up the folder and let's make our figures as impactful and helpful as we can."
+
+Tidy: the ChatGPT voice-mode session had created docs/editorial-review-2026-07-27.md, but this repo keeps reviews in notes/ (five review-*.md files already there). Moved to notes/editorial-review-chatgpt-voice-2026-07-27.md and removed docs/, which also contained an empty plans/ directory from March. Naming it for its provenance matters: it is a summary rather than an audit, and shouldn't be mistaken later for one of the review-board reports.
+
+Figure audit, the structural finding: floats are distributed 0/1/0/3/0/0/0 across §1--§7, with all three data plots in appendices. So §3, which carries the whole theoretical apparatus, and §5, which cashes the argument, have no visual at all; the reader holds §1's eight distinctions until the only diagram arrives at l.1533, about page 26 of 41. That is the real content of the ChatGPT review's working-memory point, which I had half-credited yesterday: the problem isn't that §1 has too many terms (that question was already settled) but that nothing pictures them for twenty pages.
+
+Menu of 11 candidates saved to figure-plan.md, deliberately over-proposed for trimming, per the plan-figures skill. Three conceptual musts (the four objects; observed-to-licensed-to-defeated; the three nodes as overlapping extensions with the decoupling cases placed) plus one free move (promoting the fie figure out of the appendix) would put a figure in §1, §3 and §5 and bring the paper's honest negative result into the body.
+
+Two data findings from checking sources before proposing anything, per the grounding law. Four of the eight morphgain COHA chart captures (booed, shooed, shooing, wowing) are saved error pages rather than tables, so anything built on them is tagged DATA PARTIAL; worth knowing independently of the figures. And fie-coding-sheet-annotated.csv holds three independent coders plus human adjudication, with fie-decade-key.csv supplying the decade mapping, which is richer than the paper currently shows.
+
+Also recorded there: Table 2 already grades every link by evidential status, so cross-referencing it from §6.1's probes satisfies the one salvageable point of the ChatGPT review at the cost of a clause.
