@@ -803,3 +803,13 @@ Three independent probes now agree: *ya* (Swahili, Malay), *yeh* (Hindi/Urdu), *
 The paper's reported CVs are all verified correct as computed: *yeah* 0.55, *um* 0.61. Neither should be adjusted. §6.1 now carries both tests with figures.
 
 Standing methodological note for future corpus work on World Englishes: before treating a spelling variant as a variant, check whether it is a word in a substrate language of the varieties where it spikes. The check is cheap, the error is invisible in frequency data alone, and it runs in the direction that would flatter a regional-variation result.
+
+2026-07-27 — KWIC audit confirms the *umm* homograph, and the confirmation is stronger than the hypothesis. Of twenty Pakistani `umm_uh` tokens, nineteen are the Arabic teknonym *Umm* (*Umm Salama* eight times, plus *Umm Atiyah*, *Umm Sharik*, *Umm Sulaym*, *Ibn Umm Maktum*, *Umm Jamil*, *Umm Banin*, *Umm Imarah*, *umm al-Mumineen*, *Ummul Mu'minin*), almost all from hadith and biographical material on Islamic sites. The twentieth is the English filler *mentioned* rather than used: "Don't use tons of fillers like 'umm' or 'soo'". So zero of twenty are ordinary interjection uses.
+
+Two distinct failure modes compound in that one sample, and only the first is about spelling. The teknonym is a cross-linguistic homograph. The twentieth token is a use/mention confusion, which §6.1 already raises for *yes*, *no* and *ha*. A raw-string proxy is exposed to both at once, and the paper can now say so with a worked case.
+
+§6.1 upgraded from "consistent with" to a reported sample result. Evidence archived at analysis/hand-extracted/umm-pk-kwic-audit.md with source domains listed and the sampling caveat stated: these are the twenty rows the interface displayed rather than a random draw, so 19/20 indicates rather than estimates. It doesn't need to be precise, because the question was whether the tokens are predominantly the interjection, and they are not.
+
+Consequence for the numbers: Pakistan's *umm* count is essentially all artifact, so the summed-variant CV of 0.72 is wrong and the reported 0.61 on *um* alone is right. Same conclusion as the *yeah* case, reached independently.
+
+Still unchecked: the same probe has now covered three of the eighteen conditioning items. *Ha*, *eh*, *hi*, and the regional items *lah*, *yaar* and *haba* have not been tested, and substrate homography is at least as likely for the regional three, which carry the most argumentative weight in §4.5.4.
