@@ -21,6 +21,19 @@
 \setlength{\ULdepth}{1.8pt}
 \newcommand{\exfocus}[1]{\uline{#1}}
 
+% The three field-relative nodes are a category label relativized to a field,
+% which is the same shape as the house cross-linguistic notation
+% (\textsc{subject}\textsubscript{eng}). Like that notation they take small caps
+% at every occurrence, not just at first mention: the contrast between bare
+% \enquote{interjection} and a subscripted node is load-bearing throughout, and a
+% 41-page article is not read linearly. \term{} would mark them as concepts being
+% introduced, which after Section~3.4 they are not. Routing them through one macro
+% also makes relabelling a node a single edit; the int-to-prag rename took 27.
+% The subscript sits inside \textsc so it small-caps with the label, matching what
+% \intj{syn} already produced.
+\newcommand{\intj}[1]{\textsc{interjection\textsubscript{#1}}}
+\newcommand{\intjshort}[1]{Intj\textsubscript{#1}}
+
 % Toggle for blind review: set to true before submission
 \newif\ifblind
 \blindfalse  % \blindtrue for anonymous journal submission; \blindfalse for preprints
@@ -268,9 +281,9 @@ expressive force.
 Three nodes in that network are in play here: a syntactic node, a semantic or
 use-conditional node, and an interactional-pragmatic node. The label
 \enquote{interjection} covers the forms that occupy all three at once. I write these
-as \term{interjection\textsubscript{syn}},
-\term{interjection\textsubscript{sem}}, and
-\term{interjection\textsubscript{prag}}. The sections below first
+as \intj{syn},
+\intj{sem}, and
+\intj{prag}. The sections below first
 describe the diagnostic cluster, then explain why these nodes overlap
 and why they come apart.
 
@@ -514,7 +527,7 @@ coinage, which are the mechanisms Section~\ref{sec:causal-structure} treats as
 the cluster's sources.
 
 Wierzbicka's explications characterize the use-conditional content that
-\term{interjection\textsubscript{sem}} (Section~\ref{sec:fieldrelative-nodes})
+\intj{sem} (Section~\ref{sec:fieldrelative-nodes})
 tracks. Non-referentiality is a cluster property rather than a
 definition.
 
@@ -663,8 +676,8 @@ sufficient for what's left.
 I take that as support for the decomposition proposed below rather than as a
 counterexample to co-occurrence. Libert's line between expressions of
 feeling and marks of address falls close to the line this paper draws
-between \term{interjection\textsubscript{sem}} and
-\term{interjection\textsubscript{prag}}, and he credits
+between \intj{sem} and
+\intj{prag}, and he credits
 \textcite[109]{ameka1992} with the same intuition while objecting, fairly,
 that Ameka's gloss of conative interjections as \enquote{directed at} but
 not \enquote{addressed to} people is obscure. So the disagreement isn't
@@ -757,11 +770,11 @@ inventory: free coinage by onomatopoeia distinguishes the category without
 belonging to any single item, so it has no column here. The last three columns
 are separate classifications, not sums of the first six, so they need their own
 criteria. A construction is
-Intj\textsubscript{syn} if it functions as a supplement, taking no
+\intjshort{syn} if it functions as a supplement, taking no
 complement and forming no constituent with neighbouring material;
-Intj\textsubscript{sem} if its contribution is expressive and
+\intjshort{sem} if its contribution is expressive and
 use-conditional, leaving the truth conditions of its host untouched;
-Intj\textsubscript{prag} if it is usable on its own as an interactional move, which is the sequential-use column read as a field-relative classification.
+\intjshort{prag} if it is usable on its own as an interactional move, which is the sequential-use column read as a field-relative classification.
 The semantic criterion is about meaning type rather than position, which is
 why a construction can satisfy it while sitting inside a host clause.
 Section~\ref{sec:fieldrelative-nodes} argues for the three-way division; here
@@ -772,14 +785,14 @@ the columns record it.
 \footnotesize
 \caption{Diagnostic matrix: constructions against cluster properties and
 field-relative nodes. \checkmark\ = property present; ($\checkmark$) =
-partial or debated; \textendash{} = absent. Intj\textsubscript{syn},
-Intj\textsubscript{sem}, and Intj\textsubscript{prag} abbreviate
+partial or debated; \textendash{} = absent. \intjshort{syn},
+\intjshort{sem}, and \intjshort{prag} abbreviate
 syntactic, semantic/use-conditional, and interactional-pragmatic nodes.
 Sources:
 properties from
 \textcite{ameka1992}, \textcite{quirk1985},
-\textcite{HuddlestonPullum2002}; \term{interjection\textsubscript{sem}} from
-\textcite{potts2007}; \term{interjection\textsubscript{prag}} from
+\textcite{HuddlestonPullum2002}; \intj{sem} from
+\textcite{potts2007}; \intj{prag} from
 \textcite{stivers2019}, \textcite{dingemanse2020}.}
 \label{tab:diagnostic-matrix}
 \begin{tabular}{@{}l*{6}{c}c*{3}{c}@{}}
@@ -791,9 +804,9 @@ properties from
  & \rotatebox{70}{Emotive/stance}
  & \rotatebox{70}{Sequential use}
  & \phantom{x}
- & \rotatebox{70}{Intj\textsubscript{syn}}
- & \rotatebox{70}{Intj\textsubscript{sem}}
- & \rotatebox{70}{Intj\textsubscript{prag}} \\
+ & \rotatebox{70}{\intjshort{syn}}
+ & \rotatebox{70}{\intjshort{sem}}
+ & \rotatebox{70}{\intjshort{prag}} \\
 \midrule
 \mention{gee!}
   & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark
@@ -1086,27 +1099,27 @@ predictions. I distinguish these with subscripts:%
   rendered the term unavailable.}
 
 \begin{itemize}
-\item \term{interjection\textsubscript{syn}}, the syntactician's
+\item \intj{syn}, the syntactician's
   category (\textit{CGEL}, Quirk et al.). Distributional cluster: supplement
   function, non-inflecting, non-argument-taking. Linked by
   prosodic-syntactic coupling (Section~\ref{sec:synchronic-coupling}).
-\item \term{interjection\textsubscript{sem}}, the semanticist's
+\item \intj{sem}, the semanticist's
   category, overlapping with \textcite{potts2007}'s \term{expressives}.
   Use-conditional meaning cluster: independent of at-issue content,
   nondisplaceable, perspective-dependent, descriptively ineffable
   \citep[166]{potts2007}. Often recruited through semantic bleaching.
   Different extension: prenominal \mention{damn} in
-  \mention{the damn car} is \term{interjection\textsubscript{sem}} but not
-  \term{interjection\textsubscript{syn}}.
-\item \term{interjection\textsubscript{prag}}, the interactional-pragmatic
+  \mention{the damn car} is \intj{sem} but not
+  \intj{syn}.
+\item \intj{prag}, the interactional-pragmatic
   category, overlapping with \textcite{stivers2019}'s
   response tokens and \textcite{dingemanse2020}'s liminal signs.
   Sequential/stance cluster: turn-initial, backchannel, stance display.
   Linked by routine entrenchment and possibly by regional/indexical
   conditioning, both from Section~\ref{sec:synchronic-coupling}. Different
   extension: \mention{mm-hm} is
-  \term{interjection\textsubscript{prag}} but debatably
-  \term{interjection\textsubscript{syn}}.
+  \intj{prag} but debatably
+  \intj{syn}.
 \end{itemize}
 
 The subscript notation makes explicit that these are overlapping but
@@ -1123,8 +1136,8 @@ interjectional region of the network, and which causal links make the
 properties travel together? In what follows, \enquote{the
 interjection cluster} refers to the broad property profile. I use
 \enquote{the intersection} only for cases that belong simultaneously to
-\term{interjection\textsubscript{syn}}, \term{interjection\textsubscript{sem}}, and
-\term{interjection\textsubscript{prag}}.
+\intj{syn}, \intj{sem}, and
+\intj{prag}.
 A causal-network account requires both a diachronic account of
 recruitment and a synchronic account of the network order among
 properties.
@@ -1173,7 +1186,7 @@ Argument-structure restrictions &
 \mention{Yes}, \mention{no}, and response tokens complicate the property. \\
 \addlinespace
 Routine entrenchment &
-Stabilizer candidate for \term{interjection\textsubscript{prag}} &
+Stabilizer candidate for \intj{prag} &
 Conversation-analytic and pragmatic literature &
 Needs more spoken-interaction data for the present cases. \\
 \addlinespace
@@ -1302,7 +1315,7 @@ terms, it's the head of an IntjP, not a verb phrase (VP)
 The process is decategorialization: loss of verbal morphosyntax
 (subject, tense) and gain of expressive force.
 As a verb, \mention{damn} contributes content meaning, the condemning itself,
-and uttering it performs the act. As \term{interjection\textsubscript{syn}},
+and uttering it performs the act. As \intj{syn},
 \mention{damn!} contributes procedural meaning, a stance of frustration.
 
 This doesn't count as degrammaticalization in the strict sense, since the
@@ -1379,7 +1392,7 @@ prosodic-syntactic coupling, a non-referentiality ratchet,
 interactional routine entrenchment, and regional/indexical conditioning.
 They don't have the same status. The first two order structural
 and semantic diagnostics. The third is the central stabilizer candidate
-for \term{interjection\textsubscript{prag}}. The fourth remains a
+for \intj{prag}. The fourth remains a
 maintenance hypothesis.
 
 \subsubsection{Prosodic isolation and syntactic non-integration}
@@ -1415,7 +1428,7 @@ The prediction is concrete. If a novel form is reliably
 packaged as its own intonation unit, it should resist complementation,
 modification by ordinary phrase-internal material, and coordination with
 integrated phrases. If it's pulled into a host phrase, prosodic isolation should
-weaken together with \term{interjection\textsubscript{syn}} status.
+weaken together with \intj{syn} status.
 
 \subsubsection{The non-referentiality ratchet}
 
@@ -1464,7 +1477,7 @@ Section~\ref{sec:discussion} bear on the inventory-level pattern, not on the
 step from one level to the other.
 
 This candidate stabilizer supports the projectibility of
-\term{interjection\textsubscript{prag}}. If a novel form is recruited as a
+\intj{prag}. If a novel form is recruited as a
 minimal stance, response, repair, or backchannel resource, one should
 expect turn-initial or standalone availability, independent prosodic
 packaging, resistance to embedding under reported speech, and
@@ -1472,7 +1485,7 @@ availability for uptake as an interactional move. The same candidate
 stabilizer also explains why the function can persist when category membership
 weakens: a full clause such as \mention{I agree} can do agreement work,
 but it lacks the reduced, non-propositional packaging that makes
-\mention{mm-hm} a central \term{interjection\textsubscript{prag}} case.
+\mention{mm-hm} a central \intj{prag} case.
 
 \subsubsection{Regional/indexical conditioning}
 
@@ -1566,9 +1579,9 @@ than a complete model of every dependency among the diagnostics.
 \node[property] (intuse) at (6.2, -0.7) {interactional-\\pragmatic use};
 \node[process] (social) at (3.0, -2.2) {regional/indexical\\conditioning};
 
-\node[field] (semnode) at (3.0, 0.9) {Intj\textsubscript{sem}\\meaning type};
-\node[field] (synnode) at (6.2, 0.9) {Intj\textsubscript{syn}\\distribution};
-\node[field] (intnode) at (9.5, 0.9) {Intj\textsubscript{prag}\\sequential use};
+\node[field] (semnode) at (3.0, 0.9) {\intjshort{sem}\\meaning type};
+\node[field] (synnode) at (6.2, 0.9) {\intjshort{syn}\\distribution};
+\node[field] (intnode) at (9.5, 0.9) {\intjshort{prag}\\sequential use};
 
 \draw[arrow] (bleach) -- (nonref);
 \draw[arrow] (nonref) -- (synt);
@@ -1696,14 +1709,14 @@ integration (Appendix~\ref{app:morphgain}).%
   The full pre-registration, data, and code are archived at
   \url{https://github.com/BrettRey/interjections-hpc}.\fi}
 These exit cases fit the residue account: syntactic integration removes
-\term{interjection\textsubscript{syn}}, while source-interjection semantics
+\intj{syn}, while source-interjection semantics
 persists. They probe boundary behaviour, not corrective control.
 
 The \mention{fie} study marks the limit of residue reasoning under
 global attrition. The pre-registered prediction was that
-\term{interjection\textsubscript{prag}} would weaken before
-\term{interjection\textsubscript{sem}}, and \term{interjection\textsubscript{sem}}
-before \term{interjection\textsubscript{syn}}. In COHA, all three node
+\intj{prag} would weaken before
+\intj{sem}, and \intj{sem}
+before \intj{syn}. In COHA, all three node
 diagnostics decline together (Appendix~\ref{app:fie}).%
 \footnote{The analysis plan was committed before data extraction
   (\texttt{e18675b}, 15 March 2026). \ifblind The full
@@ -1838,15 +1851,15 @@ those observations, the three field-relative nodes license a battery of
 further expectations:
 
 \ea\label{ex:bruh}
-  \ea \term{interjection\textsubscript{syn}}: the interjectional use
+  \ea \intj{syn}: the interjectional use
     won't inflect within that use (*\mention{bruhs}, *\mention{bruhed}),
     will resist syntactic integration (*\mention{I think that bruh,
     we're late}), and won't take a determiner or function as an argument
     (*\mention{the bruh}, *\mention{Bruh surprised me}). This leaves
     room for separate nominal or verbal lexemes in the same word family.
-  \ex \term{interjection\textsubscript{prag}}: the form should be available for
+  \ex \intj{prag}: the form should be available for
     turn-initial or standalone interactional use.
-  \ex \term{interjection\textsubscript{sem}}: its expressive meaning is
+  \ex \intj{sem}: its expressive meaning is
     expected to be use-conditional and speaker-oriented.
   \z
 \z
@@ -1854,15 +1867,15 @@ These expectations vary in strength, and the asymmetry matters:
 
 \begin{itemize}
 \item Near-entailments (a): the
-  \term{interjection\textsubscript{syn}} predictions mostly extrapolate
+  \intj{syn} predictions mostly extrapolate
   within the same domain from observed distributional facts. Any
   framework recognizing the relevant morphosyntactic properties
   generates many of the same predictions. These are real but not specific
   to the causal-network account.
 \item Cross-domain inferences (b, c): the
-  \term{interjection\textsubscript{prag}} prediction (interactional-pragmatic
+  \intj{prag} prediction (interactional-pragmatic
   distribution from phonological form) and the
-  \term{interjection\textsubscript{sem}} prediction (use-conditional meaning
+  \intj{sem} prediction (use-conditional meaning
   from stance expression) involve genuine leaps across domains. These are specific to the causal-network account: they rely on
   the cluster's internal links, not on any single property.
 \end{itemize}
@@ -1908,12 +1921,12 @@ The three interjection nodes established in
 Section~\ref{sec:fieldrelative-nodes} do their work as different packages of
 inference, not as rival definitions.
 
-\term{interjection\textsubscript{syn}} projects syntactic behaviour:
+\intj{syn} projects syntactic behaviour:
 supplement function, resistance to \mention{that}-complementation,
 resistance to coordination with non-interjections, and no ordinary
 argument structure. These predictions are grounded in the
 prosodic-syntactic coupling link from
-Section~\ref{sec:synchronic-coupling}. \term{interjection\textsubscript{sem}}
+Section~\ref{sec:synchronic-coupling}. \intj{sem}
 projects meaning type, and here the projection has to reach past the
 properties that admitted the form. Independence, nondisplaceability,
 perspective dependence, and descriptive ineffability are what
@@ -1927,7 +1940,7 @@ uttered}. The other is repeatability, where repeated use has an effect
 redundancy} \citep[167]{potts2007}. Both are testable and both can fail.
 \mention{Damn, damn, damn} intensifies where \mention{The car broke, the car
 broke, the car broke} doesn't, and a form that flattened into redundancy
-under repetition would defeat the prediction. \term{interjection\textsubscript{prag}}
+under repetition would defeat the prediction. \intj{prag}
 projects interactional-pragmatic behaviour, and the same discipline applies.
 Turn-initial or standalone positioning and stance display are admission
 criteria. What they let us predict is uptake: that the form will be treated
@@ -1939,10 +1952,10 @@ form routinely treated as an incomplete turn would defeat them.
 The nodes overlap because some links, especially prosodic isolation
 and non-referentiality, contribute to more than one node. They come
 apart because other links are field-specific. A novel form categorized
-as \term{interjection\textsubscript{syn}} (prosodically isolated,
+as \intj{syn} (prosodically isolated,
 non-inflecting, syntactically non-integrated) should tend also to be
-\term{interjection\textsubscript{sem}} (use-conditional, speaker-oriented)
-and \term{interjection\textsubscript{prag}} (turn-initial, available for
+\intj{sem} (use-conditional, speaker-oriented)
+and \intj{prag} (turn-initial, available for
 backchanneling). Central cases such as \mention{wow}, \mention{ouch},
 and \mention{hey} fit that default. Boundary cases locate the decoupling, \mention{mm-hm} among them
 \citep{oconnell2005}.
@@ -1954,16 +1967,16 @@ For standalone
 \mention{damn!}, all three nodes agree: the form is prosodically
 isolated, syntactically non-integrated, use-conditional, and available
 as a stance marker. For \mention{damn these mosquitoes!}, the picture
-is mixed: \term{interjection\textsubscript{syn}} holds (it heads an IntjP)
+is mixed: \intj{syn} holds (it heads an IntjP)
 but with limited complement-taking;
-\term{interjection\textsubscript{sem}} holds (the meaning is expressive);
-\term{interjection\textsubscript{prag}} is weakened (it's not a backchannel or
+\intj{sem} holds (the meaning is expressive);
+\intj{prag} is weakened (it's not a backchannel or
 turn-management device).
 
 For prenominal \mention{damn} in \mention{the damn car}, the nodes
-diverge further: \term{interjection\textsubscript{syn}} fails entirely (the
+diverge further: \intj{syn} fails entirely (the
 form is syntactically integrated inside a noun phrase), but
-\term{interjection\textsubscript{sem}} holds (use-conditional, perspective-
+\intj{sem} holds (use-conditional, perspective-
 dependent). Neither \textit{CGEL}'s syntax nor Potts's semantics alone
 predicts this gradient. The three-node analysis does, because it tracks
 which links are active in each construction.
@@ -1971,11 +1984,11 @@ which links are active in each construction.
 \subsection{Category vs.\ function}
 
 \textit{CGEL}'s distinction between category and function sharpens the
-projectibility point: what does the \term{interjection\textsubscript{syn}} category label add
+projectibility point: what does the \intj{syn} category label add
 beyond the supplement function label? Supplements of any category
 (noun phrases [NPs], adjective phrases [AdjPs], relative clauses) share
 prosodic isolation and syntactic
-non-integration. But \term{interjection\textsubscript{syn}} adds a package of
+non-integration. But \intj{syn} adds a package of
 predictions that no other category-in-supplement-function supports:
 
 \begin{itemize}
@@ -2014,7 +2027,7 @@ come out the other way, and the reason is the same reason.
 
 For interjections, the situation is reversed. The three nodes overlap,
 and the richest projectibility belongs to
-\term{interjection\textsubscript{prag}}, the interactional-pragmatic
+\intj{prag}, the interactional-pragmatic
 cluster.
 \textcite{dingemanse2024} reaches the same conclusion from interactional
 data: the most frequent and functionally central interjections are
@@ -2023,16 +2036,16 @@ tokens) rather than emotive exclamations, and their primary
 projectibility is about sequential position and conversational
 management. For forms at the intersection of all three nodes, the strongest inferences
 are about use, not denotation. \mention{Oh} shows the
-asymmetry. From \term{interjection\textsubscript{syn}} you get what any
+asymmetry. From \intj{syn} you get what any
 supplement gives you: prosodic isolation, no inflection, no argument structure.
-From \term{interjection\textsubscript{prag}} you get a turn position,
+From \intj{prag} you get a turn position,
 availability as a response token, and the display of evolving knowledge
 described in Section~\ref{sec:pragmatics}. Same form, and the two nodes differ
 in how much they buy.
 
 The contrast with nouns and verbs concerns where the density lies, not how
 much structure each node carries.
-\term{interjection\textsubscript{syn}} is thin next to those nodes, lacking
+\intj{syn} is thin next to those nodes, lacking
 the network of agreement, argument realization, derivation, and inflectional
 behaviour that makes them so stable. What the three nodes divide between them
 is the kind of prediction each supports, set out in
@@ -2058,7 +2071,7 @@ analogy, discourse frequency) operate in morphosyntactic domains.
 This connects to the content/procedural distinction. The central
 projectibility of interjections is procedural and use-conditional rather
 than denotational \citep{TraugottDasher2002}. The
-\term{interjection\textsubscript{sem}} (expressive) cluster is the semantic
+\intj{sem} (expressive) cluster is the semantic
 reflex: use-conditional meaning is the semantic signature of procedural
 content. The same pattern shows up elsewhere. \term{Animacy} projects grammatically (argument realization,
 reference tracking); \term{colour} projects ecologically (edibility,
@@ -2067,7 +2080,7 @@ can \citep[cf.][]{seifart2010}. In each case, the domain of
 projectibility follows from the underlying processes.
 
 The richest projectibility is pragmatic, but
-\term{interjection\textsubscript{syn}} still belongs in the grammar
+\intj{syn} still belongs in the grammar
 because it's projectible and has its own causal links. Neutralize
 prosodic isolation and the form is reclassified, which is what happens to
 prenominal \mention{damn} in \mention{the damn car}. The syntactic category
@@ -2076,7 +2089,7 @@ resistance to embedding under reported speech (*\mention{She said that damn}),
 and coordination restrictions, even if those predictions are less rich than the
 pragmatic ones. A thin syntactic node is still a projectible syntactic
 node. The framework requires reliable inference, and
-\term{interjection\textsubscript{syn}} does.
+\intj{syn} does.
 
 \section{Discussion}\label{sec:discussion}
 
@@ -2553,9 +2566,9 @@ Intra-coder reliability (10\% blind recode, $n = 62$):
   \hline
   Diagnostic & Agreement & Cohen's $\kappa$ \\
   \hline
-  \term{interjection\textsubscript{syn}} & 87.1\% & 0.68 \\
-  \term{interjection\textsubscript{sem}} & 96.8\% & 0.90 \\
-  \term{interjection\textsubscript{prag}} & 96.8\% & 0.90 \\
+  \intj{syn} & 87.1\% & 0.68 \\
+  \intj{sem} & 96.8\% & 0.90 \\
+  \intj{prag} & 96.8\% & 0.90 \\
   \hline
 \end{tabular}
 \end{center}
@@ -2589,9 +2602,9 @@ probability crosses 0.5):
   \hline
   Diagnostic & $\tau$ (median) & 95\% CrI \\
   \hline
-  \term{interjection\textsubscript{syn}} & 1947 & 1937--1958 \\
-  \term{interjection\textsubscript{prag}} & 1948 & 1939--1959 \\
-  \term{interjection\textsubscript{sem}} & 1949 & 1941--1960 \\
+  \intj{syn} & 1947 & 1937--1958 \\
+  \intj{prag} & 1948 & 1939--1959 \\
+  \intj{sem} & 1949 & 1941--1960 \\
   \hline
 \end{tabular}
 \end{center}

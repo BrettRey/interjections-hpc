@@ -739,3 +739,15 @@ Homeostasis is now at one site, §1, where the term is introduced and disclaimed
 Also fixed: two \term{} markings on concepts already introduced (projectibility, response token). Reported but not acted on, because it is a different axis and Brett has not raised it: the three node names carry \term{} at 20+ sites each, which is heavier than the house rule's "being introduced or defined" implies.
 
 The project's own CLAUDE.md carried the same residue and would have misled the next session: it described the target as Journal of Pragmatics with Corpus Pragmatics as backup, and called pragmatic projectibility "the paper's distinctive contribution to theoretical pragmatics". Updated to the lexical-category thesis, the real venue position, and an explicit warning against "pragmatic projectibility" as a standing phrase.
+
+2026-07-27 — The three field-relative nodes routed through local macros, \intj{} and \intjshort{}. Brett: "Is there an argument for keeping \term{} in this particular case?" There was, and I had flagged the markup against the wrong rule.
+
+I judged 60-odd \term{} markings as over-application of the house rule that \term{} is for "concepts and categories being introduced or defined". But style-rules.yaml also carries cross_linguistic_notation, which marks a category label relativized to something in persistent small caps with a subscript: \textsc{subject}\textsubscript{eng} for language-specific, \textsc{subject}\crossmark for comparative. The field-relative nodes are that construction with a field as the relativizer, so persistent small caps is the house pattern, not a violation of it.
+
+Three reasons it earns the marking here in particular. The contrast between bare "interjection" (the intersection of all three nodes) and a subscripted node is load-bearing, especially in §5's decoupling arguments, and persistent marking enforces it where a subscript alone is easy to skim past. A 41-page article isn't read linearly, so a term marked once on page 5 is invisible to a referee opening at §5.2. And subscripted field-relative category labels are not standard notation in linguistics, so the reader needs the cue that this is apparatus rather than the ordinary word.
+
+What was wrong was the macro, not the rendering. \term{} says "concept being introduced", which after §3.4 these are not. \intj{} says notation. Since \term{} is defined as \textsc{}, the page is unchanged: verified by diffing pdftotext output before and after, which is identical apart from the \today date stamp.
+
+\node was unavailable because main.tex loads TikZ. The subscript has to sit inside \textsc, not after it, because \term{interjection\textsubscript{sem}} small-capped the subscript too; putting it outside would have quietly changed SEM to sem at 62 sites.
+
+62 call sites for \intj{} and 12 for \intjshort{}, so relabelling a node is now one line. The int-to-prag rename yesterday took 27 edits and missed a bare \textsubscript{int} in an appendix until a leftover check caught it.
