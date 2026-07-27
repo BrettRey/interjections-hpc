@@ -1,11 +1,16 @@
-left_role_id,right_role_id,overlap_allowed,minimum_distinct_coders_per_role,matrix_version,notes
-source_syn,source_sem,no,2,0.1,
-source_syn,neighbour,no,2,0.1,
-source_syn,cue_and_sign_type,no,2,0.1,
-source_syn,post_offset_trajectory,no,2,0.1,
-source_sem,neighbour,no,2,0.1,
-source_sem,cue_and_sign_type,no,2,0.1,
-source_sem,post_offset_trajectory,no,2,0.1,
-neighbour,cue_and_sign_type,no,2,0.1,
-neighbour,post_offset_trajectory,no,2,0.1,
-cue_and_sign_type,post_offset_trajectory,no,2,0.1,Cue rows must be locked before sign-type assignment
+left_pass_id,right_pass_id,shared_context_allowed,shared_response_allowed,minimum_model_families_per_pass,matrix_version,notes
+source_syn,source_sem,no,no,3,0.2,Fresh stateless contexts and mutually hidden responses
+source_syn,neighbour,no,no,3,0.2,One neighbouring category per separate pass
+source_sem,neighbour,no,no,3,0.2,One neighbouring category per separate pass
+source_syn,token_sign_type,no,no,3,0.2,Source labels are absent from token packets
+source_sem,token_sign_type,no,no,3,0.2,Source labels are absent from token packets
+neighbour,token_sign_type,no,no,3,0.2,Neighbour labels are absent from token packets
+source_syn,immediate_cue,no,no,3,0.2,Immediate-cue packets expose no source decisions
+source_sem,immediate_cue,no,no,3,0.2,Immediate-cue packets expose no source decisions
+neighbour,immediate_cue,no,no,3,0.2,Immediate-cue packets expose no neighbour decisions
+token_sign_type,immediate_cue,no,no,3,0.2,Immediate-cue files lock before token assignment begins
+source_syn,post_offset_mechanical,no,no,3,0.2,Post-offset primary derivation uses no language-model judgement
+source_sem,post_offset_mechanical,no,no,3,0.2,Post-offset primary derivation uses no language-model judgement
+neighbour,post_offset_mechanical,no,no,3,0.2,Post-offset primary derivation uses no language-model judgement
+token_sign_type,post_offset_mechanical,no,no,3,0.2,Join occurs only after all layers freeze
+immediate_cue,post_offset_mechanical,no,no,3,0.2,Join occurs only after all layers freeze

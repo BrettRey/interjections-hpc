@@ -1,0 +1,30 @@
+gate_id,study_stage,target,statistic,operator,threshold,decision_use,gate_version,notes
+rg_001,prepilot,source_syn_each_family,within_family_repeat_stability,gte,0.90,halt,0.2,Procedural model stability; not human intercoder reliability
+rg_002,prepilot,source_sem_each_family,within_family_repeat_stability,gte,0.90,halt,0.2,Procedural model stability; not human intercoder reliability
+rg_003,prepilot,each_principal_neighbour_each_family,within_family_repeat_stability,gte,0.85,halt,0.2,One neighbour per separate pass
+rg_004,prepilot,token_sign_type_each_family,within_family_repeat_stability,gte,0.85,halt,0.2,
+rg_005,prepilot,each_principal_immediate_cue_each_family,within_family_repeat_stability,gte,0.85,halt,0.2,
+rg_006,prepilot,each_primary_source_unit,stable_family_count,eq,3,primary_label_eligibility,0.2,All three families must first be internally stable
+rg_007,prepilot,each_primary_source_unit,unanimous_three_family_consensus,eq,1,primary_label_eligibility,0.2,Failure freezes the unit as uncertain
+rg_008,prepilot,each_primary_source_unit,expert_confirms_consensus,eq,1,primary_label_eligibility,0.2,Expert sees source evidence only and outcomes do not yet exist
+rg_009,prepilot,source_syn_and_sem,expert_audit_coverage,eq,1.00,halt,0.2,All source-category units
+rg_010,prepilot,neighbour_and_token_disagreements,expert_audit_coverage,eq,1.00,halt,0.2,All unstable or cross-family disagreement units
+rg_011,prepilot,consensus_immediate_cues,expert_random_audit_fraction,gte,0.25,halt,0.2,Frozen stratified random audit plus all disagreements
+rg_012,prepilot,consensus_immediate_cues,expert_correction_rate,lte,0.10,remediable_before_outcome_join,0.2,If exceeded recode the full field before unblinding
+rg_013,prepilot,primary_trajectory,deterministic_recomputation_rate,eq,1.00,halt,0.2,
+rg_014,prepilot,expert_boundary_repeat,median_absolute_difference_ms,lte,50,halt,0.2,Intra-expert timing stability only
+rg_015,prepilot,expert_boundary_repeat,percentile_95_absolute_difference_ms,lte,100,halt,0.2,Intra-expert timing stability only
+rg_016,prepilot,each_primary_field,proportion_uncertain_or_uncodable,lte,0.15,halt,0.2,Evaluated field by field
+rg_017,prepilot,uncodable_trajectory_rate,max_absolute_source_cell_rate_difference,lte,0.10,halt,0.2,Technical and speaker ambiguity are missingness not an outcome class
+rg_018,prepilot,interjection_syn,inter_model_nominal_alpha,gte,0.80,halt,0.2,Computed from one stable vote per model family
+rg_019,prepilot,interjection_syn,inter_model_raw_agreement,gte,0.85,halt,0.2,Computed from one stable vote per model family
+rg_020,prepilot,interjection_sem,inter_model_nominal_alpha,gte,0.80,halt,0.2,Computed from one stable vote per model family
+rg_021,prepilot,interjection_sem,inter_model_raw_agreement,gte,0.85,halt,0.2,Computed from one stable vote per model family
+rg_022,prepilot,each_principal_neighbour,inter_model_nominal_alpha,gte,0.75,halt,0.2,Computed separately for each neighbour classification
+rg_023,prepilot,each_principal_neighbour,inter_model_raw_agreement,gte,0.80,halt,0.2,Computed separately for each neighbour classification
+rg_024,prepilot,token_sign_type_assignment,inter_model_nominal_alpha,gte,0.80,halt,0.2,Computed from one stable vote per model family
+rg_025,prepilot,token_sign_type_assignment,inter_model_raw_agreement,gte,0.85,halt,0.2,Computed from one stable vote per model family
+rg_026,prepilot,each_principal_categorical_immediate_cue,inter_model_nominal_alpha,gte,0.70,halt,0.2,Computed separately for each cue
+rg_027,prepilot,each_principal_categorical_immediate_cue,inter_model_raw_agreement,gte,0.80,halt,0.2,Computed separately for each cue
+rg_028,prepilot,source_syn_and_sem,panel_audit_raw_agreement,gte,0.85,halt,0.2,Expert source-only audit against frozen panel labels
+rg_029,prepilot,remaining_subjective_fields,panel_audit_raw_agreement,gte,0.80,halt,0.2,Expert audit under the field-specific masking rule

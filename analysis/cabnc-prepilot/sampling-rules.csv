@@ -1,15 +1,19 @@
 rule_id,scope,parameter,value,unit,precedence,rule_version,notes
-sr_001,preoffset_pilot,draw_per_block,15,events,1,0.1,All 15 receive pre-offset eligibility and token-assignment review
-sr_002,target_pilot,select_per_block,10,events,2,0.1,Select first 10 eligible assigned events in frozen draw order
+sr_001,preoffset_pilot,draw_per_block,15,events,1,0.1,Scan frozen within-block rank and skip any candidate breaching a per-block concentration cap
+sr_002,target_pilot,select_per_block,10,events,4,0.1,Select eligible assigned events in the frozen global round-robin order subject to global caps
 sr_003,preoffset_pilot,minimum_eligible_per_block,10,events,3,0.1,Fewer than 10 is a block-level feasibility failure
-sr_004,target_pilot,minimum_codable_per_block,8,events,4,0.1,Global uncertain or uncodable rate must also remain at or below 15 percent
+sr_004,target_pilot,minimum_codable_per_block,8,events,5,0.1,Required subjective primary fields must remain at or below 15 percent combined uncertain and uncodable; derived primary outcomes must remain at or below 15 percent uncodable; differential attrition is capped at 10 percentage points
 sr_005,all_pilot,max_draws_per_speaker_per_block,2,events,1,0.1,
 sr_006,all_pilot,max_draws_per_collection_per_block,2,events,1,0.1,
-sr_007,target_pilot,max_global_speaker_share,0.05,proportion,5,0.1,
-sr_008,target_pilot,max_global_collection_share,0.10,proportion,5,0.1,
-sr_009,target_pilot,target_selection_order,frozen_sha256_rank,rule,2,0.1,No post-offset field enters the ranking
-sr_010,evaluation,single_evaluation_after_preoffset,240,events,6,0.1,No interim feasibility decision
-sr_011,evaluation,single_evaluation_after_target,160,events,6,0.1,Subject to prospectively measured attrition
+sr_007,target_pilot,max_global_speaker_share,0.05,proportion,3,0.1,
+sr_008,target_pilot,max_global_collection_share,0.10,proportion,3,0.1,
+sr_009,target_pilot,target_selection_order,round_robin_within_block_rank_then_frozen_block_order,rule,2,0.1,No post-offset field enters the ranking
+sr_010,evaluation,required_completed_preoffset_packets,240,events,6,0.1,No interim feasibility decision
+sr_011,target_pilot,maximum_target_packets,160,events,6,0.1,Ten selected per block when every block passes
 sr_012,confirmatory,pilot_event_disposition,exclude_all_pilot_occurrences,rule,7,0.1,Fresh occurrences from the same outer blocks may enter confirmation
 sr_013,pathway_sensitivity,minimum_retained_training_blocks,10,outer_blocks,5,0.1,
 sr_014,pathway_sensitivity,minimum_retained_blocks_per_sem_side,4,outer_blocks,5,0.1,Requires frozen sem labels and is not relaxed after outcomes
+sr_015,evaluation,required_completed_target_packets,all_selected,rule,6,0.1,Every packet selected by the frozen rule reaches its declared stage
+sr_016,evaluation,maximum_evaluation_points,1,evaluation,6,0.1,No interim or optional stopping
+sr_017,all_pilot,cap_conflict_action,skip_and_continue,rule,3,0.1,Log every skipped candidate and continue through the frozen order
+sr_018,all_pilot,sampling_disposition_log,required,rule,7,0.1,Every scanned candidate receives a machine-auditable disposition row

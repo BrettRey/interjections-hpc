@@ -19,7 +19,7 @@ from typing import Iterable
 from urllib.parse import urlsplit
 import unicodedata
 
-PARSER_VERSION = "0.5.0"
+PARSER_VERSION = "0.6.0"
 DEFAULT_COMMIT = "0a28a11e168e312d1b9ad406a3352f31c13b86a2"
 DEFAULT_SUBTREE_OBJECT = "7f7f87611350439e404baa8f8c659f33e81efecb"
 REPOSITORY_URL = "https://github.com/saulalbert/CABNC.git"
@@ -31,7 +31,7 @@ TOKEN_RE = re.compile(r"[^\W\d_]+(?:['’\-][^\W\d_]+)*", re.UNICODE)
 SKIP_LEXICAL = {"xxx", "yyy", "www"}
 UNKNOWN_SPEAKER_RE = re.compile(r"PSU[NG]$")
 TAPE_ID_RE = re.compile(r"021A-C0897X[0-9]{4}XX", re.IGNORECASE)
-TURN_MERGE_MAX_GAP_MS = 2500
+SPAN_MERGE_MAX_GAP_MS = 180
 
 
 @dataclass
@@ -63,8 +63,8 @@ class MainTier:
 
 
 @dataclass
-class Turn:
-    turn_index: int
+class AnalyticSpan:
+    span_index: int
     episode_index: int
     speaker_id: str
     tiers: list[MainTier]
@@ -100,18 +100,6 @@ class Turn:
         if any(tier.start_ms is not None or tier.end_ms is not None for tier in self.tiers):
             return "partially_timed"
         return "untimed"
-
-    @property
-    def internal_positive_gaps_ms(self) -> list[int]:
-        gaps = []
-        for current, following in zip(self.tiers, self.tiers[1:]):
-            if current.end_ms is None or following.start_ms is None:
-                continue
-            gap = following.start_ms - current.end_ms
-            if gap > 0:
-                gaps.append(gap)
-        return gaps
-
 
 def sha256_file(path: Path) -> str:
     digest = hashlib.sha256()
@@ -337,11 +325,17 @@ def build_main_tiers(tiers: Iterable[LogicalTier], warnings: list[dict]) -> list
     return main_tiers
 
 
-def collapse_turns(
+def build_analytic_spans(
     main_tiers: list[MainTier],
     listed_speakers: set[str],
-) -> list[Turn]:
-    turns: list[Turn] = []
+) -> list[AnalyticSpan]:
+    """Join adjacent tiers into IPU-style spans under the frozen 180-ms rule.
+
+    The original same-speaker chain is deliberately broader than the analytic
+    span: it ignores timing and speaker-identification quality, but still stops
+    at speaker and episode changes. This preserves the raw chain for audit.
+    """
+    spans: list[AnalyticSpan] = []
     original_chain_index = 0
     previous_tier: MainTier | None = None
     for tier in main_tiers:
@@ -360,30 +354,29 @@ def collapse_turns(
                 boundary_reason = "episode_boundary"
             elif previous_tier.speaker_id != tier.speaker_id:
                 boundary_reason = "speaker_change"
-            elif (
-                tier.speaker_id not in listed_speakers
-                or is_unknown_speaker_id(tier.speaker_id)
-            ):
-                boundary_reason = "unknown_identity"
+            elif is_unknown_speaker_id(tier.speaker_id):
+                boundary_reason = "speaker_unknown"
+            elif tier.speaker_id not in listed_speakers:
+                boundary_reason = "speaker_unlisted"
             elif previous_tier.end_ms is None or tier.start_ms is None:
                 boundary_reason = "timing_missing"
-            elif tier.start_ms - previous_tier.end_ms > TURN_MERGE_MAX_GAP_MS:
-                boundary_reason = "gap_over_2500"
+            elif tier.start_ms - previous_tier.end_ms >= SPAN_MERGE_MAX_GAP_MS:
+                boundary_reason = "gap_at_least_180"
             else:
                 boundary_reason = ""
 
-        if turns and not boundary_reason:
-            turns[-1].tiers.append(tier)
+        if spans and not boundary_reason:
+            spans[-1].tiers.append(tier)
         else:
-            turns.append(Turn(
-                turn_index=len(turns) + 1,
+            spans.append(AnalyticSpan(
+                span_index=len(spans) + 1,
                 episode_index=tier.episode_index,
                 speaker_id=tier.speaker_id,
                 tiers=[tier],
                 boundary_reason_from_previous=boundary_reason,
             ))
         previous_tier = tier
-    return turns
+    return spans
 
 
 def stable_id(*parts: object) -> str:
@@ -413,10 +406,10 @@ def load_aliases(path: Path) -> tuple[dict[str, dict], str]:
     return aliases, sha256_file(path)
 
 
-def turn_token_records(turn: Turn) -> tuple[list[dict], set[int]]:
+def span_token_records(span: AnalyticSpan) -> tuple[list[dict], set[int]]:
     records: list[dict] = []
     tier_initial_indices: set[int] = set()
-    for tier in turn.tiers:
+    for tier in span.tiers:
         tier_tokens = lexical_tokens(tier.raw_text)
         if tier_tokens:
             tier_initial_indices.add(len(records))
@@ -454,7 +447,7 @@ def parse_corpus(
     commit_sha: str,
 ) -> tuple[dict[str, list[dict]], dict[str, int]]:
     file_rows: list[dict] = []
-    turn_rows: list[dict] = []
+    span_rows: list[dict] = []
     candidate_rows: list[dict] = []
     warning_rows: list[dict] = []
     vocabulary_counts: Counter[str] = Counter()
@@ -482,8 +475,8 @@ def parse_corpus(
         media_missing = "0missing" in path.parts or "missing" in media_header.casefold()
         participants = participant_codes(headers)
         mains = build_main_tiers(tiers, warnings)
-        turns = collapse_turns(mains, set(participants))
-        episode_values = sorted({turn.episode_index for turn in turns})
+        spans = build_analytic_spans(mains, set(participants))
+        episode_values = sorted({span.episode_index for span in spans})
         timed_tiers = sum(1 for tier in mains if tier.timing_spans)
         first_times = [tier.start_ms for tier in mains if tier.start_ms is not None]
         last_times = [tier.end_ms for tier in mains if tier.end_ms is not None]
@@ -517,87 +510,85 @@ def parse_corpus(
             "parse_warning_count": len(warnings),
         })
 
-        turn_ids = [
-            stable_id(commit_sha, relative_path, turn.episode_index, turn.turn_index)
-            for turn in turns
+        span_ids = [
+            stable_id(
+                commit_sha,
+                relative_path,
+                span.episode_index,
+                "analytic_span",
+                span.span_index,
+            )
+            for span in spans
         ]
-        for position, turn in enumerate(turns):
-            previous_turn = turns[position - 1] if position else None
-            next_turn = turns[position + 1] if position + 1 < len(turns) else None
-            previous_id = turn_ids[position - 1] if position else ""
-            next_id = turn_ids[position + 1] if position + 1 < len(turns) else ""
-            same_episode_next = bool(next_turn and next_turn.episode_index == turn.episode_index)
+        for position, span in enumerate(spans):
+            previous_span = spans[position - 1] if position else None
+            next_span = spans[position + 1] if position + 1 < len(spans) else None
+            previous_id = span_ids[position - 1] if position else ""
+            next_id = span_ids[position + 1] if position + 1 < len(spans) else ""
+            same_episode_next = bool(
+                next_span and next_span.episode_index == span.episode_index
+            )
             gap_ms = None
             overlap_ms = None
             if (
                 same_episode_next
-                and turn.boundary_end_ms is not None
-                and next_turn.boundary_start_ms is not None
+                and span.boundary_end_ms is not None
+                and next_span.boundary_start_ms is not None
             ):
-                difference = next_turn.boundary_start_ms - turn.boundary_end_ms
+                difference = next_span.boundary_start_ms - span.boundary_end_ms
                 if difference >= 0:
                     gap_ms = difference
                 else:
                     overlap_ms = -difference
 
-            tokens, tier_initial_indices = turn_token_records(turn)
-            tiers_by_index = {tier.tier_index: tier for tier in turn.tiers}
+            tokens, tier_initial_indices = span_token_records(span)
+            tiers_by_index = {tier.tier_index: tier for tier in span.tiers}
             normalized_text = " ".join(record["normalized_surface"] for record in tokens)
             if tokens:
                 first_surface = tokens[0]["normalized_surface"]
                 vocabulary_counts[first_surface] += 1
                 vocabulary_segments[first_surface].add(segment_id)
-                vocabulary_speakers[first_surface].add(turn.speaker_id)
+                vocabulary_speakers[first_surface].add(span.speaker_id)
 
-            turn_id = turn_ids[position]
+            span_id = span_ids[position]
             original_same_speaker_chain_id = stable_id(
                 commit_sha,
                 relative_path,
-                turn.episode_index,
+                span.episode_index,
                 "same_speaker_chain",
-                turn.tiers[0].original_same_speaker_chain_index,
+                span.tiers[0].original_same_speaker_chain_index,
             )
-            turn_rows.append({
-                "turn_id": turn_id,
+            span_rows.append({
+                "span_id": span_id,
                 "segment_id": segment_id,
                 "relative_path": relative_path,
-                "episode_index": turn.episode_index,
-                "turn_index": turn.turn_index,
-                "speaker_id": turn.speaker_id,
+                "episode_index": span.episode_index,
+                "span_index": span.span_index,
+                "speaker_id": span.speaker_id,
                 "recording_id": recording_id,
                 "tape_side_id": tape_side_id,
                 "tape_id": tape_id,
                 "collection_block_id": collection_block_id,
                 "original_same_speaker_chain_id": original_same_speaker_chain_id,
-                "boundary_reason_from_previous": turn.boundary_reason_from_previous,
-                "first_tier_index": turn.tiers[0].tier_index,
-                "last_tier_index": turn.tiers[-1].tier_index,
-                "start_ms": turn.start_ms,
-                "end_ms": turn.end_ms,
-                "boundary_start_ms": turn.boundary_start_ms,
-                "boundary_end_ms": turn.boundary_end_ms,
-                "raw_text": turn.raw_text,
+                "boundary_reason_from_previous": span.boundary_reason_from_previous,
+                "first_tier_index": span.tiers[0].tier_index,
+                "last_tier_index": span.tiers[-1].tier_index,
+                "start_ms": span.start_ms,
+                "end_ms": span.end_ms,
+                "boundary_start_ms": span.boundary_start_ms,
+                "boundary_end_ms": span.boundary_end_ms,
+                "raw_text": span.raw_text,
                 "normalized_text": normalized_text,
-                "previous_turn_id": previous_id,
-                "previous_speaker": previous_turn.speaker_id if previous_turn else "",
-                "next_turn_id": next_id if same_episode_next else "",
-                "next_speaker": next_turn.speaker_id if same_episode_next else "",
-                "gap_to_next_ms": gap_ms,
-                "next_overlap_ms": overlap_ms,
-                "speaker_listed": turn.speaker_id in participants,
-                "speaker_unknown": is_unknown_speaker_id(turn.speaker_id),
-                "timing_status": turn.timing_status,
-                "timing_complete": turn.timing_status == "fully_timed",
-                "max_internal_positive_gap_ms": max(
-                    turn.internal_positive_gaps_ms,
-                    default=None,
-                ),
-                "internal_gap_over_2500": any(
-                    gap > 2500 for gap in turn.internal_positive_gaps_ms
-                ),
-                "internal_gap_over_12000": any(
-                    gap > 12000 for gap in turn.internal_positive_gaps_ms
-                ),
+                "previous_span_id": previous_id,
+                "previous_speaker": previous_span.speaker_id if previous_span else "",
+                "next_span_id": next_id if same_episode_next else "",
+                "next_speaker": next_span.speaker_id if same_episode_next else "",
+                "gap_to_next_span_ms": gap_ms,
+                "next_span_overlap_ms": overlap_ms,
+                "speaker_listed": span.speaker_id in participants,
+                "speaker_unknown": is_unknown_speaker_id(span.speaker_id),
+                "timing_status": span.timing_status,
+                "timing_complete": span.timing_status == "fully_timed",
             })
 
             token_index = 0
@@ -625,25 +616,26 @@ def parse_corpus(
                 auto_exclusions = []
                 if media_missing:
                     auto_exclusions.append("media_missing")
-                if not turn.speaker_id:
+                if not span.speaker_id:
                     auto_exclusions.append("source_speaker_unidentified")
-                elif turn.speaker_id not in participants:
+                elif span.speaker_id not in participants:
                     auto_exclusions.append("source_speaker_unlisted")
-                elif is_unknown_speaker_id(turn.speaker_id):
+                elif is_unknown_speaker_id(span.speaker_id):
                     auto_exclusions.append("source_speaker_unknown")
                 if not same_episode_next:
                     auto_exclusions.append("no_following_sequence")
-                elif next_turn.speaker_id not in participants:
+                elif next_span.speaker_id not in participants:
                     auto_exclusions.append("next_speaker_unlisted")
-                elif is_unknown_speaker_id(next_turn.speaker_id):
+                elif is_unknown_speaker_id(next_span.speaker_id):
                     auto_exclusions.append("next_speaker_unknown")
                 occurrence_id = stable_id(
                     commit_sha,
                     relative_path,
-                    turn.episode_index,
-                    turn.turn_index,
-                    token_index,
-                    token_end_index,
+                    span.episode_index,
+                    tokens[token_index]["tier_index"],
+                    tokens[token_index]["tier_token_index"],
+                    tokens[token_end_index]["tier_index"],
+                    tokens[token_end_index]["tier_token_index"],
                     matched_surface,
                 )
                 candidate_start_tier = tiers_by_index[tokens[token_index]["tier_index"]]
@@ -652,7 +644,7 @@ def parse_corpus(
                 ]
                 candidate_rows.append({
                     "occurrence_id": occurrence_id,
-                    "turn_id": turn_id,
+                    "span_id": span_id,
                     "relative_path": relative_path,
                     "segment_id": segment_id,
                     "media_id": media_id,
@@ -661,8 +653,8 @@ def parse_corpus(
                     "tape_id": tape_id,
                     "collection_block_id": collection_block_id,
                     "original_same_speaker_chain_id": original_same_speaker_chain_id,
-                    "episode_index": turn.episode_index,
-                    "speaker_id": turn.speaker_id,
+                    "episode_index": span.episode_index,
+                    "speaker_id": span.speaker_id,
                     "token_index": token_index,
                     "token_end_index": token_end_index,
                     "tier_index": tokens[token_index]["tier_index"],
@@ -683,25 +675,25 @@ def parse_corpus(
                     "seed_group": alias["seed_group"],
                     "variant_block_hint": alias["variant_block_hint"],
                     "component_family_ids": alias["component_family_ids"],
-                    "turn_initial": token_index == 0,
+                    "span_initial": token_index == 0,
                     "main_tier_initial": token_index in tier_initial_indices,
                     "candidate_final": token_end_index == len(tokens) - 1,
-                    "candidate_only_turn": token_index == 0 and token_end_index == len(tokens) - 1,
-                    "source_turn_start_ms": turn.start_ms,
-                    "source_turn_end_ms": turn.end_ms,
-                    "source_speaker_listed": turn.speaker_id in participants,
-                    "source_speaker_unknown": is_unknown_speaker_id(turn.speaker_id),
-                    "next_turn_id": next_id if same_episode_next else "",
-                    "next_speaker_id": next_turn.speaker_id if same_episode_next else "",
+                    "candidate_only_span": token_index == 0 and token_end_index == len(tokens) - 1,
+                    "source_span_start_ms": span.start_ms,
+                    "source_span_end_ms": span.end_ms,
+                    "source_speaker_listed": span.speaker_id in participants,
+                    "source_speaker_unknown": is_unknown_speaker_id(span.speaker_id),
+                    "next_span_id": next_id if same_episode_next else "",
+                    "next_speaker_id": next_span.speaker_id if same_episode_next else "",
                     "next_speaker_listed": (
-                        next_turn.speaker_id in participants if same_episode_next else False
+                        next_span.speaker_id in participants if same_episode_next else False
                     ),
                     "next_speaker_unknown": (
-                        is_unknown_speaker_id(next_turn.speaker_id)
+                        is_unknown_speaker_id(next_span.speaker_id)
                         if same_episode_next else False
                     ),
-                    "next_turn_start_ms": (
-                        next_turn.boundary_start_ms if same_episode_next else None
+                    "next_span_start_ms": (
+                        next_span.boundary_start_ms if same_episode_next else None
                     ),
                     "gap_ms": gap_ms,
                     "overlap_ms": overlap_ms,
@@ -714,7 +706,7 @@ def parse_corpus(
     vocab_rows = [
         {
             "normalized_surface": surface,
-            "n_turn_initial": count,
+            "n_span_initial": count,
             "n_segments": len(vocabulary_segments[surface]),
             "n_speakers": len(vocabulary_speakers[surface]),
             "in_seed_alias_table": surface in aliases,
@@ -722,7 +714,7 @@ def parse_corpus(
         }
         for surface, count in vocabulary_counts.items()
     ]
-    vocab_rows.sort(key=lambda row: (-row["n_turn_initial"], row["normalized_surface"]))
+    vocab_rows.sort(key=lambda row: (-row["n_span_initial"], row["normalized_surface"]))
 
     by_form: dict[str, list[dict]] = defaultdict(list)
     for row in candidate_rows:
@@ -730,7 +722,7 @@ def parse_corpus(
     census_rows = []
     for family in sorted(by_form):
         rows = by_form[family]
-        initial_rows = [row for row in rows if row["turn_initial"]]
+        initial_rows = [row for row in rows if row["span_initial"]]
         timed_initial_rows = [
             row for row in initial_rows
             if (
@@ -752,8 +744,8 @@ def parse_corpus(
             "form_family_id": family,
             "normalized_surfaces": sorted({row["normalized_surface"] for row in rows}),
             "n_raw": len(rows),
-            "n_turn_initial": len(initial_rows),
-            "n_candidate_only": sum(row["candidate_only_turn"] for row in rows),
+            "n_span_initial": len(initial_rows),
+            "n_candidate_only": sum(row["candidate_only_span"] for row in rows),
             "n_raw_segments": len({row["segment_id"] for row in rows}),
             "n_raw_media": len({row["media_id"] for row in rows if row["media_id"]}),
             "n_raw_recordings": len({row["recording_id"] for row in rows if row["recording_id"]}),
@@ -784,9 +776,9 @@ def parse_corpus(
 
     datasets = {
         "file_manifest": file_rows,
-        "turns": turn_rows,
+        "analytic_spans": span_rows,
         "candidate_occurrences": candidate_rows,
-        "turn_initial_vocabulary": vocab_rows,
+        "span_initial_vocabulary": vocab_rows,
         "census_by_form": census_rows,
         "parse_warnings": warning_rows,
     }
@@ -799,14 +791,12 @@ def parse_corpus(
         "n_collection_blocks": len({row["collection_block_id"] for row in file_rows if row["collection_block_id"]}),
         "n_files_missing_recording_id": sum(not row["recording_id"] for row in file_rows),
         "n_physical_main_tier_lines": physical_main_total,
-        "n_collapsed_turns": len(turn_rows),
-        "n_fully_timed_turns": sum(row["timing_status"] == "fully_timed" for row in turn_rows),
-        "n_partially_timed_turns": sum(row["timing_status"] == "partially_timed" for row in turn_rows),
-        "n_untimed_turns": sum(row["timing_status"] == "untimed" for row in turn_rows),
-        "n_turns_with_internal_gap_over_2500": sum(row["internal_gap_over_2500"] for row in turn_rows),
-        "n_turns_with_internal_gap_over_12000": sum(row["internal_gap_over_12000"] for row in turn_rows),
-        "n_unlisted_speaker_turns": sum(not row["speaker_listed"] for row in turn_rows),
-        "n_unknown_speaker_turns": sum(row["speaker_unknown"] for row in turn_rows),
+        "n_analytic_spans": len(span_rows),
+        "n_fully_timed_spans": sum(row["timing_status"] == "fully_timed" for row in span_rows),
+        "n_partially_timed_spans": sum(row["timing_status"] == "partially_timed" for row in span_rows),
+        "n_untimed_spans": sum(row["timing_status"] == "untimed" for row in span_rows),
+        "n_unlisted_speaker_spans": sum(not row["speaker_listed"] for row in span_rows),
+        "n_unknown_speaker_spans": sum(row["speaker_unknown"] for row in span_rows),
         "n_candidate_occurrences": len(candidate_rows),
         "n_parse_warnings": len(warning_rows),
     }
@@ -822,39 +812,37 @@ FIELDNAMES = {
         "n_physical_main_tier_lines", "n_timed_tiers", "first_ms", "last_ms",
         "parse_warning_count",
     ],
-    "turns": [
-        "turn_id", "segment_id", "relative_path", "episode_index", "turn_index",
+    "analytic_spans": [
+        "span_id", "segment_id", "relative_path", "episode_index", "span_index",
         "speaker_id", "first_tier_index", "last_tier_index", "start_ms", "end_ms",
         "boundary_start_ms", "boundary_end_ms", "recording_id", "tape_side_id",
         "tape_id", "collection_block_id", "original_same_speaker_chain_id",
         "boundary_reason_from_previous",
-        "raw_text", "normalized_text", "previous_turn_id", "previous_speaker",
-        "next_turn_id", "next_speaker", "gap_to_next_ms", "next_overlap_ms",
+        "raw_text", "normalized_text", "previous_span_id", "previous_speaker",
+        "next_span_id", "next_speaker", "gap_to_next_span_ms", "next_span_overlap_ms",
         "speaker_listed", "speaker_unknown", "timing_status", "timing_complete",
-        "max_internal_positive_gap_ms", "internal_gap_over_2500",
-        "internal_gap_over_12000",
     ],
     "candidate_occurrences": [
-        "occurrence_id", "turn_id", "relative_path", "segment_id", "media_id", "recording_id",
+        "occurrence_id", "span_id", "relative_path", "segment_id", "media_id", "recording_id",
         "tape_side_id", "tape_id", "collection_block_id", "original_same_speaker_chain_id",
         "episode_index", "speaker_id", "token_index", "token_end_index", "tier_index", "tier_token_index",
         "candidate_end_tier_index", "candidate_spans_main_tiers",
         "candidate_tier_start_ms", "candidate_tier_end_ms",
         "raw_surface", "normalized_surface", "form_family_id", "alias_rule_id", "seed_group",
         "variant_block_hint", "component_family_ids",
-        "turn_initial", "main_tier_initial", "candidate_final", "candidate_only_turn",
-        "source_turn_start_ms", "source_turn_end_ms", "source_speaker_listed",
-        "source_speaker_unknown", "next_turn_id", "next_speaker_id",
-        "next_speaker_listed", "next_speaker_unknown", "next_turn_start_ms",
+        "span_initial", "main_tier_initial", "candidate_final", "candidate_only_span",
+        "source_span_start_ms", "source_span_end_ms", "source_speaker_listed",
+        "source_speaker_unknown", "next_span_id", "next_speaker_id",
+        "next_speaker_listed", "next_speaker_unknown", "next_span_start_ms",
         "gap_ms", "overlap_ms", "auto_exclusion_code",
         "manual_status", "sign_type_id",
     ],
-    "turn_initial_vocabulary": [
-        "normalized_surface", "n_turn_initial", "n_segments", "n_speakers",
+    "span_initial_vocabulary": [
+        "normalized_surface", "n_span_initial", "n_segments", "n_speakers",
         "in_seed_alias_table", "form_family_id",
     ],
     "census_by_form": [
-        "form_family_id", "normalized_surfaces", "n_raw", "n_turn_initial",
+        "form_family_id", "normalized_surfaces", "n_raw", "n_span_initial",
         "n_candidate_only", "n_raw_segments", "n_raw_media", "n_raw_recordings", "n_raw_collection_blocks", "n_raw_speakers",
         "n_initial_segments", "n_initial_media", "n_initial_recordings", "n_initial_collection_blocks", "n_initial_speakers",
         "n_initial_timed", "n_initial_timed_segments", "n_initial_timed_recordings", "n_initial_timed_collection_blocks", "n_initial_timed_speakers",
@@ -905,6 +893,23 @@ def write_outputs(
         "platform": platform.platform(),
         "locale_encoding": sys.getfilesystemencoding(),
         "candidate_lexicon_sha256": alias_sha256,
+        "analytic_unit": {
+            "name": "ipu_style_span",
+            "same_speaker_gap_ms_comparator": "<",
+            "same_speaker_gap_ms_threshold": SPAN_MERGE_MAX_GAP_MS,
+            "requires_listed_non_unknown_speaker": True,
+            "requires_adjacent_boundary_times": True,
+            "respects_episode_boundaries": True,
+        },
+        "schema_compatibility": {
+            "backward_compatible": False,
+            "replaces_parser_version": "0.5.0",
+            "renamed_outputs": {
+                "turns.csv": "analytic_spans.csv",
+                "turn_initial_vocabulary.csv": "span_initial_vocabulary.csv",
+            },
+            "turn_columns_removed_or_renamed_to_span_columns": True,
+        },
         "exact_command": " ".join(sys.argv),
         "smoke_counts": smoke,
         "output_hashes": output_hashes,

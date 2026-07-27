@@ -1,0 +1,1 @@
+model_registry_id,model_family,provider,execution_surface,model_name,model_version,temperature,top_p,seed_policy,tool_access,network_access,context_policy,data_class_allowed,prompt_protocol_version,settings_sha256,registry_version,frozen_at,version_drift_action,status,notes

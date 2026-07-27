@@ -1,15 +1,15 @@
 # CABNC census and pre-pilot decision report
 **Date:** 2026-07-27
-**Status:** Review checkpoint
-**Decision requested:** Whether the validated CABNC retrieval infrastructure justifies the bounded manual pre-pilot described below. This report does **not** ask us to treat the corpus feasibility gate as passed.
+**Status:** Approved census, updated for parser 0.6.0
+**Decision:** The validated CABNC retrieval infrastructure justifies the bounded pre-pilot described below. This report does **not** treat the corpus feasibility gate as passed.
 ## Executive decision
 The CABNC acquisition, parsing, retrieval, provenance, and validation infrastructure has succeeded. It gives us a reproducible census of candidate strings in a frozen corpus source. It does not yet establish that CABNC contains enough independently codable form families for the proposed held-out projectibility study.
 
 The appropriate decision is therefore:
 
-> Proceed to a bounded manual pre-pilot, but do not begin the main coding study, claim corpus feasibility, or revise `main.tex` around a completed projectibility result.
+> Proceed to a bounded pre-pilot, but do not begin the main coding study, claim corpus feasibility, or revise `main.tex` around a completed projectibility result.
 
-The present census identifies 82 provisional retrieval bins that meet the conservative collection-block proxy and 85 that meet the recording proxy. These are upper-bound search bins, not eligible linguistic form families. Several manual and design-dependent judgments remain between retrieval and an analysis-ready sample.
+The present census identifies 82 provisional retrieval bins that meet the conservative collection-block proxy and 85 that meet the recording proxy. These are upper-bound search bins, not eligible linguistic form families. Several source-side, model-panel, acoustic, and design-dependent judgements remain between retrieval and an analysis-ready sample.
 ## What has been established
 ### Frozen source and provenance
 The corpus source is a pinned checkout of the CABNC Git repository:
@@ -50,19 +50,21 @@ The validated run contains:
 | Collection blocks | 58 |
 | Files without a recoverable recording ID | 196 |
 | Physical main-tier lines | 246,783 |
-| Analytic speaker turns | 244,131 |
+| IPU-style analytic spans | 244,922 |
 | Candidate occurrences | 255,211 |
-| Turn-initial candidate occurrences | 103,170 |
-| Candidate-only turns | 36,151 |
-| Fully timed turns | 186,223 |
-| Partially timed turns | 0 |
-| Untimed turns | 57,908 |
+| Span-initial candidate occurrences | 103,553 |
+| Candidate-only spans | 36,279 |
+| Fully timed spans | 187,014 |
+| Partially timed spans | 0 |
+| Untimed spans | 57,908 |
 
-The parser and validator report version `0.5.0`. Sixteen automated tests pass across the census and pre-pilot schema suites. Repeated census runs produce identical tabular-output hashes. The run manifest intentionally records its execution time and therefore changes between runs; the substantive tabular outputs do not.
+The parser and validator report version `0.6.0`. The parser's thirteen focused tests pass, including exact 179/180-ms boundary cases and occurrence-ID stability across resegmentation. Repeated census runs produce identical tabular-output hashes. The run manifest intentionally records its execution time and therefore changes between runs; the substantive tabular outputs do not.
 ### Retrieval procedure
 The census uses explicit aliases rather than fuzzy string matching. Within a main CHAT tier it applies longest-match precedence, so a listed multiword expression is retrieved as its own maximal bin rather than simultaneously counted as every component. A multiword expression cannot cross a main-tier boundary.
 
-Adjacent main tiers are merged only when they have the same known listed speaker, both boundary times are available, and the positive gap is no greater than 2.5 seconds. The parser preserves the original same-speaker chain and the reason for every analytic-turn boundary. Timing status is retained separately for the candidate tier and the analytic turn.
+Adjacent main tiers are joined only when they have the same known listed speaker, both boundary times are available, and the gap is strictly under 180 ms. The resulting units are IPU-style analytic spans, not interactional turns. The parser preserves the broader original same-speaker chain and the reason for every span boundary. Timing status is retained separately for the candidate tier and the analytic span. The 2.5-second value is absent from the parser and reserved for the later outcome window.
+
+The parser 0.6.0 migration deliberately breaks the old turn-labelled output schema: `turns.csv` becomes `analytic_spans.csv`, `turn_initial_vocabulary.csv` becomes `span_initial_vocabulary.csv`, and identifiers and fields are renamed accordingly. Candidate occurrence IDs are now anchored to file, episode, main-tier, and tier-token coordinates rather than to a resegmentable span index. The migration retains all 255,211 occurrences; future changes to span boundaries alone won't change their new IDs.
 
 The alias inventory currently contains:
 
@@ -79,7 +81,7 @@ The alias inventory currently contains:
 
 Complex expressions such as _oh dear_, _oh my God_, _damn it_, and _fuck yeah_ have their own retrieval bins and retain links to relevant component families. Vocatives and other controls such as _mum_, _mummy_, _dad_, _daddy_, and _love_ have been added so that the eventual comparison is not restricted to presumed interjections.
 ## The numerical feasibility proxy
-The raw retrieval gate requires at least 25 events, 10 transcript segments, and 10 speakers. A stricter automatic screen additionally requires usable timing, a recoverable recording ID, an available following turn, and known source and next-speaker identifiers.
+The raw retrieval gate requires at least 25 events, 10 transcript segments, and 10 speakers. A stricter automatic screen additionally requires usable timing, a recoverable recording ID, an available following span, and known source and next-speaker identifiers.
 
 | Gate | Provisional bins passing |
 | --- | ---: |
@@ -87,7 +89,7 @@ The raw retrieval gate requires at least 25 events, 10 transcript segments, and 
 | Screened collection-block proxy | 82 |
 | Screened recording proxy | 85  |
 
-The screened proxy contains 74,601 turn-initial candidate occurrences. The automatic event screen excludes 27,737 turn-initial occurrences and leaves 75,433 before the stricter bin-level proxy is applied. High-frequency screened bins include _yeah_, _oh_, _no_, _mm_, _well_, _yes_, _what_, _so_, _right_, and _ah_. There is also promising representation among lower-frequency items and controls.
+The screened proxy contains 74,974 span-initial candidate occurrences. The automatic event screen excludes 27,747 span-initial occurrences and leaves 75,806 before the stricter bin-level proxy is applied. High-frequency screened bins include _yeah_, _oh_, _no_, _mm_, _well_, _yes_, _what_, _so_, _right_, and _ah_. There is also promising representation among lower-frequency items and controls.
 
 These figures show that CABNC contains abundant retrievable material. They do not show that 85 independent form families can enter the study. The current `form_family_id` field is retained for implementation compatibility, but its values remain provisional retrieval bins until variant, component, and sign-type adjudication is complete.
 ## What has not been established
@@ -96,23 +98,23 @@ CABNC contains 1,860 `.cha` files, but those files are transcript segments rathe
 
 The principal study requires defensible grouping for training, holdout, and uncertainty estimation. We therefore cannot substitute transcript-file counts for conversation counts or yet claim that any bin meets a conversation-level gate.
 ### Recipient availability
-The automatic screen establishes the presence of a following turn by a known speaker. It does not establish that this speaker was an intended or ratified recipient, heard the candidate, or had an opportunity to respond. Recipient availability remains a manual coding question.
+The automatic screen establishes the presence of a following span by a known speaker. It does not establish that this speaker was an intended or ratified recipient, heard the candidate, or had an opportunity to respond. Potential-recipient availability remains a separately masked pre-offset annotation question.
 ### Sign-type and homograph adjudication
 String retrieval does not classify conventionalized constructional uses. Forms such as _well_, _right_, _what_, _like_, _look_, _good_, and _love_ retrieve heterogeneous uses. Even apparently clearer forms may have reading- or position-specific exclusions. Source-category admission must be determined from a dossier that is insulated from recipient-treatment evidence.
 ### Leakage-free family folds
 The alias table records initial variant-block hints, including _ok/okay_, _ay/aye_, _er/erm_, _hm/hmm_, _sh/shh_, _phew/whew_, _oops/whoops_, _oi/oy_, _um/umm_, and _yah/yeah/yeh_. These hints have not yet been converted into a final, linguistically adjudicated fold map.
 
 Complex forms create a second leakage risk: a model must not train on _oh_, for example, and then count performance on _oh dear_ as generalization to an unseen family without an explicit component-blocked sensitivity analysis. We cannot yet claim that no variant or component relation crosses folds.
-### Turn construction and timing
-The revised parser no longer leaves a positive internal gap over 2.5 seconds inside an analytic turn. Missing boundary timing and changes involving unknown or unlisted speakers also force a split. The retained mechanical rule still requires manual validation against sampled transcript and audio context before analytic turns can be treated as interactionally adequate units.
+### Span construction and timing
+The revised parser joins same-speaker tiers only across a known timed boundary below 180 ms. Missing boundary timing and changes involving unknown or unlisted speakers force a split. Sixteen otherwise eligible corpus boundaries occur at exactly 180 ms and are correctly split by the frozen strict-inequality rule. These mechanical spans still require sampled transcript and audio validation and must never be treated as interactionally adequate turns by definition.
 
-Candidate timing is often sufficient for retrieval, but the study's sequential outcomes may require a defensible turn-constructional-unit or audio window. Fully timed transcript turns should not be described as automatically providing token-level or interactionally complete timing.
+Candidate timing is often sufficient for retrieval, but the study's sequential outcomes require a separately adjudicated turn-constructional unit and audio window. Fully timed transcript spans should not be described as automatically providing token-level or interactionally complete timing.
 ### Linguistic eligibility and the projectibility result
 No recipient-treatment outcomes have been coded. No blinded reliability exercise has been run. No held-out model has been fitted. The census therefore establishes neither cross-domain projectibility nor a category effect. It supplies infrastructure and a candidate sampling frame for testing those claims.
 ## Claim boundary
 The following statement is currently warranted:
 
-> A verified, frozen CABNC source supports reproducible retrieval of a large set of candidate forms and controls. Eighty-two provisional retrieval bins meet the conservative collection-block proxy and 85 meet the recording proxy, justifying a bounded manual feasibility assessment.
+> A verified, frozen CABNC source supports reproducible retrieval of a large set of candidate forms and controls. Eighty-two provisional retrieval bins meet the conservative collection-block proxy and 85 meet the recording proxy, justifying a bounded feasibility assessment.
 
 The following statements are not currently warranted:
 
@@ -122,7 +124,7 @@ The following statements are not currently warranted:
 
 - The current folds prevent variant or component leakage.
 
-- A following turn is a recipient response.
+- A following span is a recipient response.
 
 - Transcript timing alone supports the intended sequential coding.
 
@@ -130,31 +132,33 @@ The following statements are not currently warranted:
 
 
 The corpus parser also emits no warnings under its narrow structural warning rules. That should not be paraphrased as a claim that the CHAT data are globally clean or interactionally unambiguous.
-## Bounded manual pre-pilot
+## Bounded pre-pilot
 The next stage should answer feasibility questions rather than estimate the paper's headline result.
-### 1. Validate turn collapse
-Audit a principled sample of merged and split same-speaker chains, including long-gap, missing-timing, and unknown-speaker boundaries. Record whether each mechanical boundary yields one usable turn, separate turns, or an interactionally indeterminate case. Freeze the validated rule before sampling the coding pilot.
+### 1. Validate the span-to-TCU relation
+Audit a principled sample of joined and split same-speaker chains, including the 179/180-ms boundary, missing timing, and unknown speakers. Record whether each mechanical boundary falls within one TCU, separates TCUs, or remains interactionally indeterminate. The span rule remains an acoustic parsing convention; sampled TCU adjudication is a distinct layer.
 ### 2. Establish grouping units
 Use transcript metadata and, where permitted, the associated recording structure to determine how recording IDs, episodes, transcript segments, and conversations relate. Produce an explicit grouping table and state which level will block folds and which will enter the hierarchical model.
 ### 3. Freeze variant and component relations
 Adjudicate the provisional variant blocks. Separately flag compositional or lexical-component relationships. Define the principal leave-one-family-out folds and the stricter component-blocked sensitivity folds before outcome coding.
 ### 4. Prepare sign-type dossiers
 For a deliberately small, heterogeneous set of candidate and comparison forms, prepare source-only dossiers containing the evidence allowed for `INTERJECTION_syn` and `INTERJECTION_sem` classification. Exclude recipient treatment and the exact outcome windows from these dossiers.
-### 5. Run a blinded double-coded pilot
-Independently code:
+### 5. Run a blinded multi-model pilot
+Use isolated Claude-, Gemini-, and GPT-family passes plus source/target-separated author audit to annotate:
 
 - source-side immediate cues;
 
-- recipient availability;
+- potential-recipient availability;
 
-- recipient treatment; and
+- token-to-sign-type assignment;
+
+- secondary fittedness and uptake; and
 
 - exclusions or indeterminacy.
 
 
-The pilot should test whether the layers can be kept separate, whether coders can apply the outcome scheme reliably, and whether enough events survive manual exclusions within entire held-out families. It is not a miniature significance test.
+The four-way primary trajectory is instead derived mechanically from audited first-vocal onset and speaker identity. The pilot should test whether the layers can be kept separate, whether the model panel is stable across duplicate runs and model families, whether author audit supports the panel, and whether enough events survive exclusions within entire held-out families. It is not a miniature significance test.
 ### Stop or redirect conditions
-Redirect to the semantic-repetition experiment if the manual pre-pilot shows that:
+Redirect to the semantic-repetition experiment if the pre-pilot shows that:
 
 - conversation or dependence units cannot be reconstructed adequately;
 
@@ -185,8 +189,8 @@ If it fails, the architectural repair remains valid. The direct empirical test s
 Independent methodological audits identified the conversation-unit, unknown-speaker, partial-timing, occurrence-ID, alias-leakage, component-overlap, and vocative-control issues now reflected in the pipeline and this claim boundary. Their outputs were treated as correlated critical evidence, not votes.
 
 A local Mistral model was also tried as an optional mechanical candidate-recall screen. It stalled on both large and reduced prompts and produced no usable suggestions. No local-model output was incorporated into the alias inventory or methodological decisions.
-## Proposed decision
-Approve the bounded manual pre-pilot while retaining all three restrictions:
+## Approved decision
+Proceed with the bounded pre-pilot while retaining all three restrictions:
 
 1. the 82 collection-block and 85 recording-proxy bins remain upper-bound retrieval results;
 

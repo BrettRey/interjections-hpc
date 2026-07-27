@@ -35,5 +35,6 @@ analysis/cabnc-census/
 analysis/cabnc-prepilot/generated/
 analysis/cabnc-prepilot/completed/
 analysis/cabnc-prepilot/private/
+analysis/cabnc-audio/
 __pycache__/
 *.pyc
