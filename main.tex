@@ -2372,16 +2372,37 @@ part-of-speech tagger, trained on inner-circle English, fails to tag
 regional interjections (\mention{yaar} and \mention{haba} receive no
 interjection tag at all), which means the tagged frequencies
 underestimate regional items. The \mention{ha} row needs a criterion
-rather than a caveat. Iterated \mention{HA! HA!} is a rendering of
-laughter, closer to eye dialect than to a lexical item, and I exclude it on
-that ground; \mention{ha} used for sarcasm or scepticism is an
-interjectional use and is counted. Note that the line is harder to draw in a
-written corpus than a spoken one, since nothing was vocalized for the
-spelling to represent, and iterated \mention{haha} in digital writing has
-arguably conventionalized into a form in its own right. Readers who would
-count it should treat the \mention{ha} figure as a lower bound. The exclusion
-doesn't rest on any claim that imitative forms fall outside the category,
-which would contradict the recruitment route just described.
+rather than a caveat, and the criterion has to be settled before the figure
+rather than after it. Iterated \mention{HA! HA!} is a rendering of laughter,
+closer to eye dialect than to a lexical item; \mention{ha} used for sarcasm or
+scepticism is an interjectional use. The line is harder to draw in a written
+corpus than a spoken one, since nothing was vocalized for the spelling to
+represent, and iterated \mention{haha} in digital writing has arguably
+conventionalized into a form in its own right. Nothing here rests on a claim
+that imitative forms fall outside the category, which would contradict the
+recruitment route described above.
+
+Hand-coding the tagged concordance for all twenty sections shows how much
+turns on that one decision, and the figures reported above count iterated
+laughter rather than excluding it. Laughter is 51.5\% of tagged \mention{ha}
+in the United States and 63.0\% in Great Britain, so the two readings are far
+apart: across six defensible codings of the laughter and residual-token
+questions, \mention{ha}'s coefficient of variation runs from 0.40 to 0.83.
+A single figure would report one path through that set rather than the set.
+
+Two results should be kept apart, because one survives the spread and the
+other doesn't. The dispersion statistic doesn't: it isn't identified without
+the criterion decision, and the 0.41 above corresponds to counting laughter.
+The ranking does. Coding also shows what proportion of tagged tokens are
+interjections at all, which runs from 34.5\% in Bangladesh to 84.0\% in Great
+Britain, with \term{hectare} the contaminant in East Africa and South Asia and
+personal names in Singapore, where only 6.1\% is \term{hectare}. Correcting
+each section by its own rate moves Kenya from fifth place among the twenty to
+fifteenth, and it does so under every one of the six codings. Pooling the
+twenty rates to allow for their unequal precision, which runs from about 8,100
+tagged tokens for the United States down to 420 for Ghana, moves no section by
+more than 0.6 percentage points, because the variance between sections is much
+larger than the sampling variance within them.
 
 Country differences in GloWbE may also reflect corpus composition,
 genre mix, internet ecology, and orthographic convention as much as

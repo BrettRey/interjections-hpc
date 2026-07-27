@@ -1,0 +1,7 @@
+spec,prior_a,prior_b,mean_raw,cv_raw,mean_pooled,cv_pooled,ke_rank_raw,ke_rank_pooled
+"laughter=in, unclear=excl",6.54,3.59,13.18,0.396,13.18,0.395,15,15
+"laughter=in, unclear=half",7.37,3.26,14.25,0.42,14.26,0.419,15,14
+"laughter=in, unclear=incl",7.51,2.62,15.33,0.446,15.33,0.445,15,15
+"laughter=out, unclear=excl",5.42,24.33,3.96,0.793,3.97,0.778,15,15
+"laughter=out, unclear=half",6.57,21.97,5.04,0.81,5.04,0.796,15,15
+"laughter=out, unclear=incl",6.37,16.54,6.11,0.828,6.11,0.817,16,16
