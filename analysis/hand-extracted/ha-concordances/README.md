@@ -64,6 +64,8 @@ interval predicts. Precision, not bias, was the problem.
 **This is bare `ha`, not `ha_uh`.** The query parameter in the saved page is
 `w11=ha`. The tagged query is the one that bears on the conditioning table.
 
+## RETRACTED section below (kept for the record)
+
 ## Which query: `ha_uh`, not bare `ha`
 
 The conditioning table reports the tagged count, verified by matching the
@@ -90,3 +92,38 @@ that captures an arbitrary 6% of its target cannot.
 Both caveats worth keeping: the 11,000 is inferred from the pager rather than
 read off a total, and the 30% rests on twenty tokens. The tagged 1000-line pull
 settles both at once, since it reports its own N.
+
+## Retraction, 2026-07-27
+
+The section above concluded that the tag keeps only 9% of `ha` tokens, captures
+about one interjectional token in sixteen, and that `ha` might therefore be
+uncorrectable and should leave the analysis. **All of that was wrong.** It rested
+on reading the results pager as counting pages of 1000. It counts pages of 100.
+
+Brett corrected the premise: the saved pulls are `ha_uh`, tagged, despite the
+saved query parameter reading `w11=ha`, which does not record the POS tag.
+
+With the right page size the arithmetic reconciles exactly. Great Britain shows
+67 pages, so 6,700 tokens, against 6,694 implied by the tabulated 17.3 per
+million over a 387.6M-word section. United States 8,100 against 8,014, Canada
+2,000 against 1,957, Kenya 1,100 against 1,023.
+
+So the table's `ha` figures are the tagged counts, as first established, and the
+1000-row samples are large samples of those tagged sets — for Kenya, at 1,100
+tokens, effectively a census.
+
+## Measured interjection rates in tagged `ha`
+
+| | tagged tokens | interjection rate | table pmw | corrected pmw | rank |
+|---|---|---|---|---|---|
+| US | ~8,100 | 82.2% | 20.7 | 17.0 | 8 → 9 |
+| GB | ~6,700 | 84.0% | 17.3 | 14.5 | 11 → 16 |
+| CA | ~2,000 | 77.1% | 14.5 | 11.2 | 18 → 18 |
+| KE | ~1,100 | 44.6% | 24.9 | 11.1 | **5 → 19** |
+
+The contamination is regionally patterned as suspected, and it is correctable
+rather than fatal: Inner Circle sections run 77–84% interjectional, Kenya 45%.
+CV moves from 0.41 to 0.46 on these four alone.
+
+**The rates span 45% to 84%, so they cannot be extrapolated.** Each of the
+remaining sixteen sections needs its own 1000-row pull.
