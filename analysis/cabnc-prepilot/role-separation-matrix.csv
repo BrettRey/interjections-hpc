@@ -1,0 +1,11 @@
+left_role_id,right_role_id,overlap_allowed,minimum_distinct_coders_per_role,matrix_version,notes
+source_syn,source_sem,no,2,0.1,
+source_syn,neighbour,no,2,0.1,
+source_syn,cue_and_sign_type,no,2,0.1,
+source_syn,post_offset_trajectory,no,2,0.1,
+source_sem,neighbour,no,2,0.1,
+source_sem,cue_and_sign_type,no,2,0.1,
+source_sem,post_offset_trajectory,no,2,0.1,
+neighbour,cue_and_sign_type,no,2,0.1,
+neighbour,post_offset_trajectory,no,2,0.1,
+cue_and_sign_type,post_offset_trajectory,no,2,0.1,Cue rows must be locked before sign-type assignment
