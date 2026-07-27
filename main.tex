@@ -2750,6 +2750,20 @@ countries = 360 observations). The descriptive CV results in the main
 text provide the primary evidence for the conditioning probe; the model
 suggests the pattern survives the crossed random-effects structure.
 
+Since the hand audit of \mention{ha} in Section~\ref{sec:discussion} shows
+that one item's counts carry a validity rate that varies by country, the model
+was refitted with that error propagated rather than assumed away. Each
+country's rate enters as a draw from its \textsc{beta} posterior, thinning
+\mention{ha}'s count while leaving the other seventeen items untouched, and
+the pair of models is refitted over draws. Correcting it moves little: the
+country random-effect SD goes from 0.42 to 0.44 with iterated laughter counted
+and 0.45 with it excluded, and the model comparison moves from 28.8 to 26.9
+and 28.5 across the same specifications. Two limits on that reassurance. The
+refits use approximate rather than exact leave-one-out, so their absolute
+values are not comparable with the figures above and only the internal
+contrast is informative. And a hand-coded concordance measures precision, so
+this corrects tokens the tagger wrongly admitted and not those it missed.
+
 \section[Morphology gain in COHA]{Supplementary materials: morphology-gain analysis (COHA)}
 \label{app:morphgain}
 
