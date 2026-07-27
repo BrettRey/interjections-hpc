@@ -28,3 +28,12 @@ analysis/morphgain-*.json
 
 # Stan compilation cache
 *.rds
+
+# External CABNC corpus and generated census outputs
+vendor/CABNC-*/
+analysis/cabnc-census/
+analysis/cabnc-prepilot/generated/
+analysis/cabnc-prepilot/completed/
+analysis/cabnc-prepilot/private/
+__pycache__/
+*.pyc

@@ -1,0 +1,239 @@
+form_family_id,normalized_surface,alias_rule_id,seed_group,notes,variant_block_hint,component_family_ids
+aha,aha,exact,interjection,
+ah,ah,exact,interjection,
+abracadabra,abracadabra,exact,interjection,
+alas,alas,exact,interjection,
+amen,amen,exact,interjection,
+aw,aw,exact,interjection,
+ay,ay,exact,response,,ay_aye,
+aye,aye,exact,response,,ay_aye,
+bah,bah,exact,interjection,
+bam,bam,exact,onomatopoeia,
+bang,bang,exact,onomatopoeia,
+beep,beep,exact,onomatopoeia,
+blimey,blimey,exact,interjection,
+blah,blah,exact,interjection,
+bollocks,bollocks,exact,interjection,
+boo,boo,exact,interjection,
+bravo,bravo,exact,interjection,
+bruh,bruh,exact,vocative,
+bye,bye,exact,routine,
+cheers,cheers,exact,routine,
+christ,christ,exact,homograph,Manual constructional-use adjudication required
+come_on,come on,multiword,formula,
+come_on,come-on,hyphenated,formula,
+cor,cor,exact,interjection,
+damn,damn,exact,homograph,Manual constructional-use adjudication required
+damn_it,damn it,multiword,homograph,Provisional complex construction,,damn
+dear,dear,exact,homograph,Manual constructional-use adjudication required
+eh,eh,exact,interjection,
+er,er,exact,filler,,er_erm,
+erm,erm,exact,filler,,er_erm,
+eureka,eureka,exact,interjection,
+eww,eww,exact,interjection,
+exactly,exactly,exact,response,
+farewell,farewell,exact,routine,
+fiddlesticks,fiddlesticks,exact,interjection,
+fie,fie,exact,interjection,
+fuck,fuck,exact,homograph,Manual constructional-use adjudication required
+fuck_yeah,fuck yeah,multiword,homograph,Provisional complex construction,,fuck;yeah
+gee,gee,exact,interjection,
+goddammit,goddammit,exact,interjection,
+god,god,exact,homograph,Manual constructional-use adjudication required
+golly,golly,exact,interjection,
+goodbye,goodbye,exact,routine,
+goodbye,good bye,multiword,routine,
+gosh,gosh,exact,interjection,
+great,great,exact,homograph,Manual constructional-use adjudication required
+ha,ha,exact,interjection,
+haha,haha,exact,interjection,
+heaven,heaven,exact,homograph,Manual constructional-use adjudication required
+heavens,heavens,exact,homograph,Manual constructional-use adjudication required
+hello,hello,exact,routine,
+hey,hey,exact,interjection,
+hi,hi,exact,routine,
+hmm,hmm,exact,response,,hm_hmm,
+ho_hum,ho hum,multiword,interjection,
+holy_cow,holy cow,multiword,interjection,
+hooray,hooray,exact,interjection,
+hush,hush,exact,interjection,
+huh,huh,exact,interjection,
+jeez,jeez,exact,interjection,
+jesus,jesus,exact,homograph,Manual constructional-use adjudication required
+lah,lah,exact,particle,
+lo,lo,exact,interjection,
+look,look,exact,homograph,Manual constructional-use adjudication required
+lovely,lovely,exact,homograph,Manual constructional-use adjudication required
+meh,meh,exact,interjection,
+mercy,mercy,exact,homograph,Manual constructional-use adjudication required
+mhm,mhm,exact,response,Kept separate from mm and uh-huh
+mhm,mm hm,multiword,response,Kept separate from mm and uh-huh
+mm,mm,exact,response,Kept separate from mhm and uh-huh
+nah,nah,exact,response,
+nay,nay,exact,response,
+nice,nice,exact,homograph,Manual constructional-use adjudication required
+no,no,exact,response,
+o,o,exact,interjection,
+oh,oh,exact,interjection,Kept separate from ooh
+oh_boy,oh boy,multiword,interjection,Provisional complex construction,,oh
+oh_my,oh my,multiword,interjection,Provisional complex construction,,oh
+okay,okay,exact,response,Kept separate from ok,ok_okay,
+ok,ok,exact,response,Kept separate from okay,ok_okay,
+oof,oof,exact,interjection,
+oops,oops,exact,interjection,,oops_whoops,
+ooh,ooh,exact,interjection,Kept separate from oh
+ow,ow,exact,interjection,
+ouch,ouch,exact,interjection,
+pew,pew,exact,interjection,
+phew,phew,exact,interjection,,phew_whew,
+ping,ping,exact,onomatopoeia,
+please,please,exact,homograph,Manual constructional-use adjudication required
+pop,pop,exact,onomatopoeia,
+pow,pow,exact,onomatopoeia,
+psst,psst,exact,interjection,
+right,right,exact,homograph,Manual constructional-use adjudication required
+sh,sh,exact,interjection,,sh_shh,
+shh,shh,exact,interjection,,sh_shh,
+shit,shit,exact,homograph,Manual constructional-use adjudication required
+shoo,shoo,exact,interjection,
+shucks,shucks,exact,interjection,
+shush,shush,exact,interjection,
+so,so,exact,homograph,Manual constructional-use adjudication required
+sorry,sorry,exact,routine,
+thanks,thanks,exact,routine,
+thanks,thank you,multiword,routine,
+tsk,tsk,exact,interjection,
+tsk,tut tut,multiword,interjection,
+uh,uh,exact,filler,
+uh_huh,uh-huh,exact,response,Kept separate from mm and mhm
+uh_huh,uh huh,multiword,response,Kept separate from mm and mhm
+uh_oh,uh-oh,exact,interjection,
+uh_oh,uh oh,multiword,interjection,
+uh_uh,uh-uh,exact,response,
+uh_uh,uh uh,multiword,response,
+ugh,ugh,exact,interjection,
+um,um,exact,filler,,um_umm,
+umm,umm,exact,filler,,um_umm,
+well,well,exact,homograph,Manual constructional-use adjudication required
+whew,whew,exact,interjection,,phew_whew,
+whirr,whirr,exact,onomatopoeia,
+whoa,whoa,exact,interjection,
+wow,wow,exact,interjection,
+yaar,yaar,exact,particle,
+yah,yah,exact,response,Kept separate from yeah and yes,yeah_spellings,
+yay,yay,exact,interjection,
+yea,yea,exact,response,
+yeah,yeah,exact,response,Kept separate from yah and yes,yeah_spellings,
+yeh,yeh,exact,response,,yeah_spellings,
+yep,yep,exact,response,
+yes,yes,exact,response,Kept separate from yeah and yah
+yikes,yikes,exact,interjection,
+yuck,yuck,exact,interjection,
+aargh,aargh,exact,interjection,
+absolutely,absolutely,exact,response,Neighbour/control candidate; manual constructional-use adjudication required
+actually,actually,exact,discourse,Neighbour/control candidate; manual constructional-use adjudication required
+ah,aah,lengthened,interjection,Enumerated spelling variant
+ah,ahhh,lengthened,interjection,Enumerated spelling variant
+alright,alright,exact,response,Manual constructional-use adjudication required
+alright,all right,multiword,response,Explicit orthographic variant,,right
+amazing,amazing,exact,homograph,Neighbour/control candidate; manual constructional-use adjudication required
+anyway,anyway,exact,discourse,Neighbour/control candidate; manual constructional-use adjudication required
+bloody_hell,bloody hell,multiword,formula,Manual constructional-use adjudication required
+brilliant,brilliant,exact,homograph,Neighbour/control candidate; manual constructional-use adjudication required
+bye,bye bye,reduplicated,routine,Enumerated farewell variant
+bye,bye-bye,hyphenated,routine,Enumerated farewell variant
+bye,bubye,variant,routine,Enumerated farewell variant
+certainly,certainly,exact,response,Neighbour/control candidate; manual constructional-use adjudication required
+cheerio,cheerio,exact,routine,
+course,course,exact,response,Neighbour/control candidate; manual constructional-use adjudication required
+course,of course,multiword,response,Neighbour/control candidate; manual constructional-use adjudication required
+crikey,crikey,exact,interjection,
+dear_me,dear me,multiword,homograph,Provisional complex construction,,dear
+dear_oh_dear,dear oh dear,multiword,homograph,Provisional complex construction,,dear
+excuse_me,excuse me,multiword,routine,Repair-initiation neighbour
+fine,fine,exact,homograph,Neighbour/control candidate; manual constructional-use adjudication required
+good_god,good god,multiword,homograph,Provisional complex construction,,good;god
+my_god,my god,multiword,homograph,Provisional complex construction,,god
+good,good,exact,homograph,Neighbour/control candidate; manual constructional-use adjudication required
+good_gracious,good gracious,multiword,formula,
+good_grief,good grief,multiword,formula,
+good_heavens,good heavens,multiword,formula,
+good_lord,good lord,multiword,formula,
+goodness,goodness,exact,homograph,Manual constructional-use adjudication required
+my_goodness,my goodness,multiword,homograph,Provisional complex construction,,goodness
+good_evening,good evening,multiword,routine,Provisional complex construction,,good
+good_morning,good morning,multiword,routine,Provisional complex construction,,good;morning
+good_night,good night,multiword,routine,Explicit orthographic variant,,good;night
+good_night,goodnight,exact,routine,Explicit orthographic variant
+hang_on,hang on,multiword,formula,Interactional neighbour/control
+hello,hallo,variant,routine,Enumerated greeting variant
+hiya,hiya,exact,routine,
+hm,hm,exact,response,Kept separate from mm and mhm,hm_hmm,
+hold_on,hold on,multiword,formula,Interactional neighbour/control
+honestly,honestly,exact,discourse,Neighbour/control candidate; manual constructional-use adjudication required
+i_mean,i mean,multiword,discourse,Neighbour/control candidate
+i_see,i see,multiword,response,Neighbour/control candidate
+indeed,indeed,exact,response,Neighbour/control candidate; manual constructional-use adjudication required
+listen,listen,exact,homograph,Interactional neighbour/control; manual constructional-use adjudication required
+marvellous,marvellous,exact,homograph,Neighbour/control candidate; manual constructional-use adjudication required
+mm,mmm,lengthened,response,Enumerated spelling variant; kept separate from mhm
+morning,morning,exact,routine,Manual constructional-use adjudication required
+never_mind,never mind,multiword,formula,Interactional neighbour/control
+night,night,exact,routine,Manual constructional-use adjudication required
+nope,nope,exact,response,
+obviously,obviously,exact,discourse,Neighbour/control candidate; manual constructional-use adjudication required
+och,och,exact,interjection,
+oh_bloody_hell,oh bloody hell,multiword,interjection,Provisional complex construction,,oh;bloody_hell
+oh_dear,oh dear,multiword,interjection,Provisional complex construction,,oh;dear
+oh_dear,oh dear me,multiword,interjection,Provisional complex construction,,oh;dear
+oh_fucking_hell,oh fucking hell,multiword,interjection,Provisional complex construction,,oh
+oh_god,oh god,multiword,interjection,Provisional complex construction,,oh;god
+oh_goodness,oh goodness,multiword,interjection,Provisional complex construction,,oh;goodness
+oh_my_god,oh my god,multiword,interjection,Provisional complex construction,,oh;god
+oh_my_goodness,oh my goodness,multiword,interjection,Provisional complex construction,,oh;goodness
+oi,oi,exact,interjection,,oi_oy,
+oy,oy,exact,interjection,,oi_oy,
+pardon,pardon,exact,routine,Repair-initiation neighbour; manual constructional-use adjudication required
+pardon,pardon me,multiword,routine,Repair-initiation neighbour
+really,really,exact,homograph,Neighbour/control candidate; manual constructional-use adjudication required
+shh,sshh,lengthened,interjection,Enumerated spelling variant,sh_shh,
+stop,stop,exact,homograph,Interactional neighbour/control; manual constructional-use adjudication required
+sure,sure,exact,response,Neighbour/control candidate; manual constructional-use adjudication required
+ta,ta,exact,routine,British thanks formula; manual constructional-use adjudication required
+ta_ta,ta ta,multiword,routine,Farewell formula
+ta_ta,ta-ta,hyphenated,routine,Farewell formula
+tarrah,tarrah,exact,routine,Farewell formula
+terrible,terrible,exact,homograph,Neighbour/control candidate; manual constructional-use adjudication required
+true,true,exact,response,Neighbour/control candidate; manual constructional-use adjudication required
+ugh,urgh,variant,interjection,Enumerated British spelling variant
+uhum,uhum,exact,response,Kept separate pending audio adjudication
+wait,wait,exact,homograph,Interactional neighbour/control; manual constructional-use adjudication required
+wait_a_minute,wait a minute,multiword,formula,Interactional neighbour/control
+whoops,whoops,exact,interjection,,oops_whoops,
+wonderful,wonderful,exact,homograph,Neighbour/control candidate; manual constructional-use adjudication required
+ya,ya,exact,homograph,Potential response form or pronoun; manual constructional-use adjudication required
+you_know,you know,multiword,discourse,Neighbour/control candidate
+you_see,you see,multiword,discourse,Neighbour/control candidate
+yo,yo,exact,vocative,
+aargh,aaargh,lengthened,interjection,Enumerated spelling variant
+ah,ahh,lengthened,interjection,Enumerated spelling variant
+ah,ahhhh,lengthened,interjection,Enumerated spelling variant
+dad,dad,exact,vocative,Neighbour/control candidate; manual constructional-use adjudication required
+daddy,daddy,exact,vocative,Neighbour/control candidate; manual constructional-use adjudication required
+go_on,go on,multiword,formula,Interactional neighbour/control
+ha,hah,lengthened,interjection,Enumerated spelling variant
+i_know,i know,multiword,response,Neighbour/control candidate
+like,like,exact,homograph,Neighbour/control candidate; manual constructional-use adjudication required
+love,love,exact,vocative,Neighbour/control candidate; manual constructional-use adjudication required
+mum,mum,exact,vocative,Neighbour/control candidate; manual constructional-use adjudication required
+mummy,mummy,exact,vocative,Neighbour/control candidate; manual constructional-use adjudication required
+not_really,not really,multiword,response,Neighbour/control candidate
+ooh,oooh,lengthened,interjection,Enumerated spelling variant
+ooh,oohh,lengthened,interjection,Enumerated spelling variant
+probably,probably,exact,homograph,Neighbour/control candidate; manual constructional-use adjudication required
+see_you,see you,multiword,routine,Neighbour/control candidate
+shut_up,shut up,multiword,formula,Interactional neighbour/control
+tsk,tut,variant,interjection,Enumerated transcript realization
+uh_huh,uhuh,variant,response,Enumerated spelling variant; kept separate from mm and mhm
+what,what,exact,homograph,Repair/question neighbour; manual constructional-use adjudication required
+yup,yup,exact,response,
