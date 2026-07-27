@@ -823,3 +823,9 @@ So *lah* looks like \intj{prag}, plausibly \intj{sem}, and not \intj{syn}: a dec
 Not written into the manuscript yet, because adding *lah* to Table 1 and to the node-overlap figure is an analytical commitment about a form Brett knows better than I do, and because the Singapore sample is still to come. Evidence at analysis/hand-extracted/lah-my-kwic-audit.md with the proxy caveat stated: written punctuation indicates prosody, it does not measure it, and SBCSAE is the route to settling it properly.
 
 Two of the three regional items remain unchecked, *yaar* (PK, IN) and *haba* (NG).
+
+2026-07-27 — Correction to a figure added the same day. §6.1 reported the *yaar* English-matrix rate as 60% in Pakistan and 80% in India. The 80% came from a sample that drew 6 of 20 tokens from indiatimes and 4 from pinkvilla, both English-language media, which inflates an English-matrix rate in exactly the predictable direction. Brett's randomized re-pull (19 sites for 20 tokens, top-two share 15%) gives 65%. Corrected in the manuscript to 65% and the token count updated from forty-nine to sixty-nine.
+
+The correction also reverses a claim in the audit file. I had written that the raw PK-over-IN ordering does not survive adjustment. It does: adjusted PK 1.7 against IN 1.5. The gap narrows rather than closing. That claim rested entirely on the clustered 80%.
+
+Method note worth keeping. Across five KWIC samples, source concentration predicted reliability better than sample size did. The two samples that produced wrong codings (haba first pull, yaar India first pull) each had 50% of tokens from two sites; the three that held up (lah MY, yaar PK, haba randomized) had top-two shares of 15--35%. Before trusting a KWIC sample, count the distinct sources. The failure mode is not random noise: a sample clustered on English-language news sites will systematically overstate how much of a substrate-derived form appears in English matrices.

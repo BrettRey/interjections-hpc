@@ -8,14 +8,25 @@ nothing, so these are untagged string queries.
 | variety | n | English matrix | rate | raw per mil | adjusted |
 |---|---|---|---|---|---|
 | PK | 20 | 12 | 60% | 2.9 | 1.7 (±0.6) |
-| IN | 20 | 16 | 80% | 2.3 | 1.8 (±0.4) |
+| IN (clustered) | 20 | 16 | 80% | 2.3 | 1.8 |
+| IN (randomized) | 20 | 13 | 65% | 2.3 | 1.5 (±0.5) |
 | LK | 9  | 3  | 33% | 0.2 | 0.1 |
 
 Intervals are 95% on the sample proportion at n=20, so these indicate a
 magnitude, not a correction factor to apply.
 
-**The raw ordering does not survive.** PK leads IN on raw strings (2.9 vs 2.3)
-and the two converge or reverse once non-English tokens are removed.
+**Corrected 2026-07-27.** On the first, clustered India sample I reported that
+the raw PK-over-IN ordering did not survive adjustment. It does. That sample
+drew 6 of 20 tokens from indiatimes and 4 from pinkvilla, both
+English-language media, which inflates an English-matrix rate in exactly the
+direction you would predict. A randomized re-pull (19 sites for 20 tokens,
+top-two share 15%) gives 65%, not 80%, so adjusted PK 1.7 still leads adjusted
+IN 1.5. The ordering survives; the gap narrows.
+
+The randomized sample also turns up more Hindi-matrix material: four tokens
+inside Roman-script Hindi clauses (*"Arre yaar yeh toh tere paise ke peeche
+hai"*, *"yaar is tarah ki batein to islamic scholars bhi kartein hai"*) plus
+the Urdu/Punjabi set phrase *Yaar Zinda Sohbat Baqi*.
 
 ## Contamination types
 
