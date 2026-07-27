@@ -245,6 +245,60 @@ has a label I'll use throughout.
   it.
 \end{itemize}
 
+\begin{figure}[htbp]
+\centering
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  node distance=8mm and 10mm,
+  claim/.style={draw, rounded corners=2pt, align=center, draw=blue!55!black,
+    fill=blue!7, minimum width=32mm, minimum height=11mm},
+  world/.style={draw, rounded corners=2pt, align=center, fill=white,
+    minimum width=32mm, minimum height=11mm},
+  ground/.style={draw, thick, rounded corners=2pt, align=center,
+    draw=green!40!black, fill=green!8, minimum width=32mm, minimum height=11mm},
+  unclaimed/.style={draw, dashed, rounded corners=2pt, align=center,
+    draw=black!45, fill=black!3, text=black!55, minimum width=32mm,
+    minimum height=11mm},
+  arrow/.style={-{Latex[length=2mm]}, thick},
+  band/.style={font=\itshape, text=black!60, anchor=east, align=right}
+]
+\node[band] at (-2.6, 3.2) {what I assert};
+\node[band] at (-2.6, 1.2) {what the world\\has to be like};
+\node[band] at (-2.6, -1.2) {what explains it};
+
+\node[claim] (decl) at (0, 3.2) {\textbf{declaration}\\having observed some\\properties, expect others};
+\node[claim] (warr) at (5.2, 3.2) {\textbf{warrant}\\what supports it,\\and what would defeat it};
+
+\node[world] (prof) at (0, 1.2) {\textbf{profile}\\the combination\\the declaration names};
+\node[world] (stab) at (5.2, 1.8) {\textbf{stability}\\it recurs across forms\\and over time};
+\node[world] (netw) at (5.2, 0.4) {\textbf{network order}\\the properties are linked,\\not merely co-occurring};
+
+\node[ground] (grnd) at (0, -1.2) {\textbf{grounds}\\how the form got there\\and why it stays};
+\node[ground] (sbl) at (5.2, -1.2) {\textbf{stabilizers}\\what holds the combination\\as forms come and go};
+\node[unclaimed] (corr) at (10.4, -1.2) {\textbf{corrective control}\\restores it when disturbed\\(not claimed here)};
+
+\draw[arrow] (decl) -- (warr);
+\draw[arrow] (prof.east) -- (stab.west);
+\draw[arrow] (prof.east) -- (netw.west);
+\draw[arrow] (grnd) -- (sbl);
+\draw[arrow] (sbl) -- (corr);
+\draw[arrow] (decl.south) -- (prof.north);
+\draw[arrow] (prof.south) -- (grnd.north);
+\node[font=\itshape, text=black!60, align=center] at (9.0, 1.1)
+  {independent of\\each other};
+\end{tikzpicture}%
+}
+\caption{The four objects a category claim has to keep apart. The
+declaration is the commitment; the warrant is the case for it. The profile
+is what the world has to supply, and stability and network order are further
+claims of different kinds, neither following from the other. Grounds explain
+the profile, stabilizers hold it together, and corrective control is the
+strongest ground of all. Only corrective control would license calling the
+cluster \term{homeostatic}, and it isn't claimed here.}
+\label{fig:four-objects}
+\end{figure}
+
 One form shows what that comes to. Take \mention{gee}, as in
 (\ref{ex:gee}).
 
@@ -1122,6 +1176,41 @@ predictions. I distinguish these with subscripts:%
   \intj{syn}.
 \end{itemize}
 
+\begin{figure}[htbp]
+\centering
+\footnotesize
+\resizebox{0.86\textwidth}{!}{%
+\begin{tikzpicture}[
+  ring/.style={draw, thick, fill opacity=0.10, text opacity=1},
+  lab/.style={font=\bfseries\footnotesize},
+  itm/.style={align=center, font=\footnotesize}
+]
+\draw[ring, draw=green!45!black,  fill=green!40]  (0, 1.35) circle (2.7);
+\draw[ring, draw=blue!55!black,   fill=blue!40]   (-1.5, -1.05) circle (2.7);
+\draw[ring, draw=orange!70!black, fill=orange!45] (1.5, -1.05) circle (2.7);
+
+\node[lab, text=green!35!black]  at (0, 4.55)     {\intjshort{syn}};
+\node[lab, text=blue!45!black]   at (-4.7, -2.65) {\intjshort{sem}};
+\node[lab, text=orange!60!black] at (4.7, -2.65)  {\intjshort{prag}};
+
+\node[itm] at (0, -0.10) {\mention{gee!}, \mention{damn!}\\\mention{oh}, \mention{bruh}};
+\node[itm] at (-2.95, -1.75) {\mention{the damn car}};
+\node[itm] at (-2.30, -0.55) {\mention{damn these}\\\mention{mosquitoes!}};
+\node[itm] at (2.30, -0.55) {\mention{mm-hm}\\\mention{huh?}};
+\node[itm] at (1.50, 0.70) {\mention{bye}, \mention{um}};
+\node[itm, text=black!55] at (0, 2.75) {(empty: syntax\\alone isn't enough)};
+\end{tikzpicture}%
+}
+\caption{The three field-relative nodes overlap in extension but come apart,
+and where they come apart is the evidence that they are three. Placement
+follows Table~\ref{tab:diagnostic-matrix}; a form toward a boundary has
+partial or debated membership in the region it approaches. Prenominal
+\mention{damn} carries the semantic node without the syntactic one,
+\mention{mm-hm} the interactional without the semantic, and \mention{bye} and
+\mention{um} neither the semantic node nor undisputed interactional standing.}
+\label{fig:node-overlap}
+\end{figure}
+
 The subscript notation makes explicit that these are overlapping but
 non-identical nodes, each linked by different ordering or stabilizing
 relations, and projectible for different purposes. The traditional label
@@ -1717,12 +1806,26 @@ global attrition. The pre-registered prediction was that
 \intj{prag} would weaken before
 \intj{sem}, and \intj{sem}
 before \intj{syn}. In COHA, all three node
-diagnostics decline together (Appendix~\ref{app:fie}).%
+diagnostics decline together (Figure~\ref{fig:fie-raw}).%
 \footnote{The analysis plan was committed before data extraction
   (\texttt{e18675b}, 15 March 2026). \ifblind The full
   pre-registration, data, and code are archived at [link removed for
   blind review].\else The full pre-registration, data, and code are
   archived at \url{https://github.com/BrettRey/interjections-hpc}.\fi}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{fie-raw-proportions.pdf}
+  \caption{The prediction that failed. Proportion of \mention{fie} tokens
+    coded~1 for each diagnostic, by decade (COHA, 1820--2019; $n = 616$
+    coded tokens). The pre-registered prediction was that
+    \intj{prag} would weaken first and \intj{syn} last. Instead all three
+    decline together, which is what community-wide attrition looks like and
+    is not evidence of ordered erosion. Full model and coding in
+    Appendix~\ref{app:fie}.}
+  \label{fig:fie-raw}
+\end{figure}
+
 
 When a community stops actively using a form, evidence for the pathway
 can disappear across nodes at once. The relevant process is loss of the
@@ -1738,11 +1841,13 @@ Individual forms enter and leave, but the broad profile remains
 available for new material.
 
 The Corpus of Historical American English (COHA) illustrates this
-turnover. Among words tagged as interjections, \mention{nay} ranks in
-the top~10 in the 1820s but falls to negligible frequency by the 2010s;
-\mention{yeah}, entirely absent from the 1820s data, is among the five
-most frequent interjection-tagged forms by the 2010s.%
-\footnote{Based on part-of-speech--tagged frequencies in COHA \citep{davies2010}.
+turnover. Among words tagged as interjections, \mention{nay} falls
+from 175 tokens per million in the 1820s to 2.2 in the 2010s, while
+\mention{yeah}, absent from the 1820s altogether, rises from nothing to 723
+per million and stands third by the 2010s.%
+\footnote{Part-of-speech--tagged frequencies in COHA \citep{davies2010},
+  extracted 2026-07-27 and archived in
+  \texttt{analysis/hand-extracted/nay-yeah-coha-by-decade.csv}.
   Frequencies are normalized per million words. The interjection tag
   captures a conventional inventory rather than a theoretically motivated
   one; the point here is the turnover pattern, not the tagging decisions.}
@@ -1842,6 +1947,56 @@ interjection, it has interjection properties. That's trivially true of
 any category. Causal-network projectibility is different. Observing some
 cluster properties in a novel form licenses inference to other
 properties you haven't yet observed.
+
+\begin{figure}[htbp]
+\centering
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  obs/.style={draw, rounded corners=2pt, align=left, fill=white,
+    minimum width=34mm, minimum height=9mm, text width=32mm},
+  lic/.style={draw, rounded corners=2pt, align=left, draw=green!40!black,
+    fill=green!8, minimum width=34mm, minimum height=9mm, text width=32mm},
+  def/.style={draw, dashed, rounded corners=2pt, align=left,
+    draw=orange!70!black, fill=orange!5, minimum width=34mm,
+    minimum height=9mm, text width=32mm},
+  arrow/.style={-{Latex[length=2mm]}, thick},
+  kill/.style={-{Latex[length=2mm]}, thick, dashed, draw=orange!70!black},
+  hdr/.style={font=\bfseries, align=center}
+]
+\node[hdr] at (0, 3.3) {observed};
+\node[hdr] at (5.6, 3.3) {licensed};
+\node[hdr] at (11.2, 3.3) {would defeat it};
+
+\node[obs] (o1) at (0, 2.1) {stands prosodically\\separate};
+\node[obs] (o2) at (0, 0.6) {doesn't inflect};
+
+\node[lic] (l1) at (5.6, 2.4) {works as a supplement};
+\node[lic] (l2) at (5.6, 1.0) {contributes\\use-conditionally};
+\node[lic] (l3) at (5.6, -0.4) {turns up at the front\\of a turn};
+
+\node[def] (d1) at (11.2, 2.4) {*\mention{gee that it's\\expensive}};
+\node[def] (d2) at (11.2, 1.0) {*\mention{geed}, *\mention{gees}};
+\node[def] (d3) at (11.2, -0.4) {repetition flattens it\\into redundancy};
+
+\draw[arrow] (o1.east) -- (l1.west);
+\draw[arrow] (o1.east) -- (l3.west);
+\draw[arrow] (o2.east) -- (l1.west);
+\draw[arrow] (o2.east) -- (l2.west);
+\draw[kill] (d1.west) -- (l1.east);
+\draw[kill] (d2.west) -- (l2.east);
+\draw[kill] (d3.west) -- (l3.east);
+\node[font=\itshape, text=black!60, align=center] at (5.6, -1.9)
+  {a defeasible default, not an entailment};
+\end{tikzpicture}%
+}
+\caption{What the category licenses, for \mention{gee}. Observing two
+properties licenses expectations about three others that haven't been
+checked, and each expectation names the observation that would defeat it.
+The predicted properties are not the ones that admitted the form, which is
+what keeps the inference from restating membership.}
+\label{fig:projection}
+\end{figure}
 
 Consider the standalone interjectional use of \mention{bruh}, a
 recently conventionalized form. A learner or hearer encountering that
@@ -2581,15 +2736,6 @@ each diagnostic by decade. All three diagnostics are near ceiling
 and fluctuate at low levels thereafter. The late rebounds (1980s,
 2000s) reflect historical fiction and Shakespeare adaptations in which
 characters use \mention{fie} as a live interjection.
-
-\begin{figure}[ht]
-  \centering
-  \includegraphics[width=\textwidth]{fie-raw-proportions.pdf}
-  \caption{Proportion of \mention{fie} tokens coded 1 for each
-    diagnostic, by decade (COHA, 1820--2019). All three diagnostics
-    decline in parallel.}
-  \label{fig:fie-raw}
-\end{figure}
 
 \subsection{Confirmatory model}
 
