@@ -35,4 +35,5 @@ Caveats that apply to every file:
 | `bruh-coca-by-genre.csv` | *bruh* | COCA (993M) | TV/M-dominated, SPOK zero |
 | `oed-attestations.md` | *oof*, *bruh* | OED | first attestations and senses |
 | `nay-yeah-coha-by-decade.csv` | *nay*, *yeah* | COHA (405M) | `_uh`-tagged word search, 20 decades each |
+| `yeah-variants-glowbe-by-country.csv` | *yeah*, *ya*, *yeh* | GloWbE (1.9B) | 20 countries. Run to test whether single-string queries undercount by missing spelling variants. They don't, in the way expected: *ya* and *yeh* concentrate where they are substrate homographs (Swahili *ya* 'of', Malay *ya* 'yes', Hindi/Urdu *yeh* 'this'), and no *yeh* token carries the `_uh` tag. Summing them would lower *yeah*'s CV from 0.55 to 0.46 by importing non-English tokens. Do not sum them. Reported in §6.1 |
 | `interjection-lemmas-coha-by-decade.csv` | top 20 `_uh` lemmas | COHA (405M) | 20 lemmas x 20 decades; every row checked against the interface's own all-decades total before use. `ho`'s 2010s cell was missing from the paste and is derived as total minus the other nineteen (356). A row labelled `[]` (9,608 tokens) was excluded as a tagging artifact. Figure in §4.7 |

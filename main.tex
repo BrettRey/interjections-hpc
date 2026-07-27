@@ -2360,7 +2360,16 @@ which would contradict the recruitment route just described.
 
 Country differences in GloWbE may also reflect corpus composition,
 genre mix, internet ecology, and orthographic convention as much as
-dialect or community structure. Raw strings are imperfect proxies too:
+dialect or community structure. A spelling-variant check bears the last of
+these out, in an unexpected direction. \mention{Ya} and \mention{yeh} look
+like variants of \mention{yeah} that a single-string query would miss, but
+both concentrate where they are homographs of substrate words:
+\mention{ya} peaks in Tanzania (19.5 per million) and Malaysia (13.9),
+\mention{yeh} in Singapore (5.6), Pakistan (4.9), and India (4.9), and no
+\mention{yeh} token in the corpus carries the interjection tag at all.
+Folding both strings into \mention{yeah} would drop its dispersion from a
+CV of 0.55 to 0.46, but only by importing non-English tokens unevenly across
+varieties, so the figures below keep the strings apart. Raw strings are imperfect proxies too:
 \mention{yes}, \mention{no}, \mention{ha}, \mention{ah},
 \mention{oh}, \mention{well}, \mention{right}, and \mention{like} are
 not automatically interjection tokens. Some are clausal, quoted,

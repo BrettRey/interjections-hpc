@@ -785,3 +785,13 @@ The original claim was right and understated: \mention{nay} is fourth in the 182
 Figure 5 plots it: three panels, all twenty lemmas in grey behind each, with holders, leavers, and arrivals picked out, on a symmetric log scale so forms at zero stay visible. Built with the house plot_style; label offsets were needed because \mention{no} and \mention{oh} end within a hair of each other on a log axis. Body float distribution is now 1/1/1/5/1 across §1--§5.
 
 Note for the venue file: this strengthens §4.7 from an illustration into evidence, which matters because turnover is one of the five things §3.3 claims a causal account explains and a feature list doesn't.
+
+2026-07-27 — Spelling-variant check on the GloWbE conditioning analysis. Brett: "anything else where we should have been searching by lemma?" Mostly no, and the reason is in the paper: interjections don't inflect, so lemma equals form. His own data proved it, `[YEAH]` as a lemma totalling 129,674 against 129,684 for the word form. One place lemma search would be actively wrong is the morphgain study, which measures *wowed*, *wowing*, and *wows* separately by design.
+
+The real analogue is spelling variants, and the exposure is GloWbE, where 14 of the 18 conditioning items have plausible web variants and the analysis measures country-level variation, so a regionally patterned spelling convention would inflate the very effect being estimated. I predicted *yeh* would be a British and Australian variant undercounting those varieties. Wrong on both counts.
+
+What the queries showed: *yeh* returns nothing under the `_uh` tag, and untagged it is 3.7% the size of *yeah*, concentrated in Singapore, Pakistan and India. *Ya* is concentrated in Tanzania, Malaysia, Pakistan and Ghana. Both patterns line up with substrate homographs rather than English spelling: Swahili *ya* 'of', Malay *ya* 'yes', Hindi/Urdu *yeh* 'this'. Zero interjection tags across 2,900 *yeh* tokens is the clinching detail, since a tagger seeing English *yeah* would catch some.
+
+So the naive correction is worse than none. Summing the variants would drop *yeah*'s CV from 0.55 to 0.46 and move Tanzania from lowest to mid-table, but it would do that by importing non-English tokens unevenly across exactly the varieties the model compares. The reported CV of 0.55 is verified correct as computed and stands.
+
+§6.1's caveat now reports this as a check rather than listing orthographic convention among generic worries. That converts the weakest link's most obvious referee objection into something the paper has already tested and can cite figures for. Data archived at analysis/hand-extracted/yeah-variants-glowbe-by-country.csv with a do-not-sum note in the README.
