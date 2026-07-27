@@ -35,6 +35,7 @@ Caveats that apply to every file:
 | `bruh-coca-by-genre.csv` | *bruh* | COCA (993M) | TV/M-dominated, SPOK zero |
 | `oed-attestations.md` | *oof*, *bruh* | OED | first attestations and senses |
 | `nay-yeah-coha-by-decade.csv` | *nay*, *yeah* | COHA (405M) | `_uh`-tagged word search, 20 decades each |
+| `yeet-coca.md` | *yeet* | COCA | **N = 1** (2019, MOV). Settles why *yeet* stays out of §4: COCA attests it once. The absence reflects COCA's register coverage to 2019, not rarity; ask NOW or social media instead. Do not re-run against COCA |
 | `haba-ng-kwic-audit.md` | *haba* NG | GloWbE | Two samples. The interface-default pull (7 sites/18 tokens) missed both Hausa-matrix tokens and a medial intensifier use; the randomized pull (13 sites/20) found them. **Check source spread before trusting a KWIC sample**: the two samples that misled here had 50% of tokens from two sites |
 | `yaar-kwic-audit.md` | *yaar* PK/IN/LK | GloWbE | 49 tokens. English-matrix rates 60/80/33%. Tamil *yaar* = 'who' is a true homograph; also proper names and Roman-script Hindi matrix. Raw PK>IN ordering does not survive adjustment. *Yaar* is positionally mobile and comma-set, unlike *lah* |
 | `lah-my-kwic-audit.md` | Malaysian *lah* | GloWbE | 20-token KWIC audit. Regional conditioning confirmed (20/20 English matrix, no Malay-matrix text). But *lah* is clause-final and orthographically attached in all 20, so on the paper's own proxies it looks like \intj{prag} without \intj{syn} |

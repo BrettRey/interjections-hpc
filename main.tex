@@ -2571,8 +2571,21 @@ the semi-regional \mention{eh}, the boundary items \mention{cheers} and
 Figure~\ref{fig:country-variation} displays raw frequency per million
 words by country for each item.
 
-The counts are not all of one kind, and the reason is worth stating because it
-constrains what the comparison can show. English-Corpora.org tags
+Two features of the corpus constrain what country conditioning can mean here.
+Country is a property of the page rather than of a speaker, assigned through
+Google's region function: for a site with a top-level country domain the
+assignment is direct, but for a \texttt{.com} or \texttt{.org} site
+\textcite[4]{daviesfuchs2015} report that Google \enquote{relies on several
+heuristics, including 1) the IP address for the web server, 2) who links to
+that website, and 3) who visits the website}, and they raise the question
+themselves of \enquote{how well Google has correctly identified web sites by
+country}. The page list was also seeded by running \enquote{hundreds of very
+high frequency 3-grams (three word strings)} from the Corpus of Contemporary
+American English against Google \citep[4]{daviesfuchs2015}, so the sampling
+frame is anchored to American frequency data.
+
+The counts are not all of one kind either, and the reason is worth stating
+because it constrains what the comparison can show. English-Corpora.org tags
 automatically, and the tagger handles regionalisms poorly. Counts for the core
 items are restricted to the interjection tag, so they exclude other uses of the
 same string. Counts for \mention{haba} and \mention{yaar} cannot be, because
