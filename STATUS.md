@@ -2,7 +2,7 @@
 <!-- SUMMARY: JoP-rejected on citation integrity; reframing from pragmatics to lexical-category paper; venue is Journal of Linguistics but HELD until LIN-2026-0100 resolves (~Dec 2026) · status: fixing-embarrassments · updated: 2026-07-24 -->
 
 **Status:** **REJECTED by *Journal of Pragmatics* 2026-07-23** (PRAGMA-D-26-00584; blanket citation-integrity policy, no revised version accepted). See `notes/2026-07-23-jop-rejection-citation-integrity.md`. **Quote audit completed 2026-07-24** (`notes/2026-07-24-quote-audit.md`): of nine checkable quotations, one was clean; eight fixes applied; all 14 source quotations now verified. One intro pass outstanding (SIEG2 currency + Libert neglect).
-**Preprints:** [LingBuzz 009852](https://lingbuzz.net/lingbuzz/009852) — posted 2026-03-22; [SSRN 6954254](https://ssrn.com/abstract=6954254) — Elsevier/SSRN notice received 2026-06-16. **Both carry the two confirmed confabulated quotes and are live. Correcting them is the time-sensitive item.**
+**Preprints:** [LingBuzz 009852](https://lingbuzz.net/lingbuzz/009852) — posted 2026-03-22; [SSRN 6954254](https://ssrn.com/abstract=6954254) — Elsevier/SSRN notice received 2026-06-16. **Corrected 2026-07-24: LingBuzz updated with the clean manuscript; SSRN 6954254 deactivated (not searchable or crawled, Public View No). See item 5 below.**
 **Frame (2026-07-24):** reframing from pragmatics paper to **lexical-category paper**. Thesis: interjection is a genuine lexical category of English; the cluster's projectibility, not a defining property, is what earns it that status. The projectible payoffs stay and remain largely pragmatic, which is a result rather than a venue. See DECISIONS.md 2026-07-24.
 **Primary target:** ***Journal of Linguistics* — intended, HELD, not submitted.** Hold condition: LIN-2026-0100 (definiteness/projectibility) under review at JL since 2026-06-11, reports expected ~December 2026. Same argument applied to a different English category; do not run both at JL simultaneously. Stretch: *Language* (LSA). Fallback: *Glossa* (OLH), fit UNVERIFIED (site blocks automated fetch).
 **Closed venues:** Journal of Pragmatics (permanent, citation-integrity policy); Journal of Historical Pragmatics (scope). Ruled out 2026-07-24: Corpus Pragmatics, Pragmatics (IPrA), Pragmatics & Cognition, International Review of Pragmatics (Brill AI policy), Language Sciences / Lingua (Elsevier), ELL (concurrent submission).
@@ -10,7 +10,7 @@
 **Previous journal decision:** Journal of Historical Pragmatics (John Benjamins), manuscript JHP-26024; declined without external review on 2026-06-03.
 **JHP submitted:** 2026-06-02
 **JHP decision received:** 2026-06-03
-**Pages:** 34 (unblinded build, 2026-07-24)
+**Pages:** 40 (unblinded build, 2026-07-26)
 **Blind toggle:** `\blindtrue` / `\blindfalse` in main.tex line 11. **Currently `\blindfalse`** (unblinded, for preprint posting); flip back before any journal submission.
 
 ### 2026-03-22 Session Notes
