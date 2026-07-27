@@ -63,3 +63,30 @@ interval predicts. Precision, not bias, was the problem.
 
 **This is bare `ha`, not `ha_uh`.** The query parameter in the saved page is
 `w11=ha`. The tagged query is the one that bears on the conditioning table.
+
+## Which query: `ha_uh`, not bare `ha`
+
+The conditioning table reports the tagged count, verified by matching the
+table's figures against `_uh` queries for *yeah* and *um*, which agree to two
+decimals. So the bare-string composition does not correct the table; only the
+tagged composition does.
+
+The bare pull saved here is still useful, but for a different question, and it
+raises one the tagged pull needs to answer. Reading the pager as 11 pages of
+1000, bare `ha` in Kenya is about 11,000 tokens against the table's tagged
+1,023, so the tag keeps roughly 9%. At the bare pull's 44.6% interjection rate
+that implies about 4,900 interjectional tokens in the section, while the tagged
+set contains about 1,020 tokens of any kind, of which a 20-token sample put 30%
+interjectional, or roughly 307.
+
+Those do not reconcile. The tag is not filtering hectares out of an otherwise
+clean set; it is discarding most tokens of both classes and keeping a mixed
+residue of about one interjectional token in sixteen.
+
+**If that survives the tagged pull, `ha` is not correctable and should leave the
+analysis rather than be adjusted.** A contaminated count can be scaled; a count
+that captures an arbitrary 6% of its target cannot.
+
+Both caveats worth keeping: the 11,000 is inferred from the pager rather than
+read off a total, and the 30% rests on twenty tokens. The tagged 1000-line pull
+settles both at once, since it reports its own N.

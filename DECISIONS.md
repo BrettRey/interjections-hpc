@@ -949,3 +949,11 @@ The tag holds up. Roughly 89% of the tokens are genuine response or nominal uses
 Two consequences. The uniformity claim stands as written. And determiner noise at 6% would be uniform across varieties rather than regionally patterned, so it depresses the CV by roughly a constant, moving 0.22 to about 0.23; it does not bias the country comparison.
 
 The useful generalization is sharper than "the tagger is unreliable". The tagger handles frequent, well-attested interjection uses of a common English word correctly, and fails in two specific circumstances: a borrowed regionalism it does not know (*haba*, 373 tokens, none tagged UH) and an abbreviation homographic with an interjection (*ha* for hectare, admitted into the tag at about 55% in Kenya). Those are the cases to check, and *no*, *yes* and the other core items are not.
+
+2026-07-27 — Brett: "ha or ha_uh?" `ha_uh`. The conditioning table reports tagged counts, established by matching the table against `_uh` queries for *yeah* and *um*, which agree to two decimals, so only the tagged composition bears on the figure in the paper.
+
+Working out why the bare pull could not answer it surfaced a second and possibly larger problem. Reading the saved pager as 11 pages of 1000, bare `ha` in Kenya is about 11,000 tokens against the table's tagged 1,023, so the tag keeps about 9%. At the bare pull's measured 44.6% interjection rate that implies roughly 4,900 interjectional tokens in the section, while the whole tagged set is about 1,020 tokens, of which the 20-token sample put 30% interjectional, or about 307. Those figures do not reconcile: the tag is not filtering hectares out of a clean set, it is discarding most tokens of both classes and keeping a mixed residue containing perhaps one interjectional token in sixteen.
+
+If that survives the tagged pull, *ha* is not correctable and should leave the analysis rather than be adjusted. A contaminated count can be scaled by a measured rate; a count that captures an arbitrary six per cent of its target cannot, and its cross-country pattern would be measuring tagger behaviour rather than usage.
+
+Two caveats recorded rather than glossed: the 11,000 is inferred from the pager against an assumed 1000-row page size, not read from a stated total, and the 30% rests on twenty tokens. A tagged 1000-line pull settles both, since it reports its own N.
