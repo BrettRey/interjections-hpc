@@ -713,3 +713,29 @@ Homeostasis is down to three sites from six this morning. The two remaining beyo
 The phrase occurs twice in the paper. The other instance, "The richest projectibility is pragmatic", sits inside §5.4 where the result is being delivered, so it stays. §3 now reads "enough for projectibility, whatever domain the projections turn out to fall in", with a pointer to §5.4, which also converts a silent assumption into a visible promissory note.
 
 Standing risk worth naming: "pragmatic projectibility" was the Journal of Pragmatics framing's house phrase, and the project brief in CLAUDE.md still describes pragmatic projectibility as "the paper's distinctive contribution to theoretical pragmatics". Under the lexical-category frame the contribution is projectibility as the criterion for categoryhood, and its being largely pragmatic is a finding. The brief is now out of date on this point.
+
+2026-07-26 — Systematic residue and pre-emption audit, replacing the piecemeal fixing. Brett: "we just keep going over and over this. Enough with the half-assed efforts. Time for the full, complete, thorough, proper job!" Fair. Every item he had pointed at that day was an instance of a general defect, and each time I fixed the instance and moved on instead of auditing the class.
+
+Method: built a section map with hierarchical numbering, then for each major claim identified the section that establishes it and flagged every earlier assertion of it. Ran that against five claim classes, re-ran a cross-section duplication pass at a lower threshold than the morning's, audited \term{} first-mentions against the house rule ("concepts and categories being introduced or defined"), and checked the paper's self-descriptions of its own thesis against each other.
+
+Findings and fixes:
+
+1. The paper stated two different central claims. The abstract, rewritten in the 2026-07-24 reframe, says the paper argues the category earns its place through projectibility, and explicitly demotes the pragmatic character of the inferences to "a result about the category and not a change of subject". §5 still opened "The paper's central claim concerns where the richest projectibility lies", which is the Journal of Pragmatics thesis and contradicts the abstract. Replaced with a plain statement of what §5 does.
+
+2. "Pragmatic projectibility" in §3 assumed §5.4's result about a thousand lines early, the same pre-emption the review board caught in §3.4's "Projects X" clauses. Now "enough for projectibility, whatever domain the projections turn out to fall in", with a pointer.
+
+3. Three senses of "project" in a paper whose core concept is projectibility: the Goodman sense throughout, the X-bar sense at §2.3 ("an interjection projects beyond a single word"), and the conversation-analytic sense at §3.4 ("projects an answer"). Both collisions removed, to "heads a phrase larger than a single word" and "makes an answer relevant".
+
+4. §3.4's node definitions asserted causal links that §4.5 establishes. Both now carry forward references, so the dependency is visible rather than assumed. Same fix applied to my own pre-emption at §2.6, written earlier the same day.
+
+5. §5.2's bare restatement of §3.4's mm-hm extension difference cut; the damn passage beside it elaborates, so it stays.
+
+6. §3.4's "parallel formulation in homeostatic-kind theory" cut. It restated the preceding paragraph in Boyd's words and then called itself "a useful gloss". Khalidi already carries field-relativity for this paper. Side effect: this removed one of the two unverifiable quotations, so the quote gate's MISSING count went from 2 to 1.
+
+7. "Leaving homeostasis open" in §3.3's list rewritten as "a claim about stability rather than about what maintains it", in the paper's own vocabulary.
+
+Homeostasis is now at one site, §1, where the term is introduced and disclaimed, which is the right place to keep it: the LingBuzz preprint is still titled "English Interjections as a Homeostatic Property Cluster", so a reader arriving from it will look for the claim. Six sites at the start of the day, one now.
+
+Also fixed: two \term{} markings on concepts already introduced (projectibility, response token). Reported but not acted on, because it is a different axis and Brett has not raised it: the three node names carry \term{} at 20+ sites each, which is heavier than the house rule's "being introduced or defined" implies.
+
+The project's own CLAUDE.md carried the same residue and would have misled the next session: it described the target as Journal of Pragmatics with Corpus Pragmatics as backup, and called pragmatic projectibility "the paper's distinctive contribution to theoretical pragmatics". Updated to the lexical-category thesis, the real venue position, and an explicit warning against "pragmatic projectibility" as a standing phrase.
