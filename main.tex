@@ -2588,13 +2588,23 @@ frame is anchored to American frequency data.
 The counts are not all of one kind either, and the reason is worth stating
 because it constrains what the comparison can show. English-Corpora.org tags
 automatically, and the tagger handles regionalisms poorly. Counts for the core
-items are restricted to the interjection tag, so they exclude other uses of the
-same string. Counts for \mention{haba} and \mention{yaar} cannot be, because
+items are restricted to the interjection tag, but restriction is not the same as
+exclusion. Hand-coding twenty tagged \mention{ha} tokens from Kenya and twenty
+from Tanzania leaves six and eight respectively as interjections; the rest are
+almost all the abbreviation for \term{hectare}, in agricultural and development
+prose. On that basis \mention{ha} in Kenya falls from 24.9 tokens per million
+to roughly 7.5, and from fifth place among the twenty countries to nineteenth.
+So the tag narrows a count without cleaning it, and it fails worst where a
+homograph belongs to a text type a region produces more of.
+
+Counts for \mention{haba} and \mention{yaar} cannot be tag-restricted at all,
+because
 neither string is ever assigned that tag: all 373 Nigerian tokens of
 \mention{haba} are tagged as common or proper nouns, 65\% of them on a reading
 that includes the proper noun. The regional figures are therefore raw strings
-where the core figures are filtered, which inflates the regional items relative
-to the items they are set beside. The size of that inflation is indicated by
+where the core figures are tag-restricted, which inflates the regional items
+relative to the items they are set beside, though by less than it would if the
+tag were reliable. The size of that inflation is indicated by
 \textcite{unuabonahdaniel2020}, who work on \mention{haba} in the same
 Nigerian component and report 248 tokens against the 373 a raw query returns.
 They reach the smaller figure by inspecting each hit: their data were

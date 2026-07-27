@@ -45,3 +45,47 @@ and the comparison baseline is affected, not just the regional items. If none
 appear, the tag is doing its job on this form and the table is fine.
 
 Until that is run, this is a suspicion with a mechanism, not a finding.
+
+---
+
+# Settled: `ha_uh` shows hectares ARE tagged as interjections
+
+Brett ran the settling query 2026-07-27. Twenty tagged tokens each.
+
+| variety | interjection | *hectare* | other | rate |
+|---|---|---|---|---|
+| KE | 6 | 13 | 1 (proper name, *South Korea's Ha*) | **30%** |
+| TZ | 8 | 11 | 1 (garbled text) | **40%** |
+
+So the interjection tag does not exclude *hectare*. Sources are the same
+agricultural and development set as the bare-string pull: `ilri.cgiar.org`,
+`fao.org`, `un.org`, `rukwa.go.tz`, `sido.go.tz`, `afejnews.org`.
+
+## Consequences
+
+| | as tabulated | corrected on these rates |
+|---|---|---|
+| `ha` in Kenya | 24.9 pmw | ~7.5 pmw |
+| `ha` in Tanzania | 16.8 pmw | ~6.7 pmw |
+| Kenya's rank on `ha` | 5th of 20 | **19th of 20** |
+| CV of `ha` | 0.41 | 0.49 |
+
+**This reaches the comparison baseline, not the hedged periphery.** `ha` is one
+of the ten core items, and its figure is wrong by a factor of three in at least
+two varieties, in a direction set by how much agricultural and development prose
+a section contains.
+
+## What it corrected in the manuscript
+
+The appendix passage added earlier the same day said core-item counts "are
+restricted to the interjection tag, so they exclude other uses of the same
+string." That is false, and this audit is what showed it. The passage now says
+restriction is not exclusion, gives the Kenya and Tanzania figures, and states
+that the tag fails worst where a homograph belongs to a text type a region
+produces more of.
+
+## Still open
+
+Whether `ha` should stay in the analysis at all is Brett's call. The other core
+items have not been checked under the tag, and there is now a reason to think
+tag-restriction is weak generally rather than only for `ha`.
