@@ -17,6 +17,11 @@ Caveats that apply to every file:
 - COCA genre totals and period totals do not always agree, because some
   sections (notably BLOG and WEB) are not fully covered by the dated bins.
   Discrepancies are recorded in the individual files rather than reconciled.
+- **The results pager counts pages of 100, not 1,000.** A "6,700" figure at
+  the foot of a `ha_uh` pull is 67 pages of 100. I once read it as 6.7M and
+  concluded the item was uncorrectable; the tabulated GB total of 6,694
+  reconciles with 6,700 and nothing was wrong. Check the arithmetic against a
+  known total before drawing any conclusion from a pager figure.
 - **List mode can return a sample; chart mode returns full counts.** Do not
   take a ranking off a list without reconciling it first. A `_uh` list for
   COHA's 1820s totalled 526 tokens across 32 forms, while a chart query gave
@@ -47,3 +52,7 @@ Caveats that apply to every file:
 | `um-variants-glowbe-by-country.csv` | *um*, *umm*, *ummm*, *ummmm* | GloWbE (1.9B) | 20 countries, all `_uh`-tagged. Lengthening is negligible: summing moves *um*'s CV from 0.61 to 0.60 with Pakistan excluded. With Pakistan it rises to 0.72, because PK returns 7.8x more *umm* than *um* against a median ratio of 0.33, the Arabic/Urdu teknonym *Umm* tagged UH. **KWIC-confirmed**: see `umm-pk-kwic-audit.md`, 19 of 20 are *Umm Salama* and the like, the 20th mentions the filler rather than using it. Reported in §6.1 |
 | `yeah-variants-glowbe-by-country.csv` | *yeah*, *ya*, *yeh* | GloWbE (1.9B) | 20 countries. Run to test whether single-string queries undercount by missing spelling variants. They don't, in the way expected: *ya* and *yeh* concentrate where they are substrate homographs (Swahili *ya* 'of', Malay *ya* 'yes', Hindi/Urdu *yeh* 'this'), and no *yeh* token carries the `_uh` tag. Summing them would lower *yeah*'s CV from 0.55 to 0.46 by importing non-English tokens. Do not sum them. Reported in §6.1 |
 | `interjection-lemmas-coha-by-decade.csv` | top 20 `_uh` lemmas | COHA (405M) | 20 lemmas x 20 decades; every row checked against the interface's own all-decades total before use. `ho`'s 2010s cell was missing from the paste and is derived as total minus the other nineteen (356). A row labelled `[]` (9,608 tokens) was excluded as a tagging artifact. Figure in §4.7 |
+| `ha-concordances/ha_uh-*.tsv` | `ha_uh` | GloWbE | **20 country concordances, ~19k lines.** The full sampled pull behind the `ha` correction, one file per section. Sampled at up to 1,000 lines per country where available (PK returned 662, GH less). These are the primary evidence for the per-country precision figures; do not ask Brett to re-pull them |
+| `ha-concordances/ha-bare-US.tsv`, `no_uh-US.tsv` | bare `ha`, `no_uh` | GloWbE | Control pulls. The `no_uh` one refuted my leakage hypothesis: tagged `no` is ~89% genuine, so the tagger handles frequent well-attested uses correctly and the failures are specific, not general |
+| `ha-corrected-rates.csv` | *ha* | GloWbE | Per-country hand-corrected rates from the concordances above. Precision runs 34.5% to 84.0%; the shortfall is regionally patterned (hectare in East Africa and South Asia, personal names in Singapore). Feeds `data/ha-validity-rates.csv` and the measurement-error refit |
+| `ha-pooled-multiverse.csv` | *ha* | GloWbE | Empirical-Bayes pooled rates across all six specifications of the laughter and unclear-token forks. Pooling moves no section by more than 0.6 points, which is why the paper reports the raw corrected rates |
