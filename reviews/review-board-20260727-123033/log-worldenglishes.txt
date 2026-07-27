@@ -4030,3 +4030,268 @@ web search:
 web search: 
 web search: 
 2026-07-27T16:32:51.832491Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+web search: 
+web search: 
+2026-07-27T16:33:01.580442Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+web search: 
+web search: 
+2026-07-27T16:33:09.389500Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+web search: 
+web search: Claudia Lange 2009 yaar discourse markers Indian English 207 225 PDF ...
+2026-07-27T16:33:16.859240Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+web search: 
+web search: 
+2026-07-27T16:33:22.655146Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+web search: 
+web search: "yaar" "women" "Lange" "ICE-IND" ...
+2026-07-27T16:33:29.260166Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+web search: 
+web search: "Mergers and acquisitions: on the ages and origins of Singapore English particles" PDF -merger finance ...
+2026-07-27T16:33:39.478541Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+web search: 
+web search: 
+2026-07-27T16:33:43.072147Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+hook: PreToolUse
+hook: PreToolUse Completed
+exec
+/bin/zsh -lc 'nl -ba analysis/hand-extracted/lah-my-kwic-audit.md && nl -ba analysis/hand-extracted/yaar-kwic-audit.md && nl -ba analysis/hand-extracted/haba-ng-kwic-audit.md' in /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections
+ succeeded in 0ms:
+     1	# KWIC audit: `lah_uh` in GloWbE Malaysia
+     2	
+     3	Twenty-token sample pasted by Brett from the English-Corpora.org KWIC display,
+     4	2026-07-27. Run to test whether Malaysia's `lah` tokens are the particle used
+     5	in English, or stretches of Malay text caught by the crawl.
+     6	
+     7	## Question it was run to answer
+     8	
+     9	Unlike the *Umm* case, *lah* genuinely is a substrate-derived form, so the
+    10	test is not "interjection or different word" but **is the matrix clause
+    11	English?** If *lah* tokens sit inside Malay sentences, §4.5.4's regional
+    12	conditioning is partly measuring where GloWbE caught non-English text.
+    13	
+    14	## Result
+    15	
+    16	| coding | n |
+    17	|---|---|
+    18	| English matrix clause + particle | **20** |
+    19	| Substrate (Malay) matrix | 0 |
+    20	| Mention, not use | 0 |
+    21	
+    22	Regional conditioning for *lah* is confirmed. Malay material that appears is
+    23	lexical borrowing inside English clauses (*rugi*, *pokok mangga*,
+    24	*sememangnye*, *kena langgar buntut*, *sikit2*, *Untung*), not Malay syntax.
+    25	
+    26	Sources are blogs and forums (`firstgm.blogspot.com`, `forum.lowyat.net`,
+    27	`paultan.org`, `tuapui.wordpress.com`, and others), i.e. the informal written
+    28	registers where the particle is expected.
+    29	
+    30	## The unexpected finding: position
+    31	
+    32	In all twenty tokens *lah* is **clause-final and orthographically attached to
+    33	its host**, with punctuation following rather than preceding it:
+    34	
+    35	> Use word slander lah.. · it was real messy to eat lah. · please lah, they
+    36	> charge you · don't care lah, as long can store · No lah, I'm just joking ·
+    37	> As usual lah. · They have no shame lah! · don't promise lah. · yeah lah, you
+    38	> go around town · Untung lah you. · U know lah, at home sure use sikit2
+    39	
+    40	Not one token is standalone or set off. On the written proxies §2.6 uses for
+    41	prosodic isolation, this is integration, not isolation.
+    42	
+    43	**Bearing on the analysis.** Prosodic isolation and supplement function are
+    44	what \intj{syn} requires, so *lah* appears to satisfy \intj{prag}, plausibly
+    45	\intj{sem}, and not \intj{syn}. That makes it a decoupling case of the same
+    46	shape as prenominal *damn* (sem without syn) and *mm-hm* (prag, syn debated),
+    47	which is what the field-relative decomposition predicts should exist. It also
+    48	means *lah* should not be described without qualification as an interjection
+    49	sharing the full profile.
+    50	
+    51	Caveat: these are the twenty rows the interface displayed, not a random draw,
+    52	and written punctuation is a proxy for prosody, not a measurement of it. The
+    53	positional pattern is uniform enough across twenty tokens and six sites to be
+    54	worth acting on, but a spoken-corpus check would settle it properly. See
+    55	`notes/2026-07-26-spoken-corpora-for-prosody.md` for the SBCSAE option.
+     1	# KWIC audit: `yaar` in GloWbE Pakistan, India, Sri Lanka
+     2	
+     3	Samples pasted by Brett 2026-07-27: PK 20, IN 20, LK 9. `yaar_uh` returns
+     4	nothing, so these are untagged string queries.
+     5	
+     6	## Coding
+     7	
+     8	| variety | n | English matrix | rate | raw per mil | adjusted |
+     9	|---|---|---|---|---|---|
+    10	| PK | 20 | 12 | 60% | 2.9 | 1.7 (±0.6) |
+    11	| IN (clustered) | 20 | 16 | 80% | 2.3 | 1.8 |
+    12	| IN (randomized) | 20 | 13 | 65% | 2.3 | 1.5 (±0.5) |
+    13	| LK | 9  | 3  | 33% | 0.2 | 0.1 |
+    14	
+    15	Intervals are 95% on the sample proportion at n=20, so these indicate a
+    16	magnitude, not a correction factor to apply.
+    17	
+    18	**Corrected 2026-07-27.** On the first, clustered India sample I reported that
+    19	the raw PK-over-IN ordering did not survive adjustment. It does. That sample
+    20	drew 6 of 20 tokens from indiatimes and 4 from pinkvilla, both
+    21	English-language media, which inflates an English-matrix rate in exactly the
+    22	direction you would predict. A randomized re-pull (19 sites for 20 tokens,
+    23	top-two share 15%) gives 65%, not 80%, so adjusted PK 1.7 still leads adjusted
+    24	IN 1.5. The ordering survives; the gap narrows.
+    25	
+    26	The randomized sample also turns up more Hindi-matrix material: four tokens
+    27	inside Roman-script Hindi clauses (*"Arre yaar yeh toh tere paise ke peeche
+    28	hai"*, *"yaar is tarah ki batein to islamic scholars bhi kartein hai"*) plus
+    29	the Urdu/Punjabi set phrase *Yaar Zinda Sohbat Baqi*.
+    30	
+    31	## Duplicate posts: a fourth exclusion I missed
+    32	
+    33	In the Pakistan sample, rows 11 and 16 are the same text from the same site
+    34	(`firozjuma.com`, *"aur wahan mera yaar chala gaya janab. Main yaar ko kaandha
+    35	bhi nahi de paya!"*). I noted the repetition and drew nothing from it.
+    36	\textcite{unuabonahdaniel2020} exclude exactly this, along with Pidgin and
+    37	indigenous-language utterances, and GloWbE's own documentation concedes
+    38	residual duplication. On 19 unique Pakistan tokens rather than 20, the
+    39	English-matrix rate is 12/19 = 63% rather than 60%. The effect is small here,
+    40	but duplicates inflate whichever category they land in, and they inflate the
+    41	per-million figures themselves.
+    42	
+    43	## Contamination types
+    44	
+    45	1. **Tamil *yaar* = "who".** A true homograph, the same problem as Arabic
+    46	   *Umm*. Appears in Sri Lanka (a Tamil proverb, a couplet) and in Indian
+    47	   sources as Tamil song titles (*Yaar Yaar Sivam* from *Anbe Sivam*).
+    48	2. **Proper names.** *Ahmad Yaar Khan*, *Yaar Mohammed Khan*, and *Amy Yaar*
+    49	   (a figure in Sri Lankan reporting).
+    50	3. **Roman-script Hindi/Urdu matrix.** The token sits inside a non-English
+    51	   clause: *"Jaane de naa yaar, sabko pata hai"*, *"aur wahan mera yaar chala
+    52	   gaya janab"*, *"Arey kya yaar, in dabbo ko hatta yaha se"*.
+    53	4. **Urdu lexical items and quotation.** *chaar yaar*, glossed in the source as
+    54	   "four friends"; *Yaar e Khush Khasaal*; quoted Urdu speech inside English
+    55	   reporting frames.
+    56	
+    57	## Position: unlike *lah*
+    58	
+    59	*Yaar* is mobile and frequently set off by commas.
+    60	
+    61	> **Yaar**, you are right · Oye **Yaar**, this is it · **Yaar** Rohit, my
+    62	> mother likes your films · because I love my sister, **yaar**! · I totally
+    63	> get that **yaar** but somehow · damn **yaar**! · What's the big deal,
+    64	> **YAAR**?
+    65	
+    66	Initial, medial and final, and often comma-delimited on one or both sides,
+    67	including in vocative frames with a following name (*Yaar Rohit*, *Yaar
+    68	Chintu*). Compare *lah*, which was clause-final and orthographically attached
+    69	in 20 of 20. On the paper's written proxies *yaar* looks like an address term
+    70	of the *man* / *mate* type and plausibly satisfies \intj{syn}, where *lah*
+    71	does not.
+    72	
+    73	**Consequence.** The three regional items are not the same categorial kind.
+    74	Any claim that they share the full profile needs to be made item by item.
+     1	# KWIC audit: `haba` in GloWbE Nigeria
+     2	
+     3	Two samples, 2026-07-27. `haba_uh` returns nothing, so these are untagged
+     4	string queries. The second was pulled with better randomization at Brett's
+     5	initiative, and it overturned two conclusions from the first.
+     6	
+     7	## Why both are kept
+     8	
+     9	| sample | n | distinct sites | top-2 site share |
+    10	|---|---|---|---|
+    11	| first (interface default) | 18 | 7 | 50% (daikeji ×5, nigeriafilms ×4) |
+    12	| randomized | 20 | 13 | 35% |
+    13	
+    14	**What the first sample got wrong.** From it I coded zero substrate-matrix
+    15	tokens and a uniformly standalone or utterance-initial position. The
+    16	randomized sample contradicts both:
+    17	
+    18	- **Hausa matrix appears.** *"Haba mutane mu, ku karba Yesu as the Lord and
+    19	  saviour"* is Hausa, not English. Two further tokens sit in Hausa vocative
+    20	  frames: *"Haba mallam kura!"*, *"haba Mallam!"*
+    21	- **A medial, intensifying use appears.** *"it is constitutionally wrong and
+    22	  haba very bad for teachers and students"*, where *haba* is inside the
+    23	  clause rather than set off from it.
+    24	
+    25	Neither category is common, which is why a sample clustered on five blog
+    26	sources missed them entirely. Rare categories are what randomization buys.
+    27	
+    28	## Coding, randomized sample
+    29	
+    30	Roughly: English matrix, standalone or initial ~10; Nigerian Pidgin matrix
+    31	~6; Hausa-involved 3; English matrix, medial intensifier 1.
+    32	
+    33	**The Pidgin count is not a judgement I should be trusted on.** Whether
+    34	*"Haba, dis is too much for me to bear"* or *"Haba! Thirty thousand wen
+    35	eighteen million naira waz returned"* counts as English text is a question
+    36	about the Nigerian English–Pidgin continuum, and Brett is not a speaker of
+    37	the variety either. It needs the literature, not either of our intuitions.
+    38	
+    39	## Comparison across the three regional items
+    40	
+    41	On orthographic position, from the well-spread samples:
+    42	
+    43	| form | position | bearing on \intj{syn} |
+    44	|---|---|---|
+    45	| *lah* (MY) | clause-final, attached, 20/20, punctuation always follows | fails prosodic isolation |
+    46	| *yaar* (PK) | mobile: initial, medial, final; frequently comma-set | plausibly satisfies it |
+    47	| *haba* (NG) | usually standalone or initial with `!`, but at least one medial intensifier | mostly satisfies it |
+    48	
+    49	The three are not the same categorial kind. Any claim that they share the
+    50	full interjection profile has to be made item by item, and none of these
+    51	positional readings substitutes for a prosodic study.
+
+2026-07-27T16:33:51.176238Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+codex
+1. **One-sentence summary**
+
+The paper’s strongest claim is that English interjectionhood is a projectible, path-dependent overlap of syntactic, semantic, and interactional nodes, with regional forms offered as a tentative test of whether contact-driven local conditioning helps maintain parts of that profile.
+
+2. **Strengths**
+
+- The paper explicitly recognizes that the three forms aren’t categorially equivalent: “They are not … the same kind of case” ([main.tex:1591](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:1591)). It then correctly distinguishes free-standing *haba* from host-dependent, clause-final *lah*, assigning *lah* to the semantic and pragmatic nodes but not the syntactic node (lines 1592–1608). That is a theoretically productive decoupling result, not an embarrassment.
+
+- The treatment of GloWbE’s limitations is unusually candid. The paper notes that country identifies a webpage rather than a speaker, that the sampling frame was seeded from American corpus data (lines 2627–2638), that regional forms defeat the tagger (lines 2640–2670), and that *yaar* raw counts include non-English matrices, Tamil homographs, and names (lines 2443–2453). It also correctly declines to interpret the regional items’ unstable coefficients of variation (lines 2361–2364).
+
+- The characterization of *haba* is source-grounded and substantially correct: the cited study treats it as a Hausa-derived bilingual interjection in Nigerian English, free-standing and predominantly prospective. I verified the cited article in full; crucially, its analysis manually excludes Nigerian Pidgin, indigenous-language, duplicate, nominal, and metalinguistic tokens. [Unuabonah & Daniel 2020](https://repository.run.edu.ng/bitstreams/19595876-bd9e-42ca-96a7-7a7bd262c77e/download)
+
+3. **Weaknesses**
+
+- The paper recognizes the categorial differences and then repeatedly flattens them again. *Lah* is a dependent pragmatic particle, *haba* a borrowed emotive interjection, and *yaar* at least partly an address-term/vocative-derived discourse particle; nevertheless, lines 2334–2339 call all three “regional interjections” with “near-categorical” distributions, and the appendix models them as one item type ([main.tex:2604](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2604)). This also violates the paper’s own principle that the unit is a lexical item in a grammatical environment, not a string or word family. Add an item-by-item diagnostic table covering matrix language, lexical source, construction, prosodic status, syntactic integration, meaning, and interactional function. The uncited Lange 2009 chapter already present in the bibliography must be engaged for *yaar*; I haven’t read that chapter in full, so its detailed findings require verification.
+
+- The contact analysis is too compressed into “substrate-derived” ([main.tex:2446](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2446)). The three trajectories aren’t comparable: *lah* has a complex Hokkien/Bazaar Malay contact history; *haba* is transferred from Hausa and may have diffused through Nigerian Pidgin and speakers of other Nigerian L1s; *yaar* retains nominal/vocative uses alongside particle-like uses, and the Indian and Pakistani histories cannot simply be assumed identical. An English matrix establishes insertion into English discourse, not borrowing rather than code-switching. Replace the blanket label with item-specific contact histories and distinguish nonce insertion, pragmatic borrowing, diffusion across L1 groups, and established variety membership.
+
+- The frequency claims still outrun the measurements despite the excellent caveats. The reported 8.78 per million for *haba* is a 373-token raw-string rate, whereas the cited manually cleaned analysis retains 248; only about 60–65% of sampled *yaar* tokens have English matrices, making its raw rates upper bounds ([main.tex:2447](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2447)). Moreover, a country random intercept shows that GloWbE country sections differ overall; it doesn’t test the relevant item-by-country association, much less maintenance, social indexing, identity work, or uptake. Consequently, “the corpus evidence establishes distributional conditioning” (lines 1912–1914) and “conditioning on country recovers structure at every level” (lines 2366–2368) are too strong. Either downgrade GloWbE to locating webpage-country concentrations of candidate forms, or rerun the comparison with manually coded English-matrix tokens, duplicate/site controls, comparable numerator definitions, and item-specific country effects. Spoken interactional evidence would still be needed for the proposed causal link.
+
+4. **Key question**
+
+What independent observation would distinguish regional/indexical conditioning that maintains an interjectional profile from the nearly automatic result that a contact-derived local string occurs mainly on webpages assigned to that country—especially when *lah* lacks the syntactic node and *yaar* may be an address term or discourse particle?
+
+5. **Verdict**
+
+**Revise & Resubmit** — the central projectibility argument is viable, but the regional probe currently groups three different contact phenomena and asks web-page frequency to support categorial and causal conclusions it cannot establish.
+tokens used
+195,136
+1. **One-sentence summary**
+
+The paper’s strongest claim is that English interjectionhood is a projectible, path-dependent overlap of syntactic, semantic, and interactional nodes, with regional forms offered as a tentative test of whether contact-driven local conditioning helps maintain parts of that profile.
+
+2. **Strengths**
+
+- The paper explicitly recognizes that the three forms aren’t categorially equivalent: “They are not … the same kind of case” ([main.tex:1591](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:1591)). It then correctly distinguishes free-standing *haba* from host-dependent, clause-final *lah*, assigning *lah* to the semantic and pragmatic nodes but not the syntactic node (lines 1592–1608). That is a theoretically productive decoupling result, not an embarrassment.
+
+- The treatment of GloWbE’s limitations is unusually candid. The paper notes that country identifies a webpage rather than a speaker, that the sampling frame was seeded from American corpus data (lines 2627–2638), that regional forms defeat the tagger (lines 2640–2670), and that *yaar* raw counts include non-English matrices, Tamil homographs, and names (lines 2443–2453). It also correctly declines to interpret the regional items’ unstable coefficients of variation (lines 2361–2364).
+
+- The characterization of *haba* is source-grounded and substantially correct: the cited study treats it as a Hausa-derived bilingual interjection in Nigerian English, free-standing and predominantly prospective. I verified the cited article in full; crucially, its analysis manually excludes Nigerian Pidgin, indigenous-language, duplicate, nominal, and metalinguistic tokens. [Unuabonah & Daniel 2020](https://repository.run.edu.ng/bitstreams/19595876-bd9e-42ca-96a7-7a7bd262c77e/download)
+
+3. **Weaknesses**
+
+- The paper recognizes the categorial differences and then repeatedly flattens them again. *Lah* is a dependent pragmatic particle, *haba* a borrowed emotive interjection, and *yaar* at least partly an address-term/vocative-derived discourse particle; nevertheless, lines 2334–2339 call all three “regional interjections” with “near-categorical” distributions, and the appendix models them as one item type ([main.tex:2604](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2604)). This also violates the paper’s own principle that the unit is a lexical item in a grammatical environment, not a string or word family. Add an item-by-item diagnostic table covering matrix language, lexical source, construction, prosodic status, syntactic integration, meaning, and interactional function. The uncited Lange 2009 chapter already present in the bibliography must be engaged for *yaar*; I haven’t read that chapter in full, so its detailed findings require verification.
+
+- The contact analysis is too compressed into “substrate-derived” ([main.tex:2446](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2446)). The three trajectories aren’t comparable: *lah* has a complex Hokkien/Bazaar Malay contact history; *haba* is transferred from Hausa and may have diffused through Nigerian Pidgin and speakers of other Nigerian L1s; *yaar* retains nominal/vocative uses alongside particle-like uses, and the Indian and Pakistani histories cannot simply be assumed identical. An English matrix establishes insertion into English discourse, not borrowing rather than code-switching. Replace the blanket label with item-specific contact histories and distinguish nonce insertion, pragmatic borrowing, diffusion across L1 groups, and established variety membership.
+
+- The frequency claims still outrun the measurements despite the excellent caveats. The reported 8.78 per million for *haba* is a 373-token raw-string rate, whereas the cited manually cleaned analysis retains 248; only about 60–65% of sampled *yaar* tokens have English matrices, making its raw rates upper bounds ([main.tex:2447](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2447)). Moreover, a country random intercept shows that GloWbE country sections differ overall; it doesn’t test the relevant item-by-country association, much less maintenance, social indexing, identity work, or uptake. Consequently, “the corpus evidence establishes distributional conditioning” (lines 1912–1914) and “conditioning on country recovers structure at every level” (lines 2366–2368) are too strong. Either downgrade GloWbE to locating webpage-country concentrations of candidate forms, or rerun the comparison with manually coded English-matrix tokens, duplicate/site controls, comparable numerator definitions, and item-specific country effects. Spoken interactional evidence would still be needed for the proposed causal link.
+
+4. **Key question**
+
+What independent observation would distinguish regional/indexical conditioning that maintains an interjectional profile from the nearly automatic result that a contact-derived local string occurs mainly on webpages assigned to that country—especially when *lah* lacks the syntactic node and *yaar* may be an address term or discourse particle?
+
+5. **Verdict**
+
+**Revise & Resubmit** — the central projectibility argument is viable, but the regional probe currently groups three different contact phenomena and asks web-page frequency to support categorial and causal conclusions it cannot establish.

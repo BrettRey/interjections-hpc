@@ -3476,3 +3476,1717 @@ exec
   2946	
   2947	\end{document}
 
+hook: PreToolUse
+hook: PreToolUse Completed
+exec
+/bin/zsh -lc "rg -n -i 'prior|posterior predictive|bootstrap|reloo|Pareto|audit|precision|recall|hand-cod|inter.?coder|intra.?coder|equivalen|ROPE|leave-one-country|leave-one-item|random slope|item.country|genre|speaker|page' main.tex" in /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections
+ succeeded in 0ms:
+29:% 41-page article is not read linearly. \term{} would mark them as concepts being
+72:place, and that what earns it isn't a defining property but
+73:projectibility: observing some properties of a case licenses predictions
+83:those properties. Invocative, verbal, and onomatopoeic routes recruit forms into a
+103:speaker's \mention{oh}, \mention{wow}, \mention{hey}, \mention{damn}, or
+152:category resists clean definition, since no single property is necessary
+161:payoff by which observing some properties of a new case licenses
+174:A form's \term{profile} is the particular combination of cluster properties it shows
+179:property or a category \term{licenses} an inference is to say the inference
+198:Throughout, I use \term{property cluster} descriptively for the empirical
+226:  has to be something other than the property that admitted the form, or the
+234:  properties are linked, so that one makes another more available.
+270:\node[claim] (decl) at (0, 3.2) {\textbf{declaration}\\having observed some\\properties, expect others};
+275:\node[world] (netw) at (5.2, 0.4) {\textbf{network order}\\the properties are linked,\\not merely co-occurring};
+353:\section{The property cluster}\label{sec:cluster}
+355:English interjections exhibit a cluster of co-occurring properties. This
+359:questions: what properties cluster, and what local diagnostic inferences each
+360:property supports. These inferences show that individual properties are
+361:structured rather than accidental. Six properties emerge: prosodic isolation,
+371:across linguistic domains? The causal question, why these properties
+379:constitute an intonation unit by themselves}. I treat the property as
+399:speaker's dialect. The interjection \mention{uh-oh} ([\ipa{əʔo}]) is one of
+408:native speakers.
+417:the properties below.
+435:an interjection), and speakers don't extend the pattern to new forms.
+466:the other cluster properties: non-referentiality, non-inflection,
+555:\enquote{non-referential} is a poor name for the property, kept here only
+566:to pick out, so the distributional property holds on either analysis. But
+585:tracks. Non-referentiality is a cluster property rather than a
+622:and signal backchanneling, the listener's ongoing attention to a speaker's
+632:analysis, is a holophrastic signal whose equivalent is not a word but
+643:property rather than competing with it.
+661:% verified via Ameka's verbatim reproduction at p. 108, same page range.
+668:the speaker's mental state. \textcite[142]{wilkins1992} counters that these
+694:These properties co-occur statistically, not necessarily. The
+707:criteria the class's \enquote{obligatory properties}. No single property
+727:which need someone to be there. A single property is necessary and
+740:the properties co-occur without any one of them being definitional.
+742:clusters of grammatical properties rather than by single criteria, since a
+743:definition has to identify \enquote{the grammatical properties that distinguish
+761:properties they carry and in which field-relative nodes they satisfy, so the
+768:in. \enquote{The properties that determine the conditions for falling under} a
+771:conditions for the definitional property cluster}. His target is the demand
+774:than about precision.
+777:extensional vagueness of a property-cluster kind as irresolvable in principle,
+780:measurement and from aggregation across speakers \citep{reynolds2025sorites}.
+785:blurs: a population of speakers with sharp but individually placed thresholds
+793:properties: prosodic isolation reinforces syntactic non-integration,
+805:and what a bare list of six properties would leave as coincidence. A bare property list can't explain this
+806:pattern; the links between the properties can.
+811:profile against the six cluster properties and the three field-relative
+819:but not all cluster properties, the pattern that
+840:\caption{Diagnostic matrix: constructions against cluster properties and
+841:field-relative nodes. \checkmark\ = property present; ($\checkmark$) =
+846:properties from
+905:The property cluster documented above has the shape
+927:properties, processes, and interventions are connected tightly enough to
+928:support induction, which is what lets us predict properties of new instances
+929:from observed properties of old ones.
+956:  recurs across forms and over time, and that the properties are linked
+968:co-occurrence documented in Section~\ref{sec:cluster} supports. Some relevant properties form local stabilizing relations. Prosodic
+973:both properties; prenominal \mention{damn} in \mention{the damn car} has
+976:can make standalone interpretation increasingly expectable for speakers and
+1033:the properties cluster in this particular pattern or what should happen
+1040:under variety conditioning, and that some properties may be more central
+1041:to network order than others (hub-property asymmetry). These
+1054:interjections. The weakest is a \term{property list}: interjections share
+1057:what happens when one property changes.
+1073:are projectible, why do their properties cohere, and which changes
+1081:The causal-network account adds five claims that property lists, feature
+1087:  account asks which links explain why observing one property licenses
+1089:\item Asymmetry. Some properties are upstream or more diagnostic than
+1098:  residual properties but doesn't explain why they align with
+1125:with properties such as subject--auxiliary inversion, fronting of
+1136:node: different properties, different causal links, different
+1226:The property cluster documented in Section~\ref{sec:cluster} raises two
+1229:properties travel together? In what follows, \enquote{the
+1230:interjection cluster} refers to the broad property profile. I use
+1236:properties.
+1279:\mention{Yes}, \mention{no}, and response tokens complicate the property. \\
+1316:  \ea Proper name used as invocation (\mention{Jesus!} addressed to the
+1326:about the difference. She explains the first as gradual and speaker-based,
+1334:The positions layer cluster properties unevenly. Prosodic isolation is
+1338:is the content: non-referentiality arrives with the secondary interjection, when the speaker
+1341:that many speakers don't connect to its source.
+1376:(speaker-based: the expressive use is conversationally implicated, then
+1384:should be detectable by the absence of downstream properties. A form that
+1403:partial: the form carries some verb properties into the interjection
+1436:complement-taking ability should also retain other verb-like properties
+1448:Path~2 the optative or the imperative. Both converge on the same property profile.
+1451:producing the same cluster of co-occurring properties through different
+1464:hearer re-analysis rather than speaker-invited inference, it's the one
+1471:Nonce coinages enter the cluster with no prior lexical history (no bleaching, no
+1493:These two properties reinforce each other, but the evidence is asymmetric.
+1505:the proper name~-- and Invited Inferencing, of course~-- could the secondary
+1506:interjection \mention{Jesus!} develop from the proper name}. That's
+1513:\mention{Damn!} has both properties: it occupies its own intonation unit
+1517:\mention{the damn car}, the form loses both properties at once: it's
+1546:central structural properties.
+1558:properties. Two levels are in play here, and the argument needs both. On a
+1562:an information update before the speaker builds further at-issue
+1614:metapragmatic awareness, or distribution by speaker group within
+1618:The open question is whether it stabilizes the cluster profile (property
+1624:When a regional interjection is adopted by out-group speakers as ironic
+1661:  property/.style={
+1685:\node[property] (nonref) at (3.0, 2.4) {non-\\referentiality};
+1686:\node[property] (synt) at (6.2, 2.4) {syntactic\\non-integration};
+1687:\node[property] (pros) at (9.5, 2.4) {prosodic\\isolation};
+1692:\node[property] (intuse) at (6.2, -0.7) {interactional-\\pragmatic use};
+1738:develops forward projectibility: observing some properties of a novel
+1739:form licenses predictions about other properties. Historical pragmatics
+1741:observing a residual property can license an inference about the pathway
+1743:because it links properties to the recruitment pathways of
+1764:Religious noun or proper name & Vocative invocation &
+1856:ecology in which the ordering links operate, not pathway-specific property
+1956:causal-network account describes that landscape as a property space
+1964:Section~\ref{sec:cluster} showed what each property, individually, lets
+1966:and stabilizing links that couple those properties. This section asks a
+1970:projectibility means forward inference from observed properties of
+1971:a form to properties not yet observed.
+1974:issue. Speakers and hearers use partial cues to anticipate how a form will
+1995:interjection, it has interjection properties. That's trivially true of
+1997:cluster properties in a novel form licenses inference to other
+1998:properties you haven't yet observed.
+2043:properties licenses expectations about three others that haven't been
+2045:The predicted properties are not the ones that admitted the form, which is
+2067:    expected to be use-conditional and speaker-oriented.
+2076:  framework recognizing the relevant morphosyntactic properties
+2084:  the cluster's internal links, not on any single property.
+2087:properties. The non-referentiality ratchet
+2099:belongs to the interjection cluster, expect the linked properties. That's
+2119:independent. Nothing here says that speakers tacitly represent
+2135:properties that admitted the form. Independence, nondisplaceability,
+2139:\textcite{potts2007} lists two further properties of expressive content on
+2140:the following page, and neither does admission work here. One is immediacy,
+2161:\intj{sem} (use-conditional, speaker-oriented)
+2312:different causal pathways, residual properties should line up with
+2354:comparisons survive it. Bootstrapping over the twenty sections, the
+2399:Hand-coding the tagged concordance for all twenty sections shows how much
+2417:twenty rates to allow for their unequal precision, which runs from about 8,100
+2423:genre mix, internet ecology, and orthographic convention as much as
+2447:substrate-derived to begin with. Hand-coding sixty-nine \mention{yaar}
+2449:India, the remainder being Tamil \mention{yaar} \enquote{who}, proper names,
+2461:A third, weaker probe concerns hub-property asymmetry. One property may
+2464:equal contribution by all properties. The present evidence leaves this
+2478:hub-property asymmetry is an open conjecture. Prototype theory describes
+2489:property list.
+2502:\citep[109--110]{ameka1992}. For grammar, those shared properties place
+2504:properties matter more, because they predict conventional response slots,
+2512:neighbouring region of the property space, structured by partially
+2529:licenses those predictions is what lets speakers and hearers anticipate the
+2558:The account isn't specific to interjections. Wherever properties cluster
+2582:% AI disclosure moved to page 1 via \aidisclosure{} after the keywords,
+2586:\clearpage
+2592:\clearpage
+2617:\citep{reynolds2026didcorpus}. The audit reported below is that evaluation.
+2619:One limit on it should be stated plainly. Hand-coding a tagged concordance
+2620:measures precision, the share of tagged tokens that are genuine, and says
+2621:nothing about recall, the share of genuine tokens the tagger found.
+2622:\mention{Haba} shows recall can be zero: 373 Nigerian tokens, none tagged. So
+2628:Country is a property of the page rather than of a speaker, assigned through
+2635:country}. The page list was also seeded by running \enquote{hundreds of very
+2644:exclusion. Hand-coding twenty tagged \mention{ha} tokens from Kenya and twenty
+2655:\mention{haba} are tagged as common or proper nouns, 65\% of them on a reading
+2656:that includes the proper noun. The regional figures are raw strings
+2667:third, duplication, is a known property of the corpus. That's a limit imposed by the tagger rather than a choice: a
+2688:warmup) each. The confirmatory models (m0--m2) use exact reloo for
+2690:by Pareto-smoothed importance sampling (PSIS) diagnostics only.
+2734:from formal ranking because 9 observations retain Pareto $k > 0.7$
+2739:  \item Country standard deviation (SD) = 0.44 (95\% CrI: 0.28--0.65)
+2753:Since the hand audit of \mention{ha} in Section~\ref{sec:discussion} shows
+2764:contrast is informative. And a hand-coded concordance measures precision, so
+2806:Each analyzable token was coded for two confirmatory properties. First,
+2814:Two secondary descriptive properties were also coded. \term{Interactional
+2906:Intra-coder reliability (10\% blind recode, $n = 62$):
+
+2026-07-27T16:33:30.628994Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+hook: PreToolUse
+hook: PreToolUse Completed
+exec
+/bin/zsh -lc "wc -l main.tex && stat -f '%Sm %z' -t '%Y-%m-%d %H:%M:%S' main.tex && nl -ba main.tex | sed -n '2725,2835p'" in /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections
+ succeeded in 0ms:
+    2961 main.tex
+2026-07-27 12:32:30 155816
+  2725	  m2 (item type) & $-$9.3 & 7.9 \\
+  2726	  m0 (unconditional) & $-$17.9 & 13.3 \\
+  2727	  \hline
+  2728	\end{tabular}
+  2729	\end{center}
+  2730	
+  2731	The conditioned model (m1) is preferred. Adding item-type fixed effects
+  2732	(m2) doesn't improve on m1 because the item random effect already
+  2733	captures between-item variation. The exploratory model (m3) is excluded
+  2734	from formal ranking because 9 observations retain Pareto $k > 0.7$
+  2735	after moment matching, indicating unstable PSIS leave-one-out estimates.
+  2736	
+  2737	Random effects from the conditioned model (m1):
+  2738	\begin{itemize}
+  2739	  \item Country standard deviation (SD) = 0.44 (95\% CrI: 0.28--0.65)
+  2740	  \item Item SD = 2.07 (95\% CrI: 1.49--2.96)
+  2741	  \item Ratio: 4.7:1 (item identity explains more variation, while
+  2742	    country adds structure)
+  2743	\end{itemize}
+  2744	
+  2745	The evidence is directionally consistent: conditioning on country
+  2746	improves prediction ($\Delta$ELPD = 17.9, SE 13.3), and the country
+  2747	random-effect SD is positive across the interval. The SE is large
+  2748	relative to the point estimate, reflecting the small sample (18 items $\times$ 20
+  2749	countries = 360 observations). The descriptive CV results in the main
+  2750	text provide the primary evidence for the conditioning probe; the model
+  2751	suggests the pattern survives the crossed random-effects structure.
+  2752	
+  2753	Since the hand audit of \mention{ha} in Section~\ref{sec:discussion} shows
+  2754	that one item's counts carry a validity rate that varies by country, the model
+  2755	was refitted with that error propagated rather than assumed away. Each
+  2756	country's rate enters as a draw from its \textsc{beta} posterior, thinning
+  2757	\mention{ha}'s count while leaving the other seventeen items untouched, and
+  2758	the pair of models is refitted over draws. Correcting it moves little: the
+  2759	country random-effect SD goes from 0.42 to 0.44 with iterated laughter counted
+  2760	and 0.45 with it excluded, and the model comparison moves from 28.8 to 26.9
+  2761	and 28.5 across the same specifications. Two limits on that reassurance. The
+  2762	refits use approximate rather than exact leave-one-out, so their absolute
+  2763	values are not comparable with the figures above and only the internal
+  2764	contrast is informative. And a hand-coded concordance measures precision, so
+  2765	this corrects tokens the tagger wrongly admitted and not those it missed.
+  2766	
+  2767	\section[Morphology gain in COHA]{Supplementary materials: morphology-gain analysis (COHA)}
+  2768	\label{app:morphgain}
+  2769	
+  2770	\subsection{Data and extraction}
+  2771	
+  2772	The morphology-gain study was pre-registered before extraction and
+  2773	coding (\texttt{f1a2193}, 27 May 2026). The corpus was COHA
+  2774	(1820--2019). The fixed source families were \mention{wow},
+  2775	\mention{boo}, \mention{ooh}, and \mention{shoo}. The fixed target
+  2776	derivatives were \mention{wowed}, \mention{wowing}, \mention{wows};
+  2777	\mention{booed}, \mention{booing}, \mention{boos}; \mention{oohed},
+  2778	\mention{oohing}, \mention{oohs}; and \mention{shooed},
+  2779	\mention{shooing}, \mention{shoos}. Bare source forms were excluded.
+  2780	
+  2781	Extraction was completed on 27 May 2026. The token-level analysis used
+  2782	parsed key-word-in-context (KWIC) exports. Chart requests for
+  2783	\mention{oohed} and \mention{oohing} returned server errors, but KWIC
+  2784	exports loaded and were used for coding. Minor chart/KWIC row-count discrepancies are
+  2785	documented in the extraction summary.
+  2786	
+  2787	The go/no-go threshold required at least 20 analyzable derivative tokens
+  2788	and at least two decades with three or more analyzable derivative
+  2789	tokens. All four families met the threshold.
+  2790	
+  2791	\begin{center}
+  2792	\begin{tabular}{lrrl}
+  2793	  \toprule
+  2794	  Family & Analyzable tokens & Decades with 3+ & Status \\
+  2795	  \midrule
+  2796	  \mention{boo} & 364 & 10 & GO \\
+  2797	  \mention{ooh} & 52 & 6 & GO \\
+  2798	  \mention{shoo} & 410 & 13 & GO \\
+  2799	  \mention{wow} & 143 & 9 & GO \\
+  2800	  \bottomrule
+  2801	\end{tabular}
+  2802	\end{center}
+  2803	
+  2804	\subsection{Coding}
+  2805	
+  2806	Each analyzable token was coded for two confirmatory properties. First,
+  2807	\term{verbal syntax}: whether the derivative heads a VP. Second,
+  2808	\term{semantic residue}: whether the derivative retains the source
+  2809	interjection's meaning profile: impressed or evaluative response for
+  2810	\mention{wow}; disapproval or contempt for \mention{boo}; appreciative
+  2811	or surprised response for \mention{ooh}; and directive away-sending for
+  2812	\mention{shoo}.
+  2813	
+  2814	Two secondary descriptive properties were also coded. \term{Interactional
+  2815	residue} tracks whether the verbal event retains the source
+  2816	interjection's social-interactional profile as a recognizable act of
+  2817	response, uptake, display, or direction. \term{Targeted entity} tracks
+  2818	whether a target, object, addressee, or stimulus is recoverable. These
+  2819	secondary codes weren't used in the confirmatory test.
+  2820	
+  2821	\subsection{Confirmatory result}
+  2822	
+  2823	For each source family, the confirmatory window was the earliest decade
+  2824	with at least three analyzable derivative tokens, plus following decades
+  2825	until the window contained at least ten tokens. The success criterion
+  2826	was \texttt{verbal\_syntax = 1} and \texttt{semantic\_residue = 1}. The
+  2827	pre-registered support criterion required the lower bound of the
+  2828	Jeffreys 95\% interval to exceed 0.5.
+  2829	
+  2830	\begin{center}
+  2831	\begin{tabular}{lrlrrl}
+  2832	  \toprule
+  2833	  Family & Tokens & Window & $n$ & Successes & Jeffreys 95\% CI \\
+  2834	  \midrule
+  2835	  \mention{boo} & 364 & 1920s & 17 & 17 & [0.865, 1.000] \\
+
+2026-07-27T16:33:39.159550Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+hook: PreToolUse
+hook: PreToolUse Completed
+exec
+/bin/zsh -lc "nl -ba main.tex | sed -n '2830,2961p'" in /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections
+ succeeded in 0ms:
+  2830	\begin{center}
+  2831	\begin{tabular}{lrlrrl}
+  2832	  \toprule
+  2833	  Family & Tokens & Window & $n$ & Successes & Jeffreys 95\% CI \\
+  2834	  \midrule
+  2835	  \mention{boo} & 364 & 1920s & 17 & 17 & [0.865, 1.000] \\
+  2836	  \mention{ooh} & 52 & 1960s--1980s & 10 & 10 & [0.783, 1.000] \\
+  2837	  \mention{shoo} & 410 & 1890s--1900s & 16 & 16 & [0.857, 1.000] \\
+  2838	  \mention{wow} & 143 & 1930s--1940s & 11 & 11 & [0.800, 1.000] \\
+  2839	  \bottomrule
+  2840	\end{tabular}
+  2841	\end{center}
+  2842	
+  2843	All four families support the pre-registered prediction. The secondary
+  2844	diachronic model wasn't estimated because semantic residue had no
+  2845	variation among included VP-head tokens.
+  2846	
+  2847	\subsection{Reliability and files}
+  2848	
+  2849	A blind 10\% recode was completed ($n=97$, seed 2026). The
+  2850	confirmatory codes were fully reliable: inclusion, VP-head status, and
+  2851	semantic residue each had agreement = 1.00 and Cohen's $\kappa = 1.00$.
+  2852	The secondary descriptive codes were less stable.
+  2853	
+  2854	\begin{center}
+  2855	\begin{tabular}{lrr}
+  2856	  \toprule
+  2857	  Code & Agreement & Cohen's $\kappa$ \\
+  2858	  \midrule
+  2859	  Inclusion & 1.000 & 1.000 \\
+  2860	  VP-head status & 1.000 & 1.000 \\
+  2861	  Semantic residue & 1.000 & 1.000 \\
+  2862	  Interactional residue & 0.887 & 0.297 \\
+  2863	  Targeted entity & 0.557 & 0.025 \\
+  2864	  \bottomrule
+  2865	\end{tabular}
+  2866	\end{center}
+  2867	
+  2868	The analysis files are in \path{analysis/morphgain-confirmatory/}. The
+  2869	main outputs are:
+  2870	
+  2871	\begin{itemize}
+  2872	  \item \path{morphgain-extraction-summary.csv}
+  2873	  \item \path{morphgain-go-nogo-summary.csv}
+  2874	  \item \path{morphgain-coding-summary.csv}
+  2875	  \item \path{morphgain-confirmatory-results.csv}
+  2876	  \item \path{morphgain-earliest-windows.csv}
+  2877	  \item \path{morphgain-reliability-results.csv}
+  2878	\end{itemize}
+  2879	
+  2880	The scripts are:
+  2881	
+  2882	\begin{itemize}
+  2883	  \item \path{morphgain-confirmatory-extract.mjs}
+  2884	  \item \path{morphgain-confirmatory-prepare.py}
+  2885	  \item \path{morphgain-confirmatory-code-primary.py}
+  2886	  \item \path{morphgain-confirmatory-analyze.py}
+  2887	  \item \path{morphgain-confirmatory-reliability.py}
+  2888	\end{itemize}
+  2889	
+  2890	\section[Fie in COHA]{Supplementary materials: obsolescence analysis (\mentionhead{fie} in COHA)}
+  2891	\label{app:fie}
+  2892	
+  2893	\subsection{Data and coding}
+  2894	
+  2895	616 tokens of \mention{fie} were extracted from COHA (1820--2019),
+  2896	excluding 141 optical character recognition (OCR) artefacts (where
+  2897	\mention{fie} is a
+  2898	misread of \mention{he}, \mention{the}, or \mention{five}). Each
+  2899	token was coded for three binary node-membership diagnostics:
+  2900	syntactic, semantic/use-conditional, and interactional-pragmatic
+  2901	interjectionhood. These correspond to the \textsubscript{syn},
+  2902	\textsubscript{sem}, and \textsubscript{prag} nodes used above. Coding
+  2903	criteria are in the pre-registration. The decade column was hidden during
+  2904	coding.
+  2905	
+  2906	Intra-coder reliability (10\% blind recode, $n = 62$):
+  2907	
+  2908	\begin{center}
+  2909	\begin{tabular}{lrr}
+  2910	  \hline
+  2911	  Diagnostic & Agreement & Cohen's $\kappa$ \\
+  2912	  \hline
+  2913	  \intj{syn} & 87.1\% & 0.68 \\
+  2914	  \intj{sem} & 96.8\% & 0.90 \\
+  2915	  \intj{prag} & 96.8\% & 0.90 \\
+  2916	  \hline
+  2917	\end{tabular}
+  2918	\end{center}
+  2919	
+  2920	\subsection{Raw proportions}
+  2921	
+  2922	Figure~\ref{fig:fie-raw} shows the proportion of tokens retaining
+  2923	each diagnostic by decade. All three diagnostics are near ceiling
+  2924	(85--100\%) through the 1890s, decline sharply between 1900 and 1940,
+  2925	and fluctuate at low levels thereafter. The late rebounds (1980s,
+  2926	2000s) reflect historical fiction and Shakespeare adaptations in which
+  2927	characters use \mention{fie} as a live interjection.
+  2928	
+  2929	\subsection{Confirmatory model}
+  2930	
+  2931	Bayesian logistic decline models (per the pre-registration) estimate the
+  2932	50\% effective date (ED50; $\tau$: the year at which each diagnostic's
+  2933	probability crosses 0.5):
+  2934	
+  2935	\begin{center}
+  2936	\begin{tabular}{lrr}
+  2937	  \hline
+  2938	  Diagnostic & $\tau$ (median) & 95\% CrI \\
+  2939	  \hline
+  2940	  \intj{syn} & 1947 & 1937--1958 \\
+  2941	  \intj{prag} & 1948 & 1939--1959 \\
+  2942	  \intj{sem} & 1949 & 1941--1960 \\
+  2943	  \hline
+  2944	\end{tabular}
+  2945	\end{center}
+  2946	
+  2947	Pre-committed prediction: Pr($\tau_{\text{int}} < \tau_{\text{sem}} <
+  2948	\tau_{\text{syn}}$) = 0.13 (threshold for \enquote{inconsistent}: $< 0.25$).
+  2949	The predicted sequential erosion wasn't observed. All three
+  2950	diagnostics declined together. See Figure~\ref{fig:fie-tau}.
+  2951	
+  2952	\begin{figure}[ht]
+  2953	  \centering
+  2954	  \includegraphics[width=\textwidth]{fie-tau-posteriors.pdf}
+  2955	  \caption{Posterior distributions of ED50 ($\tau$) for each diagnostic.
+  2956	    The three distributions overlap almost completely, indicating
+  2957	    simultaneous decline.}
+  2958	  \label{fig:fie-tau}
+  2959	\end{figure}
+  2960	
+  2961	\end{document}
+
+2026-07-27T16:33:49.587111Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+codex
+The appendix now does propagate the `ha` precision audit through sensitivity refits, which is a real strength. I’m checking the archived analysis only to distinguish a reporting omission from a substantive modeling problem; the review itself will cite `main.tex`, not unpublished reviewer material.
+hook: PreToolUse
+hook: PreToolUse Completed
+exec
+/bin/zsh -lc "rg --files analysis | rg -i 'glowbe|country|model|cv|bootstrap|ha-audit|tag|morphgain|fie' | sort" in /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections
+ succeeded in 0ms:
+analysis/bootstrap-cv.py
+analysis/conditioning-model-measerr.R
+analysis/conditioning-model.R
+analysis/country-variation.pdf
+analysis/fie-code-opus-direct.py
+analysis/fie-coded-codex.csv
+analysis/fie-coded-opus.csv
+analysis/fie-coded-sonnet.csv
+analysis/fie-coding-sheet-annotated.csv
+analysis/fie-coding-sheet.csv
+analysis/fie-coha-raw.txt
+analysis/fie-confirmatory-model.R
+analysis/fie-decade-key.csv
+analysis/fie-excluded.csv
+analysis/fie-extraction-summary.txt
+analysis/fie-prepare-coding.py
+analysis/fie-raw-proportions.pdf
+analysis/fie-reliability-key.csv
+analysis/fie-reliability-sheet.csv
+analysis/fie-tau-posteriors.pdf
+analysis/hand-extracted/um-variants-glowbe-by-country.csv
+analysis/hand-extracted/yeah-variants-glowbe-by-country.csv
+analysis/morphgain-confirmatory-analyze.py
+analysis/morphgain-confirmatory-code-primary.py
+analysis/morphgain-confirmatory-extract.mjs
+analysis/morphgain-confirmatory-prepare.py
+analysis/morphgain-confirmatory-reliability.py
+analysis/morphgain-confirmatory/RESULTS.md
+analysis/morphgain-confirmatory/extraction-metadata.json
+analysis/morphgain-confirmatory/morphgain-coded-primary.csv
+analysis/morphgain-confirmatory/morphgain-coding-sheet.csv
+analysis/morphgain-confirmatory/morphgain-coding-summary.csv
+analysis/morphgain-confirmatory/morphgain-confirmatory-results.csv
+analysis/morphgain-confirmatory/morphgain-earliest-windows.csv
+analysis/morphgain-confirmatory/morphgain-extraction-summary.csv
+analysis/morphgain-confirmatory/morphgain-family-summary.csv
+analysis/morphgain-confirmatory/morphgain-go-nogo-summary.csv
+analysis/morphgain-confirmatory/morphgain-reliability-key.csv
+analysis/morphgain-confirmatory/morphgain-reliability-results.csv
+analysis/morphgain-confirmatory/morphgain-reliability-sheet.csv
+analysis/morphgain-confirmatory/morphgain-secondary-model-note.txt
+analysis/morphgain-confirmatory/morphgain-token-key.csv
+analysis/morphgain-confirmatory/raw/attempts/booed-kwic-attempt1-early.json
+analysis/morphgain-confirmatory/raw/attempts/booed-kwic-attempt2-stable-gapped.json
+analysis/morphgain-confirmatory/raw/attempts/booing-kwic-attempt1-early.json
+analysis/morphgain-confirmatory/raw/attempts/booing-kwic-attempt2-stable-gapped.json
+analysis/morphgain-confirmatory/raw/attempts/booing-kwic-attempt3-error.json
+analysis/morphgain-confirmatory/raw/attempts/boos-kwic-attempt1-early.json
+analysis/morphgain-confirmatory/raw/attempts/boos-kwic-attempt2-stable-gapped.json
+analysis/morphgain-confirmatory/raw/attempts/oohed-chart-attempt1-error.json
+analysis/morphgain-confirmatory/raw/attempts/oohed-chart-attempt2-error.json
+analysis/morphgain-confirmatory/raw/attempts/oohed-kwic-attempt1-early.json
+analysis/morphgain-confirmatory/raw/attempts/oohed-kwic-attempt2-error.json
+analysis/morphgain-confirmatory/raw/attempts/oohing-chart-attempt1-error.json
+analysis/morphgain-confirmatory/raw/attempts/oohing-chart-attempt2-error.json
+analysis/morphgain-confirmatory/raw/attempts/oohing-kwic-attempt1-early.json
+analysis/morphgain-confirmatory/raw/attempts/oohing-kwic-attempt2-error.json
+analysis/morphgain-confirmatory/raw/attempts/oohs-kwic-attempt1-early.json
+analysis/morphgain-confirmatory/raw/attempts/shooed-kwic-attempt1-early.json
+analysis/morphgain-confirmatory/raw/attempts/shooed-kwic-attempt2-stable-gapped.json
+analysis/morphgain-confirmatory/raw/attempts/shooed-kwic-attempt3-error.json
+analysis/morphgain-confirmatory/raw/attempts/shooing-kwic-attempt1-early.json
+analysis/morphgain-confirmatory/raw/attempts/shoos-kwic-attempt1-early.json
+analysis/morphgain-confirmatory/raw/attempts/wowed-chart-attempt1-error.json
+analysis/morphgain-confirmatory/raw/attempts/wowed-kwic-attempt1-early.json
+analysis/morphgain-confirmatory/raw/attempts/wowed-kwic-attempt2-error.json
+analysis/morphgain-confirmatory/raw/attempts/wowing-chart-attempt1-error.json
+analysis/morphgain-confirmatory/raw/attempts/wowing-kwic-attempt1-early.json
+analysis/morphgain-confirmatory/raw/attempts/wowing-kwic-attempt2-error.json
+analysis/morphgain-confirmatory/raw/attempts/wowing-kwic-attempt3-error.json
+analysis/morphgain-confirmatory/raw/attempts/wows-kwic-attempt1-early.json
+analysis/morphgain-confirmatory/raw/booed-chart.json
+analysis/morphgain-confirmatory/raw/booed-kwic.json
+analysis/morphgain-confirmatory/raw/booing-chart.json
+analysis/morphgain-confirmatory/raw/booing-kwic.json
+analysis/morphgain-confirmatory/raw/boos-chart.json
+analysis/morphgain-confirmatory/raw/boos-kwic.json
+analysis/morphgain-confirmatory/raw/oohed-chart.json
+analysis/morphgain-confirmatory/raw/oohed-kwic.json
+analysis/morphgain-confirmatory/raw/oohing-chart.json
+analysis/morphgain-confirmatory/raw/oohing-kwic.json
+analysis/morphgain-confirmatory/raw/oohs-chart.json
+analysis/morphgain-confirmatory/raw/oohs-kwic.json
+analysis/morphgain-confirmatory/raw/shooed-chart.json
+analysis/morphgain-confirmatory/raw/shooed-kwic.json
+analysis/morphgain-confirmatory/raw/shooing-chart.json
+analysis/morphgain-confirmatory/raw/shooing-kwic.json
+analysis/morphgain-confirmatory/raw/shoos-chart.json
+analysis/morphgain-confirmatory/raw/shoos-kwic.json
+analysis/morphgain-confirmatory/raw/wowed-chart.json
+analysis/morphgain-confirmatory/raw/wowed-kwic.json
+analysis/morphgain-confirmatory/raw/wowing-chart.json
+analysis/morphgain-confirmatory/raw/wowing-kwic.json
+analysis/morphgain-confirmatory/raw/wows-chart.json
+analysis/morphgain-confirmatory/raw/wows-kwic.json
+analysis/morphgain-confirmatory/runs/2026-05-27T21-52-47-232Z.json
+analysis/morphgain-confirmatory/runs/2026-05-27T21-53-20-606Z.json
+analysis/morphgain-confirmatory/runs/2026-05-27T21-55-32-781Z.json
+analysis/morphgain-confirmatory/runs/2026-05-27T21-57-38-062Z.json
+analysis/morphgain-confirmatory/runs/2026-05-27T21-58-19-473Z.json
+analysis/morphgain-confirmatory/runs/2026-05-27T22-01-13-079Z.json
+analysis/parse-glowbe-concordance.py
+
+2026-07-27T16:33:58.588717Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+hook: PreToolUse
+hook: PreToolUse Completed
+exec
+/bin/zsh -lc "sed -n '1,280p' analysis/conditioning-model.R && sed -n '1,320p' analysis/conditioning-model-measerr.R && sed -n '1,260p' analysis/bootstrap-cv.py && sed -n '1,320p' analysis/fie-confirmatory-model.R" in /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections
+ succeeded in 0ms:
+# conditioning-model.R
+# Multilevel model testing whether geographic conditioning recovers
+# structure in interjection frequency (HPC Prediction P5).
+#
+# Data: GloWbE corpus (Davies & Fuchs 2015), 1.9 billion words, 20 countries.
+# Model: Bayesian negative binomial with crossed random intercepts for
+#         item and country. A country-by-item-type varying-slope model is
+#         fit only as an exploratory extension because several item-type
+#         cells are sparse.
+
+library(brms)
+library(dplyr)
+library(tidyr)
+library(readr)
+library(ggplot2)
+library(loo)
+
+# --- Data ---
+
+raw <- read_csv(here::here("data", "glowbe-raw-counts.csv"))
+
+# GloWbE subcorpus sizes (millions of words)
+corpus_sizes <- tibble(
+  country = c("US","CA","GB","IE","AU","NZ","IN","LK","PK","BD",
+              "SG","MY","PH","HK","ZA","NG","GH","KE","TZ","JM"),
+  words_m = c(386.8, 134.8, 387.6, 101.0, 148.2, 81.4, 96.4, 46.6,
+              51.4, 39.5, 43.0, 41.6, 43.2, 40.5, 45.4, 42.6, 38.8,
+              41.1, 35.2, 39.6)
+)
+
+# Reshape to long format
+d <- raw %>%
+  pivot_longer(cols = -c(item, tag), names_to = "country", values_to = "count") %>%
+  left_join(corpus_sizes, by = "country") %>%
+  mutate(
+    offset = log(words_m),
+    item_type = case_when(
+      item %in% c("lah", "yaar", "haba") ~ "regional",
+      item %in% c("um", "uh") ~ "filler",
+      item %in% c("bye", "cheers") ~ "boundary",
+      item %in% c("eh") ~ "semi-regional",
+      TRUE ~ "core"
+    ),
+    item_type = factor(item_type,
+      levels = c("core", "semi-regional", "boundary", "filler", "regional"))
+  )
+
+item_type_support <- d %>%
+  distinct(item, item_type) %>%
+  count(item_type, name = "n_items")
+
+cat("\n=== Item-type support ===\n")
+print(item_type_support)
+
+sparse_item_types <- item_type_support %>%
+  filter(n_items < 4)
+
+if (nrow(sparse_item_types) > 0) {
+  cat(
+    "Sparse item-type cells:",
+    paste0(sparse_item_types$item_type, " (", sparse_item_types$n_items, ")",
+           collapse = ", "),
+    "\n"
+  )
+  cat("Country-by-item-type slope models are therefore exploratory only.\n")
+}
+
+# --- Descriptive statistics ---
+
+cv_table <- d %>%
+  mutate(per_mil = count / words_m) %>%
+  group_by(item, item_type) %>%
+  summarise(
+    mean_pm = mean(per_mil),
+    sd_pm = sd(per_mil),
+    cv = sd_pm / mean_pm,
+    max_pm = max(per_mil),
+    min_pm = min(per_mil),
+    max_country = country[which.max(per_mil)],
+    min_country = country[which.min(per_mil)],
+    ratio = max_pm / max(min_pm, 0.01),  # avoid division by zero
+    .groups = "drop"
+  ) %>%
+  arrange(desc(cv))
+
+cat("\n=== Coefficient of Variation by Item ===\n")
+print(cv_table %>% select(item, item_type, cv, max_country, max_pm, min_country, min_pm, ratio), n = 20)
+
+# --- Model 1: Unconditional (pooled) ---
+# Negative binomial with only item random effects (no country structure)
+
+cat("\n=== Fitting unconditional model (item only) ===\n")
+m0 <- brm(
+  count ~ 1 + offset(offset) + (1 | item),
+  data = d,
+  family = negbinomial(),
+  chains = 4, cores = 4, iter = 2000, warmup = 1000,
+  seed = 2026,
+  save_pars = save_pars(all = TRUE),
+  silent = 2
+)
+
+# --- Model 2: Conditioned (item + country) ---
+# Crossed random effects: item varies across countries, countries vary
+# across items. This is the "conditioning recovers structure" model.
+
+cat("\n=== Fitting conditioned model (item + country) ===\n")
+m1 <- brm(
+  count ~ 1 + offset(offset) + (1 | item) + (1 | country),
+  data = d,
+  family = negbinomial(),
+  chains = 4, cores = 4, iter = 2000, warmup = 1000,
+  seed = 2026,
+  save_pars = save_pars(all = TRUE),
+  silent = 2
+)
+
+# --- Model 3: Conditioned with item-type fixed effect ---
+# Does knowing the item type (including semi-regional) help?
+
+cat("\n=== Fitting item-type model ===\n")
+m2 <- brm(
+  count ~ 1 + item_type + offset(offset) + (1 | item) + (1 | country),
+  data = d,
+  family = negbinomial(),
+  chains = 4, cores = 4, iter = 2000, warmup = 1000,
+  seed = 2026,
+  save_pars = save_pars(all = TRUE),
+  silent = 2
+)
+
+# --- Model 4: Exploratory country-by-item-type variation ---
+# Country-specific varying slopes by item_type. This is not an
+# item-by-country interaction, and it is treated as exploratory because
+# several item-type cells contain only 1--3 items.
+
+cat("\n=== Fitting exploratory country-by-item-type model ===\n")
+m3 <- brm(
+  count ~ 1 + item_type + offset(offset) + (1 | item) + (1 + item_type || country),
+  data = d,
+  family = negbinomial(),
+  chains = 4, cores = 4, iter = 2000, warmup = 1000,
+  seed = 2026,
+  save_pars = save_pars(all = TRUE),
+  silent = 2
+)
+
+# --- Model comparison ---
+
+summarise_loo <- function(x, label) {
+  ks <- loo::pareto_k_values(x)
+  bad_k <- sum(ks > 0.7, na.rm = TRUE)
+  max_k <- max(ks, na.rm = TRUE)
+
+  cat(sprintf("%s: %d observations with Pareto k > 0.7 (max = %.2f)\n",
+              label, bad_k, max_k))
+
+  list(bad_k = bad_k, max_k = max_k)
+}
+
+exact_loo <- function(fit, label) {
+  x <- loo(fit, reloo = TRUE)
+  summarise_loo(x, sprintf("%s after exact reloo", label))
+  x
+}
+
+diagnostic_loo <- function(fit, label) {
+  x <- loo(fit, moment_match = TRUE)
+  diag <- summarise_loo(x, sprintf("%s after moment matching", label))
+  list(loo = x, bad_k = diag$bad_k, max_k = diag$max_k)
+}
+
+cat("\n=== Confirmatory model comparison ===\n")
+cat("Primary comparisons use exact reloo for all confirmatory models.\n")
+loo0 <- exact_loo(m0, "m0")
+loo1 <- exact_loo(m1, "m1")
+loo2 <- exact_loo(m2, "m2")
+
+comp <- loo_compare(list(m0 = loo0, m1 = loo1, m2 = loo2))
+print(comp)
+
+cat("\n=== Pairwise: conditioned (m1) vs unconditional (m0) ===\n")
+pairwise_comp <- loo_compare(list(m0 = loo0, m1 = loo1))
+print(pairwise_comp)
+
+cat("\n=== Exploratory model diagnostic (m3) ===\n")
+loo3_info <- diagnostic_loo(m3, "m3")
+loo3 <- loo3_info$loo
+
+if (loo3_info$bad_k == 0) {
+  cat("m3 passed PSIS-LOO diagnostics and is included below for reference.\n")
+  comp_exploratory <- loo_compare(list(m0 = loo0, m1 = loo1, m2 = loo2, m3 = loo3))
+  print(comp_exploratory)
+} else {
+  comp_exploratory <- NULL
+  cat("Skipping formal ranking of m3: PSIS-LOO remains unstable.\n")
+  cat("Use k-fold cross-validation if you need an out-of-sample comparison for m3.\n")
+}
+
+# --- Random effects: country-level variance ---
+
+cat("\n=== Country random effect (SD) ===\n")
+cat("This is the key number: how much does knowing the country help?\n")
+cat("If SD ≈ 0, conditioning adds nothing (P5 defeated).\n")
+cat("If SD >> 0, conditioning recovers structure (P5 supported).\n\n")
+print(summary(m1)$random$country)
+
+cat("\n=== Item random effect (SD) ===\n")
+print(summary(m1)$random$item)
+
+cat("\n=== Ratio: item SD / country SD ===\n")
+item_sd <- summary(m1)$random$item[1, "Estimate"]
+country_sd <- summary(m1)$random$country[1, "Estimate"]
+cat(sprintf("Item SD = %.2f, Country SD = %.2f, Ratio = %.1f:1\n",
+            item_sd, country_sd, item_sd / country_sd))
+cat("Item identity does more work, but country adds real structure.\n")
+
+# --- Save results ---
+
+save(m0, m1, m2, m3,
+     loo0, loo1, loo2, loo3,
+     comp, pairwise_comp, comp_exploratory,
+     cv_table, d, item_type_support,
+     file = here::here("analysis", "conditioning-results.RData"))
+
+cat("\n=== Done. Results saved to analysis/conditioning-results.RData ===\n")
+
+# --- Quick plot ---
+
+p <- d %>%
+  mutate(per_mil = count / words_m) %>%
+  ggplot(aes(x = reorder(country, per_mil), y = per_mil)) +
+  geom_point(alpha = 0.4) +
+  stat_summary(fun = median, geom = "point", colour = "red", size = 2) +
+  facet_wrap(~ item, scales = "free_y", ncol = 4) +
+  coord_flip() +
+  labs(x = NULL, y = "Frequency per million words",
+       title = "Interjection frequency by country (GloWbE)",
+       subtitle = "Red = median across items") +
+  theme_minimal(base_size = 10)
+
+ggsave(here::here("analysis", "country-variation.pdf"), p,
+       width = 12, height = 10)
+
+cat("Plot saved to analysis/country-variation.pdf\n")
+# Conditioning model with measurement error on `ha`.
+#
+# The published model treats every count as exact. The 2026-07-27 audit shows
+# that is false for `ha`: hand-coding the tagged concordance for all twenty
+# sections puts the share of tagged tokens that are genuine interjections
+# between 34.5% and 84.0%, and the shortfall is regionally patterned (hectare in
+# East Africa and South Asia, personal names in Singapore). A point-estimate
+# correction would understate the uncertainty, so the validity rate enters as a
+# beta posterior per country and is propagated by refitting over draws.
+#
+# Two questions:
+#   1. Does the country random effect survive correcting `ha`?
+#   2. Does the model comparison (m1 over m0) survive it?
+#
+# Note the audit measures precision only. Tokens the tagger missed are not
+# recoverable from a tagged concordance, so this corrects false positives and
+# not false negatives.
+
+library(brms)
+library(dplyr)
+library(tidyr)
+library(loo)
+
+set.seed(2026)
+here <- function(...) file.path("..", ...)
+
+raw <- read.csv(here("data", "glowbe-raw-counts.csv"), check.names = FALSE)
+validity <- read.csv(here("data", "ha-validity-rates.csv"))
+
+corpus_sizes <- tibble(
+  country = c("US","CA","GB","IE","AU","NZ","IN","LK","PK","BD",
+              "SG","MY","PH","HK","ZA","NG","GH","KE","TZ","JM"),
+  words_m = c(386.8, 134.8, 387.6, 101.0, 148.2, 81.4, 96.4, 46.6,
+              51.4, 39.5, 43.0, 41.6, 43.2, 40.5, 45.4, 42.6, 38.8,
+              41.1, 35.2, 39.6)
+)
+
+long <- raw %>%
+  pivot_longer(cols = -c(item, tag), names_to = "country", values_to = "count") %>%
+  left_join(corpus_sizes, by = "country") %>%
+  mutate(offset = log(words_m))
+
+# One replicate: draw each country's validity rate from Beta(k+1, n-k+1),
+# thin `ha`'s count by it, leave every other item untouched.
+make_replicate <- function(spec) {
+  if (spec == "uncorrected") return(long)
+  k <- if (spec == "laughter_in") validity$k_laughter_in else validity$k_laughter_out
+  p <- rbeta(nrow(validity), k + 1, validity$n_coded - k + 1)
+  draw <- tibble(country = validity$country, rate = p)
+  long %>%
+    left_join(draw, by = "country") %>%
+    mutate(count = if_else(item == "ha", as.integer(round(count * rate)), count)) %>%
+    select(-rate)
+}
+
+fit_pair <- function(d) {
+  m0 <- brm(count ~ 1 + offset(offset) + (1 | item), data = d,
+            family = negbinomial(), chains = 2, cores = 2, iter = 1500,
+            warmup = 750, seed = 2026, save_pars = save_pars(all = TRUE),
+            silent = 2, refresh = 0)
+  m1 <- brm(count ~ 1 + offset(offset) + (1 | item) + (1 | country), data = d,
+            family = negbinomial(), chains = 2, cores = 2, iter = 1500,
+            warmup = 750, seed = 2026, save_pars = save_pars(all = TRUE),
+            silent = 2, refresh = 0)
+  l0 <- loo(m0); l1 <- loo(m1)
+  # Compute the difference directly rather than from loo_compare's row order,
+  # which is sorted by fit and so cannot be indexed positionally with a fixed
+  # sign. Positive means the country model predicts better.
+  d_point <- l1$pointwise[, "elpd_loo"] - l0$pointwise[, "elpd_loo"]
+  adv <- sum(d_point)
+  se  <- sqrt(length(d_point)) * sd(d_point)
+  sd_country <- as.data.frame(m1)[["sd_country__Intercept"]]
+  list(elpd_diff = adv, se_diff = se,
+       sd_med = median(sd_country),
+       sd_lo = quantile(sd_country, .025), sd_hi = quantile(sd_country, .975))
+}
+
+R <- as.integer(Sys.getenv("REPLICATES", "8"))
+out <- list()
+for (spec in c("uncorrected", "laughter_in", "laughter_out")) {
+  for (r in seq_len(R)) {
+    res <- fit_pair(make_replicate(spec))
+    out[[length(out) + 1]] <- tibble(spec = spec, rep = r,
+      elpd_diff = res$elpd_diff, se_diff = res$se_diff,
+      sd_med = res$sd_med, sd_lo = res$sd_lo, sd_hi = res$sd_hi)
+    cat(sprintf("  %s rep %d: dELPD %.1f (SE %.1f), country SD %.2f [%.2f, %.2f]\n",
+                spec, r, res$elpd_diff, res$se_diff, res$sd_med, res$sd_lo, res$sd_hi))
+  }
+}
+res <- bind_rows(out)
+write.csv(res, here("analysis", "ha-measurement-error-results.csv"), row.names = FALSE)
+
+cat("\n=== Across replicates ===\n")
+res %>%
+  group_by(spec) %>%
+  summarise(elpd = mean(elpd_diff), elpd_sd = sd(elpd_diff),
+            se = mean(se_diff), sd_country = mean(sd_med),
+            sd_lo = mean(sd_lo), sd_hi = mean(sd_hi), .groups = "drop") %>%
+  as.data.frame() %>%
+  print()
+"""Bootstrap intervals for the per-item coefficients of variation.
+
+The CVs in §6.1 are computed across twenty country sections and reported as
+point estimates, then compared with one another. Twenty units is few enough
+that the comparisons need intervals before they can carry weight. This
+resamples countries with replacement and reports percentile intervals, then
+lists which pairwise comparisons survive.
+"""
+import csv
+import random
+import statistics as st
+from pathlib import Path
+
+SRC = Path(__file__).parent.parent / 'data' / 'glowbe-interjection-frequencies.csv'
+REGIONAL = {'lah', 'yaar', 'haba'}
+
+
+def cv(v):
+    return st.stdev(v) / st.mean(v)
+
+
+def main(B=4000, seed=11):
+    random.seed(seed)
+    est = {}
+    for row in csv.DictReader(SRC.open()):
+        v = [float(y) for k, y in row.items() if k != 'item']
+        boots = sorted(cv([random.choice(v) for _ in v]) for _ in range(B))
+        est[row['item']] = (cv(v), boots[int(.025 * B)], boots[int(.975 * B)])
+
+    for it, (c, lo, hi) in sorted(est.items(), key=lambda r: -r[1][0]):
+        print(f"  {it:8} {c:5.2f}  [{lo:5.2f}, {hi:5.2f}]")
+
+    core = [k for k in est if k not in REGIONAL]
+    mid = [k for k in core if k not in ('yes', 'no')]
+    sep = [(a, b) for i, a in enumerate(mid) for b in mid[i + 1:]
+           if est[a][1] > est[b][2] or est[b][1] > est[a][2]]
+    print(f"\n  separable pairs within the core band (excluding yes/no): "
+          f"{len(sep)} of {len(mid)*(len(mid)-1)//2}")
+    top = max(est['yes'][2], est['no'][2])
+    print("  yes/no separate from: " +
+          ', '.join(sorted(k for k in mid if est[k][1] > top)))
+
+
+if __name__ == '__main__':
+    main()
+# fie-confirmatory-model.R
+# Pre-registered Bayesian logistic decline for fie in COHA.
+# Follows fie-coha-preregistration.md exactly.
+
+library(brms)
+library(dplyr)
+library(readr)
+library(ggplot2)
+library(loo)
+
+# --- Load and merge data ---
+
+coding <- read_csv(here::here("analysis", "fie-coding-sheet-annotated.csv"),
+                   show_col_types = FALSE)
+decade_key <- read_csv(here::here("analysis", "fie-decade-key.csv"),
+                       show_col_types = FALSE)
+
+d <- coding %>%
+  left_join(decade_key, by = "coding_id") %>%
+  mutate(
+    syn = as.integer(human_syn),
+    sem = as.integer(human_sem),
+    intj = as.integer(human_int)
+  ) %>%
+  filter(!is.na(syn))  # should be 616
+
+cat(sprintf("Total coded tokens: %d\n", nrow(d)))
+
+# --- Descriptive statistics (reported before modelling per prereg) ---
+
+decade_summary <- d %>%
+  group_by(decade) %>%
+  summarise(
+    n = n(),
+    syn_prop = mean(syn),
+    sem_prop = mean(sem),
+    int_prop = mean(intj),
+    .groups = "drop"
+  )
+
+cat("\n=== Per-decade counts and proportions ===\n")
+print(decade_summary, n = 25)
+
+# Jeffreys intervals for proportions
+jeffreys_ci <- function(k, n, alpha = 0.05) {
+  lo <- qbeta(alpha / 2, k + 0.5, n - k + 0.5)
+  hi <- qbeta(1 - alpha / 2, k + 0.5, n - k + 0.5)
+  c(lo, hi)
+}
+
+decade_detail <- d %>%
+  group_by(decade) %>%
+  summarise(
+    n = n(),
+    syn_k = sum(syn), sem_k = sum(sem), int_k = sum(intj),
+    .groups = "drop"
+  ) %>%
+  rowwise() %>%
+  mutate(
+    syn_lo = jeffreys_ci(syn_k, n)[1],
+    syn_hi = jeffreys_ci(syn_k, n)[2],
+    sem_lo = jeffreys_ci(sem_k, n)[1],
+    sem_hi = jeffreys_ci(sem_k, n)[2],
+    int_lo = jeffreys_ci(int_k, n)[1],
+    int_hi = jeffreys_ci(int_k, n)[2],
+  ) %>%
+  ungroup()
+
+cat("\n=== Jeffreys 95% intervals ===\n")
+print(decade_detail, n = 25)
+
+# --- Raw proportion plots (before model, per prereg) ---
+
+plot_data <- d %>%
+  group_by(decade) %>%
+  summarise(
+    n = n(),
+    syn = mean(syn), sem = mean(sem), int = mean(intj),
+    .groups = "drop"
+  ) %>%
+  tidyr::pivot_longer(cols = c(syn, sem, int),
+                      names_to = "property", values_to = "proportion") %>%
+  mutate(property = factor(property,
+    levels = c("int", "sem", "syn"),
+    labels = c("interjection_int", "interjection_sem", "interjection_syn")))
+
+p_raw <- ggplot(plot_data, aes(x = decade, y = proportion, colour = property)) +
+  geom_point(size = 2) +
+  geom_line() +
+  scale_y_continuous(limits = c(0, 1), labels = scales::percent) +
+  labs(x = "Decade", y = "Proportion coded 1",
+       title = "Raw proportions of fie properties by decade (COHA)",
+       colour = "Property") +
+  theme_minimal(base_size = 12)
+
+ggsave(here::here("analysis", "fie-raw-proportions.pdf"), p_raw,
+       width = 10, height = 6)
+cat("\nRaw proportion plot saved.\n")
+
+# --- Aggregate to decade-level binomial counts ---
+
+decade_bin <- d %>%
+  group_by(decade) %>%
+  summarise(
+    n = n(),
+    syn_k = sum(syn),
+    sem_k = sum(sem),
+    int_k = sum(intj),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    t = (decade - mean(decade)) / 10  # centred and scaled in 10-year units
+  )
+
+# --- Confirmatory model: Bayesian logistic decline ---
+# Per prereg: logit(theta) = alpha + beta * t, beta < 0
+
+cat("\n=== Fitting confirmatory models ===\n")
+
+fit_decline <- function(k_col, n_col, data, label) {
+  cat(sprintf("Fitting %s...\n", label))
+
+  formula <- bf(paste0(k_col, " | trials(", n_col, ") ~ t"))
+
+  priors <- c(
+    prior(normal(0, 1.5), class = "Intercept"),
+    prior(normal(0, 0.5), class = "b", lb = NA, ub = 0)  # beta < 0
+  )
+
+  fit <- brm(
+    formula,
+    data = data,
+    family = binomial(),
+    prior = priors,
+    chains = 4, cores = 4, iter = 4000, warmup = 2000,
+    seed = 2026,
+    silent = 2
+  )
+
+  fit
+}
+
+m_syn <- fit_decline("syn_k", "n", decade_bin, "interjection_syn")
+m_sem <- fit_decline("sem_k", "n", decade_bin, "interjection_sem")
+m_int <- fit_decline("int_k", "n", decade_bin, "interjection_int")
+
+# --- Convergence diagnostics ---
+
+cat("\n=== Convergence diagnostics ===\n")
+for (label in c("syn", "sem", "int")) {
+  m <- get(paste0("m_", label))
+  s <- summary(m)
+  cat(sprintf("\n%s:\n", label))
+  print(s$fixed)
+  cat(sprintf("  Max Rhat: %.4f\n", max(s$fixed$Rhat)))
+  cat(sprintf("  Min Bulk ESS: %.0f\n", min(s$fixed$Bulk_ESS)))
+  cat(sprintf("  Min Tail ESS: %.0f\n", min(s$fixed$Tail_ESS)))
+}
+
+# --- ED50: tau_p = -alpha / beta ---
+
+cat("\n=== ED50 (tau) posterior distributions ===\n")
+
+compute_tau <- function(fit, label) {
+  posts <- as_draws_df(fit)
+  alpha <- posts$b_Intercept
+  beta <- posts$b_t
+
+  # tau in centred/scaled units, convert back to calendar year
+  mean_decade <- mean(decade_bin$decade)
+  tau_scaled <- -alpha / beta
+  tau_year <- mean_decade + tau_scaled * 10
+
+  cat(sprintf("\n%s:\n", label))
+  cat(sprintf("  tau median: %.0f\n", median(tau_year)))
+  cat(sprintf("  tau 95%% CrI: [%.0f, %.0f]\n",
+              quantile(tau_year, 0.025), quantile(tau_year, 0.975)))
+
+  if (median(tau_year) < 1820) cat("  Note: tau < 1820 (before observed window)\n")
+  if (median(tau_year) > 2019) cat("  Note: tau > 2019 (after observed window)\n")
+
+  tau_year
+}
+
+tau_int <- compute_tau(m_int, "interjection_int")
+tau_sem <- compute_tau(m_sem, "interjection_sem")
+tau_syn <- compute_tau(m_syn, "interjection_syn")
+
+# --- Primary confirmatory quantity ---
+
+pr_ordered <- mean(tau_int < tau_sem & tau_sem < tau_syn)
+cat(sprintf("\n=== PRIMARY RESULT ===\n"))
+cat(sprintf("Pr(tau_int < tau_sem < tau_syn) = %.3f\n", pr_ordered))
+
+# Interpretive label per prereg
+if (pr_ordered > 0.75) {
+  cat("Label: consistent with the predicted ordering\n")
+} else if (pr_ordered > 0.25) {
+  cat("Label: consistent but uninformative\n")
+} else {
+  cat("Label: inconsistent with the predicted ordering\n")
+}
+
+# --- All pairwise orderings ---
+
+cat(sprintf("\nPr(tau_int < tau_sem) = %.3f\n", mean(tau_int < tau_sem)))
+cat(sprintf("Pr(tau_sem < tau_syn) = %.3f\n", mean(tau_sem < tau_syn)))
+cat(sprintf("Pr(tau_int < tau_syn) = %.3f\n", mean(tau_int < tau_syn)))
+
+# --- Tau density plot ---
+
+tau_df <- data.frame(
+  tau = c(tau_int, tau_sem, tau_syn),
+  property = rep(c("interjection_int", "interjection_sem", "interjection_syn"),
+                 each = length(tau_int))
+)
+
+p_tau <- ggplot(tau_df, aes(x = tau, fill = property)) +
+  geom_density(alpha = 0.4) +
+  coord_cartesian(xlim = c(1700, 2200)) +
+  labs(x = "ED50 (calendar year)", y = "Posterior density",
+       title = "Posterior distributions of ED50 (tau) for each property",
+       fill = "Property") +
+  theme_minimal(base_size = 12)
+
+ggsave(here::here("analysis", "fie-tau-posteriors.pdf"), p_tau,
+       width = 10, height = 6)
+cat("\nTau posterior plot saved.\n")
+
+# --- Save results ---
+
+save(m_syn, m_sem, m_int,
+     tau_syn, tau_sem, tau_int,
+     pr_ordered, decade_bin, decade_detail,
+     file = here::here("analysis", "fie-confirmatory-results.RData"))
+
+cat("\n=== Done. Results saved to analysis/fie-confirmatory-results.RData ===\n")
+
+2026-07-27T16:34:03.036529Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+hook: PreToolUse
+hook: PreToolUse Completed
+exec
+/bin/zsh -lc "rg --files | rg -i 'prereg|pre-reg|registration' | sort" in /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections
+ succeeded in 0ms:
+fie-coha-preregistration.md
+morphology-gain-coha-preregistration.md
+
+hook: PreToolUse
+hook: PreToolUse Completed
+exec
+/bin/zsh -lc "wc -l fie-coha-preregistration.md morphology-gain-coha-preregistration.md && sed -n '1,260p' fie-coha-preregistration.md && sed -n '1,320p' morphology-gain-coha-preregistration.md" in /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections
+ succeeded in 0ms:
+     222 fie-coha-preregistration.md
+     192 morphology-gain-coha-preregistration.md
+     414 total
+# Draft Preregistration: `fie` in COHA, 1820-2019
+
+## Status and Scope
+
+This is a preregistered analysis plan for an existing corpus, not a preregistration before data collection. The confirmatory commitments here concern extraction, coding, modeling, and reporting for one target item, `fie`, in COHA from 1820 to 2019.
+
+The analysis is conditional on attested `fie` tokens. It is not a model of the overall frequency decline of `fie` in COHA, though raw token counts by decade will be reported.
+
+## Research Question and Prediction
+
+**Research question:** Within attested COHA tokens of `fie`, do the interactional, semantic, and syntactic properties associated with interjectionhood decline at different rates across time?
+
+**Pre-committed prediction:** The properties should fray in the order interactional first, semantic second, syntactic last. In terms of ED50 parameters, the predicted ordering is:
+
+```text
+tau_int < tau_sem < tau_syn
+```
+
+where each `tau` is the calendar year at which the model-estimated probability of a property falls below 0.5.
+
+## Data Source and Extraction
+
+- Corpus: Corpus of Historical American English (COHA), 1820-2019.
+- Target item: the orthographic token `fie`, matched case-insensitively as a standalone word.
+- No variant pooling: forms such as `fye`, `fy`, `fieh`, or longer strings containing `fie` are excluded unless they are tokenized as the exact word `fie`.
+- Unit of analysis: one attested token of `fie` in running text.
+- Time bin: decade.
+- Context for coding: the sentence containing the token, plus the immediately preceding and following sentence when available.
+
+Duplicate hits created by export or query artifacts will be removed by document ID, year, and concordance context. Repeated uses of `fie` within the same document remain separate tokens.
+
+## Go/No-Go Threshold
+
+Before coding or modelling, the following minimum data requirement must be met:
+
+- **Total analysable tokens:** at least 50
+- **Decade coverage:** at least 3 decades with 3+ tokens each
+
+If either threshold is not met, the study is reported as pre-registered but untested due to data sparsity. The prediction remains on the record. No modelling, no hand-waving, no exploratory substitution.
+
+These thresholds are set before data extraction and will not be revised after inspecting token counts.
+
+## Inclusion and Exclusion Rules
+
+Included:
+
+- Tokens of `fie` used in running English text, including dialogue and quoted speech.
+
+Excluded:
+
+- Metalinguistic mention rather than use, as in discussion of "the word `fie`"
+- Dictionary headwords, glossaries, bibliographies, page headers, running heads, advertisements, and other metadata
+- Non-English passages
+- OCR noise or unreadable hits
+- Hits with too little readable context to apply the coding rubric
+
+All exclusions will be counted and reported.
+
+## Coding Protocol
+
+Each analyzable token will receive three binary codes, assigned independently:
+
+| Property | Code `1` if... | Code `0` if... |
+|---|---|---|
+| `interjection_syn` | `fie` is syntactically non-integrated: it does not fill an argument, complement, or modifier slot in the surrounding clause, and its removal leaves no grammatical gap. Standalone uses and clause-peripheral exclamations count as `1`. | `fie` is syntactically integrated, metalinguistically quoted, or otherwise functions as part of ordinary clause structure. |
+| `interjection_sem` | `fie` contributes expressive or evaluative stance without referential or truth-conditional lexical content. | `fie` refers to the word itself, contributes descriptive lexical content, or is unusable as an expressive token in context. |
+| `interjection_int` | `fie` functions as an interactional move or stance display directed at the speech situation, addressee, or prior talk, such as exclamation, reproach, reaction, or turn-level stance marking. | `fie` does not function as an interactional move in context. |
+
+Additional coding rules:
+
+- The three properties are coded independently. A `1` on one property does not force a `1` on the others.
+- For `interjection_int`, code the represented speech act, not the author's act of writing it. A character saying *fie* to another character in a novel counts as a live interactional move if it functions as stance display within the fictional dialogue.
+- Coding will be done from a randomized coding sheet with the decade column hidden, so the coder is blind to time period during coding. Note: archaic syntax in concordance lines may partially reveal period; this is unavoidable but mitigated by randomisation.
+- The full rubric and token-level coding sheet will be published in the supplement.
+
+## Coding Reliability
+
+Brett will complete a blind second-pass recode on a simple random 10% subset of analyzable tokens, rounded up to the next whole token. The subset will be sampled with random seed 2026 and presented in randomized order with original codes hidden.
+
+This is an intra-coder stability check, not an external inter-coder validation. The following will be reported for each property:
+
+- Percent agreement
+- Cohen's kappa
+
+If disagreement exceeds 20% on any property, that coding criterion will be flagged as underdetermined. The main analysis will still be reported under the preregistered rubric; the rubric will not be revised after inspecting disagreement patterns except to correct clerical errors.
+
+## Descriptive Reporting Before Modeling
+
+Before fitting any model, the paper will report:
+
+- Total analyzable `N`
+- Per-decade `N`
+- Raw proportion per decade for each property
+- 95% Jeffreys intervals for the decade-level proportions
+
+The raw proportion plots come first, before any model-based estimates.
+
+Decades with `N = 0` will be shown in the count table and count plot but will not enter the property model because there is no denominator for a property proportion.
+
+## Confirmatory Statistical Model
+
+For each property separately, let:
+
+- `n_d` = number of analyzable `fie` tokens in decade `d`
+- `y_pd` = number of those tokens coded `1` on property `p`
+
+The confirmatory model is a Bayesian logistic decline fitted to decade-level binomial counts:
+
+```text
+y_pd ~ Binomial(n_d, theta_pd)
+logit(theta_pd) = alpha_p + beta_p * t_d
+beta_p < 0
+```
+
+where `t_d` is decade midpoint, centered and scaled in 10-year units.
+
+The `beta_p < 0` constraint assumes monotone decline: `fie` can only lose properties over time, not rebound. This is a substantive assumption, not just regularisation. Both the confirmatory and sensitivity models are monotonic; neither can detect a revival period.
+
+This simple logistic form is the confirmatory model for two reasons:
+
+- it removes the researcher degree of freedom involved in choosing between a smoother and a simple decline
+- it makes the ED50 parameter exact rather than interpolation-dependent
+
+### Priors
+
+- `alpha_p ~ Normal(0, 1.5)`
+- `beta_p ~ Normal(0, 0.5)`, truncated to negative values
+
+These are weakly regularizing priors on the log-odds scale. They allow shallow or steep decline but rule out implausibly erratic trajectories for a single item observed by decade.
+
+### Estimation and Diagnostics
+
+- 4 chains
+- 2000 warmup iterations and 2000 post-warmup iterations per chain
+- random seed: 2026
+
+Convergence criteria:
+
+- no divergent transitions
+- `Rhat <= 1.01` for population parameters
+- bulk ESS and tail ESS of at least 400 for population parameters
+
+If the confirmatory model fails these diagnostics after standard tuning adjustments, that failure will be reported explicitly. It will not trigger a post hoc change in the confirmatory model.
+
+## Confirmatory Estimand
+
+For each posterior draw and each property, define:
+
+```text
+tau_p = -alpha_p / beta_p
+```
+
+and transform `tau_p` back to calendar year. This is the ED50: the year at which the model-estimated probability of the property equals 0.5.
+
+If `tau_p < 1820`, it will be reported as "before 1820." If `tau_p > 2019`, it will be reported as "after 2019." These are not treated as failures of estimation; they mean the 0.5 crossing lies outside the observed window.
+
+The primary confirmatory quantity is:
+
+```text
+Pr(tau_int < tau_sem < tau_syn)
+```
+
+This probability will be reported as a posterior quantity, not converted into a binary success/failure decision.
+
+## Sensitivity Analysis
+
+As a robustness check, I will also fit a Bayesian logistic model with decade treated as an ordered monotonic predictor rather than a linear slope. Because ED50 is not exact under this parameterisation, the sensitivity model will report the posterior distribution of the decade at which each property's predicted probability crosses 0.5, obtained by numerical interpolation of the fitted curve. The following will be reported:
+
+- Posterior distributions of the interpolated crossing decades for each property
+- `Pr(tau_int < tau_sem < tau_syn)` computed from the interpolated posteriors
+- Visual comparison of the fitted curves with the confirmatory model
+
+This sensitivity analysis will be reported regardless of outcome. It is not the confirmatory model, and it will not replace the confirmatory model on the basis of fit, sparsity, or substantive convenience.
+
+## Sparse Data and Uninformative Results
+
+No decade will be excluded because of low token count. If any decade has fewer than 5 tokens, it remains in the analysis.
+
+If posterior intervals are wide or order probabilities are diffuse, that will be reported as an informative outcome rather than treated as a failed analysis. The primary result is always `Pr(tau_int < tau_sem < tau_syn)`. The following labels are informal glosses on that probability, not independent judgments:
+
+- "consistent with the predicted ordering": `Pr(tau_int < tau_sem < tau_syn) > 0.75`
+- "consistent but uninformative": `Pr(tau_int < tau_sem < tau_syn)` between 0.25 and 0.75
+- "inconsistent with the predicted ordering": `Pr(tau_int < tau_sem < tau_syn) < 0.25`
+
+## What Will Be Reported Regardless of Outcome
+
+- Total analyzable `N`
+- Per-decade `N`
+- Exclusion counts by reason
+- Raw proportions by decade with 95% Jeffreys intervals
+- Posterior distributions of `tau_int`, `tau_sem`, and `tau_syn`
+- `Pr(tau_int < tau_sem < tau_syn)`
+- Convergence diagnostics
+- Reliability statistics for all three coding variables
+
+No post hoc threshold-based exclusion beyond the preregistered go/no-go rule, no post hoc model switching, and no selective reporting will be used.
+
+## Archiving
+
+The supplement will include:
+
+- the full coding rubric
+- the token-level dataset
+- the reliability subset
+- the analysis code used to fit the confirmatory and sensitivity models
+
+## Coding Clarification: Multiple *fie* per Line
+
+Some COHA concordance lines contain more than one *fie* token (e.g., "Fie! A fie upon each of you!"). The coding sheet has one row per concordance line, not per token. In such cases, code the **first** *fie* in the concordance context — this is the KWIC target that COHA centred the hit on.
+
+## Coding Notes: Edge Cases Adjudicated with Extended Context
+
+The following tokens required extended COHA context beyond the concordance line to code reliably. Full context and reasoning are recorded here for the supplement.
+
+- **F362** (DrSevier, 1884): Narrator breaks fourth wall — "Shall we follow? Fie!" Addressed to reader as mock-reproach. Coded (1,1,1).
+- **F450** (Bk:DropZone, 2016): "Tee fie!" — nonsense syllables, no interjection properties. Coded (0,0,0).
+- **F522** (VelvetDoublet, 1953): "A fie on conscience!" — noun use with article. Coded (0,1,0).
+- **F545** (AmWhigRev, 1849): "the subordination, that cries fie! continually to his pride of place" — political essay, fie as object of speech verb but retaining full interjection force in the represented speech act. Coded (1,1,1).
+- **F568** (VelvetDoublet, 1953): "a fie for a Portuguese parvenu" — noun use. Coded (0,1,0).
+- **F579** (Chicago, 1929): "Pee, fie, fo, furry" — fee-fi-fo-fum variant, garbled. Coded (1,0,0).
+- **F597** (Play:AmIGoIllSaySo, 1923): Gertrude Stein — "shame shame fie for shame" embedded in phonological/rhythmic chain. Not an interjection; a sound unit in assonance pattern. Coded (0,0,0).
+- **F604** (CopperStreakTrail, 1922): "Fie! A fie upon each of you!" — first fie is standalone exclamation. Coded (1,1,1).
+# Preregistration: Morphology-Gain Perturbations in COHA
+
+## Status and Scope
+
+This is a preregistered analysis plan for an existing corpus, not a
+preregistration before data collection. The confirmatory commitments here
+concern extraction, coding, exclusion, and reporting for English
+interjection-derived verbal forms in COHA.
+
+Lock method: the git commit that first adds this file to the project
+repository. No further COHA extraction, KWIC review, coding, or analysis
+for these target forms will begin before that lock.
+
+Before this plan was written, a small number of exploratory feasibility
+queries were run for `wowed`, `booed`, `booing`, `oohed`, `oohing`,
+`shooed`, `shooing`, and `wowing`. Those outputs may be reported only as
+pilot/feasibility information. They will not be used as confirmatory
+evidence, and no coding or model choice will be based on them. The target
+forms below are fixed by the theoretical case set and by regular English
+inflection, not by those exploratory results.
+
+## Research Question and Prediction
+
+**Research question:** When interjections gain verbal morphology, does
+syntactic interjectionhood disappear before the source interjection's
+semantic or interactional residue disappears?
+
+**Pre-committed prediction:** Overtly inflected verbal derivatives should
+show syntactic integration while retaining semantic residue from the
+source interjection. In the causal-network account, verbal morphology
+directly disrupts prosodic-syntactic coupling. It should therefore affect
+interjection\_syn before interjection\_sem.
+
+The predicted pattern is:
+
+```text
+verbal_syntax = 1
+semantic_residue = 1
+```
+
+in the earliest analyzable derivative tokens for each source form. If
+the earliest analyzable verbal tokens are syntactically integrated but
+semantic residue is already absent, the morphology-gain perturbation does
+not support the predicted ordering.
+
+## Data Source and Target Forms
+
+- Corpus: Corpus of Historical American English (COHA), 1820--2019.
+- Unit of analysis: one KWIC token of a target form in running English
+  text.
+- Time variable: publication year, with decade used for summary plots.
+- Target source interjections: `wow`, `boo`, `ooh`, `shoo`.
+- Target verbal derivatives:
+  - `wowed`, `wowing`, `wows`
+  - `booed`, `booing`, `boos`
+  - `oohed`, `oohing`, `oohs`
+  - `shooed`, `shooing`, `shoos`
+
+Bare source forms (`wow`, `boo`, `ooh`, `shoo`) are excluded from the
+confirmatory dataset because they are ambiguous between interjectional
+and verbal uses without overt morphology.
+
+## Go/No-Go Threshold
+
+Before coding, each source-form family will be assessed for data
+availability.
+
+For a source-form family to enter confirmatory analysis, it must have:
+
+- at least 20 analyzable derivative tokens, and
+- at least two decades with 3+ analyzable derivative tokens.
+
+If fewer than two source-form families meet this threshold, the study
+will be reported as preregistered but underpowered. The prediction will
+remain on the record. No alternative target forms will be added after
+inspecting counts.
+
+## Inclusion and Exclusion Rules
+
+Included:
+
+- Tokens of target forms used in running English text.
+- Dialogue, quoted speech, fiction, magazine, newspaper, and nonfiction
+  tokens.
+- Verbal uses with overt inflection, whether finite or non-finite.
+
+Excluded:
+
+- Metalinguistic mention, dictionary entries, word lists, bibliographies,
+  tables, page headers, and other metadata.
+- Noun uses, including plural nouns such as `boos` or `oohs` when they
+  mean "instances of booing/oohing" rather than a verb.
+- Adjectival or participial uses without recoverable verbal syntax, unless
+  a verbal predicate is clear in context.
+- OCR noise, duplicate export artifacts, and hits with too little readable
+  context to code.
+- Non-English passages.
+
+Duplicate hits created by export/query artifacts will be removed by
+document ID, year, source, and concordance context. Repeated target forms
+within the same document remain separate tokens if they correspond to
+separate KWIC hits.
+
+## Coding Protocol
+
+Each analyzable token will receive the following binary codes:
+
+| Code | `1` if... | `0` if... |
+|---|---|---|
+| `verbal_syntax` | The token functions as a verb or verb form: it inflects, heads or belongs to a predicate, takes arguments or modifiers appropriate to verbal syntax, or appears in a progressive/perfect/passive construction. | The token is a noun, adjective, metalinguistic mention, interjection, or otherwise not syntactically verbal. |
+| `semantic_residue` | The token preserves the source interjection's meaning profile: impressed/evaluative response for `wow`; disapproval or contempt for `boo`; appreciative/surprised response for `ooh`; directive away-sending for `shoo`. | The token has lost the source interjection's semantic profile or the meaning cannot be recovered. |
+| `interactional_residue` | The token represents an interactional act or socially recognizable response, including collective audience response, directed disapproval, admiration, appreciative uptake, or directive action toward an addressee. | The token is purely descriptive, lexicalized, or otherwise lacks recoverable interactional force. |
+| `targeted_entity` | The token has a recoverable target, object, addressee, or stimulus. | No target/stimulus is recoverable. |
+
+The confirmatory outcome uses `verbal_syntax` and `semantic_residue`.
+`interactional_residue` and `targeted_entity` are secondary descriptive
+codes.
+
+Coding will be done from a randomized sheet with year and decade hidden.
+The source form family will remain visible because it is required to
+apply the semantic-residue rubric.
+
+## Confirmatory Analysis
+
+For each source-form family that passes the go/no-go threshold:
+
+1. Identify the earliest analyzable window: the earliest decade with at
+   least 3 analyzable derivative tokens, plus following decades in
+   chronological order until the window contains at least 10 analyzable
+   tokens. If no decade has at least 3 analyzable derivative tokens, the
+   family has already failed the go/no-go threshold.
+2. Compute the proportion of early-window tokens with:
+
+```text
+verbal_syntax = 1 and semantic_residue = 1
+```
+
+3. Compute a Jeffreys 95% interval for that proportion.
+
+The confirmatory prediction is supported for a source-form family only if
+the lower bound of the Jeffreys interval is above 0.5. It is not
+supported if the interval includes or falls below 0.5.
+
+Across families, the primary summary is the number of source-form
+families meeting this criterion. The paper will report all families,
+including failures and sparse cases.
+
+## Secondary Diachronic Analysis
+
+If at least one source-form family has 50+ analyzable tokens across 5+
+decades, a secondary analysis will model `semantic_residue` over time
+among tokens with `verbal_syntax = 1`.
+
+The secondary model is a Bayesian logistic regression:
+
+```text
+semantic_residue_i ~ Bernoulli(theta_i)
+logit(theta_i) = alpha_family[i] + beta_family[i] * decade_i
+```
+
+with weakly regularizing priors. This analysis is descriptive and will
+not replace the confirmatory early-window test.
+
+## Reliability
+
+Brett will complete a blind second-pass recode on a simple random 10% of
+analyzable tokens, rounded up to the next whole token. The subset will be
+sampled with random seed 2026 and presented with original codes hidden.
+
+Report for each code:
+
+- percent agreement
+- Cohen's kappa
+
+If disagreement exceeds 20% for `semantic_residue`, the confirmatory
+analysis will still be reported, but the interpretation will be flagged
+as coding-unstable.
+
+## What Will Be Reported Regardless of Outcome
+
+- Query forms and extraction dates.
+- Raw hit counts and analyzable-token counts by source-form family.
+- Exclusion counts by reason.
+- Earliest analyzable window for each included family.
+- Token-level coding sheet.
+- Confirmatory early-window proportions with Jeffreys intervals.
+- Secondary diachronic model results, if the threshold for that analysis
+  is met.
+- Reliability statistics.
+
+No target forms, coding rules, thresholds, or confirmatory criteria will
+be changed after further COHA extraction begins.
+
+hook: PreToolUse
+hook: PreToolUse Completed
+exec
+/bin/zsh -lc "rg --files | rg -i '("'^|/)(ha|glowbe).*valid|ha-audit|audit.*ha|ha.*cod|validity'"' | sort && sed -n '1,30p' data/ha-validity-rates.csv && sed -n '1,80p' analysis/ha-measurement-error-results.csv 2>/dev/null" in /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections
+ succeeded in 0ms:
+analysis/ha-labelled-validation-set.tsv
+data/ha-validity-rates.csv
+notes/2026-07-27-ha-audit-result.md
+country,n_coded,k_laughter_in,k_laughter_out
+US,1000,822,307
+CA,1000,771,305
+GB,1000,840,210
+IE,1000,808,194
+AU,1000,737,195
+NZ,1000,773,225
+IN,1000,663,172
+LK,1000,689,147
+PK,500,272,99
+BD,498,172,36
+SG,1000,571,313
+MY,1000,602,152
+PH,1000,678,208
+HK,1000,520,176
+ZA,500,336,50
+NG,500,293,102
+GH,200,120,30
+KE,1000,447,88
+TZ,500,211,58
+JM,499,412,57
+"spec","rep","elpd_diff","se_diff","sd_med","sd_lo","sd_hi"
+"uncorrected",1,28.8064466282344,7.57112067600499,0.421863232235798,0.291704068539074,0.656064228579515
+"uncorrected",2,28.8064466282344,7.57112067600499,0.421863232235798,0.291704068539074,0.656064228579515
+"uncorrected",3,28.8064466282344,7.57112067600499,0.421863232235798,0.291704068539074,0.656064228579515
+"laughter_in",1,27.5837023525051,7.03754068024581,0.433720561049556,0.292162498019682,0.667405553020815
+"laughter_in",2,27.4306914723256,6.7920846804368,0.438481375782429,0.295274860191531,0.688342685538192
+"laughter_in",3,25.7714021609338,7.45133180386144,0.437612243344524,0.294109081115002,0.658045370994436
+"laughter_out",1,26.4677879708161,8.06851228660357,0.451566687195811,0.303732979162618,0.679211249517453
+"laughter_out",2,26.3647068724996,8.36522483232254,0.450081162388373,0.305820857238177,0.702686793513194
+"laughter_out",3,32.5787046525683,6.71978040107324,0.459618748533078,0.306136841677229,0.701545239279751
+
+codex
+### 1. One-sentence summary
+
+The paper argues that English interjections constitute a genuine lexical category because observing part of their prosodic, syntactic, semantic, and interactional profile licenses defeasible predictions about unobserved properties, with corpus studies probing conditioning, pathway residue, and failure.
+
+### 2. Strengths
+
+- The empirical claims are unusually well bounded. Section 6.1 calls the GloWbE analysis a “proof-of-concept probe,” identifies the CVs as primary, and explicitly separates these tests from corrective control ([main.tex:2300](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2300), [main.tex:2378](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2378)). The conclusion likewise distinguishes established stability and network order from merely candidate grounds ([main.tex:2562](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2562)).
+
+- The `ha` audit is used well within its proper scope. Coding all twenty sections exposes country-varying precision, demonstrates that the CV depends materially on whether laughter counts, and propagates the resulting uncertainty through sensitivity refits ([main.tex:2399](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2399), [main.tex:2753](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2753)). The explicit distinction between precision and recall is exactly right ([main.tex:2619](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2619)).
+
+- The preregistered COHA work reports an informative failure rather than rescuing the hypothesis: the predicted ordering for `fie` receives posterior probability 0.13 and is declared unobserved ([main.tex:2947](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2947)). Blinded time coding and reported intra-coder reliability further strengthen that result ([main.tex:2893](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2893)).
+
+### 3. Weaknesses
+
+- The GloWbE estimand does not match the strongest prose. The paper predicts that apparent category gradience should “decompose” under conditioning and concludes that country “recovers structure at every level” ([main.tex:2324](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2324), [main.tex:2366](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2366)). But m1 adds only a common country random intercept; it tests whether overall token rates differ by corpus section, not whether item types or category boundaries behave differently by country. The relevant varying-slope model, m3, is exploratory and cannot be ranked reliably ([main.tex:2694](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2694), [main.tex:2710](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2710)). Moreover, observation-level LOO predicts a missing cell for an already-observed item and country; it does not test generalization to a new item or variety. Recast the result as “GloWbE section predicts overall rates,” or fit an adequately supported item-by-country/type interaction and use leave-one-item- or leave-one-country-out validation appropriate to the intended projection. Given ΔELPD = 17.9 with SE = 13.3, “directionally favourable but uncertain” is warranted; “outperforms” or “preferred” is too firm ([main.tex:2370](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2370)).
+
+- The validity disclosures are sufficient to warn readers but also undercut the variety interpretation. Core counts are tag-restricted, whereas `haba` and `yaar` are raw strings; recall can be zero, regional raw strings contain non-English and proper-name tokens, and “country” belongs to a webpage rather than a speaker ([main.tex:2627](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2627), [main.tex:2652](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2652)). Correcting `ha` precision shows that this one contaminant does not drive m1, but it validates neither the other seventeen outcomes nor recall. The manuscript should report actual audit sample sizes, sampling protocol, coding reliability, and sensitivity models restricted to consistently measured, manually validated items. Otherwise “country” must be interpreted as corpus-section composition—including genre and internet ecology—not linguistic variety.
+
+- The COHA conclusions need narrower wording. In the morphology study, overt derivatives are selected and the success criterion then includes `verbal_syntax = 1`; thus syntactic integration is substantially built into the sampling frame, while the real empirical result is preservation of broadly coded source semantics among 10–17 early tokens per family ([main.tex:2774](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2774), [main.tex:2823](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2823)). Report that conditional result rather than a general morphology-gain trajectory. For `fie`, Pr(predicted ordering)=0.13 supports rejection of that ordering, but overlapping marginal ED50 intervals do not establish “simultaneous decline” ([main.tex:2947](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2947), [main.tex:2955](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2955)). Establish simultaneity with a joint model and a declared equivalence margin for pairwise ED50 differences; also report predictive checks for the monotonic logistic form given the acknowledged late rebounds.
+
+### 4. Key question
+
+What precisely is the held-out prediction that “country conditioning” improves—an unseen token for a known item and corpus section, a new item, or a new English variety—and can that prediction be demonstrated on consistently hand-validated outcomes rather than tagger-dependent counts?
+
+### 5. Verdict
+
+**Revise & Resubmit** — the theoretical argument is strong and the transparency exemplary, but the principal GloWbE model does not test the decomposition claim attributed to it, and both the measurement regime and COHA interpretations require substantial recalibration.
+tokens used
+134,359
+### 1. One-sentence summary
+
+The paper argues that English interjections constitute a genuine lexical category because observing part of their prosodic, syntactic, semantic, and interactional profile licenses defeasible predictions about unobserved properties, with corpus studies probing conditioning, pathway residue, and failure.
+
+### 2. Strengths
+
+- The empirical claims are unusually well bounded. Section 6.1 calls the GloWbE analysis a “proof-of-concept probe,” identifies the CVs as primary, and explicitly separates these tests from corrective control ([main.tex:2300](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2300), [main.tex:2378](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2378)). The conclusion likewise distinguishes established stability and network order from merely candidate grounds ([main.tex:2562](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2562)).
+
+- The `ha` audit is used well within its proper scope. Coding all twenty sections exposes country-varying precision, demonstrates that the CV depends materially on whether laughter counts, and propagates the resulting uncertainty through sensitivity refits ([main.tex:2399](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2399), [main.tex:2753](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2753)). The explicit distinction between precision and recall is exactly right ([main.tex:2619](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2619)).
+
+- The preregistered COHA work reports an informative failure rather than rescuing the hypothesis: the predicted ordering for `fie` receives posterior probability 0.13 and is declared unobserved ([main.tex:2947](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2947)). Blinded time coding and reported intra-coder reliability further strengthen that result ([main.tex:2893](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2893)).
+
+### 3. Weaknesses
+
+- The GloWbE estimand does not match the strongest prose. The paper predicts that apparent category gradience should “decompose” under conditioning and concludes that country “recovers structure at every level” ([main.tex:2324](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2324), [main.tex:2366](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2366)). But m1 adds only a common country random intercept; it tests whether overall token rates differ by corpus section, not whether item types or category boundaries behave differently by country. The relevant varying-slope model, m3, is exploratory and cannot be ranked reliably ([main.tex:2694](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2694), [main.tex:2710](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2710)). Moreover, observation-level LOO predicts a missing cell for an already-observed item and country; it does not test generalization to a new item or variety. Recast the result as “GloWbE section predicts overall rates,” or fit an adequately supported item-by-country/type interaction and use leave-one-item- or leave-one-country-out validation appropriate to the intended projection. Given ΔELPD = 17.9 with SE = 13.3, “directionally favourable but uncertain” is warranted; “outperforms” or “preferred” is too firm ([main.tex:2370](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2370)).
+
+- The validity disclosures are sufficient to warn readers but also undercut the variety interpretation. Core counts are tag-restricted, whereas `haba` and `yaar` are raw strings; recall can be zero, regional raw strings contain non-English and proper-name tokens, and “country” belongs to a webpage rather than a speaker ([main.tex:2627](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2627), [main.tex:2652](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2652)). Correcting `ha` precision shows that this one contaminant does not drive m1, but it validates neither the other seventeen outcomes nor recall. The manuscript should report actual audit sample sizes, sampling protocol, coding reliability, and sensitivity models restricted to consistently measured, manually validated items. Otherwise “country” must be interpreted as corpus-section composition—including genre and internet ecology—not linguistic variety.
+
+- The COHA conclusions need narrower wording. In the morphology study, overt derivatives are selected and the success criterion then includes `verbal_syntax = 1`; thus syntactic integration is substantially built into the sampling frame, while the real empirical result is preservation of broadly coded source semantics among 10–17 early tokens per family ([main.tex:2774](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2774), [main.tex:2823](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2823)). Report that conditional result rather than a general morphology-gain trajectory. For `fie`, Pr(predicted ordering)=0.13 supports rejection of that ordering, but overlapping marginal ED50 intervals do not establish “simultaneous decline” ([main.tex:2947](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2947), [main.tex:2955](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2955)). Establish simultaneity with a joint model and a declared equivalence margin for pairwise ED50 differences; also report predictive checks for the monotonic logistic form given the acknowledged late rebounds.
+
+### 4. Key question
+
+What precisely is the held-out prediction that “country conditioning” improves—an unseen token for a known item and corpus section, a new item, or a new English variety—and can that prediction be demonstrated on consistently hand-validated outcomes rather than tagger-dependent counts?
+
+### 5. Verdict
+
+**Revise & Resubmit** — the theoretical argument is strong and the transparency exemplary, but the principal GloWbE model does not test the decomposition claim attributed to it, and both the measurement regime and COHA interpretations require substantial recalibration.

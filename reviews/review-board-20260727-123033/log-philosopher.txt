@@ -3232,3 +3232,274 @@ exec
   2946	
   2947	\end{document}
 
+codex
+I’ve finished all 2,947 lines, including the appendices. The strongest philosophical move is the paper’s explicit separation of induction, causal order, stability, stabilizers, and homeostasis; the pressure points are now whether the traditional category survives the three-node decomposition, and whether the Goodman claim is genuinely inductive rather than conditional feature completion.
+hook: PreToolUse
+hook: PreToolUse Completed
+exec
+/bin/zsh -lc "rg -n '"'^'"\\\\(section|subsection|subsubsection)' main.tex && rg -n 'Goodman|projectib|homeostat|corrective control|sharp|realist|metaphys|field-relative|zone of overlap' main.tex" in /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections
+ succeeded in 0ms:
+100:\section{Introduction}\label{sec:intro}
+353:\section{The property cluster}\label{sec:cluster}
+374:\subsection{Phonology}\label{sec:phonology}
+419:\subsection{Morphology}
+446:\subsection{Syntax}\label{sec:syntax}
+517:\subsection{Semantics}\label{sec:semantics}
+606:\subsection{Pragmatics}\label{sec:pragmatics}
+692:\subsection{Co-occurrence, not necessity}\label{sec:cooccurrence}
+903:\section{The causal-network framework}\label{sec:causal-framework}
+917:\subsection{The framework}
+1011:\subsection{Causal networks vs.\ prototype theory}\label{sec:prototype}
+1051:\subsection{What causal structure adds}
+1113:\subsection{Three field-relative nodes}\label{sec:fieldrelative-nodes}
+1224:\section[Causal structure]{Causal structure: recruitment and coupling}\label{sec:causal-structure}
+1294:\subsection{Recruitment pathways}\label{sec:recruitment}
+1310:\subsection{Path 1: religious noun to interjection}\label{sec:path-religious}
+1390:\subsection{Path 2: verb to interjection}
+1442:\subsection{Convergent pathways}
+1479:\subsection{Synchronic coupling}\label{sec:synchronic-coupling}
+1491:\subsubsection{Prosodic isolation and syntactic non-integration}
+1526:\subsubsection{The non-referentiality ratchet}
+1548:\subsubsection{Interactional routine entrenchment}
+1583:\subsubsection{Regional/indexical conditioning}
+1728:\subsection{Causal residues at the category boundary}\label{sec:residues}
+1860:\subsection{Stability through turnover}\label{sec:turnover}
+1962:\section[Projectibility]{Projectibility: what the category lets you predict}\label{sec:projectibility}
+1992:\subsection{Partial-observation inference}\label{sec:proj-partial}
+2122:\subsection{What each node projects}\label{sec:proj-fieldrelative}
+2188:\subsection{Category vs.\ function}
+2223:\subsection{What sets the domain of projection}\label{sec:proj-domain}
+2298:\section{Discussion}\label{sec:discussion}
+2300:\subsection{Empirical probes and boundary conditions}
+2491:\subsection{Boundary disputes as causal-link overlap}\label{sec:boundaries}
+2523:\section{Conclusion}\label{sec:conclusion}
+2570:\section*{Acknowledgements}
+2594:\section[Supplementary materials]{Supplementary materials: GloWbE conditioning analysis}
+2597:\subsection{Data}
+2684:\subsection{Model specification}
+2715:\subsection{Results}
+2767:\section[Morphology gain in COHA]{Supplementary materials: morphology-gain analysis (COHA)}
+2770:\subsection{Data and extraction}
+2804:\subsection{Coding}
+2821:\subsection{Confirmatory result}
+2847:\subsection{Reliability and files}
+2890:\section[Fie in COHA]{Supplementary materials: obsolescence analysis (\mentionhead{fie} in COHA)}
+2893:\subsection{Data and coding}
+2920:\subsection{Raw proportions}
+2929:\subsection{Confirmatory model}
+24:% The three field-relative nodes are a category label relativized to a field,
+73:projectibility: observing some properties of a case licenses predictions
+96:projectibility; supplements; path dependence
+139:\textcite[63]{cram2008} makes the historiographic point more sharply.
+160:single defining feature. It's \term{projectibility}: the inferential
+162:predictions about others \citep{Goodman1955}. For interjections,
+211:the same pragmatic node. The resulting profile is thin but projectible, a
+215:separately\ifblind\else\ \citep{reynolds2026projectibilityHistory}\fi. Each
+243:  license calling the cluster \term{homeostatic}, Boyd's term
+279:\node[unclaimed] (corr) at (10.4, -1.2) {\textbf{corrective control}\\restores it when disturbed\\(not claimed here)};
+296:the profile, stabilizers hold it together, and corrective control is the
+297:strongest ground of all. Only corrective control would license calling the
+298:cluster \term{homeostatic}, and it isn't claimed here.}
+350:interjections exhibit a distinctive form of projectibility, primarily
+369:Section~\ref{sec:fieldrelative-nodes}. Section~\ref{sec:projectibility} asks
+588:The contrast with nouns is sharpest where both share a lexical source.
+597:The projectibility here is mostly negative. A form that doesn't refer
+672:The disagreement is field-relative in a causal-network sense. For a
+761:properties they carry and in which field-relative nodes they satisfy, so the
+776:Boyd doesn't make the further commitment to sharpness. He treats the
+779:is sharp but not finitely locatable, and that the fuzzy appearance comes from
+782:sharpness would have to be maintained rather than stipulated, by acquisition,
+783:entrenchment, alignment, and transmission, which makes how sharp a boundary is
+785:blurs: a population of speakers with sharp but individually placed thresholds
+811:profile against the six cluster properties and the three field-relative
+831:\intjshort{prag} if it is usable on its own as an interactional move, which is the sequential-use column read as a field-relative classification.
+841:field-relative nodes. \checkmark\ = property present; ($\checkmark$) =
+931:I take the structure from Khalidi and not the metaphysics. Nothing below turns
+933:has to be is projectible for linguistic inquiry, a position whose causal links
+934:explain why particular observations support particular predictions. The sharp
+963:  combination together as forms enter and leave, and corrective control would be
+1003:That structure is enough for projectibility, whatever domain the
+1005:enough to establish corrective control, since the evidence considered here
+1024:because each field-relative cut is determinate and the disputes concern which
+1073:are projectible, why do their properties cohere, and which changes
+1075:the projectibility question asks where the inventory supports
+1077:points are pathway residues and field-relative decomposition. If those
+1113:\subsection{Three field-relative nodes}\label{sec:fieldrelative-nodes}
+1117:projectibility is field-relative. If kinds are nodes in causal
+1120:remain realist: each inquiry tracks the causal relations that matter for
+1205:\caption{The three field-relative nodes overlap in extension but come apart,
+1220:relations, and projectible for different purposes. The traditional label
+1221:\enquote{interjection} names their zone of overlap, and the paper's
+1450:recruitment processes can bring items into the same projectible profile,
+1572:This candidate stabilizer supports the projectibility of
+1585:Some interjections are sharply conditioned by region, register, or
+1720:nodes mark diagnostics; and green nodes mark field-relative interjection
+1723:the regional/indexical maintenance hypothesis. The three field-relative
+1737:This gives the category a second kind of inference. Section~\ref{sec:projectibility}
+1738:develops forward projectibility: observing some properties of a novel
+1740:also needs a retrodictive counterpart to projectibility:
+1826:persists. They probe boundary behaviour, not corrective control.
+1888:The items change while the projectible category position remains
+1962:\section[Projectibility]{Projectibility: what the category lets you predict}\label{sec:projectibility}
+1970:projectibility means forward inference from observed properties of
+1984:continues to refer to forms in the extension of all three field-relative nodes
+1996:any category. Causal-network projectibility is different. Observing some
+2054:those observations, the three field-relative nodes license a battery of
+2100:projectibility in Goodman's sense, claimed throughout the preceding
+2190:\textit{CGEL}'s distinction between category and function sharpens the
+2191:projectibility point: what does the \intj{syn} category label add
+2233:and the richest projectibility belongs to
+2240:projectibility is about sequential position and conversational
+2271:The same point holds outside interjections. Noun projectibility is
+2276:projectibility of interjections is procedural and use-conditional rather
+2284:projectibility follows from the underlying processes.
+2286:The richest projectibility is pragmatic, but
+2288:because it's projectible and has its own causal links. Neutralize
+2294:pragmatic ones. A thin syntactic node is still a projectible syntactic
+2302:Section~\ref{sec:projectibility} asked what categorizing a novel form as
+2309:aren't tests of corrective control.
+2444:homograph, which is a sharper and more testable caveat than orthographic
+2487:causal-network payoffs are pathway residues and the field-relative
+2495:are field-relative predictions of the causal-network account. Each
+2521:observations because projectibility is indexed to explanatory purpose.
+2525:English interjections are a category whose members support projectible
+2542:The field-relative decomposition shows why the traditional label
+2554:show projectible profiles, boundary behaviour, exit residues, and
+2564:establish corrective control. That limit matters: pragmatic categories can be
+2575:projectibility.
+2924:(85--100\%) through the 1890s, decline sharply between 1900 and 1940,
+
+2026-07-27T16:33:12.956110Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+hook: PreToolUse
+hook: PreToolUse Completed
+exec
+/bin/zsh -lc "wc -l main.tex && stat -f '%Sm %z' -t '%Y-%m-%dT%H:%M:%S%z' main.tex && nl -ba main.tex | sed -n '2725,2785p'" in /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections
+ succeeded in 0ms:
+    2961 main.tex
+2026-07-27T12:32:30-0400 155816
+  2725	  m2 (item type) & $-$9.3 & 7.9 \\
+  2726	  m0 (unconditional) & $-$17.9 & 13.3 \\
+  2727	  \hline
+  2728	\end{tabular}
+  2729	\end{center}
+  2730	
+  2731	The conditioned model (m1) is preferred. Adding item-type fixed effects
+  2732	(m2) doesn't improve on m1 because the item random effect already
+  2733	captures between-item variation. The exploratory model (m3) is excluded
+  2734	from formal ranking because 9 observations retain Pareto $k > 0.7$
+  2735	after moment matching, indicating unstable PSIS leave-one-out estimates.
+  2736	
+  2737	Random effects from the conditioned model (m1):
+  2738	\begin{itemize}
+  2739	  \item Country standard deviation (SD) = 0.44 (95\% CrI: 0.28--0.65)
+  2740	  \item Item SD = 2.07 (95\% CrI: 1.49--2.96)
+  2741	  \item Ratio: 4.7:1 (item identity explains more variation, while
+  2742	    country adds structure)
+  2743	\end{itemize}
+  2744	
+  2745	The evidence is directionally consistent: conditioning on country
+  2746	improves prediction ($\Delta$ELPD = 17.9, SE 13.3), and the country
+  2747	random-effect SD is positive across the interval. The SE is large
+  2748	relative to the point estimate, reflecting the small sample (18 items $\times$ 20
+  2749	countries = 360 observations). The descriptive CV results in the main
+  2750	text provide the primary evidence for the conditioning probe; the model
+  2751	suggests the pattern survives the crossed random-effects structure.
+  2752	
+  2753	Since the hand audit of \mention{ha} in Section~\ref{sec:discussion} shows
+  2754	that one item's counts carry a validity rate that varies by country, the model
+  2755	was refitted with that error propagated rather than assumed away. Each
+  2756	country's rate enters as a draw from its \textsc{beta} posterior, thinning
+  2757	\mention{ha}'s count while leaving the other seventeen items untouched, and
+  2758	the pair of models is refitted over draws. Correcting it moves little: the
+  2759	country random-effect SD goes from 0.42 to 0.44 with iterated laughter counted
+  2760	and 0.45 with it excluded, and the model comparison moves from 28.8 to 26.9
+  2761	and 28.5 across the same specifications. Two limits on that reassurance. The
+  2762	refits use approximate rather than exact leave-one-out, so their absolute
+  2763	values are not comparable with the figures above and only the internal
+  2764	contrast is informative. And a hand-coded concordance measures precision, so
+  2765	this corrects tokens the tagger wrongly admitted and not those it missed.
+  2766	
+  2767	\section[Morphology gain in COHA]{Supplementary materials: morphology-gain analysis (COHA)}
+  2768	\label{app:morphgain}
+  2769	
+  2770	\subsection{Data and extraction}
+  2771	
+  2772	The morphology-gain study was pre-registered before extraction and
+  2773	coding (\texttt{f1a2193}, 27 May 2026). The corpus was COHA
+  2774	(1820--2019). The fixed source families were \mention{wow},
+  2775	\mention{boo}, \mention{ooh}, and \mention{shoo}. The fixed target
+  2776	derivatives were \mention{wowed}, \mention{wowing}, \mention{wows};
+  2777	\mention{booed}, \mention{booing}, \mention{boos}; \mention{oohed},
+  2778	\mention{oohing}, \mention{oohs}; and \mention{shooed},
+  2779	\mention{shooing}, \mention{shoos}. Bare source forms were excluded.
+  2780	
+  2781	Extraction was completed on 27 May 2026. The token-level analysis used
+  2782	parsed key-word-in-context (KWIC) exports. Chart requests for
+  2783	\mention{oohed} and \mention{oohing} returned server errors, but KWIC
+  2784	exports loaded and were used for coding. Minor chart/KWIC row-count discrepancies are
+  2785	documented in the extraction summary.
+
+2026-07-27T16:33:20.187489Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+The full current file has been read, including a 14-line appendix addition that appeared during review. The philosophical audit is complete; no files were edited and no other reviewer output was consulted.
+  ✓ Read the review-board protocol and identify applicable single-reviewer workflow
+  ✓ Read main.tex in full and map its philosophical argument
+  ✓ Audit causal-network positioning, projectibility, sharp/fluid categories, and exposition
+  ✓ Deliver the requested Journal of Linguistics review with precise section and line citations
+2026-07-27T16:33:59.521689Z ERROR codex_models_manager::manager: failed to renew cache TTL: missing field `supports_reasoning_summaries` at line 86 column 5
+codex
+## 1. One-sentence summary
+
+The paper argues that English interjections constitute a genuine lexical category because a historically recruited, causally ordered property cluster licenses defeasible predictions about forms’ prosodic, syntactic, semantic, and interactional behaviour, without requiring an essence or homeostatic corrective control.
+
+## 2. Strengths
+
+- The non-homeostatic positioning is coherent and unusually disciplined. The paper distinguishes the projective declaration from its warrant ([line 219](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:219)), stability from network order ([line 232](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:232)), and ordinary stabilizers from corrective control ([line 239](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:239)). Its strongest version is therefore not “these mechanisms constitute an HPC,” but “these links explain why the profile supports induction.” That is a coherent Khalidi-style use of causal structure without Boyd-style homeostasis.
+
+- Projectibility is genuinely central rather than decorative. The manuscript specifies observed and predicted properties, unit, population, and the prohibition on merely predicting an admission criterion ([line 219](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:219)); confronts the circular formulation explicitly ([line 1994](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:1994)); and usefully distinguishes analysts’ category-driven projection from participants’ cue-driven inference ([line 2098](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2098)). That gives general linguists enough conceptual orientation without presupposing natural-kind theory.
+
+- The apparatus is connected to empirical risk. The link-status table distinguishes documented, reconstructive, candidate, and hypothetical relations ([line 1238](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:1238)), while the failed preregistered prediction for *fie* is reported as a real boundary on the account ([line 1828](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:1828)). This makes the causal-network proposal more than retrospective relabelling.
+
+## 3. Weaknesses
+
+- The three-node solution threatens to dissolve the category whose reality the paper is meant to establish. The introduction says “interjection” covers forms occupying all three nodes ([line 335](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:335)); §3.4 then says the individual nodes are projectible for different purposes and that the traditional label merely names their “zone of overlap” ([line 1218](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:1218)); §5 again defines the bare category extension as their intersection ([line 1983](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:1983)). But an intersection of three projectible nodes is not automatically itself a causal or projectible node. The paper must either demonstrate an incremental predictive payoff belonging to the intersection over and above its components, or revise the thesis toward three overlapping field-relative categories. The causal diagram should also distinguish causal arrows from constitutive or classificatory relations.
+
+- “Projectibility in Goodman’s sense” is currently too strong ([line 2098](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2098)). Most examples involve completing the profile of one item from other properties already observed on that item ([line 1994](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:1994)); moreover, the paper ultimately says the category label is only an analyst’s bookkeeping device and that the cues and coupling perform the inferential work ([line 2107](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2107)). A defensible post-Goodman account needs the two-stage induction stated explicitly: observations across previous cases warrant a lawlike conditional, which then supports prediction about an incompletely observed new case. It should also say what causal robustness contributes beyond correlation and whether the label improves prediction conditional on the cues. Otherwise, call this “cross-property prediction” rather than specifically Goodmanian projectibility. The attribution to Goodman (1955) requires verification against the original; I have not independently read that source for this review.
+
+- The sharp-but-fluid position is possible but presently unnecessary and under-argued. Determinate diagnostics do not by themselves yield determinate category membership, especially when the diagnostic matrix itself admits “partial or debated” values ([line 841](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:841)). The paper assumes a sharp but non-locatable edge ([line 776](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:776)) and then concedes that none of its arguments requires that assumption ([line 788](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:788)). For this readership, the cleaner solution is to retain form-, environment-, speaker-, and time-indexed diagnostic determinacy while dropping or clearly quarantining metaphysical sharpness. Similarly, “only corrective control” licenses *homeostatic* ([line 241](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:241)) should be presented as the author’s deliberately strict terminological policy, not as an uncontested interpretation of Boyd, unless verified directly against Boyd (1999), which I have not independently checked here.
+
+## 4. Key question
+
+What novel outcome is predicted better by assigning a form to the intersection called *interjection*, over and above the cues that justify that assignment and the predictions already supplied by the three component nodes?
+
+## 5. Verdict
+
+**Revise & Resubmit** — the non-homeostatic causal-network programme is coherent and promising, but the manuscript has not yet shown that the traditional category itself, rather than its component nodes or observed cues, supplies the claimed Goodmanian inductive payoff.
+tokens used
+127,940
+## 1. One-sentence summary
+
+The paper argues that English interjections constitute a genuine lexical category because a historically recruited, causally ordered property cluster licenses defeasible predictions about forms’ prosodic, syntactic, semantic, and interactional behaviour, without requiring an essence or homeostatic corrective control.
+
+## 2. Strengths
+
+- The non-homeostatic positioning is coherent and unusually disciplined. The paper distinguishes the projective declaration from its warrant ([line 219](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:219)), stability from network order ([line 232](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:232)), and ordinary stabilizers from corrective control ([line 239](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:239)). Its strongest version is therefore not “these mechanisms constitute an HPC,” but “these links explain why the profile supports induction.” That is a coherent Khalidi-style use of causal structure without Boyd-style homeostasis.
+
+- Projectibility is genuinely central rather than decorative. The manuscript specifies observed and predicted properties, unit, population, and the prohibition on merely predicting an admission criterion ([line 219](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:219)); confronts the circular formulation explicitly ([line 1994](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:1994)); and usefully distinguishes analysts’ category-driven projection from participants’ cue-driven inference ([line 2098](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2098)). That gives general linguists enough conceptual orientation without presupposing natural-kind theory.
+
+- The apparatus is connected to empirical risk. The link-status table distinguishes documented, reconstructive, candidate, and hypothetical relations ([line 1238](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:1238)), while the failed preregistered prediction for *fie* is reported as a real boundary on the account ([line 1828](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:1828)). This makes the causal-network proposal more than retrospective relabelling.
+
+## 3. Weaknesses
+
+- The three-node solution threatens to dissolve the category whose reality the paper is meant to establish. The introduction says “interjection” covers forms occupying all three nodes ([line 335](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:335)); §3.4 then says the individual nodes are projectible for different purposes and that the traditional label merely names their “zone of overlap” ([line 1218](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:1218)); §5 again defines the bare category extension as their intersection ([line 1983](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:1983)). But an intersection of three projectible nodes is not automatically itself a causal or projectible node. The paper must either demonstrate an incremental predictive payoff belonging to the intersection over and above its components, or revise the thesis toward three overlapping field-relative categories. The causal diagram should also distinguish causal arrows from constitutive or classificatory relations.
+
+- “Projectibility in Goodman’s sense” is currently too strong ([line 2098](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2098)). Most examples involve completing the profile of one item from other properties already observed on that item ([line 1994](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:1994)); moreover, the paper ultimately says the category label is only an analyst’s bookkeeping device and that the cues and coupling perform the inferential work ([line 2107](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:2107)). A defensible post-Goodman account needs the two-stage induction stated explicitly: observations across previous cases warrant a lawlike conditional, which then supports prediction about an incompletely observed new case. It should also say what causal robustness contributes beyond correlation and whether the label improves prediction conditional on the cues. Otherwise, call this “cross-property prediction” rather than specifically Goodmanian projectibility. The attribution to Goodman (1955) requires verification against the original; I have not independently read that source for this review.
+
+- The sharp-but-fluid position is possible but presently unnecessary and under-argued. Determinate diagnostics do not by themselves yield determinate category membership, especially when the diagnostic matrix itself admits “partial or debated” values ([line 841](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:841)). The paper assumes a sharp but non-locatable edge ([line 776](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:776)) and then concedes that none of its arguments requires that assumption ([line 788](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:788)). For this readership, the cleaner solution is to retain form-, environment-, speaker-, and time-indexed diagnostic determinacy while dropping or clearly quarantining metaphysical sharpness. Similarly, “only corrective control” licenses *homeostatic* ([line 241](/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/main.tex:241)) should be presented as the author’s deliberately strict terminological policy, not as an uncontested interpretation of Boyd, unless verified directly against Boyd (1999), which I have not independently checked here.
+
+## 4. Key question
+
+What novel outcome is predicted better by assigning a form to the intersection called *interjection*, over and above the cues that justify that assignment and the predictions already supplied by the three component nodes?
+
+## 5. Verdict
+
+**Revise & Resubmit** — the non-homeostatic causal-network programme is coherent and promising, but the manuscript has not yet shown that the traditional category itself, rather than its component nodes or observed cues, supplies the claimed Goodmanian inductive payoff.

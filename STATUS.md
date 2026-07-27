@@ -1,5 +1,5 @@
 # STATUS.md — English Interjections as HPC
-<!-- SUMMARY: JoP-rejected on citation integrity; reframing from pragmatics to lexical-category paper; venue is Journal of Linguistics but HELD until LIN-2026-0100 resolves (~Dec 2026) · status: fixing-embarrassments · updated: 2026-07-24 -->
+<!-- SUMMARY: JoP-rejected on citation integrity; reframed to a lexical-category paper; corpus measurement audited and corrected; review board #2 says the incremental predictive payoff is declared but undemonstrated; venue is Journal of Linguistics but HELD until LIN-2026-0100 resolves (~Dec 2026) · status: revising-after-board · updated: 2026-07-27 -->
 
 **Status:** **REJECTED by *Journal of Pragmatics* 2026-07-23** (PRAGMA-D-26-00584; blanket citation-integrity policy, no revised version accepted). See `notes/2026-07-23-jop-rejection-citation-integrity.md`. **Quote audit completed 2026-07-24** (`notes/2026-07-24-quote-audit.md`): of nine checkable quotations, one was clean; eight fixes applied; all 14 source quotations now verified. One intro pass outstanding (SIEG2 currency + Libert neglect).
 **Preprints:** [LingBuzz 009852](https://lingbuzz.net/lingbuzz/009852) — posted 2026-03-22; [SSRN 6954254](https://ssrn.com/abstract=6954254) — Elsevier/SSRN notice received 2026-06-16. **Corrected 2026-07-24: LingBuzz updated with the clean manuscript; SSRN 6954254 deactivated (not searchable or crawled, Public View No). See item 5 below.**
@@ -77,7 +77,36 @@
 - Converted the four synchronic-link headings under "Synchronic coupling" into 4.5.1--4.5.4 child sections.
 - `make quick` builds the 33-page PDF with no overfull boxes, undefined references, undefined citations, or rerun warnings; 11 underfull hbox warnings remain.
 
+### 2026-07-27 Session Notes
+
+Long session, 33 commits. Four strands.
+
+**Figures and apparatus.** Ran `/plan-figures`, tidied the folder, then built three conceptual figures for §1--§3 (which had been unillustrated up to l.1529), promoted the *fie* figure into the body, and added a turnover figure. Routed the field-relative nodes through new `\intj{}` and `\intjshort{}` macros (62 and 12 call sites); the subscript has to sit inside `\textsc` or SEM renders as sem. Review board #1 (Claude and Codex, non-redundant) confirmed §2 needed node definitions, and they were added. Resolved the *damn him* question: it's an optative, which CGEL treats as a minor clause type (Ch. 10 §10, p. 944), and clause type was being conflated with speech act.
+
+**Two build-integrity bugs, both silent.** The Makefile lacked `references-local.bib` as a prerequisite, so four builds were no-ops, including two run with deliberately broken macros that reported zero errors. Fixed. Separately, `.house-style/check-quotes.py` resolved a citation key to the first candidate source only, so `potts2007` matched a 2004 quotation paper and the gate passed on the wrong text; `load_source` now returns every usable candidate and the caller iterates.
+
+**Corpus measurement, which took most of the session.** GloWbE's tagger fails in two specific ways: borrowed regionalisms it doesn't know (*haba*, 373 tokens, none tagged, so recall can be zero) and abbreviations homographic with interjections (*ha* = hectare, concentrated in East Africa and South Asia). It handles frequent well-attested uses correctly, which refuted my own leakage hypothesis (tagged *no* is ~89% genuine). Built and validated a *ha*/hectare filter against 40 hand-coded tokens (39/40), pulled all twenty sections through `ha_uh`, and hand-corrected the rates. Precision runs 34.5% to 84.0% by country. Audits also corrected the *yaar* India rate (80% was a clustering artifact, 65% is right), overturned two of my own *haba* codings on a randomized re-pull, showed *Umm* is 0 of 20 interjection uses, and found that Gupta 1992 doesn't contain the claim attributed to it.
+
+Then the Gelman treatment, at Brett's instruction: multiverse over the laughter and unclear-token forks rather than one specification, empirical-Bayes partial pooling of the per-country validity rates (unequal precision, 8,100 US tokens against 420 Ghanaian), bootstrapped CVs, and Gelman & Loken cited from the copy we hold. Brett's own DiD paper supplied the framework for §6.1: transparent versus model-dependent outcomes, per-variety evaluation of the classifier, level-dependent proportion bias. Installed brms and refit the conditioning model over Beta posteriors for the validity rate. The result survives: country SD 0.42 → 0.44 (laughter counted) or 0.45 (excluded), ΔELPD 28.8 → 26.9 or 28.5. All hand-extracted data archived under `analysis/hand-extracted/` so none of it has to be re-pulled.
+
+**Review board #2.** Six Codex reviewers on `gpt-5.6-sol` at xhigh; five R&R, one Reject. Synthesis at `reviews/review-board-20260727-123033/SYNTHESIS.md`, discussion in DECISIONS.md. Headline: the paper declares an incremental predictive payoff for category membership and never demonstrates one over the cues used to assign membership.
+
 ### Next Actions
+
+**Now — act on review board #2 (see `reviews/review-board-20260727-123033/SYNTHESIS.md`):**
+0. **The payoff question is the one that matters.** Non-circular targets (recipient uptake, sequential position, semantic repeatability) need annotated spoken interaction; GloWbE is web text and English-Corpora is Turnstile-blocked, so this is a data-acquisition decision before it's a writing one. Either run a held-out study with fixed source cues and a cue-only baseline, or declare the test prospectively with defeat conditions and accept that this is the ground the hostile reviewer rejects on.
+   - **Cheap and self-contained, do first:** circularity audit of §5 (l.2050--2068, l.2098--2105; `interjection_prag` defined by backchannel use at l.1168--1176 while §5 presents backchannel availability as a projection at l.2148--2154). Freeze the admission features and exclude every target from them.
+   - **Verified overreach to downgrade:** l.2366 "recovers structure at every level" and l.2370 "outperforms" (m1 adds a common country intercept, so it tests whether overall rates differ by section, not whether item types or boundaries behave differently by country; ΔELPD 17.9 with SE 13.3); the `fig:fie-tau` caption reads simultaneity off overlapping *marginal* posteriors. Also the morphology-gain wording: the sample selects overt derivatives and the success criterion includes `verbal_syntax = 1`, so integration is partly in the sampling frame.
+   - **Brett's call, changes the thesis:** the node fork. CGEL reviewer wants *interjection* reserved for the morphosyntactic category with the other two dimensions renamed and tested as things membership predicts; the philosopher offers the opposite retreat, three overlapping field-relative categories.
+   - **Regional trio:** item-by-item diagnostic table, item-specific contact histories in place of "substrate-derived", reconcile *haba*'s 373 raw against Unuabonah & Daniel's hand-cleaned 248, and read Lange (2009) before the *yaar* characterisation stands (cited, held locally, unread).
+   - Smaller: Table 1 gives *damn these …!* parenthesised checks on the syn columns while §5.2 says `interjection_syn` "holds"; §4.3 derives *damn him* from *God damn him* by subject loss, but the source construction already has a subject with plain-form *damn*.
+
+**Housekeeping:**
+- 19 entries in `references-local.bib` awaiting `/push-bib`.
+- Style flags at 38 against a 23 baseline; most are new figure and macro material.
+- Open figure candidates 4, 5, 6, 8 in `figure-plan.md`.
+- The iterated-laughter exclusion for *ha* is stated in the text but not implemented in the figures. Three columns exist: tabulated 20.7, laughter-counted 13.2, laughter-excluded 4.0 pmw. Decide whether to apply the exclusion or drop the sentence.
+- Standing NOSOURCE: Bullokar p. 373 (Turner 1980 pagination, and the text is silently modernized), Huddleston & Pullum (2005: 16) not held locally.
 
 **Now — fix the embarrassments (days of work, not months):**
 1. **~~Quote audit~~ DONE 2026-07-24.** All 27 `\enquote{}` occurrences audited; see `notes/2026-07-24-quote-audit.md`. Of the nine quotations checkable against held sources, **one was clean**: two fabricated (H&P p. 1350, Gehweiler p. 72, the latter with no correct page anywhere in the source), one misquoted (Dingemanse, "space" for "landscape"), four invented hedge words presented as the literature's own (l. 423–425), one right-words-wrong-page (Boyd, 160 not 150). Five more are unverifiable for want of the source (Bullokar, Student's Introduction p. 16, Libert, Coulmas, Wilkins). Five fixes applied, clean rebuild at 33 pages matching baseline.
@@ -97,8 +126,7 @@
 11. When LIN-2026-0100 (definiteness, at JL) gets a decision, revisit the venue hold. Decent verdict → submit interjections to JL. Poor verdict → *Language* or Glossa, and check Glossa's fit by hand first. Complete a venue decision record from `Project-Management/templates/venue-decision-record.md` before any package work. Calendar reminder set for 2026-12-08.
 
 **Standing:**
-- The formalist objection remains the strongest conceptual risk: a feature or constructional account may replicate the projectible payoffs without network order.
-- The formalist objection remains the strongest conceptual risk: a feature or constructional account may replicate the projectible payoffs without network order.
+- The formalist objection remains the strongest conceptual risk: a feature or constructional account may replicate the projectible payoffs without network order. Review board #2 sharpened it into the hostile reviewer's Reject.
 - Next-touch theoretical guardrail: consult `../Grammaticality_de_idealized/subprojects/operator-stratum/` to distinguish stable pragmatic projectibility from operator value. Some interactional interjection tokens may configure uptake in closed, accountable repertoires, but the paper should not imply that all interjections are grammatical operators.
 
 ## Related reading — Cognition 2026 intake (2026-07-14)
