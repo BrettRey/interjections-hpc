@@ -34,6 +34,7 @@ Caveats that apply to every file:
 | `bruh-coca-by-period.csv` | *bruh* | COCA (993M) | |
 | `bruh-coca-by-genre.csv` | *bruh* | COCA (993M) | TV/M-dominated, SPOK zero |
 | `oed-attestations.md` | *oof*, *bruh* | OED | first attestations and senses |
+| `uh-1820s-complete-list-coha.csv` | all `_uh` forms, 1820s | COHA | Complete tagged list for the decade, 111 forms (file carries the 51 with n>6). Settles the ranking the earlier sampled list could not: *nay* is 4th. Replaces the sampled pull, which had *nay* 12th |
 | `nay-yeah-coha-by-decade.csv` | *nay*, *yeah* | COHA (405M) | `_uh`-tagged word search, 20 decades each |
 | `yeet-coca.md` | *yeet* | COCA | **N = 1** (2019, MOV). Settles why *yeet* stays out of §4: COCA attests it once. The absence reflects COCA's register coverage to 2019, not rarity; ask NOW or social media instead. Do not re-run against COCA |
 | `haba-ng-kwic-audit.md` | *haba* NG | GloWbE | Two samples. The interface-default pull (7 sites/18 tokens) missed both Hausa-matrix tokens and a medial intensifier use; the randomized pull (13 sites/20) found them. **Check source spread before trusting a KWIC sample**: the two samples that misled here had 50% of tokens from two sites |
