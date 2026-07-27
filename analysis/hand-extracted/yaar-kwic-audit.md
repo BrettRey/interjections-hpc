@@ -28,6 +28,18 @@ inside Roman-script Hindi clauses (*"Arre yaar yeh toh tere paise ke peeche
 hai"*, *"yaar is tarah ki batein to islamic scholars bhi kartein hai"*) plus
 the Urdu/Punjabi set phrase *Yaar Zinda Sohbat Baqi*.
 
+## Duplicate posts: a fourth exclusion I missed
+
+In the Pakistan sample, rows 11 and 16 are the same text from the same site
+(`firozjuma.com`, *"aur wahan mera yaar chala gaya janab. Main yaar ko kaandha
+bhi nahi de paya!"*). I noted the repetition and drew nothing from it.
+\textcite{unuabonahdaniel2020} exclude exactly this, along with Pidgin and
+indigenous-language utterances, and GloWbE's own documentation concedes
+residual duplication. On 19 unique Pakistan tokens rather than 20, the
+English-matrix rate is 12/19 = 63% rather than 60%. The effect is small here,
+but duplicates inflate whichever category they land in, and they inflate the
+per-million figures themselves.
+
 ## Contamination types
 
 1. **Tamil *yaar* = "who".** A true homograph, the same problem as Arabic
