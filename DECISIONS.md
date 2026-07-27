@@ -813,3 +813,13 @@ Two distinct failure modes compound in that one sample, and only the first is ab
 Consequence for the numbers: Pakistan's *umm* count is essentially all artifact, so the summed-variant CV of 0.72 is wrong and the reported 0.61 on *um* alone is right. Same conclusion as the *yeah* case, reached independently.
 
 Still unchecked: the same probe has now covered three of the eighteen conditioning items. *Ha*, *eh*, *hi*, and the regional items *lah*, *yaar* and *haba* have not been tested, and substrate homography is at least as likely for the regional three, which carry the most argumentative weight in §4.5.4.
+
+2026-07-27 — *Lah* KWIC audit: the regional claim survives, and the same sample raises a category question. Twenty Malaysian `lah_uh` tokens, all twenty in English matrix clauses, no Malay-matrix text and no metalinguistic mentions. The Malay that appears is lexical borrowing inside English syntax (*rugi*, *pokok mangga*, *sikit2*, *Untung*). So §4.5.4's regional conditioning for *lah* is not an artifact of the crawl catching non-English text, which was the risk worth checking.
+
+The unexpected part is positional. In all twenty tokens *lah* is clause-final and orthographically attached to its host, with punctuation following it and never preceding: "Use word slander lah..", "don't care lah,", "please lah,", "No lah,", "tell me lah,", "U know lah,". Not one is standalone or set off. On the written proxies §2.6 uses for prosodic isolation, that is integration rather than isolation, and prosodic isolation plus supplement function are what \intj{syn} requires.
+
+So *lah* looks like \intj{prag}, plausibly \intj{sem}, and not \intj{syn}: a decoupling case of the same shape as prenominal *damn* and *mm-hm*. That is a result the field-relative decomposition predicts rather than a problem for it, and it is an argument the paper does not currently make. What the paper should not do is keep describing *lah* as an interjection sharing the full profile, which §5's regional passage comes close to.
+
+Not written into the manuscript yet, because adding *lah* to Table 1 and to the node-overlap figure is an analytical commitment about a form Brett knows better than I do, and because the Singapore sample is still to come. Evidence at analysis/hand-extracted/lah-my-kwic-audit.md with the proxy caveat stated: written punctuation indicates prosody, it does not measure it, and SBCSAE is the route to settling it properly.
+
+Two of the three regional items remain unchecked, *yaar* (PK, IN) and *haba* (NG).
