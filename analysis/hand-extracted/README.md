@@ -34,4 +34,5 @@ Caveats that apply to every file:
 | `bruh-coca-by-period.csv` | *bruh* | COCA (993M) | |
 | `bruh-coca-by-genre.csv` | *bruh* | COCA (993M) | TV/M-dominated, SPOK zero |
 | `oed-attestations.md` | *oof*, *bruh* | OED | first attestations and senses |
-| `nay-yeah-coha-by-decade.csv` | *nay*, *yeah* | COHA (405M) | `_uh`-tagged, 20 decades each; cited in §4.7 |
+| `nay-yeah-coha-by-decade.csv` | *nay*, *yeah* | COHA (405M) | `_uh`-tagged word search, 20 decades each |
+| `interjection-lemmas-coha-by-decade.csv` | top 20 `_uh` lemmas | COHA (405M) | 20 lemmas x 20 decades; every row checked against the interface's own all-decades total before use. `ho`'s 2010s cell was missing from the paste and is derived as total minus the other nineteen (356). A row labelled `[]` (9,608 tokens) was excluded as a tagging artifact. Figure in §4.7 |

@@ -1841,18 +1841,42 @@ Individual forms enter and leave, but the broad profile remains
 available for new material.
 
 The Corpus of Historical American English (COHA) illustrates this
-turnover. Among words tagged as interjections, \mention{nay} falls
-from 175 tokens per million in the 1820s to 2.2 in the 2010s, while
-\mention{yeah}, absent from the 1820s altogether, rises from nothing to 723
-per million and stands third by the 2010s.%
+turnover. In the 1820s the six most frequent interjection lemmas are
+\mention{no}, \mention{oh}, \mention{yes}, \mention{nay}, \mention{o},
+and \mention{ah}. By the 2010s half that list has gone: \mention{nay},
+\mention{o}, and \mention{ah} are replaced by \mention{yeah},
+\mention{hey}, and \mention{uh}, while \mention{no}, \mention{oh}, and
+\mention{yes} hold their places throughout (Figure~\ref{fig:turnover}).
+\mention{Nay} falls from 175 tokens per million to 2.2; \mention{yeah},
+absent from the 1820s altogether, rises from nothing to 723.%
 \footnote{Part-of-speech--tagged frequencies in COHA \citep{davies2010},
   extracted 2026-07-27 and archived in
-  \texttt{analysis/hand-extracted/nay-yeah-coha-by-decade.csv}.
+  \texttt{analysis/hand-extracted/} as
+  \texttt{nay-yeah-coha-by-decade.csv} and
+  \texttt{interjection-lemmas-coha-by-decade.csv}. Rankings are among the
+  twenty most frequent interjection lemmas across the corpus as a whole, so a
+  form frequent only in the earliest decades could in principle sit outside
+  them.
   Frequencies are normalized per million words. The interjection tag
   captures a conventional inventory rather than a theoretically motivated
   one; the point here is the turnover pattern, not the tagging decisions.}
 The items change while the projectible category position remains
 available.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{interjection-turnover.pdf}
+  \caption{The inventory turns over while the category position holds. Each
+    panel shows all twenty of the most frequent \textsc{uh}-tagged lemmas in
+    COHA (grey), with one group picked out. Half the 1820s top six is gone by
+    the 2010s, and the forms that replace it were absent or negligible when the
+    corpus starts. Tokens per million words on a symmetric log scale, so that
+    forms at zero remain visible. Extracted 2026-07-27 and archived under
+    \texttt{analysis/hand-extracted/}.}
+  \label{fig:turnover}
+\end{figure}
+
+
 
 Regional variation shows the profile's availability under different
 local inventories.
