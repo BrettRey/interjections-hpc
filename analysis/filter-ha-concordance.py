@@ -28,6 +28,9 @@ BANG = re.compile(r'\bha\s*[!?]|\bHA\b\s*[!?]', re.I)
 FENCED = re.compile(r'(?:^|[\s(\[",])[Hh][Aa](?=[\s]*[,.;:!?)\]"\u2014-])')
 # possessive or title before a capitalised Ha followed by another capital: a name
 NAME = re.compile(r"(?:'s|\bMr|\bMs|\bMrs|\bDr)\s+Ha\b|\bHa\s+[A-Z][a-z]+")
+# web-text space-insertion errors: "morality ha sincreased", "I ha ve been",
+# "spirit ha s not", and Ha/He substitution: "Ha also has been recognized"
+TYPO = re.compile(r'\bha\s+(?:s\w|ve\b|d\b|s\b(?=\s+(?:not|been|a|the)))|\bHa\s+(?:also|may)\b', re.I)
 
 
 def classify(line):
@@ -40,11 +43,17 @@ def classify(line):
         return 'hectare'
     if NAME.search(line):
         return 'name'
+    if TYPO.search(line):
+        return 'typo'
     # A bare number near the node is the weaker hectare cue.
     m = re.search(r'\b[Hh][Aa]\b', line)
     if m:
         window = line[max(0, m.start() - 60):m.end() + 60]
         if NUM.search(window):
+            return 'hectare'
+        # a unit or numeral anywhere on the line, with a second `ha` present,
+        # is agricultural prose: "ha is allocated to pulses ... 0.17 ha to gardening"
+        if len(re.findall(r'\b[Hh][Aa]\b', line)) > 1 and NUM.search(line):
             return 'hectare'
         if FENCED.search(line):
             return 'interjection'
@@ -55,7 +64,7 @@ def main():
     if len(sys.argv) < 2:
         print(__doc__)
         return
-    counts = {'interjection': 0, 'hectare': 0, 'name': 0, 'unclear': 0}
+    counts = {'interjection': 0, 'hectare': 0, 'name': 0, 'typo': 0, 'unclear': 0}
     for line in open(sys.argv[1], encoding='utf-8', errors='replace'):
         if line.strip():
             counts[classify(line)] += 1
