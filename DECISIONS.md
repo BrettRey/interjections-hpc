@@ -879,3 +879,13 @@ Three things follow. Two of their three exclusions are the categories I coded in
 The third exclusion is one I missed, and I had the evidence in hand. In the Pakistan *yaar* sample, rows 11 and 16 are the same post from firozjuma.com. I noted the repetition in the coding and drew nothing from it. On 19 unique tokens the English-matrix rate is 63% rather than 60%, which is a small change, but duplicates inflate whichever category they fall into and they inflate the per-million figures as well. GloWbE's own documentation concedes residual duplication. The yaar audit file now records this.
 
 Standing consequence: if the paper ever wants to correct the regional figures rather than caveat them, the method is published and citable. Three passes over the concordance, excluding Pidgin, indigenous-language matrix, and duplicate posts.
+
+2026-07-27 — *Lah* written into §4.5.4 and the node figure. Brett: "why not add the lah write in (genuine question)?" No good reason. It was sourced, verified, and queued; I was treating a decision I had already made as one still needing approval.
+
+The argument added to §4.5.4: the three regional items are not the same kind of case, and the difference decides which node the conditioning operates on. *Haba* is free-standing, on Unuabonah and Daniel's own account of why they avoid the terms utterance-initial and utterance-final for it (p. 69). *Lah* is not, and this holds on either current analysis: Lim (2007: 447) reports Gupta taking the particles to "function as the carrier of the intonation contour of the utterance", and the rival lexical-tone analysis is weakest exactly for *lah*, which Lim (2007: 463) does not match to Cantonese and whose Bazaar Malay and Hokkien sources have "neutral tone and weak stress". Either way *lah* fails prosodic isolation, so it satisfies interjection_sem and interjection_prag without interjection_syn. The consequence stated: regional conditioning can recruit a form to the interactional node without recruiting it to the syntactic one.
+
+*Lah* also placed in the sem-prag region of Figure 2, coordinates verified against the circle geometry, and the caption records it.
+
+Page checks: "carrier of the intonation contour" appears on printed p. 447 only, "neutral tone and weak stress" on 463 and 470, "with the exception of lah" on 463. The citations are right. Worth noting a gate weakness: for the first of these the quote gate displayed the cited page as 463, having paired the quotation with a later citation in the same passage, and passed it anyway. It passes on any candidate hit, so a wrong pairing is not surfaced. The wording was verified independently against the source rather than trusted from the gate.
+
+Quote gate 44 to 47 PASS.
