@@ -30,7 +30,7 @@ la_028,fixed_evaluation_point,No interim feasibility decision was made before al
 la_029,model_agreement_labeled,Within-family and cross-family statistics are never labelled human intercoder reliability,halt,reporting_string_audit,Gate E,0.2,
 la_030,differential_attrition_checked,Uncodable technical and speaker-ambiguity rates are reported by source cell,halt,missingness_and_attrition_audit,Gate E,0.2,
 la_031,cue_lock_precedes_assignment,Every immediate-cue row was hash-locked before matching token-to-sign-type assignment began,halt,hash_and_timestamp_join,Gate D,0.2,
-la_032,gate0_precedes_packet_generation,Written authority authenticated audio approved storage and the 40-event alignment audit passed before any packet was generated,halt,feasibility_registry_and_timestamp_audit,Gate C,0.2,
+la_032,gate0_precedes_packet_generation,AudioBNC licence and access were recorded and the 40-event alignment audit passed before any packet was generated,halt,feasibility_registry_and_timestamp_audit,Gate C,0.2,
 la_033,pilot_occurrences_excluded,No pilot occurrence key appears in confirmatory training or scoring,halt,occurrence_hash_set_intersection,Confirmatory sample freeze,0.2,Fresh occurrences from the same outer blocks remain eligible
 la_034,immediate_cue_codebook_frozen,Every principal immediate-cue field has a complete controlled-value or numeric-validation rule frozen before model annotation,halt,codebook_completeness_audit,Gate C,0.2,
 la_035,sampling_dispositions_complete,Every scanned pilot candidate has one disposition row and every cap skip follows the frozen round-robin rule,halt,sampling_disposition_recompute,Gate E,0.2,

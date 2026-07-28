@@ -140,7 +140,7 @@ REQUIRED_FIELDS = {
         "audio_preparation_version", "input_audio_sha256", "prepared_wav_sha256",
         "waveform_png_sha256", "spectrogram_png_sha256", "activity_csv_sha256",
         "preparation_code_sha256", "provenance_json_sha256", "sample_rate_hz",
-        "channels", "sample_format", "activity_frame_ms", "reb_determination_ref",
+        "channels", "sample_format", "activity_frame_ms", "audio_licence_ref",
         "audio_access_authorized", "external_model_audio_prohibited",
         "measurement_resolution_ms", "algorithm_target_offset_proposal_ms",
         "expert_target_offset_ms",
@@ -342,9 +342,9 @@ EXPECTED_RELIABILITY_GATES = {
 }
 
 EXPECTED_FEASIBILITY_GATES = {
-    "fg_001": ("gate0_authority", "written_reb_determination", "eq", "present", "status"),
-    "fg_002": ("gate0_authority", "authenticated_audiobnc_access", "eq", "confirmed", "status"),
-    "fg_003": ("gate0_authority", "permitted_local_storage_workflow", "eq", "confirmed", "status"),
+    "fg_001": ("gate0_access", "audiobnc_research_use_licence_record", "eq", "present", "status"),
+    "fg_002": ("gate0_access", "authenticated_audiobnc_access", "eq", "confirmed", "status"),
+    "fg_003": ("gate0_access", "licence_compliant_local_storage_workflow", "eq", "confirmed", "status"),
     "fg_004": ("gate0_audio", "audited_events", "gte", "40", "events"),
     "fg_005": ("gate0_audio", "audited_pilot_blocks", "gte", "8", "outer_blocks"),
     "fg_006": ("gate0_audio", "measurement_resolution_ms", "eq", "10", "ms"),
@@ -355,7 +355,7 @@ EXPECTED_FEASIBILITY_GATES = {
     "fg_011": ("gatec_model_panel", "exact_resolved_versions_pinned", "eq", "confirmed", "status"),
     "fg_012": ("gatec_model_panel", "prompt_packet_response_evidence_and_settings_hashes", "eq", "complete", "status"),
     "fg_013": ("gatec_expert", "source_only_expert_auditor_available", "eq", "1", "expert"),
-    "fg_014": ("gate0_data_governance", "restricted_audio_sent_to_external_models", "eq", "0", "events"),
+    "fg_014": ("gate0_data_governance", "raw_audio_sent_to_external_models", "eq", "0", "events"),
 }
 
 

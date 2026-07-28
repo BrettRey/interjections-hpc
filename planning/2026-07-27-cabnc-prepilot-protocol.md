@@ -55,35 +55,35 @@ The preliminary discovery counts used `data/cabnc_chat-v0.1/`, which the reposit
 
 The files are transcript segments, not automatically independent conversations. The parser will preserve `segment_id`, media identifier, episode, and participant identifiers separately. A defensible conversation grouping must be established from corpus metadata before any conversation-spread gate is evaluated.
 
-Transcripts are stated to be CC BY 3.0 in the repository README and TalkBank landing page. Audio remains subject to the original BNC research-use conditions. The transcript-only census requires no credentials; the current TalkBank download endpoint presently requires authentication. Audio will not be acquired or exposed to a local acoustic expert until Humber provides a written REB determination.
-## Gate 0: authority and audio feasibility
+Transcripts are stated to be CC BY 3.0 in the repository README and TalkBank landing page. Audio remains subject to the original BNC research-use conditions and BNC User Licence. This is secondary analysis of an existing recorded corpus, ethically on a par with analysis of an existing written corpus; it does not require REB review. The transcript-only census requires no credentials, while the current audio download endpoint requires registration or authentication.
+## Gate 0: audio access and measurement feasibility
 
 Before event sampling or annotation-packet generation:
 
-1. obtain Humber's written REB determination for CABNC audio access and local expert exposure;
-2. confirm authenticated AudioBNC access and the permitted local-storage workflow;
+1. record the AudioBNC research-use terms and BNC User Licence governing the recordings;
+2. confirm authenticated AudioBNC access and a licence-compliant local-storage workflow;
 3. audit 40 timed events spanning at least eight declared pilot blocks for target-tier location, clip completeness, waveform alignment, and recoverable participant identity;
 4. convert each permitted clip locally to frozen-format lossless PCM WAV, then generate a time-scaled waveform, spectrogram, and 10-ms energy-activity proposal with frozen local code;
 5. have a source-label-blind expert audit the proposed target offset and first-audible, first-vocal, and first-word-or-particle boundaries while listening to the WAV; require the algorithm--expert absolute difference for the boundary used in the primary derivation to have median no greater than 50 ms and 95th percentile no greater than 100 ms; and
-6. activate the semantic-repetition fallback if authority, access, alignment, or measurement quality fails.
+6. activate the semantic-repetition fallback if access, alignment, or measurement quality fails.
 
 Gate 0 is evaluated before any annotation packet is generated. Transcript availability cannot waive the audio requirement after outcomes are visible.
 
-Waveforms, spectrograms, and energy-activity proposals are measurement aids, not ground truth. Monophonic recordings may contain overlap, laughter, clicks, breaths, and handling noise. Raw audio and derived acoustic artifacts remain local unless the written authority and AudioBNC conditions explicitly permit hosted processing; hosted models receive transcript and evidence-card packets only.
+Waveforms, spectrograms, and energy-activity proposals are measurement aids, not ground truth. Monophonic recordings may contain overlap, laughter, clicks, breaths, and handling noise. Raw audio and derived acoustic artifacts remain on the declared licence-compliant local volume; hosted models receive transcript and evidence-card packets only.
 
 The frozen local preparation utility is `analysis/prepare_cabnc_audio.py`. It accepts an already authorized local audio path plus explicit event ID, clip bounds, output root, and generation timestamp; it does not download or discover AudioBNC audio, locate a TCU, identify or align speakers, adjudicate an onset, or derive a trajectory. Its exact interface is:
 
 ```bash
 python3 analysis/prepare_cabnc_audio.py \
-  --input /approved/local/path/source-audio.ext \
-  --output-root /approved/local/path/prepared-events \
+  --input /licence-compliant/local/path/source-audio.ext \
+  --output-root /licence-compliant/local/path/prepared-events \
   --event-id OPAQUE_EVENT_ID \
   --start-ms 123000 \
   --end-ms 136000 \
   --generated-at 2026-07-27T00:00:00Z
 ```
 
-The manifest supplies the bounds and timestamp. The utility refuses an invalid event ID or an existing event directory, converts only that interval to 16-kHz mono signed-16-bit PCM WAV, and writes the WAV, waveform, spectrogram, 10-ms adaptive energy-activity proposal, and provenance hashes. Its energy flags cannot distinguish speech, laughter, breath, clicks, handling noise, or overlapping speakers. Listening and source-label-blind expert boundary audit therefore remain mandatory, and the utility and all outputs run and remain only on the approved local storage volume unless written authority says otherwise.
+The manifest supplies the bounds and timestamp. The utility refuses an invalid event ID or an existing event directory, converts only that interval to 16-kHz mono signed-16-bit PCM WAV, and writes the WAV, waveform, spectrogram, 10-ms adaptive energy-activity proposal, and provenance hashes. Its energy flags cannot distinguish speech, laughter, breath, clicks, handling noise, or overlapping speakers. Listening and source-label-blind expert boundary audit therefore remain mandatory, and the utility and all outputs run and remain only on the declared licence-compliant local storage volume.
 ## Operational bearer and holdout
 The operational sign-type is a conventionalized constructional use defined by a form family plus a profile that may include grammatical, semantic, or interactional contrasts. No domain has priority in fixing the bearer. A sign-type is never split because target tokens happen to receive different post-offset trajectories.
 
@@ -212,7 +212,7 @@ Pre-offset eligibility panel passes see no following sequence. They judge intell
 
 Same-speaker continuation, silence, overlap, and candidate-only TCUs are outcomes or descriptive properties, not automatic exclusions. Untimed events remain in the census, but an event without adequate audio timing fails the primary study's pre-offset timing criterion rather than receiving an estimated trajectory.
 
-The primary trajectory study requires audio-measured timing at a declared resolution. If REB approval, audio access, or measurement quality is unavailable, CABNC cannot be converted after coding into a transcript-timed 2.5-second study. The semantic-repetition fallback is activated.
+The primary trajectory study requires audio-measured timing at a declared resolution. If audio access or measurement quality is unavailable, CABNC cannot be converted after coding into a transcript-timed 2.5-second study. The semantic-repetition fallback is activated.
 ## Census and form-family rules
 Parse only `data/cabnc_talkbank_chat/**/*.cha`. Construct logical CHAT tiers before tokenization and respect episode and file boundaries. Construct IPU-style analytic spans, not interactional turns: join adjacent tiers only when they have the same known listed speaker, both boundary times are present, and the within-speaker gap is under 180 ms. Unknown identities, missing timing, speaker changes, and gaps of 180 ms or more force a split. Preserve the original same-speaker chain and a boundary-reason code for every join or split. Preserve all timing spans and flag rather than silently repair missing or inconsistent metadata.
 
@@ -462,7 +462,7 @@ If CABNC fails because floor-transfer trajectory cannot be separated from immedi
 
 A failed CABNC feasibility gate therefore changes the direct test; it does not authorize extracting a forward-projectibility result from the existing morphology, _fie_, or GloWbE datasets.
 ## Work order
-0. Obtain the written REB determination, confirm authenticated audio access and storage conditions, and pass the 40-event audio/alignment audit.
+0. Record the corpus licence, confirm authenticated audio access and licence-compliant local storage, and pass the 40-event audio/alignment audit.
 
 1. Implement acquisition, manifest, CHAT parser, and parser tests.
 

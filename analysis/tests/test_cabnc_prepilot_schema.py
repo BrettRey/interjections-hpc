@@ -234,6 +234,17 @@ class CabncPrepilotSchemaTests(unittest.TestCase):
         self.assertNotIn("turn_position", cue_fields)
         self.assertFalse((SCHEMA_DIR / "turn-collapse-template.csv").exists())
 
+    def test_existing_recorded_corpus_has_no_reb_gate(self) -> None:
+        audio_fields = (SCHEMA_DIR / "audio-feasibility-template.csv").read_text(
+            encoding="utf-8"
+        ).strip().split(",")
+        feasibility = (SCHEMA_DIR / "feasibility-gates.csv").read_text(
+            encoding="utf-8"
+        ).casefold()
+        self.assertIn("audio_licence_ref", audio_fields)
+        self.assertNotIn("reb_determination_ref", audio_fields)
+        self.assertNotIn("reb", feasibility)
+
 
 if __name__ == "__main__":
     unittest.main()

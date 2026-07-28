@@ -1,7 +1,7 @@
 gate_id,stage,requirement,operator,threshold,unit,failure_action,gate_version,notes
-fg_001,gate0_authority,written_reb_determination,eq,present,status,activate_semantic_repetition_fallback,0.2,Must address audio access and model exposure
-fg_002,gate0_authority,authenticated_audiobnc_access,eq,confirmed,status,activate_semantic_repetition_fallback,0.2,
-fg_003,gate0_authority,permitted_local_storage_workflow,eq,confirmed,status,activate_semantic_repetition_fallback,0.2,
+fg_001,gate0_access,audiobnc_research_use_licence_record,eq,present,status,activate_semantic_repetition_fallback,0.2,Records the corpus rights basis rather than creating an ethics gate
+fg_002,gate0_access,authenticated_audiobnc_access,eq,confirmed,status,activate_semantic_repetition_fallback,0.2,
+fg_003,gate0_access,licence_compliant_local_storage_workflow,eq,confirmed,status,activate_semantic_repetition_fallback,0.2,
 fg_004,gate0_audio,audited_events,gte,40,events,activate_semantic_repetition_fallback,0.2,
 fg_005,gate0_audio,audited_pilot_blocks,gte,8,outer_blocks,activate_semantic_repetition_fallback,0.2,
 fg_006,gate0_audio,measurement_resolution_ms,eq,10,ms,activate_semantic_repetition_fallback,0.2,
@@ -12,4 +12,4 @@ fg_010,gatec_model_panel,repeats_per_family_per_critical_pass,eq,2,runs,activate
 fg_011,gatec_model_panel,exact_resolved_versions_pinned,eq,confirmed,status,activate_semantic_repetition_fallback,0.2,Any drift halts and requires prospective refreeze
 fg_012,gatec_model_panel,prompt_packet_response_evidence_and_settings_hashes,eq,complete,status,activate_semantic_repetition_fallback,0.2,
 fg_013,gatec_expert,source_only_expert_auditor_available,eq,1,expert,activate_semantic_repetition_fallback,0.2,Brett audits all critical source labels before outcomes exist
-fg_014,gate0_data_governance,restricted_audio_sent_to_external_models,eq,0,events,activate_semantic_repetition_fallback,0.2,External models receive redacted text only unless a new authority decision is frozen
+fg_014,gate0_data_governance,raw_audio_sent_to_external_models,eq,0,events,activate_semantic_repetition_fallback,0.2,External models receive redacted text only under the frozen design

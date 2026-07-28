@@ -215,7 +215,7 @@ Proceed to a preregistered confirmatory study only if the blinded pilot establis
 - no source-target leakage under an independent audit;
 - enough within- and between-family target variation for simulations across plausible null, small, and useful effects to support a discriminating test.
 
-The likely confirmatory scale is roughly 1,500–2,500 coded events and 120–180 annotation hours. An institutional REB determination is required before coding audio-linked participant data. CHILDES is not a same-estimand substitute: HSLLD mealtimes may serve as a later caregiver–child replication, with Gleason dinners as a linked-audio audit. If CABNC fails its construct or yield gates, the direct-test fallback is the independently normed semantic-repetition experiment.
+The likely confirmatory scale is roughly 1,500–2,500 coded events and 120–180 annotation hours. CABNC is an existing recorded corpus and requires no REB review; its audio access, storage, and use must comply with the AudioBNC research-use terms and BNC User Licence. CHILDES is not a same-estimand substitute: HSLLD mealtimes may serve as a later caregiver–child replication, with Gleason dinners as a linked-audio audit. If CABNC fails its construct or yield gates, the direct-test fallback is the independently normed semantic-repetition experiment.
 
 ### Decision rule for this paper
 

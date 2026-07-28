@@ -76,28 +76,28 @@ The model-panel gate is evaluated before packet generation. Subjective fields us
 
 ## Work order and freeze points
 
-### Gate 0: authority and audio
+### Gate 0: audio access and measurement
 
-1. Obtain Humber's written REB determination for CABNC audio access and local expert exposure.
-2. Confirm authenticated AudioBNC access and the permitted local-storage workflow.
+1. Record the AudioBNC research-use terms and BNC User Licence governing the existing recorded corpus; no REB review is required.
+2. Confirm authenticated AudioBNC access and a licence-compliant local-storage workflow.
 3. Audit 40 timed events spanning at least eight pilot blocks for target-tier location, clip completeness, and alignment.
 4. Convert permitted clips locally to 16-kHz mono signed-16-bit PCM WAV, then produce time-scaled waveform, spectrogram, and 10-ms energy-activity proposals with frozen local code.
 5. Have a source-label-blind expert listen and audit target offset plus first-audible, first-vocal, and first-word-or-particle onsets. For the boundary used in the primary derivation, require median absolute algorithm--expert difference no greater than 50 ms and the 95th percentile no greater than 100 ms.
-6. If authority, access, alignment, or measurement quality fails, activate the semantic-repetition fallback before packet generation.
+6. If access, alignment, or measurement quality fails, activate the semantic-repetition fallback before packet generation.
 
-The local preparation command is [prepare_cabnc_audio.py](../prepare_cabnc_audio.py). It accepts an already authorized local audio file and explicit clip bounds; it does not download AudioBNC material, discover a TCU, align speakers, adjudicate an onset, or derive an outcome. Run it only on the approved local storage volume:
+The local preparation command is [prepare_cabnc_audio.py](../prepare_cabnc_audio.py). It accepts a locally held, licence-compliant audio file and explicit clip bounds; it does not download AudioBNC material, discover a TCU, align speakers, adjudicate an onset, or derive an outcome. Run it only on the declared licence-compliant local storage volume:
 
 ```bash
 python3 analysis/prepare_cabnc_audio.py \
-  --input /approved/local/path/source-audio.ext \
-  --output-root /approved/local/path/prepared-events \
+  --input /licence-compliant/local/path/source-audio.ext \
+  --output-root /licence-compliant/local/path/prepared-events \
   --event-id OPAQUE_EVENT_ID \
   --start-ms 123000 \
   --end-ms 136000 \
   --generated-at 2026-07-27T00:00:00Z
 ```
 
-The command requires `ffmpeg`, refuses an invalid event ID or existing event directory, converts the selected interval to a 16-kHz mono signed-16-bit PCM WAV, and writes a waveform PNG, spectrogram PNG, 10-ms frame-energy proposal CSV, and provenance JSON containing input, artifact, code, and command hashes. The supplied start/end bounds and timestamp must come from the frozen packet manifest. Energy flags are proposals only: they cannot distinguish speech from laughter, breath, clicks, handling noise, or overlapping speakers. The source-label-blind expert must listen and audit the boundaries. Audio and all derived artifacts remain local unless written authority explicitly permits otherwise.
+The command requires `ffmpeg`, refuses an invalid event ID or existing event directory, converts the selected interval to a 16-kHz mono signed-16-bit PCM WAV, and writes a waveform PNG, spectrogram PNG, 10-ms frame-energy proposal CSV, and provenance JSON containing input, artifact, code, and command hashes. The supplied start/end bounds and timestamp must come from the frozen packet manifest. Energy flags are proposals only: they cannot distinguish speech from laughter, breath, clicks, handling noise, or overlapping speakers. The source-label-blind expert must listen and audit the boundaries. Audio and all derived artifacts remain on the declared licence-compliant local volume; hosted models receive no audio.
 
 ### Gate A: interaction structure
 
@@ -229,7 +229,7 @@ Panel eligibility judgements use the pre-offset packet only. They cover intellig
 
 Frozen code, not a human who can see the outcome, checks whether the following packet is unclipped, duplicated, corrupt, or incorrectly bounded. The two eligibility components are joined mechanically. Neither may be revised after source labels and trajectories are linked.
 
-The primary trajectory study requires `audio_measured` timing with a declared resolution. If REB approval, audio access, or measurement quality is unavailable, the CABNC trajectory route stops. It is not converted after coding into a transcript-timed 2.5-second analysis. The predeclared semantic-repetition study then becomes the direct test.
+The primary trajectory study requires `audio_measured` timing with a declared resolution. If audio access or measurement quality is unavailable, the CABNC trajectory route stops. It is not converted after coding into a transcript-timed 2.5-second analysis. The predeclared semantic-repetition study then becomes the direct test.
 
 ## Layer 3: local post-offset floor-transfer measurement
 

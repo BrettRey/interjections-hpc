@@ -191,7 +191,7 @@ Agreement across model families is called **inter-model agreement**. Within-fami
 
 ## Reliability and sampling registries
 
-`feasibility-gates.csv` stores the authority, audio, alignment, model-panel, and audit requirements. `reliability-gates.csv` stores each numeric pilot agreement gate as one statistic-specific row. `sampling-rules.csv` stores candidate counts, target-selection order, block minima, concentration caps, pilot-event disposition, and pathway-sensitivity minima. These populated registries, rather than prose paraphrases, determine automated validation. Confirmatory lower-confidence-bound gates are not yet present because they must be frozen only after design calculations establish adequate dossier and event counts.
+`feasibility-gates.csv` stores the corpus-access, audio, alignment, model-panel, and audit requirements. `reliability-gates.csv` stores each numeric pilot agreement gate as one statistic-specific row. `sampling-rules.csv` stores candidate counts, target-selection order, block minima, concentration caps, pilot-event disposition, and pathway-sensitivity minima. These populated registries, rather than prose paraphrases, determine automated validation. Confirmatory lower-confidence-bound gates are not yet present because they must be frozen only after design calculations establish adequate dossier and event counts.
 
 The pre-pilot reliability registry must contain, at minimum:
 
@@ -483,7 +483,7 @@ Recipient status, entry minimality, fittedness, same-trajectory continuation, an
 
 `analysis/prepare_cabnc_audio.py` is a local-only bounded preparation utility. Its required interface is `--input`, `--output-root`, `--event-id`, `--start-ms`, `--end-ms`, and `--generated-at`. The frozen packet manifest supplies the explicit bounds and timestamp. It converts only that authorized interval to a 16-kHz mono signed-16-bit PCM WAV and writes waveform, spectrogram, 10-ms adaptive energy-activity CSV, and provenance JSON artifacts. It refuses invalid event IDs and existing event directories.
 
-The utility does not download audio, discover a TCU, identify or align speakers, adjudicate an onset, distinguish speech from laughter/breath/noise/overlap, or derive an outcome. Raw and derived audio artifacts remain on the approved local volume unless written authority explicitly permits otherwise. `prepared_wav_sha256`, `waveform_png_sha256`, `spectrogram_png_sha256`, `activity_csv_sha256`, `preparation_code_sha256`, and `provenance_json_sha256` bind every acoustic row to those local artifacts. Expert listening and audit remain mandatory.
+The utility does not download audio, discover a TCU, identify or align speakers, adjudicate an onset, distinguish speech from laughter/breath/noise/overlap, or derive an outcome. `audio_licence_ref` records the applicable corpus rights basis. Raw and derived audio artifacts remain on the declared licence-compliant local volume, and hosted models receive no audio. `prepared_wav_sha256`, `waveform_png_sha256`, `spectrogram_png_sha256`, `activity_csv_sha256`, `preparation_code_sha256`, and `provenance_json_sha256` bind every acoustic row to those local artifacts. Expert listening and audit remain mandatory.
 
 ## Exclusion codes
 
