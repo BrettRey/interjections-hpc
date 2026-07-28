@@ -82,7 +82,7 @@ plot_data <- d %>%
                       names_to = "property", values_to = "proportion") %>%
   mutate(property = factor(property,
     levels = c("int", "sem", "syn"),
-    labels = c("interjection_int", "interjection_sem", "interjection_syn")))
+    labels = c("interjection_prag", "interjection_sem", "interjection_syn")))
 
 p_raw <- ggplot(plot_data, aes(x = decade, y = proportion, colour = property)) +
   geom_point(size = 2) +
@@ -211,7 +211,7 @@ cat(sprintf("Pr(tau_int < tau_syn) = %.3f\n", mean(tau_int < tau_syn)))
 
 tau_df <- data.frame(
   tau = c(tau_int, tau_sem, tau_syn),
-  property = rep(c("interjection_int", "interjection_sem", "interjection_syn"),
+  property = rep(c("interjection_prag", "interjection_sem", "interjection_syn"),
                  each = length(tau_int))
 )
 

@@ -5,6 +5,7 @@
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta,positioning}
 \setlength{\emergencystretch}{3em}
+\setlength{\headheight}{14pt}
 
 % Numbered examples are language cited as language, so the whole example is a
 % mention; the element under discussion is picked out in bold. Bold rather than
@@ -21,12 +22,12 @@
 \setlength{\ULdepth}{1.8pt}
 \newcommand{\exfocus}[1]{\uline{#1}}
 
-% The three field-relative nodes are a category label relativized to a field,
+% The three field-relative categories are category labels relativized to a field,
 % which is the same shape as the house cross-linguistic notation
 % (\textsc{subject}\textsubscript{eng}). Like that notation they take small caps
 % at every occurrence, not just at first mention: the contrast between bare
 % \enquote{interjection} and a subscripted node is load-bearing throughout, and a
-% 41-page article is not read linearly. \term{} would mark them as concepts being
+% a long article is not read linearly. \term{} would mark them as concepts being
 % introduced, which after Section~3.4 they are not. Routing them through one macro
 % also makes relabelling a node a single edit; the int-to-prag rename took 27.
 % The subscript sits inside \textsc so it small-caps with the label, matching what
@@ -41,18 +42,20 @@
 % Update PDF metadata
 \ifblind
 \hypersetup{
-  pdftitle={Interjection as a Lexical Category: What Membership Lets Us Predict},
+  pdftitle={English Interjections Across Grammar, Meaning, and Interaction: Field-Relative Categories and Path Dependence},
+  pdfkeywords={interjections, field-relative categories, projectibility, causal networks, supplements, path dependence},
   pdfauthor={}
 }
 \else
 \hypersetup{
-  pdftitle={Interjection as a Lexical Category: What Membership Lets Us Predict},
+  pdftitle={English Interjections Across Grammar, Meaning, and Interaction: Field-Relative Categories and Path Dependence},
+  pdfkeywords={interjections, field-relative categories, projectibility, causal networks, supplements, path dependence},
   pdfauthor={Brett Reynolds}
 }
 \fi
 
-\title{Interjection as a Lexical Category:\\
-What Membership Lets Us Predict}
+\title{English Interjections Across Grammar, Meaning, and Interaction:\\
+Field-Relative Categories and Path Dependence}
 \ifblind
 \author{[Author removed for blind review]}
 \else
@@ -66,34 +69,36 @@ Humber Polytechnic \& University of Toronto}
 \maketitle
 
 \begin{abstract}
-Is \term{interjection} a genuine lexical category of English? Grammars
-have doubted it, and the doubt is about standing rather than about how
-much has been written. This paper argues that the category earns its
-place, and that what earns it isn't a defining property but
-projectibility: observing some properties of a case licenses predictions
-about others (a defeasible default, not an entailment). Membership licenses
-inferences about
-prosodic packaging, supplement function,
-use-conditional stance, sequential position, response function, and
-interactional uptake. Those inferences are pragmatic rather than
-truth-conditional, which is a result about the category and not a change
-of subject.
+English linguists use \term{interjection} for three overlapping but
+non-identical classifications: a grammar-facing lexical category, a
+semantics-facing category of expressive or use-conditional signs, and an
+interaction-facing category of conventionalized sequential resources. I
+argue that none has priority over the others. Each cuts through a mixed
+network of prosodic, morphological, syntactic, semantic, interactional, and
+historical relations. Each preserves different distinctions and generates a
+different family of projective hypotheses. Their common bearers are
+conventionalized sign-types: recurrent pairings of form with grammatical
+realization, meaning, and interactional affordance.
+Canonical cases belong to all three categories, but their overlap isn't a
+fourth category and supplies no independent projective force.
 
-The paper argues that they're licensed by a stable causal network among
-those properties. Invocative, verbal, and onomatopoeic routes recruit forms into a
-similar profile, while leaving different pathway residues.
-Regional/indexical conditioning supplies a further source of boundary
-structure. Supplementary Corpus of Global Web-Based English (GloWbE) and
-Corpus of Historical American English (COHA) probes illustrate boundary
-behaviour, exit residue, and attrition. The result is a path-dependent
-account of category membership. What membership warrants is bounded: for a
-lexical item in a grammatical environment in present-day English, observing
-part of the cluster licenses expectations about the rest, because the
-prosodic, syntactic, semantic, and interactional diagnostics are linked.
+The empirical argument concerns path dependence: recruitment histories remain
+visible in source-specific residues. Invocative, verbal, and onomatopoeic
+routes, documented to different degrees, converge on recurrent combinations
+of properties. The history of \mention{gee}, residual
+complement structure, euphemistic deformation, and semantic persistence in
+selected verbal derivatives support parts of this account. A preregistered
+study of \mention{fie} fails to support ordered erosion, while GloWbE and COHA
+probes establish more limited patterns of country-level frequency variation
+and inventory turnover. These results support path dependence and motivate
+parts of a causal ordering. They also yield explicit projectibility
+hypotheses: predictions from observed properties to unobserved meaning and
+interactional treatment. Their
+held-out predictive performance remains to be tested directly.
 \end{abstract}
 
-\noindent Keywords: interjections; lexical categories; category status;
-projectibility; supplements; path dependence
+\noindent\textbf{Keywords:} interjections; field-relative categories; projectibility;
+causal networks; supplements; path dependence
 
 \aidisclosure{Claude Opus 4.8, Claude Opus 5, and GPT-5.6 Sol}
 
@@ -102,13 +107,18 @@ projectibility; supplements; path dependence
 English interjections are small forms with large consequences. A
 speaker's \mention{oh}, \mention{wow}, \mention{hey}, \mention{damn}, or
 \mention{mm-hm} can package a response, display stance, open or sustain a
-sequence, initiate repair, or invite uptake. Grammars have never been
-settled about what to do with them. This paper asks whether
-\term{interjection} is a genuine lexical category of English, and what
-a form's membership in it licenses us to predict.
+sequence, initiate repair, or invite recipient uptake through a response or
+other displayed treatment. Grammars have never been
+settled about what to do with them. This paper argues that part of the
+difficulty is hidden by the singular question \enquote{Is interjection a
+category?} Grammar, semantics, and interactional pragmatics use the same term
+for three overlapping classifications with different extensions and
+different inferential purposes.
 
 In 1586, William Bullokar wrote the earliest grammar of English. It
 included interjections, which he defined as words that betoken
+% Normalized from Bullokar's 1586 spelling; the local OCR reads
+% "a su}dden passion of the my^nd" at the cited page.
 \enquote{a sudden passion of the mind} \citep[373]{bullokar1586}.
 
 Four centuries later the standing is less secure.
@@ -121,9 +131,8 @@ lexical categories in \textit{The Cambridge Grammar of the English
 Language} (\textit{CGEL}) (\mention{ah},
 \mention{damn}, \mention{gosh}, \mention{hey}, \mention{oh},
 \mention{ooh}, \mention{ouch}, \mention{whoa}, \mention{wow}), while the
-companion textbook set it aside as \enquote{the minor category of
-interjections \dots\ about which there really isn't anything interesting
-for a grammar to say} \citep[16]{HuddlestonPullum2005}. Its second
+companion textbook set interjections aside from its eight-category
+inventory \citep[16]{HuddlestonPullum2005}. Its second
 edition returns interjection to the inventory, but concedes that
 \enquote{grammarians typically say very little about interjections, and
 we don't plan to be an exception} \citep[24]{HuddlestonPullumReynolds2022}.
@@ -132,9 +141,9 @@ Readmitted to the list, and still largely undescribed.
 \textcite{libert2019} objects that calling interjections neglected
 \enquote{is an overstatement}: work on their phonetics, syntax, semantics,
 and pragmatics goes back a long way. What's stayed
-unsettled is standing rather than volume of attention, namely whether
-interjections constitute a lexical category, and what membership would
-license.
+unsettled is standing rather than volume of attention: whether grammar has a
+lexical category of interjections, whether the same classification serves
+semantics and interaction, and what any of those memberships would license.
 
 \textcite[63]{cram2008} makes the historiographic point more sharply.
 Surveying the tradition from Isidore of Seville onward, he finds \enquote{no
@@ -143,33 +152,27 @@ that interjections \enquote{function as a touchstone or test case for various
 boundary controversies}, naming the syntax--pragmatics and
 semantics--pragmatics boundaries. The difference is in what the case is asked
 to reveal.
-Cram asks what interjections show about our theories. I ask what holds this
-category together.
+Cram asks what interjections show about our theories. I ask what holds these
+classifications together and what makes them diverge.
 
-The empirical picture hasn't simplified. The evidence bearing on membership is
-spread across phonology, morphology, syntax, semantics, and pragmatics, and no
-one of them settles the question. The
-category resists clean definition, since no single property is necessary
-and sufficient, and its boundaries with nouns, verbs, adverbs,
-fillers, and routine formulae are all disputed.
-Cross-linguistically, \enquote{interjection} is at best a comparative
-concept \citep{haspelmath2010}.
+The empirical picture hasn't simplified. Evidence bearing on the traditional
+domain is spread across phonology, morphology, syntax, semantics, and
+pragmatics. No single property is necessary and sufficient, and the
+boundaries with nouns, verbs, adverbs, fillers, and routine formulae are all
+disputed. Cross-linguistically, \enquote{interjection} is at best a
+comparative concept \citep{haspelmath2010}. But it doesn't follow that only a
+morphosyntactic classification can be a category. A semantic or interactional
+classification has equal standing if it supports reliable distinctions and
+inferences for its inquiry.
 
-Those difficulties are what make the category question worth asking. If
-interjections are a category, the relevant payoff isn't an essence or a
-single defining feature. It's \term{projectibility}: the inferential
-payoff by which observing some properties of a new case licenses
-predictions about others \citep{Goodman1955}. For interjections,
-prosodic isolation, supplement function, or stance display should
-license expectations about non-inflection, non-referential or
-use-conditional meaning, sequential position, response function, and
-interactional uptake.
-
-That's meant in at least two distinct ways. A learner or hearer
-meeting an unfamiliar form reads the cues and anticipates its behaviour,
-without needing to recognize it as an interjection. A linguist assigns the form to the
-category and derives the predictions from it explicitly. Both draw on the same coupling.
-Section~\ref{sec:proj-partial} separates them where the difference matters.
+The relevant standard is \term{projectibility}: the inferential payoff by
+which observing some properties of a new case warrants expectations about
+others \citep{Goodman1955}. This paper specifies such expectations for each
+interjection category. It doesn't estimate their held-out predictive
+performance. The present evidence instead bears on the architecture that
+generates them: recurrent clustering, documented and reconstructive
+recruitment pathways, patterned residues, and cases where the three
+classifications come apart.
 
 A form's \term{profile} is the particular combination of cluster properties it shows
 in a given grammatical environment: whether it's prosodically set off,
@@ -180,36 +183,40 @@ property or a category \term{licenses} an inference is to say the inference
 is a good default, defeasible by the particular case, not that it follows
 necessarily.
 
-The object of analysis is the category position, not the membership list
-alone. Individual items such as \mention{wow}, \mention{damn},
-\mention{bruh}, and \mention{fie} matter because they show what can be
-inferred from membership: likely prosody, syntactic independence,
-limits on argumenthood, stance or response function, and possible routes
-into or out of the profile.
+The object of analysis is a conventionalized linguistic
+\term{sign-type}: an expression paired with a conventional profile of
+grammatical realization, meaning, and interactional affordance. The three
+classifications apply to that common bearer. Thus verbal \mention{damn} in
+\mention{I damn you}, standalone \mention{damn!}, complement-taking
+\mention{damn these mosquitoes!}, and prenominal \mention{damn} in
+\mention{the damn car} are distinguishable sign-types even though they belong
+to one historical word family.
 
 By \term{path dependence}, I mean that where a form came from keeps
 showing in how it behaves at the category's edges, long after it has
-arrived. \mention{Damn} came in from a verb and still takes a complement
-(\mention{damn these mosquitoes!}); \mention{gee} came in by clipping a
-religious invocation and takes nothing at all. Both sit squarely in the
-profile, and they'd be indistinguishable if convergence erased history. It doesn't. The leftovers of a form's source let an analyst reason backwards
-from how it behaves now to where it came from.
+arrived. \mention{Gee} is documented as developing through a religious
+invocation and takes no complement. Complement-taking \mention{damn} is
+compatible with a verbal optative source and retains NP complementation
+(\mention{damn these mosquitoes!}). The second history remains partly
+reconstructive, but the contrast illustrates the test: if convergence erased
+history, present-day residues shouldn't align with independently supported
+sources.
 
-Throughout, I use \term{property cluster} descriptively for the empirical
-pattern of co-occurring features. What's claimed for English interjections is
-bounded accordingly: the inferences membership licenses most strongly concern
-use, stance, sequence, and uptake rather than denotation.
+Throughout, I use \term{property cluster} descriptively for an empirical
+pattern of co-occurring features. A cluster isn't automatically a category,
+and recurrent co-occurrence isn't automatically causal order. Those further
+claims require their own evidence.
 
 This inferential framing motivates a causal-network analysis.
 \textcite{khalidi2013,khalidi2018nodes} argues that natural kinds are
 nodes in causal structures rather than sets defined by essences. On
 this account, a category is theoretically useful when its place in a
 causal network supports reliable induction. Applied to interjections,
-the claim is that several diagnostics, including prosodic isolation,
-syntactic independence, non-referentiality, non-inflection, and
-interactional force, cohere because several causal pathways converge on
-the same pragmatic node. The resulting profile is thin but projectible, a
-claim Section~\ref{sec:proj-domain} makes good.
+the proposal is that diagnostics including prosodic isolation, syntactic
+independence, non-referentiality, non-inflection, and interactional force are
+connected through multiple local links and historical pathways. The strongest
+present evidence concerns recruitment and residue. Other links remain
+ordering hypotheses or stabilizer candidates.
 
 Four things have to be kept apart, because they fail
 separately\ifblind\else\ \citep{reynolds2026projectibilityHistory}\fi. Each
@@ -217,14 +224,13 @@ has a label I'll use throughout.
 
 \begin{itemize}
 \item The \term{projective declaration} states the claim: what's observed,
-  what's predicted from it, and over which cases. Here the observed source is
-  some part of the cluster (say prosodic separation and morphological
-  bareness), the predicted outcome is the rest of it (supplement function,
-  non-referential or use-conditional meaning, sequential availability), the
-  unit is a lexical item in a grammatical environment rather than a word
-  family, and the population is present-day English. The predicted outcome
-  has to be something other than the property that admitted the form, or the
-  prediction only restates membership.
+  what's predicted from it, and over which cases. Here a source is a specified
+  field-relative classification supported by a restricted set of observed
+  diagnostics. A target is a genuinely unobserved property or environment,
+  the bearer is a conventionalized sign-type, and the population is
+  present-day English. A target may belong to a category's general
+  individuation profile, but it can't also be part of the case-level evidence
+  used to make that declaration.
 \item \term{Warrant} is the separate question of why that inference is
   licensed and how strongly: what evidence supports it, and what would defeat
   it. Table~\ref{tab:link-status} records this link by link.
@@ -306,49 +312,38 @@ One form shows what that comes to. Take \mention{gee}, as in
 \z
 
 Observing that \mention{gee} is set off from what follows and never inflects,
-with no *\mention{geed} and no *\mention{gees}, licenses expectations not yet
-checked: that it will work as a supplement, that its contribution will be
-use-conditional rather than descriptive, and that it will turn up at the front
-of a turn. Those expectations would be defeated if \mention{gee} began taking a
-complement, on the model of *\mention{gee that it's expensive}, or acquired
-inflection.
+with no *\mention{geed} and no *\mention{gees}, supplies the source side of a
+possible declaration. The proposed targets are that the sign-type will work as
+a supplement in unobserved environments, contribute use-conditionally rather
+than descriptively, and be available at the front of a turn. Failure on those
+targets would defeat the corresponding projections. Complement-taking or
+inflection would instead undermine the source classification and so shouldn't
+be counted again as failed target behaviour.
 
 Diachrony matters because pragmatic profiles have histories. Forms such
 as \mention{gee}, \mention{damn}, or \mention{bruh} change category
 position as historically contentful or addressive expressions come to
 manage stance, sequence, and interactional alignment in recurrent
 contexts \citep[cf.][]{juckertaavitsainen2013}. Change over time helps
-explain why the pragmatic profile is stable while individual forms enter,
-leave, and retain source-specific residues.
+explain why recurrent profiles and source-specific residues can coexist while
+individual forms enter and leave an inventory.
 
-The network classifies lexical items in grammatical environments, not
-word families as wholes. A word family can contain distinct historically
-related lexemes. The \mention{damn} word family includes verbal
-\mention{damn} in \mention{I damn you} and standalone interjectional
-\mention{damn!}. Prenominal \mention{damn} in \mention{the damn car}
-belongs to that family too, but the analysis needn't decide here whether
-it's a noun-phrase-internal extension of the interjection lexeme or a
-separate adjectival lexeme. What matters is that it's syntactically
-integrated inside a noun phrase while retaining use-conditional
-expressive force.
-
-Three nodes in that network are in play here: a syntactic node, a semantic or
-use-conditional node, and an interactional-pragmatic node. The label
-\enquote{interjection} covers the forms that occupy all three at once. I write these
-as \intj{syn},
-\intj{sem}, and
-\intj{prag}. The sections below first
-describe the diagnostic cluster, then explain why these nodes overlap
-and why they come apart.
+The network classifies sign-types, not word families as wholes. I write the
+three categories as \intj{syn}, \intj{sem}, and \intj{prag}. Bare
+\enquote{interjection} remains a conventional cover term for the traditional
+domain and for canonical cases that satisfy all three classifications. Their
+overlap does no independent classificatory or projective work: joint
+membership simply makes the three component families of inference available.
+Section~\ref{sec:fieldrelative-nodes} defines the categories and explains why
+their extensions overlap but come apart.
 
 Section~\ref{sec:cluster} documents the cluster.
 Section~\ref{sec:causal-framework} introduces the causal-network
-framework that explains why the interjection profile supports pragmatic
-inference. The rest of the paper identifies the network order that
-structures the cluster, extends \textcite{gehweiler2008}'s single-case
-analysis to a general claim about path dependence, and argues that
-interjections exhibit a distinctive form of projectibility, primarily
-pragmatic rather than truth-conditional.
+framework and the three field-relative categories. The causal sections grade
+the proposed links by evidential status and develop the strongest present
+payoff, path-dependent residue. The projectibility section then states the
+forward inferences the architecture generates and the evidence still needed
+to establish their held-out success.
 
 \section{The property cluster}\label{sec:cluster}
 
@@ -357,15 +352,15 @@ section takes phonology, morphology, syntax, semantics, and pragmatics in turn,
 drawing primarily on the empirical base documented in \textcite{ameka1992},
 \textcite{quirk1985}, and \textcite{HuddlestonPullum2002}. It answers two
 questions: what properties cluster, and what local diagnostic inferences each
-property supports. These inferences show that individual properties are
-structured rather than accidental. Six properties emerge: prosodic isolation,
+property suggests. Six properties emerge: prosodic isolation,
 non-inflection, syntactic non-integration, non-referentiality, emotive or
 stance force, and sequential use, the last being the capacity to constitute a
-conversational move on its own. The three nodes cut across those five rather than regrouping them, because
-each field needs the category to predict something different. The subscripts
+conversational move on its own. The three categories cut across those six
+rather than regrouping them into domain-pure bundles, because each inquiry
+preserves different contrasts and proposes different targets. The subscripts
 are used from here on, with assignment criteria given in
 Section~\ref{sec:cooccurrence} where the diagnostic matrix needs them, and
-the argument for treating the nodes as three deferred to
+the argument for treating the categories as three deferred to
 Section~\ref{sec:fieldrelative-nodes}. Section~\ref{sec:projectibility} asks
 the stronger question: when does a partial observation license inference
 across linguistic domains? The causal question, why these properties
@@ -409,9 +404,10 @@ native speakers.
 
 Prosodic isolation is a strong cue: if
 a novel form occupies its own intonation unit and resists integration into
-the surrounding prosodic contour, a listener can predict syntactic
-non-integration and non-referentiality. The atypical phonemes reinforce this
-inference. But prosodic isolation isn't unique to interjections, since
+the surrounding prosodic contour, the network account proposes syntactic
+non-integration and non-referentiality as targets. Their held-out relation to
+that cue remains to be tested. Prosodic isolation isn't unique to
+interjections, since
 vocatives, appositives, and other supplements share it \citep[cf.][]{wilkins1992}. What
 distinguishes interjections is the convergence of prosodic isolation with
 the properties below.
@@ -434,11 +430,10 @@ suffix. None of these remnants are productive. The plural in
 \mention{heavens} doesn't contrast with a singular *\mention{heaven!} (as
 an interjection), and speakers don't extend the pattern to new forms.
 
-Non-inflection predicts
-non-argumenthood. Forms that don't inflect can't control verb agreement or take
-a determiner, so they can't fill the syntactic slots that require these
-operations. But non-inflection alone isn't diagnostic: adverbs also don't
-inflect \citep[106]{ameka1992}. The stronger diagnostic is syntactic:
+Non-inflection is associated with restrictions on ordinary argumenthood in
+the recurrent profile. It doesn't entail them: adverbs also don't inflect,
+and invariance alone doesn't prevent an expression from filling an argument
+slot \citep[106]{ameka1992}. The stronger diagnostic is syntactic:
 adverbs characteristically form constituents with other words, while
 canonical interjections occur as standalone supplements and resist
 integration with neighbouring material \citep[152]{meinard2015}.
@@ -472,13 +467,13 @@ A handful of interjections exceptionally take complements.
 \mention{damn these mosquitoes!} as the head of an interjection phrase
 (IntjP) taking a noun phrase (NP) complement, one of the very few cases where an
 interjection heads a phrase larger than a single word. But even here the syntax is
-constrained: no subject is present or intended, and there's no tense
-inflection. The construction is better treated as a residue of verb
-syntax than as full verbal behaviour, a point that matters for the
+constrained: no subject is overt, and there's no tense inflection. The
+construction is compatible with a residue of verbal source syntax, a
+reconstructive possibility that matters for the
 recruitment pathways
 discussed in Section~\ref{sec:causal-structure}. A second kind of residue is
 internal rather than external. \mention{Goddammit} preserves a
-verb-object-pronoun structure inside what is now a single word, so the syntax
+verb-object-pronoun structure inside what's now a single word, so the syntax
 survives as fossilized material rather than as anything the form can still do.
 \textcite[40]{cuenca2002} reads it the same way from the grammaticalization
 side, listing \mention{Goddammit} among the cases where change in function and
@@ -629,7 +624,7 @@ English \citep[GloWbE;][]{daviesfuchs2015} illustrate this pragmatic breadth: \m
 interactional items, forms whose primary function is to manage the
 conversation rather than to contribute propositional content.
 \textcite[171]{poggi2009} presses the other way. An interjection, on her
-analysis, is a holophrastic signal whose equivalent is not a word but
+analysis, is a holophrastic signal whose equivalent isn't a word but
 \enquote{a communicative act including the meaning of both a performative and
 a propositional content}, so that \mention{ouch!} paraphrases as \enquote{I am
 feeling pain}. The grain distinction from Section~\ref{sec:semantics} applies
@@ -678,20 +673,19 @@ felicity conditions. The same form can sit close to one node
 for one inquiry and farther away for another, depending on which causal
 relations and predictions the inquiry tracks.
 
-What a projective claim licenses depends on what was observed. Observing a novel
-non-propositional stance form licenses expectations about standalone
-positioning, supplement-like syntax, backchannel availability, and
-resistance to embedding under reported speech (\mention{*She said that
-damn}). Observing a novel routine formula licenses expectations about
-addressee-directedness and placement in conventional social sequences.
-The overlap explains why routine formulae sit at the boundary; the
-divergence explains why the boundary is disputed.
-Section~\ref{sec:causal-structure} asks which links make those claims
-reliable.
+Which projective declarations are available depends on what was observed. A
+semantics-facing classification of a novel stance form may motivate targets in
+unobserved grammatical or interactional environments. A routine-formula
+classification may motivate addressee orientation or placement in a
+conventional social sequence, provided those properties weren't used to
+assign the case. The overlap explains why routine formulae sit at the
+boundary; the divergence explains why the classifications needn't agree.
+Section~\ref{sec:projectibility} fixes the source--target discipline.
 
 \subsection{Co-occurrence, not necessity}\label{sec:cooccurrence}
 
-These properties co-occur statistically, not necessarily. The
+These properties recur together in the descriptive literature, but not
+necessarily. The
 literature's own definitions hedge, on every criterion they state.
 % Verified verbatim against Wilkins 1992: 124 (running head "124 D. P.
 % Wilkins / Interjections as deictics"), his numbered definition (1).
@@ -746,53 +740,21 @@ them from the concepts with which they contrast}
 the only category in the inventory picked out that way, which is a reason to
 doubt the standard rather than the category.
 
-Co-occurrence without necessity gets read as fuzziness, so it's worth saying
-what it doesn't commit me to. It doesn't make membership a matter of degree.
-Each diagnostic is determinate for a given form in a given environment:
-\mention{damn} in \mention{damn these mosquitoes!} either takes a complement or
-it doesn't, \mention{heavens} either carries the plural suffix or it doesn't,
-and Table~\ref{tab:diagnostic-matrix} records values rather than degrees.
-Determinacy is what makes the rest of the paper possible. The residues of
-Section~\ref{sec:residues} and the turnover probes of
-Section~\ref{sec:turnover} both measure a boundary moving, and a boundary can
-only be seen to move if it sits somewhere in particular at each time.
+Co-occurrence without necessity doesn't settle whether membership itself is
+graded. The analysis needs a more local discipline. Each diagnostic has to be
+assessed for a specified sign-type: complement-taking \mention{damn} either
+takes an NP complement in the construction at issue or it doesn't, and
+\mention{heavens} either carries the plural suffix or it doesn't.
+Table~\ref{tab:diagnostic-matrix} records categorical analytical
+decisions, with parentheses marking evidential qualification or a live
+classification dispute. Nothing in the residue, turnover, or projectibility
+arguments depends on a further metaphysical claim that every category
+boundary is sharp.
 
-What varies is typicality, not membership. Members differ in how many cluster
-properties they carry and in which field-relative nodes they satisfy, so the
-predictions membership licenses vary in strength, and a form near a boundary is
-more exposed to drift than one sitting well inside. That puts the gradience in
-stability rather than in membership, which is where the causal story of
-Section~\ref{sec:causal-structure} can act on it.
-
-What's fluid is the edge across time, and \textcite[144]{boyd1999} builds that
-in. \enquote{The properties that determine the conditions for falling under} a
-kind term \enquote{may vary over time (or space)} while the term keeps its
-definition, which he calls \enquote{the historicity of the individuation
-conditions for the definitional property cluster}. His target is the demand
-that kinds be defined by \enquote{unchanging necessary and sufficient
-membership conditions} \citep[164]{boyd1999}, a demand about permanence rather
-than about precision.
-
-Boyd doesn't make the further commitment to sharpness. He treats the
-extensional vagueness of a property-cluster kind as irresolvable in principle,
-which is indeterminacy rather than inaccessibility. I assume instead that the edge
-is sharp but not finitely locatable, and that the fuzzy appearance comes from
-measurement and from aggregation across speakers \citep{reynolds2025sorites}.
-Two qualifications stop that assumption doing more work than it should. The
-sharpness would have to be maintained rather than stipulated, by acquisition,
-entrenchment, alignment, and transmission, which makes how sharp a boundary is
-an empirical question about how strong those pressures are. And aggregation
-blurs: a population of speakers with sharp but individually placed thresholds
-behaves like a category with a fuzzy edge, so the corpus gradience reported in
-Section~\ref{sec:discussion} is neutral between the two pictures rather than
-evidence for either. None of the arguments here need the stronger claim. They
-need only what the previous paragraph asserts, that each diagnostic have a
-determinate value for a given form in a given environment.
-
-The pattern calls for explanation. Network order couples the
-properties: prosodic isolation reinforces syntactic non-integration,
-non-referentiality removes the need for argument structure, and
-pragmatic conventionalization entrenches the emotive function.
+The pattern calls for explanation. The causal-network proposal connects the
+properties: prosodic isolation may reinforce syntactic non-integration,
+non-referentiality reduces the motivation for argument structure, and
+pragmatic conventionalization may entrench interactional functions.
 
 The coupling is visible when it breaks. \mention{Damn} as an interjection
 (\mention{Damn!}) has the full cluster: prosodic isolation, syntactic
@@ -800,21 +762,22 @@ non-integration, non-referentiality, and emotive force. Prenominal
 \mention{damn} in \mention{the damn car} retains emotive force, and with it
 non-inflection and non-referentiality, but loses prosodic isolation and
 syntactic non-integration together, because it's embedded inside a noun
-phrase \citep[cf.][]{potts2007}. Those two go together or not at all, which
-is what a coupling link predicts (Section~\ref{sec:synchronic-coupling})
-and what a bare list of six properties would leave as coincidence. A bare property list can't explain this
-pattern; the links between the properties can.
+phrase \citep[cf.][]{potts2007}. Those two properties co-vary across this
+contrast, as the proposed coupling link predicts
+(Section~\ref{sec:synchronic-coupling}). A bare property list records the
+contrast; a successful causal account would explain it. Two cases alone don't
+establish the link.
 
 Table~\ref{tab:diagnostic-matrix} makes the cluster inspectable.
-Each row gives a lexical item in a grammatical environment rather than
-a word family as a whole (see Section~\ref{sec:intro}), and the columns show its
-profile against the six cluster properties and the three field-relative
-nodes previewed in the introduction and defined in
+Each row gives a conventionalized sign-type rather than a word family as a
+whole (see Section~\ref{sec:intro}), and the columns show its profile against
+the six cluster properties and the three field-relative categories defined in
 Section~\ref{sec:fieldrelative-nodes}. The table
 shows convergence and decoupling. Standalone \mention{damn!} and
-\mention{oh} show convergence. In \mention{the damn car}, prenominal
-\mention{damn} has the semantic node but lacks the syntactic one.
-\mention{mm-hm} has the interactional node, while its syntactic status
+\mention{oh} in a change-of-state response show convergence. In
+\mention{the damn car}, prenominal
+\mention{damn} has the semantics-facing category but lacks the grammar-facing
+one. \mention{mm-hm} has the interaction-facing category, while its grammatical status
 is debatable. Boundary items (\mention{bye}, \mention{um}) share some
 but not all cluster properties, the pattern that
 Section~\ref{sec:boundaries} explains as causal-link overlap.
@@ -823,12 +786,15 @@ These six recur across the sections above, but they aren't a complete
 inventory: free coinage by onomatopoeia distinguishes the category without
 belonging to any single item, so it has no column here. The last three columns
 are separate classifications, not sums of the first six, so they need their own
-criteria. A construction is
+criteria. A sign-type is
 \intjshort{syn} if it functions as a supplement, taking no
 complement and forming no constituent with neighbouring material;
 \intjshort{sem} if its contribution is expressive and
 use-conditional, leaving the truth conditions of its host untouched;
-\intjshort{prag} if it is usable on its own as an interactional move, which is the sequential-use column read as a field-relative classification.
+\intjshort{prag} if it's conventionally usable as a minimal interactional
+resource in a specified sequential environment. This last criterion assigns
+the category from observed source environments; projection to recipient
+treatment or a withheld environment is a separate declaration.
 The semantic criterion is about meaning type rather than position, which is
 why a construction can satisfy it while sitting inside a host clause.
 Section~\ref{sec:fieldrelative-nodes} argues for the three-way division; here
@@ -838,10 +804,10 @@ the columns record it.
 \centering
 \footnotesize
 \caption{Diagnostic matrix: constructions against cluster properties and
-field-relative nodes. \checkmark\ = property present; ($\checkmark$) =
+field-relative categories. \checkmark\ = property present; ($\checkmark$) =
 partial or debated; \textendash{} = absent. \intjshort{syn},
 \intjshort{sem}, and \intjshort{prag} abbreviate
-syntactic, semantic/use-conditional, and interactional-pragmatic nodes.
+grammar-facing, semantics-facing, and interaction-facing categories.
 Sources:
 properties from
 \textcite{ameka1992}, \textcite{quirk1985},
@@ -874,22 +840,22 @@ properties from
 \mention{the damn car}
   & \textendash{} & \checkmark & \textendash{} & \checkmark & \checkmark & \textendash{}
   && \textendash{} & \checkmark & \textendash{} \\
-\mention{oh}
+\mention{oh} (change of state)
   & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark
   && \checkmark & \checkmark & \checkmark \\
-\mention{mm-hm}
+\mention{mm-hm} (continuer)
   & \checkmark & \checkmark & \checkmark & \checkmark & ($\checkmark$) & \checkmark
   && ($\checkmark$) & \textendash{} & \checkmark \\
-\mention{huh?}
+\mention{huh?} (repair)
   & \checkmark & \checkmark & \checkmark & \checkmark & ($\checkmark$) & \checkmark
   && ($\checkmark$) & \textendash{} & \checkmark \\
-\mention{bruh}
+\mention{bruh!} (stance)
   & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark
   && \checkmark & \checkmark & \checkmark \\
-\mention{bye}
+\mention{bye} (closing)
   & \checkmark & \checkmark & \checkmark & ($\checkmark$) & \textendash{} & \checkmark
   && \checkmark & \textendash{} & ($\checkmark$) \\
-\mention{um}
+\mention{um} (filler)
   & ($\checkmark$) & \checkmark & \checkmark & \checkmark & \textendash{} & ($\checkmark$)
   && ($\checkmark$) & \textendash{} & ($\checkmark$) \\
 \bottomrule
@@ -903,16 +869,16 @@ The next two sections develop the theoretical framework
 \section{The causal-network framework}\label{sec:causal-framework}
 
 The property cluster documented above has the shape
-Section~\ref{sec:cooccurrence} described: statistically reliable co-occurrence,
-no necessary and sufficient conditions, disputed boundaries, and hedged
-universals. That shape is what any lexical category looks like when no
-definition is holding it together. The tradition
+Section~\ref{sec:cooccurrence} described: recurrent co-occurrence in the
+descriptive literature, no necessary and sufficient conditions, disputed
+boundaries, and hedged universals. The tradition
 drew the natural conclusion, that a class with no definition behind it has
-nothing to license, and grammars have said little accordingly
-\citep[16]{HuddlestonPullum2005}. The inference doesn't hold. Membership
-licenses predictions about use, and those predictions cross phonology, syntax,
-semantics, interaction, and diachrony. Causal-network analysis explains why
-they're available without treating the category as an essence.
+nothing to license, and grammars have said little for that reason
+\citep[16]{HuddlestonPullum2005}. The inference doesn't hold automatically.
+A category may instead earn its place by supporting warranted projections.
+The question is whether a causal-network analysis can specify such projections
+for the three interjection categories without treating any of them as an
+essence.
 
 \subsection{The framework}
 
@@ -923,18 +889,17 @@ the three has work to do below: the coupling links of
 Section~\ref{sec:synchronic-coupling} are mutual reinforcement, the
 non-referentiality ratchet is one-directional, and the recruitment pathways of
 Section~\ref{sec:recruitment} are converging historical routes. What matters is
-that the category marks a place in a causal network, a position where
-properties, processes, and interventions are connected tightly enough to
-support induction, which is what lets us predict properties of new instances
-from observed properties of old ones.
+whether a category marks a position where properties and processes are
+connected tightly enough to support induction from observed to unobserved
+properties. That's the proposal to be evaluated, not a consequence of calling
+the relations a network.
 
 I take the structure from Khalidi and not the metaphysics. Nothing below turns
 on whether interjection is a kind in a philosopher's sense; what the category
-has to be is projectible for linguistic inquiry, a position whose causal links
-explain why particular observations support particular predictions. The sharp
-edge assumed in Section~\ref{sec:cooccurrence} is no obstacle either, since
-\textcite[66]{khalidi2013} holds that cluster kinds \enquote{need not be
-structured in such a way as to allow intermediate cases}.
+has to do is support non-trivial, field-specific projections for linguistic
+inquiry. The present evidence motivates several such declarations and bears
+directly on recruitment and residue; it doesn't yet estimate the declarations'
+held-out performance.
 
 The four objects distinguished in Section~\ref{sec:intro} are easier to see
 running on a single form. Take \mention{oof} in standalone use, as in
@@ -944,18 +909,18 @@ running on a single form. Take \mention{oof} in standalone use, as in
 \z
 
 \begin{itemize}
-\item The declaration is what calling it an interjection commits us to: having
-  observed that it stands prosodically separate and doesn't inflect, expect it
-  to resist determiners, to lack ordinary entity or event denotation, and to
-  contribute use-conditionally rather than descriptively, in present-day
-  English, in its standalone use rather than across the whole word family.
-\item The warrant is whatever supports that expectation, and here it is thin:
+\item A declaration built from restricted source evidence says this: having
+  observed that the sign-type stands prosodically separate and doesn't
+  inflect, expect it to resist determiners, to lack ordinary entity or event
+  denotation, and to contribute use-conditionally rather than descriptively,
+  in present-day English and in this use rather than across the whole word
+  family.
+\item The warrant is whatever supports that expectation, and here it's thin:
   analogy to \mention{ouch} and \mention{wow}, and the links set out below.
-\item The profile is the combination the declaration names. Stability and
+\item The profile is the combination the declaration posits. Stability and
   network order are further and independent claims: that the combination
   recurs across forms and over time, and that the properties are linked
-  rather than merely co-occurring. Neither follows from one form, which is
-  what Section~\ref{sec:cluster} and the links below supply.
+  rather than merely co-occurring. Neither follows from one form.
 \item Grounds explain how the form got there and why it stays.
   \textcite{oed_oof} derives \mention{oof} as an imitative formation, which
   puts its entry on the onomatopoeic route of Section~\ref{sec:recruitment}
@@ -964,29 +929,29 @@ running on a single form. Take \mention{oof} in standalone use, as in
   a process that restored it if something pushed \mention{oof} out.
 \end{itemize}
 
-The question is how strong a causal claim the
-co-occurrence documented in Section~\ref{sec:cluster} supports. Some relevant properties form local stabilizing relations. Prosodic
-isolation and syntactic non-integration reinforce one another: a form
+The question is how strong a causal claim the descriptive co-occurrence in
+Section~\ref{sec:cluster} supports. One proposed local relation connects
+prosodic isolation and syntactic non-integration: a form
 produced as its own intonation unit is less available for complementation
 or modification, while a form outside clause structure is more likely to
 receive independent prosodic packaging. \mention{Damn!} standing alone has
 both properties; prenominal \mention{damn} in \mention{the damn car} has
 neither, because sitting inside a noun phrase costs it the intonational
-boundary that had kept it out of the clause. Repeated use in that position
-can make standalone interpretation increasingly expectable for speakers and
-hearers.
+boundary that accompanies the standalone use. Written-corpus proxies don't
+establish either causal direction, so Table~\ref{tab:link-status} treats the
+coupling as a candidate rather than a result.
 
-Other processes are interactional or directional. Uptake affects future
-use; repeated use affects expectation; expectation affects later uptake.
-\mention{Mm-hm} shows the loop closing: it serves as a continuer because
-hearers treat it as one, which is why producing it hands the floor back,
-which is why it keeps being produced in that slot.
+Other proposed processes are interactional or directional. Uptake may affect
+future use; repeated use may affect expectation; expectation may affect later
+uptake. \mention{Mm-hm} illustrates the hypothesized loop: it serves as a
+continuer when recipients treat it as returning the floor, and recurrent use
+in that slot may entrench that affordance.
 Loss of referential content makes argument structure less motivated;
 syntactic deactivation pushes a form toward standalone use; repeated
 conversational deployment entrenches stance, response, repair, or
-sequence-management functions. These relations explain why the
-diagnostics travel together. They establish network order, and they make
-maintenance plausible.
+sequence-management functions. These relations would explain why the
+diagnostics travel together. The evidence below supports some of them,
+motivates others, and leaves inventory-level maintenance open.
 
 The historical evidence adds a further point. Semantic bleaching,
 syntactic deactivation, and onomatopoeic or interactional coinage can all
@@ -996,14 +961,13 @@ deactivated optative (\mention{damn}), and an onomatopoeic or
 interactional coinage (\mention{oof}, \mention{mm-hm}) may
 converge on prosodic independence, supplement function,
 non-referential or use-conditional meaning, and interactional force while
-retaining different traces of their sources. The resulting category is
-organized by causal relations with different temporal and
-explanatory profiles.
+retaining different traces of their sources. The result is a recurrent
+cross-category configuration whose proposed causal relations have different
+temporal and explanatory profiles.
 
-That structure is enough for projectibility, whatever domain the
-projections turn out to fall in (Section~\ref{sec:proj-domain}). It isn't
-enough to establish corrective control, since the evidence considered here
-doesn't
+If borne out, that structure would warrant the declarations in
+Section~\ref{sec:projectibility}. The present evidence isn't enough to
+establish their held-out success or corrective control, since it doesn't
 identify a tracked category-level variable, an error signal, or a response
 pathway that restores the interjectional profile when it's perturbed
 \citep[cf.][]{weinberger2026HomeostasisCausalControl}.
@@ -1022,10 +986,10 @@ causal-network account doesn't replace them.
 The accounts differ in what they buy that data with. Prototype theory buys it
 with degrees of membership. The causal-network account doesn't need them,
 because each field-relative cut is determinate and the disputes concern which
-cut an inquiry should be using (Section~\ref{sec:boundaries}). That's the
-source of a prediction prototype theory doesn't make: apparent gradience
-should decompose under conditioning rather than persist as irreducible
-fuzziness.
+cut an inquiry should be using (Section~\ref{sec:boundaries}). That contrast
+generates a test rather than a present result: apparent gradience should
+decompose under the conditions that determine the relevant classification
+rather than persist as irreducible fuzziness.
 
 A causal-network account adds a different kind of question. Prototype
 theory explains why borderline cases should be expected: categories are
@@ -1036,17 +1000,19 @@ when one of their links is disrupted.
 The difference matters because the causal-network account generates
 predictions about change, conditioning, and residues. It predicts that
 forms recruited by different pathways should retain different traces of
-their source constructions, that apparent gradience should decompose
-under variety conditioning, and that some properties may be more central
-to network order than others (hub-property asymmetry). These
-predictions are probed for interjections in Section~\ref{sec:discussion}.
+their source constructions, that appropriate conditioning may decompose some
+apparent gradience, and that some properties may be more central to network
+order than others (hub-property asymmetry). Section~\ref{sec:discussion}
+finds unequal support: residue is the strongest probe, country conditioning
+is more limited, and hub-property asymmetry remains open.
 
 Pathway residues provide a further discriminator. If the proposed causal
 links are real, messy boundary cases shouldn't be messy in arbitrary
 ways. Retained complements should point to verbal sources; euphemistic
 phonological deformation should point to taboo-managed invocative
-sources; regional concentration should point to regional or indexical
-recruitment. Prototype theory offers no analogous retrodictive test.
+sources; regional concentration is compatible with regional or indexical
+entrenchment but doesn't establish it. Prototype theory offers no analogous
+retrodictive test tied to independently warranted histories.
 
 \subsection{What causal structure adds}
 
@@ -1087,21 +1053,21 @@ bundles, and constructional representations don't settle by themselves:
   account asks which links explain why observing one property licenses
   expectations about another.
 \item Asymmetry. Some properties are upstream or more diagnostic than
-  others. Prosodic packaging can make syntactic integration less
-  available, while the reverse relation has a different status. A flat
-  feature bundle can't represent that ordering.
-\item Persistence. The category profile can remain available while
-  individual forms enter and leave, which is a claim about stability rather
-  than about what maintains it.
+  others. Prosodic packaging may make syntactic integration less
+  available, while the reverse relation may have a different status. A flat
+  feature bundle doesn't by itself represent that proposed ordering.
+\item Persistence. A category profile may remain available while
+  individual forms enter and leave. Inventory turnover is compatible with
+  that stability claim but doesn't establish it.
 \item Boundary behaviour. Different recruitment pathways should leave
   different residues at the category boundary. Feature theory can list
   residual properties but doesn't explain why they align with
   particular histories.
 \item Failure. When a prediction fails, the pattern of failure should
-  identify which link or declared inference has broken. If \mention{fie}
-  loses all three nodes together under community-wide attrition, the
-  result is a boundary condition on ordered erosion rather than evidence of corrective
-  control.
+  constrain the corresponding link or declaration. \mention{Fie}'s
+  diagnostics decline over the same broad period without the predicted
+  ordering. That result limits ordered erosion; it doesn't by itself identify
+  simultaneous or community-wide attrition.
 \end{enumerate}
 
 If a feature-based account can replicate co-movement, asymmetry,
@@ -1110,40 +1076,51 @@ causal structure is doing no additional explanatory work. The empirical
 pressure point is whether the probes in Section~\ref{sec:discussion}
 support those claims.
 
-\subsection{Three field-relative nodes}\label{sec:fieldrelative-nodes}
+\subsection{Three field-relative categories}\label{sec:fieldrelative-nodes}
 
 The causal-network account developed by
 \textcite{khalidi2013,khalidi2018nodes} also explains why
 projectibility is field-relative. If kinds are nodes in causal
 structures, different fields may track different nodes because they ask
 different explanatory and predictive questions. The resulting categories
-remain realist: each inquiry tracks the causal relations that matter for
-its explanations and predictions.
+need not be domain-pure or merely interest-relative. An inquiry fixes the
+scope of a declaration; evidence and worldly organization determine whether
+the resulting classification and projections succeed.
 
-The familiar linguistic parallel is the interrogative/question
-distinction. Syntacticians track \term{interrogative}: a clause type
-with properties such as subject--auxiliary inversion, fronting of
-interrogative words, and polar-question syntax. Pragmatists track \term{question}:
-a speech act that requests information, makes an answer
-relevant, and organizes uptake. The two often coincide, and they also come apart:
-\mention{Can you pass the salt?} is syntactically interrogative and
-pragmatically a request, while \mention{I wonder where she went} can
-raise an information issue without having interrogative clause syntax.
+The proper-noun/proper-name distinction supplies a close linguistic
+parallel. \term{Proper noun} is principally useful to grammar, while
+\term{proper name} is principally useful to semantics, pragmatics, and
+onomastics. Neither is domain-pure. Proper names have grammatical structure,
+and proper nouns have conventional referential tendencies. Their extensions
+still come apart: \mention{the University of Toronto} is a name whose head is
+a common noun, while a proper noun can be used predicatively or
+metalinguistically without straightforwardly naming its usual bearer. Neither
+classification is a defective version of the other.
+
+The interrogative/question distinction makes the same point across grammar
+and interaction. Syntacticians track \term{interrogative}, a clause type with
+properties such as subject--auxiliary inversion and fronting of interrogative
+words. Pragmatists track \term{question}, an action that requests information,
+makes an answer relevant, and organizes uptake. The two often coincide and
+also come apart: \mention{Can you pass the salt?} is interrogative in form and
+ordinarily a request in use.
 
 Interjections create a similar problem with less terminological help.
 Syntax, semantics, and interactional pragmatics all use the
 word \enquote{interjection}, but each field tracks a slightly different
-node: different properties, different causal links, different
-predictions. I distinguish these with subscripts:%
+category: different contrasts are preserved and different projections are
+at stake. The common bearer is the conventionalized sign-type defined in
+Section~\ref{sec:intro}, so the three classifications apply to objects of the
+same type. I distinguish them with subscripts:%
 \footnote{The interrogative/question contrast uses different words for
-  the syntactic and pragmatic nodes because both terms are established
+  the syntactic and pragmatic categories because both terms are established
   in their respective traditions. For interjections,
   every field uses the same word, so subscripts are the honest notation.
   An alternative would have been to adopt distinct terms from the
   relevant literatures: \term{expressive} from \textcite{potts2007}
-  for the semantic node, and response token from
+  for the semantics-facing category, and response token from
   \textcite{stivers2019} or \term{liminal sign} from
-  \textcite{dingemanse2020} for the interactional-pragmatic node.
+  \textcite{dingemanse2020} for the interaction-facing category.
 
   The Latin
   \mention{ejaculatio}, a throwing out, mirroring \mention{interjicere},
@@ -1153,28 +1130,34 @@ predictions. I distinguish these with subscripts:%
   rendered the term unavailable.}
 
 \begin{itemize}
-\item \intj{syn}, the syntactician's
-  category (\textit{CGEL}, Quirk et al.). Distributional cluster: supplement
-  function, non-inflecting, non-argument-taking. Linked by
-  prosodic-syntactic coupling (Section~\ref{sec:synchronic-coupling}).
-\item \intj{sem}, the semanticist's
-  category, overlapping with \textcite{potts2007}'s \term{expressives}.
-  Use-conditional meaning cluster: independent of at-issue content,
-  nondisplaceable, perspective-dependent, descriptively ineffable
-  \citep[166]{potts2007}. Often recruited through semantic bleaching.
-  Different extension: prenominal \mention{damn} in
-  \mention{the damn car} is \intj{sem} but not
-  \intj{syn}.
-\item \intj{prag}, the interactional-pragmatic
-  category, overlapping with \textcite{stivers2019}'s
-  response tokens and \textcite{dingemanse2020}'s liminal signs.
-  Sequential/stance cluster: turn-initial, backchannel, stance display.
-  Linked by routine entrenchment and possibly by regional/indexical
-  conditioning, both from Section~\ref{sec:synchronic-coupling}. Different
-  extension: \mention{mm-hm} is
-  \intj{prag} but debatably
-  \intj{syn}.
+\item \intj{syn} is the grammar-facing category represented in
+  \textit{CGEL} and Quirk et al. Its principal projective family concerns
+  grammatical distribution and packaging. Admission evidence is primarily
+  morphosyntactic and constructional: characteristic supplement or
+  standalone distribution, morphological invariance in the relevant use, and
+  severe restrictions on ordinary argument structure and integration. This
+  is a lexical category in the grammarian's ordinary sense, without thereby
+  being ontologically prior.
+\item \intj{sem} is the semantics-facing category, overlapping with
+  \textcite{potts2007}'s \term{expressives}. Its principal projective family
+  concerns conventional meaning contribution. Its profile includes
+  independence from at-issue content, nondisplaceability, perspective
+  dependence, and descriptive ineffability \citep[166]{potts2007}.
+  Prenominal \mention{damn} in \mention{the damn car} belongs here while
+  falling outside \intj{syn}.
+\item \intj{prag} is the interaction-facing category, overlapping with
+  \textcite{stivers2019}'s response tokens and
+  \textcite{dingemanse2020}'s liminal signs. Its principal projective family
+  concerns conventional interactional action and sequential organization.
+  Minimal response, stance, repair, continuer, and change-of-state uses
+  populate this region. \mention{Mm-hm} belongs here while its
+  \intj{syn} status remains disputed.
 \end{itemize}
+
+The subscripts identify principal consumers and projective families, not the
+exclusive provenance of the categories' properties. Each classification may
+depend on relations among form, grammar, meaning, use, convention, and
+history. The three needn't be equally rich or symmetrical.
 
 \begin{figure}[htbp]
 \centering
@@ -1202,24 +1185,29 @@ predictions. I distinguish these with subscripts:%
 \node[itm, text=black!55] at (0, 2.75) {(empty: syntax\\alone isn't enough)};
 \end{tikzpicture}%
 }
-\caption{The three field-relative nodes overlap in extension but come apart,
-and where they come apart is the evidence that they are three. Placement
-follows Table~\ref{tab:diagnostic-matrix}; a form toward a boundary has
-partial or debated membership in the region it approaches. Prenominal
-\mention{damn} carries the semantic node without the syntactic one,
-\mention{mm-hm} the interactional without the semantic, and \mention{bye} and
-\mention{um} neither the semantic node nor undisputed interactional standing.
-Malaysian and Singaporean \mention{lah} carries the semantic and interactional
-nodes without the syntactic one, for the reason given in
+\caption{The three field-relative categories overlap in extension but come
+apart, and where they come apart is evidence that they're three. Placement
+follows Table~\ref{tab:diagnostic-matrix}; proximity to a boundary marks a
+qualified or disputed classification, not an additional graded-membership
+claim. Prenominal
+\mention{damn} carries the semantics-facing category without the
+grammar-facing one,
+\mention{mm-hm} the interaction-facing without the semantics-facing, and \mention{bye} and
+\mention{um} neither the semantics-facing category nor undisputed
+interaction-facing standing.
+Malaysian and Singaporean \mention{lah} carries the semantics- and
+interaction-facing categories without the grammar-facing one, for the reason given in
 Section~\ref{sec:synchronic-coupling}.}
 \label{fig:node-overlap}
 \end{figure}
 
 The subscript notation makes explicit that these are overlapping but
-non-identical nodes, each linked by different ordering or stabilizing
-relations, and projectible for different purposes. The traditional label
-\enquote{interjection} names their zone of overlap, and the paper's
-remaining sections analyze that overlap from multiple angles.
+non-identical categories, each associated with different proposed projections
+and causal relations. Bare \enquote{interjection} is a conventional cover term,
+not a fourth category. Canonical sign-types belong to all three, but the
+intersection has no standing or projective force beyond the component
+classifications. The remaining sections analyze their relations rather than
+trying to vindicate the overlap as another category.
 
 \section[Causal structure]{Causal structure: recruitment and coupling}\label{sec:causal-structure}
 
@@ -1232,8 +1220,7 @@ interjection cluster} refers to the broad property profile. I use
 \intj{syn}, \intj{sem}, and
 \intj{prag}.
 A causal-network account requires both a diachronic account of
-recruitment and a synchronic account of the network order among
-properties.
+recruitment and testable proposals about synchronic order among properties.
 
 Table~\ref{tab:link-status} sets out each proposed link with its current
 evidential status, the kind of evidence that would bear on it, and the
@@ -1274,19 +1261,19 @@ Supplement syntax, punctuation, standalone position &
 Written corpora underrepresent prosody. \\
 \addlinespace
 Non-referentiality ratchet &
-Ordering link &
+Proposed ordering link &
 Argument-structure restrictions &
 \mention{Yes}, \mention{no}, and response tokens complicate the property. \\
 \addlinespace
 Routine entrenchment &
 Stabilizer candidate for \intj{prag} &
 Conversation-analytic and pragmatic literature &
-Needs more spoken-interaction data for the present cases. \\
+Needs more spoken-interaction data for these cases. \\
 \addlinespace
 Regional/indexical conditioning &
 Maintenance hypothesis &
 Regional concentration and register sensitivity &
-Identity-work evidence remains outside the present data. \\
+Identity-work evidence remains outside this dataset. \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1377,39 +1364,42 @@ Two processes operate within this path.
 conventionalized) from abrupt reanalysis (hearer-based: the hearer parses
 the exclamation as a standalone unit rather than an invocation).
 Both feed the same cluster, but they operate at different timescales and
-involve different agents. Their convergence supports the network-order
-claim: the same node can be reached by different routes.
+involve different agents. Their convergence shows that the same present-day
+classification can be reached by different routes; it doesn't by itself
+establish synchronic network order.
 
 The first transition generates a specific prediction: partial bleaching
 should be detectable by the absence of downstream properties. A form that
 has reached the secondary interjection but no further should be
-non-referential while retaining the source phonology and resisting full
-prosodic independence.
+non-referential, retain the source phonology, and resist full prosodic
+independence.
 The prediction is testable and goes beyond historical description.
 
 \subsection{Path 2: verb to interjection}
 
-A second trajectory enters the cluster via syntactic deactivation rather
-than phonological modification. \mention{Damn} originates as a verb, and it
-enters by way of the optative, the minor clause type of \mention{God save
-the Queen} and \mention{God help you}, where a main-clause subjunctive
-survives in a narrow range of formulaic frames
-\citep[944]{HuddlestonPullum2002}. \mention{God damn him} has that shape,
-and what the interjectional use drops is that subject rather than an
-understood addressee: \mention{damn him} is a wish, not an instruction.
-Tense goes with the subject, while an NP complement survives in a few
-constructions (\mention{damn these mosquitoes!}).
-The complement retention shows that the syntactic deactivation is
-partial: the form carries some verb properties into the interjection
-cluster. In \textit{CGEL}'s
-terms, it's the head of an IntjP, not a verb phrase (VP)
-\citep[1361fn]{HuddlestonPullum2002}.
+A second proposed trajectory enters through syntactic deactivation rather
+than phonological modification. \mention{Damn} has a verbal source, and the
+optative construction supplies a plausible gateway. Optatives include
+\mention{God save the Queen} and \mention{God help you}, where a main-clause
+subjunctive survives in a narrow range of formulaic frames
+\citep[944]{HuddlestonPullum2002}. \mention{God damn him} has that shape, and
+the wish interpretation of \mention{damn him} is compatible with reanalysis
+after omission of the subject.
 
-The process is decategorialization: loss of verbal morphosyntax
-(subject, tense) and gain of expressive force.
-As a verb, \mention{damn} contributes content meaning, the condemning itself,
-and uttering it performs the act. As \intj{syn},
-\mention{damn!} contributes procedural meaning, a stance of frustration.
+The proposed path is reconstructive rather than a demonstrated token-by-token
+derivation. The optative already contains plain-form \mention{damn}, so no
+tense morphology is lost in the proposed transition. What survives in
+\mention{damn these mosquitoes!} is an NP complement compatible with verbal
+source syntax. In \textit{CGEL}'s synchronic analysis the construction is
+headed by an IntjP rather than a VP \citep[1361fn]{HuddlestonPullum2002}, so
+its complement-taking qualification has to remain visible.
+
+If the reconstruction is right, the process is decategorialization involving
+reduced verbal argument structure and increasing conventional expressive
+force. As a verb, \mention{damn} contributes content involving condemnation.
+Standalone \mention{damn!} conventionally displays a stance of frustration.
+The present-day contrast and complement residue motivate the path, but a
+fuller diachronic series would be needed to establish its sequence.
 
 This doesn't count as degrammaticalization in the strict sense, since the
 form doesn't gain the morphosyntactic substance of a major lexical category
@@ -1418,38 +1408,29 @@ conventionalization with syntactic deactivation: the verbal source
 loses argument-structural obligations as the interjectional use gains
 procedural and interpersonal force.
 
-For other verb-derived interjections the gateway is the imperative rather
-than the optative. Imperatives also lack an overt subject and stand alone
-prosodically, so the interjectional use completes a deactivation the
-construction has already begun. \mention{Come on} and \mention{look} (in their
-discourse-marker uses) have lost subject, tense, and complement-taking
-ability. They're standalone interjections
-with no residual argument structure.
+For other verb-derived forms the imperative is a candidate gateway.
+Imperatives characteristically lack an overt subject and can stand alone
+prosodically. Discourse-marker uses of \mention{come on} and \mention{look}
+show reduced argument-structural obligations in the relevant sign-types.
+Those synchronic patterns are compatible with deactivation, but they don't by
+themselves establish a historical series.
 
-\mention{Damn} shows partial syntactic
-deactivation (complement retained, subject and tense lost), while
-\mention{come on} and \mention{look} represent full deactivation (no
-complement, no argument structure at all). The degree of deactivation
-correlates with the degree of integration into the interjection cluster.
-
-This correlation generates a graded prediction: a form that retains
-complement-taking ability should also retain other verb-like properties
-(e.g., prosodic integration in some constructions), while a fully
-deactivated form should show the complete interjection profile. The
-ordering relation predicts the inferential package available at each
-stage.
+The proposed contrast generates a testable residue prediction: sign-types
+that retain complementation should retain more source-compatible grammatical
+behaviour than sign-types with no residual argument structure. The present
+examples motivate that prediction; they don't yet establish a category-wide
+correlation.
 
 \subsection{Convergent pathways}
 
 The two paths enter the cluster from different directions, one through
 phonological modification of a bleached noun, the other through syntactic
 deactivation of a verb, but both exploit a gateway construction that
-already provides prosodic isolation: the vocative for Path~1, and for
-Path~2 the optative or the imperative. Both converge on the same property profile.
-The convergence is what the causal-network account predicts: different
-recruitment processes can bring items into the same projectible profile,
-producing the same cluster of co-occurring properties through different
-routes.
+already provides standalone or peripheral packaging: the vocative for
+Path~1, and, on the reconstruction above, the optative or imperative for
+Path~2. Both can yield similar present-day profiles. The documented strength
+is asymmetric: the invocative history is established in substantially more
+detail than the proposed verbal path.
 
 Both paths can be situated within \textcite{TraugottDasher2002}'s
 subjectification trajectory (content~$>$~procedural,
@@ -1471,16 +1452,17 @@ Onomatopoeia (Section~\ref{sec:turnover}) is categorically different.
 Nonce coinages enter the cluster with no prior lexical history (no bleaching, no
 deactivation, no subjectification). Three diachronically distinct
 processes (grammaticalization, pragmaticalization, nonce coinage)
-converge on the same synchronic category. Grammaticalization theory
-alone can't subsume all three. A causal-network account can: the shared
-point is the node they converge on, with outcomes recruited by different
-processes but linked by the same synchronic ordering relations.
+can yield sign-types assigned to one or more of the same synchronic
+categories. Grammaticalization theory alone doesn't subsume all three. A
+causal-network account offers a common representation of the recurrent
+outcomes and retains the distinct routes. Whether all are linked by the
+same synchronic ordering relations remains an empirical question.
 
 \subsection{Synchronic coupling}\label{sec:synchronic-coupling}
 
-Recruitment explains how items enter the cluster. The synchronic
-question is what gives the cluster network order now, and what might
-keep that order stable. Four synchronic links are relevant:
+Recruitment hypotheses concern how items enter the cluster. The synchronic
+question is whether the cluster has network order now, and what might keep
+that order stable. Four proposed links are relevant:
 prosodic-syntactic coupling, a non-referentiality ratchet,
 interactional routine entrenchment, and regional/indexical conditioning.
 They don't have the same status. The first two order structural
@@ -1541,13 +1523,13 @@ me}. It should also resist embedding as propositional content
 (\mention{*She said that damn}) unless it's quoted as a form. If
 referential content becomes active again, the form should move toward
 noun, verb, or routine-formula regions of the network. The ratchet
-keeps the form near the interjection node by blocking return
+keeps the form near the interjectional region by blocking return
 to the source category, while prosodic-syntactic coupling links the
 central structural properties.
 
 \subsubsection{Interactional routine entrenchment}
 
-The interactional-pragmatic node needs a candidate stabilizer of its own.
+The interaction-facing category needs a candidate stabilizer of its own.
 Conversation repeatedly places interjectional forms in recognizable
 sequential slots: continuers, repair initiators, change-of-state tokens,
 stance displays, and response tokens \citep{stivers2019,dingemanse2020}.
@@ -1569,13 +1551,13 @@ accumulation is an assumption here rather than a finding. The probes in
 Section~\ref{sec:discussion} bear on the inventory-level pattern, not on the
 step from one level to the other.
 
-This candidate stabilizer supports the projectibility of
+If borne out, this candidate stabilizer would support the projectibility of
 \intj{prag}. If a novel form is recruited as a
 minimal stance, response, repair, or backchannel resource, one should
 expect turn-initial or standalone availability, independent prosodic
 packaging, resistance to embedding under reported speech, and
 availability for uptake as an interactional move. The same candidate
-stabilizer also explains why the function can persist when category membership
+could also explain why the function can persist when category membership
 weakens: a full clause such as \mention{I agree} can do agreement work,
 but it lacks the reduced, non-propositional packaging that makes
 \mention{mm-hm} a central \intj{prag} case.
@@ -1588,27 +1570,28 @@ Singapore and Malaysia, \mention{yaar} in India and Pakistan,
 \mention{haba} in Nigeria, and \mention{bruh} in African American
 English \citep{louf2023} are plausible cases.
 
-They are not, however, the same kind of case, and the difference matters for
+But they aren't the same kind of case, and the difference matters for
 which node the conditioning operates on. \mention{Haba} is free-standing:
 \textcite{unuabonahdaniel2020} avoid the terms utterance-initial and
 utterance-final for it and its Nigerian congeners \enquote{because they are
 free standing and are far more detached from the utterances than PMs}
-\citep[69]{unuabonahdaniel2020}. \mention{Lah} is not. It is clause-final and
+\citep[69]{unuabonahdaniel2020}. \mention{Lah} is clause-final and
 prosodically dependent on its host, and this holds on either current account of
 it: \textcite[447]{lim2007} reports that Gupta takes the particles to
 \enquote{function as the carrier of the intonation contour of the utterance},
 while the rival analysis gives them lexically-specified tone inherited from a
 substrate. That rival is weakest for \mention{lah} in particular, since
-\mention{lah} is one of the few particles \textcite[463]{lim2007} does not
+\mention{lah} is one of the few particles \textcite[463]{lim2007} doesn't
 match to Cantonese, and its Bazaar Malay and Hokkien sources have
 \enquote{neutral tone and weak stress}. Either way \mention{lah} fails
 prosodic isolation, so it satisfies \intj{sem} and \intj{prag} without
 \intj{syn} (Figure~\ref{fig:node-overlap}). Regional conditioning can
-therefore recruit a form to the interactional node without recruiting it to the
-syntactic one, which is what \mention{lah} looks like and \mention{haba} does
-not. The GloWbE evidence in
+in principle recruit a sign-type to the interaction-facing category without
+recruiting it to the grammar-facing one, a pattern compatible with
+\mention{lah} but not \mention{haba}. The GloWbE evidence in
 Section~\ref{sec:discussion}, modelled in
-Appendix~\ref{app:conditioning}, shows country and variety conditioning. It
+Appendix~\ref{app:conditioning}, shows additional country-level variation in
+overall item frequencies. It
 doesn't by itself establish social indexing in the stronger
 sociolinguistic sense: uptake, stance, enregisterment, style shifting,
 metapragmatic awareness, or distribution by speaker group within
@@ -1630,14 +1613,13 @@ the inventory alone. If it retains the full profile, the link is part of
 the causal structure of the category. This comparison remains for future
 work.
 
-The interjection cluster has two structural ordering links
+The account proposes two structural ordering links
 (prosodic-syntactic coupling and the non-referentiality ratchet), one
 interactional-pragmatic stabilizer candidate (routine entrenchment), and
-one regional/indexical maintenance hypothesis. Together, the first three
-explain why prosodic, syntactic, semantic, and pragmatic diagnostics
-travel together synchronically. They also underwrite the probes in
-Section~\ref{sec:discussion}: disrupting different links should produce
-different patterns of residue, conditioning, or erosion.
+one regional/indexical maintenance hypothesis. If correct, the first three
+would help explain why prosodic, syntactic, semantic, and pragmatic
+diagnostics travel together synchronically. Their unequal evidential status
+has to remain visible in the probes and conclusion.
 
 Figure~\ref{fig:causal-network} summarizes the proposed causal
 network. It's a schematic map of the links used in the argument rather
@@ -1692,9 +1674,9 @@ than a complete model of every dependency among the diagnostics.
 \node[property] (intuse) at (6.2, -0.7) {interactional-\\pragmatic use};
 \node[process] (social) at (3.0, -2.2) {regional/indexical\\conditioning};
 
-\node[field] (semnode) at (3.0, 0.9) {\intjshort{sem}\\meaning type};
-\node[field] (synnode) at (6.2, 0.9) {\intjshort{syn}\\distribution};
-\node[field] (intnode) at (9.5, 0.9) {\intjshort{prag}\\sequential use};
+\node[field] (semnode) at (3.0, 0.9) {\intjshort{sem}\\semantics-facing};
+\node[field] (synnode) at (6.2, 0.9) {\intjshort{syn}\\grammar-facing};
+\node[field] (intnode) at (9.5, 0.9) {\intjshort{prag}\\interaction-facing};
 
 \draw[arrow] (bleach) -- (nonref);
 \draw[arrow] (nonref) -- (synt);
@@ -1717,35 +1699,32 @@ than a complete model of every dependency among the diagnostics.
 }
 \caption{Schematic causal network for English interjections.
 Blue nodes mark recruitment, ordering, or stabilizing processes; white
-nodes mark diagnostics; and green nodes mark field-relative interjection
-nodes. Solid arrows indicate proposed ordering links. The double arrow
+nodes mark diagnostics; and green boxes mark field-relative interjection
+categories. Solid arrows indicate proposed ordering links. The double arrow
 marks reciprocal prosodic-syntactic coupling. Dashed orange arrows mark
 the regional/indexical maintenance hypothesis. The three field-relative
-nodes overlap in extension but support different predictions.}
+categories overlap in extension and generate different prospective
+declarations.}
 \label{fig:causal-network}
 \end{figure}
 
 \subsection{Causal residues at the category boundary}\label{sec:residues}
 
-The interjection cluster is a convergence point, but convergence doesn't
-erase history. Forms recruited through different pathways can share the
-same pragmatic profile while retaining traces of the source construction
-that brought them there. Those traces explain why the category is both
-recognizable and persistently irregular. The irregularities are pathway
-signatures rather than noise around a prototype.
+The proposed interjection network is a convergence region, but convergence
+needn't erase history. Forms recruited through different pathways may share
+parts of a present-day profile while retaining traces of their source
+constructions. Where the history is independently documented, those traces
+can distinguish pathway signatures from otherwise unexplained irregularity.
 
-This gives the category a second kind of inference. Section~\ref{sec:projectibility}
-develops forward projectibility: observing some properties of a novel
-form licenses predictions about other properties. Historical pragmatics
-also needs a retrodictive counterpart to projectibility:
-observing a residual property can license an inference about the pathway
-that produced it. A causal-network account can make that inference
-because it links properties to the recruitment pathways of
-Section~\ref{sec:recruitment}, ordering relations, and source
-constructions.
+This supplies a second kind of proposed inference. Section~\ref{sec:projectibility}
+states forward declarations from observed to unobserved properties.
+Historical pragmatics also permits a retrodictive counterpart: a residual
+property can warrant an inference about its source pathway when the historical
+evidence is independent rather than reconstructed from the same residue. A
+causal-network account represents that relation explicitly.
 
-Table~\ref{tab:pathway-residues} collects the residues each recruitment
-pathway leaves behind, and the retrodictive inference each one licenses.
+Table~\ref{tab:pathway-residues} collects candidate residues and the
+retrodictive inferences they motivate at different evidential strengths.
 
 \begin{table}[t]
 \centering
@@ -1772,8 +1751,9 @@ Verb & Optative or imperative frame &
 Complement residue from the optative (\mention{damn these mosquitoes!});
 second-person orientation, directive force, and particle retention from the
 imperative (\mention{come on}, \mention{look}) &
-An NP complement points to an optative source, a directive orientation to an
-imperative one. \\
+An NP complement is compatible with a verbal or optative source, and a
+directive orientation with an imperative one; deciding between
+reconstructions requires independent history. \\
 \addlinespace
 Onomatopoeic or interactional coinage & Iconic or interactional vocalization &
 Atypical phonology, reduplication, spelling variation, weak etymological
@@ -1786,21 +1766,20 @@ Interactional recruitment or regional/indexical conditioning & Sequential slot o
 Regional skew, register sensitivity, indexical persistence
 (\mention{lah}, \mention{yaar}, \mention{haba}, \mention{bruh},
 \mention{mm-hm}) &
-Uneven distribution by community points to regional/indexical
-entrenchment or conditioning. \\
+Uneven distribution by community motivates a regional/indexical
+entrenchment hypothesis but doesn't establish the historical route. \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-The residue analysis turns apparent exceptions into evidence. \mention{Damn these
-mosquitoes!} becomes a verbal-path residue rather than an anomalous
-interjection with a complement. \mention{Gee} records taboo-managed
-invocative recruitment through euphemistic phonology. \mention{Lah}
-looks like the kind of item expected if regional or indexical
-conditioning stabilizes some interjectional forms. Prototype theory
-predicts fuzzy boundaries.
-It doesn't predict that different boundary failures should line up with
-different historical routes.
+The residue analysis turns apparent exceptions into candidate evidence whose
+strength depends on the history available. Complement-taking
+\mention{damn these mosquitoes!} is compatible with a verbal path;
+\mention{gee} securely records taboo-managed invocative recruitment through
+euphemistic phonology. \mention{Lah} motivates a regional or indexical
+maintenance hypothesis but doesn't establish one. Prototype theory predicts
+fuzzy boundaries. It doesn't by itself predict that different boundary
+failures should align with independently documented historical routes.
 
 \textcite[40]{cuenca2002} reaches the same claim from the grammaticalization
 side, observing that
@@ -1811,26 +1790,31 @@ you/her}. She gets there from subjectification rather than from a causal
 network, so two independent routes reach the claim that unfinished recruitment
 leaves syntactic traces.
 
-The same logic applies when forms leave the cluster. A pre-registered
-COHA check of verbal derivatives shows that early VP-head uses of
-\mention{wowed}, \mention{booed}, \mention{oohed}, and
-\mention{shooed} retain source-interjection semantics after syntactic
-integration (Appendix~\ref{app:morphgain}).%
+The same logic applies when forms leave the cluster. A preregistered COHA
+check selected overt derivatives of \mention{wow}, \mention{boo},
+\mention{ooh}, and \mention{shoo}, then examined their included VP-head uses.
+In the earliest confirmatory windows, \mention{wowed}, \mention{booed},
+\mention{oohed}, and \mention{shooed} retain source-interjection semantics
+(Appendix~\ref{app:morphgain}). Because derivative form was selected in
+advance and VP-head syntax was part of the inclusion criterion, the result is
+semantic residue conditional on those derivative uses, not a general finding
+that interjections gain morphology or syntax.%
 \footnote{The analysis plan was committed before extraction and coding
   (\texttt{f1a2193}, 27 May 2026). \ifblind The full pre-registration,
   data, and code are archived at [link removed for blind review].\else
   The full pre-registration, data, and code are archived at
   \url{https://github.com/BrettRey/interjections-hpc}.\fi}
-These exit cases fit the residue account: syntactic integration removes
-\intj{syn}, while source-interjection semantics
-persists. They probe boundary behaviour, not corrective control.
+These exit cases fit the residue account: in the selected integrated uses,
+source-interjection semantics persists. They probe boundary behaviour, not
+corrective control.
 
 The \mention{fie} study marks the limit of residue reasoning under
 global attrition. The pre-registered prediction was that
 \intj{prag} would weaken before
 \intj{sem}, and \intj{sem}
 before \intj{syn}. In COHA, all three node
-diagnostics decline together (Figure~\ref{fig:fie-raw}).%
+diagnostics decline over the same broad period, and the predicted order
+receives low posterior support (Figure~\ref{fig:fie-raw}).%
 \footnote{The analysis plan was committed before data extraction
   (\texttt{e18675b}, 15 March 2026). \ifblind The full
   pre-registration, data, and code are archived at [link removed for
@@ -1844,25 +1828,28 @@ diagnostics decline together (Figure~\ref{fig:fie-raw}).%
     coded~1 for each diagnostic, by decade (COHA, 1820--2019; $n = 616$
     coded tokens). The pre-registered prediction was that
     \intj{prag} would weaken first and \intj{syn} last. Instead all three
-    decline together, which is what community-wide attrition looks like and
-    is not evidence of ordered erosion. Full model and coding in
+    decline over the same broad period. The result doesn't support the
+    predicted ordering; the marginal trajectories alone don't establish
+    equality or simultaneity. Full model and coding in
     Appendix~\ref{app:fie}.}
   \label{fig:fie-raw}
 \end{figure}
 
 
-When a community stops actively using a form, evidence for the pathway
-can disappear across nodes at once. The relevant process is loss of the
-ecology in which the ordering links operate, not pathway-specific property
-loss. Interjections carry traces of how they got there, and those residues make
-the category's boundary behaviour structured rather than accidental.
+The result is compatible with community-wide attrition affecting several
+diagnostics over the same period, but it doesn't identify that process or
+establish simultaneous loss. More securely, it supplies a failure condition:
+the proposed ordering isn't visible in this case. Interjections may carry
+traces of recruitment, but attrition need not expose those traces in an
+ordered sequence.
 
-\subsection{Stability through turnover}\label{sec:turnover}
+\subsection{Inventory turnover}\label{sec:turnover}
 
-Pathway residues record how interjectional forms entered the network. Turnover shows the complementary fact: the interjection
-profile can remain available while its lexical inventory changes.
-Individual forms enter and leave, but the broad profile remains
-available for new material.
+Pathway residues bear on how interjectional forms entered the network. Turnover
+asks the complementary descriptive question: how does the lexical inventory
+change? Inventory replacement is compatible with a persistent category
+position, but it doesn't by itself establish profile stability or
+projectibility.
 
 The Corpus of Historical American English (COHA) illustrates this
 turnover. In the 1820s the six most frequent interjection lemmas are
@@ -1878,42 +1865,43 @@ absent from the 1820s altogether, rises from nothing to 723.%
   \texttt{analysis/hand-extracted/} as
   \texttt{nay-yeah-coha-by-decade.csv} and
   \texttt{interjection-lemmas-coha-by-decade.csv}. The 1820s ranking is taken from the complete
-  tagged list for that decade, 111 forms, so it does not depend on the
+  tagged list for that decade, 111 forms, so it doesn't depend on the
   all-corpus top twenty; \mention{farewell}, \mention{yea}, \mention{ay} and
   \mention{lo} are frequent early and absent from that top twenty, and none of
   them displaces the six named here.
   Frequencies are normalized per million words. The interjection tag
   captures a conventional inventory rather than a theoretically motivated
   one; the point here is the turnover pattern, not the tagging decisions.}
-The items change while the projectible category position remains
-available.
+The tagged inventory changes substantially across the corpus period.
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=\textwidth]{interjection-turnover.pdf}
-  \caption{The inventory turns over while the category position holds. Each
+  \caption{Turnover in the COHA interjection-tag inventory. Each
     panel shows all twenty of the most frequent \textsc{uh}-tagged lemmas in
     COHA (grey), with one group picked out. Half the 1820s top six is gone by
     the 2010s, and the forms that replace it were absent or negligible when the
     corpus starts. Tokens per million words on a symmetric log scale, so that
-    forms at zero remain visible. Extracted 2026-07-27 and archived under
+    forms at zero remain visible. The tag inventory isn't an independent test
+    of category stability. Extracted 2026-07-27 and archived under
     \texttt{analysis/hand-extracted/}.}
   \label{fig:turnover}
 \end{figure}
 
 
 
-Regional variation shows the profile's availability under different
-local inventories.
+Regional variation supplies a synchronic comparison among local inventories.
 The GloWbE corpus \citep[1.9~billion words across 20 English-speaking
 countries]{daviesfuchs2015} shows that candidate interjectional forms
-are distributed unevenly across varieties, with \mention{lah} almost
+are distributed unevenly across country-labelled web sections, with \mention{lah} almost
 exclusively in Singapore and Malaysia, \mention{yaar} in India and
-Pakistan, and \mention{haba} in Nigeria. The corpus evidence establishes
-distributional conditioning; the linguistic analysis identifies the
-shared profile that makes those forms comparable.
+Pakistan, and \mention{haba} in Nigeria. The raw-string concentrations
+support a descriptive geographic claim, subject to the measurement limits in
+Section~\ref{sec:discussion}; they don't establish sociolinguistic
+conditioning.
 
-The cluster is also continuously replenished by onomatopoeic coinage. Two
+Onomatopoeic coinage is also a proposed source of new interjectional
+sign-types. Two
 clarifications, because \term{onomatopoeia} is often handled as though it
 named a category alongside noun and verb. It doesn't. It names a relation
 between a form and a sound, and forms standing in that relation are spread
@@ -1923,18 +1911,19 @@ verb in \mention{he banged the door}, and an interjection in
 onomatopoeias gets absorbed into the interjections. It's that imitation is
 one of the routes by which new forms arrive at the interjectional profile.
 
-Nor is the route closed. The stock of imitable sounds isn't fixed by the
+Nor is the route closed in principle. The stock of imitable sounds isn't fixed by the
 stock of animals: devices supply \mention{beep}, \mention{ping}, and
 \mention{whirr}, and any sound can be re-rendered, which is how comics gave
 English \mention{bam} and \mention{pow} beside older forms. Nonce
-interjections can be freely coined \citep[74]{quirk1985}, and new coinages
-immediately adopt the cluster profile: they're prosodically isolated,
-non-referential, emotively laden, and syntactically non-integrated.
+interjections can be freely coined \citep[74]{quirk1985}. Which of the three
+categories a coinage enters, and which properties it acquires with
+conventionalization, are empirical questions rather than automatic
+consequences of imitation.
 
-This generates a testable prediction: a newly conventionalized
-interjectional use should exhibit the full cluster profile without
-having traversed the documented noun-to-interjection or
-verb-to-interjection paths. Take \mention{bruh}. \textcite{oed_bruh} records it as a noun from 1894, as a
+This generates a testable prediction: a newly conventionalized interjectional
+use may acquire several parts of the recurrent profile without traversing the
+documented noun-to-interjection or proposed verb-to-interjection paths. Take
+\mention{bruh}. \textcite{oed_bruh} records it as a noun from 1894, as a
 title before a man's name, and from 1967 as a familiar form of address, where
 every quotation is vocative (\mention{Hey, bruh}, \mention{Be cool, bruh}). The
 standalone use addressed to nobody is later, and the entry doesn't record it as
@@ -1946,56 +1935,44 @@ an interjection at all. Its rise shows up in COCA, from 0.01 per million in
   string frequencies; see \path{analysis/hand-extracted/}.} That use is
 prosodically isolated, non-inflecting, non-referential, and syntactically
 non-integrated, even though the same word family includes the nominal lexemes
-just described. The category position remains
-available even as its members turn over.
+just described. It illustrates a candidate recruitment case; the corpus counts
+alone don't establish persistence of a category position.
 
 \textcite{dingemanse2020} characterizes such items as liminal signs,
 signs at the boundary between sound and speech, whose liminality is
 functional, not defective. Cultural evolutionary processes \enquote{sample
 the landscape of possible resources} \citep[191]{dingemanse2020}. The
-causal-network account describes that landscape as a property space
-structured by the recruitment pathways and synchronic links above.
+causal-network proposal describes that landscape as a property space whose
+structure may reflect the recruitment pathways and synchronic links above.
 
-The recruited, ordered, and replenished cluster is now ready for the
-paper's central inferential question: what can partial evidence license?
+The descriptive cluster, recruitment evidence, and candidate links now make
+the paper's inferential question precise: what should partial evidence
+license, and what would establish that it does?
 
-\section[Projectibility]{Projectibility: what the category lets you predict}\label{sec:projectibility}
+\section[Projectibility]{Projectibility as a testable hypothesis}\label{sec:projectibility}
 
-Section~\ref{sec:cluster} showed what each property, individually, lets
-you infer. Section~\ref{sec:causal-structure} identified the ordering
-and stabilizing links that couple those properties. This section asks a
-different question: what does the package license, and for whom?
-Section~\ref{sec:residues}
-treated retrodictive inference from residue to recruitment history; here
-projectibility means forward inference from observed properties of
-a form to properties not yet observed.
+Section~\ref{sec:residues} treated retrodictive inference from residue to an
+independently supported recruitment history. Forward projectibility has a
+different direction: from a restricted set of observations about a sign-type
+to a property or environment not yet observed. This section states those
+declarations and their failure conditions. It doesn't report a direct
+held-out evaluation.
 
-That formulation matters for the question of \emph{whose} inference is at
-issue. Speakers and hearers use partial cues to anticipate how a form will
-behave before they've observed its full distribution, and they do so without
-holding the category label; analysts run the same inference explicitly, from
-category membership, for field-specific purposes.
-Section~\ref{sec:proj-partial} separates the two.
-
-This section first shows how partial observations support participant
-inference, then how the same structure yields different predictions for
-syntax, semantics, and interactional pragmatics, and finally what fixes the
-domain those predictions fall in. As in Section~\ref{sec:intro}, bare \enquote{interjection}
-continues to refer to forms in the extension of all three field-relative nodes
-unless a subscript specifies otherwise.
-
-The running case is the word family \mention{damn}. Standalone
-interjectional \mention{damn!}, complement-taking \mention{damn these
-mosquitoes!}, and prenominal \mention{damn} in \mention{the damn car}
-belong to the same word family. They needn't share a lexeme.
+The distinction matters because three questions can otherwise collapse. A
+category may be independently well motivated; a causal account may explain
+some of its internal relations; and its classification may still fail to
+improve prediction of new cases. Conversely, failure of one declaration
+wouldn't abolish all three categories. The relevant claims have to be tested
+and demoted separately.
 
 \subsection{Partial-observation inference}\label{sec:proj-partial}
 
 Projectibility becomes circular if it says only this: if X is an
 interjection, it has interjection properties. That's trivially true of
-any category. Causal-network projectibility is different. Observing some
-cluster properties in a novel form licenses inference to other
-properties you haven't yet observed.
+any category. A legitimate declaration fixes the source evidence for a
+particular case and withholds its target. The target can belong to the
+category's broader individuation profile, but it can't be one of the
+observations used to classify that case.
 
 \begin{figure}[htbp]
 \centering
@@ -2014,7 +1991,7 @@ properties you haven't yet observed.
   hdr/.style={font=\bfseries, align=center}
 ]
 \node[hdr] at (0, 3.3) {observed};
-\node[hdr] at (5.6, 3.3) {licensed};
+\node[hdr] at (5.6, 3.3) {proposed target};
 \node[hdr] at (11.2, 3.3) {would defeat it};
 
 \node[obs] (o1) at (0, 2.1) {stands prosodically\\separate};
@@ -2022,11 +1999,11 @@ properties you haven't yet observed.
 
 \node[lic] (l1) at (5.6, 2.4) {works as a supplement};
 \node[lic] (l2) at (5.6, 1.0) {contributes\\use-conditionally};
-\node[lic] (l3) at (5.6, -0.4) {turns up at the front\\of a turn};
+\node[lic] (l3) at (5.6, -0.4) {is treated as a\\complete move};
 
-\node[def] (d1) at (11.2, 2.4) {*\mention{gee that it's\\expensive}};
-\node[def] (d2) at (11.2, 1.0) {*\mention{geed}, *\mention{gees}};
-\node[def] (d3) at (11.2, -0.4) {repetition flattens it\\into redundancy};
+\node[def] (d1) at (11.2, 2.4) {routinely fills an\\integrated phrase slot};
+\node[def] (d2) at (11.2, 1.0) {changes the host's\\truth conditions};
+\node[def] (d3) at (11.2, -0.4) {recipients wait for\\a continuation};
 
 \draw[arrow] (o1.east) -- (l1.west);
 \draw[arrow] (o1.east) -- (l3.west);
@@ -2039,161 +2016,148 @@ properties you haven't yet observed.
   {a defeasible default, not an entailment};
 \end{tikzpicture}%
 }
-\caption{What the category licenses, for \mention{gee}. Observing two
-properties licenses expectations about three others that haven't been
-checked, and each expectation names the observation that would defeat it.
-The predicted properties are not the ones that admitted the form, which is
-what keeps the inference from restating membership.}
+\caption{Three proposed projections for \mention{gee}. Two observations form
+the restricted source evidence; each target is withheld and paired with a
+defeating result. The diagram states declarations rather than reporting that
+their held-out success has been measured.}
 \label{fig:projection}
 \end{figure}
 
-Consider the standalone interjectional use of \mention{bruh}, a
-recently conventionalized form. A learner or hearer encountering that
-use for the first time observes a partial package: standalone position,
-prosodic isolation, morphological bareness, and stance meaning. From
-those observations, the three field-relative nodes license a battery of
-further expectations:
+Consider the recently conventionalized standalone use of \mention{bruh}.
+Standalone position, prosodic separation, morphological bareness, and stance
+meaning are useful observations, but they can't all be counted first as
+admission evidence and then as predictions. A declaration has to specify which
+classification was independently assigned, which observations supported that
+assignment in this case, and which new environment or property is withheld.
+Different declarations may use different subsets of the same
+category's wider diagnostic profile.
 
-\ea\label{ex:bruh}
-  \ea \intj{syn}: the interjectional use
-    won't inflect within that use (*\mention{bruhs}, *\mention{bruhed}),
-    will resist syntactic integration (*\mention{I think that bruh,
-    we're late}), and won't take a determiner or function as an argument
-    (*\mention{the bruh}, *\mention{Bruh surprised me}). This leaves
-    room for separate nominal or verbal lexemes in the same word family.
-  \ex \intj{prag}: the form should be available for
-    turn-initial or standalone interactional use.
-  \ex \intj{sem}: its expressive meaning is
-    expected to be use-conditional and speaker-oriented.
-  \z
-\z
-These expectations vary in strength, and the asymmetry matters:
+The category label adds no information after the complete vector from which it
+was deterministically computed. That isn't a sensible test of category
+utility. The relevant comparison asks whether a category- or network-structured
+representation generalizes from restricted, noisy, or missing evidence to
+independently measured targets better than an appropriate weaker
+representation.
 
-\begin{itemize}
-\item Near-entailments (a): the
-  \intj{syn} predictions mostly extrapolate
-  within the same domain from observed distributional facts. Any
-  framework recognizing the relevant morphosyntactic properties
-  generates many of the same predictions. These are real but not specific
-  to the causal-network account.
-\item Cross-domain inferences (b, c): the
-  \intj{prag} prediction (interactional-pragmatic
-  distribution from phonological form) and the
-  \intj{sem} prediction (use-conditional meaning
-  from stance expression) involve genuine leaps across domains. These are specific to the causal-network account: they rely on
-  the cluster's internal links, not on any single property.
-\end{itemize}
-All three are licensed because identifiable links order the cluster's
-properties. The non-referentiality ratchet
-(Section~\ref{sec:synchronic-coupling}) links loss of referential content with
-syntactic non-integration. Prosodic-syntactic coupling then links
-syntactic non-integration with prosodic isolation. The inferences are
-grounded in network order, not in definitions.
-
-Who does the projecting, though? A hearer meeting \mention{Bummer!} or
-\mention{groovy} for the first time doesn't run a taxonomy and then read
-off consequences. So it's worth separating two levels that the argument so
-far has run together.
-
-\term{Category-driven projection} is the analyst's. Given that a form
-belongs to the interjection cluster, expect the linked properties. That's
-projectibility in Goodman's sense, claimed throughout the preceding
-sections. \term{Cue-driven inference} is the participant's. The
-\mention{bruh} case above describes it without naming it: what the hearer
-has is standalone position, prosodic isolation, morphological bareness, and
-stance meaning, from which the stance reading follows. No category
-label need be represented for the reading to go through.
-
-The two aren't rivals. Cue-driven inference is reliable \emph{because} the cluster is
-coupled: the links in Section~\ref{sec:synchronic-coupling} are what make a
-partial package informative about the rest. Analyst and participant are two
-consumers of one causal structure, drawing on it for different purposes and
-with different explicitness. So \mention{Bummer!} and \mention{groovy} tell
-against an account on which the category label does the inferential work,
-and for one on which the coupling does. The label is the analyst's
-bookkeeping device for a structure participants exploit without naming.
-
-Fields differ in which links they track
-(Section~\ref{sec:proj-fieldrelative}); analyst and participant differ in
-whether the category figures in the inference at all. The two indices are
-independent. Nothing here says that speakers tacitly represent
-interjection-hood, which the account doesn't require.
+Analyst and participant claims also have to be separated.
+\term{Category-driven projection} is the analyst's epistemic use of a
+classification. \term{Cue-driven inference} would be a claim about what
+speakers or hearers anticipate from partial signals. The category label need
+not occur in a participant's psychology or cause the target behaviour. The
+present paper specifies analyst-facing declarations. Whether participants
+make corresponding online inferences requires separate psycholinguistic or
+interactional evidence and remains open.
 
 \subsection{What each node projects}\label{sec:proj-fieldrelative}
 
-The three interjection nodes established in
-Section~\ref{sec:fieldrelative-nodes} do their work as different packages of
-inference, not as rival definitions.
+The three categories do their work as different packages of proposed
+inference, not as rival definitions. Table~\ref{tab:declarations} fixes one
+non-trivial declaration for each. The source column identifies the restricted
+case-level evidence; it isn't an exhaustive definition of the category.
 
-\intj{syn} projects syntactic behaviour:
-supplement function, resistance to \mention{that}-complementation,
-resistance to coordination with non-interjections, and no ordinary
-argument structure. These predictions are grounded in the
-prosodic-syntactic coupling link from
-Section~\ref{sec:synchronic-coupling}. \intj{sem}
-projects meaning type, and here the projection has to reach past the
-properties that admitted the form. Independence, nondisplaceability,
-perspective dependence, and descriptive ineffability are what
-Section~\ref{sec:fieldrelative-nodes} uses to assign the node, so
-predicting them would only restate membership.
-\textcite{potts2007} lists two further properties of expressive content on
-the following page, and neither does admission work here. One is immediacy,
-where expressives \enquote{achieve their intended act simply by being
-uttered}. The other is repeatability, where repeated use has an effect
-\enquote{of strengthening the emotive content, rather than one of
-redundancy} \citep[167]{potts2007}. Both are testable and both can fail.
-\mention{Damn, damn, damn} intensifies where \mention{The car broke, the car
-broke, the car broke} doesn't, and a form that flattened into redundancy
-under repetition would defeat the prediction. \intj{prag}
-projects interactional-pragmatic behaviour, and the same discipline applies.
-Turn-initial or standalone positioning and stance display are admission
-criteria. What they let us predict is uptake: that the form will be treated
-as a complete move, so that a recipient's next turn responds to it rather
-than waiting for its continuation, and that it will be usable as a
-backchannel without taking the floor. Both are observable in sequence, and a
-form routinely treated as an incomplete turn would defeat them.
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{Principal prospective projective declarations}
+\label{tab:declarations}
+\begin{tabular}{@{}
+  >{\raggedright\arraybackslash}p{.15\textwidth}
+  >{\raggedright\arraybackslash}p{.25\textwidth}
+  >{\raggedright\arraybackslash}p{.27\textwidth}
+  >{\raggedright\arraybackslash}p{.24\textwidth}
+  @{}}
+\toprule
+Category & Restricted source evidence & Withheld target & Defeating result \\
+\midrule
+\intjshort{syn} &
+Classification established in observed grammatical frames, excluding the
+target frame &
+Integration, complementation, coordination, or supplement behaviour in an
+unobserved frame &
+No useful held-out advantage over a component-property or supplement-function
+baseline. \\
+\addlinespace
+\intjshort{sem} &
+Use-conditional expressive classification, excluding immediacy and repetition
+behaviour &
+Immediacy and intensifying rather than redundant repetition
+\citep[167]{potts2007} &
+Delayed or descriptive contribution, or repetition that produces ordinary
+redundancy. \\
+\addlinespace
+\intjshort{prag} &
+Conventional interactional classification in a source environment, excluding
+the target sequence &
+Recipient uptake, next-turn treatment, return of the floor, or flexibility in
+a withheld sequential environment &
+Routine treatment as incomplete, or no held-out advantage over a
+category-free interactional baseline. \\
+\bottomrule
+\end{tabular}
+\end{table}
 
-The nodes overlap because some links, especially prosodic isolation
-and non-referentiality, contribute to more than one node. They come
-apart because other links are field-specific. A novel form categorized
-as \intj{syn} (prosodically isolated,
-non-inflecting, syntactically non-integrated) should tend also to be
-\intj{sem} (use-conditional, speaker-oriented)
-and \intj{prag} (turn-initial, available for
-backchanneling). Central cases such as \mention{wow}, \mention{ouch},
-and \mention{hey} fit that default. Boundary cases locate the decoupling, \mention{mm-hm} among them
-\citep{oconnell2005}.
+These declarations need not be equally strong. Many \intj{syn} targets may
+follow almost directly from observed morphosyntax and be available to any
+framework that represents the component properties. The semantic and
+interactional targets reach farther, but that makes their empirical burden
+greater rather than their success automatic.
+
+Cross-category declarations are possible too: independently assigned
+\intj{syn} may warrant an expectation about \intj{sem} or
+\intj{prag}, and conversely. There are six directed relations, they needn't be
+symmetrical, and the paper doesn't assume that all succeed. Each retained edge
+requires source evidence that excludes its target and a failure rule. The
+three-way overlap adds nothing further: canonical co-membership merely makes
+the successful component projections jointly available.
 
 The three constructions of \mention{damn} show the same point inside a
 single word family.
 
-For standalone
-\mention{damn!}, all three nodes agree: the form is prosodically
+Standalone
+\mention{damn!} belongs to all three categories: the form is prosodically
 isolated, syntactically non-integrated, use-conditional, and available
 as a stance marker. For \mention{damn these mosquitoes!}, the picture
-is mixed: \intj{syn} holds (it heads an IntjP)
-but with limited complement-taking;
-\intj{sem} holds (the meaning is expressive);
-\intj{prag} is weakened (it's not a backchannel or
-turn-management device).
+is mixed: its \intj{syn} classification is qualified because
+\textit{CGEL} treats it as heading an IntjP with limited complement-taking;
+\intj{sem} holds because the meaning is expressive. Table~\ref{tab:diagnostic-matrix}
+doesn't assign \intj{prag} because this sign-type isn't evidenced as a
+minimal backchannel or turn-management resource.
 
-For prenominal \mention{damn} in \mention{the damn car}, the nodes
+For prenominal \mention{damn} in \mention{the damn car}, the categories
 diverge further: \intj{syn} fails entirely (the
 form is syntactically integrated inside a noun phrase), but
-\intj{sem} holds (use-conditional, perspective-
-dependent). Neither \textit{CGEL}'s syntax nor Potts's semantics alone
-predicts this gradient. The three-node analysis does, because it tracks
-which links are active in each construction.
+\intj{sem} holds (use-conditional, perspective-dependent). Neither
+\textit{CGEL}'s syntax nor Potts's semantics needs to reproduce the other's
+extension. The three-category analysis represents the divergence without
+forcing a single verdict across inquiries.
+
+\subsection{What would establish the forward claim}
+
+A direct evaluation should hold out an entire lexical form family or
+constructional family, not random tokens from an already familiar
+item--variety combination. Source classifications have to be assigned without
+access to target outcomes. The comparison isn't category membership added
+after its complete diagnostic vector. The test instead compares structured generalization from
+restricted evidence with a category-free local-cue model of
+comparable complexity and with the target base rate.
+
+For interactional targets, a spoken corpus can supply independently measured
+next-turn response, recipient uptake, and floor-transfer trajectories. For
+semantic repeatability, a separate judgement or production design may be
+needed. Evaluation should be paired on the same held-out families and assess
+both discrimination and calibration. No useful held-out advantage, serious
+miscalibration, or systematic failure among supposedly central members would
+defeat the corresponding declaration. Until such a study is completed, the
+forward projectibility claim remains prospective.
 
 \subsection{Category vs.\ function}
 
 \textit{CGEL}'s distinction between category and function sharpens the
-projectibility point: what does the \intj{syn} category label add
+projectibility test: what should the \intj{syn} classification add
 beyond the supplement function label? Supplements of any category
 (noun phrases [NPs], adjective phrases [AdjPs], relative clauses) share
 prosodic isolation and syntactic
-non-integration. But \intj{syn} adds a package of
-predictions that no other category-in-supplement-function supports:
+non-integration. The \intj{syn} account declares a wider package:
 
 \begin{itemize}
 \item Non-referentiality. Supplements can be referential
@@ -2202,156 +2166,135 @@ predictions that no other category-in-supplement-function supports:
 \item Emotive/interpersonal force. Not all supplements express
   stance (\mention{Dr Brown} expresses none); interjections
   characteristically do (\mention{ugh}, \mention{yay}).
-\item Free coinage. No other category in supplement function
-  can be freely coined via onomatopoeia. Comics gave English
-  \mention{bam} and \mention{pow}; nothing comparable mints new
-  relative clauses.
+\item Free coinage. Onomatopoeia supplies a productive route into some
+  interjectional sign-types. Comics gave English \mention{bam} and
+  \mention{pow}; the same route isn't characteristic of relative clauses or
+  ordinary NP supplements.
 \item Non-inflection. NP supplements inflect freely
   (\mention{a lecturer}, \mention{two lecturers}); interjections don't
   (*\mention{ouches}).
 \end{itemize}
 
-The function label tells you about syntactic integration. The category
-label tells you about inference: it licenses a package of predictions
-that the function label alone can't provide. The category/function distinction matters
+The function label tells us about syntactic integration. The category
+classification proposes a wider family of inferences. The category/function distinction matters
 beyond the \textit{CGEL} tradition: any framework that distinguishes what kind of
 thing an expression is from what job it's doing in a particular clause
-will face the same question. The causal-network answer is that the
-category earns its keep by licensing inferences that the function
-doesn't.
+will face the same question. Whether the classification earns its keep
+requires the held-out comparison described above; the component contrasts
+motivate that test but don't substitute for it.
 
 \subsection{What sets the domain of projection}\label{sec:proj-domain}
 
 Categories don't all project in the same domain, and what fixes the domain
-is where the causal links run. Nouns project morphosyntactically:
-\mention{lecturer} takes a determiner, inflects for number, and fills an
-argument slot. Categorizing something as a noun tells you almost nothing
-about its pragmatics, since nouns aren't a pragmatic category. Interjections
-come out the other way, and the reason is the same reason.
+should be where the relevant dependencies run. Nouns offer familiar
+morphosyntactic examples: \mention{lecturer} takes a determiner, inflects for
+number, and fills an argument slot. The three interjection categories instead
+divide the proposed grammatical, semantic, and interactional target families
+among themselves.
 
-For interjections, the situation is reversed. The three nodes overlap,
-and the richest projectibility belongs to
-\intj{prag}, the interactional-pragmatic
-cluster.
-\textcite{dingemanse2024} reaches the same conclusion from interactional
-data: the most frequent and functionally central interjections are
-interactional tools (continuers, repair initiators, change-of-state
-tokens) rather than emotive exclamations, and their primary
-projectibility is about sequential position and conversational
-management. For forms at the intersection of all three nodes, the strongest inferences
-are about use, not denotation. \mention{Oh} shows the
-asymmetry. From \intj{syn} you get what any
-supplement gives you: prosodic isolation, no inflection, no argument structure.
-From \intj{prag} you get a turn position,
-availability as a response token, and the display of evolving knowledge
-described in Section~\ref{sec:pragmatics}. Same form, and the two nodes differ
-in how much they buy.
+The interactional literature motivates the hypothesis that
+\intj{prag} will support the richest projections.
+\textcite{dingemanse2024} shows that frequent, functionally central
+interjections include continuers, repair initiators, and change-of-state
+tokens rather than only emotive exclamations. That makes sequential position,
+floor transfer, and recipient treatment natural targets. It doesn't show
+that \intj{prag} classification predicts held-out outcomes better than the
+local cues from which it was assigned.
+
+\mention{Oh} illustrates the proposed asymmetry. Its \intj{syn}
+classification concerns packaging and distribution; its \intj{prag}
+classification concerns change-of-state and response uses. The same sign-type
+can make two projective families available. Its co-membership
+doesn't create a third source of inference.
 
 The contrast with nouns and verbs concerns where the density lies, not how
 much structure each node carries.
 \intj{syn} is thin next to those nodes, lacking
 the network of agreement, argument realization, derivation, and inflectional
-behaviour that makes them so stable. What the three nodes divide between them
-is the kind of prediction each supports, set out in
-Section~\ref{sec:proj-fieldrelative}.
+behaviour associated with major lexical categories. The empirical question is
+whether its thinner distributional package still generalizes usefully to
+withheld frames.
 
-Why pragmatic in this case? Because causal links generate predictions
-within the domains they operate in. The prosodic-syntactic coupling from
-Section~\ref{sec:synchronic-coupling}
-predicts prosodic and syntactic behaviour, with no corresponding
-prediction about morphological paradigms or truth-conditional content.
-Regional/indexical conditioning predicts uneven persistence across
-varieties, which is why \mention{lah} and \mention{yaar} are entrenched in some
-Englishes and absent from others, with no corresponding prediction about
-inflectional regularity. The strongest established links among the three
-interjection nodes are prosodic and interactional; the regional or
-indexical link remains a maintenance hypothesis. These links and
-hypotheses underwrite predictions in their respective domains.
-
-The same point holds outside interjections. Noun projectibility is
-morphosyntactic because the underlying processes (agreement, structural
-analogy, discourse frequency) operate in morphosyntactic domains.
+Why might interactional targets be richest? Because routine entrenchment, if
+it operates as proposed in Section~\ref{sec:synchronic-coupling}, connects
+short, standalone forms with recurrent sequential jobs. Prosodic--syntactic
+coupling instead motivates grammatical packaging targets. Regional or
+indexical conditioning may explain uneven inventory persistence but remains a
+maintenance hypothesis. These differently graded links motivate projections
+in different domains; they don't establish their accuracy.
 
 This connects to the content/procedural distinction. The central
-projectibility of interjections is procedural and use-conditional rather
-than denotational \citep{TraugottDasher2002}. The
-\intj{sem} (expressive) cluster is the semantic
-reflex: use-conditional meaning is the semantic signature of procedural
-content. The same pattern shows up elsewhere. \term{Animacy} projects grammatically (argument realization,
+meaning hypothesis for many interjectional sign-types is procedural and
+use-conditional rather than denotational \citep{TraugottDasher2002}. The
+\intj{sem} category isolates that meaning contribution and makes immediacy
+and repeatability explicit targets. The same general relation between causal
+domain and projective domain appears elsewhere. \term{Animacy} projects grammatically (argument realization,
 reference tracking); \term{colour} projects ecologically (edibility,
 toxicity) but usually doesn't project grammatically in the way animacy
-can \citep[cf.][]{seifart2010}. In each case, the domain of
-projectibility follows from the underlying processes.
+can \citep[cf.][]{seifart2010}.
 
-The richest projectibility is pragmatic, but
-\intj{syn} still belongs in the grammar
-because it's projectible and has its own causal links. Neutralize
-prosodic isolation and the form is reclassified, which is what happens to
-prenominal \mention{damn} in \mention{the damn car}. The syntactic category
-licenses distributional inference: it predicts supplement function,
-resistance to embedding under reported speech (*\mention{She said that damn}),
-and coordination restrictions, even if those predictions are less rich than the
-pragmatic ones. A thin syntactic node is still a projectible syntactic
-node. The framework requires reliable inference, and
-\intj{syn} does.
+The relative richness of the three projective families is a result
+for future comparison, not a premise. Nor does \intj{syn}'s grammatical
+standing depend on winning that comparison: its independent distributional
+motivation can survive failure of a proposed cross-domain edge. What would
+fail is the stronger claim that this classification earns additional standing
+through forward projectibility.
 
 \section{Discussion}\label{sec:discussion}
 
 \subsection{Empirical probes and boundary conditions}
 
-Section~\ref{sec:projectibility} asked what categorizing a novel form as
-an interjection lets you predict about that form. At the category level,
-the causal-network account should also explain patterns across the
-interjectional region as a whole. As Section~\ref{sec:prototype} argued, what
-the causal-network account adds to what prototype theory already accommodates
-is network-order predictions with named defeat conditions. The probes
-below address profile stability, boundary behaviour, and failure. They
-aren't tests of corrective control.
+Section~\ref{sec:projectibility} stated forward declarations whose held-out
+success remains prospective. The existing corpus and historical probes bear
+on different claims: recruitment, residue, country-level frequency variation,
+inventory turnover, and failure. They don't jointly constitute a direct test
+of projectibility or corrective control.
 
 The strongest probe is pathway residue. If interjections are recruited by
 different causal pathways, residual properties should line up with
 recruitment history. The defeat condition is random distribution:
 retained complements, euphemistic deformation, atypical phonology, and
 regional skew should show no relation to source pathways. The evidence
-in Section~\ref{sec:residues} supports the residue prediction, and the
-pre-registered morphology-gain study adds an exit-residue case:
-\mention{wowed}, \mention{booed}, \mention{oohed}, and \mention{shooed}
-gain syntactic integration while retaining source-interjection semantics.
-The payoff is pragmatic and diachronic: boundary failures diagnose
-recruitment routes and explain why later uses keep source-specific
-residues.
+is uneven. Gehweiler's \mention{gee} history documents an invocative route
+and its euphemistic phonological residue. Complement-taking \mention{damn} is
+compatible with a verbal or optative source, but the sequence is
+reconstructive. The preregistered derivative study adds a narrower exit
+result: selected \mention{wow}, \mention{boo}, \mention{ooh}, and
+\mention{shoo} derivatives retain source-interjection semantics in their
+included VP-head uses. Together these findings support path dependence more
+strongly than they establish a category-wide causal network.
 
-A second probe asks whether conditioning recovers structure. Apparent
-gradation at the interjection boundary should decompose when conditioned
-on register, dialect, or community. The defeat condition is parity
-between conditioned and pooled models. A proof-of-concept probe uses
-GloWbE frequency data \citep{daviesfuchs2015}: for the 10 most frequent
-interjection-tagged items plus regional and boundary items,
-frequency-per-million was extracted by country (20 countries) by raw
-string search, and the coefficient of variation (CV; standard deviation
-divided by the mean) was computed across countries.
+A second probe asks whether country contributes variation to item frequencies.
+It's weaker than testing whether conditioning decomposes a category
+boundary, which would require credible item-type-by-country comparisons.
+GloWbE frequency data \citep{daviesfuchs2015} provide the narrower probe: for
+the 10 most frequent interjection-tagged items plus regional and boundary
+items, frequency per million was extracted by country (20 countries), and the
+coefficient of variation (CV; standard deviation divided by the mean) was
+computed across countries.
 
-The results show three tiers of geographic conditioning. Regional
+The descriptive counts show marked geographic concentration. Regional
 interjections (\mention{lah}, \mention{yaar}, \mention{haba}) are
-near-categorical: \mention{lah} occurs at 9.35 per million in Malaysia
+highly concentrated: \mention{lah} occurs at 9.35 per million in Malaysia
 and 6.72 in Singapore but near zero elsewhere; \mention{yaar} at 2.88
 in Pakistan and 2.33 in India but near zero elsewhere; \mention{haba}
-at 8.78 in Nigeria but near zero elsewhere.
+has a raw-string upper bound of 8.78 in Nigeria and is near zero elsewhere.
+\textcite{unuabonahdaniel2020}'s manual exclusions reduce the Nigerian count
+from 373 raw hits to 248 relevant tokens, approximately 5.84 per million.
 
-Core interjections show
-intermediate but structured variation: \mention{ah} has the highest
+Core items also vary: \mention{ah} has the highest
 CV among core items (0.71), with Singapore (60.42) and Jamaica (53.16)
 at eight times the rate of Kenya (7.62). Even broadly distributed items
 like \mention{yeah} (CV 0.55) show a 6:1 ratio between the United
 States (103.78) and Tanzania (16.85). Only \mention{yes} and
 \mention{no} approach uniformity (CVs of 0.21--0.22). Boundary items
-continue the pattern: the fillers \mention{um} (CV 0.61) and
+vary too: the fillers \mention{um} (CV 0.61) and
 \mention{uh} (CV 0.76) and the routine formula \mention{bye} (CV 0.61)
-all show structured geographic variation.
+all show geographic variation.
 
 These coefficients are estimated from twenty countries, so they carry more
-uncertainty than a bare figure suggests, and it's worth saying which
-comparisons survive it. Bootstrapping over the twenty sections, the
+uncertainty than a bare figure suggests. Bootstrapping over the twenty
+sections identifies which comparisons survive it. The
 uniformity of \mention{yes} and \mention{no} is the firm result: their
 intervals sit below eleven of the thirteen other core items, overlapping only
 \mention{hello} and \mention{ha}. The ordering within the rest of the core
@@ -2363,20 +2306,20 @@ altogether: with a form absent from eighteen of twenty sections the mean sits
 near zero and the coefficient becomes unstable, so \mention{lah}'s interval runs from 0.89 to 4.27. Their concentration is
 better read off the counts than off a dispersion statistic.
 
-Conditioning on country recovers structure at every level of this
-sample. Variety structures the apparent gradience between core
-interjections, fillers, and boundary items.
+Country contributes additional variation to overall item frequencies in this
+sample. The data doesn't test whether country effects differ systematically by
+item type or whether category boundaries decompose under conditioning.
 
-A Bayesian multilevel model (negative binomial with crossed random
-effects for item and country) supports the same point. Adding country as
-a grouping factor improves prediction over an item-only baseline: the
-country-level random-effect standard deviation is 0.44 (95\% credible
-interval [CrI]: 0.28--0.65), and the conditioned model outperforms the
-unconditional model by 18 expected log predictive density (ELPD) units
-(standard error [SE] 13) on exact leave-one-out cross-validation.
+A Bayesian multilevel model (negative binomial with crossed random effects for
+item and country) estimates positive country-level variation: the country
+random-effect standard deviation is 0.44 (95\% credible interval [CrI]:
+0.28--0.65). The estimated predictive gain over the item-only model is
+positive but imprecise: 18 expected log predictive density (ELPD) units with a
+standard error (SE) of 13 on exact leave-one-out cross-validation.
 
-The descriptive CV results are the primary evidence; the model shows
-that the pattern survives a crossed random-effects structure. Full model
+The descriptive counts and CVs are the primary evidence; the model suggests
+additional overall country variation under a crossed random-effects
+structure. Full model
 specification and results are in the
 supplementary materials.\footnote{\ifblind Available at
   [link removed for blind review].\else Available at
@@ -2455,8 +2398,9 @@ bounds. Raw strings are imperfect proxies too:
 \mention{oh}, \mention{well}, \mention{right}, and \mention{like} are
 not automatically interjection tokens. Some are clausal, quoted,
 discourse-marker uses, literary representations, or noise. The
-methodological payoff is that conditioning by variety reveals structure
-that pooled category labels hide.
+methodological payoff is narrower: the validity of tag-restricted and raw
+string measures varies by country, so pooled counts can hide measurement
+problems as well as linguistic variation.
 
 A third, weaker probe concerns hub-property asymmetry. One property may
 be more central to network order than others, with prosodic isolation
@@ -2474,11 +2418,12 @@ noun and interjection uses (as with \mention{God}). This suggests
 prosodic isolation may be the hub, but the evidence is indirect.
 
 The probes differ in evidential weight. Pathway residue is the main
-explanatory payoff, conditioning by variety is a proof of concept, and
-hub-property asymmetry is an open conjecture. Prototype theory describes
-the gradience but doesn't predict the trajectory of entry, the
-pathway-specific structure of boundary cases, or the structure hidden in
-apparent variation.
+explanatory payoff, though only the invocative route is documented in detail.
+The GloWbE analysis establishes additional overall country variation rather
+than boundary decomposition, inventory counts establish turnover rather than
+stability, and hub-property asymmetry is an open conjecture. Prototype theory
+describes gradience but doesn't by itself tie independently warranted
+histories to source-specific residues.
 
 At the framework level, if a feature-based account
 (e.g., [\textsc{+peripheral}, \textsc{-argument-taking},
@@ -2492,9 +2437,10 @@ property list.
 
 The boundary disputes that embarrassed classical category theory
 (interjections vs.\ nouns, verbs, adverbs, fillers, routine formulae)
-are field-relative predictions of the causal-network account. Each
-boundary reflects partial causal-link overlap and differences in what a
-field needs the category to predict.
+become intelligible once the three field-relative cuts are separated. Each
+dispute may reflect partial property overlap and differences in what a field
+needs its classification to distinguish. The disputes motivate that analysis;
+they aren't independent evidence for every proposed causal link.
 
 Routine formulae (\mention{bye}, \mention{hello}, \mention{sorry}) share
 prosodic isolation and pragmatic function with interjections but add
@@ -2514,65 +2460,59 @@ overlapping links (processing-pressure management rather than
 emotive expression).
 
 The Ameka-Wilkins debate can be reframed in these terms. Ameka's
-separation is right for a field that needs to predict social routines and
-speech-act felicity \citep[109]{ameka1992}. Wilkins's inclusion is right
-for a field that needs to track pragmatic and semantic overlap with
-interjections \citep[142]{wilkins1992}. A causal-network account accommodates both
-observations because projectibility is indexed to explanatory purpose.
+separation preserves distinctions relevant to social routines and
+speech-act felicity \citep[109]{ameka1992}. Wilkins's inclusion preserves
+pragmatic and semantic overlap with interjections \citep[142]{wilkins1992}.
+The scope of each classification is indexed to its explanatory purpose; its
+adequacy still depends on the distinctions and projections the evidence
+supports.
 
 \section{Conclusion}\label{sec:conclusion}
 
-English interjections are a category whose members support projectible
-inferences about use. Assigning a form to it lets an analyst predict
-prosodic packaging, supplement function, use-conditional stance,
-sequential position, response function, and uptake, and the coupling that
-licenses those predictions is what lets speakers and hearers anticipate the
-same behaviour from partial cues. The category is thin as syntax but rich
-as pragmatics.
+The singular label \term{interjection} conceals three legitimate but
+non-identical classifications. \intj{syn} is principally grammar-facing,
+\intj{sem} semantics-facing, and \intj{prag} interaction-facing. Each cuts
+through a mixed network rather than containing properties from only one
+domain. Canonical sign-types belong to all three, but their overlap isn't a
+fourth category and contributes no independent projective force.
 
-The reason is that the familiar interjection profile is stable and
-causally ordered. Diachronic pathways recruit forms into the
-profile: grammaticalization via semantic bleaching, pragmaticalization
-via syntactic deactivation, and nonce coinage via onomatopoeia.
-Synchronic links then structure the profile: prosodic-syntactic
-coupling, the non-referentiality ratchet, interactional routine
-entrenchment, and possibly regional/indexical conditioning. These links
-explain why partial observations support further inferences.
+The strongest empirical result is path dependence. The history of
+\mention{gee} documents an invocative route and euphemistic residue.
+Complement-taking \mention{damn} is compatible with a verbal or optative
+source, though the sequence remains reconstructive. Selected verbal
+derivatives retain source-interjection semantics in included VP-head uses.
+The preregistered \mention{fie} study fails to support ordered erosion.
+GloWbE establishes additional country-level variation in overall item
+frequencies, and COHA illustrates inventory turnover; neither result
+establishes category-boundary decomposition or stable projectibility.
 
-The field-relative decomposition shows why the traditional label
-is useful but not uniform. Syntax, semantics, and interactional
-pragmatics track overlapping nodes with different predictive payoffs.
-Boundary cases such as \mention{damn these mosquitoes!}, prenominal
-\mention{damn}, fillers, routine formulae, and obsolete \mention{fie}
-aren't embarrassing exceptions; they show which links are active and
-which have weakened.
+Those findings support parts of the proposed causal order and motivate the
+remaining links as testable hypotheses. Prosodic--syntactic coupling and
+routine entrenchment are stabilizer candidates; regional or indexical
+conditioning is a maintenance hypothesis. The evidence doesn't establish the
+full network, category-level stability, or corrective control.
 
-The broader pragmatic payoff is path dependence. Interjections don't
-merely express emotion; they enter utterances with histories that shape
-stance, sequence, and uptake. \mention{Gee}, \mention{damn},
-\mention{bruh}, \mention{wowed}, and \mention{fie} matter because they
-show projectible profiles, boundary behaviour, exit residues, and
-failure conditions. They show how a category with no classical essence can support pragmatic
-inference.
+The three-category architecture makes the forward question
+precise. Each classification supplies prospective declarations with
+independent targets: unobserved grammatical environments, semantic immediacy
+and repeatability, recipient uptake, next-turn treatment, and floor transfer.
+A held-out comparison against category-free baselines is still needed.
+Failure would demote the corresponding projective claim; it wouldn't by
+itself abolish the other categories.
 
-The account isn't specific to interjections. Wherever properties cluster
-without a definition holding them, the same questions arise: which links are
-active, what recruited the members, and what happens when a link fails.
-
-The evidence supports a bounded declaration, a stable profile, and network
-order, and it motivates candidate grounds without settling them. It doesn't
-establish corrective control. That limit matters: pragmatic categories can be
-stable and inductively useful without being maintained by a
-perturbation-sensitive control system. English interjections are one
-such category.
+The general lesson is methodological. When a traditional term spans grammar,
+meaning, and interaction, the choice isn't between one privileged syntactic
+category and an undifferentiated functional profile. Several inquiry-relative
+categories may be real, overlap systematically, and earn different standing.
+The work is to identify their bearers, keep their projections non-circular,
+and match each causal claim to the evidence that supports it.
 
 \ifblind\else
 \section*{Acknowledgements}
 
 I compiled empirical material for the Wikipedia article
 \enquote{English interjections}, of which I'm the primary author. This
-paper reanalyses that material through the lens of pragmatic
-projectibility.
+paper reanalyses that material through the lens of projectibility.
 
 Supplementary materials (data and analysis code for the corpus tests)
 are available at
@@ -2605,8 +2545,9 @@ regional interjections (\mention{lah}, \mention{yaar}, \mention{haba}),
 the semi-regional \mention{eh}, the boundary items \mention{cheers} and
 \mention{bye}, and the fillers \mention{um} and \mention{uh}.
 
-Figure~\ref{fig:country-variation} displays raw frequency per million
-words by country for each item.
+Figure~\ref{fig:country-variation} displays frequency per million words by
+country for each item. Core-item counts are tag-restricted; regional-item
+counts are raw strings because the tagger doesn't recognize them.
 
 These counts are a model-dependent measurement rather than a transparent one:
 a tagger stands between the text and the number, so the figures carry the
@@ -2655,14 +2596,13 @@ neither string is ever assigned that tag: all 373 Nigerian tokens of
 \mention{haba} are tagged as common or proper nouns, 65\% of them on a reading
 that includes the proper noun. The regional figures are raw strings
 where the core figures are tag-restricted, which inflates the regional items
-relative to the items they're set beside, though by less than it would if the
-tag were reliable. The size of that inflation is indicated by
+relative to the items they're set beside. False positives in the tagged core
+counts partially mask the mismatch. Its scale is indicated by
 \textcite{unuabonahdaniel2020}, who work on \mention{haba} in the same
 Nigerian component and report 248 tokens against the 373 a raw query returns.
-They reach the smaller figure by inspecting each hit: their data were
-\enquote{manually searched in order to eliminate cases in which the BIs were
-found in utterances made in Nigerian Pidgin}, in an indigenous Nigerian
-language, or in posts repeated by copying \citep[69]{unuabonahdaniel2020}.
+They reach the smaller figure by inspecting each hit and excluding Nigerian
+Pidgin, indigenous-language, and duplicated material
+\citep[69]{unuabonahdaniel2020}.
 Two of those three exclusions are invisible to a frequency query, and the
 third, duplication, is a known property of the corpus. That's a limit imposed by the tagger rather than a choice: a
 form has to be known to the tagger before it can be tagged, and a borrowed
@@ -2675,9 +2615,10 @@ trained elsewhere will miss.
   \caption{Interjection frequency per million words across 20 GloWbE
     countries. Red points indicate the median across items within each
     country. Regional items (\mention{lah}, \mention{yaar},
-    \mention{haba}) cluster in one or two countries. Core items show
-    structured cross-country variation. Only \mention{yes} and
-    \mention{no} approach uniformity.}
+    \mention{haba}) cluster in one or two countries. Core-item frequencies
+    also vary across sections, while only \mention{yes} and \mention{no}
+    approach uniformity. Tagging and raw-string validity differ by item and
+    country, as discussed in the text.}
   \label{fig:country-variation}
 \end{figure}
 
@@ -2728,43 +2669,43 @@ Exact leave-one-out cross-validation (confirmatory models):
 \end{tabular}
 \end{center}
 
-The conditioned model (m1) is preferred. Adding item-type fixed effects
-(m2) doesn't improve on m1 because the item random effect already
-captures between-item variation. The exploratory model (m3) is excluded
+The conditioned model (m1) has the highest ELPD point estimate, but its
+estimated advantage over m0 is imprecise. Adding item-type fixed effects (m2)
+doesn't improve the point estimate over m1, while the item random effect
+captures substantial between-item variation. The exploratory model (m3) is excluded
 from formal ranking because 9 observations retain Pareto $k > 0.7$
-after moment matching, indicating unstable PSIS leave-one-out estimates.
+after moment matching. The corresponding PSIS leave-one-out estimates are
+unstable.
 
 Random effects from the conditioned model (m1):
 \begin{itemize}
   \item Country standard deviation (SD) = 0.44 (95\% CrI: 0.28--0.65)
   \item Item SD = 2.07 (95\% CrI: 1.49--2.96)
-  \item Ratio: 4.7:1 (item identity explains more variation, while
-    country adds structure)
+  \item Ratio: 4.7:1 (item identity varies more, while country contributes
+    additional overall variation)
 \end{itemize}
 
-The evidence is directionally consistent: conditioning on country
-improves prediction ($\Delta$ELPD = 17.9, SE 13.3), and the country
+The evidence is directionally consistent: conditioning on country has a
+positive estimated predictive difference ($\Delta$ELPD = 17.9, SE 13.3), and the country
 random-effect SD is positive across the interval. The SE is large
-relative to the point estimate, reflecting the small sample (18 items $\times$ 20
+relative to the point estimate in this sample (18 items $\times$ 20
 countries = 360 observations). The descriptive CV results in the main
 text provide the primary evidence for the conditioning probe; the model
 suggests the pattern survives the crossed random-effects structure.
 
-Since the hand audit of \mention{ha} in Section~\ref{sec:discussion} shows
-that one item's counts carry a validity rate that varies by country, the model
-was refitted with that error propagated rather than assumed away. Each
-country's rate enters as a draw from its \textsc{beta} posterior, thinning
-\mention{ha}'s count while leaving the other seventeen items untouched, and
-the pair of models is refitted over draws. Correcting it moves little: the
-country random-effect SD goes from 0.42 to 0.44 with iterated laughter counted
-and 0.45 with it excluded, and the model comparison moves from 28.8 to 26.9
-and 28.5 across the same specifications. Two limits on that reassurance. The
-refits use approximate rather than exact leave-one-out, so their absolute
-values are not comparable with the figures above and only the internal
-contrast is informative. And a hand-coded concordance measures precision, so
-this corrects tokens the tagger wrongly admitted and not those it missed.
+The hand audit of \mention{ha} in Section~\ref{sec:discussion} shows that its
+counts carry a country-varying validity rate. To propagate that error, each
+country's rate thins \mention{ha} by a draw from its \textsc{beta} posterior;
+the other seventeen items stay unchanged, and both models are refitted across
+draws. The correction is small. The country random-effect SD shifts from 0.42
+to 0.44 with iterated laughter counted and 0.45 with it excluded; the model
+comparison shifts from 28.8 to 26.9 and 28.5. These approximate
+leave-one-out values permit only an internal contrast. Since concordance
+coding estimates precision, the correction removes false positives, not
+missed tokens.
 
-\section[Morphology gain in COHA]{Supplementary materials: morphology-gain analysis (COHA)}
+\clearpage
+\section[Semantic residue in COHA]{Supplementary materials: semantic residue in verbal derivatives (COHA)}
 \label{app:morphgain}
 
 \subsection{Data and extraction}
@@ -2840,9 +2781,13 @@ Jeffreys 95\% interval to exceed 0.5.
 \end{tabular}
 \end{center}
 
-All four families support the pre-registered prediction. The secondary
-diachronic model wasn't estimated because semantic residue had no
-variation among included VP-head tokens.
+All four families meet the preregistered support criterion. The inference is
+conditional on the design: source families were selected through overt
+derivatives, and the success criterion required both VP-head syntax and
+semantic residue. The result concerns semantic persistence in these
+selected derivative VP-head uses, not a general tendency for interjections to
+gain morphology or syntax. The secondary diachronic model wasn't estimated
+because semantic residue had no variation among included VP-head tokens.
 
 \subsection{Reliability and files}
 
@@ -2887,6 +2832,7 @@ The scripts are:
   \item \path{morphgain-confirmatory-reliability.py}
 \end{itemize}
 
+\clearpage
 \section[Fie in COHA]{Supplementary materials: obsolescence analysis (\mentionhead{fie} in COHA)}
 \label{app:fie}
 
@@ -2946,15 +2892,18 @@ probability crosses 0.5):
 
 Pre-committed prediction: Pr($\tau_{\text{int}} < \tau_{\text{sem}} <
 \tau_{\text{syn}}$) = 0.13 (threshold for \enquote{inconsistent}: $< 0.25$).
-The predicted sequential erosion wasn't observed. All three
-diagnostics declined together. See Figure~\ref{fig:fie-tau}.
+The predicted sequential erosion wasn't observed. The three marginal decline
+distributions aren't distinguished by this analysis. See
+Figure~\ref{fig:fie-tau}.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=\textwidth]{fie-tau-posteriors.pdf}
   \caption{Posterior distributions of ED50 ($\tau$) for each diagnostic.
-    The three distributions overlap almost completely, indicating
-    simultaneous decline.}
+    The pre-registered ordered-erosion prediction received low posterior
+    support, and the three marginal ED50 distributions overlap extensively.
+    Their overlap shows failure to distinguish the dates, not equality of the
+    dates.}
   \label{fig:fie-tau}
 \end{figure}
 
