@@ -1,3 +1,38 @@
+---
+slug: english-interjections
+kind: paper
+title: 'What English Interjections Let Us Predict: Stable Causal-Pragmatic Clustering and Path Dependence'
+stage: complete
+external: rejected
+blocked_on:
+- venue-response
+updated: 2026-07-27
+source:
+- STATUS.md
+- PORTFOLIO.md
+venue: Journal of Linguistics (intended, held, not submitted)
+preprints:
+- lingbuzz/009852
+next_action: 'Revisit the Journal of Linguistics hold when LIN-2026-0100 gets a decision (~Dec 2026; calendar
+  reminder set 2026-12-08); meanwhile work review board #2''s punch list (the incremental predictive payoff
+  over the cues used for category assignment is declared but undemonstrated) and the CABNC projectibility
+  pre-pilot'
+notes: 'Known drift case; matches SCHEMA.md''s own worked example exactly (stage: complete / external:
+  rejected / blocked_on: venue-response). Rejected by Journal of Pragmatics 2026-07-23 (PRAGMA-D-26-00584)
+  under a blanket citation-integrity policy, permanently closed, no revised version accepted; also earlier
+  desk-rejected by Journal of Historical Pragmatics (JHP-26024, 2026-06-03, scope/fit). Current submission:
+  none, per STATUS.md. Reframed 2026-07-24 from a pragmatics paper to a lexical-category paper; title
+  deliberately left unchanged pending Brett''s explicit call (''after three frames in four months a fourth
+  title change should be explicit''). blocked_on: venue-response is a judgment call that SCHEMA.md itself
+  flags as such: this paper is not waiting on its own reviewers but on the editor/reviewers of a different
+  Reynolds manuscript (LIN-2026-0100, definiteness, under review at the same journal since 2026-06-11)
+  whose resolution decides whether this paper can go to Journal of Linguistics without running two Reynolds
+  projectibility arguments there at once. All three sources (STATUS.md SUMMARY line, PORTFOLIO.md:37,
+  PORTFOLIO.md:93) agree on every underlying fact; nothing here is a genuine source disagreement, so nothing
+  is set to UNCLEAR. SSRN First Look copy (6954254) went inactive 2026-07-24 and is no longer public;
+  LingBuzz 009852 is the canonical preprint, updated 2026-07-24 with corrected text.'
+---
+
 # STATUS.md — English Interjections as HPC
 <!-- SUMMARY: JoP-rejected on citation integrity; reframed to a lexical-category paper; corpus measurement audited and corrected; review board #2 says the incremental predictive payoff is declared but undemonstrated; venue is Journal of Linguistics but HELD until LIN-2026-0100 resolves (~Dec 2026) · status: revising-after-board · updated: 2026-07-27 -->
 
