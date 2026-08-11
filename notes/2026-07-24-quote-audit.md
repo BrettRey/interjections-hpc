@@ -1,5 +1,5 @@
 # Quote audit — full verbatim check of every quotation in main.tex
-<!-- SUMMARY: every quotation in main.tex audited; 8 fixes applied; all 14 source quotations verified; separate open item: the intro's 'textbook cut it' claim is false of SIEG2, which Brett co-authored · status: all-quotes-verified; one intro pass outstanding (SIEG2 + Libert neglect) · updated: 2026-07-24 -->
+<!-- SUMMARY: every quotation in main.tex audited and verified; both outstanding page checks closed 2026-08-04 (H&P 2005 p. 16 confirmed; Bullokar p. 373 is Plessow 1906 pagination, so the bib entry cites the wrong edition — needs a central-bib decision from Brett) · status: quotes-verified; one bib-entry fix pending · updated: 2026-08-04 -->
 
 Run 2026-07-24 against `main.tex` as submitted to JoP (PRAGMA-D-26-00584). Method: balanced-brace extraction of every `\enquote{}` (27 top-level, 29 counting two nested inside item 17), classification into source quotations vs. scare quotes/mentions, then verbatim string search against the source text with page verification from the PDF page images where pagination was recoverable.
 
@@ -169,3 +169,15 @@ for i, p in enumerate(pages, 1):
 Two traps in it. A number at the *start* of an extracted page is usually the previous page's footer, so read the tail. And where a PDF prints no folio on some pages (Poggi's do not), establish the offset from two pages that do and check it against a third: Poggi is pdf p.n = printed 169+n, confirmed by the p. 175 running head.
 
 Verified this round: Cram p. 57 and p. 63 (corrected from 62), Cruz p. 241, Poggi p. 171.
+
+## 2026-08-04 addendum: both outstanding page checks closed
+
+Run self-directed while Brett was away. The two page numbers flagged "still want a glance" on 2026-07-24 are now settled, one clean, one a wrong-edition citation.
+
+**H&P 2005 p. 16 — VERIFIED.** From the Mendeley copy (`~/Documents/Mendeley Desktop/Huddleston, Pullum/Unknown/Huddleston, Pullum - 2005 - A student's introduction to English grammar.pdf`, extraction density 87.9 `the`/10k, well above the 50 floor). The passage sits on pdf page 24 whose running head reads "16   Chapter 2  A rapid overview": "Leaving aside the minor category of interjections (covering words like *oh, hello, wow, ouch*, etc., about which there really isn't anything inter-esting for a grammar to say), we recognise eight such categories". Wording and page both correct. Method note: a flat string search misses this because the line break hyphenates "inter-esting"; search a fragment, then read the page.
+
+**Bullokar p. 373 — RIGHT PAGE, WRONG EDITION.** Turner's 1980 Leeds edition, which is what the `bullokar1586` central-bib entry cites, runs "ca. 135 p., chiefly facsims." (Stanford SearchWorks 1431774), so it cannot contain a p. 373. The page belongs to **Plessow (1906)**, *Geschichte der Fabeldichtung in England bis zu John Gay*, Palaestra 52, Berlin: Mayer & Müller, which reprints the *Pamphlet for Grammar*. Plessow's own table of contents lists "The interjection ... 373", and the OCR of the archive.org copy (`geschichtederfab00plesuoft`; local copy `literature/plessow1906-bullokar-ocr.txt`) shows the exact quoted sentence on that page, between the 372 and 374 page marks: "An Interjection is a part of speech that betokeneth a sudden passion of the mynd" (OCR: "An InterjcL'tiun i,^ a pait of fpeeli that l)et6kN^th a ludden paffion of tlie mvnd"), with the marginal note "An Interiection is a ... fect l'peech".
+
+**Needs Brett (central-bib decision):** either repoint `bullokar1586` at the Plessow 1906 edition (keeping p. 373), or keep Turner 1980 and re-locate the page in that edition (not held anywhere local). The quotation itself is verbatim Bullokar either way; only the edition/page pairing is off. Central bib is hook-protected, so this is a `push_bib.py --update` or manual edit, not something a project session should do unilaterally.
+
+Also confirmed done in `main.tex` since the 07-24 pass, no action needed: the SIEG2 two-edition rewrite (ll. 128–140, quoting SIEG2 p. 24), the Libert "is an overstatement" reframe (ll. 141–147), and Coulmas's British "conventionalised" restored inside the quotation (l. 657, with a guard comment at l. 655).
