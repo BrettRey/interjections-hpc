@@ -1,0 +1,4 @@
+{"ts": "2026-07-27T12:42:09-04:00", "event": "run", "pass": "review-board", "backfilled": true, "artifact": "reviews/review-board-20260727-123033", "note": "backfilled from artifact mtime; fingerprints unknown"}
+{"ts": "2026-07-25T11:32:24-04:00", "event": "run", "pass": "terminological-hygiene", "backfilled": true, "artifact": "planning/terms.md", "note": "backfilled from artifact mtime; fingerprints unknown"}
+{"ts": "2026-07-27T07:55:00-04:00", "event": "run", "pass": "figures", "backfilled": true, "artifact": "figure-plan.md", "note": "backfilled from artifact mtime; fingerprints unknown"}
+{"ts": "2026-08-04T09:49:13-04:00", "event": "run", "pass": "quote-audit", "backfilled": true, "artifact": "notes/2026-07-24-quote-audit.md", "note": "backfilled from artifact mtime; fingerprints unknown"}
