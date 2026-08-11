@@ -68,17 +68,14 @@ See `.house-style/style-rules.yaml`. Key rules:
 
 ## Multi-Agent Dispatch (MANDATORY)
 
-**Before dispatching multiple agents, ALWAYS ask Brett:**
+**Before dispatching multiple agents, ALWAYS ask Brett which model(s) to use
+and whether redundant outputs are wanted.**
 
-1. **Which model(s)?** Options: Claude, Codex, Gemini, Copilot
-2. **Redundant outputs?** Should multiple models tackle the same task?
-
-### CLI Command Patterns
-
-| CLI | Command | Notes |
-|-----|---------|-------|
-| **Codex** | `codex -p 'prompt' > output.txt &` | Include "Read [PATH] first" in prompt |
-| **Gemini** | `cat file.tex \| gemini --yolo -o text 'prompt'` | Must pipe content (file reading broken in YOLO) |
-| **Copilot** | `copilot -p 'prompt' > output.txt &` | Fast; add `--allow-all-tools` for file ops |
-
-**Token limits:** Gemini > Codex > Claude (most constrained)
+The invocations are deliberately not copied here. They live in
+`../../../.claude/rules/multi-model-dispatch.md`
+and change faster than a copy can track. This section used to carry them,
+and every copy in the portfolio was still routing agents to the deprecated
+Gemini CLI and passing codex its prompt through a flag that selects a
+config profile, months after both were superseded. In a Claude Code
+session opened anywhere inside the portfolio the portfolio rules load
+automatically, and you do not need to read them by hand.
