@@ -182,6 +182,8 @@ Run self-directed while Brett was away. The two page numbers flagged "still want
 
 The page was re-verified before the change rather than taken from this note: in `literature/plessow1906-bullokar-ocr.txt` the definition sits at line 29001, between the page marks for 372 (line 28926, OCR'd as "872") and 374 (line 29057). The Plessow title page confirms Palaestra LII, Mayer & Müller, Berlin, 1906, reprinting "Pamphlet for Grammar" 1586.
 
-Renders as `Bullokar, 1586/1906, p. 373`, previously `1586/1980`; the reference list carries the Plessow container and "Original work published 1586". Turner 1980 is no longer referenced anywhere, so the OCLC that went with it was dropped.
+Renders as `Bullokar, 1586/1906, p. 373`, previously `1586/1980`; the reference list carries the Plessow container and "Original work published 1586". The OCLC belonged to the Turner edition and went with it.
+
+Two copies of the old entry survive outside the central bib and neither is reached by this fix. `papers/retarget/agi-evaluation/submission/arxiv-source-2026-07-28/references.bib` is a frozen submission bundle and should stay frozen. `papers/development/adversarial-pragmatics-for-ai-safety-evaluation/references.bib` is a stray regular file where a symlink to the central bib belongs, holding 2,162 entries against the central 2,139; it does not cite `bullokar1586`, so nothing renders wrong today, but the layout wants fixing and its 23 extra entries want triaging first.
 
 Also confirmed done in `main.tex` since the 07-24 pass, no action needed: the SIEG2 two-edition rewrite (ll. 128–140, quoting SIEG2 p. 24), the Libert "is an overstatement" reframe (ll. 141–147), and Coulmas's British "conventionalised" restored inside the quotation (l. 657, with a guard comment at l. 655).
