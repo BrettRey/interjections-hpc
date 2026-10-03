@@ -13,10 +13,12 @@ source:
 venue: Journal of Linguistics (intended, held, not submitted)
 preprints:
 - lingbuzz/009852
-next_action: 'Revisit the Journal of Linguistics hold when LIN-2026-0100 gets a decision (~Dec 2026; calendar
-  reminder set 2026-12-08); meanwhile work review board #2''s punch list (the incremental predictive payoff
-  over the cues used for category assignment is declared but undemonstrated) and the CABNC projectibility
-  pre-pilot'
+next_action: 'JoL hold lifted: LIN-2026-0100 was rejected on 2026-09-23, so under this file''s recorded
+  rule route the paper to Language or Glossa (check Glossa''s fit by hand first) with a venue decision
+  record, not to JoL. The JoL referees'' main complaint about that paper, that the projectibility framework
+  is never introduced for linguists, applies here too. The 2026-12-08 calendar reminder is moot. Meanwhile
+  work review board #2''s punch list (the incremental predictive payoff over the cues used for category
+  assignment is declared but undemonstrated) and the CABNC projectibility pre-pilot'
 notes: 'Known drift case; matches SCHEMA.md''s own worked example exactly (stage: complete / external:
   rejected / blocked_on: venue-response). Rejected by Journal of Pragmatics 2026-07-23 (PRAGMA-D-26-00584)
   under a blanket citation-integrity policy, permanently closed, no revised version accepted; also earlier
@@ -31,15 +33,24 @@ notes: 'Known drift case; matches SCHEMA.md''s own worked example exactly (stage
   PORTFOLIO.md:93) agree on every underlying fact; nothing here is a genuine source disagreement, so nothing
   is set to UNCLEAR. SSRN First Look copy (6954254) went inactive 2026-07-24 and is no longer public;
   LingBuzz 009852 is the canonical preprint, updated 2026-07-24 with corrected text.'
+claim:
+  argues: >-
+    Argues that interjection is a genuine lexical category of English; what earns it that
+    status is projectibility rather than any defining property. Calibrated below strict
+    HPC: "homeostatic" is reserved for perturbation-and-correction claims, using instead
+    the diagnostic ladder from the "Not every stable cluster" paper (projection target,
+    stable profile, network order, maintenance, corrective control).
+  provenance: drafted-from-map
+  claim_updated: 2026-09-04
 ---
 
 # STATUS.md — English Interjections as HPC
-<!-- SUMMARY: JoP-rejected on citation integrity; reframed to a lexical-category paper; corpus measurement audited and corrected; review board #2 says the incremental predictive payoff is declared but undemonstrated; quote audit fully closed 2026-08-04 and the Bullokar edition error fixed centrally 2026-08-11 (repointed to Plessow 1906, renders 1586/1906); venue is Journal of Linguistics but HELD until LIN-2026-0100 resolves (~Dec 2026) · status: revising-after-board · updated: 2026-08-11 -->
+<!-- SUMMARY: JoP-rejected on citation integrity; reframed to a lexical-category paper; corpus measurement audited and corrected; review board #2 says the incremental predictive payoff is declared but undemonstrated; quote audit fully closed 2026-08-04 and the Bullokar edition error fixed centrally 2026-08-11 (repointed to Plessow 1906, renders 1586/1906); JoL hold lifted 2026-09-23 (LIN-2026-0100 rejected); route to Language or Glossa · status: revising-after-board · updated: 2026-09-23 -->
 
 **Status:** **REJECTED by *Journal of Pragmatics* 2026-07-23** (PRAGMA-D-26-00584; blanket citation-integrity policy, no revised version accepted). See `notes/2026-07-23-jop-rejection-citation-integrity.md`. **Quote audit completed 2026-07-24, fully closed 2026-08-04** (`notes/2026-07-24-quote-audit.md`): all source quotations verified; H&P 2005 p. 16 confirmed against the Mendeley copy; Bullokar "p. 373" traced to Plessow 1906 (Palaestra 52) pagination, and the `bullokar1586` central entry, which had cited Turner 1980 (~135 pp, so no p. 373), was repointed to Plessow on 2026-08-11 and now renders 1586/1906. The SIEG2 and Libert intro passes are already in `main.tex`.
 **Preprints:** [LingBuzz 009852](https://lingbuzz.net/lingbuzz/009852) — posted 2026-03-22; [SSRN 6954254](https://ssrn.com/abstract=6954254) — Elsevier/SSRN notice received 2026-06-16. **Corrected 2026-07-24: LingBuzz updated with the clean manuscript; SSRN 6954254 deactivated (not searchable or crawled, Public View No). See item 5 below.**
 **Frame (2026-07-24):** reframing from pragmatics paper to **lexical-category paper**. Thesis: interjection is a genuine lexical category of English; the cluster's projectibility, not a defining property, is what earns it that status. The projectible payoffs stay and remain largely pragmatic, which is a result rather than a venue. See DECISIONS.md 2026-07-24.
-**Primary target:** ***Journal of Linguistics* — intended, HELD, not submitted.** Hold condition: LIN-2026-0100 (definiteness/projectibility) under review at JL since 2026-06-11, reports expected ~December 2026. Same argument applied to a different English category; do not run both at JL simultaneously. Stretch: *Language* (LSA). Fallback: *Glossa* (OLH), fit UNVERIFIED (site blocks automated fetch).
+**Primary target:** ***Language* or *Glossa*; the JoL hold ended 2026-09-23, when LIN-2026-0100 was rejected.** Same argument applied to a different English category; do not run both at JL simultaneously. Stretch: *Language* (LSA). Fallback: *Glossa* (OLH), fit UNVERIFIED (site blocks automated fetch).
 **Closed venues:** Journal of Pragmatics (permanent, citation-integrity policy); Journal of Historical Pragmatics (scope). Ruled out 2026-07-24: Corpus Pragmatics, Pragmatics (IPrA), Pragmatics & Cognition, International Review of Pragmatics (Brill AI policy), Language Sciences / Lingua (Elsevier), ELL (concurrent submission).
 **Current submission:** none. (Historical: Journal of Pragmatics, PRAGMA-D-26-00584, submitted 2026-06-03, rejected 2026-07-23.)
 **Previous journal decision:** Journal of Historical Pragmatics (John Benjamins), manuscript JHP-26024; declined without external review on 2026-06-03.

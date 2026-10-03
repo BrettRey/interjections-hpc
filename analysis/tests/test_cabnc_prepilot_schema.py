@@ -139,6 +139,18 @@ class CabncPrepilotSchemaTests(unittest.TestCase):
             with self.assertRaises(SystemExit):
                 validate(copied)
 
+    def test_only_claude_may_record_sampling_as_not_settable(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            copied = self.copied_schema(temporary)
+            registry = copied / "model-registry.csv"
+            content = registry.read_text(encoding="utf-8").replace(
+                "gpt-5.6-sol,exact_resolved_snapshot_required,0,",
+                "gpt-5.6-sol,exact_resolved_snapshot_required,not_settable,", 1
+            )
+            registry.write_text(content, encoding="utf-8")
+            with self.assertRaises(SystemExit):
+                validate(copied)
+
     def test_frozen_preoffset_count_is_enforced(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             copied = self.copied_schema(temporary)

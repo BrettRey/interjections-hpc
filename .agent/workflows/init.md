@@ -61,18 +61,17 @@ pdftotext "PATH/filename.pdf" - | rg -n "keyword"
 3. **Locate bibliography + figure folders** so you know where to add assets
 4. **Run a quick build** (optional, if you have TeX installed)
    - `make quick` or `make`
-   - otherwise: `latexmk -pdf main.tex`
+   - otherwise: `latexmk -xelatex main.tex`
 
 ## Process Reminders
 
-**For drafting/revision:**
-1. Start from an outline and the target venue constraints
-2. Make one coherent pass at a time (structure → prose → citations)
-3. Keep changes small enough to review
+**For drafting/revision:** editing passes, their order, and which are due are
+tracked by `python3 ../../../Project-Management/tools/passes.py` (schema in
+`../../../passes/README.md`).
 
 **For citation work:**
 1. Add BibTeX entries carefully (protect capitalization)
-2. Prefer `\textcite{}` / `\parencite{}` or project-standard macros
+2. Use `\textcite{}` for narrative and `\citep{}` for parenthetical citations
 3. Rebuild after citation edits to catch missing keys
 
 **Git:**
@@ -81,4 +80,4 @@ pdftotext "PATH/filename.pdf" - | rg -n "keyword"
 ## Other Workflows
 
 - `/git-hygiene` — Reminders for clean commits and branch management
-- `/multi-agent-review` — Spawn independent LLM agents (Codex, Gemini) for parallel advisory board reviews of the draft. Useful for getting diverse, unbiased feedback.
+- `/multi-agent-review` — Where the portfolio's multi-model review rules and templates live

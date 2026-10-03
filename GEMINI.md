@@ -6,11 +6,10 @@ Deep editorial and research work welcome here. This is not a PM session.
 
 ## Project Overview
 
-Paper arguing that interjection is a genuine lexical category of English, not a marginal or anomalous one, and that what earns it that status is projectibility rather than a defining property. The empirical base is Brett's Wikipedia "Good Article" on English interjections, which covers phonology, morphology, syntax, semantics, pragmatics, variation, and historical treatments. The theoretical payoff: interjections are a strong test case for projectibility-as-criterion, because they've been denied or marginalised as a category by major grammars. That the projections turn out to be largely pragmatic is a result about the category, not a claim about which subfield owns it.
+Paper arguing that English linguists use *interjection* for three overlapping but non-identical classifications (a grammar-facing lexical category, a semantics-facing category of expressive or use-conditional signs, and an interaction-facing category of conventionalized sequential resources), that none has priority over the others, and that their overlap isn't a fourth category and supplies no independent projective force. The empirical argument concerns path dependence: recruitment histories remain visible in source-specific residues. The project grew out of Brett's Wikipedia "Good Article" on English interjections. The abstract in `main.tex` is the authoritative statement of the thesis.
 
-**Working title:** What English Interjections Let Us Predict: Stable Causal-Pragmatic Clustering and Path Dependence
-**Target:** *Journal of Linguistics* (CUP) -- intended but HELD until LIN-2026-0100 (definiteness) resolves ~Dec 2026; do not run two Reynolds projectibility papers at JL at once.
-**Closed:** Journal of Pragmatics (rejected 2026-07-23, PRAGMA-D-26-00584, blanket citation-integrity policy, permanent). Corpus Pragmatics and the other pragmatics venues ruled out 2026-07-24 with the reframe. Stretch: *Language*. Fallback: *Glossa* (fit unverified).
+**Title:** English Interjections Across Grammar, Meaning, and Interaction: Field-Relative Categories and Path Dependence (`main.tex` is authoritative)
+**Venue:** see `STATUS.md`. *Journal of Pragmatics* is closed permanently (blanket citation-integrity rejection, 2026-07-23); the other pragmatics venues were ruled out with the 2026-07-24 reframe.
 
 ### Core Argument
 
@@ -42,7 +41,6 @@ Paper arguing that interjection is a genuine lexical category of English, not a 
 
 ### Connections to Brett's Research Programme
 
-- **Pragmatic projectibility:** The centre of the JoP pitch: category membership as a guide to use, uptake, stance, and sequential distribution
 - **HPC theory in linguistics:** A calibrated category case study, but not a strict homeostasis claim without corrective-control evidence
 - **Boundary phenomena:** Interjections *are* boundary phenomena (graded membership in every direction)
 - **Projectibility:** The pragmatic (not truth-conditional) nature of interjection-inference extends the theory
@@ -66,16 +64,9 @@ See `.house-style/style-rules.yaml`. Key rules:
 - Contractions preferred, ~60 word paragraphs
 - `\textcite{}` narrative, `\citep{}` parenthetical
 
-## Multi-Agent Dispatch (MANDATORY)
+## Multi-agent dispatch
 
-**Before dispatching multiple agents, ALWAYS ask Brett which model(s) to use
-and whether redundant outputs are wanted.**
-
-The invocations are deliberately not copied here. They live in
-`../../../.claude/rules/multi-model-dispatch.md`
-and change faster than a copy can track. This section used to carry them,
-and every copy in the portfolio was still routing agents to the deprecated
-Gemini CLI and passing codex its prompt through a flag that selects a
-config profile, months after both were superseded. In a Claude Code
-session opened anywhere inside the portfolio the portfolio rules load
-automatically, and you do not need to read them by hand.
+Model routing and dispatch commands follow the portfolio rule
+`../../../.claude/rules/multi-model-dispatch.md`. Claude Code sessions inside
+the portfolio load it automatically; Codex (reading this file as `AGENTS.md`)
+and Antigravity (reading `GEMINI.md`) should read it directly.

@@ -470,7 +470,9 @@ def validate(directory: Path) -> dict[str, int]:
     if {row["model_family"] for row in registry_rows} != MODEL_FAMILIES or len(registry_rows) != 3:
         raise SystemExit("Model registry must contain exactly GPT, Claude, and Gemini")
     for row in registry_rows:
-        if row["temperature"] != "0" or row["tool_access"] != "none" or row["network_access"] != "none":
+        # Current Claude models reject sampling parameters, so only the Claude row may record them as not settable.
+        allowed_temperature = {"0", "not_settable"} if row["model_family"] == "claude" else {"0"}
+        if row["temperature"] not in allowed_temperature or row["tool_access"] != "none" or row["network_access"] != "none":
             raise SystemExit(f"Unsafe or stochastic model settings for {row['model_registry_id']}")
         if row["context_policy"] != "fresh_stateless_single_pass":
             raise SystemExit(f"Model context policy changed for {row['model_registry_id']}")
