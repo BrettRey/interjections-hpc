@@ -38,3 +38,11 @@ analysis/cabnc-prepilot/private/
 analysis/cabnc-audio/
 __pycache__/
 *.pyc
+
+# Private (2026-11-02): quotes confidential editorial correspondence, long excerpts of
+# paywalled sources, raw subagent output. Not for the public repo.
+submission/venue-decision-2026-11-02.md
+submission/venue-sweep-2026-11-02/
+notes/intake-2026-11-02/
+notes/attribution-audit-2026-11-02/
+reviews/gap-filling-2026-11-02/

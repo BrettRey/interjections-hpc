@@ -1,12 +1,12 @@
 ---
 slug: english-interjections
 kind: paper
-title: 'What English Interjections Let Us Predict: Stable Causal-Pragmatic Clustering and Path Dependence'
+title: 'English Interjections Across Grammar, Meaning, and Interaction: Field-Relative Categories and Path Dependence'
 stage: complete
 external: rejected
 blocked_on:
 - venue-response
-updated: 2026-07-27
+updated: 2026-10-30
 source:
 - STATUS.md
 - PORTFOLIO.md
@@ -16,8 +16,9 @@ preprints:
 next_action: 'JoL hold lifted: LIN-2026-0100 was rejected on 2026-09-23, so under this file''s recorded
   rule route the paper to Language or Glossa (check Glossa''s fit by hand first) with a venue decision
   record, not to JoL. The JoL referees'' main complaint about that paper, that the projectibility framework
-  is never introduced for linguists, applies here too. The 2026-12-08 calendar reminder is moot. Meanwhile
-  work review board #2''s punch list (the incremental predictive payoff over the cues used for category
+  is never introduced for linguists, applies here too. The 2026-12-08 calendar reminder is moot; a pick-up
+  reminder is on Brett''s calendar for Mon 2026-11-02 09:00 (set 2026-10-30, PM board item parked to the
+  same date). Read notes/2026-10-30-kinship-transfer.md before either of the following. Meanwhile work review board #2''s punch list (the incremental predictive payoff over the cues used for category
   assignment is declared but undemonstrated) and the CABNC projectibility pre-pilot'
 notes: 'Known drift case; matches SCHEMA.md''s own worked example exactly (stage: complete / external:
   rejected / blocked_on: venue-response). Rejected by Journal of Pragmatics 2026-07-23 (PRAGMA-D-26-00584)
@@ -35,16 +36,20 @@ notes: 'Known drift case; matches SCHEMA.md''s own worked example exactly (stage
   LingBuzz 009852 is the canonical preprint, updated 2026-07-24 with corrected text.'
 claim:
   argues: >-
-    Argues that interjection is a genuine lexical category of English; what earns it that
-    status is projectibility rather than any defining property. Calibrated below strict
-    HPC: "homeostatic" is reserved for perturbation-and-correction claims, using instead
-    the diagnostic ladder from the "Not every stable cluster" paper (projection target,
-    stable profile, network order, maintenance, corrective control).
-  provenance: drafted-from-map
-  claim_updated: 2026-09-04
+    Argues that English linguists use "interjection" for three overlapping but
+    non-identical classifications: a grammar-facing lexical category, a semantics-facing
+    category of expressive or use-conditional signs, and an interaction-facing category of
+    conventionalized sequential resources. None has priority; each cuts through a mixed
+    network of relations and generates its own projective hypotheses. Canonical cases
+    belong to all three, but the overlap is not a fourth category and supplies no
+    independent projective force. Empirically, recruitment histories (invocative, verbal,
+    onomatopoeic) remain visible in source-specific residues, which supports path
+    dependence; held-out predictive performance is still untested.
+  provenance: drafted-from-abstract
+  claim_updated: 2026-10-30
 ---
 
-# STATUS.md — English Interjections as HPC
+# STATUS.md: English Interjections Across Grammar, Meaning, and Interaction
 <!-- SUMMARY: JoP-rejected on citation integrity; reframed to a lexical-category paper; corpus measurement audited and corrected; review board #2 says the incremental predictive payoff is declared but undemonstrated; quote audit fully closed 2026-08-04 and the Bullokar edition error fixed centrally 2026-08-11 (repointed to Plessow 1906, renders 1586/1906); JoL hold lifted 2026-09-23 (LIN-2026-0100 rejected); route to Language or Glossa · status: revising-after-board · updated: 2026-09-23 -->
 
 **Status:** **REJECTED by *Journal of Pragmatics* 2026-07-23** (PRAGMA-D-26-00584; blanket citation-integrity policy, no revised version accepted). See `notes/2026-07-23-jop-rejection-citation-integrity.md`. **Quote audit completed 2026-07-24, fully closed 2026-08-04** (`notes/2026-07-24-quote-audit.md`): all source quotations verified; H&P 2005 p. 16 confirmed against the Mendeley copy; Bullokar "p. 373" traced to Plessow 1906 (Palaestra 52) pagination, and the `bullokar1586` central entry, which had cited Turner 1980 (~135 pp, so no p. 373), was repointed to Plessow on 2026-08-11 and now renders 1586/1906. The SIEG2 and Libert intro passes are already in `main.tex`.
@@ -140,6 +145,8 @@ Then the Gelman treatment, at Brett's instruction: multiverse over the laughter 
 **CABNC projectibility pre-pilot.** Brett retained the three coequal inquiry-relative interjection categories and rejected any claim that their overlap is a fourth category. Two Roughdraft rounds approved a leakage-controlled CABNC design that tests `INTERJECTION_sem` and `INTERJECTION_syn` symmetrically against one category-free baseline, with the same component-blocked held-out forms and paired score differences. The implemented packet uses a frozen Claude/Gemini/GPT annotation panel, stateless repeat runs, Brett's separate source-only audit, and a mechanically derived four-way floor-transfer outcome. The census parser now yields 244,922 IPU-style analytic spans and 255,211 stable occurrences under the strict under-180-ms joining rule. A local utility prepares authorized clips as 16-kHz mono WAV plus waveform, spectrogram, 10-ms energy-activity proposal, and provenance; listening and expert correction remain mandatory. All eight methodological sources were retrieved and DOI-checked. The full 45-test suite and both schema validators pass. `main.tex` remains untouched.
 
 ### Next Actions
+
+**First, read `notes/2026-10-30-kinship-transfer.md`** (2026-10-30): approaches from the kinship paper that bear on everything below, including running the fake-data design check before Gate 0. Candidates, none adopted.
 
 **Now — act on review board #2 (see `reviews/review-board-20260727-123033/SYNTHESIS.md`):**
 0. **Run the approved CABNC pre-pilot gates before reconstructing the manuscript.** CABNC is an existing recorded corpus and needs no REB review. Gate 0 is now purely operational: record the AudioBNC licence, confirm authenticated access and licence-compliant local storage, then run the 40-event waveform/alignment audit. If access or measurement fails, activate the prospectively declared semantic-repetition fallback. The implemented protocol then freezes retrieval, variant, component, pathway, dossier, panel, and packet layers before any post-offset outcome join. Exact practical margins and calibration tolerances remain inactive placeholders until design simulation fixes them prospectively.

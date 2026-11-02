@@ -39,6 +39,24 @@
 \newif\ifblind
 \blindfalse  % \blindtrue for anonymous journal submission; \blindfalse for preprints
 
+% Blind review: mask self-citations rather than deleting them. Lingua's guide
+% asks for in-text and reference-list citations replaced with "Author 1, 2003"
+% and the like (checked 2026-11-02); with one author, "Author, 2026a" serves.
+\ifblind
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map[overwrite=true]{
+      \step[fieldsource=entrykey, match=\regexp{\Areynolds}, final]
+      \step[fieldset=author, fieldvalue={Author}]
+      \step[fieldset=title, fieldvalue={[Title removed for anonymous review]}]
+      \step[fieldset=note, null]
+      \step[fieldset=url, null]
+      \step[fieldset=doi, null]
+    }
+  }
+}
+\fi
+
 % Update PDF metadata
 \ifblind
 \hypersetup{
@@ -100,7 +118,7 @@ held-out predictive performance remains to be tested directly.
 \noindent\textbf{Keywords:} interjections; field-relative categories; projectibility;
 causal networks; supplements; path dependence
 
-\aidisclosure{Claude Opus 4.8, Claude Opus 5, and GPT-5.6 Sol}
+\aidisclosure{Claude Opus 4.8, Claude Opus 5, Claude Opus 5.5, and GPT-5.6 Sol}
 
 \section{Introduction}\label{sec:intro}
 
@@ -139,16 +157,16 @@ we don't plan to be an exception} \citep[24]{HuddlestonPullumReynolds2022}.
 Readmitted to the list, and still largely undescribed.
 
 \textcite{libert2019} objects that calling interjections neglected
-\enquote{is an overstatement}: work on their phonetics, syntax, semantics,
-and pragmatics goes back a long way. What's stayed
+\enquote{is an overstatement}: work on their phonetics, phonology, syntax,
+semantics, and pragmatics goes back a long way. What's stayed
 unsettled is standing rather than volume of attention: whether grammar has a
 lexical category of interjections, whether the same classification serves
 semantics and interaction, and what any of those memberships would license.
 
 \textcite[63]{cram2008} makes the historiographic point more sharply.
-Surveying the tradition from Isidore of Seville onward, he finds \enquote{no
+Surveying the tradition from Greek antiquity onward, he finds \enquote{no
 firmer consensus about this category than at any earlier period}, and notes
-that interjections \enquote{function as a touchstone or test case for various
+that the interjection can \enquote{function as a touchstone or test case for various
 boundary controversies}, naming the syntax--pragmatics and
 semantics--pragmatics boundaries. The difference is in what the case is asked
 to reveal.
@@ -219,7 +237,7 @@ present evidence concerns recruitment and residue. Other links remain
 ordering hypotheses or stabilizer candidates.
 
 Four things have to be kept apart, because they fail
-separately\ifblind\else\ \citep{reynolds2026projectibilityHistory}\fi. Each
+separately \citep[adapted from][11--12]{reynolds2026projectibilityHistory}. Each
 has a label I'll use throughout.
 
 \begin{itemize}
@@ -242,13 +260,14 @@ has a label I'll use throughout.
   recur without revealing any direction among its parts, and a directed
   dependence can hold without recurring.
 \item \term{Grounds} explain why the profile obtains or
-  persists\ifblind\else\ \citep{reynolds2026notEveryStableCluster}\fi.
+  persists \citep[12]{reynolds2026projectibilityHistory}.
   \term{Stabilizers} are grounds that hold the combination together as forms
   enter and leave. \term{Corrective control} is the strongest, a stabilizer
-  that restores the combination when something disturbs it. Only that would
-  license calling the cluster \term{homeostatic}, Boyd's term
-  \citep{boyd1999}, and the evidence here doesn't establish
-  it.
+  that restores the combination when something disturbs
+  it \citep[5]{reynolds2026notEveryStableCluster}. I reserve
+  \term{homeostatic}, Boyd's term, for corrective control, a narrower use
+  than his own \citep[143]{boyd1999}, and the evidence here doesn't
+  establish it.
 \end{itemize}
 
 \begin{figure}[htbp]
@@ -324,7 +343,7 @@ Diachrony matters because pragmatic profiles have histories. Forms such
 as \mention{gee}, \mention{damn}, or \mention{bruh} change category
 position as historically contentful or addressive expressions come to
 manage stance, sequence, and interactional alignment in recurrent
-contexts \citep[cf.][]{juckertaavitsainen2013}. Change over time helps
+contexts \citep[cf.][3--5]{juckertaavitsainen2013}. Change over time helps
 explain why recurrent profiles and source-specific residues can coexist while
 individual forms enter and leave an inventory.
 
@@ -375,9 +394,9 @@ constitute an intonation unit by themselves}. I treat the property as
 strongly characteristic rather than exceptionless, because the diagnostic
 matrix below records partial cases (\mention{um}). That gap between a
 categorical statement and its boundary cases is the pattern
-Section~\ref{sec:cooccurrence} takes up. In writing, this isolation surfaces as punctuation
-(commas, dashes, exclamation marks), setting the interjection off from the
-clause it accompanies \citep[1350]{HuddlestonPullum2002}.
+Section~\ref{sec:cooccurrence} takes up. In writing, this isolation surfaces
+as the punctuation that sets supplements off from the rest of the sentence
+(commas, dashes, parentheses; \citealp[1350]{HuddlestonPullum2002}).
 
 The corpus evidence below is written, so prosodic isolation is tracked
 through proxies: punctuation, standalone position, and absence of
@@ -385,30 +404,30 @@ integration into the host clause. These proxies are useful for historical
 and large-corpus work, but they're proxies rather than direct acoustic
 evidence. They aren't arbitrary ones.
 On \textcite[41]{Jackendoff2025Parenthetical}'s account a parenthetical is
-realized as an intonation phrase, so it ends in a boundary tone made of
-\enquote{some combination of pause, lengthening, pitch discontinuity}, and the
-flanking commas are what record those boundaries. Punctuation tracks prosodic
-isolation because it notates the same breaks.
+typically realized as an intonation phrase, so it ends in a boundary tone made
+of \enquote{some combination of pause, lengthening, pitch discontinuity}.
+Written commas mark the same breaks, which is why punctuation can stand in
+for prosodic isolation.
 
 Interjections may also contain phonemes outside the
 speaker's dialect. The interjection \mention{uh-oh} ([\ipa{əʔo}]) is one of
 the few cases where a glottal stop appears in dialects that otherwise lack
-it. Other atypical sounds include the alveolar clicks in
-\mention{tut-tut} ([\ipa{ǀǀ}]), the voiceless bilabial fricative in
-\mention{whew} ([\ipa{ɸɪu}]), and (for dialects that no longer use it)
-the voiceless velar fricative in \mention{ugh} ([\ipa{əx}])
-\citep[853]{quirk1985}. Spelling pronunciations often arise for these forms
-(\mention{tut-tut} said [\ipa{tət tət}], \mention{ugh} said [\ipa{əɡ}]),
-suggesting that the atypical phonemes are marked even for
-native speakers.
+it. Other atypical sounds include the dental-alveolar clicks in
+\mention{tut-tut} ([\ipa{ǀǀ}]; \citealp[147]{wilkins1992}), the voiceless bilabial fricative in
+\mention{whew} ([\ipa{ɸɪu}]), and the voiceless velar fricative in
+\mention{ugh} ([\ipa{ʌx}] or [\ipa{əx}]), though /x/ isn't a phoneme of
+standard American or British English \citep[74, 853]{quirk1985}. Spelling
+pronunciations arise for these forms (\mention{tut-tut} said
+[\ipa{tʌt tʌt}], \mention{ugh} said [\ipa{ʌɡ}]; \citealp[853]{quirk1985}),
+suggesting that the atypical phonemes are marked even for native speakers.
 
 Prosodic isolation is a strong cue: if
 a novel form occupies its own intonation unit and resists integration into
 the surrounding prosodic contour, the network account proposes syntactic
 non-integration and non-referentiality as targets. Their held-out relation to
 that cue remains to be tested. Prosodic isolation isn't unique to
-interjections, since
-vocatives, appositives, and other supplements share it \citep[cf.][]{wilkins1992}. What
+interjections, since supplements in general are \enquote{detached
+prosodically} from what they attach to \citep[66]{HuddlestonPullum2002}. What
 distinguishes interjections is the convergence of prosodic isolation with
 the properties below.
 
@@ -418,7 +437,14 @@ English interjections characteristically don't inflect or derive. They
 resist the morphological operations that characterize other open-class
 categories: no plural (*\mention{ouches}), no tense (*\mention{ouched}),
 no comparative (*\mention{oucher}), no nominalization
-(*\mention{ouchness}) \citep[106]{ameka1992}. Since
+(*\mention{ouchness}) \citep[106]{ameka1992}.\footnote{The stars mark the
+interjection. Noun and verb uses of \mention{ouch} are attested in British
+child-directed speech (\mention{It's a big ouch}; \mention{I think this
+one's just ouched slightly more than you}; \citealp[36]{stange2016}), and
+\mention{tut-tut} and
+\mention{tsk-tsk} became verbs only once they were given ordinary word
+pronunciations \citep[147]{wilkins1992}. Conversion takes a form out of the
+category, which is how Section~\ref{sec:residues} treats such exits.} Since
 \textcite{libert2019} notes that \enquote{few, if any, papers focus on
 the morphology of interjections}, the apparent absence of morphological
 productivity may partly reflect a gap in the research rather than a
@@ -431,19 +457,19 @@ suffix. None of these remnants are productive. The plural in
 an interjection), and speakers don't extend the pattern to new forms.
 
 Non-inflection is associated with restrictions on ordinary argumenthood in
-the recurrent profile. It doesn't entail them: adverbs also don't inflect,
-and invariance alone doesn't prevent an expression from filling an argument
-slot \citep[106]{ameka1992}. The stronger diagnostic is syntactic:
+the recurrent profile. It doesn't entail them: adverbs also don't inflect
+\citep[106]{ameka1992}, and invariance alone doesn't prevent an expression
+from filling an argument slot. The stronger diagnostic is syntactic:
 adverbs characteristically form constituents with other words, while
-canonical interjections occur as standalone supplements and resist
-integration with neighbouring material \citep[152]{meinard2015}.
+canonical interjections are syntactically isolated and resist integration
+with neighbouring material \citep[152--153, 164]{meinard2015}.
 
 \subsection{Syntax}\label{sec:syntax}
 
-Interjections characteristically function as \term{supplements},
-\enquote{elements which occupy a position in linear sequence without
-being integrated into the syntactic structure of the sentence}
-\citep[1350]{HuddlestonPullum2002}. In \mention{Damn, we're going to be late!}, the
+Interjections are used on their own or as \term{supplements}
+\citep[1361]{HuddlestonPullum2002}, \enquote{elements which occupy a
+position in linear sequence without being integrated into the syntactic
+structure of the sentence} \citep[1350]{HuddlestonPullum2002}. In \mention{Damn, we're going to be late!}, the
 interjection isn't a complement or modifier of anything in the clause.
 It's appended to the beginning as a parenthetical.
 
@@ -462,11 +488,13 @@ the other cluster properties: non-referentiality, non-inflection,
 prosodic isolation, and emotive force. The function is shared; the
 category differs.
 
-A handful of interjections exceptionally take complements.
-\textcite[1361fn]{HuddlestonPullum2002} analyse \mention{damn} in
-\mention{damn these mosquitoes!} as the head of an interjection phrase
-(IntjP) taking a noun phrase (NP) complement, one of the very few cases where an
-interjection heads a phrase larger than a single word. But even here the syntax is
+A handful of interjections exceptionally take complements. For
+\mention{damn} in \mention{Damn these mosquitoes!},
+\textcite[1361 n.~70]{HuddlestonPullum2002} suggest that \enquote{it may be
+best to regard such words as exceptional interjections that combine with an
+NP complement to form an interjection phrase} (IntjP). It's one of the very
+few cases where an interjection heads a phrase larger than a single word.
+But even here the syntax is
 constrained: no subject is overt, and there's no tense inflection. The
 construction is compatible with a residue of verbal source syntax, a
 reconstructive possibility that matters for the
@@ -475,9 +503,9 @@ discussed in Section~\ref{sec:causal-structure}. A second kind of residue is
 internal rather than external. \mention{Goddammit} preserves a
 verb-object-pronoun structure inside what's now a single word, so the syntax
 survives as fossilized material rather than as anything the form can still do.
-\textcite[40]{cuenca2002} reads it the same way from the grammaticalization
-side, listing \mention{Goddammit} among the cases where change in function and
-meaning is \enquote{accompanied by phonetic weakness and word integration}. (The internal structure of
+\textcite[40]{cuenca2002} gives \mention{Goddammit} as her example of change
+in function and meaning \enquote{accompanied by phonetic weakness and word
+integration}. (The internal structure of
 lexicalized pairs like
 \mention{oh boy} and \mention{holy cow} is less clear and won't be
 resolved here.)
@@ -493,11 +521,12 @@ syntactic integration:
 \z
 The contrast in (\ref{ex:syntactic-predictions}) is prosodic rather than
 syntactic: the first two differ only in whether \mention{damn} is set off.
-\textcite[41--42]{Jackendoff2025Parenthetical} generalizes the point beyond
-interjections as the IP-Break Hypothesis: placement tracks intonational-phrase
-breaks rather than syntactic constituency, so a host admits a parenthetical
-where it independently permits an IP break, provided the parenthetical is
-itself licensed in that position \citep[43]{Jackendoff2025Parenthetical}. He gives pairs of hosts that are
+The general version, for parentheticals of every kind, is
+\textcite[33, 41--43]{Jackendoff2025Parenthetical}'s IP-Break Hypothesis:
+placement tracks intonational-phrase breaks rather than syntactic
+constituency, so a host admits a parenthetical where it independently
+permits an IP break, provided the parenthetical is itself licensed in that
+position. He gives a pair of hosts that are
 \enquote{syntactically identical} but differ in where a parenthetical may go,
 since \enquote{the difference in the parenthetical's position is a consequence
 of the difference in position of the IP breaks in the host}
@@ -515,15 +544,16 @@ English interjections characteristically don't refer. Here,
 \term{non-referentiality} means absence of ordinary entity/event
 denotation and argumental construal while allowing semantic content.
 Nouns and verbs typically pick out entities or events in the world.
-Interjections express internal states of their users
-\citep{leech2006}: anger (\mention{damn}),
+Interjections \enquote{do not refer to anything, but simply express the
+speaker's emotion or wish} \citep[57]{leech2006}: anger (\mention{damn}),
 disgust (\mention{eww}, \mention{yuck}), surprise (\mention{wow}), regret
-(\mention{alas}), pain (\mention{ouch}), realization (\mention{eureka}).
+(\mention{alas}), pain (\mention{ouch}), realization (\mention{eureka}), to
+give some of the usual labels.
 Some interjections are more propositional than emotive: \mention{yes}
 and \mention{no} affirm or deny propositions, and \mention{oh} can
 signal recognition of new information rather than expressing feeling.
 
-\textcite{wierzbicka1992} argues that interjections have genuine
+\textcite[159]{wierzbicka1992} argues that interjections have genuine
 semantic content, decomposable via Natural Semantic Metalanguage. The
 forms may have content, and \mention{yes} and \mention{no} may operate
 on propositions, while still lacking ordinary entity/event denotation.
@@ -551,8 +581,9 @@ facts I rely on hold on his account as readily as on mine. What his account does
 because it's the established one.
 
 Not everyone reads Wilkins that way. On the conceptualist analyses of
-\textcite{wierzbicka1992}, \textcite{ameka1992} and Wilkins, interjections
-encode substantial conceptual structure. \textcite[211]{wharton2000} argues
+\textcite{wierzbicka1992}, \textcite{ameka1992} and Wilkins (the grouping is
+\citealp[174]{wharton2000}'s), interjections encode substantial conceptual
+structure. \textcite[211]{wharton2000} argues
 from relevance theory that they encode considerably less, being
 \enquote{partly natural and partly coded} and falling \enquote{at various
 points along a continuum between showing and saying}. That
@@ -600,22 +631,22 @@ argument structure, which in turn supports prosodic isolation.
 
 \subsection{Pragmatics}\label{sec:pragmatics}
 
-Interjections typically carry exclamatory or directive force: \mention{ouch!}
-expresses pain, \mention{shh!} demands silence \citep[88]{quirk1985}. But
+Interjections typically carry exclamatory or imperative force: \mention{ouch!}
+expresses pain, \mention{shh!} requests silence \citep[88, 853]{quirk1985}. But
 the pragmatic range extends beyond exclamation. How far beyond is worth a
 number. \textcite[18]{elffers2008} reports that in Hofstede's analysis of a
-corpus of spoken Dutch, only 7.04\,\% of interjections
+corpus of spoken Dutch, only 7\,\% of interjections
 \enquote{turned out to fulfil an expressive illocutionary function},
-against 52\,\% classed as expositive, which he glosses as directive within the
-conversation. The corpus is Dutch rather than English, so the figure indicates
+against 52\,\% classed as expositive, which Hofstede's table glosses as
+directive in the conversation. The corpus is Dutch rather than English, so the figure indicates
 rather than establishes. It points the same way as Dingemanse's interactional
-focus. The emotive characterization grammars lead with covers the minority
-case. Interjections greet
-(\mention{hey}, and, at the boundary with routine formulae,
-\mention{hello}; see Section~\ref{sec:boundaries}), mark agreement (\mention{yes},
-\mention{amen}), indicate understanding (\mention{oh}, \mention{uh-huh}),
+focus \citep[259]{dingemanse2024}. The emotive characterization grammars lead
+with covers the minority case. Interjections summon (\mention{hey}; the
+greeting \mention{hello} sits at the boundary with routine formulae, see
+Section~\ref{sec:boundaries}), mark agreement (\mention{yes},
+\mention{yeah}, \mention{amen}), indicate understanding (\mention{oh}, \mention{uh-huh}),
 and signal backchanneling, the listener's ongoing attention to a speaker's
-turn \citep{dingemanse2020, stivers2019}.
+turn (\citealp[868, 873--876]{norrick2009}; \citealp[265]{dingemanse2024}).
 
 The most common interjections tagged in the Corpus of Global Web-Based
 English \citep[GloWbE;][]{daviesfuchs2015} illustrate this pragmatic breadth: \mention{yes}, \mention{no},
@@ -632,41 +663,48 @@ again. Poggi's propositional content belongs to the act the interjection
 performs, not to any clause it helps compose. Her contrast between holophrastic
 and articulated signals says why. Nouns and verbs characteristically convey part of a
 sentence, an interjection a whole one. Prenominal \mention{damn} in
-\mention{the damn car} is an interjection that doesn't. That explains the independence noted in
+\mention{the damn car}, a member of \intj{sem} outside \intj{syn}, doesn't. That explains the independence noted in
 Section~\ref{sec:syntax}: a form contributes nothing to a host clause's truth
 conditions if it isn't part of a clause at all. Holophrasis accounts for the
 property rather than competing with it.
-\textcite{dingemanse2024} estimates that roughly one in seven
-conversational turns is an interjection, and interactional tools
-dominate the most frequent cases: continuers like
-\mention{mm-hm} that scaffold extended turns, repair initiators like
-\mention{huh?} that calibrate mutual understanding, and change-of-state
-tokens like \mention{oh} that display evolving knowledge\footnote{%
+\textcite[257, 263]{dingemanse2024} estimates that, across 18 languages,
+roughly one in seven conversational turns is an interjection. Interactional
+tools dominate the most frequent cases: continuers like \mention{mm-hm} that
+scaffold extended turns, repair initiators like \mention{huh?} that
+\enquote{help people calibrate mutual understanding on the fly}, and
+change-of-state tokens like \mention{oh} that \enquote{display knowledge as
+it evolves in interaction} (\citealp[257]{dingemanse2024}; cf.\
+\citealp[868, 870]{norrick2009}).\footnote{%
   \term{Token} does double duty in work of this kind, and I keep the senses
   apart. In \term{change-of-state token} and \term{response token} it's the
   interactional-linguistic sense: a minimal form deployed as a move in a
   sequence. Elsewhere I use it for the unit of analysis, a lexical item in a
   grammatical environment as against the lexeme that labels a family of
   historically related such items.}
-\citep[cf.][]{norrick2009}.
 
 The boundary with \term{routine formulae} is instructive.
-\textcite[2--3]{coulmas1981} defines routine formulae as
-% "conventionalised" is Coulmas's British spelling, preserved as quoted;
-% verified via Ameka's verbatim reproduction at p. 108, same page range.
-\enquote{highly conventionalised prepatterned expressions whose occurrence
-is tied to more or less standard communication situations}:
-\mention{bye}, \mention{hello}, \mention{sorry}, \mention{thank you}.
-\textcite[109--110]{ameka1992} argues these differ from interjections in
-three ways: they include addressees, they're predictable responses to social
+\textcite[2--3]{coulmas1981} characterizes routine formulae as
+% Verified 2026-11-02 against Coulmas 1981 itself (literature/
+% coulmas_1981_conversational-routine-introduction.pdf, pp. 2--3). Ameka's
+% reproduction (1992: 108) has "conventionalised" and "standard"; Heine
+% (2023: 7) has "prepackaged". Both secondhand versions are inexact.
+% check-quotes.py reports this MISSING only because the page break and the
+% running head "Introduction 3" fall between "prepatterned" and "expressions".
+\enquote{highly conventionalized prepatterned expressions whose occurrence
+is tied to more or less standardized communication situations}.
+\textcite[108--110]{ameka1992} argues that formulae such as \mention{bye},
+\mention{sorry}, and \mention{thank you} differ from interjections in three
+ways: they include addressees, they're predictable responses to social
 conventions, and they're always speech acts rather than mere reflections of
-the speaker's mental state. \textcite[142]{wilkins1992} counters that these
-differences make routine formulae \enquote{a distinct pragmatic and semantic
-subtype of interjections}, not a separate category.
+the speaker's mental state. \textcite[142]{wilkins1992} counters that such
+formulae meet his definition of interjection, and that being tied to
+specific, very common situations and serving mainly to maintain social
+relations makes them \enquote{a distinct pragmatic and semantic subtype of
+interjections}, not a separate category.
 
 The disagreement is field-relative in a causal-network sense. For a
 grammar, routine formulae pattern near interjections because they share
-prosodic isolation and pragmatic function. For speech-act analysis or
+standalone utterance status and pragmatic function. For speech-act analysis or
 interactional pragmatics, they support different predictions: addressee
 orientation, occurrence in standard social sequences, and conventional
 felicity conditions. The same form can sit close to one node
@@ -702,7 +740,7 @@ criteria the class's \enquote{obligatory properties}. No single property
 is necessary and sufficient.
 
 One dissent belongs here, because it's the strongest case against that last
-sentence. \textcite[282]{libert2012} proposes exactly one criterion:
+sentence. \textcite[287, 292]{libert2012} proposes exactly one criterion:
 interjections have a \term{conversational valence} of~1, meaning they can be
 used felicitously with no addressee present, where \mention{goodbye} requires
 one and so has a valence of~2. If you stub your toe you can say
@@ -732,11 +770,11 @@ not \enquote{addressed to} people is obscure. So the disagreement isn't
 about the facts. It's about what to do with them: Libert narrows the
 category until one criterion suffices, and I keep the wider class and let
 the properties co-occur without any one of them being definitional.
-That isn't a bare preference. Categories in this tradition are established by
-clusters of grammatical properties rather than by single criteria, since a
-definition has to identify \enquote{the grammatical properties that distinguish
-them from the concepts with which they contrast}
-\citep[30]{HuddlestonPullum2002}. A single criterion would make interjection
+That isn't a bare preference. In this tradition lexemes fall into categories
+\enquote{on the basis of their inflection, the kinds of dependent they take
+and the function in larger constructions of the phrases they head}
+\citep[30]{HuddlestonPullum2002}, several grammatical properties at once. A
+single criterion would make interjection
 the only category in the inventory picked out that way, which is a reason to
 doubt the standard rather than the category.
 
@@ -759,10 +797,10 @@ pragmatic conventionalization may entrench interactional functions.
 The coupling is visible when it breaks. \mention{Damn} as an interjection
 (\mention{Damn!}) has the full cluster: prosodic isolation, syntactic
 non-integration, non-referentiality, and emotive force. Prenominal
-\mention{damn} in \mention{the damn car} retains emotive force, and with it
-non-inflection and non-referentiality, but loses prosodic isolation and
-syntactic non-integration together, because it's embedded inside a noun
-phrase \citep[cf.][]{potts2007}. Those two properties co-vary across this
+\mention{damn} in \mention{the damn car} retains emotive force
+\citep[cf.][171, 182]{potts2007}, and with it non-inflection and
+non-referentiality, but loses prosodic isolation and syntactic
+non-integration together, because it's embedded inside a noun phrase. Those two properties co-vary across this
 contrast, as the proposed coupling link predicts
 (Section~\ref{sec:synchronic-coupling}). A bare property list records the
 contrast; a successful causal account would explain it. Two cases alone don't
@@ -813,7 +851,8 @@ properties from
 \textcite{ameka1992}, \textcite{quirk1985},
 \textcite{HuddlestonPullum2002}; \intj{sem} from
 \textcite{potts2007}; \intj{prag} from
-\textcite{stivers2019}, \textcite{dingemanse2020}.}
+\textcite{dingemanse2024}, with answer-slot evidence from
+\textcite{stivers2019}.}
 \label{tab:diagnostic-matrix}
 \begin{tabular}{@{}l*{6}{c}c*{3}{c}@{}}
 \toprule
@@ -871,10 +910,15 @@ The next two sections develop the theoretical framework
 The property cluster documented above has the shape
 Section~\ref{sec:cooccurrence} described: recurrent co-occurrence in the
 descriptive literature, no necessary and sufficient conditions, disputed
-boundaries, and hedged universals. The tradition
-drew the natural conclusion, that a class with no definition behind it has
-nothing to license, and grammars have said little for that reason
-\citep[16]{HuddlestonPullum2005}. The inference doesn't hold automatically.
+boundaries, and hedged universals. Grammars have said little about the
+class, the first edition of the student grammar finding nothing
+% Verified 2026-11-02 in the PDF text of literature/huddleston_pullum_2005_
+% students_introduction_english_grammar.pdf ("about which there really isn't
+% anything interesting for a grammar to say"); check-quotes.py reads the .md
+% conversion, which lacks the passage, and reports MISSING.
+\enquote{interesting for a grammar to say} \citep[16]{HuddlestonPullum2005}.
+It's tempting to conclude that a class with no definition behind it has
+nothing to license, but the inference doesn't hold automatically.
 A category may instead earn its place by supporting warranted projections.
 The question is whether a causal-network analysis can specify such projections
 for the three interjection categories without treating any of them as an
@@ -967,14 +1011,15 @@ temporal and explanatory profiles.
 
 If borne out, that structure would warrant the declarations in
 Section~\ref{sec:projectibility}. The present evidence isn't enough to
-establish their held-out success or corrective control, since it doesn't
-identify a tracked category-level variable, an error signal, or a response
+establish their held-out success or corrective
+control \citep[in the sense of][6]{reynolds2026notEveryStableCluster},
+since it doesn't identify a tracked category-level variable or a response
 pathway that restores the interjectional profile when it's perturbed
 \citep[cf.][]{weinberger2026HomeostasisCausalControl}.
 
 \subsection{Causal networks vs.\ prototype theory}\label{sec:prototype}
 
-Prototype theory \citep{rosch1975,taylor2003} was developed for exactly
+Prototype theory (\citealp{rosch1975}; \citealp[43--53]{taylor2003}) was developed for exactly
 the kind of data Section~\ref{sec:cluster} documents, and it handles
 that data well: graded membership, better-and-worse exemplars, and
 fuzzy boundaries via overlapping similarity spaces. It also correctly
@@ -1078,11 +1123,16 @@ support those claims.
 
 \subsection{Three field-relative categories}\label{sec:fieldrelative-nodes}
 
-The causal-network account developed by
-\textcite{khalidi2013,khalidi2018nodes} also explains why
-projectibility is field-relative. If kinds are nodes in causal
-structures, different fields may track different nodes because they ask
-different explanatory and predictive questions. The resulting categories
+The causal-network account also explains why projectibility is
+field-relative. The explanatory interests that categories serve
+% Verified 2026-11-02, khalidi2013.pdf PDF p. 89 = printed p. 71; the PDF
+% sets "different" and "scientific" with ff/fi ligature glyphs, so
+% check-quotes.py reports MISSING.
+\enquote{diverge somewhat within different scientific disciplines and
+subdisciplines} \citep[71]{khalidi2013}. If kinds are nodes in causal
+structures \citep{khalidi2013,khalidi2018nodes}, different fields may track
+different nodes because they ask different explanatory and predictive
+questions. The resulting categories
 need not be domain-pure or merely interest-relative. An inquiry fixes the
 scope of a declaration; evidence and worldly organization determine whether
 the resulting classification and projections succeed.
@@ -1118,12 +1168,15 @@ same type. I distinguish them with subscripts:%
   every field uses the same word, so subscripts are the honest notation.
   An alternative would have been to adopt distinct terms from the
   relevant literatures: \term{expressive} from \textcite{potts2007}
-  for the semantics-facing category, and response token from
-  \textcite{stivers2019} or \term{liminal sign} from
-  \textcite{dingemanse2020} for the interaction-facing category.
+  for the semantics-facing category, and \term{response token}, as in
+  \textcite[870]{norrick2009} and \textcite[265]{dingemanse2024}, for the
+  interaction-facing category.
 
   The Latin
   \mention{ejaculatio}, a throwing out, mirroring \mention{interjicere},
+  % Verified 2026-11-02 in literature/libert_2019_interjections-obo.pdf
+  % (Introduction): "from the Latin interjicere 'to throw between'". The gate
+  % pairs the quote with dingemanse2024 above and reports MISSING.
   \enquote{to throw between} \citep{libert2019},
   would have been etymologically perfect
   for the interactional-pragmatic category, but modern English has
@@ -1131,7 +1184,9 @@ same type. I distinguish them with subscripts:%
 
 \begin{itemize}
 \item \intj{syn} is the grammar-facing category represented in
-  \textit{CGEL} and Quirk et al. Its principal projective family concerns
+  \textit{CGEL} and, with a narrower extension, in Quirk et al., who list
+  \mention{damn (it)} among expletive formulae rather than interjections
+  \citep[852--853]{quirk1985}. Its principal projective family concerns
   grammatical distribution and packaging. Admission evidence is primarily
   morphosyntactic and constructional: characteristic supplement or
   standalone distribution, morphological invariance in the relevant use, and
@@ -1141,13 +1196,15 @@ same type. I distinguish them with subscripts:%
 \item \intj{sem} is the semantics-facing category, overlapping with
   \textcite{potts2007}'s \term{expressives}. Its principal projective family
   concerns conventional meaning contribution. Its profile includes
-  independence from at-issue content, nondisplaceability, perspective
+  independence from descriptive content, nondisplaceability, perspective
   dependence, and descriptive ineffability \citep[166]{potts2007}.
   Prenominal \mention{damn} in \mention{the damn car} belongs here while
   falling outside \intj{syn}.
 \item \intj{prag} is the interaction-facing category, overlapping with
-  \textcite{stivers2019}'s response tokens and
-  \textcite{dingemanse2020}'s liminal signs. Its principal projective family
+  what conversation analysts call response tokens
+  \citep[265]{dingemanse2024} and, at its non-lexical edge
+  (sighs, sniffs, clicks), with \textcite{dingemanse2020}'s liminal signs.
+  Its principal projective family
   concerns conventional interactional action and sequential organization.
   Minimal response, stance, repair, continuer, and change-of-state uses
   populate this region. \mention{Mm-hm} belongs here while its
@@ -1292,7 +1349,7 @@ The pragmatic issue is how changes in communicative use become
 categorially consequential: grammaticalization and pragmaticalization
 matter here because they alter a form's communicative job as well as its
 position in a syntactic tree
-\citep[cf.][]{TraugottDasher2002, heinekuteva2002lexicon}.
+(cf.\ \citealp[26]{TraugottDasher2002}; \citealp[2--3]{heinekuteva2002lexicon}).
 
 \subsection{Path 1: religious noun to interjection}\label{sec:path-religious}
 
@@ -1303,17 +1360,16 @@ position in a syntactic tree
   \ea Proper name used as invocation (\mention{Jesus!} addressed to the
     deity)
   \ex Secondary interjection: exclamatory use, no longer addressing the
-    deity (\mention{Jesus!} as an expression of surprise)
-  \ex Primary interjection: phonological modification yields
-    \mention{Jeez} and \mention{Gee}, and \mention{gee!} detaches from
-    the source noun
+    deity (\mention{Jesus!} as an exclamation)
+  \ex Primary interjection: clipping yields \mention{gee!}, which detaches
+    from the source noun
   \z
 \z
 The two transitions don't work the same way, and Gehweiler is emphatic
 about the difference. She explains the first as gradual and speaker-based,
-through Traugott and Dasher's invited inferencing, and
-\enquote{advanced by the syntactic isolation of \mention{Jesus}}
-\citep[85]{gehweiler2008}. The second she treats as abrupt and
+through Traugott and Dasher's invited inferencing, though
+\enquote{advanced by the syntactic isolation of \mention{Jesus}}, a factor
+she counts as hearer-based \citep[84--85]{gehweiler2008}. The second she treats as abrupt and
 hearer-based: tabooistic clipping produced \mention{gee!}, and she insists
 that this step \enquote{was not gradual} and \enquote{can therefore not be
 explained with reference to Invited Inferencing or syntactic position}
@@ -1326,43 +1382,43 @@ is the content: non-referentiality arrives with the secondary interjection, when
 is no longer addressing the deity. Phonological divergence then
 makes the etymological connection opaque, leaving a standalone interjection
 that many speakers don't connect to its source.
-For the first transition the vocative is the gateway, and what it supplies
+For the first transition the invocation is the gateway, and what it supplies
 is syntactic: an utterance-initial slot set apart from the rest of the
-utterance, which is the isolation Gehweiler credits with enabling the
-categorial change \citep[85]{gehweiler2008}. She denies that the same
+utterance, which Gehweiler, together with invited inferencing, credits with
+enabling the categorial change \citep[85]{gehweiler2008}. She denies that the same
 explanation extends to the second.
 
 That discontinuity is an asset for the path-dependence claim rather than
 an embarrassment for it. A gradual slide would leave a form with no
 particular mark of where it came from; an abrupt re-analysis leaves exactly
 the kind of residue the account needs, since the phonological opacity of
-\mention{gee!} is a permanent trace of the clipping that produced it. The
-first transition is constrained in the way Gehweiler describes: once the
-invocation loses its referential force, the phonological connection to the
-source is the last link to the nominal category, and weakening that link by
-phonological modification enables full independence. Gehweiler's corpus data documents the
-constraint: the phonological modifications (\mention{Jeez},
-\mention{Gee}, \mention{Gosh}, \mention{Golly}) cluster in the
-seventeenth and eighteenth centuries, with the transition from
-invocation to primary interjection happening relatively rapidly once the
-modifications appear \citep[80--85]{gehweiler2008}.
+\mention{gee!} is a permanent trace of the clipping that produced it. Once
+the invocation has lost its referential force, the phonological connection
+to the source is the last link to the nominal category, and the clipping
+cuts it. Gehweiler's record fits an abrupt cut: \mention{gee!} is first
+attested in 1895, and \enquote{there are no transitional, ambiguous uses
+attested} \citep[85--86]{gehweiler2008}. Euphemistic forms of religious
+names are much older; \mention{gog} for \mention{God} is attested from the
+fourteenth century \citep[81]{gehweiler2008}.
 
 Two cautions matter for the general claim. The boundary between
 invocation and exclamation is hard to operationalize in historical
-texts, since prosodic and interactional evidence is indirect. The
-seventeenth- and eighteenth-century clustering of euphemistic forms
-may reflect external taboo pressure as well as internal category
-pressures. The causal-network claim doesn't require Gehweiler's sequence
+texts, since prosodic and interactional evidence is indirect. And
+\mention{gee!} arose under Victorian taboo pressure
+\citep[85--86]{gehweiler2008}, so external pressure may have done some of
+the work that internal category pressures would otherwise be credited
+with. The causal-network claim doesn't require Gehweiler's sequence
 to be an autonomous internal cline. It requires the weaker and more
 historically plausible claim that social pressure, invited inference,
 and reanalysis can jointly push a source noun toward the same
 interjectional profile.
 
 Two processes operate within this path.
-\textcite[76]{gehweiler2008} distinguishes gradual Invited Inferencing
-(speaker-based: the expressive use is conversationally implicated, then
-conventionalized) from abrupt reanalysis (hearer-based: the hearer parses
-the exclamation as a standalone unit rather than an invocation).
+\textcite[71--72, 88]{gehweiler2008} distinguishes gradual Invited
+Inferencing (speaker-based: the expressive use is conversationally
+implicated, then conventionalized) from abrupt reanalysis (hearer-based:
+once clipping had obscured the source, hearers no longer recognized
+\mention{Jesus!} as the semantic base of \mention{gee!}).
 Both feed the same cluster, but they operate at different timescales and
 involve different agents. Their convergence shows that the same present-day
 classification can be reached by different routes; it doesn't by itself
@@ -1390,9 +1446,10 @@ The proposed path is reconstructive rather than a demonstrated token-by-token
 derivation. The optative already contains plain-form \mention{damn}, so no
 tense morphology is lost in the proposed transition. What survives in
 \mention{damn these mosquitoes!} is an NP complement compatible with verbal
-source syntax. In \textit{CGEL}'s synchronic analysis the construction is
-headed by an IntjP rather than a VP \citep[1361fn]{HuddlestonPullum2002}, so
-its complement-taking qualification has to remain visible.
+source syntax. In \textit{CGEL}'s tentative synchronic analysis,
+\mention{damn} here is an interjection taking an NP complement, forming an
+interjection phrase rather than a VP \citep[1361 n.~70]{HuddlestonPullum2002},
+so its complement-taking qualification has to remain visible.
 
 If the reconstruction is right, the process is decategorialization involving
 reduced verbal argument structure and increasing conventional expressive
@@ -1401,9 +1458,13 @@ Standalone \mention{damn!} conventionally displays a stance of frustration.
 The present-day contrast and complement residue motivate the path, but a
 fuller diachronic series would be needed to establish its sequence.
 
-This doesn't count as degrammaticalization in the strict sense, since the
-form doesn't gain the morphosyntactic substance of a major lexical category
-\citep[cf.][]{norde2009}. It's better treated as pragmatic
+% Norde's general definition is in her chs 3--4, not held as of 2026-11-02;
+% ch. 6 (pp. 186--227) is. Recheck "her cases start from grams" against them.
+This doesn't count as degrammaticalization in Norde's sense, since the
+changes she treats that way start from grams and bound morphemes
+\citep[cf.][186]{norde2009}, whereas the source here is a lexical verb. Nor
+does the form join \enquote{a major (inflected) word class}, a parameter she
+scores separately \citep[192]{norde2009}. It's better treated as pragmatic
 conventionalization with syntactic deactivation: the verbal source
 loses argument-structural obligations as the interjectional use gains
 procedural and interpersonal force.
@@ -1426,25 +1487,24 @@ correlation.
 The two paths enter the cluster from different directions, one through
 phonological modification of a bleached noun, the other through syntactic
 deactivation of a verb, but both exploit a gateway construction that
-already provides standalone or peripheral packaging: the vocative for
+already provides standalone or peripheral packaging: the invocation for
 Path~1, and, on the reconstruction above, the optative or imperative for
 Path~2. Both can yield similar present-day profiles. The documented strength
 is asymmetric: the invocative history is established in substantially more
 detail than the proposed verbal path.
 
-Both paths can be situated within \textcite{TraugottDasher2002}'s
+Both paths can be situated within \textcite[40]{TraugottDasher2002}'s
 subjectification trajectory (content~$>$~procedural,
 nonsubjective~$>$~intersubjective), but they instantiate it differently.
 Path~1 is grammaticalization in Traugott's technical sense: the invocation
 carries content meaning (addressing an entity) plus subjective stance
 (reverence); the secondary interjection loses content and gains procedural
-meaning (expressive force); phonological modification completes the shift
-to fully procedural, intersubjective meaning, with hearers interpreting the
-form as a conventional expression, not an invocation. Gehweiler's own
-verdict on that last step is worth keeping in view: because it turns on
-hearer re-analysis rather than speaker-invited inference, it's the one
-transition her account doesn't treat as subjectification
-\citep[88]{gehweiler2008}. Path~2, as described above, is
+meaning (expressive force); clipping then detaches the form from its source,
+and hearers interpret it as a conventional expression, not an invocation.
+Gehweiler finds \enquote{no further subjectification} in that last step,
+since \mention{gee!} is \enquote{neither more nor less subjective} than
+\mention{Jesus!}; only a phrase such as \mention{gee I wonder!} is more
+intersubjective \citep[88--89]{gehweiler2008}. Path~2, as described above, is
 decategorialization: loss of verbal morphosyntax with gain of expressive
 force.
 
@@ -1532,8 +1592,10 @@ central structural properties.
 The interaction-facing category needs a candidate stabilizer of its own.
 Conversation repeatedly places interjectional forms in recognizable
 sequential slots: continuers, repair initiators, change-of-state tokens,
-stance displays, and response tokens \citep{stivers2019,dingemanse2020}.
-\textcite{dingemanse2024} argues that these interactional uses are
+confirming answers to polar questions, where 81\,\% of confirmations are
+interjections \citep[195]{stivers2019}, and stance displays
+\citep[189--190]{dingemanse2020}. \textcite[257--258]{dingemanse2024}
+argues that the first three are the \enquote{real workhorses} of the class,
 central rather than peripheral for high-frequency interjections.
 
 Repeated deployment in these slots favours a particular package of
@@ -1567,8 +1629,9 @@ but it lacks the reduced, non-propositional packaging that makes
 Some interjections are sharply conditioned by region, register, or
 community, and some may also do identity work. \mention{Lah} in
 Singapore and Malaysia, \mention{yaar} in India and Pakistan,
-\mention{haba} in Nigeria, and \mention{bruh} in African American
-English \citep{louf2023} are plausible cases.
+\mention{haba} in Nigeria, and \mention{bruh}, which \textcite[8]{louf2023}
+find among vocabulary associated with African American English, are
+plausible cases.
 
 But they aren't the same kind of case, and the difference matters for
 which node the conditioning operates on. \mention{Haba} is free-standing:
@@ -1582,8 +1645,9 @@ it: \textcite[447]{lim2007} reports that Gupta takes the particles to
 while the rival analysis gives them lexically-specified tone inherited from a
 substrate. That rival is weakest for \mention{lah} in particular, since
 \mention{lah} is one of the few particles \textcite[463]{lim2007} doesn't
-match to Cantonese, and its Bazaar Malay and Hokkien sources have
-\enquote{neutral tone and weak stress}. Either way \mention{lah} fails
+match to Cantonese, and among its candidate sources the Hokkien particles
+have \enquote{neutral tone and weak stress} while Bazaar Malay particles
+\enquote{carry no tone} \citep[462--463]{lim2007}. Either way \mention{lah} fails
 prosodic isolation, so it satisfies \intj{sem} and \intj{prag} without
 \intj{syn} (Figure~\ref{fig:node-overlap}). Regional conditioning can
 in principle recruit a sign-type to the interaction-facing category without
@@ -1914,8 +1978,10 @@ one of the routes by which new forms arrive at the interjectional profile.
 Nor is the route closed in principle. The stock of imitable sounds isn't fixed by the
 stock of animals: devices supply \mention{beep}, \mention{ping}, and
 \mention{whirr}, and any sound can be re-rendered, which is how comics gave
-English \mention{bam} and \mention{pow} beside older forms. Nonce
-interjections can be freely coined \citep[74]{quirk1985}. Which of the three
+English \mention{bam} and \mention{pow} beside older forms. Interjections,
+on one view, form a relatively open class because they \enquote{can be
+rather freely created by onomatopoeia}, as in comic-strip \mention{yucck}
+and \mention{gr-r-r-r} \citep[74]{quirk1985}. Which of the three
 categories a coinage enters, and which properties it acquires with
 conventionalization, are empirical questions rather than automatic
 consequences of imitation.
@@ -1938,9 +2004,10 @@ non-integrated, even though the same word family includes the nominal lexemes
 just described. It illustrates a candidate recruitment case; the corpus counts
 alone don't establish persistence of a category position.
 
-\textcite{dingemanse2020} characterizes such items as liminal signs,
-signs at the boundary between sound and speech, whose liminality is
-functional, not defective. Cultural evolutionary processes \enquote{sample
+\textcite[191]{dingemanse2020} calls signs that equivocate between sound and
+speech, such as sighs, sniffs, and clicks, liminal signs, and treats their
+in-between status as \enquote{an essential part of their form and function}.
+Cultural evolutionary processes \enquote{sample
 the landscape of possible resources} \citep[191]{dingemanse2020}. The
 causal-network proposal describes that landscape as a property space whose
 structure may reflect the recruitment pathways and synchronic links above.
@@ -2118,7 +2185,8 @@ Standalone
 isolated, syntactically non-integrated, use-conditional, and available
 as a stance marker. For \mention{damn these mosquitoes!}, the picture
 is mixed: its \intj{syn} classification is qualified because
-\textit{CGEL} treats it as heading an IntjP with limited complement-taking;
+\textit{CGEL} tentatively treats it as an exceptional interjection heading an
+IntjP with an NP complement;
 \intj{sem} holds because the meaning is expressive. Table~\ref{tab:diagnostic-matrix}
 doesn't assign \intj{prag} because this sign-type isn't evidenced as a
 minimal backchannel or turn-management resource.
@@ -2194,7 +2262,7 @@ among themselves.
 
 The interactional literature motivates the hypothesis that
 \intj{prag} will support the richest projections.
-\textcite{dingemanse2024} shows that frequent, functionally central
+\textcite[257--259, 263]{dingemanse2024} argues from corpus data that frequent, functionally central
 interjections include continuers, repair initiators, and change-of-state
 tokens rather than only emotive exclamations. That makes sequential position,
 floor transfer, and recipient treatment natural targets. It doesn't show
@@ -2224,14 +2292,15 @@ maintenance hypothesis. These differently graded links motivate projections
 in different domains; they don't establish their accuracy.
 
 This connects to the content/procedural distinction. The central
-meaning hypothesis for many interjectional sign-types is procedural and
-use-conditional rather than denotational \citep{TraugottDasher2002}. The
+meaning hypothesis for many interjectional sign-types is procedural rather
+than denotational \citep[cf.][10, 40]{TraugottDasher2002}, with expressive
+content of the kind \textcite[166--167]{potts2007} describes. The
 \intj{sem} category isolates that meaning contribution and makes immediacy
 and repeatability explicit targets. The same general relation between causal
 domain and projective domain appears elsewhere. \term{Animacy} projects grammatically (argument realization,
 reference tracking); \term{colour} projects ecologically (edibility,
 toxicity) but usually doesn't project grammatically in the way animacy
-can \citep[cf.][]{seifart2010}.
+can \citep[cf.][726]{seifart2010}.
 
 The relative richness of the three projective families is a result
 for future comparison, not a premise. Nor does \intj{syn}'s grammatical
@@ -2278,9 +2347,9 @@ interjections (\mention{lah}, \mention{yaar}, \mention{haba}) are
 highly concentrated: \mention{lah} occurs at 9.35 per million in Malaysia
 and 6.72 in Singapore but near zero elsewhere; \mention{yaar} at 2.88
 in Pakistan and 2.33 in India but near zero elsewhere; \mention{haba}
-has a raw-string upper bound of 8.78 in Nigeria and is near zero elsewhere.
-\textcite{unuabonahdaniel2020}'s manual exclusions reduce the Nigerian count
-from 373 raw hits to 248 relevant tokens, approximately 5.84 per million.
+has 373 raw-string hits in Nigeria, an upper bound of about 9 per million,
+and is near zero elsewhere. Filtering by hand and counting five spellings,
+\textcite[69]{unuabonahdaniel2020} report 248 tokens, 5.8 per million.
 
 Core items also vary: \mention{ah} has the highest
 CV among core items (0.71), with Singapore (60.42) and Jamaica (53.16)
@@ -2408,14 +2477,15 @@ and non-referentiality as the main candidates. The defeat condition is
 equal contribution by all properties. The present evidence leaves this
 prediction open.
 
-Onomatopoeic interjections like \mention{pop} can be
-syntactically integrated into clause structure; when prosodic isolation
-is neutralized, as when \mention{pop} in \mention{pop went the cork}
-is an adverb rather than a standalone interjection
-\citep[152]{meinard2015}, reclassification is immediate. Restoring
-partial referentiality, by contrast, allows the form to hover between
-noun and interjection uses (as with \mention{God}). This suggests
-prosodic isolation may be the hub, but the evidence is indirect.
+Onomatopoeic forms like \mention{pop} can be read as integrated into
+clause structure. The \textit{OED}, as \textcite[151--152]{meinard2015}
+reports, classes \mention{pop} in \mention{the cork went pop} as an adverb,
+a reading Meinard rejects, taking \mention{went} to introduce reported
+speech. If the adverb reading is right, neutralizing prosodic isolation
+brings immediate reclassification. Restoring partial referentiality, by
+contrast, allows the form to hover between noun and interjection uses (as
+with \mention{God}). This suggests prosodic isolation may be the hub, but
+the evidence is indirect and the key example contested.
 
 The probes differ in evidential weight. Pathway residue is the main
 explanatory payoff, though only the invocative route is documented in detail.
@@ -2443,25 +2513,25 @@ needs its classification to distinguish. The disputes motivate that analysis;
 they aren't independent evidence for every proposed causal link.
 
 Routine formulae (\mention{bye}, \mention{hello}, \mention{sorry}) share
-prosodic isolation and pragmatic function with interjections but add
-addressee-directedness and social predictability
-\citep[109--110]{ameka1992}. For grammar, those shared properties place
+standalone utterance status and pragmatic function with interjections but
+add addressee-directedness and social predictability
+\citep[108--110]{ameka1992}. For grammar, those shared properties place
 them near interjections. For speech-act analysis, the additional
 properties matter more, because they predict conventional response slots,
 addressees, and felicity conditions. They're structured by additional
 processes (social convention, politeness norms) that prototypical
 interjections don't require.
 
-Fillers (\mention{um}, \mention{uh}) share prosodic distinctiveness and
-syntactic non-integration but differ in emphasis, pause distribution,
-and citation-introduction ability \citep{oconnell2005}. They occupy a
+Fillers (\mention{um}, \mention{uh}) share syntactic non-integration with
+interjections but differ in emphasis, pause distribution, and
+citation-introduction ability \citep[560, 567--572]{oconnell2005}. They occupy a
 neighbouring region of the property space, structured by partially
 overlapping links (processing-pressure management rather than
 emotive expression).
 
 The Ameka-Wilkins debate can be reframed in these terms. Ameka's
 separation preserves distinctions relevant to social routines and
-speech-act felicity \citep[109]{ameka1992}. Wilkins's inclusion preserves
+speech-act status \citep[109--110]{ameka1992}. Wilkins's inclusion preserves
 pragmatic and semantic overlap with interjections \citep[142]{wilkins1992}.
 The scope of each classification is indexed to its explanatory purpose; its
 adequacy still depends on the distinctions and projections the evidence

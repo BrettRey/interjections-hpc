@@ -45,6 +45,7 @@ Paper arguing that English linguists use *interjection* for three overlapping bu
 - **Boundary phenomena:** Interjections *are* boundary phenomena (graded membership in every direction)
 - **Projectibility:** The pragmatic (not truth-conditional) nature of interjection-inference extends the theory
 - **CGEL syntax:** Supplement function, interjection phrases, category vs. function distinction
+- **Kinship terms (`../english-kinship-terms/`):** its proper-name/proper-noun split is a model for introducing the three categories, and its §5 analysis toolkit fits the GloWbE section. Read `notes/2026-10-30-kinship-transfer.md` before revising the framing, the GloWbE analysis or the CABNC pre-pilot.
 
 ## Build
 
