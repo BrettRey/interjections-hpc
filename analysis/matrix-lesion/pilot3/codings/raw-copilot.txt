@@ -1,0 +1,106 @@
+<!-- secs=32.6 exit=0 -->
+```json
+{
+  "cells": [
+    {
+      "item_id": "DAMN_PRENOM",
+      "value": "U",
+      "quote": null,
+      "source_file": null,
+      "location": null,
+      "source_wording": null,
+      "evidence_scope": "NONE"
+    },
+    {
+      "item_id": "GEE",
+      "value": "Y",
+      "quote": "They could be used as co-utterances with other units. Consider this example: Gee. you look like you had it!",
+      "source_file": "ameka1992-interjections.md",
+      "location": "line~185",
+      "source_wording": "co-utterances with other units",
+      "evidence_scope": "CLASS"
+    },
+    {
+      "item_id": "WOW",
+      "value": "Y",
+      "quote": "used as expressive exclamations, on their own, or as supplements with clausal anchors",
+      "source_file": "00-CGEL.md",
+      "location": "line~41523",
+      "source_wording": "supplements with clausal anchors",
+      "evidence_scope": "CLASS"
+    },
+    {
+      "item_id": "BLACK",
+      "value": "U",
+      "quote": null,
+      "source_file": null,
+      "location": null,
+      "source_wording": null,
+      "evidence_scope": "NONE"
+    },
+    {
+      "item_id": "BANG_DEPICT",
+      "value": "U",
+      "quote": null,
+      "source_file": null,
+      "location": null,
+      "source_wording": null,
+      "evidence_scope": "NONE"
+    },
+    {
+      "item_id": "COFFEE",
+      "value": "U",
+      "quote": null,
+      "source_file": null,
+      "location": null,
+      "source_wording": null,
+      "evidence_scope": "NONE"
+    },
+    {
+      "item_id": "BLOODY_PRENOM",
+      "value": "U",
+      "quote": null,
+      "source_file": null,
+      "location": null,
+      "source_wording": null,
+      "evidence_scope": "NONE"
+    },
+    {
+      "item_id": "MMHM",
+      "value": "Y",
+      "quote": "Continuer between turns during a telling-in-progress m̀:hm",
+      "source_file": "dingemanse_2023_interjections-handbook-preprint.md",
+      "location": "line~57",
+      "source_wording": "Continuer between turns during a telling-in-progress",
+      "evidence_scope": "ITEM"
+    },
+    {
+      "item_id": "STOP",
+      "value": "U",
+      "quote": null,
+      "source_file": null,
+      "location": null,
+      "source_wording": null,
+      "evidence_scope": "NONE"
+    },
+    {
+      "item_id": "OUCH",
+      "value": "Y",
+      "quote": "Primary interjections are little words or non-words which in terms of their distribution can constitute an utterance by themselves and do not normally enter into construction with other word classes... They could be used as co-utterances with other units.",
+      "source_file": "ameka1992-interjections.md",
+      "location": "line~185",
+      "source_wording": "co-utterances with other units",
+      "evidence_scope": "CLASS"
+    }
+  ]
+}
+```
+
+
+[STDERR]
+
+
+Changes    +0 -0
+AI Credits 6.73 (29s)
+Tokens     ↑ 43.5k (43.5k written) • ↓ 2.6k (1.6k reasoning)
+Resume     copilot --resume=325d87c7-17b4-40cb-8973-00c4c7b68e45

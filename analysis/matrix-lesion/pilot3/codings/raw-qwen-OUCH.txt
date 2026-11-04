@@ -1,0 +1,13 @@
+{
+  "cells": [
+    {
+      "item_id": "OUCH",
+      "value": "Y",
+      "quote": "Central members of the interjection category in English are such words as ah, hey, oh, oops, ouch, sh, ugh, wow (or the now dated alas), which in their sole or primary meaning are used as expressive exclamations, on their own, or as supplements with clausal anchors, as in [31i].",
+      "source_file": "00-CGEL.md",
+      "location": "line~41523",
+      "source_wording": "supplements with clausal anchors",
+      "evidence_scope": "CLASS"
+    }
+  ]
+}

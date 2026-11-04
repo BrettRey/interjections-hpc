@@ -1,0 +1,13 @@
+{
+  "cells": [
+    {
+      "item_id": "BLACK",
+      "value": "N",
+      "quote": "black is not commonly used as an utterance on its own and it is not a word which English speakers think of as one which they could use as an utterance without any preceding linguistic context",
+      "source_file": "wilkins1992.md",
+      "location": "line~33",
+      "source_wording": "not commonly used as an utterance on its own",
+      "evidence_scope": "ITEM"
+    }
+  ]
+}

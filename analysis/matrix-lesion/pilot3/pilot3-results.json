@@ -1,0 +1,598 @@
+{
+ "values": {
+  "OUCH": {
+   "agy": "Y",
+   "copilot": "Y",
+   "qwen": "Y",
+   "claude": "Y"
+  },
+  "WOW": {
+   "agy": "Y",
+   "copilot": "Y",
+   "qwen": "Y",
+   "claude": "Y"
+  },
+  "GEE": {
+   "agy": "Y",
+   "copilot": "Y",
+   "qwen": "Y",
+   "claude": "Y"
+  },
+  "DAMN_PRENOM": {
+   "agy": "U",
+   "copilot": "U",
+   "qwen": "U",
+   "claude": "U"
+  },
+  "BANG_DEPICT": {
+   "agy": "U",
+   "copilot": "U",
+   "qwen": "U",
+   "claude": "U"
+  },
+  "MMHM": {
+   "agy": "U",
+   "copilot": "Y",
+   "qwen": "U",
+   "claude": "U"
+  },
+  "BLOODY_PRENOM": {
+   "agy": "U",
+   "copilot": "U",
+   "qwen": "U",
+   "claude": "U"
+  },
+  "COFFEE": {
+   "agy": "U",
+   "copilot": "U",
+   "qwen": "U",
+   "claude": "U"
+  },
+  "STOP": {
+   "agy": "U",
+   "copilot": "U",
+   "qwen": "U",
+   "claude": "U"
+  },
+  "BLACK": {
+   "agy": "U",
+   "copilot": "U",
+   "qwen": "N",
+   "claude": "U"
+  }
+ },
+ "verification": {
+  "agy": {
+   "BANG_DEPICT": "NA-U",
+   "BLACK": "NA-U",
+   "BLOODY_PRENOM": "NA-U",
+   "COFFEE": "NA-U",
+   "DAMN_PRENOM": "NA-U",
+   "GEE": "VERIFIED",
+   "MMHM": "NA-U",
+   "OUCH": "VERIFIED",
+   "STOP": "NA-U",
+   "WOW": "VERIFIED"
+  },
+  "copilot": {
+   "DAMN_PRENOM": "NA-U",
+   "GEE": "VERIFIED",
+   "WOW": "VERIFIED",
+   "BLACK": "NA-U",
+   "BANG_DEPICT": "NA-U",
+   "COFFEE": "NA-U",
+   "BLOODY_PRENOM": "NA-U",
+   "MMHM": "VERIFIED",
+   "STOP": "NA-U",
+   "OUCH": "NOT-FOUND"
+  },
+  "qwen": {
+   "BANG_DEPICT": "NA-U",
+   "BLACK": "VERIFIED",
+   "BLOODY_PRENOM": "NA-U",
+   "COFFEE": "NA-U",
+   "DAMN_PRENOM": "NA-U",
+   "GEE": "VERIFIED",
+   "MMHM": "NA-U",
+   "OUCH": "VERIFIED",
+   "STOP": "NA-U",
+   "WOW": "VERIFIED"
+  },
+  "claude": {
+   "WOW": "VERIFIED",
+   "BLACK": "NA-U",
+   "BLOODY_PRENOM": "NA-U",
+   "OUCH": "VERIFIED",
+   "BANG_DEPICT": "NA-U",
+   "GEE": "VERIFIED",
+   "MMHM": "NA-U",
+   "DAMN_PRENOM": "NA-U",
+   "COFFEE": "NA-U",
+   "STOP": "NA-U"
+  }
+ },
+ "schema_issues": {
+  "agy": {},
+  "copilot": {
+   "OUCH": [
+    "QUOTE-HAS-ELLIPSIS"
+   ]
+  },
+  "qwen": {
+   "GEE": [
+    "QUOTE-OVER-300-CHARS"
+   ]
+  },
+  "claude": {}
+ },
+ "fleiss_kappa_indep": 0.7260273972602738,
+ "pairwise": {
+  "agy-copilot": "9/10",
+  "agy-qwen": "9/10",
+  "agy-claude": "10/10",
+  "copilot-qwen": "8/10",
+  "claude-copilot": "9/10",
+  "claude-qwen": "9/10"
+ },
+ "consensus": {
+  "OUCH": "Y",
+  "WOW": "Y",
+  "GEE": "Y",
+  "DAMN_PRENOM": "U",
+  "BANG_DEPICT": "U",
+  "MMHM": "U",
+  "BLOODY_PRENOM": "U",
+  "COFFEE": "U",
+  "STOP": "U",
+  "BLACK": "U"
+ },
+ "coded": {
+  "agy": {
+   "BANG_DEPICT": {
+    "item_id": "BANG_DEPICT",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE",
+    "_intended_item_id": "BANG_DEPICT"
+   },
+   "BLACK": {
+    "item_id": "BLACK",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE",
+    "_intended_item_id": "BLACK"
+   },
+   "BLOODY_PRENOM": {
+    "item_id": "BLOODY_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE",
+    "_intended_item_id": "BLOODY_PRENOM"
+   },
+   "COFFEE": {
+    "item_id": "COFFEE",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE",
+    "_intended_item_id": "COFFEE"
+   },
+   "DAMN_PRENOM": {
+    "item_id": "DAMN_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE",
+    "_intended_item_id": "DAMN_PRENOM"
+   },
+   "GEE": {
+    "item_id": "GEE",
+    "value": "Y",
+    "quote": "They could be used as co-utterances with other units. Consider this example: Gee. you look like you had it! (Williams 1961: 8)",
+    "source_file": "ameka1992-interjections.md",
+    "location": "line~185",
+    "source_wording": "co-utterances",
+    "evidence_scope": "ITEM",
+    "_intended_item_id": "GEE"
+   },
+   "MMHM": {
+    "item_id": "MMHM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE",
+    "_intended_item_id": "MMHM"
+   },
+   "OUCH": {
+    "item_id": "OUCH",
+    "value": "Y",
+    "quote": "Central members of the interjection category in English are such words as ah, hey, oh, oops, ouch, sh, ugh, wow (or the now dated alas), which in their sole or primary meaning are used as expressive exclamations, on their own, or as supplements with clausal anchors, as in [31i].",
+    "source_file": "00-CGEL.md",
+    "location": "line~41523",
+    "source_wording": "supplements",
+    "evidence_scope": "CLASS",
+    "_intended_item_id": "OUCH"
+   },
+   "STOP": {
+    "item_id": "STOP",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE",
+    "_intended_item_id": "STOP"
+   },
+   "WOW": {
+    "item_id": "WOW",
+    "value": "Y",
+    "quote": "Central members of the interjection category in English are such words as ah, hey, oh, oops, ouch, sh, ugh, wow (or the now dated alas), which in their sole or primary meaning are used as expressive exclamations, on their own, or as supplements with clausal anchors, as in [31i].",
+    "source_file": "00-CGEL.md",
+    "location": "line~41523",
+    "source_wording": "supplements",
+    "evidence_scope": "CLASS",
+    "_intended_item_id": "WOW"
+   }
+  },
+  "copilot": {
+   "DAMN_PRENOM": {
+    "item_id": "DAMN_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE"
+   },
+   "GEE": {
+    "item_id": "GEE",
+    "value": "Y",
+    "quote": "They could be used as co-utterances with other units. Consider this example: Gee. you look like you had it!",
+    "source_file": "ameka1992-interjections.md",
+    "location": "line~185",
+    "source_wording": "co-utterances with other units",
+    "evidence_scope": "CLASS"
+   },
+   "WOW": {
+    "item_id": "WOW",
+    "value": "Y",
+    "quote": "used as expressive exclamations, on their own, or as supplements with clausal anchors",
+    "source_file": "00-CGEL.md",
+    "location": "line~41523",
+    "source_wording": "supplements with clausal anchors",
+    "evidence_scope": "CLASS"
+   },
+   "BLACK": {
+    "item_id": "BLACK",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE"
+   },
+   "BANG_DEPICT": {
+    "item_id": "BANG_DEPICT",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE"
+   },
+   "COFFEE": {
+    "item_id": "COFFEE",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE"
+   },
+   "BLOODY_PRENOM": {
+    "item_id": "BLOODY_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE"
+   },
+   "MMHM": {
+    "item_id": "MMHM",
+    "value": "Y",
+    "quote": "Continuer between turns during a telling-in-progress m\u0300:hm",
+    "source_file": "dingemanse_2023_interjections-handbook-preprint.md",
+    "location": "line~57",
+    "source_wording": "Continuer between turns during a telling-in-progress",
+    "evidence_scope": "ITEM"
+   },
+   "STOP": {
+    "item_id": "STOP",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE"
+   },
+   "OUCH": {
+    "item_id": "OUCH",
+    "value": "Y",
+    "quote": "Primary interjections are little words or non-words which in terms of their distribution can constitute an utterance by themselves and do not normally enter into construction with other word classes... They could be used as co-utterances with other units.",
+    "source_file": "ameka1992-interjections.md",
+    "location": "line~185",
+    "source_wording": "co-utterances with other units",
+    "evidence_scope": "CLASS"
+   }
+  },
+  "qwen": {
+   "BANG_DEPICT": {
+    "item_id": "BANG_DEPICT",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE",
+    "_intended_item_id": "BANG_DEPICT"
+   },
+   "BLACK": {
+    "item_id": "BLACK",
+    "value": "N",
+    "quote": "black is not commonly used as an utterance on its own and it is not a word which English speakers think of as one which they could use as an utterance without any preceding linguistic context",
+    "source_file": "wilkins1992.md",
+    "location": "line~33",
+    "source_wording": "not commonly used as an utterance on its own",
+    "evidence_scope": "ITEM",
+    "_intended_item_id": "BLACK"
+   },
+   "BLOODY_PRENOM": {
+    "item_id": "BLOODY_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE",
+    "_intended_item_id": "BLOODY_PRENOM"
+   },
+   "COFFEE": {
+    "item_id": "COFFEE",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE",
+    "_intended_item_id": "COFFEE"
+   },
+   "DAMN_PRENOM": {
+    "item_id": "DAMN_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE",
+    "_intended_item_id": "DAMN_PRENOM"
+   },
+   "GEE": {
+    "item_id": "GEE",
+    "value": "Y",
+    "quote": "Primary interjections are little words or non-words which in terms of their distribution can constitute an utterance by themselves and do not normally enter into construction with other word classes, for example, Ouch!, Wow!, Gee!, Oho!, Oops!, etc. They could be used as co-utterances with other units.",
+    "source_file": "ameka1992-interjections.md",
+    "location": "line~185",
+    "source_wording": "co-utterances",
+    "evidence_scope": "CLASS",
+    "_intended_item_id": "GEE"
+   },
+   "MMHM": {
+    "item_id": "MMHM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE",
+    "_intended_item_id": "MMHM"
+   },
+   "OUCH": {
+    "item_id": "OUCH",
+    "value": "Y",
+    "quote": "Central members of the interjection category in English are such words as ah, hey, oh, oops, ouch, sh, ugh, wow (or the now dated alas), which in their sole or primary meaning are used as expressive exclamations, on their own, or as supplements with clausal anchors, as in [31i].",
+    "source_file": "00-CGEL.md",
+    "location": "line~41523",
+    "source_wording": "supplements with clausal anchors",
+    "evidence_scope": "CLASS",
+    "_intended_item_id": "OUCH"
+   },
+   "STOP": {
+    "item_id": "STOP",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE",
+    "_intended_item_id": "STOP"
+   },
+   "WOW": {
+    "item_id": "WOW",
+    "value": "Y",
+    "quote": "Central members of the interjection category in English are such words as ah, hey, oh, oops, ouch, sh, ugh, wow (or the now dated alas), which in their sole or primary meaning are used as expressive exclamations, on their own, or as supplements with clausal anchors, as in [31i].",
+    "source_file": "00-CGEL.md",
+    "location": "line~41523",
+    "source_wording": "supplements with clausal anchors",
+    "evidence_scope": "CLASS",
+    "_intended_item_id": "WOW"
+   }
+  },
+  "claude": {
+   "WOW": {
+    "item_id": "WOW",
+    "value": "Y",
+    "quote": "such words as ah, hey, oh, oops, ouch, sh, ugh, wow (or the now dated alas), which in their sole or primary meaning are used as expressive exclamations, on their own, or as supplements with clausal anchors, as in [31i].",
+    "source_file": "00-CGEL.md",
+    "location": "line~41523",
+    "source_wording": "supplements with clausal anchors",
+    "evidence_scope": "CLASS"
+   },
+   "BLACK": {
+    "item_id": "BLACK",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE"
+   },
+   "BLOODY_PRENOM": {
+    "item_id": "BLOODY_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE"
+   },
+   "OUCH": {
+    "item_id": "OUCH",
+    "value": "Y",
+    "quote": "such words as ah, hey, oh, oops, ouch, sh, ugh, wow (or the now dated alas), which in their sole or primary meaning are used as expressive exclamations, on their own, or as supplements with clausal anchors, as in [31i].",
+    "source_file": "00-CGEL.md",
+    "location": "line~41523",
+    "source_wording": "supplements with clausal anchors",
+    "evidence_scope": "CLASS"
+   },
+   "BANG_DEPICT": {
+    "item_id": "BANG_DEPICT",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE"
+   },
+   "GEE": {
+    "item_id": "GEE",
+    "value": "Y",
+    "quote": "They could be used as co-utterances with other units. Consider this example: Gee. you look like you had it!",
+    "source_file": "ameka1992-interjections.md",
+    "location": "line~185",
+    "source_wording": "co-utterances",
+    "evidence_scope": "ITEM"
+   },
+   "MMHM": {
+    "item_id": "MMHM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE"
+   },
+   "DAMN_PRENOM": {
+    "item_id": "DAMN_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE"
+   },
+   "COFFEE": {
+    "item_id": "COFFEE",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE"
+   },
+   "STOP": {
+    "item_id": "STOP",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null,
+    "source_wording": null,
+    "evidence_scope": "NONE"
+   }
+  }
+ },
+ "changes_from_pilot2": {
+  "agy": {},
+  "copilot": {
+   "BLOODY_PRENOM": [
+    "N",
+    "U"
+   ],
+   "BLACK": [
+    "N",
+    "U"
+   ]
+  },
+  "qwen": {
+   "BLACK": [
+    "U",
+    "N"
+   ]
+  },
+  "claude": {}
+ },
+ "consensus_changes_from_pilot2": {},
+ "pilot2_kappa_indep": 0.6186440677966103,
+ "changes_from_pilot1": {
+  "agy": {},
+  "copilot": {
+   "OUCH": [
+    "U",
+    "Y"
+   ],
+   "WOW": [
+    "U",
+    "Y"
+   ],
+   "MMHM": [
+    "U",
+    "Y"
+   ]
+  },
+  "qwen": {
+   "OUCH": [
+    "U",
+    "Y"
+   ],
+   "WOW": [
+    "U",
+    "Y"
+   ],
+   "GEE": [
+    "U",
+    "Y"
+   ],
+   "BLACK": [
+    "U",
+    "N"
+   ]
+  },
+  "claude": {}
+ },
+ "pilot1_kappa_indep": 0.13461538461538455
+}
