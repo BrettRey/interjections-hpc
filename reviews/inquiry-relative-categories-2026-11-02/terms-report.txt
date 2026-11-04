@@ -1,0 +1,51 @@
+
+=== terminology audit: inquiry-relative-categories.tex ===
+flag term                            first use   gloss  n   
+FLAG interjection                    title:56    NO     61  
+       ^ . English interjections provide a worked case: grammatical distribution, express
+FLAG Expressive                      abstract:57 NO     31  
+       ^ ribution, expressive meaning, and sequential use motivate overlapping classifica
+FLAG sign-type                       abstract:65 NO     26  
+       ^ ations of sign-types. These distinctions explain how category disputes can be se
+FLAG bearer                          abstract:60 NO     20  
+       ^ ifies its bearers, grouping basis, intended contribution, scope, and alternative
+FLAG alternative                     abstract:60 NO     13  
+       ^ cope, and alternatives. The three classifications illustrate an open family. Pho
+FLAG grouping basis                  abstract:60 NO     6   
+       ^ bearers, grouping basis, intended contribution, scope, and alternatives. The th
+FLAG anchoring                       body:1118   NO     1   
+       ^ h (p.~4), anchoring the sampling frame to American frequency data. Country diffe
+FLAG uptake                          body:1206   NO     1   
+       ^ response, uptake, display, or direction~-- and a recoverable target, object, add
+     mechanism                       abstract:72 yes    7   
+     projection                      abstract:70 yes    7   
+     source                          body:144    NO     36  
+     profile                         body:287    yes    14  
+     primary                         body:643    NO     10  
+     warrant                         body:265    NO     6   
+     phonological stratum            body:413    NO     4   
+     secondary                       body:644    NO     4   
+     inquiry-relative classification body:102    NO     3   
+     path dependence                 body:78     yes    3   
+     use-conditional                 body:226    NO     3   
+     Projectibility                  body:78     yes    3   
+     trajectory                      body:652    NO     3   
+     hectare                         body:1143   NO     3   
+     homeostatic                     body:506    yes    1   
+     transmission setting            body:657    NO     1   
+     formulaic expressions           body:782    yes    1   
+
+8 flag(s): term used unglossed in front matter, or watchlist term never glossed at first use.
+
+--- acronyms: inquiry-relative-categories.tex ---
+flag acronym   first use     expanded  n   
+     CGEL      body:173      yes       4   
+     COHA      body:875      yes       10  
+     ELPD      body:890      yes       4   
+     OCR       body:967      yes       6   
+free IP        body:1116     NO        1   
+     PSIS      body:1159     yes       2   
+     KWIC      body:1196     yes       3   
+     GO        body:1198     yes       1   
+
+0 acronym flag(s): used before any expansion. Expand at first use, or mark free with --free for this venue.

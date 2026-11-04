@@ -1,0 +1,313 @@
+--- before/inquiry-relative-categories.tex
++++ inquiry-relative-categories.tex
+@@ -111,24 +111,13 @@
+ visible because grammatical, semantic, interactional, phonological, and
+ historical descriptions repeatedly organize overlapping material.
+ 
+-A terminological distinction is essential. Stipulating the membership
+-conditions of a constructed \term{class} is unproblematic. I reserve
+-\term{category} for empirical groupings whose co-occurring properties support
+-induction for particular purposes, following the usage in
+-\textit{Words That Won't Hold Still} \citep[ch.~2]{reynolds2025hpcbook}.
+-\term{Classification} assigns objects under a chosen scheme;
+-\term{categorization}, in this usage, identifies them with an empirical
+-category. These are local conventions, not terminology imposed on the
+-sources discussed below.
+-
+-A class can make measurement comparable or description informative without
+-yet establishing such a category. The distinctions among \mention{damn}
+-uses have descriptive value even before a new prediction is tested.
+-\term{Projectibility}, the warrant for expecting more than was used to
+-identify a case, is a further achievement \citep{Goodman1955}.
+-Neither descriptive usefulness nor a successful projection identifies its
+-own causal explanation. The paper separates these achievements so that
+-evidence for one isn't made to stand in for another.
++A grouping can make measurement comparable or description informative.
++The distinctions among \mention{damn} uses have descriptive value even
++before a new prediction is tested. \term{Projectibility} concerns the
++warrant for expectations beyond the evidence used to identify a case
++\citep{Goodman1955}. Neither descriptive usefulness nor a successful
++projection identifies its own causal explanation. These achievements
++need separate assessment.
+ 
+ Pluralism about useful and objectively grounded groupings has substantial
+ precedents. \textcite[5--7, 17--18]{dupre1993disorder} relates the choice of
+@@ -142,9 +131,12 @@
+ language-particular descriptive categories from concepts designed for
+ cross-language comparison. The division of labour here is different:
+ several inquiries within English can organize the same expressions
+-differently. The contribution is to connect that plurality with explicit
+-bearers, comparisons among alternative groupings, and separate standards
+-for description, projection, representation, and causal explanation.
++differently. The assessment developed here identifies where evidence
++for one claim leaves another unsupported. A semantic contrast can be
++preserved without establishing category-wide projections; phonological
++resemblance can leave grammatical membership unresolved. Specifying
++the bearer, grouping, and intended inference makes those transitions
++available for adjudication.
+ 
+ The worked cases are named for the relations they investigate: grammatical
+ interjections, expressive signs, depictive signs, continuers, repair
+@@ -265,9 +257,10 @@
+ of an impact sound. For \mention{Damn!}, it's the conveyed stance toward
+ a situation. The distinction changes the interpretation of a possible
+ modification. In a constructed narrative, \mention{bang, bang, bang} can
+-portray several impacts; repeated \mention{damn} can intensify a stance
+-without depicting a sequence of impacts. These examples articulate the
+-contrast to be explained; they aren't results from a new elicitation study.
++multiply portrayed impacts; repeated \mention{damn} can strengthen the
++conveyed stance. Repetition can thus transform the contribution in
++different ways. These examples articulate the contrast to be explained;
++they aren't results from a new elicitation study.
+ 
+ The literature motivates those different targets. Potts treats repetition
+ as potentially strengthening expressive contribution \citep[181--182]{potts2007}.
+@@ -479,8 +472,8 @@
+ can accumulate, but evidence for an earlier one doesn't establish a
+ later one automatically.
+ 
+-Descriptive success can be assessed without requiring a second-property
+-prediction. The expressive grouping preserves a semantic relation across
++Descriptive success can be assessed without requiring a prediction about
++a differently named property. The expressive grouping preserves a semantic relation across
+ standalone and integrated constructions; the expressive--depictive contrast
+ records different contributions concealed by the broad cover term.
+ Those are warranted uses of descriptive classes. Calling them descriptions
+@@ -514,7 +507,7 @@
+ Distinguish this from describing an emotion, depicting a scene, or managing interaction. \\
+ \addlinespace
+ Contribution & Preserve expressive commonality across grammatical constructions &
+-Description preserves the contrast; prediction about a further diagnostic needs additional evidence. \\
++Distinguish the observed contrast from its extension to new realizations, environments, or sign-types. \\
+ \addlinespace
+ Alternative & An undifferentiated interjection class, explicit subtypes, or item-specific accounts &
+ Compare which semantic relations each preserves and what further generalization each warrants. \\
+@@ -524,28 +517,52 @@
+ 
+ \subsection{From proposal to category claim}
+ 
+-A candidate earns consideration by making these questions answerable.
+-Support depends on the contribution claimed. A coherent classification
+-can warrant continued descriptive use while remaining a prospective
+-category proposal. The conventional category labels inherited from the
+-literature aren't independent evidence that every extension considered
+-here has a projectible profile.
+-
+-The semantic comparison gives the stages concrete content. Assigning
+-expressive uses by their conveyed stance fixes a class. Showing the
+-same contrast across grammatical constructions establishes descriptive
+-reach. Establishing that independently identified members share a
+-further interpretive property would support category standing at the
+-scope tested. The last claim can't be secured merely by defining the
+-class to contain signs already known to share every target property.
+-
+-Supported category standing is limited to a profile and
+-scope. A projection established for a subtype doesn't automatically
+-extend to its superordinate class. Evidence for English expressive
+-modifiers doesn't establish the same profile for all repair initiators
+-or all ideophones. These limits permit comparison and revision without
+-requiring one universal admission standard for every useful analytical
+-tool.
++An admission rule fixes which cases enter a class. A category claim
++makes a further commitment: membership supports informative expectations
++beyond the evidence used to assign it. Assembling a grouping and
++warranting those expectations can succeed or fail separately. Here,
++category standing names the latter achievement; it isn't a verdict
++on whether a descriptive class is scientifically useful.
++
++The reach of an expectation needs specifying. Evidence about a familiar
++sign can warrant expectations about new realizations or environments.
++Extending an expressive contrast to another construction can already
++involve induction. This establishes reach for that sign without by
++itself warranting the same expectation for another sign-type. A
++category-level projection can make that further commitment about an
++independently identified member.
++
++The target needn't be a differently named property. A familiar property
++in a new environment can provide informative reach if it wasn't part
++of the admission evidence. Assigning expressive uses by their stance
++in one construction and investigating how that contribution behaves
++elsewhere differs from defining the class to contain only uses already
++known to exhibit the target behavior.
++
++An additional shared property isn't sufficient merely because it's
++additional. If all members and nearly every sign outside a proposed
++grouping exhibit the target repetition behavior, membership supplies
++little additional guidance about it. An imperfect probabilistic association can be
++informative when it changes a warranted expectation at the stated
++scope. The alternatives in the preceding section help assess that
++contribution.
++
++This comparison concerns what membership licenses an investigator to
++expect. Whether a category representation improves a particular model
++is a separate question, taken up below. Projective warrant doesn't
++require that representation to outperform every account of the same
++evidence. Both claims remain limited to the profile and scope tested:
++support for a subtype doesn't automatically extend to its superordinate
++class.
++
++I provisionally accept the grammatical and action-specific categories
++used here for the relations documented in the cited descriptions.
++This inherits their evidential warrant at that scope; it doesn't
++establish every extension considered here. The present comparisons
++defend expressive and depictive distinctions and reject an unsupported
++transfer from phonology to grammar. They leave the broader projective
++standing of the proposed semantic, phonological, and ancestry groupings
++open.
+ 
+ \subsection{Projection and identity}
+ 
+@@ -568,19 +585,25 @@
+ The initial identification uses its conventional reaction meaning and
+ recurrence across independently sampled situations; the grammatical
+ prediction concerns resistance to integration. A new occurrence retains
+-that reaction meaning but appears inside a larger construction. The
+-first response is to check the analysis of that occurrence and revise
+-the proposed distribution if it stands. Its inconvenience isn't evidence
+-for a second sign.
+-
+-A split becomes justified if independent observations establish a
+-recurrent conventional use with a different contribution or distribution,
+-as the familiar prenominal pattern does. A quoted token or a productive
+-noun denoting an utterance is another possible analysis, but it needs
+-evidence for quotation or nominal reference. In the hypothetical case,
+-repetition of the unexpected distribution with the same reaction meaning
+-would count against the original restriction, even if no new sign
+-were recognized.
++that reaction meaning but functions as an integrated dependent of a
++larger constituent. The first response is to check that structural
++analysis. If it stands, the occurrence counts against the proposed
++distribution under the original identification rule. Its inconvenience
++isn't evidence for a second sign.
++
++Evaluate the original projection under the identification rule available
++when it was made. Later evidence may warrant distinguishing a recurrent
++conventional use by its contribution or distribution. That revision
++can improve subsequent predictions, but it doesn't remove earlier
++counterexamples from the original assessment. Observations that motivate
++a new distinction don't also supply independent confirmation of its
++predictive success.
++
++A quoted token or a productive noun denoting an utterance remains
++another possible analysis, but it needs evidence for quotation or
++nominal reference. A correction to a mistaken structural analysis should
++be recorded as such. It differs from changing the identification rule
++so that a confirmed counterexample no longer falls within its scope.
+ 
+ An informative restriction also needs relevant opportunities. Failure
+ to observe inflection says little if the sampled environments wouldn't
+@@ -614,40 +637,13 @@
+ on measured frequency doesn't by itself identify repetition's total or
+ direct causal contribution to retrieval.
+ 
+-\subsection{Hill's considerations for causal claims}\label{sec:hill}
+-
+-\textcite[295--299]{hill1965} offered nine viewpoints for assessing a
+-causal interpretation of epidemiological associations: strength,
+-consistency, specificity, temporality, biological gradient, plausibility,
+-coherence, experiment, and analogy. He rejected a mechanical checklist:
+-none guarantees proof, and the list isn't a set of individually mandatory
+-requirements. Its purpose is to examine whether a causal explanation
+-fits the evidence better than alternatives.
+-
+-Applied to linguistic inquiry, the viewpoints concern a specified
+-cause and outcome, not the existence of a class. A claim that changed
+-prosodic packaging contributes to changed distribution needs separate
+-measures of both. Strength and consistency concern the observed relation;
+-specificity directs attention to alternative outcomes and causes;
+-temporality constrains the proposed direction. Plausibility and coherence
+-connect the claim to independently supported knowledge, while experiment
+-and analogy can supply further comparisons.
+-
+-A linguistic counterpart of biological gradient would need a justified
+-intensity variable and outcome. Frequency is one possible exposure
+-measure, but its causal role can't simply be assumed. Counting fulfilled
+-viewpoints would add no evidence. And Hill's caution about mandatory
+-requirements doesn't permit an effect to cause its own earlier proposed
+-cause. Section~\ref{sec:history} applies these distinctions to the
+-limited history of \mention{gee}.
+-
+-A recurring profile can be stable while its causal ordering remains
+-unknown. Historical dependence can be supported without establishing
+-inventory-wide recurrence. Maintenance requires evidence that a process
+-preserves a profile; corrective control requires a response to disturbance.
+-I reserve \term{homeostatic} for that stronger control claim, following
+-\textcite{reynolds2026notEveryStableCluster}, a narrower use than
+-\textcite[143]{boyd1999}. No such control claim is established here.
++\textcite[295--299]{hill1965} offered viewpoints for comparing causal
++interpretations with alternatives, including temporal order and consistency
++with independently supported knowledge. They concern specified causes
++and outcomes; they neither establish category standing nor form a
++mechanical checklist. Section~\ref{sec:history} applies the temporal
++question to \mention{gee}. Recurrence alone identifies neither a causal
++ordering nor a process that maintains a profile.
+ 
+ \section{Phonological organization and situated realization}\label{sec:phonology}
+ 
+@@ -679,18 +675,25 @@
+ The grammatical claim concerns membership in a lexical category. The
+ evidence offered concerns sounds or sound patterns unusual elsewhere in
+ the language. That evidence supports a comparison of phonological
+-possibilities across independently identified signs. It doesn't answer
+-whether a particular use has nominal, verbal, or interjectional grammar.
+-Nor does sound depiction itself entail phonological anomaly: resemblance
++possibilities across independently identified signs. By itself, it doesn't
++settle whether a particular use has nominal, verbal, or interjectional
++grammar. Nor does sound depiction itself entail phonological anomaly: resemblance
+ and distribution within the sound system are different relations.
++
++Phonological evidence can support a grammatical expectation where an
++independently established association warrants it. The shared unusualness
++considered here doesn't itself establish that association. The limitation
++concerns the evidence connecting the properties, not the fact that they
++belong to different domains.
+ 
+ For English \mention{Bang!}, the competing grammatical analysis is a
+ standalone nominal fragment, supported as a possibility by the independently
+ available noun in \mention{a loud bang}. A depictive interpretation leaves
+ that analysis open. Even if an occurrence had unusual phonation, the
+ additional observation would concern its realization. Choosing between
+-nominal and interjectional analyses would still require distributional
+-and constructional evidence about the selected conventional use.
++nominal and interjectional analyses needs distributional and constructional
++evidence about the selected conventional use, or an independently warranted
++association connecting the observed phonology to that grammar.
+ 
+ The strongest alternative retains one broad descriptive class and records
+ phonology and grammar as separate attributes. For organizing known cases,
+@@ -808,6 +811,8 @@
+ in exposure. The cited history doesn't independently measure a prosodic
+ innovation preceding the semantic transition. Plausibility of a
+ prosody--syntax connection can't supply that missing temporal comparison.
++An already present peripheral construction could still be an enabling
++condition for later change.
+ Gehweiler's proposed roles for invited inference and taboo-motivated
+ clipping remain distinct historical claims with their own evidence.
+ 
+@@ -1080,14 +1085,6 @@
+ variation would need independently identified uses and comparable
+ opportunities for their occurrence.
+ 
+-The retained frequency model answers a narrower question. It compares
+-prediction of an omitted country--item aggregate while retaining the
+-same item in nineteen other countries and seventeen other items in
+-that country. Adding country intercepts has an imprecisely estimated
+-advantage of 17.9 expected log predictive density units (standard error
+-13.3). The target is prediction within the observed design; new items,
+-new countries, and the proposed linguistic groupings weren't tested.
+-
+ Similarly, changing frequency ranks in the Corpus of Historical American
+ English (COHA) describe a tagged inventory \citep{davies2010}.
+ They don't establish persistence of a semantic or grammatical profile.
+@@ -1100,7 +1097,10 @@
+ The \href{inquiry-relative-evidence-supplement.pdf}{evidence supplement}
+ preserves the complete records: GloWbE measurement and model comparisons
+ (Section~A), the derivative audit (Section~B), the \mention{fie} audit
+-(Section~C), and inventory turnover (Section~D). These records locate
++(Section~C), and inventory turnover (Section~D). Its retained model
++comparison predicts an omitted country--item cell within the observed
++design; it doesn't assess new countries, new items, or the proposed
++linguistic groupings. These records locate
+ the failure at the relevant claim. A useful retrieval class survives
+ as a tool, but its output can't establish a linguistic category
+ without evidence connecting that class to independently identified uses.

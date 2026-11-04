@@ -1,0 +1,518 @@
+{
+  "archive_revision": "074dfb44cef5b18d292ac176ba5acbfedc76e3b1",
+  "morphgain": {
+    "primary_rows": 1462,
+    "included": 969,
+    "excluded": 493,
+    "included_counts": {
+      "family": {
+        "shoo": 410,
+        "boo": 364,
+        "ooh": 52,
+        "wow": 143
+      },
+      "verbal_syntax": {
+        "1": 969
+      },
+      "semantic_residue": {
+        "1": 969
+      }
+    },
+    "early_windows": [
+      {
+        "family": "boo",
+        "included": 364,
+        "decades_with_3plus": 10,
+        "window_decades": [
+          1920
+        ],
+        "n": 17,
+        "assigned_successes": 17,
+        "jeffreys_95": [
+          0.8645215621083115,
+          0.9999715376222769
+        ],
+        "recode_overlap_ids": [
+          "mgc0485"
+        ]
+      },
+      {
+        "family": "ooh",
+        "included": 52,
+        "decades_with_3plus": 6,
+        "window_decades": [
+          1960,
+          1970,
+          1980
+        ],
+        "n": 10,
+        "assigned_successes": 10,
+        "jeffreys_95": [
+          0.7828037324907894,
+          0.9999521095668424
+        ],
+        "recode_overlap_ids": []
+      },
+      {
+        "family": "shoo",
+        "included": 410,
+        "decades_with_3plus": 13,
+        "window_decades": [
+          1890,
+          1900
+        ],
+        "n": 16,
+        "assigned_successes": 16,
+        "jeffreys_95": [
+          0.8568158620685553,
+          0.999969786520022
+        ],
+        "recode_overlap_ids": [
+          "mgc0575"
+        ]
+      },
+      {
+        "family": "wow",
+        "included": 143,
+        "decades_with_3plus": 9,
+        "window_decades": [
+          1930,
+          1940
+        ],
+        "n": 11,
+        "assigned_successes": 11,
+        "jeffreys_95": [
+          0.800005430973792,
+          0.9999563642018579
+        ],
+        "recode_overlap_ids": [
+          "mgc0468"
+        ]
+      }
+    ],
+    "recode_matches_declared_seed_and_sampling_frame": true,
+    "recode_family_counts": {
+      "shoo": 39,
+      "boo": 37,
+      "wow": 15,
+      "ooh": 6
+    },
+    "recode_decade_counts": {
+      "1900": 1,
+      "1910": 1,
+      "1920": 3,
+      "1930": 4,
+      "1940": 9,
+      "1950": 4,
+      "1960": 10,
+      "1970": 8,
+      "1980": 11,
+      "1990": 19,
+      "2000": 16,
+      "2010": 11
+    },
+    "recode_notes_nonblank": 22,
+    "reliability": {
+      "exclude": {
+        "n": 97,
+        "agreements": 97,
+        "observed_agreement": 1.0,
+        "expected_agreement": 1.0,
+        "kappa": null,
+        "primary_margin": {
+          "0": 97
+        },
+        "second_margin": {
+          "0": 97
+        }
+      },
+      "verbal_syntax": {
+        "n": 97,
+        "agreements": 97,
+        "observed_agreement": 1.0,
+        "expected_agreement": 1.0,
+        "kappa": null,
+        "primary_margin": {
+          "1": 97
+        },
+        "second_margin": {
+          "1": 97
+        }
+      },
+      "semantic_residue": {
+        "n": 97,
+        "agreements": 97,
+        "observed_agreement": 1.0,
+        "expected_agreement": 1.0,
+        "kappa": null,
+        "primary_margin": {
+          "1": 97
+        },
+        "second_margin": {
+          "1": 97
+        }
+      },
+      "interactional_residue": {
+        "n": 97,
+        "agreements": 86,
+        "observed_agreement": 0.8865979381443299,
+        "expected_agreement": 0.8387713890955467,
+        "kappa": 0.2966381015161505,
+        "primary_margin": {
+          "1": 86,
+          "0": 11
+        },
+        "second_margin": {
+          "1": 91,
+          "0": 6
+        }
+      },
+      "targeted_entity": {
+        "n": 97,
+        "agreements": 54,
+        "observed_agreement": 0.5567010309278351,
+        "expected_agreement": 0.5454352215963439,
+        "kappa": 0.024783726911386493,
+        "primary_margin": {
+          "0": 44,
+          "1": 53
+        },
+        "second_margin": {
+          "1": 96,
+          "0": 1
+        }
+      }
+    }
+  },
+  "fie": {
+    "coded_rows": 616,
+    "all_rows_have_binary_human_codes": true,
+    "joint_counts": {
+      "011": 19,
+      "111": 448,
+      "000": 139,
+      "100": 8,
+      "010": 2
+    },
+    "predicted_notes": {
+      "predicted (conf=91%, n=180)": 255,
+      "predicted (conf=100%, n=27)": 47,
+      "predicted (conf=78%, n=9)": 16,
+      "predicted (conf=67%, n=3)": 2,
+      "predicted (conf=100%, n=16)": 8,
+      "predicted (conf=86%, n=14)": 19,
+      "predicted (conf=100%, n=3)": 2,
+      "predicted (conf=100%, n=1)": 1
+    },
+    "predicted_note_count": 350,
+    "excluded_rows": 141,
+    "exclusion_reasons": {
+      "OCR noise": 134,
+      "non-English": 2,
+      "name fragment": 2,
+      "metalinguistic mention": 3
+    },
+    "selected_examples": {
+      "F014": {
+        "context": "over his records. \" Graves let me pull him back into his seat. FIe stroked his closed eyelids with his fingertips. \" This case is. the wildest",
+        "human_syn": "0",
+        "human_sem": "0",
+        "human_int": "0",
+        "human_notes": ""
+      },
+      "F028": {
+        "context": "kissing and looked into each other's eyes. She looked vulnerable and small. FIe drew her to him again and kissed her neck. At first she did not",
+        "human_syn": "0",
+        "human_sem": "0",
+        "human_int": "0",
+        "human_notes": ""
+      },
+      "F043": {
+        "context": "I'm not saying it isn't so. I'm just considering. \" FIe turned his attention back to Hench. \" So now, if this turns out",
+        "human_syn": "0",
+        "human_sem": "0",
+        "human_int": "0",
+        "human_notes": ""
+      },
+      "F450": {
+        "context": "calm, encouraging. \" Who are you talking about? \" # \" Tee fie! \" # \" I don't understand what you're - \" # \"",
+        "human_syn": "0",
+        "human_sem": "0",
+        "human_int": "0",
+        "human_notes": "nonsense syllables"
+      },
+      "F597": {
+        "context": "was a frame and it was not to blame. It was not shame shame fie for shame nobody nobody will know the name. And all the same he was",
+        "human_syn": "0",
+        "human_sem": "0",
+        "human_int": "0",
+        "human_notes": "Stein: sound pattern, not interjection"
+      }
+    },
+    "reliability": {
+      "syn": {
+        "n": 62,
+        "agreements": 54,
+        "observed_agreement": 0.8709677419354839,
+        "expected_agreement": 0.5972944849115505,
+        "kappa": 0.6795865633074936,
+        "primary_margin": {
+          "1": 48,
+          "0": 14
+        },
+        "second_margin": {
+          "1": 42,
+          "0": 20
+        }
+      },
+      "sem": {
+        "n": 62,
+        "agreements": 60,
+        "observed_agreement": 0.967741935483871,
+        "expected_agreement": 0.6878251821019771,
+        "kappa": 0.8966666666666667,
+        "primary_margin": {
+          "1": 50,
+          "0": 12
+        },
+        "second_margin": {
+          "1": 50,
+          "0": 12
+        }
+      },
+      "int": {
+        "n": 62,
+        "agreements": 60,
+        "observed_agreement": 0.967741935483871,
+        "expected_agreement": 0.6685744016649323,
+        "kappa": 0.9026687598116171,
+        "primary_margin": {
+          "1": 49,
+          "0": 13
+        },
+        "second_margin": {
+          "1": 49,
+          "0": 13
+        }
+      }
+    },
+    "reliability_key_matches_analyzed_codes": true,
+    "decade_summary": [
+      {
+        "decade": "1820",
+        "n": 15,
+        "syn": 13,
+        "sem": 15,
+        "int": 15
+      },
+      {
+        "decade": "1830",
+        "n": 52,
+        "syn": 50,
+        "sem": 51,
+        "int": 51
+      },
+      {
+        "decade": "1840",
+        "n": 58,
+        "syn": 55,
+        "sem": 56,
+        "int": 56
+      },
+      {
+        "decade": "1850",
+        "n": 47,
+        "syn": 43,
+        "sem": 45,
+        "int": 45
+      },
+      {
+        "decade": "1860",
+        "n": 47,
+        "syn": 43,
+        "sem": 44,
+        "int": 44
+      },
+      {
+        "decade": "1870",
+        "n": 26,
+        "syn": 23,
+        "sem": 24,
+        "int": 24
+      },
+      {
+        "decade": "1880",
+        "n": 38,
+        "syn": 35,
+        "sem": 37,
+        "int": 37
+      },
+      {
+        "decade": "1890",
+        "n": 78,
+        "syn": 72,
+        "sem": 70,
+        "int": 70
+      },
+      {
+        "decade": "1900",
+        "n": 47,
+        "syn": 34,
+        "sem": 35,
+        "int": 35
+      },
+      {
+        "decade": "1910",
+        "n": 30,
+        "syn": 22,
+        "sem": 22,
+        "int": 22
+      },
+      {
+        "decade": "1920",
+        "n": 32,
+        "syn": 19,
+        "sem": 18,
+        "int": 18
+      },
+      {
+        "decade": "1930",
+        "n": 14,
+        "syn": 4,
+        "sem": 7,
+        "int": 7
+      },
+      {
+        "decade": "1940",
+        "n": 20,
+        "syn": 5,
+        "sem": 5,
+        "int": 5
+      },
+      {
+        "decade": "1950",
+        "n": 20,
+        "syn": 4,
+        "sem": 5,
+        "int": 3
+      },
+      {
+        "decade": "1960",
+        "n": 18,
+        "syn": 4,
+        "sem": 4,
+        "int": 4
+      },
+      {
+        "decade": "1970",
+        "n": 18,
+        "syn": 2,
+        "sem": 2,
+        "int": 2
+      },
+      {
+        "decade": "1980",
+        "n": 11,
+        "syn": 5,
+        "sem": 5,
+        "int": 5
+      },
+      {
+        "decade": "1990",
+        "n": 22,
+        "syn": 11,
+        "sem": 11,
+        "int": 11
+      },
+      {
+        "decade": "2000",
+        "n": 15,
+        "syn": 11,
+        "sem": 11,
+        "int": 11
+      },
+      {
+        "decade": "2010",
+        "n": 8,
+        "syn": 1,
+        "sem": 2,
+        "int": 2
+      }
+    ],
+    "iid_continuous_ordering_prior_probability": 0.16666666666666666
+  },
+  "inputs": {
+    "analysis/morphgain-confirmatory-code-primary.py": {
+      "sha256": "5352e8c442da76a3b806b336594f026adfe76b6c69efe339539f9546f61d587d",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/morphgain-confirmatory-reliability.py": {
+      "sha256": "e98108cb28d858c5fd1e5ed51f6a3fd5671ac930c7e60c61bb3a79745944780c",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/morphgain-confirmatory-analyze.py": {
+      "sha256": "b78f1dc647b1f37980cced7063efc61d6ba09187a1d4f5c6b28319200c299ad1",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/fie-confirmatory-model.R": {
+      "sha256": "40f0007a13bec6a98ba298b99df4dda3d2fbbd01ce897871e7a11568ca485b5b",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/fie-coding-sheet-annotated.csv": {
+      "sha256": "2f5d394129a053d4bbccf147cb303fb0ffa9fd4966d1f733078f1cbc281862f6",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/fie-decade-key.csv": {
+      "sha256": "7f6d55da59cd172450d2d007be94e5079a1ebfc40d9cc9abbf36a3b37bccda6a",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/fie-excluded.csv": {
+      "sha256": "639976b835d75acf2eae3ba6240043f551a57a59bb2335368a49a73ee9a04919",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/fie-reliability-key.csv": {
+      "sha256": "814a7c39b07fa9aadbf0f4a24846e2e47b58311331c3f7fdc2952ea2db0203be",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/fie-reliability-sheet.csv": {
+      "sha256": "fd21552703b8bc8412867d3779d0adb7336aba15f3778ff6e6bbdaac91cc3eb9",
+      "matches_cited_archive_revision": true
+    },
+    "morphology-gain-coha-preregistration.md": {
+      "sha256": "da97bfee2e28dfbe16eb241cf975bad36a59f6ee80b9a4f63f0132d4585de883",
+      "matches_cited_archive_revision": true
+    },
+    "fie-coha-preregistration.md": {
+      "sha256": "b34fe9c50bc774d7464c02915fd100827dae5930d893843ed354c29108163dea",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/morphgain-confirmatory/morphgain-coded-primary.csv": {
+      "sha256": "3a6889534383e2bcf788f512894a297a1776166a190283cd926c62334c25dc7f",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/morphgain-confirmatory/morphgain-reliability-key.csv": {
+      "sha256": "70e19bb6a9dacd4c899025e357bdd674db0d8671e142ce3d2d704907be9987ce",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/morphgain-confirmatory/morphgain-reliability-sheet.csv": {
+      "sha256": "6568073ab649db03750f9020ba6f73d8180f47608e775081fed91dd272bbb36c",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/morphgain-confirmatory/morphgain-token-key.csv": {
+      "sha256": "436276a09167de52782e56a6d03705fcc166d986c8e84aa37d21e5fd8b7050ee",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/morphgain-confirmatory/morphgain-earliest-windows.csv": {
+      "sha256": "ed644bb65e46b6c23b2c6714360c14370a1c6435569fd1043d25bf22678ba559",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/morphgain-confirmatory/RESULTS.md": {
+      "sha256": "20d9e04f82565e357cd753185c04b701e574838d0de5742387528917b4a33cde",
+      "matches_cited_archive_revision": true
+    },
+    "analysis/morphgain-confirmatory/extraction-metadata.json": {
+      "sha256": "7ede1e760475f0702ff7c6fc0a94815b4bb06ab7717a31b61e5718665f780dc2",
+      "matches_cited_archive_revision": true
+    }
+  }
+}

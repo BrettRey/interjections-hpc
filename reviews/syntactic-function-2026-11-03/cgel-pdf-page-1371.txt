@@ -1,0 +1,48 @@
+                                                          § 5.1 General properties of supplementation               1351
+
+
+     In spite of the and, the underlined clause is an interpolation, and is clearly not of equal
+     syntactic status with the clause Jill left before the meeting had ended. We thus treat [3] as
+     an instance of supplementation, not coordination, such as we have in Jill left before the
+     end of the meeting and I was sorely tempted to follow her.
+
+ Supplements and anchors
+     Although supplements are not syntactically dependent on a head, they are semantically
+     related to what we will call their anchor.69 In [1i] the anchor is the NP Pat, while in
+     [1ii–iii] and [3] it is a clause – the clause which the supplement interrupts or follows.
+     Other possibilities are shown in [4], where double underlining marks the anchor, single
+     underlining the supplement:
+ [4]       i When the patient closed his eyes, he had absolutely no spatial (that is, third-
+             dimensional ) awareness whatsoever.
+          ii The goal is to produce individuals who not only possess ‘two skills in one skull’, that is,
+             are bicultural, but can also act as human links between their two cultures.
+     In [i] the anchor is the adjective spatial (which functions as attributive modifier to the
+     noun awareness); in [ii] it is the VP possess ‘two skills in one skull’ (first coordinate in a
+     VP-coordination).
+        A supplement must be semantically compatible with its anchor. Compare, for example:
+ [5]       i This stipulation – that the amount of damages not be divulged – was ignored.
+          ii #This stipulation – whether the press could be informed – was ignored.
+     The supplement in [i] is a declarative clause and as such can appropriately combine with
+     the anchor this stipulation. The anomaly of [ii] stems from the fact that the supplement
+     is an interrogative clause and hence is not semantically compatible with this anchor.
+
+ Supplements vs dependents
+ Semantic compatibility vs syntactic licensing of complements
+ The restriction illustrated in [5] is comparable to that which holds between a complement
+ and the head nominal in NP structure:
+ [6] i The stipulation that the amount of damages not be divulged was ignored.
+      ii ∗The stipulation whether the press could be informed was ignored.
+     This time, single underlining indicates the complement, double underlining the head.
+     The noun stipulation licenses a declarative content clause as complement, but not an
+     interrogative, so [ii] is inadmissible.
+         There is a significant difference between [5] and [6], however. The integrated con-
+     struction shown in [6] requires that the complement be syntactically licensed, whereas
+     in supplementation it is, as we said above, a matter of semantic compatibility. Compare:
+ [7]       i a. The stipulation that Harry could not touch the money until he was eighteen an-
+                 noyed him enormously.
+             b. ∗The codicil that Harry could not touch the money until he was eighteen annoyed
+                 him enormously.
+
+69
+     Some writers use the term ‘host’, but we have avoided this because we use it elsewhere in its primary sense,
+     where it applies to the word to which a clitic is attached (see Ch. 18, §6.2).

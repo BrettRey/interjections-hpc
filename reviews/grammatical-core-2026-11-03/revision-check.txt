@@ -1,0 +1,7 @@
+Bounded revision check — 2026-11-03
+
+Checked the new abstract, Sections 2.1–2.2 and 3.2, and conclusion in inquiry-relative-categories.tex against source-check.txt.
+
+No actionable material findings. The positive grammatical profile is intelligible and appropriately attributed: CGEL supplies independent/supplementary distribution; Ameka and Wilkins supply the wider formal profile. The ordinary imperative and nominal-answer contrasts do not confuse utterance status with lexical category. The eight-form core, the note on alas, conative hey/sh, complement-taking damn, and the Wilkins oh footnote preserve the source distinctions.
+
+The constructed examples are explicitly illustrations. Sections 2.1 and 3.2 distinguish the cited descriptive warrant from a new measured or held-out test; they do not claim such a test was performed. No manuscript changes or further evidence requirements are proposed.

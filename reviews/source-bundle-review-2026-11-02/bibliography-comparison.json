@@ -1,0 +1,179 @@
+{
+  "bundle_unresolved": [],
+  "local_new": [
+    "lee2022lah"
+  ],
+  "differences": {
+    "dingemanse2018": {
+      "journaltitle": {
+        "local": null,
+        "bundle": "Glossa: A Journal of General Linguistics"
+      },
+      "journal": {
+        "local": "Glossa: A Journal of General Linguistics",
+        "bundle": null
+      },
+      "pages": {
+        "local": "1--30",
+        "bundle": null
+      }
+    },
+    "dingemanse2023preprint": {
+      "ENTRYTYPE": {
+        "local": "misc",
+        "bundle": "unpublished"
+      }
+    },
+    "dingemanseakita2017": {
+      "journaltitle": {
+        "local": null,
+        "bundle": "Journal of Linguistics"
+      },
+      "journal": {
+        "local": "Journal of Linguistics",
+        "bundle": null
+      }
+    },
+    "heine2023interactives": {
+      "author": {
+        "local": "Bernd Heine",
+        "bundle": "Heine, Bernd"
+      }
+    },
+    "krajinovic2025": {
+      "title": {
+        "local": "When (Not) to Establish a New Category: The Case of Perfect, `Already' and Iamitives",
+        "bundle": "When (not) to establish a new category: The case of perfect, ‘already’ and iamitives"
+      },
+      "year": {
+        "local": "2025",
+        "bundle": null
+      },
+      "date": {
+        "local": null,
+        "bundle": "2025"
+      },
+      "journaltitle": {
+        "local": null,
+        "bundle": "Studies in Language"
+      },
+      "journal": {
+        "local": "Studies in Language",
+        "bundle": null
+      }
+    },
+    "libert2019": {
+      "booktitle": {
+        "local": null,
+        "bundle": "Oxford Bibliographies in Linguistics"
+      },
+      "publisher": {
+        "local": null,
+        "bundle": "Oxford University Press"
+      },
+      "ENTRYTYPE": {
+        "local": "online",
+        "bundle": "incollection"
+      }
+    },
+    "ljung2011": {
+      "edition": {
+        "local": null,
+        "bundle": "1"
+      }
+    },
+    "maisak2026": {
+      "title": {
+        "local": "Towards a Typology of Imperative Interjections: `{Take} It!' in the {Caucasus}",
+        "bundle": "Towards a typology of imperative interjections: ‘Take it!’ in the {Caucasus}"
+      },
+      "year": {
+        "local": "2026",
+        "bundle": null
+      },
+      "date": {
+        "local": null,
+        "bundle": "2026"
+      },
+      "journaltitle": {
+        "local": null,
+        "bundle": "Transactions of the Philological Society"
+      },
+      "journal": {
+        "local": "Transactions of the Philological Society",
+        "bundle": null
+      }
+    },
+    "mushin2023": {
+      "year": {
+        "local": "2023",
+        "bundle": null
+      },
+      "date": {
+        "local": null,
+        "bundle": "2023"
+      },
+      "journaltitle": {
+        "local": null,
+        "bundle": "Australian Journal of Linguistics"
+      },
+      "journal": {
+        "local": "Australian Journal of Linguistics",
+        "bundle": null
+      }
+    },
+    "poggi2009": {
+      "editor": {
+        "local": "Esposito, Anna and Hussain, Amir and Marinaro, Maria and Martone, Raffaele",
+        "bundle": null
+      }
+    },
+    "ponsonnet2025": {
+      "year": {
+        "local": "2025",
+        "bundle": null
+      },
+      "date": {
+        "local": null,
+        "bundle": "2025"
+      },
+      "journaltitle": {
+        "local": null,
+        "bundle": "Lingua"
+      },
+      "journal": {
+        "local": "Lingua",
+        "bundle": null
+      },
+      "pages": {
+        "local": "103979",
+        "bundle": null
+      },
+      "eid": {
+        "local": null,
+        "bundle": "103979"
+      }
+    },
+    "stange2016": {
+      "author": {
+        "local": "Ulrike Stange",
+        "bundle": "Stange, Ulrike"
+      },
+      "title": {
+        "local": "Emotive Interjections in British English",
+        "bundle": "Emotive Interjections in {British English}: A corpus-based study on variation in acquisition, function and usage"
+      }
+    },
+    "zimmerackermann2025": {
+      "year": {
+        "local": "2025",
+        "bundle": null
+      },
+      "date": {
+        "local": null,
+        "bundle": "2025"
+      }
+    }
+  },
+  "parser_note": "Nonstandard BibLaTeX types included; inline percent comments removed in memory before parsing."
+}

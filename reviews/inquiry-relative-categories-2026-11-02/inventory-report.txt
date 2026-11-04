@@ -1,0 +1,85 @@
+# Manuscript inventory
+
+- Source: /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/inquiry-relative-categories.tex
+- Word count: **10,494** (texcount)
+- Prose paragraphs inspected: **162**
+
+## Structure
+
+- L83: Introduction
+- L168: Three classifications of conventional signs
+- L186:   Grammar and expressive meaning
+- L241:   Interaction and its subtypes
+- L284:   The common bearer and the contrasts it preserves
+- L351: What justifies an inquiry-relative classification?
+- L361:   Bearers, grouping, contribution, and alternatives
+- L440:   From candidate to supported classification
+- L466:   Projection and identity
+- L502:   Representation and explanation
+- L554: Phonological organization and situated realization
+- L564:   A phonological stratum of signs
+- L607:   Prosodic classes of realizations
+- L646: Historical ancestry and classes of change
+- L689:   Source, mechanism, transmission, and trajectory
+- L732:   What historical evidence can establish
+- L765: Broader classes and further inquiries
+- L776:   Social regulation and socially recognized repertoires
+- L812:   Formulaicity and processing
+- L849:   Keeping the family open without multiplying labels
+- L932: What the corpus evidence bears on
+- L943:   Geographic distributions and inventory change
+- L1006:   Withdrawn confirmatory interpretations
+- L1043: The general consequence
+- L1053:   Pluralism with local failure conditions
+- L1081:   Overlap, mechanisms, and category standing
+- L1126: Conclusion
+- L1148: Acknowledgements
+- L1173:   Data and measurement
+- L1183:   Geographic distributions
+- L1202:   Concordance audit and sensitivity
+- L1218:   Model specification
+- L1234:   Results
+- L1263:   Design and extraction
+- L1282:   Intended measures and implementation
+- L1290:   Archived outputs and their limits
+- L1309:   Reliability record and files
+- L1350:   Design, coding, and denominator
+- L1358:   Archived agreement and proportions
+- L1383:   Archived models and interpretation
+
+## Paragraphs over 100 words
+
+- None detected.
+
+## Sentences of 40 words or more
+
+- L16 (48 words): ] pdftitle= Inquiry-Relative Categories: English Interjections as a Worked Case , pdfkeywords= inquiry-relative categories, category pluralism, projectibility, interjections, sign-
+- L1177 (44 words): Assignment uses Google's region function: country domains provide a direct cue, but for .com and .org sites Google relies on several heuristics, including 1) the IP address for the
+- L1212 (42 words): Raw ya and yeh look like variants of yeah , but they concentrate where substrate words are homographs: ya peaks in Tanzania (19.5 per million) and Malaysia (13.9), and yeh in Singa
+
+## Repeated three-word paragraph openings
+
+- None occurring three or more times.
+
+## Possible editorial scar tissue
+
+- L110 [revision-position reference]: English interjections supply the worked case.
+- L370 [revision-position reference]: The bearer is the object being classified.
+- L658 [revision-position reference]: traces gee through an invocation of Jesus , an exclamatory use of the religious name, and a clipped form.
+- L691 [revision-position reference]: A useful historical description separates four relations.
+- L699 [revision-position reference]: For gee , a religious invocation supplies the source and tabooistic clipping supplies one mechanism.
+- L724 [revision-position reference]: Classes of changes require a different representation.
+- L814 [revision-position reference]: Formulaicity offers a similarly broad comparison.
+- L934 [revision-position reference]: The corpus analyses distinguish useful description from evidence for broader category claims.
+- L1064 [revision-position reference]: The same discipline supplies failure conditions.
+- L1189 [revision-position reference]: Bootstrap intervals resample the twenty observed country sections.
+- L1204 [revision-position reference]: The tagger's training on inner-circle English limits its treatment of regional forms, but recognized items aren't necessarily clean.
+- L1204 [fragile paired reference]: The tagger's training on inner-circle English limits its treatment of regional forms, but recognized items aren't necessarily clean.
+- L1254 [revision-position reference]: To propagate the ha precision estimates, each country's count was thinned by draws from its beta posterior, leaving the other seventeen items unchanged, and m0 and m1 were refitted
+- L1286 [revision-position reference]: An implementation audit changes the evidential status of the results.
+- L1292 [revision-position reference]: The confirmatory window began with the earliest decade containing at least three included derivatives and extended until it contained ten.
+- L1374 [revision-position reference]: These archived agreement values don't validate inclusion decisions or resolve the provenance of predicted codes.
+- L1385 [fragile paired reference]: The script fits three separate decade-level binomial logistic regressions, with time centred and scaled in ten-year units.
+- L1405 [revision-position reference]: The archived probability of [math] is 0.13, below the preregistration's informal 0.25 threshold for inconsistent .
+
+> This inventory is heuristic. Verify every candidate against the source, argument, and rendered artifact.

@@ -1,0 +1,7 @@
+{
+  "completed_at": "2026-11-03T22:06:52.160237+00:00",
+  "scope": "Exact approved replacement of opening paragraph",
+  "source_sha256": "a657cfa8b5d40da1aa26f0a4c31610875b9aa8a967a51288e7679c7b09ba66dd",
+  "build": "Two XeLaTeX passes, exit 0; references resolved",
+  "bundle_verified": true
+}

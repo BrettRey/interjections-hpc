@@ -1,0 +1,94 @@
+REVISION AND EVIDENCE AUDIT
+English Interjections Across Grammar, Meaning, and Interaction:
+Field-Relative Categories and Path Dependence
+Prepared 2 November 2026
+
+PURPOSE AND RESULT
+
+This is a complete revision of the uploaded manuscript, including its abstract, seven main sections, diagnostic matrix, theoretical diagrams, prospective declarations, conclusion, and three appendices. It preserves the central proposal that grammatical, expressive, and interactional classifications can overlap without one inquiry having automatic priority. It changes the inferential structure so that this proposal does not depend on stronger empirical or causal conclusions than the evidence supports.
+
+The main distinction now runs among four achievements: preserving useful descriptive contrasts; predicting an unobserved property; improving prediction or economy through a particular representation; and explaining a dependence through an independently supported process. Evidence for any one achievement is not automatically evidence for the others.
+
+The historical contribution is retained at its supported strength. Gehweiler's history of gee documents an invocative route and taboo-managed deformation. The optative route proposed for complement-taking damn remains a reconstruction. These cases motivate source-specific persistence without uniquely establishing the proposed causal network or displacing developed constructional explanations.
+
+TWO EMPIRICAL CLAIMS WITHDRAWN
+
+The revision audits the public analysis archive at this exact revision:
+https://github.com/BrettRey/interjections-hpc/tree/074dfb44cef5b18d292ac176ba5acbfedc76e3b1
+
+1. Semantic persistence in verbal derivatives
+
+The primary coding script assigns verbal_syntax = 1 and semantic_residue = 1 to every row that its exclusion rules retain. The file contains 1,462 rows, with 969 retained and 493 excluded. Retained family counts are boo 364, ooh 52, shoo 410, and wow 143. The reported all-success confirmatory windows consequently do not measure semantic persistence independently of the coding rule.
+
+The intended use of verbal syntax as an inclusion criterion is not itself a design error. The problem is that the assigned syntax field cannot independently validate eligibility decisions, and the assigned semantic field cannot test the semantic hypothesis. The revision keeps these points separate.
+
+The 97-row reliability comparison is constant for inclusion, verbal syntax, and semantic residue. Observed and expected agreement are both 1. Cohen's kappa, (p_o - p_e)/(1 - p_e), is therefore undefined, not 1.000. The reliability script's special case returns 1.000; Appendix B corrects that interpretation. The secondary reported agreement and kappa values reproduce to their stated rounding.
+
+The preregistration is described accurately as preceding confirmatory extraction and coding, after disclosed feasibility queries. No claim is made that all exploratory inspection followed registration.
+
+Primary code:
+https://github.com/BrettRey/interjections-hpc/blob/074dfb44cef5b18d292ac176ba5acbfedc76e3b1/analysis/morphgain-confirmatory-code-primary.py
+
+Reliability code:
+https://github.com/BrettRey/interjections-hpc/blob/074dfb44cef5b18d292ac176ba5acbfedc76e3b1/analysis/morphgain-confirmatory-reliability.py
+
+2. Ordered erosion in fie
+
+The model's annotated input contains 616 rows and retains obvious OCR substitutions for the pronoun He, coded zero on all three linguistic diagnostics. Examples are F014, F028, and F043. The model filters only for a non-missing syntactic code. An OCR error cannot be treated as an interjection that has lost grammatical, semantic, and interactional properties.
+
+The joint syntactic-semantic-interactional codes are 111: 448 rows; 000: 139; 011: 19; 100: 8; and 010: 2. Of the 616 rows, 350 have notes beginning "predicted". The archive does not establish independent manual verification of all those assignments. These provenance findings do not mean that every predicted assignment is wrong; they prevent treating the entire coded input as independently validated linguistic measurement.
+
+The separate exclusion file contains 141 entries: 134 OCR errors, three metalinguistic mentions, two non-English cases, and two name fragments. It does not establish that the analysed denominator successfully implements those exclusions.
+
+The reported decline curves, ED50 dates, and ordering probability 0.13 are preserved only as archived outputs in Appendix C. They provide no valid present test for or against ordered linguistic erosion. The three separate models also leave within-token diagnostic dependence unmodelled. With identical independent continuous priors, each strict ordering has prior probability 1/6; the preregistration's 0.25 threshold should not be treated as a neutral baseline for evidence against one ordering.
+
+Model code:
+https://github.com/BrettRey/interjections-hpc/blob/074dfb44cef5b18d292ac176ba5acbfedc76e3b1/analysis/fie-confirmatory-model.R
+
+Annotated input:
+https://github.com/BrettRey/interjections-hpc/blob/074dfb44cef5b18d292ac176ba5acbfedc76e3b1/analysis/fie-coding-sheet-annotated.csv
+
+Exclusion record:
+https://github.com/BrettRey/interjections-hpc/blob/074dfb44cef5b18d292ac176ba5acbfedc76e3b1/analysis/fie-excluded.csv
+
+No linguistic recoding or replacement model fitting was performed. Removing all 000 rows would not repair the fie analysis: that group also contains genuine retrieved fie occurrences. Both studies require independently assessed eligibility and target coding before their intended hypotheses can be evaluated.
+
+LOGICAL REPAIRS THROUGHOUT THE MANUSCRIPT
+
+The three classifications are explicitly proposed analytical reconstructions. Their non-identical extensions motivate separate judgments; noncoextension alone does not prove predictive or explanatory value, exactly three useful categories, or uniformly sharp membership boundaries.
+
+Sign-type identity is fixed from source evidence for each declaration. A failed target cannot be excluded merely because it has a determiner, complement, affix, or unexpected recipient treatment. A conversion analysis requires independent evidence; changing the identity rule creates a revised claim needing a fresh evaluation.
+
+External integration and internal phrase structure are kept separate. A standalone expression can contain a head and complement. The matrix assesses external packaging for the whole expression and morphological/semantic contribution for the indicated head use. Complement-taking damn remains unresolved between the exceptional-IntjP and verbal analyses, while its standalone expression's external non-integration is not weakened merely by the complement.
+
+The semantics-facing class concerns a conventional expressive contribution. Its use-conditional terminology does not absorb all felicity conditions or every procedural discourse instruction. Contextually conveyed attitudes in continuer mm-hm and repair huh? do not automatically establish a conventional expressive component in those readings.
+
+The pragmatic criterion permits resources that operate through a host utterance. Expressive contribution alone does not establish a conventional sequential job. The revision adds Lee (2022), a primary study documenting low-falling lah in confirmation-seeking use, to ground that contrast explicitly. The relevant semantic assignment remains unresolved; not-at-issue contribution alone is insufficient for it.
+
+Broad pragmatic membership is separated from action subtypes. Continuers, repair initiators, stance displays, and closings need not project the same response or floor transition. Any claimed benefit of the broad category must be assessed against subtype, form identity, and local sequential information.
+
+Joint membership is left open to evaluation. The mathematical derivability of an intersection from complete memberships does not show that it lacks practical representational value under restricted or noisy evidence. The paper does not introduce a fourth category, but it no longer claims to have disproved the usefulness of that grouping.
+
+Non-referentiality is characterized semantically, without building argument-position restrictions into its definition. The general semantic-to-syntactic ratchet is replaced by construction-specific hypotheses. Prenominal expressives, internal complementation, and conversion remain available as relevant contrasts.
+
+The causal diagram distinguishes documented historical explanations, candidate dependencies, and classifications. Diagnostic-to-category assignment is not drawn as a causal effect. Historical evidence and synchronic association are kept separate, and developed constructional explanations are treated as substantive comparators or possible implementations.
+
+The historical narrative corrects three particular inferences: invocative Jesus can already have independent prosodic packaging; abrupt change is not necessary for historical residue; and lah's source profile is host-dependent, so adoption cannot be described as losing a prosodic independence it did not have.
+
+The GloWbE discussion now supports geographic frequency description and limited model-based country variation. It does not establish category-boundary resolution, social indexing, or a maintenance process. Precision correction is distinguished from recall, marginal interval overlap from a pairwise test, and country intercepts from item-specific country effects. COHA turnover is explicitly change in a tagged frequency ranking, not proof that a diagnostic profile persists as members change.
+
+STRUCTURE AND REFERENCE HANDLING
+
+The opening now presents the concrete damn contrasts and the three proposed classifications before the more abstract framework. The four-objects apparatus moves into the framework section. The former overlap diagram becomes a contrast table that does not mistake unknown membership for exclusion. The GloWbE measurement discussion is consolidated in Appendix A. Appendices B and C state the two audits and retain the old numerical outputs with their invalidated evidential status made explicit.
+
+The source remains at essentially its original length: 22,175 whitespace-delimited source tokens against 21,742 in the uploaded file, about 2% more. These counts include TeX commands, comments, captions, and tables; they are a consistent source-length comparison, not a prose-only word count. Prose has been reflowed into single source lines where structurally appropriate.
+
+All 68 current citation keys resolve. The revised set retains 67 of the original 68 and adds lee2022lah. The seifart2010 citation was removed together with the dispensable animacy-colour analogy. Eleven existing records missing from the recovered central bibliography were reconstructed from primary publisher or author-institution records. Dingemanse's 2023 handbook-chapter preprint is kept separate from his 2024 Annual Review article, preserving the preprint pagination used in the manuscript. No exact OSF revision date is asserted.
+
+VALIDATION AND LIMITS
+
+The full document was compiled with XeLaTeX and Biber using actual bibliography and example packages and all four original external figure PDFs. All 43 labels and 59 explicit cross-references resolve. The build has no LaTeX errors, undefined citations or references, missing glyphs, overfull boxes, duplicate labels, or Biber warnings. Page layouts, tables, diagrams, bibliography, and appendices were visually inspected. Remaining package notices concern microtype protrusion slots, a footnote patch, and unused even-page header settings; they do not produce the listed content or layout defects.
+
+The source package includes a portable copy of the house preamble. Its two changes are xurl for safe breaks in long archive filenames and replacement of the unavailable, unused Hiragino CJK fallback with DejaVu Sans. The manuscript does not invoke the CJK macro. EB Garamond, Charis SIL, and Inconsolata are used for the actual manuscript text, phonetic material, and monospace content. The original preamble is also included for comparison or use in an environment with its fonts installed.
+
+These checks validate source structure, consistency, selected archived calculations, bibliography resolution, and rendering. They do not supply independent linguistic annotations, new held-out predictions, corrected posterior fits, or a fresh verification of every inherited quotation and page reference. The paper states the corresponding empirical limits instead of manufacturing those missing results.

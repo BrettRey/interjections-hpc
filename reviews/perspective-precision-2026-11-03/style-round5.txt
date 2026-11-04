@@ -1,0 +1,44 @@
+
+Found 4 potential style violation(s):
+
+
+=== inquiry-relative-categories.tex ===
+  Line 704: [warning] Noticeable 'The X is Y' paragraph-opener cadence (6; lines 169, 433, 704, 1045, 1324, ...) - vary if not defining, contrasting, or pivoting
+    The worked cases are named for the relations they investigate: the lex; The g...
+  Line 836: [warning] Noticeable argumentative-object paragraph-opener cadence (7; lines 129, 616, 805, 836, 1104, 1340, ...) - vary by making the move directly where possible
+    This paper asks what warrants recognizing a category for an inquiry. A; The r...
+  Line 783: 'category label plus class' - use 'category' unless explicitly contrasting HPC class
+    Alternative & An undifferentiated interjection class, explicit subtypes, or i...
+  Line 983: Uncontracted pronoun + auxiliary 'it is' - prefer 'it's'
+    membership in it is treated as sufficient for interjection status.
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    Line 384: AI pattern: possible false range; verify the endpoints form a real scale
+      predict something unavailable from every other description to be useful.
+    Line 497: AI pattern: possible false range; verify the endpoints form a real scale
+      evidence: identifying a use as depictive from its response to repetition
+    Line 781: AI pattern: possible false range; verify the endpoints form a real scale
+      Distinguish the observed contrast from its extension to new realizations, environments, or sign-t...
+    Line 789: AI pattern: possible false range; verify the endpoints form a real scale
+      \subsection{From proposal to category claim}
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    689 sentences | median 14 | mean 14.8 | middle half 10-19 (9 words)
+         1-9  #################         155   22%
+       10-14  ########################  218   32%
+       15-19  #################         153   22%
+       20-24  ############              107   16%
+       25-29  ####                       38    6%
+       30-34  #                           9    1%
+       35-39  #                           6    1%
+         40+                              3    0%
+

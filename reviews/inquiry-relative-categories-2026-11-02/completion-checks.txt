@@ -1,0 +1,81 @@
+INQUIRY-RELATIVE CATEGORIES — COMPLETION CHECKS
+2 November 2026
+
+Scope
+A complete separate working manuscript was created. Existing main.* files,
+references-local.bib, preamble, Makefile, STATUS.md, and DECISIONS.md were
+preserved. No corpus recoding, statistical refit, central bibliography edit,
+commit, push, venue selection, or submission was performed.
+
+Architecture
+The general classification account is the contribution. Grammar, semantics,
+and interaction are three worked sign-type classifications within an open
+family. Phonological organization and ancestry are developed extensions;
+realizations and historical changes have different bearers. Broader social
+and processing categories retain their own possible names and scope.
+Candidate standing, support, comparative merit, and causal explanation are
+kept separate. The intersection's representational utility remains open.
+
+Bounded second-reader review
+All three localized findings in coherence-review.txt were addressed:
+- Phonological projection is described as projective, not explanatory, reach.
+- Bang!'s grammatical assignment is unresolved without additional evidence.
+- Frequency adjustment is described as conditional association; causal
+  interpretation requires additional assumptions.
+
+Projectibility audit (applied to this conceptual paper's actual claims)
+Check | Status | Evidence
+Declaration | YELLOW | Section 3.3 identifies source, target, bearer and conditions; proposed new empirical comparisons remain prospective, not completed preregistrations.
+Inquiry/use, warrant plan, revision rule | YELLOW | Sections 3.1–3.2 specify intended contribution and alternatives; no new forward study is claimed.
+Non-trivial projection | YELLOW | Repetition, spelling pronunciation, and source-compatible dependents are possible independent targets, not established successes.
+Warrant versus causal claims | GREEN | Sections 3.3–3.4 separate evidence from explanation; frequency qualification corrected.
+Causal order | GREEN | Section 3.4 distinguishes stable profiles and historical dependence; section 8.2 does not infer causal direction from co-occurrence.
+Maintenance versus control | GREEN | Homeostasis is reserved for corrective control; no such result is claimed.
+Level and bearer | GREEN | Sections 4–6 distinguish sign-types, realizations, histories, acquisition episodes and their relations.
+Scope and inquiry relativity | GREEN | Inquiry selects the question; evidence constrains the proposed answer. Equal criteria allow unequal support.
+Revision and failure | GREEN | Sections 3.3 and 8.1 reject membership redefinition after target failure; the two failed confirmatory interpretations remain withdrawn.
+Positioning and conclusion | GREEN | The payoff is an assessment framework with supported contrasts and restricted history, not a demonstrated general causal cluster.
+
+Projectibility is a substantive possible contribution, not a universal admission
+requirement imposed on every descriptive or historical classification. The
+user's specified argument governs that distinction. Strongest empirical causal
+commitment: the documented gee recruitment route, not a category-wide
+maintenance or control mechanism.
+
+Source and empirical integrity
+The five added records have bounded primary-source notes in source-check/.
+Ogden and Jay/Janschewitz are used only within their checked abstract claims.
+The source-bundle audit independently reproduced the coding defects and saved
+fie outputs; no replacement results were invented. The 97-row recode retains
+its conditional descriptive standing and its 3/54 early-window limitation.
+The common decade-midpoint offset is treated as calendar conversion, not a
+change to fitted ordering. All 32 citation keys resolve, including the
+HuddlestonPullum2002 alias for huddleston2002.
+
+Figure display correction
+analysis/conditioning-model.R:229–240 facets by item before stat_summary;
+there is one rate per country within each facet. The archived figure's
+"median across items" subtitle is misleading. The new manuscript crops only
+the inherited title/subtitle and supplies the correct caption. Original PDF,
+code, counts, and plotted points are unchanged.
+
+Style adjudication
+The linter's imprecise -> imprecize suggestions are false positives and were
+rejected. Definition/contrast openings are appropriate to the argument; the
+cadence flags do not establish violations. The AI-voice flags concern literal
+contrasts, attribution, or genuine numerical ranges and were reviewed in
+context. The abstract is 169 whitespace-delimited words. All body acronyms
+flagged by the terminology checker have been expanded. Front-matter terms
+are explained in the body; the general word anchoring is not a technical
+term here. No prose paragraph exceeds 100 words under the inventory helper.
+The exact computed sentence-length distribution is preserved verbatim in
+style-report.txt.
+
+Build and layout
+XeLaTeX/Biber completed; no undefined references/citations, duplicate labels,
+or overfull boxes. Native preamble fancyhdr and microtype warnings remain,
+plus four underfull-box warnings; visual review found no clipping or overlap.
+The final full-page review covers all pages, using pixel equality to carry
+forward unchanged inspected pages. A small model-block pagination correction
+was re-rendered separately. Exact final counts and protected hashes are in
+verification.json and word-count.txt.

@@ -1,0 +1,50 @@
+
+Found 4 potential style violation(s):
+
+
+=== inquiry-relative-categories.tex ===
+  Line 358: [warning] Noticeable 'The X is Y' paragraph-opener cadence (8; lines 169, 349, 358, 411, 698, ...) - vary if not defining, contrasting, or pivoting
+    The worked cases are named for the relations they investigate: the lex; The f...
+  Line 837: [warning] Noticeable argumentative-object paragraph-opener cadence (7; lines 129, 604, 803, 837, 988, 1133, ...) - vary by making the move directly where possible
+    This paper asks what warrants recognizing a category for an inquiry. A; The r...
+  Line 70: Uncontracted pronoun + auxiliary 'What has been' - prefer 'what's'
+    propositional meaning. What has been observed of a member supports
+  Line 781: 'category label plus class' - use 'category' unless explicitly contrasting HPC class
+    Alternative & An undifferentiated interjection class, explicit subtypes, or i...
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    Line 480: AI pattern: possible false range; verify the endpoints form a real scale
+      a use as depictive from its response to repetition and then predicting
+    Line 663: AI pattern: possible false range; verify the endpoints form a real scale
+      A single ordering from less to more interjectional can't
+    Line 779: AI pattern: possible false range; verify the endpoints form a real scale
+      Distinguish the observed contrast from its extension to new realizations, environments, or sign-t...
+    Line 787: AI pattern: possible false range; verify the endpoints form a real scale
+      \subsection{From proposal to category claim}
+    Line 911: AI pattern: while maintaining/preserving trade-off frame
+      bearer connects those claims to the same use while preserving the
+    Line 1017: AI pattern: while maintaining/preserving trade-off frame
+      that sufficient test while retaining both the wider interjection profile
+    Line 1502: AI pattern: while maintaining/preserving trade-off frame
+      complete classification. They can be mutually informative while preserving
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    720 sentences | median 14 | mean 14.4 | middle half 10-18 (8 words)
+         1-9  #################         165   23%
+       10-14  ########################  234   32%
+       15-19  #################         167   23%
+       20-24  ###########               105   15%
+       25-29  ####                       35    5%
+       30-34  #                           9    1%
+       35-39                              3    0%
+         40+                              2    0%
+

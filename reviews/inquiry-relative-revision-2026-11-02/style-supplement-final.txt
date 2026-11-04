@@ -1,0 +1,59 @@
+
+Found 9 potential style violation(s):
+
+
+=== inquiry-relative-evidence-supplement.tex ===
+  Line 229: [warning] Noticeable 'The X is Y' paragraph-opener cadence (11; lines 130, 218, 229, 258, 277, ...) - vary if not defining, contrasting, or pivoting
+    The screen was checked and tuned against forty previously labelled Ken; The h...
+  Line 206: Oxford spelling: 'pointwise' -> 'pointwize'
+    Four Bayesian negative binomial models were fitted in \texttt{brms}~2.23 in R...
+  Line 206: Uncontracted negative auxiliary 'is not' - prefer 'isn't' unless contrast/emphasis requires the full form
+    Four Bayesian negative binomial models were fitted in \texttt{brms}~2.23 in R...
+  Line 229: Oxford spelling: 'pointwise' -> 'pointwize'
+    The archived pointwise LOO comparisons for models m0--m2 are:
+  Line 243: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    The country-conditioned model has the highest expected log predictive density...
+  Line 243: Oxford spelling: 'imprecise' -> 'imprecize'
+    The country-conditioned model has the highest expected log predictive density...
+  Line 247: Oxford spelling: 'pointwise' -> 'pointwize'
+    To propagate the \mention{ha} precision estimates, each country's count was t...
+  Line 307: Uncontracted negative auxiliary 'cannot' - prefer 'can't' unless contrast/emphasis requires the full form
+    notes differ from the primary file. I cannot reconstruct who performed
+  Line 309: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    to a blind human pass by me is therefore unsubstantiated and isn't
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- inquiry-relative-evidence-supplement.tex ---
+    Line 118: AI pattern: possible false range; verify the endpoints form a real scale
+      The tagger misses relevant regional uses, and even recognized items can contain false positives. ...
+    Line 144: gratuitous precision: hedge and digits cancel (approximately 0.412); round the figure or drop the hedge
+      coefficient of variation is approximately 0.412.
+    Line 169: AI pattern: possible false range; verify the endpoints form a real scale
+      Kenya falls from fifth in the original tagged rates to fifteenth or
+    Line 279: AI pattern: possible false range; verify the endpoints form a real scale
+      An implementation audit changes the evidential status of the results. The archived primary-coding...
+
+  --- inquiry-relative-evidence-supplement.tex ---
+    Line 95: AI phrase cluster - 3 signature phrase hits across 3 lines
+      "overall" x3 [lines 95,225,249]
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- inquiry-relative-evidence-supplement.tex ---
+    228 sentences | median 15 | mean 16.0 | middle half 11-20 (9 words)
+         1-9  ###############            44   19%
+       10-14  ########################   69   30%
+       15-19  #################          49   21%
+       20-24  ############               35   15%
+       25-29  ########                   24   11%
+       30-34  #                           2    1%
+       35-39  #                           4    2%
+         40+                              1    0%
+    [advisory] 64% of sentences fall in 12-26 words; the band is narrow, so check whether the rhythm has flattened
+

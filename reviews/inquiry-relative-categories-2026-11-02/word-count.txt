@@ -1,0 +1,58 @@
+File: inquiry-relative-categories.tex
+Encoding: ascii
+Sum count: 10492
+Words in text: 10041
+Words in headers: 200
+Words outside text (captions, etc.): 251
+Number of headers: 46
+Number of floats/tables/figures: 7
+Number of math inlines: 10
+Number of math displayed: 0
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  196+9+6 (2/0/0/0) _top_
+  668+1+0 (1/0/0/0) Section: Introduction}\label{sec:intro
+  126+5+0 (1/0/0/0) Section: Three classifications of conventional signs}\label{sec:worked
+  378+4+0 (1/0/0/0) Subsection: Grammar and expressive meaning
+  318+4+0 (1/0/0/0) Subsection: Interaction and its subtypes
+  324+8+37 (1/1/0/0) Subsection: The common bearer and the contrasts it preserves
+  76+5+0 (1/0/0/0) Section: What justifies an inquiry-relative classification?}\label{sec:assessment
+  389+5+4 (1/1/0/0) Subsection: Bearers, grouping, contribution, and alternatives
+  188+5+0 (1/0/0/0) Subsection: From candidate to supported classification
+  278+3+0 (1/0/0/0) Subsection: Projection and identity
+  398+3+0 (1/0/0/0) Subsection: Representation and explanation
+  66+5+0 (1/0/0/0) Section: Phonological organization and situated realization}\label{sec:phonology
+  316+5+0 (1/0/0/0) Subsection: A phonological stratum of signs
+  303+4+0 (1/0/0/0) Subsection: Prosodic classes of realizations
+  68+6+0 (1/0/0/0) Section: Historical ancestry and classes of change}\label{sec:history
+  255+5+0 (1/0/0/0) Subsection: The documented route to \mentionhead{gee}
+  314+5+0 (1/0/0/0) Subsection: Source, mechanism, transmission, and trajectory
+  256+5+0 (1/0/0/0) Subsection: What historical evidence can establish
+  73+5+0 (1/0/0/0) Section: Broader classes and further inquiries}\label{sec:extensions
+  256+6+0 (1/0/0/0) Subsection: Social regulation and socially recognized repertoires
+  256+3+0 (1/0/0/0) Subsection: Formulaicity and processing
+  385+7+6 (1/1/0/0) Subsection: Keeping the family open without multiplying labels
+  76+6+0 (1/0/0/0) Section: What the corpus evidence bears on}\label{sec:evidence
+  365+5+61 (1/1/0/0) Subsection: Geographic distributions and inventory change
+  255+3+0 (1/0/0/0) Subsection: Withdrawn confirmatory interpretations
+  55+3+0 (1/0/0/0) Section: The general consequence}\label{sec:discussion
+  204+5+0 (1/0/0/0) Subsection: Pluralism with local failure conditions
+  318+5+0 (1/0/0/0) Subsection: Overlap, mechanisms, and category standing
+  129+1+0 (1/0/0/0) Section: Conclusion}\label{sec:conclusion
+  57+1+0 (1/0/0/0) Section: Acknowledgements
+  0+5+0 (1/0/0/0) Section: Supplementary materials: GloWbE conditioning analysis
+  277+3+0 (1/0/0/0) Subsection: Data and measurement
+  266+2+51 (1/1/0/0) Subsection: Geographic distributions
+  542+4+0 (1/0/0/0) Subsection: Concordance audit and sensitivity
+  155+2+0 (1/0/0/0) Subsection: Model specification
+  263+1+0 (1/0/3/0) Subsection: Results
+  0+9+0 (1/0/0/0) Section: Supplementary materials: audit of the semantic-residue analysis in COHA
+  111+3+0 (1/0/0/0) Subsection: Design and extraction
+  193+4+0 (1/0/0/0) Subsection: Intended measures and implementation
+  94+5+0 (1/0/0/0) Subsection: Archived outputs and their limits
+  235+4+0 (1/0/3/0) Subsection: Reliability record and files
+  0+9+0 (1/0/0/0) Section: Supplementary materials: audit of the \mentionhead{fie} analysis in COHA
+  215+4+0 (1/0/0/0) Subsection: Design, coding, and denominator
+  82+4+46 (1/1/1/0) Subsection: Archived agreement and proportions
+  262+4+40 (1/1/3/0) Subsection: Archived models and interpretation
+

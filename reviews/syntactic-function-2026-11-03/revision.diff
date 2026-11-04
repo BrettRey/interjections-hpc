@@ -1,0 +1,375 @@
+--- before/inquiry-relative-categories.tex
++++ inquiry-relative-categories.tex
+@@ -68,9 +68,9 @@
+ connect independent utterance with clausal supplementation and restricted
+ integration. Grammatical membership also supports expectations about
+ characteristic meanings and conversational uses, separate intonational
+-packaging, and possibilities for unusual phonology. These associations
+-make the category informative across inquiries without making the
+-classifications interchangeable. Expressive contribution, for example, connects standalone
++packaging, and possibilities for unusual phonology. Within syntax,
++interjections, noun phrases, and relative clauses can share supplement
++function, whose prosodic expectations cross category boundaries. Expressive contribution connects standalone
+ \mention{Damn!} with prenominal \mention{damn} across a grammatical
+ difference. Comparing stance with sound depiction in \mention{Bang!}
+ shows why even one semantic inquiry can require several distinctions.
+@@ -108,6 +108,13 @@
+ meaning and realization: reactions, affective displays, and attempts to
+ direct attention or action are characteristic, as is separate intonational
+ packaging. A grammatical classification can thus guide inquiry beyond grammar.
++
++Syntax itself requires more than lexical classification. In
++\mention{Ah, so you were there after all!}, \mention{ah} is an
++interjection functioning as a supplement. A noun phrase or relative
++clause can serve that function too. Classifying by function connects
++expressions that category distinguishes, with expectations of its own
++about their relation to an anchor and their prosodic packaging.
+ 
+ A comparison with depictive \mention{Bang!} exposes a further distinction.
+ The selected \mention{damn} use conveys an evaluative stance; the selected
+@@ -158,9 +165,11 @@
+ interjections, expressive signs, depictive signs, continuers, repair
+ initiators, and closing formats. They needn't all operate at the same level
+ of generality or retain an interjection label. In these comparisons, the
+-common bearer is a conventionalized sign-type, an identifiable expression
+-in a conventional use. Classifications of realizations or historical
+-changes require explicit relations to these sign-types.
++bearer for the lexical and semantic comparisons is a conventionalized
++sign-type, an identifiable expression in a conventional use. Functional
++classification concerns expressions in constructional relations. Classifications
++of realizations or historical changes introduce further bearers and
++explicit connections to these sign-types.
+ 
+ The historical case concerns \term{path dependence}: development can leave
+ source-specific traces after uses converge. Gehweiler's history of
+@@ -170,16 +179,16 @@
+ can fail to identify the intended bearers. A linked supplement preserves
+ the detailed measurement checks and two withdrawn confirmatory analyses.
+ 
+-Section~\ref{sec:worked} establishes a grammatical core and its wider profile, traces expressive
+-commonality across grammatical differences, and compares expressive and depictive
+-contributions. Section~\ref{sec:assessment} distinguishes the achievements
++Section~\ref{sec:worked} establishes a grammatical core and its wider profile,
++compares category with syntactic function, and traces expressive and depictive
++relations. Section~\ref{sec:assessment} distinguishes the achievements
+ of these groupings. Sections~\ref{sec:phonology} and~\ref{sec:history}
+ apply the assessment to phonological and historical claims;
+ Section~\ref{sec:extensions} considers broader social and processing
+ classes. The measurement case and discussion then draw out what changes
+ when the object, grouping, and claim are kept explicit.
+ 
+-\section{Several groupings of conventional signs}\label{sec:worked}
++\section{Several classifications of signs and constructions}\label{sec:worked}
+ 
+ Grammars and studies of meaning and interaction organize the traditional
+ interjection domain differently. \textcite[90]{jespersen1924} treated
+@@ -254,24 +263,6 @@
+ comparisons extend the contrast drawn by \textcite[124--125]{wilkins1992}
+ with adjectival \mention{Black} as an answer to a question about colour.
+ Utterance status alone doesn't reclassify the word.
+-
+-Supplement function is shared by several categories. Compare the interjection
+-with the relative clause and noun phrase in these examples, adapted from
+-\textit{CGEL} \citep[1356--1357, 1360]{HuddlestonPullum2002}.
+-
+-\ea\label{ex:supplements}
+-  \ea \exmention{\exfocus{Ah}, so you were there after all!}
+-  \ex \exmention{We called in to see Sue's parents, \exfocus{which made us rather late}.}
+-  \ex \exmention{A university lecturer, \exfocus{Dr Brown}, was arrested for the crime.}
+-  \z
+-\z
+-
+-The relative clause and noun phrase retain their internal structure
+-and other distributional possibilities. The interjection's assignment rests
+-on the broader lexical profile. Treating all three as supplements
+-answers a question about their relation to an anchor; distinguishing
+-their categories answers questions about their internal organization and
+-distribution elsewhere. The two classifications can both be correct.
+ 
+ The core also supports expectations beyond distribution. Its members
+ characteristically express reactions, give voice to affective or cognitive
+@@ -314,6 +305,63 @@
+ co-utterance analysis. The core claim
+ concerns identified conventional uses, not every occurrence of a spelling.}
+ 
++\subsection{Category and syntactic function}\label{sec:syntactic-function}
++
++A syntactician also asks what an expression does in a construction.
++\textit{CGEL} distinguishes category, such as noun phrase, from function,
++such as subject or object: expressions of the same category can
++have different functions, and different categories can realize the same
++function \citep[23]{HuddlestonPullum2002}. Interjections participate in
++this familiar crosscutting. \term{Interjection} identifies a lexical category;
++\term{supplement} identifies a function.
++
++Compare the interjection with the relative clause and noun phrase in
++these examples, adapted from \textit{CGEL}
++\citep[1356--1357, 1360]{HuddlestonPullum2002}.
++
++\ea\label{ex:supplements}
++  \ea \exmention{\exfocus{Ah}, so you were there after all!}
++  \ex \exmention{We called in to see Sue's parents, \exfocus{which made us rather late}.}
++  \ex \exmention{A university lecturer, \exfocus{Dr Brown}, was arrested for the crime.}
++  \z
++\z
++
++The highlighted expressions differ in category and internal structure,
++but each supplements an anchor. The interjection and relative clause
++have clausal anchors; \mention{Dr Brown} has the noun phrase
++\mention{a university lecturer} as its anchor. Functional classification
++groups them by that relation. Category classification preserves differences
++relevant to their internal organization and distribution elsewhere.
++
++The functional grouping has inferential value. In the central cases,
++supplements are intonationally separate from the surrounding sentence
++\citep[1350]{HuddlestonPullum2002}. An independently established supplementary
++analysis gives reason to expect that packaging whether the expression
++is an interjection, a noun phrase, or a relative clause. This
++expectation reaches beyond the interjection inventory. It also explains
++why intonational separation alone doesn't identify an interjection.
++
++The converse comparison keeps category constant. In the constructed
++\mention{Dr Brown was arrested for the crime}, the same noun phrase
++functions as subject. Its category doesn't require the detached packaging
++expected of the supplement in (\ref{ex:supplements}c). A functional
++assignment concerns the expression's relation in a construction; the
++noun phrase retains its category across those different relations.
++
++Part of the interjection's wider profile is shared through its
++characteristic functions. Knowing its lexical category supports an expectation
++that it can supplement a clause; knowing that it functions as a
++supplement supports an expectation about that occurrence's packaging.
++These are connected inferences. Their usefulness doesn't require either
++classification to predict something unavailable from every other description.
++
++An independent \mention{Ah!} supplies a contrasting environment for
++the same lexical category. Independent utterance is a constructional
++status here, not an additional syntactic function. The category records
++possibilities across environments; the functional analysis identifies a
++relation within one. A syntactic inquiry can need both classifications,
++each preserving generalizations the other leaves open.
++
+ \subsection{Expressive commonality across a grammatical boundary}\label{sec:damn-profiles}
+ 
+ Standalone \mention{Damn!} and supplementary \mention{damn} in
+@@ -332,6 +380,12 @@
+ The grammatical analysis separates these uses; the expressive analysis
+ groups them together. Each preserves a relation needed for its own
+ question.
++
++Calling prenominal \mention{damn} a modifier specifies its function
++within the noun phrase. It leaves the lexical-category analysis open
++here. The contrast with supplementary \mention{damn} thus includes a
++functional difference as well as the question of category. Its expressive
++contribution remains available across both constructions.
+ 
+ Complement-taking \mention{Damn these mosquitoes!} presents a further
+ grammatical question. The phrase's external detachment is compatible with
+@@ -526,7 +580,7 @@
+ compared with continuers without settling whether the wider grouping
+ is the most useful category for either question.
+ 
+-\subsection{Common bearers and distinct questions}
++\subsection{Bearers, relations, and distinct questions}
+ 
+ A \term{sign-type} is an identifiable expression in a conventional use.
+ Its \term{profile} is the combination of grammatical, semantic, interactional,
+@@ -536,51 +590,66 @@
+ original proposal immune to correction.
+ 
+ The recurrent contrast between standalone and prenominal \mention{damn}
+-supports distinguishing their conventional uses. In the complement-taking
+-case, Table~\ref{tab:contrasts} classifies the lexical head \mention{damn}
+-in that construction. The whole phrase's external distribution is evidence
+-about its environment, not a replacement bearer. The table records
+-analytical judgments, not counts or results of a new annotation study.
++supports distinguishing their conventional uses. Table~\ref{tab:contrasts}
++separates category from function or constructional status. The category
++column concerns the listed expression, whether a lexical item, phrase,
++or clause. In \mention{damn + NP}, it concerns the head \mention{damn};
++the whole phrase's distribution remains a distinct observation.
++The entries are analytical judgments, not annotation results.
++
++A function belongs to an expression in a constructional relation.
++The sign-type's profile records which relations its realizations can
++enter. Thus \mention{Dr Brown} can retain its noun-phrase category
++across subject and supplement function, while \mention{ah} can retain
++its interjection category across supplementary and independent use.
++The table's status descriptions keep independent utterance distinct
++from syntactic function.
+ 
+ \begin{table}[htbp]
+ \centering
+ \small
+-\caption{Selected conventional uses and the relations preserved by named analyses.
+-The columns organize descriptions; they don't allocate one category to each field.}
++\caption{Category, syntactic function or status, and contribution.
++Functional assignments concern the indicated constructions; independent utterance
++is a status, not a syntactic function.}
+ \label{tab:contrasts}
+ \begin{tabular}{@{}>{\raggedright\arraybackslash}p{.24\textwidth}
+-                  >{\raggedright\arraybackslash}p{.31\textwidth}
+-                  >{\raggedright\arraybackslash}p{.37\textwidth}@{}}
++                  >{\raggedright\arraybackslash}p{.20\textwidth}
++                  >{\raggedright\arraybackslash}p{.27\textwidth}
++                  >{\raggedright\arraybackslash}p{.21\textwidth}@{}}
+ \toprule
+-Selected bearer & Grammatical analysis & Meaning or action under comparison \\
++Expression or use & Category & Function or status & Meaning or action \\
+ \midrule
+-Reaction \mention{ouch!}; \mention{oops!} & Core grammatical interjections & Pain or mishap reaction \\
++Reaction \mention{ouch}; \mention{oops} & Interjection & Supplement to a clause; also independent utterance & Pain or mishap reaction \\
+ \addlinespace
+-Attention-getting \mention{hey!}; silencing \mention{sh!} & Core grammatical interjections & Conative contributions; no evaluative or affective stance required by these selected readings \\
++Attention-getting \mention{hey}; silencing \mention{sh} & Interjection & Supplement to a clause; also independent utterance & Conative: attention or silence \\
+ \addlinespace
+-\mention{gee!}; stance \mention{damn!} & Interjection & Expressive contribution; stance display \\
++\mention{gee}; stance \mention{damn} & Interjection & Supplement to a clause; also independent utterance & Expressive stance \\
+ \addlinespace
+-\mention{damn} in \mention{damn + NP} & Interjection head or verb: unresolved & Expressive contribution; the head's sequential affordances remain to be specified \\
++\mention{damn} in \mention{damn + NP} & Interjection or verb; unresolved & Head taking an NP complement & Expressive contribution \\
+ \addlinespace
+-Prenominal \mention{damn} & Integrated modifier & Expressive contribution across a grammatical difference \\
++Prenominal \mention{damn} & Left open here & Modifier within the noun phrase & Expressive contribution \\
+ \addlinespace
+-Continuer \mention{mm-hm} & Interjection analysis adopted & Continuation resource; no evaluative stance required by the selected reading \\
++Continuer \mention{mm-hm} & Interjection analysis adopted & Independent utterance in the exchange & Continuation resource \\
+ \addlinespace
+-Repair \mention{huh?} & Interjection analysis adopted & Open repair initiator; no evaluative stance required by the selected reading \\
++Repair \mention{huh?} & Interjection analysis adopted & Independent utterance in the exchange & Open repair initiator \\
+ \addlinespace
+-Closing \mention{bye} & Formulaic standalone expression & Closing resource \\
++Closing \mention{bye} & Left open here & Independent formulaic utterance & Closing resource \\
+ \addlinespace
+-Depictive \mention{Bang!} & Interjection or nominal-fragment analysis: unresolved & Sound depiction; stance is a separate question \\
++Depictive \mention{Bang!} & Interjection or noun; unresolved & Independent utterance; fragment analysis open & Sound depiction \\
++\addlinespace
++\mention{which made us rather late} in (\ref{ex:supplements}b) & Relative clause & Supplement to the preceding clause & Consequence of the visit \\
++\addlinespace
++\mention{Dr Brown} in (\ref{ex:supplements}c) & Noun phrase & Supplement to \mention{a university lecturer} & Identification of the lecturer \\
+ \bottomrule
+ \end{tabular}
+ \end{table}
+ 
+-The table records three useful relations. The grammatical core groups
+-uses with different contributions, including reactions and conatives.
+-The expressive grouping connects standalone and prenominal \mention{damn}
+-across a grammatical difference. Within the semantic comparison, stance
+-and depiction distinguish what the selected \mention{Damn!} and \mention{Bang!}
+-contribute. A single ordering from less to more interjectional can't
++The table records crossings within syntax as well as across inquiries.
++Supplement function connects interjections, a noun phrase, and a relative
++clause. The grammatical interjection core groups reactions with conatives.
++Expressive classification connects standalone and prenominal \mention{damn},
++while stance and depiction distinguish contributions within meaning.
++A single ordering from less to more interjectional can't
+ substitute for these inquiry-specific distinctions without losing relevant
+ information. An ordering may still be useful for a specified task.
+ 
+@@ -595,7 +664,8 @@
+ \section{What warrants a class, a category, or an explanation?}\label{sec:assessment}
+ 
+ The grammatical core supports expectations about distribution, characteristic
+-contributions, and forms of realization. Expressive classification extends
++contributions, and forms of realization. Supplement function supports
++expectations across lexical and phrasal categories. Expressive classification extends
+ some of those expectations across a grammatical boundary; the expressive--depictive
+ comparison distinguishes further relations within meaning. Each grouping
+ can supply information relevant to another inquiry. Assessing the particular
+@@ -617,8 +687,17 @@
+ \mention{damn} use. Counting the recordings gives two occurrences, not
+ two sign-types. A phonologist can classify the individual productions;
+ a lexical inquiry can ask about the conventional use they realize.
+-A historian may instead classify a change connecting an earlier sign
+-with a later one.
++A syntactic inquiry can classify the noun phrase containing it and
++the relations among its constituents. A historian may instead classify
++a change connecting an earlier sign with a later one.
++
++Functional classification identifies an expression together with its
++constructional relation. The noun phrase \mention{Dr Brown} is a
++supplement to an anchor in (\ref{ex:supplements}c) and a subject in
++\mention{Dr Brown was arrested for the crime}. These assignments
++concern different relations of an expression with the same category.
++Functions can also group complex expressions, such as the relative
++clause in (\ref{ex:supplements}b), whose whole wording needn't be conventionalized.
+ 
+ The \term{grouping basis} supplies the assignment evidence. Prenominal
+ \mention{damn} enters the expressive grouping because of its conveyed
+@@ -634,7 +713,9 @@
+ then supports an expectation about its packaging. Conversely, expressive
+ contribution can motivate a comparison between grammatically different
+ \mention{damn} uses. The source of an assignment and the target
+-of an inference needn't belong to the same domain.
++of an inference needn't belong to the same domain. Nor does
++remaining within syntax select between lexical-category, phrasal-category,
++and functional classifications.
+ 
+ The \term{contribution} identifies what the grouping accomplishes. A
+ constructed class can fix a comparison set. A descriptive class can
+@@ -732,8 +813,10 @@
+ includes both use across constructions and associations with meaning
+ and realization. The grammatical descriptions warrant the distributional
+ connection; descriptions of meaning and prosody support the wider profile.
+-A category earns grammatical standing through grammatical generalizations,
++A lexical category earns grammatical standing through grammatical generalizations,
+ but the information available from membership can extend well beyond them.
++Functional groupings have comparable reach: supplementary status supports
++an expectation about prosodic detachment across expression categories.
+ 
+ The source evidence matters for each inference. An assignment established
+ from distribution can support an expectation about an unexamined intonation
+@@ -954,6 +1037,13 @@
+ provide a familiar example: interjections, noun phrases, and relative
+ clauses can all be prosodically detached
+ \citep[66, 1350]{HuddlestonPullum2002}.
++
++Here functional classification connects category with realization
++(Section~\ref{sec:syntactic-function}). An interjection's distribution
++includes supplementary use; supplementary status in turn supports a
++prosodic expectation shared with other expression categories. Once the
++function is known, lexical category needn't add a further prediction
++about that same boundary to remain useful for other properties.
+ 
+ Take a recording of \mention{Damn, we're going to be late!}. The
+ context can identify the reaction use while the acoustic record supplies
+@@ -1281,6 +1371,14 @@
+ its standing. A classification can be informative across several inquiries
+ even when its members vary in the associated properties.
+ 
++Within syntax, category and function preserve different generalizations.
++Supplement function connects an interjection with a noun phrase and
++a relative clause, supporting expectations about their packaging. Noun-phrase
++category connects supplementary \mention{Dr Brown} with its subject
++use. The same syntactician needs both analyses. Some of the interjection's
++wider expectations are shared through its characteristic functions, and
++recognizing that connection clarifies what each classification contributes.
++
+ That variation leaves other groupings useful. Conative \mention{sh} shares the grammatical profile
+ of \mention{ouch} without requiring its affective contribution. Prenominal
+ \mention{damn} shares expressive properties with standalone \mention{Damn!}
+@@ -1367,7 +1465,13 @@
+ \section{Conclusion}\label{sec:conclusion}
+ 
+ English interjections support several classifications because the relevant
+-properties recur in partially aligned patterns. A grammatical core including
++properties recur in partially aligned patterns. Within syntax, lexical
++and phrasal categories crosscut functions: an interjection, a noun phrase,
++and a relative clause can all serve as supplements, with shared
++expectations about prosodic detachment. A syntactician's interest in those
++relations is as grammatical as an interest in lexical membership.
++
++A grammatical core including
+ \mention{ouch}, \mention{oops}, \mention{hey}, and \mention{sh} supports
+ expectations about independent utterance and clausal supplementation, and
+ also about characteristic contributions and realization. Identifying a
+@@ -1391,7 +1495,8 @@
+ question is what each assignment warrants expecting about the identified
+ use, and where another classification improves or changes that expectation.
+ Inquiry-relative categories organize overlapping routes of inference through
+-the same linguistic material. Their reach depends on the supported
++linguistic expressions, their constructional relations, and their realizations.
++Their reach depends on the supported
+ associations, rather than on the disciplinary origin of the classification.
+ 
+ \ifblind\else

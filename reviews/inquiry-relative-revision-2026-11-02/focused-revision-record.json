@@ -1,0 +1,18 @@
+{
+  "completed_at": "2026-11-03T01:54:39.565878+00:00",
+  "scope": "Focused theoretical revision approved in Roughdraft; not a whole-manuscript audit",
+  "abstract_unchanged": true,
+  "book_citation_removed": true,
+  "canonical_and_supplement_unchanged": {
+    "main.tex": true,
+    "main.pdf": true,
+    "references-local.bib": true,
+    "inquiry-relative-evidence-supplement.tex": true,
+    "inquiry-relative-evidence-supplement.pdf": true
+  },
+  "build": "XeLaTeX + Biber + XeLaTeX twice, then final XeLaTeX after local wording clarification; all exit 0",
+  "citations_and_cross_references": "resolved",
+  "verification": "Changed source passages, text extraction, build diagnostics, and byte-verified PDF bundle",
+  "style": "Intentional descriptive-class terminology and two false range flags checked; no changes made for sentence-length advisories",
+  "bundle": "inquiry-relative-categories-with-supplement.zip"
+}

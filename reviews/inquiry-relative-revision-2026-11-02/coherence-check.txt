@@ -1,0 +1,19 @@
+Bounded coherence check — 2026-11-02
+
+Read: inquiry-relative-categories.tex §§1–4, plus the discussion/conclusion for restated claims. The evidence supplement was not inspected. Checked relevant local passages in Potts (2007), Dingemanse (2018), and Ameka (1992). No manuscript or bibliography edits.
+
+Overall: No contradiction found with the required empirical category/convenience class distinction or the rejection of one category per field/inquiry. The introduction, assessment, and conclusion consistently require co-occurring properties supporting induction. The worked comparison explicitly permits multiple groupings within one semantic inquiry, treats its examples as constructed, and does not claim that their descriptive contrast establishes projective category standing. The lexical-head/whole-phrase distinction and type/realization distinction are maintained.
+
+Two limited clarifications remain; neither is a demonstrated false empirical claim.
+
+1. Clarify the relationship between depiction and encoding (lines 258–260, 307–316).
+The depictive grouping is defined partly through resemblance between performance and depicted scene. That is already a claim about a mode of representation, not just which content is contributed. The next subsection cleanly contrasts groupings by contribution with groupings by encoding, and places expressive/depictive on the contribution side. A reader can therefore mistake this for an exclusive allocation of depiction to contribution and procedurality to encoding. The earlier overlap statement at 298–300 helps but doesn't resolve what “encoding” excludes here.
+Action: state briefly whether “encoding” specifically means the conceptual/procedural issue, distinct from iconic mode of presentation, or acknowledge that the depictive grouping as defined involves both contribution and mode. No new evidence or categorical partition is needed. Dingemanse's local discussion of iconic form–meaning mappings supports keeping these aspects visible; it does not require an exclusive contribution/encoding split.
+
+2. Keep Ameka's broader expressive extension distinct from the manuscript's stance-defined grouping (lines 231–238 and 320–326).
+The manuscript defines expressive signs by evaluative or affective stance. Ameka's p. 113 also includes cognitive items concerning knowledge/recognition. “Within his expressive class” correctly attributes the terminology, but “finer groupings” and “useful subtypes” can still be read as placing both subtypes inside the manuscript's narrower class. Cognitive contribution alone does not meet the manuscript's stated admission condition.
+Action: identify Ameka's mental-state grouping as broader/differently delimited, or say explicitly that these are subtypes of his grouping, with their relationship to the current grouping still to be specified. This avoids silently extending membership through a shared label.
+
+Source limit: no local full text of Wharton (2016) was found in the bounded filename search. The present check therefore does not independently re-verify that citation's substantive interpretation; it makes no finding of unsupportedness against it.
+
+Stopping rule reached: two actionable clarification findings, no wider retrieval or rewrite.

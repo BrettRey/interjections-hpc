@@ -1,0 +1,25 @@
+{
+  "citation_count": 68,
+  "original_citation_count": 68,
+  "citation_keys_removed": [
+    "seifart2010"
+  ],
+  "citation_keys_added": [
+    "lee2022lah"
+  ],
+  "bib_entries": 68,
+  "missing_citation_keys": [],
+  "resolved_aliases": {
+    "HuddlestonPullum2002": "huddleston2002",
+    "HuddlestonPullumReynolds2022": "Huddleston2021",
+    "goldberg2006": "goldberg-2006-constructions-at-work"
+  },
+  "duplicate_labels": [],
+  "label_count": 43,
+  "explicit_reference_count": 59,
+  "unresolved_refs": [],
+  "environment_errors": [],
+  "unclosed_environments": [],
+  "brace_depth": 0,
+  "excess_closing_braces": []
+}

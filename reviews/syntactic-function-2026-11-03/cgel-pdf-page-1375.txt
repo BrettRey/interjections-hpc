@@ -1,0 +1,46 @@
+                                                § 5.1 General properties of supplementation        1355
+
+
+  say can be used in the same way, but they can introduce a wider range of supplement
+  types, including finite VPs or main clauses, with the supplement typically providing an
+  explanation of the anchor. It is also possible, however, for the supplement to serve as
+  a qualification to the anchor, as in [iii], where we understand: “or rather I got along
+  splendidly with him until I became an editor . . . ”.
+     Indicators are to some extent analogous to coordinators in that they link together the
+  elements in a construction. We will therefore generalise the contrast between syndetic
+  and asyndetic to the supplementation construction. The supplementations in [13] are
+  thus syndetic, while the corresponding constructions without the indicator are asyndetic.
+  Compare syndetic [13iv], for example, with asyndetic The poem asserts emotion without
+  evoking it: [it is sentimental].
+     One difference between indicators and coordinators, however, is that some at least of
+  the indicators can occupy non-initial position in the supplement:
+ [14] i It is these other differences between North and South – [other, that is, than those
+         which concern discrimination and social welfare] – which I chiefly discuss in this
+         paper.
+      ii The therapist’s level tone is bland and neutral – [he has, for example, avoided
+         stressing ‘you’].
+
+ Linear position
+  When the anchor is a main clause, the supplement may interrupt it as an interpolation,
+  or be loosely attached as an appendage at the beginning or end:
+ [15] i He claimed – and everyone believed him – that it was all my fault.
+      ii Having reviewed all the evidence, they decided he had no case to answer.
+     iii He sent her some flowers – the least he could do in the circumstances.
+      When the anchor is subclausal, there are two aspects of the position of the supplement
+  to consider: its position relative to the anchor, and its position relative to the main clause
+  that contains the anchor. Compare:
+ [16] i It is almost mandatory for anyone in the financial business to have ready – that is,
+         virtually real-time – access to sources of information about overseas markets.
+      ii Exeter clearly enjoyed full employment – as full, that is, as was attainable in the
+         conditions of the time.
+     iii When political art (that is, art which challenges the status quo in some way) suc-
+         ceeds it is most often by reinventing the real.
+     iv One question still needs to be considered: who’s going to pay for it all?
+      v Eric Hoffer once said that America was a paradise – the only one in the history of
+         the world – for workingmen and small children.
+  In [i] the supplement is adjacent to its anchor, the attributive adjective ready, but it is
+  still an interpolation with respect to the main clause that forms the sentence as a whole.
+  In [ii], by contrast, the supplement is an appendage to the main clause, but is separated
+  from its anchor. Examples [iii–iv] are like [i–ii] respectively, but have an NP as anchor.
+  But in [v] the supplement is not only an interpolation with respect to the main clause:
+  it is also located internally within its NP anchor.

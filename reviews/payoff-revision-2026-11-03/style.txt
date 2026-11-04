@@ -1,0 +1,50 @@
+
+Found 5 potential style violation(s):
+
+
+=== inquiry-relative-categories.tex ===
+  Line 587: [warning] Noticeable 'The X is Y' paragraph-opener cadence (5; lines 153, 321, 587, 912, 1185) - vary if not defining, contrasting, or pivoting
+    The worked cases are named for the relations they investigate: grammat; The s...
+  Line 671: [warning] Noticeable argumentative-object paragraph-opener cadence (7; lines 118, 225, 510, 671, 832, 965, ...) - vary by making the move directly where possible
+    This paper asks what warrants recognizing a category for an inquiry. A; The s...
+  Line 649: 'category label plus class' - use 'category' unless explicitly contrasting HPC class
+    Alternative & An undifferentiated interjection class, explicit subtypes, or i...
+  Line 739: Uncontracted demonstrative + auxiliary 'This is' - contract if natural or rephrase
+    This is a hypothetical research sequence using familiar constructions.
+  Line 805: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    therefore leaves a phonological comparison available. Such comparisons
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    Line 95: AI pattern: while maintaining/preserving trade-off frame
+      in a noun phrase while retaining an expressive contribution. The standalone
+    Line 237: AI pattern: possible false range; verify the endpoints form a real scale
+      from independent uses can expect it also to supplement an intact
+    Line 555: AI pattern: possible false range; verify the endpoints form a real scale
+      contribute. A single ordering from less to more interjectional can't
+    Line 647: AI pattern: possible false range; verify the endpoints form a real scale
+      Distinguish the observed contrast from its extension to new realizations, environments, or sign-t...
+    Line 655: AI pattern: possible false range; verify the endpoints form a real scale
+      \subsection{From proposal to category claim}
+    Line 860: AI pattern: while maintaining/preserving trade-off frame
+      that inference while retaining the cross-grammatical phonological
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    643 sentences | median 13 | mean 13.7 | middle half 9-18 (9 words)
+         1-9  ##################        164   26%
+       10-14  ########################  214   33%
+       15-19  ################          147   23%
+       20-24  ###########                94   15%
+       25-29  ##                         18    3%
+       30-34                              4    1%
+       35-39                              2    0%
+         40+                              0    0%
+

@@ -1,0 +1,29 @@
+{
+  "completed_at": "2026-11-03T02:16:55.966793+00:00",
+  "scope": "Manuscript-wide concreteness repair of the separate working draft, approved in Roughdraft",
+  "source": "inquiry-relative-categories.tex",
+  "source_sha256": "6be6cfb90dbd1f0c0d5f32aba9aa6cb82a24450b8779d9d6afc6e83564d6d115",
+  "baseline_words": 7977,
+  "final_words": 8421,
+  "count_tool": "texcount via manuscript_inventory.py",
+  "baseline_pages": 20,
+  "final_pages": 21,
+  "routing": "clarity repair; present question and architecture retained",
+  "explanatory_spine": "Named groupings can describe contrasts, support projections, and explain outcomes; each achievement needs its own evidence",
+  "primary_burdens": "Contribution versus encoding; realization versus environment versus sign-type; representational benefit versus causal explanation",
+  "abstract_unchanged": true,
+  "canonical_and_supplement_unchanged": {
+    "main.tex": true,
+    "main.pdf": true,
+    "references-local.bib": true,
+    "inquiry-relative-evidence-supplement.tex": true,
+    "inquiry-relative-evidence-supplement.pdf": true
+  },
+  "build": "XeLaTeX + Biber + XeLaTeX twice; all exit 0",
+  "citations_and_cross_references": "resolved",
+  "visual_check": "Pages 5 and 16: revised semantic subsection and agenda table readable; no page polishing",
+  "source_check": "Ameka Ouch/Aha primary passages; Wharton procedural possibility checked to accessible primary abstract only; exclusive rivals expressly hypothetical",
+  "independent_check": "Sections 2.3, 3.2, 3.3: no substantive issue found",
+  "remaining_warnings": "Existing fancyhdr and microtype package notices; changed-excerpt opener and contraction advisories are not substantive defects",
+  "bundle": "inquiry-relative-categories-with-supplement.zip"
+}

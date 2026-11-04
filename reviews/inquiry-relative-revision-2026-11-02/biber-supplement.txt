@@ -1,0 +1,18 @@
+INFO - This is Biber 2.22
+INFO - Logfile is 'inquiry-relative-evidence-supplement.blg'
+INFO - Reading 'inquiry-relative-evidence-supplement.bcf'
+INFO - Found 5 citekeys in bib section 0
+INFO - Processing section 0
+INFO - Looking for bibtex file 'references.bib' for section 0
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'references.bib'
+INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-GB'
+INFO - No sort tailoring available for locale 'en-GB'
+INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-GB'
+INFO - No sort tailoring available for locale 'en-GB'
+INFO - Writing 'inquiry-relative-evidence-supplement.bbl' with encoding 'UTF-8'
+INFO - Output to inquiry-relative-evidence-supplement.bbl

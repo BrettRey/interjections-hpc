@@ -1,0 +1,15 @@
+Route: reader-facing reconstruction, authorized by Brett on 2 November 2026.
+Destination: inquiry-relative-categories.tex; all existing main.* files preserved.
+
+Question: How can several overlapping classifications of a traditional linguistic domain each be justified, and what constrains the multiplication of categories?
+Answer: A classification is assessed for a specified inquiry and bearer, against the distinctions, inferences, or explanations it supports and relevant alternatives; its disciplinary provenance supplies no general priority.
+Contribution: an account of inquiry-relative category standing, demonstrated through English interjections, with an open family and explicit relations among different bearers.
+Explanatory sequence: concrete conflicts in classification -> three worked analyses -> equal assessment criteria -> further classifications and bearer relations -> historical explanation and empirical limits -> general consequence.
+Hardest section: the assessment criteria, especially the distinction between candidate standing, evidential support, comparative merit, and causal explanation. Draft this section first and check whether its example makes the distinctions recoverable.
+Why reconstruction: the old causal-network architecture gives undue prominence to an empirical theory of interjections, while the user explicitly identifies the general classification argument as the point of the paper. Local qualification would preserve that mismatch.
+Reversal condition: if the new central section still requires interjections to instantiate a single demonstrated causal cluster, the proposed reconstruction has failed and needs correction before expanding it.
+Constraints: preserve the verified audit withdrawals, retain the narrower possible contribution of the recorded 97-row recode with provenance qualification, do not reinstate original confirmatory claims, do not add unsupported histories or empirical predictions, retain grammatical/semantic/interactional evidence as distinct.
+Audience: linguists with ordinary grammatical knowledge; introduce projectibility and the relevant philosophical distinctions through examples.
+Venue: no new venue decision or submission action. Separate exploratory manuscript title and files do not update canonical project status.
+Baseline: supplied revised source 22,175 whitespace-delimited source tokens, supplied PDF 52 pages; canonical main source 21,742 source tokens. These are source counts, not prose-only word counts.
+Verification: citation-key audit, house-style and terminology checks, complete XeLaTeX/Biber build, visual review of all pages, final counts, and protected-file hashes.

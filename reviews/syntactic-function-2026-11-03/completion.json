@@ -1,0 +1,17 @@
+{
+  "completed_at": "2026-11-03T21:44:01.427838+00:00",
+  "source_sha256": "69b819e297440fea6fe27c7bbaf2eda88878c6dcfe856075915ace44d64d5288",
+  "pdf_pages": 25,
+  "new_subsection_page": 5,
+  "comparison_table_page": 10,
+  "verification": "Four-step XeLaTeX/Biber build, bounded CGEL source checks, and selected-page visual inspection",
+  "protected_unchanged": {
+    "main.tex": true,
+    "main.pdf": true,
+    "references-local.bib": true,
+    "inquiry-relative-evidence-supplement.tex": true,
+    "inquiry-relative-evidence-supplement.pdf": true,
+    "reviews/crosscutting-schematic-2026-11-02/faceted-bearers.html": true
+  },
+  "bundle_verified": true
+}

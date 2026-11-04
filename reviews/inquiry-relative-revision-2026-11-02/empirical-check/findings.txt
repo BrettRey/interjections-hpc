@@ -1,0 +1,71 @@
+BOUNDED CHECK: GloWbE ha AUDITING, PREDICTION TARGET, AND RECODE PROVENANCE
+2 November 2026 — Codex independent verification
+
+Verdict
+
+The proposed corrections to the retained ha account are warranted. The archived code supports a rule-based classification of exported samples, with sensitivity calculations over those assignments. It does not support describing the entire cross-country exercise as independent human coding. The US/Ghana denominators were confused with corpus totals in the narrative, and the claim that Kenya is fifteenth under every specification is false. The original model comparison predicts one held-out country-item aggregate while retaining information about both its country and its item.
+
+All five specifically requested files and 25 directly needed input/dependency files match git revision 074dfb44cef5b18d292ac176ba5acbfedc76e3b1 byte for byte. results.json records their hashes and comparison results. check_ha.py replays the existing classifier and descriptive arithmetic without invoking scripts that overwrite original files, refitting models, or applying new linguistic judgments. All 20 rows of data/ha-validity-rates.csv exactly reproduce the classifier's counts on the exported TSVs; all six multiverse outputs reproduce at their recorded precision.
+
+1. Sample denominators are not corpus totals
+
+Country       Exported/classified sample       Recorded model-input ha total
+United States            1,000                             8,016
+Ghana                      200                               420
+
+Evidence: data/ha-validity-rates.csv:2,18; the ha row of data/glowbe-raw-counts.csv; 1,000 and 200 rows in the corresponding ha_uh-US.tsv and ha_uh-GH.tsv files. The twenty exports contain 16,197 rows in total. The old approximately 8,100 figure is a rounded/pager-based corpus-total estimate in the concordance README, not a validity-sample size. The source counts driving the binomial-rate calculation are k/n = 822/1000 for the US and 120/200 for Ghana when laughter is included and unclear rows are excluded. Without laughter they are 307/1000 and 30/200.
+
+analysis/pool-ha-rates.py:35-38 reads the exported rows, and lines 41-53 return k and len(rows). Pooling uses these n values at lines 56-69. The measurement-error script also uses validity$n_coded as the denominator (analysis/conditioning-model-measerr.R:43-52). Its implementation does not use 8,100/420 as precision denominators; the error is in the explanatory prose/docstring, notably analysis/pool-ha-rates.py:3-5.
+
+Required correction: explain unequal sample precision using 1,000 versus 200 sampled/classified rows. Keep 8,016/420, or qualified rounded corpus totals, separately labelled as aggregate tagged counts.
+
+2. The six specifications reproduce, but the blanket rank claim does not
+
+The following are CVs of frequency rates adjusted using the classifier-derived proportions. "Unpooled" below is the archive's cv_raw, meaning unpooled adjusted rates, not uncorrected tagged frequencies.
+
+Laughter   Unclear weight   Unpooled CV  Pooled CV   Kenya unpooled rank  Pooled rank
+in         0 (excluded)        0.396       0.395              15              15
+in         0.5                0.420       0.419              15              14
+in         1 (included)        0.446       0.445              15              15
+out        0 (excluded)        0.793       0.778              15              15
+out        0.5                0.810       0.796              15              15
+out        1 (included)        0.828       0.817              16              16
+
+Before these adjustments, the tabulated ha frequencies have CV 0.411615826 and Kenya ranks fifth. The replay uses the existing frequency table and exactly the six specifications at analysis/pool-ha-rates.py:80-98. The saved output is analysis/hand-extracted/ha-pooled-multiverse.csv:2-7.
+
+Required correction: "Kenya falls from fifth to fifteenth or sixteenth across the six unpooled specifications; pooled ranks range from fourteenth to sixteenth." If reporting one prespecified/headline specification, name it. The unpooled CV range 0.396–0.828 is correct (approximately 0.40–0.83). The original uncorrected 0.412 must not be confused with the laughter-in, unclear-excluded corrected CV of 0.396.
+
+The largest pooling movement of a classification proportion is 0.5985 percentage points in the headline laughter-in/unclear-excluded specification. Across all six it reaches 0.6204 points. "About 0.6 percentage points" is a defensible rounded description; "no more than 0.6" is not an exact bound across all six.
+
+3. The full-sample assignment is automated; the 40-row check is a development check
+
+analysis/filter-ha-concordance.py:17-60 is a deterministic regular-expression classifier, with outputs interjection, hectare, name, typo, or unclear. It uses reduplication, laughter words, punctuation, units, numbers, name patterns, and typography rules. analysis/pool-ha-rates.py:22 imports that classifier; lines 41-53 apply it to every exported row. Laughter and unclear-token decisions are then varied mechanically. Exact replay of all 20 stored validity rows leaves no independent human adjudication step in this computation.
+
+The header and comments call the 40 KE/TZ examples hand-coded. More informative provenance is in the original commit 9d87451be58c3ecb416ddfee8142d0d25babad82: it explicitly says the initial filter scored 88% and two rules were added to raise performance to 39/40 on these same examples. It also acknowledges that "South Korea's Ha" had been wrongly gold-labelled hectare. The label file and classifier first appear together in that commit. Therefore this is a development-set check: the rules were adjusted after inspecting its errors. It is not held-out validation of the resulting classifier, and it cannot establish country-general accuracy. The scoped archive also does not independently establish the identity of the person who supplied the initial labels merely by calling them hand-coded.
+
+Current archived-code replay against the 40 stored labels gives:
+  Interjection versus non-interjection agreement: 39/40.
+  Exact category-label agreement: 37/40.
+The exact-label mismatches are validation line 13 (stored hectare, predicted name: South Korea's Ha), line 27 (stored hectare, predicted typo: "3 ha School"), and line 28 (stored hectare, predicted interjection: garbled text containing "ha?"). Only line 28 changes the binary retained/not-retained decision. This explains why 39/40 is reproducible for the relevant binary task while not describing five-category accuracy.
+
+Required correction: describe a rule-based screen checked and tuned against 40 labelled Kenyan/Tanzanian examples. Describe the twenty-country rates as screen-derived estimates under the specified treatment of laughter and unclear cases. Do not turn that in-sample check into independent manual validation, a transferable accuracy guarantee, or a claim that every uncertain row was adjudicated. The sensitivity calculations show dependence on selected coding choices; they do not quantify all classifier errors or establish representative/random sampling of the exported contexts.
+
+4. What the leave-one-out comparison predicts
+
+analysis/conditioning-model.R:20-46 reshapes 18 item rows across 20 country columns into 360 country-item aggregate count observations. Each row is a single likelihood observation. The model formulas at lines 93-129 use item intercepts, and in m1/m2 country intercepts; m2 also includes item type. The comparison at lines 161-179 calls loo(fit, reloo = TRUE) without a country-, item-, document-, or token-level grouping holdout.
+
+Accordingly, pointwise LOO removes one aggregate cell. The training data still contain 359 cells, including the same item's counts in the other 19 countries and the same country's counts for the other 17 items. For m1/m2, the country effect is learned from those other items and the item effect from those other countries. Other model parameters and item-type information are also learned from the retained data. The country corpus-size offset remains supplied.
+
+The estimand is predictive performance for an omitted aggregate within the observed item-by-country design. This is a coherent target if stated; it is not a test on an entirely unseen country, entirely unseen item, held-out document population, later period, or newly classified sign-type. It also does not test the incremental payoff of the manuscript's proposed inquiry-relative classifications. A change of generalization target would require a different validation design, not a reinterpretation of the existing numbers.
+
+Terminology qualification: the code requests pointwise LOO with reloo. The reloo flag enables exact refitting for problematic observations; it does not itself establish that all 360 folds were refitted exactly. "LOO with reloo for problematic observations" is safer than an unqualified assertion of fully exact leave-one-out refits. No model was refitted in this check.
+
+5. The 97-row recode's provenance remains unresolved
+
+The existing morphology-gain records add no stronger substantiable provenance than was available in the earlier audit. analysis/morphgain-confirmatory/RESULTS.md:69-71 attributes the blind 97-row recode to Brett; the recorded recode has distinct secondary codes and notes. The original adding commit d4770f1e19a7abc2b37f65cdb7503577fddb82fc is authored under Brett's git identity and co-authored by Codex, with only a reproducibility-package message. Commit authorship does not establish who made individual judgments or what information they saw.
+
+The archive supports the existence, contents, sample selection, and internal attribution of the second coding record. It cannot establish who actually coded it or how blinding was implemented. Neither the positive semantic labels nor the internally reported human provenance should be discarded as fabricated; neither should be elevated to independently verified manual validation. Keep the conditional 97-row qualification and the withdrawal of the original early-window confirmation. No new provenance story is warranted.
+
+Stop and limits
+
+The requested allegations are now adjudicated from the bounded local record. No model fitting, new corpus retrieval, new labeling, broad audit, manuscript edit, bibliography edit, or canonical-file change was performed. Only this review directory contains new files. Remaining uncertainty concerns measurement/provenance, not failure to reproduce the descriptive arithmetic.

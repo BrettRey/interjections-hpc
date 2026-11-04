@@ -1,0 +1,123 @@
+diff --git a/reviews/perspective-precision-2026-11-03/after-round5.tex b/inquiry-relative-categories.tex
+index 216bfef..e8b7515 100644
+--- a/reviews/perspective-precision-2026-11-03/after-round5.tex
++++ b/inquiry-relative-categories.tex
+@@ -75,8 +75,9 @@ boundaries. Expressive contribution connects standalone \mention{Damn!}
+ with prenominal \mention{damn}, an integrated modifier outside the category. Comparing
+ stance with sound depiction in \mention{Bang!} shows why even one question
+ about what a use contributes can require several distinctions.
+-These cases show how crosscutting classifications can be mutually
+-informative. The properties used to assign a case don't confine what
++As with proper names and proper nouns, each classification is anchored
++in one kind of property and counts properties of other kinds in its
++cluster, which makes crosscutting classifications mutually informative. The properties used to assign a case don't confine what
+ membership lets an investigator expect about it, and a partial association doesn't
+ erase the differences between groupings. Several classifications can
+ be correct without one superseding the others, while incompatible
+@@ -136,6 +137,19 @@ many-to-many relation visible because grammars and studies of meaning,
+ interaction, sound, and history organize the same material in overlapping
+ but different ways.
+ 
++\textit{CGEL}'s distinction between proper names and proper nouns shows
++how such categories relate. Proper names are a semantic category whose
++central cases are expressions \enquote{conventionally adopted as the name
++of a particular entity} \citep[515]{HuddlestonPullum2002}. A proper-noun
++head, as in \mention{Mary} or \mention{Melbourne}, is among their
++properties, though not a necessary one: \mention{the University of
++Manchester} is a name headed by the common noun \mention{university}.
++Proper nouns are a lexical category, the nouns \enquote{specialised to the
++function of heading proper names}, so naming use is among their properties
++\citep[516]{HuddlestonPullum2002}. The lexical category interjection and the semantic category of expressive
++signs are related in the same way: each is anchored in one kind of
++property and counts properties of the other kind in its cluster.
++
+ A grouping can make measurement comparable or description informative;
+ the distinctions among \mention{damn} uses have descriptive value before
+ any new prediction is tested. \term{Projectibility} concerns the warrant
+@@ -430,23 +444,26 @@ account an unresolved assignment is the expected result here. This disagreement
+ category and its complementation; recognizing expressive commonality with
+ the other \mention{damn} uses leaves it intact.
+ 
+-The grouping here is \term{expressive signs}: conventional uses whose
+-deployment conveys an evaluative or affective stance, rather than merely
+-describing that stance. I use \term{expressive} in this narrower sense from
+-here on. This intended contribution is narrower than
+-all non-descriptive or use-conditional meaning. A conventional instruction
+-for managing interpretation or interaction needn't express such a stance.
+-Potts's account supplies expectations about perspective dependence and
+-intensifying repetition \citep[166--167]{potts2007}. For \mention{damn},
+-these ask whose attitude is conveyed and whether repeating the form
+-strengthens it. These expectations remain available across the category
+-boundary. Their extension to other expressive signs
+-depends on the evidence for those signs and properties.
++The grouping here is \term{expressive signs}, a semantic category
++anchored in conveyed stance: its members' deployment conveys an evaluative
++or affective stance rather than describing it. I use \term{expressive} in
++this narrower sense from here on; a conventional instruction for managing
++interpretation or interaction is non-propositional without necessarily
++expressing such a stance. Like a proper name, the category has a
++cluster. \textcite[166--167]{potts2007} lists six properties of
++expressives, among them independence from descriptive content, perspective
++dependence, and strengthening under repetition. Among the category's
++properties of another kind is membership in the lexical category
++interjection, with the independent or supplementary use that goes with it. For \mention{damn}, the
++semantic properties raise the questions of whose attitude is conveyed and
++whether repeating the form strengthens it, on either side of the category
++boundary.
+ 
+ The expressive grouping and the lexical category come apart in both
+-directions. The category's core includes conative uses for which the stance
+-isn't required, and prenominal \mention{damn} belongs to the expressive
+-grouping from outside the category. A fuller account of expressives can include integrated signs
++directions, as names and proper nouns do. The category's core includes
++conative uses for which the stance isn't required, and prenominal
++\mention{damn} is an expressive realized outside the category, much as
++\mention{the University of Manchester} is a name headed by a common noun. A fuller account of expressives can include integrated signs
+ with no traditional interjection label. Selecting examples from interjection
+ disputes lets us compare the two groupings without making the traditional
+ label a condition on the expressive one.
+@@ -715,12 +732,12 @@ constructional relation, as with \mention{Dr Brown} as supplement and as
+ subject (Section~\ref{sec:syntactic-function}). Functions can also group complex expressions, such as the relative
+ clause in (\ref{ex:supplements}b), whose whole wording needn't be conventionalized.
+ 
+-The \term{grouping basis} supplies the assignment evidence. For the
+-lexical category, the basis is the convergence of several fallible
+-diagnostics; for the expressive grouping, it's a single relation, conveyed
+-stance. Prenominal
+-\mention{damn} enters the expressive grouping because of its conveyed
+-stance, while its position inside \mention{the damn car} is evidence
++The \term{grouping basis} supplies the assignment evidence. For both
++groupings it's a convergence of fallible diagnostics, and they differ in
++the property each is anchored in: distribution and morphology for the
++lexical category, conveyed stance for the expressive grouping. Prenominal
++\mention{damn} enters the expressive grouping on its conveyed stance and
++the properties that accompany it, while its position inside \mention{the damn car} is evidence
+ about its function. Grouping it with standalone \mention{Damn!} for
+ the first reason doesn't erase their difference in the second respect.
+ Other proposals can use ancestry or participation in a social repertoire;
+@@ -1372,9 +1389,10 @@ expectations about meaning, while expressive classification connects uses
+ on both sides of the category boundary.
+ 
+ Depictive \mention{Bang!} introduces a further kind of contribution, and
+-continuers and repair initiators are defined by different next actions. Their number
+-and extension depend on the questions and the relations supported by the
+-evidence, so the categories don't line up one per field.
++continuers and repair initiators are anchored in different next actions.
++A field can host several categories, each anchored in its own kind of
++property and counting properties of other kinds in its cluster; their
++number and extension depend on the questions and the evidence.
+ 
+ \subsection{Many-to-many relations and local failure}
+ 
+@@ -1464,8 +1482,9 @@ The general statements that give the category its place in the grammar
+ don't confine what membership lets an investigator expect.
+ 
+ Crosscutting classifications needn't be rival approximations to a single
+-complete classification. They group by different relations and can
+-still inform one another. Expressive classification connects standalone and
++complete classification. Each is anchored in a different kind of
++property and counts properties of the others in its cluster, as proper
++names and proper nouns do, which is why they inform one another. Expressive classification connects standalone and
+ prenominal \mention{damn} across the category boundary; conative
+ \mention{sh} belongs to the category's core without requiring evaluative
+ stance. The distinction between stance and depiction adds another

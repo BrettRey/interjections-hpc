@@ -1,0 +1,65 @@
+# Manuscript inventory
+
+- Source: /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/inquiry-relative-categories.tex
+- Word count: **8,085** (texcount)
+- Prose paragraphs inspected: **128**
+
+## Structure
+
+- L89: Introduction
+- L175: Several groupings of conventional signs
+- L194:   Grammatical interjections and expressive signs
+- L248:   Expressive and depictive signs: a completed comparison
+- L305:   Contribution, encoding, and competing analyses
+- L329:   Interactional resource classes
+- L379:   Common bearers without a compulsory matrix
+- L439: What warrants a class, a category, or an explanation?
+- L449:   Bearers, grouping, contribution, and alternatives
+- L524:   From proposal to category claim
+- L549:   Projection and identity
+- L591:   Representation and causal explanation
+- L616:   Hill's considerations for causal claims
+- L651: Phonological organization and situated realization
+- L661:   A phonological stratum of signs
+- L726:   Prosodic classes of realizations
+- L765: Historical ancestry and classes of change
+- L822:   Source, mechanism, transmission, and trajectory
+- L865:   What historical evidence can establish
+- L898: Broader classes and further inquiries
+- L909:   Social regulation and socially recognized repertoires
+- L945:   Formulaicity and processing
+- L982:   Keeping the family open without multiplying labels
+- L1066: A measurement case: tags, strings, and uses
+- L1116: The general consequence
+- L1126:   Many-to-many relations and local failure
+- L1159:   Overlap, mechanisms, and category standing
+- L1191: Conclusion
+- L1212: Acknowledgements
+
+## Paragraphs over 100 words
+
+- None detected.
+
+## Sentences of 40 words or more
+
+- L24 (48 words): ] pdftitle= Inquiry-Relative Categories: English Interjections as a Worked Case , pdfkeywords= inquiry-relative categories, category pluralism, projectibility, interjections, sign-
+
+## Repeated three-word paragraph openings
+
+- **the expressive depictive** × 3 (lines 441, 1136, 1201)
+
+## Possible editorial scar tissue
+
+- L116 [revision-position reference]: A terminological distinction is essential.
+- L361 [revision-position reference]: The grammatical treatment of mm-hm and huh? likewise needs more than standalone occurrence.
+- L361 [fragile paired reference]: The grammatical treatment of mm-hm and huh? likewise needs more than standalone occurrence.
+- L458 [revision-position reference]: The bearer is the object grouped.
+- L472 [revision-position reference]: The contribution identifies what the grouping accomplishes.
+- L635 [revision-position reference]: A linguistic counterpart of biological gradient would need a justified intensity variable and outcome.
+- L777 [revision-position reference]: traces gee through an invocation of Jesus , an exclamatory use of the religious name, and a clipped form.
+- L824 [revision-position reference]: A useful historical description separates four relations.
+- L832 [revision-position reference]: For gee , a religious invocation supplies the source and tabooistic clipping supplies one mechanism.
+- L857 [revision-position reference]: Classes of changes require a different representation.
+- L947 [revision-position reference]: Formulaicity offers a similarly broad comparison.
+
+> This inventory is heuristic. Verify every candidate against the source, argument, and rendered artifact.

@@ -1,0 +1,43 @@
+
+Found 3 potential style violation(s):
+
+
+=== inquiry-relative-categories.tex ===
+  Line 240: [warning] Noticeable 'The X is Y' paragraph-opener cadence (6; lines 151, 231, 240, 461, 468, ...) - vary if not defining, contrasting, or pivoting
+    The worked cases are named for the relations they investigate: grammat; The s...
+  Line 681: [warning] Noticeable argumentative-object paragraph-opener cadence (6; lines 108, 196, 391, 681, 816, 1208) - vary by making the move directly where possible
+    This paper asks what warrants recognizing a category for an inquiry. A; The g...
+  Line 521: 'category label plus class' - use 'category' unless explicitly contrasting HPC class
+    Alternative & An undifferentiated interjection class, explicit subtypes, or i...
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    Line 94: AI pattern: while maintaining/preserving trade-off frame
+      in a noun phrase while retaining an expressive contribution. The standalone
+    Line 527: AI pattern: possible false range; verify the endpoints form a real scale
+      \subsection{From proposal to category claim}
+    Line 702: AI pattern: while maintaining/preserving trade-off frame
+      that inference while retaining the cross-grammatical phonological
+    Line 1086: AI pattern: while maintaining/preserving trade-off frame
+      prediction of an omitted country--item aggregate while retaining the
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    561 sentences | median 14 | mean 14.0 | middle half 10-18 (8 words)
+         1-9  #################         132   24%
+       10-14  ########################  186   33%
+       15-19  ##################        143   25%
+       20-24  ###########                83   15%
+       25-29  ##                         13    2%
+       30-34  #                           4    1%
+       35-39                              0    0%
+         40+                              0    0%
+    [advisory] 62% of sentences fall in 12-26 words; the band is narrow, so check whether the rhythm has flattened
+

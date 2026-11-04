@@ -1,0 +1,543 @@
+{
+  "archive_revision": "074dfb44cef5b18d292ac176ba5acbfedc76e3b1",
+  "sample_n_total": 16197,
+  "country_counts": {
+    "US": {
+      "exported_sample_n": 1000,
+      "model_corpus_tagged_total": 8016,
+      "sample_fraction": 0.124750499001996,
+      "classifier_retained_laughter_in": 822,
+      "classifier_retained_laughter_out": 307,
+      "classifier_counts": {
+        "interjection": 822,
+        "unclear": 87,
+        "hectare": 70,
+        "name": 11,
+        "typo": 10
+      }
+    },
+    "CA": {
+      "exported_sample_n": 1000,
+      "model_corpus_tagged_total": 1957,
+      "sample_fraction": 0.510986203372509,
+      "classifier_retained_laughter_in": 771,
+      "classifier_retained_laughter_out": 305,
+      "classifier_counts": {
+        "hectare": 166,
+        "unclear": 38,
+        "interjection": 771,
+        "name": 14,
+        "typo": 11
+      }
+    },
+    "GB": {
+      "exported_sample_n": 1000,
+      "model_corpus_tagged_total": 6693,
+      "sample_fraction": 0.14940983116689077,
+      "classifier_retained_laughter_in": 840,
+      "classifier_retained_laughter_out": 210,
+      "classifier_counts": {
+        "hectare": 64,
+        "interjection": 840,
+        "unclear": 65,
+        "name": 14,
+        "typo": 17
+      }
+    },
+    "IE": {
+      "exported_sample_n": 1000,
+      "model_corpus_tagged_total": 1688,
+      "sample_fraction": 0.5924170616113744,
+      "classifier_retained_laughter_in": 808,
+      "classifier_retained_laughter_out": 194,
+      "classifier_counts": {
+        "interjection": 808,
+        "unclear": 66,
+        "hectare": 102,
+        "typo": 9,
+        "name": 15
+      }
+    },
+    "AU": {
+      "exported_sample_n": 1000,
+      "model_corpus_tagged_total": 3092,
+      "sample_fraction": 0.32341526520051744,
+      "classifier_retained_laughter_in": 737,
+      "classifier_retained_laughter_out": 195,
+      "classifier_counts": {
+        "interjection": 737,
+        "name": 53,
+        "hectare": 136,
+        "typo": 21,
+        "unclear": 53
+      }
+    },
+    "NZ": {
+      "exported_sample_n": 1000,
+      "model_corpus_tagged_total": 1310,
+      "sample_fraction": 0.7633587786259542,
+      "classifier_retained_laughter_in": 773,
+      "classifier_retained_laughter_out": 225,
+      "classifier_counts": {
+        "interjection": 773,
+        "hectare": 152,
+        "unclear": 45,
+        "name": 16,
+        "typo": 14
+      }
+    },
+    "IN": {
+      "exported_sample_n": 1000,
+      "model_corpus_tagged_total": 1580,
+      "sample_fraction": 0.6329113924050633,
+      "classifier_retained_laughter_in": 663,
+      "classifier_retained_laughter_out": 172,
+      "classifier_counts": {
+        "hectare": 200,
+        "interjection": 663,
+        "unclear": 99,
+        "typo": 18,
+        "name": 20
+      }
+    },
+    "LK": {
+      "exported_sample_n": 1000,
+      "model_corpus_tagged_total": 1024,
+      "sample_fraction": 0.9765625,
+      "classifier_retained_laughter_in": 689,
+      "classifier_retained_laughter_out": 147,
+      "classifier_counts": {
+        "typo": 25,
+        "interjection": 689,
+        "hectare": 175,
+        "unclear": 94,
+        "name": 17
+      }
+    },
+    "PK": {
+      "exported_sample_n": 500,
+      "model_corpus_tagged_total": 662,
+      "sample_fraction": 0.7552870090634441,
+      "classifier_retained_laughter_in": 272,
+      "classifier_retained_laughter_out": 99,
+      "classifier_counts": {
+        "interjection": 272,
+        "unclear": 103,
+        "name": 31,
+        "hectare": 84,
+        "typo": 10
+      }
+    },
+    "BD": {
+      "exported_sample_n": 498,
+      "model_corpus_tagged_total": 639,
+      "sample_fraction": 0.7793427230046949,
+      "classifier_retained_laughter_in": 172,
+      "classifier_retained_laughter_out": 36,
+      "classifier_counts": {
+        "hectare": 226,
+        "interjection": 172,
+        "unclear": 55,
+        "typo": 14,
+        "name": 31
+      }
+    },
+    "SG": {
+      "exported_sample_n": 1000,
+      "model_corpus_tagged_total": 2190,
+      "sample_fraction": 0.45662100456621,
+      "classifier_retained_laughter_in": 571,
+      "classifier_retained_laughter_out": 313,
+      "classifier_counts": {
+        "interjection": 571,
+        "name": 143,
+        "unclear": 197,
+        "hectare": 61,
+        "typo": 28
+      }
+    },
+    "MY": {
+      "exported_sample_n": 1000,
+      "model_corpus_tagged_total": 1055,
+      "sample_fraction": 0.9478672985781991,
+      "classifier_retained_laughter_in": 602,
+      "classifier_retained_laughter_out": 152,
+      "classifier_counts": {
+        "interjection": 602,
+        "typo": 31,
+        "name": 86,
+        "unclear": 131,
+        "hectare": 150
+      }
+    },
+    "PH": {
+      "exported_sample_n": 1000,
+      "model_corpus_tagged_total": 1237,
+      "sample_fraction": 0.8084074373484236,
+      "classifier_retained_laughter_in": 678,
+      "classifier_retained_laughter_out": 208,
+      "classifier_counts": {
+        "interjection": 678,
+        "hectare": 179,
+        "name": 63,
+        "unclear": 69,
+        "typo": 11
+      }
+    },
+    "HK": {
+      "exported_sample_n": 1000,
+      "model_corpus_tagged_total": 1098,
+      "sample_fraction": 0.9107468123861566,
+      "classifier_retained_laughter_in": 520,
+      "classifier_retained_laughter_out": 176,
+      "classifier_counts": {
+        "interjection": 520,
+        "typo": 29,
+        "unclear": 183,
+        "hectare": 136,
+        "name": 132
+      }
+    },
+    "ZA": {
+      "exported_sample_n": 500,
+      "model_corpus_tagged_total": 866,
+      "sample_fraction": 0.5773672055427251,
+      "classifier_retained_laughter_in": 336,
+      "classifier_retained_laughter_out": 50,
+      "classifier_counts": {
+        "hectare": 114,
+        "interjection": 336,
+        "unclear": 31,
+        "typo": 10,
+        "name": 9
+      }
+    },
+    "NG": {
+      "exported_sample_n": 500,
+      "model_corpus_tagged_total": 850,
+      "sample_fraction": 0.5882352941176471,
+      "classifier_retained_laughter_in": 293,
+      "classifier_retained_laughter_out": 102,
+      "classifier_counts": {
+        "interjection": 293,
+        "name": 3,
+        "unclear": 59,
+        "hectare": 133,
+        "typo": 12
+      }
+    },
+    "GH": {
+      "exported_sample_n": 200,
+      "model_corpus_tagged_total": 420,
+      "sample_fraction": 0.47619047619047616,
+      "classifier_retained_laughter_in": 120,
+      "classifier_retained_laughter_out": 30,
+      "classifier_counts": {
+        "hectare": 53,
+        "interjection": 120,
+        "unclear": 20,
+        "name": 1,
+        "typo": 6
+      }
+    },
+    "KE": {
+      "exported_sample_n": 1000,
+      "model_corpus_tagged_total": 1022,
+      "sample_fraction": 0.9784735812133072,
+      "classifier_retained_laughter_in": 447,
+      "classifier_retained_laughter_out": 88,
+      "classifier_counts": {
+        "hectare": 480,
+        "interjection": 447,
+        "typo": 12,
+        "unclear": 40,
+        "name": 21
+      }
+    },
+    "TZ": {
+      "exported_sample_n": 500,
+      "model_corpus_tagged_total": 591,
+      "sample_fraction": 0.8460236886632826,
+      "classifier_retained_laughter_in": 211,
+      "classifier_retained_laughter_out": 58,
+      "classifier_counts": {
+        "interjection": 211,
+        "typo": 7,
+        "hectare": 242,
+        "unclear": 36,
+        "name": 4
+      }
+    },
+    "JM": {
+      "exported_sample_n": 499,
+      "model_corpus_tagged_total": 662,
+      "sample_fraction": 0.7537764350453172,
+      "classifier_retained_laughter_in": 412,
+      "classifier_retained_laughter_out": 57,
+      "classifier_counts": {
+        "interjection": 412,
+        "name": 13,
+        "unclear": 40,
+        "hectare": 29,
+        "typo": 5
+      }
+    }
+  },
+  "validity_csv_exactly_matches_classifier_replay": true,
+  "uncorrected_cv": 0.41161582559069126,
+  "uncorrected_ke_rank": 5,
+  "multiverse": [
+    {
+      "spec": "laughter=in, unclear=excl",
+      "cv_raw": 0.39574694750922546,
+      "cv_pooled": 0.3945850703843784,
+      "ke_rank_raw": 15,
+      "ke_rank_pooled": 15,
+      "prior_a": 6.537859362675632,
+      "prior_b": 3.5857744951500377,
+      "max_rate_movement_percentage_points": 0.5985439464892939
+    },
+    {
+      "spec": "laughter=in, unclear=half",
+      "cv_raw": 0.4203234557145109,
+      "cv_pooled": 0.41918471144224223,
+      "ke_rank_raw": 15,
+      "ke_rank_pooled": 14,
+      "prior_a": 7.372139862663628,
+      "prior_b": 3.2552612297511825,
+      "max_rate_movement_percentage_points": 0.6123888272942135
+    },
+    {
+      "spec": "laughter=in, unclear=incl",
+      "cv_raw": 0.4464281897601657,
+      "cv_pooled": 0.4452806157856325,
+      "ke_rank_raw": 15,
+      "ke_rank_pooled": 15,
+      "prior_a": 7.505099832422117,
+      "prior_b": 2.6152946820271117,
+      "max_rate_movement_percentage_points": 0.5691541429669544
+    },
+    {
+      "spec": "laughter=out, unclear=excl",
+      "cv_raw": 0.7929443292541619,
+      "cv_pooled": 0.7776475470853601,
+      "ke_rank_raw": 15,
+      "ke_rank_pooled": 15,
+      "prior_a": 5.424870193196118,
+      "prior_b": 24.328833302173624,
+      "max_rate_movement_percentage_points": 0.6203651512659516
+    },
+    {
+      "spec": "laughter=out, unclear=half",
+      "cv_raw": 0.8097417720089943,
+      "cv_pooled": 0.795812393640536,
+      "ke_rank_raw": 15,
+      "ke_rank_pooled": 15,
+      "prior_a": 6.571808458286089,
+      "prior_b": 21.97447144669374,
+      "max_rate_movement_percentage_points": 0.5568116750714169
+    },
+    {
+      "spec": "laughter=out, unclear=incl",
+      "cv_raw": 0.8284984489900779,
+      "cv_pooled": 0.8173468305674684,
+      "ke_rank_raw": 16,
+      "ke_rank_pooled": 16,
+      "prior_a": 6.371819175714488,
+      "prior_b": 16.53965888644461,
+      "max_rate_movement_percentage_points": 0.5516073145089617
+    }
+  ],
+  "multiverse_matches_stored_output_at_recorded_precision": true,
+  "validation": {
+    "n": 40,
+    "exact_label_agreements": 37,
+    "binary_interjection_agreements": 39,
+    "exact_label_disagreements": [
+      {
+        "line": 13,
+        "recorded_label": "hectare",
+        "classifier_label": "name",
+        "context": "the next women's doubles match between South Korea's Ha and Kim Min-jung"
+      },
+      {
+        "line": 27,
+        "recorded_label": "hectare",
+        "classifier_label": "typo",
+        "context": "Roads (11.7%) 8ha Parking (4.3%) 3 ha School, neighbourhood centre"
+      },
+      {
+        "line": 28,
+        "recorded_label": "hectare",
+        "classifier_label": "interjection",
+        "context": "os who? ould ar? anged right you? dat? and also ha? d d? sk"
+      }
+    ]
+  },
+  "loo_design": {
+    "items": 18,
+    "countries": 20,
+    "aggregate_cells": 360,
+    "training_cells_per_pointwise_holdout": 359,
+    "same_country_other_items": 17,
+    "same_item_other_countries": 19
+  },
+  "commit_messages": {
+    "9d87451": "commit 9d87451be58c3ecb416ddfee8142d0d25babad82\nAuthor:     Brett Reynolds <brettrey@gmail.com>\nAuthorDate: Mon Jul 27 11:07:38 2026 -0400\nCommit:     Brett Reynolds <brettrey@gmail.com>\nCommitDate: Mon Jul 27 11:07:38 2026 -0400\n\n    Build and validate a ha/hectare filter before pulling the full list\n    \n    Brett's suggestion: get the whole list and filter, rather than sampling. Right\n    -- 20 per country gives \u00b121-point intervals; a filtered full list gives exact\n    counts.\n    \n    Validated the filter before asking for data, against the 40 tagged tokens\n    (KE 20, TZ 20) hand-coded first. First pass 88%, with 4 of 5 errors landing in\n    'unclear' rather than misclassifying. Two rules took it to 39/40: bare `ha`\n    fenced by punctuation with no numeral nearby (the standalone interjection), and\n    a name rule for possessive/title contexts -- \"South Korea's Ha\", which I had\n    gold-labelled hectare in error. Remaining miss is a row of garbled characters.\n    \n    Validation set committed with the script so the figure is reproducible.\n    \n    Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n",
+    "0a8867d": "commit 0a8867d1a42191029a7bae81608c5f2387cfbd2f\nAuthor:     Brett Reynolds <brettrey@gmail.com>\nAuthorDate: Mon Jul 27 11:59:10 2026 -0400\nCommit:     Brett Reynolds <brettrey@gmail.com>\nCommitDate: Mon Jul 27 11:59:10 2026 -0400\n\n    Implement the Gelman treatment of ha: multiverse, pooling, no single figure\n    \n    \u00a76.1 rewritten. The criterion now precedes the figure. The passage states that\n    reported figures count iterated laughter rather than excluding it -- the\n    opposite of what the text promised -- and reports the multiverse: across six\n    defensible codings the CV runs 0.40 to 0.83, so a single figure would report\n    one path through that set rather than the set. It separates what survives (the\n    ranking: Kenya 5th to 15th under all six) from what doesn't (the dispersion\n    statistic, not identified without the criterion). The \"lower bound\" sentence\n    is gone; on the paper's own criterion it was an upper bound by ~2x.\n    \n    Partial pooling implemented (analysis/pool-ha-rates.py, beta-binomial\n    empirical Bayes) and reported as a negative: no section moves more than 0.6\n    points, CV changes by <=0.015, because between-section variance swamps\n    within-section sampling variance. The right question to ask; it doesn't bite\n    here, and saying so beats applying the method and implying it mattered.\n    \n    Not done: the measurement-error version of the conditioning model needs brms,\n    which isn't installed.\n    \n    One error undone: I added a Gelman & Loken citation from memory for a paper I\n    haven't read. Removed, point made in the paper's own words. Worst possible\n    place for that failure in this manuscript.\n    \n    44 pages, clean, gate 50 PASS.\n    \n    Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n",
+    "c9e5d9d": "commit c9e5d9de7e754f5d6f34b3be618ed00eab1649c8\nAuthor:     Brett Reynolds <brettrey@gmail.com>\nAuthorDate: Mon Jul 27 12:27:45 2026 -0400\nCommit:     Brett Reynolds <brettrey@gmail.com>\nCommitDate: Mon Jul 27 12:27:45 2026 -0400\n\n    Measurement-error refit of the conditioning model; style pass\n    \n    analysis/conditioning-model-measerr.R refits m0/m1 over replicates in which\n    ha's counts are thinned by a draw from each country's Beta(k+1, n-k+1)\n    validity posterior, so the audit's uncertainty propagates rather than a point\n    estimate being plugged in. Validity rates exported to data/ha-validity-rates.csv.\n    \n    Three specs: uncorrected baseline, laughter counted, laughter excluded. The\n    baseline matters because this pipeline uses plain loo() where the published\n    model uses reloo, so absolute ELPD values differ from the paper's (28.8 vs\n    17.9) and only the within-pipeline contrast is interpretable.\n    \n    Two fixes on the way: readr isn't installed, so base R readers; and\n    loo_compare sorts by fit, so the difference is now computed from pointwise\n    elpd values, which fixes an NA and pins the sign.\n    \n    Style pass on today's additions: 50 flags to 38 (baseline 23), mostly\n    uncontracted forms in the new \u00a76.1 prose.\n    \n    45 pages, clean, gate 50 PASS.\n    \n    Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n",
+    "d4770f1": "commit d4770f1e19a7abc2b37f65cdb7503577fddb82fc\nAuthor:     Brett Reynolds <brettrey@gmail.com>\nAuthorDate: Wed Jun 3 17:40:08 2026 -0400\nCommit:     Brett Reynolds <brettrey@gmail.com>\nCommitDate: Wed Jun 3 17:40:08 2026 -0400\n\n    Add morphology-gain reproducibility package\n    \n    Co-Authored-By: Codex <codex@openai.com>\n"
+  },
+  "input_provenance": {
+    "analysis/filter-ha-concordance.py": {
+      "sha256": "abfb47b1ccd16e7cf07e24cea7cd22cb9715e66c66315bd1bc58964a046172ac",
+      "matches_cited_revision": true,
+      "directly_requested": true
+    },
+    "data/ha-validity-rates.csv": {
+      "sha256": "d01c502eefd778557b6cf487c548d92008066200b84c98ae2b4f28fd2bcbc5d5",
+      "matches_cited_revision": true,
+      "directly_requested": true
+    },
+    "analysis/hand-extracted/ha-pooled-multiverse.csv": {
+      "sha256": "ecfb272658db04cf996f185f823a79e2693affab17e85e005b0adcfa5a71039f",
+      "matches_cited_revision": true,
+      "directly_requested": true
+    },
+    "analysis/pool-ha-rates.py": {
+      "sha256": "dc249662194ed6706907a0f128f5743a1101f9ea881829c0365b6e977e151de5",
+      "matches_cited_revision": true,
+      "directly_requested": true
+    },
+    "analysis/conditioning-model.R": {
+      "sha256": "06807c01c14ec9a9089637a2d13f82a9ab8f80d33d0ffd8556317aed9d3aafea",
+      "matches_cited_revision": true,
+      "directly_requested": true
+    },
+    "analysis/ha-labelled-validation-set.tsv": {
+      "sha256": "940d3d00756d506b0f19a5c94243dbea07ccebe8ad19e28f05e407b68e72f2b1",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "data/glowbe-interjection-frequencies.csv": {
+      "sha256": "c51b75373d7bb56819f2c7bc41bebf6c099c71bb15de3ca9c839cc2ec2b9ae6a",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "data/glowbe-raw-counts.csv": {
+      "sha256": "125a8d76e9ce12632028d5492e3373e0cc56e09094889db71b882d4cb62f47af",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-corrected-rates.csv": {
+      "sha256": "d054faeffefc8035e692ec1b91f68feabac3fa355d42d1b834be5148880bd063",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/conditioning-model-measerr.R": {
+      "sha256": "a3cbffbf10308bf40601fbfbc68ad3f249bf59a270dd840ad1d67c919129ce74",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-US.tsv": {
+      "sha256": "4e2107768404392322a2b5fba34ea7b109de1095881781896f2d2383d676b27d",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-CA.tsv": {
+      "sha256": "7a55afe1cee9a948ff168c25e0ccc69b1932660eb1be1f0998dba71d993adbaa",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-GB.tsv": {
+      "sha256": "e9dfa7e42d6caca523f55082672551f5f0fc382c8c5ebc7d32dc699123e9a676",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-IE.tsv": {
+      "sha256": "f856cfbfeb759c5054897dc74e66713c2a6142fb960cdb2dfb9c6868cb7a7d36",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-AU.tsv": {
+      "sha256": "89a9c5ea4a20d5e4d96bdf133d27b179b17ec5f55fa596a13989799fde941ab3",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-NZ.tsv": {
+      "sha256": "5693f9559442d222950c2004fab7568ceba1039163366982dffdc0b49a36dbee",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-IN.tsv": {
+      "sha256": "919585a226ad638be84b525463afb7780d4536ef00426a10ec27012364b1be1e",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-LK.tsv": {
+      "sha256": "2a6c0a1b05f146eefaa48e1d60740b81ae9cc6cc21b21ba27b733cc62fc94cf1",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-PK.tsv": {
+      "sha256": "907bb4e9ab7801b496ca6a4f831dbb5e44c00152a07abf055b864f289fcbfc1e",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-BD.tsv": {
+      "sha256": "ab13a7a7e9f6d979bff1e9628c2a86c07c4b2638a112254351c7a0f3ef4a1549",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-SG.tsv": {
+      "sha256": "748ad518320aef348f979c440356f3c52b011a8eeb53778a14cba272f158bfea",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-MY.tsv": {
+      "sha256": "04a10130e7477bdf176fc5c0b2f5af8f7f84391c4f6f9ffaff5f5fe62ce1f7cd",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-PH.tsv": {
+      "sha256": "4d10ee3066663cf56d7f1c0df7c4e082617e8342913481dab54403c194936e6b",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-HK.tsv": {
+      "sha256": "6bcd456e11bb8a3773813edc213ec786543b617b3e667d41b26763cfa7f323a2",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-ZA.tsv": {
+      "sha256": "e2928acb9749a9cf7cb5cb675446989446bf50ce32effff66572665566756d07",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-NG.tsv": {
+      "sha256": "136dd1bb33170bee2b3aae0c8bdfd34535d74b13b86c46b49f6c33f316c524de",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-GH.tsv": {
+      "sha256": "18aab624d9816298f43718ae921660249a86ba26c9a81de24daca41a97329242",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-KE.tsv": {
+      "sha256": "e91b009da43f1d9a4867c8ad6152295f45a4f59603978aa56662c6cfa3f8c33e",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-TZ.tsv": {
+      "sha256": "d9a9e9f08bc20878a882d6487f13d15465933ec6d6d5efc9cc54086408a55022",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    },
+    "analysis/hand-extracted/ha-concordances/ha_uh-JM.tsv": {
+      "sha256": "18f29ab147c8ee06d012df814036e6f57d218692108149c2394dfcc56844e19a",
+      "matches_cited_revision": true,
+      "directly_requested": false
+    }
+  }
+}

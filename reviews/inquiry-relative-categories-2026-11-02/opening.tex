@@ -1,0 +1,351 @@
+\documentclass[12pt]{article}
+
+% Separate working manuscript. Canonical main.* files are unchanged.
+\input{.house-style/preamble.tex}
+\usepackage{xurl}
+\usepackage[normalem]{ulem}
+\setlength{\ULdepth}{1.8pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\headheight}{14pt}
+\newcommand{\exmention}[1]{\mention{#1}}
+\newcommand{\exfocus}[1]{\uline{#1}}
+\newcommand{\intj}[1]{\textsc{interjection\textsubscript{#1}}}
+\newcommand{\intjshort}[1]{Intj\textsubscript{#1}}
+\addbibresource{inquiry-relative-categories.bib}
+
+\newif\ifblind
+\blindfalse
+\ifblind
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map[overwrite=true]{
+      \step[fieldsource=entrykey, match=\regexp{\Areynolds}, final]
+      \step[fieldset=author, fieldvalue={Author}]
+      \step[fieldset=title, fieldvalue={[Title removed for anonymous review]}]
+      \step[fieldset=note, null]
+      \step[fieldset=url, null]
+      \step[fieldset=doi, null]
+    }
+  }
+}
+\fi
+\hypersetup{
+  pdftitle={Inquiry-Relative Categories: English Interjections as a Worked Case},
+  pdfkeywords={inquiry-relative categories, category pluralism, projectibility, interjections, sign-types, path dependence},
+}
+\ifblind
+\hypersetup{pdfauthor={}}
+\else
+\hypersetup{pdfauthor={Brett Reynolds}}
+\fi
+\title{Inquiry-Relative Categories:\\English Interjections as a Worked Case}
+\ifblind
+\author{[Author removed for blind review]}
+\else
+\author{Brett Reynolds \orcidlink{0000-0003-0073-7195}%
+\thanks{Contact: \href{mailto:brett.reynolds@humber.ca}{brett.reynolds@humber.ca}}\\
+Humber Polytechnic \& University of Toronto}
+\fi
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Disputes about linguistic categories often combine different questions about
+the same expressions. English interjections provide a worked case: grammatical
+distribution, expressive meaning, and sequential use motivate overlapping
+classifications whose boundaries needn't coincide. I develop an account of
+inquiry-relative category standing in which each proposal specifies its
+bearers, grouping basis, intended contribution, scope, and alternatives.
+The three classifications illustrate an open family. Phonological organization
+and historical ancestry motivate further candidates; social regulation and
+processing connect the traditional interjection domain to broader classes.
+Classifications of realizations and historical changes require explicit
+relations to classifications of sign-types. These distinctions explain how
+category disputes can be separated without making classification arbitrary
+or assigning automatic priority to a discipline. Documented recruitment
+histories support particular explanations, while audits of two corpus studies
+withdraw their intended confirmatory interpretations. The resulting framework
+distinguishes descriptive organization, projection, representational benefit,
+and causal explanation as contributions requiring appropriate evidence.
+Overlap, gradience, and shared mechanisms are compatible with justified
+classification; the number and reach of useful categories remain outcomes
+of inquiry.
+\end{abstract}
+
+\noindent\textbf{Keywords:} inquiry-relative categories; category pluralism;
+projectibility; interjections; sign-types; path dependence
+
+\aidisclosure{Claude Opus 4.8, Claude Opus 5, Claude Opus 5.5, GPT-5.6 Sol,
+GPT-6 Astra Pro, and GPT-6 (Codex)}
+
+\section{Introduction}\label{sec:intro}
+
+Standalone \mention{Damn!}, complement-taking \mention{Damn these mosquitoes!},
+and prenominal \mention{damn} in \mention{the damn car} present different
+combinations of grammatical and semantic properties. The modifier participates
+in a noun phrase while retaining an expressive contribution. The standalone
+form can constitute a stance display. The complement-taking expression has
+internal structure even when the whole expression stands apart from a
+surrounding clause. A single judgment about whether \mention{damn} is an
+interjection leaves these differences unresolved.
+
+Which judgment matters depends on the inquiry. A grammarian investigating
+phrase structure needs a distinction that a semanticist studying expressive
+contribution may properly cross. An analyst of conversation asks a further
+question about conventional actions and recipients' responses. The difficulty
+arises when evidence answering one question is taken to settle all three,
+or when failure to share one extension is treated as failure to identify
+any defensible category.
+
+This paper develops an account of \term{inquiry-relative classification}.
+Its central claim is that a traditional linguistic domain can contain several
+overlapping classifications, each assessed for the distinctions, inferences,
+or explanations it supports. An inquiry identifies a question and a standard
+of success. Evidence constrains which grouping answers it. The same objects
+can participate in several justified classifications without one inquiry
+acquiring general priority over the others.
+
+English interjections supply the worked case. I develop a grammar-facing
+\intj{syn}, a semantics-facing \intj{sem}, and an interaction-facing
+\intj{prag}. These are analytical reconstructions drawing on established
+traditions, rather than three technical senses already distinguished
+consistently in the literature. They share conventionalized sign-types as
+bearers: identifiable expressions in conventional uses. The three uses of
+\mention{damn} above belong to one historical family but require separate
+analysis at this grain.
+
+The three classifications are examples within an open family. Phonological
+organization can motivate another grouping of sign-types, and historical
+ancestry can relate descendants with different present distributions. Other
+inquiries classify realizations, developmental episodes, or processes of
+change. Their connection to sign-types needs to be stated. These extensions
+show why the subscript in \intj{x} identifies a particular inquiry, rather
+than allocating one category to each disciplinary department.
+
+The general proposal has two constraints. First, a candidate specifies its
+bearer, grouping basis, intended contribution, scope, and relevant alternatives.
+Second, the evidence supporting one contribution isn't automatically evidence
+for another. A useful descriptive contrast, a successful prediction, an
+economical representation, and a supported causal explanation can come apart.
+The standards apply equally to the initial three classifications and to
+further candidates.
+
+The problem is familiar in part from the distinction between grammatical
+clause type and speech act. An interrogative can perform a request, while
+an answer-seeking action can be performed without interrogative form. The
+proper-noun/proper-name distinction offers another comparison: a name can
+be headed by a common noun. The interjection case develops the general
+problem further because several traditions compete for the same label,
+and their diagnoses mix properties of forms, uses, occurrences, and histories.
+
+The historical argument concerns \term{path dependence}: an expression's
+development can leave source-specific traces after its use converges with
+that of other expressions. Gehweiler's history of \mention{gee} supplies a
+documented case; the comparison with complement-taking \mention{damn} is
+partly reconstructive. These histories help distinguish an explanatory
+classification by ancestry from a classification by current distribution.
+They also show why a present trace needs independent historical evidence
+before it can count as support for the proposed route.
+
+The corpus material has a narrower role. Geographic frequency differences
+and changes in tagged inventories provide examples of what a measure can
+and can't establish about a classification. Audits invalidate the intended
+confirmatory interpretations of two further analyses, of derivatives and
+\mention{fie}; the appendices preserve their records and explain the failures.
+The paper uses those failures to delimit its evidence rather than treating
+precise numerical outputs as grounds for category standing.
+
+Section~\ref{sec:worked} develops the three classifications through concrete
+contrasts. Section~\ref{sec:assessment} explains their common assessment
+standard. Sections~\ref{sec:phonology} and~\ref{sec:history} develop phonological
+and historical extensions, including the relations among different bearers.
+Section~\ref{sec:extensions} considers broader social and processing classes.
+The empirical assessment and discussion then establish the limits and
+consequences of the general account.
+
+\section{Three classifications of conventional signs}\label{sec:worked}
+
+Grammars and studies of meaning and interaction have organized the traditional
+interjection domain differently. Jespersen treated interjection as a manner
+in which words of other categories are used \citep[90]{jespersen1924}.
+\textit{The Cambridge Grammar of the English Language} (\textit{CGEL})
+recognizes a lexical category \citep[22]{HuddlestonPullum2002}. The
+\textit{Longman Grammar of Spoken and Written English} places interjections
+within the broader class of inserts, while assigning \mention{damn},
+\mention{gosh}, and \mention{gee} to expletives \citep[1082--1083, 1094--1095]{Biber1999}.
+
+The disputes concern the organization of a well-studied domain. Libert
+questions the common description of interjections as neglected
+\citep{libert2019}; Cram identifies their recurring role in controversies
+over the syntax--pragmatics and semantics--pragmatics boundaries
+\citep[63]{cram2008}. A comparison of classifications should preserve the
+contrasts those controversies disclose. It should also distinguish an
+alternative grouping from a disagreement about the facts.
+
+\subsection{Grammar and expressive meaning}
+
+The grammar-facing classification begins with standalone and supplement
+distribution. In \mention{Damn, we're going to be late!}, \mention{damn}
+is appended to the clause without being its complement or modifier.
+\textit{CGEL} treats interjections as occurring on their own or functioning
+as supplements \citep[1350, 1361]{HuddlestonPullum2002}. In their conventional
+interjectional uses they are characteristically invariant and resist the
+ordinary constituent positions available to nouns, verbs, or adjectives.
+
+Supplement function is shared by several categories. Compare the interjection
+with the relative clause and noun phrase in the following examples, adapted
+from \textit{CGEL} \citep[1356--1357, 1360]{HuddlestonPullum2002}.
+
+\ea\label{ex:supplements}
+  \ea \exmention{\exfocus{Ah}, so you were there after all!}
+  \ex \exmention{We called in to see Sue's parents, \exfocus{which made us rather late}.}
+  \ex \exmention{A university lecturer, \exfocus{Dr Brown}, was arrested for the crime.}
+  \z
+\z
+
+Their external relation to a host doesn't erase their internal grammatical
+differences. A nominal supplement remains a noun phrase; a relative clause
+has clause structure. For the same reason, the external detachment of
+\mention{Damn these mosquitoes!} is compatible with internal complementation.
+\textit{CGEL} tentatively treats such cases as exceptional interjections
+heading an interjection phrase with a noun-phrase complement
+\citep[1361 n.~70]{HuddlestonPullum2002}. A verbal analysis remains a substantive
+alternative. The complement alone doesn't decide between them.
+
+Prenominal \mention{damn} provides a different contrast. In
+\mention{the damn car}, it occurs inside the noun phrase, with the phrase's
+prosodic packaging, while contributing an attitude toward its referent.
+Potts's analysis distinguishes that expressive contribution from descriptive
+content \citep[171, 182]{potts2007}. The expression can preserve this
+semantic distinction while departing from the standalone distribution
+characteristic of grammatical interjections.
+
+\intj{sem} develops this expressive classification. \term{Expressive} here
+concerns a conventional contribution distinguishable from descriptive content;
+the associated \term{use-conditional} analysis concerns what using the
+expression conveys. Potts identifies several diagnostics, including
+perspective dependence, immediacy, and intensifying repetition
+\citep[166--167]{potts2007}. Their applicability to a proposed member is an
+empirical question. Mere independence from the host proposition is
+insufficient, since a supplement can contribute a descriptive proposition
+of its own.
+
+The two \mention{damn} uses make the benefit of separate classification
+visible. The grammatical analysis preserves a difference in distribution;
+the semantic analysis preserves a common kind of contribution. Averaging
+these observations into a single degree of interjectionhood would discard
+which respect is shared and which differs. A constructional inventory could
+also record both relations. The proposal concerns their organization as
+distinct classifications and the consequences attributed to them.
+
+\subsection{Interaction and its subtypes}
+
+An interaction-facing classification groups conventional minimal resources
+by their availability for identifiable jobs in sequences of action.
+Continuers such as \mention{mm-hm}, repair initiators such as \mention{huh?},
+and change-of-state uses of \mention{oh} are central cases in accounts of
+interjections in conversation \citep[257--259, 263--265]{dingemanse2024}.
+Their importance becomes less visible if the entire domain is organized
+around emotional exclamation.
+
+A continuer can support another speaker's ongoing turn. A repair initiator
+can make a response to a problem of hearing or understanding relevant.
+Those are different actions with different consequences. Assigning both
+to \intj{prag} preserves their availability as conventional resources;
+it doesn't predict the same next turn for both. The evidential question
+for the superordinate class concerns what generalization it supports beyond
+the separate descriptions of its subtypes.
+
+The selected continuer and repair uses also show why an interactional
+contribution needn't be an expressive one. A speaker can convey an attitude
+through a particular \mention{mm-hm} or \mention{huh?} without that attitude
+being the conventional expressive contribution of the use. I provisionally
+exclude the selected readings from \intj{sem}, while assigning them to
+\intj{syn} on their conventional standalone distribution and to \intj{prag}
+on their sequential role. Evidence for another reading could warrant another
+assignment.
+
+Routine formulae expose disagreement within this interactional inquiry.
+Ameka separates forms such as \mention{bye}, \mention{sorry}, and
+\mention{thank you} from interjections, emphasizing addressees, conventional
+social situations, and speech-act status \citep[108--110]{ameka1992}.
+Wilkins treats them as a pragmatic and semantic subtype
+\citep[142]{wilkins1992}. Both attend to meaning and interaction. Allocating
+one author to grammar and the other to pragmatics would misdescribe the
+disagreement.
+
+Under the criterion adopted here, closing \mention{bye} belongs to
+\intj{prag}: it is a conventional minimal resource in a recognizable
+sequential environment. Closing formulae remain distinguishable from
+continuers, repair initiators, and stance displays. This broad assignment
+is a proposal whose usefulness can be assessed against narrower groupings.
+An inquiry can support several classifications, including subtypes, rather
+than requiring one extension for all interactional purposes.
+
+\subsection{The common bearer and the contrasts it preserves}
+
+A \term{sign-type} is an identifiable expression in a conventional use.
+Its \term{profile} is the combination of grammatical, semantic, interactional,
+and other properties attributed to it. Profile is a descriptive term here.
+The use can retain its identity while a proposed property turns out to be
+absent. Otherwise every surprising observation would identify a different
+object and leave the original classification immune to correction.
+
+Different conventional uses require evidence for their individuation.
+The recurrent contrast between standalone and prenominal \mention{damn}
+supports distinguishing them. A spelling alone doesn't: a word family can
+include several signs, and a sign can have spelling variants. Table~\ref{tab:contrasts}
+records the selected uses and the present analytical assignments. They are
+neither counts of occurrences nor results of a new annotation study.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Selected uses under the three worked classifications. A check
+marks assignment, a dash exclusion under the stated analysis, and a question
+mark an unresolved assignment. The prenominal row concerns the head use of
+\mention{damn}; external distribution is assessed in its phrase.}
+\label{tab:contrasts}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Selected use & \intjshort{syn} & \intjshort{sem} & \intjshort{prag} \\
+\midrule
+\mention{gee!} & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+\mention{damn!} (stance) & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+\mention{damn these mosquitoes!} & ? & $\checkmark$ & ? \\
+Prenominal \mention{damn} & -- & $\checkmark$ & -- \\
+\mention{mm-hm} (continuer) & $\checkmark$ & -- & $\checkmark$ \\
+\mention{huh?} (repair) & $\checkmark$ & -- & $\checkmark$ \\
+\mention{bye} (closing) & $\checkmark$ & -- & $\checkmark$ \\
+\mention{Bang!} (depiction) & $\checkmark$ & -- & ? \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The depictive use of \mention{Bang!} illustrates another separation.
+Standalone distribution motivates its grammatical assignment in the analysis
+adopted here. Depicting a sound supplies a different semantic relation from
+the expressive contribution of \mention{damn}. Work on ideophones and
+onomatopoeia makes that difference consequential
+\citep{dingemanse2018,dingemanseakita2017,meinard2015}. Its conventional
+sequential role remains a further question. Standalone packaging by itself
+doesn't answer it.
+
+The unresolved cases matter as much as the positive assignments.
+Complement-taking \mention{damn} raises a grammatical question independently
+of whether it has expressive meaning. Its absence from a dataset of
+backchannels would say little about its availability for stance displays.
+A question mark preserves that separation. Treating missing evidence as
+exclusion would make the apparent distance between classifications partly
+an artefact of what investigators happened to study.
+
+These comparisons establish a reason to keep the judgments distinct.
+They leave open how much further work each grouping performs. A grammatical
+category may support additional distributional expectations; the expressive
+classification may extend to signs never called grammatical interjections;
+interactional subtypes may be more informative than their common superordinate
+class. Those possibilities require one assessment standard that applies
+without privileging any of the three.
+

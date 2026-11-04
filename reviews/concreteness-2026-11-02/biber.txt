@@ -1,0 +1,24 @@
+INFO - This is Biber 2.22
+INFO - Logfile is 'inquiry-relative-categories.blg'
+INFO - Reading 'inquiry-relative-categories.bcf'
+INFO - Found 31 citekeys in bib section 0
+INFO - Processing section 0
+INFO - Looking for bibtex file 'references.bib' for section 0
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'references.bib'
+INFO - Looking for bibtex file 'references-local.bib' for section 0
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'references-local.bib'
+INFO - Looking for bibtex file 'inquiry-relative-categories.bib' for section 0
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'inquiry-relative-categories.bib'
+INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-GB'
+INFO - No sort tailoring available for locale 'en-GB'
+INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-GB'
+INFO - No sort tailoring available for locale 'en-GB'
+INFO - Writing 'inquiry-relative-categories.bbl' with encoding 'UTF-8'
+INFO - Output to inquiry-relative-categories.bbl

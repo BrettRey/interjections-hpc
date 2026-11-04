@@ -1,0 +1,53 @@
+
+Found 5 potential style violation(s):
+
+
+=== inquiry-relative-categories.tex ===
+  Line 359: [warning] Noticeable 'The X is Y' paragraph-opener cadence (8; lines 167, 351, 359, 416, 704, ...) - vary if not defining, contrasting, or pivoting
+    The worked cases are named for the relations they investigate: the lex; The f...
+  Line 808: [warning] Noticeable argumentative-object paragraph-opener cadence (8; lines 129, 246, 610, 808, 844, 996, ...) - vary by making the move directly where possible
+    This paper asks what warrants recognizing a category for an inquiry. A; The s...
+  Line 402: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    establishes is therefore a difference of function and integration.
+  Line 786: 'category label plus class' - use 'category' unless explicitly contrasting HPC class
+    Alternative & An undifferentiated interjection class, explicit subtypes, or i...
+  Line 891: Uncontracted demonstrative + auxiliary 'This is' - contract if natural or rephrase
+    This is a hypothetical research sequence using familiar constructions.
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    Line 485: AI pattern: possible false range; verify the endpoints form a real scale
+      a use as depictive from its response to repetition and then predicting
+    Line 670: AI pattern: possible false range; verify the endpoints form a real scale
+      A single ordering from less to more interjectional can't
+    Line 784: AI pattern: possible false range; verify the endpoints form a real scale
+      Distinguish the observed contrast from its extension to new realizations, environments, or sign-t...
+    Line 792: AI pattern: possible false range; verify the endpoints form a real scale
+      \subsection{From proposal to category claim}
+    Line 919: AI pattern: while maintaining/preserving trade-off frame
+      bearer connects those claims to the same use while preserving the
+    Line 1025: AI pattern: while maintaining/preserving trade-off frame
+      that sufficient test while retaining both the wider interjection profile
+    Line 1512: AI pattern: while maintaining/preserving trade-off frame
+      complete classification. They can be mutually informative while preserving
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    734 sentences | median 14 | mean 14.3 | middle half 10-18 (8 words)
+         1-9  ##################        172   23%
+       10-14  ########################  232   32%
+       15-19  ##################        176   24%
+       20-24  ############              113   15%
+       25-29  ###                        29    4%
+       30-34  #                           8    1%
+       35-39                              4    1%
+         40+                              0    0%
+    [advisory] 60% of sentences fall in 12-26 words; the band is narrow, so check whether the rhythm has flattened
+

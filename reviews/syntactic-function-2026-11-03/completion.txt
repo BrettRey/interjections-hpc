@@ -1,0 +1,39 @@
+Syntactic-function revision — 2026-11-03
+
+Authorization: Brett's “make it so”, approving the three-part revision proposed in the preceding response. Existing direction to retain draft-level verification and defer careful polishing remains in force.
+Target: inquiry-relative-categories.tex only.
+
+Diagnosis
+The supplement comparison was accurate but served mainly to protect the lexical-category analysis. The table mixed category and function under a broad grammatical heading, and the bearer account emphasized conventional sign-types. This underrepresented classifications within syntax.
+
+Implemented
+1. New §2.2 makes category/function a positive worked case. Interjection, noun phrase and relative clause share supplement function; Dr Brown retains NP category across subject and supplement functions. The prosodic expectation attached to supplementation is explicit, including its connection with the wider interjection profile.
+2. Table 1 now separates expression category, function or constructional status, and meaning/action. It includes the relative-clause and NP supplements. Modifier is treated as a function; the lexical category of prenominal damn remains open here. Independent utterance is explicitly a status, not an invented syntactic function.
+3. The bearer account now includes expressions in constructional relations and complex expressions whose wording needn't be conventionalized. Abstract, introduction, assessment, prosodic section, discussion and conclusion carry the distinction.
+
+Grounding
+CGEL p. 23 explicitly distinguishes category/function and gives both same-category/different-function and different-category/same-function examples (verified PDF page 43).
+CGEL p. 1350 identifies supplementation and independent intonational packaging for central cases (verified PDF page 1370).
+Existing examples at pp. 1356–1357 and 1360 retained. The subject variant Dr Brown was arrested for the crime is explicitly marked constructed.
+CGEL p. 1361 supplies the established interjection core and independent/supplementary distribution. No new corpus result or quantified predictive performance is claimed.
+
+Verification
+XeLaTeX + Biber + XeLaTeX twice, all exit 0. No unresolved citations or cross-references, and no overfull or underfull boxes in the final build. Existing fancyhdr/microtype warnings remain. Rendered pages 5, 6, 10, 22 and 23 inspected; prose and four-column table are readable. Final PDF: 25 pages. General polishing deferred.
+
+This is a local conceptual revision and source check, not a newly completed whole-manuscript projectibility audit. The prior pass may become stale as the working source changes.
+
+House-style sentence-length output (verbatim):
+SENTENCE LENGTH
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    736 sentences | median 13 | mean 13.9 | middle half 10-18 (8 words)
+         1-9  ##################        184   25%
+       10-14  ########################  240   33%
+       15-19  ##################        176   24%
+       20-24  ##########                105   14%
+       25-29  ##                         24    3%
+       30-34  #                           6    1%
+       35-39                              1    0%
+         40+                              0    0%
+

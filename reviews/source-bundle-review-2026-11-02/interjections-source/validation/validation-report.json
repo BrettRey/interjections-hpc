@@ -1,0 +1,83 @@
+{
+  "source_file": "interjections-revised.tex",
+  "source_sha256": "027a1f1c005732717b5855cdc70b5e6062af26ed0eefe20ab89dfaae3022ceea",
+  "canonical_attempt": "canonical-attempt.log",
+  "canonical_blocker": "Hiragino Mincho ProN unavailable; source contains no CJK macro invocations",
+  "validation_substitutions": [
+    {
+      "file": ".house-style/preamble.tex",
+      "change": "Unused CJK font family Hiragino Mincho ProN replaced with DejaVu Sans",
+      "effect": "No rendered manuscript text affected: cjk macro unused"
+    },
+    {
+      "file": ".house-style/preamble.tex",
+      "change": "Loaded xurl after hyperref",
+      "effect": "Enables safe line breaks in long repository paths; eliminates overfull lines"
+    }
+  ],
+  "main_font": "EB Garamond",
+  "ipa_font": "Charis SIL",
+  "monospace_font": "Inconsolata",
+  "engine": "XeLaTeX (TeX Live 2023/Debian)",
+  "bibliography_processor": "Biber 2.19",
+  "example_package": {
+    "source": "https://github.com/langsci/langscibook/blob/master/langsci-gb4e.sty",
+    "git_blob_sha": "eec32c548947d8b40a0d385a3f176db564936eb0"
+  },
+  "figures_from_commit": "074dfb44cef5b18d292ac176ba5acbfedc76e3b1",
+  "figure_blob_hashes_verified": true,
+  "status": "final compilation and visual QA complete",
+  "source_matches_assembled": true,
+  "pdf_sha256": "db7e22779e449d6a462d4890ca9362b2fb1fa2fabc3cf0ab9562de0673c187c3",
+  "page_count": 52,
+  "final_compilation_logs": [
+    "final-layout-xelatex-1.log",
+    "final-layout-xelatex-2.log"
+  ],
+  "bibliography_log": "final-biber.log",
+  "bibliography_key_count": 68,
+  "bibliography_record_count": 68,
+  "labels": 43,
+  "explicit_cross_references": 59,
+  "static_checks": "static-checks.json",
+  "log_summary": "final-log-summary.json",
+  "visual_qa": {
+    "all_pages_reviewed_in_contact_sheets": true,
+    "readable_size_pages": [
+      1,
+      13,
+      15,
+      20,
+      21,
+      27,
+      28,
+      30,
+      32,
+      33,
+      39,
+      40,
+      41,
+      42,
+      47,
+      49,
+      50,
+      51,
+      52
+    ],
+    "final_layout_patch": "samepage around ED50 table introduction and table",
+    "affected_pages_reinspected": [
+      50,
+      51,
+      52
+    ],
+    "result": "No clipping, overlap, unreadable figures, or unresolved placeholders observed"
+  },
+  "remaining_nonfatal_warning_counts": {
+    "Package fancyhdr Warning: \\fancyhead's `E' option without twoside option is use": 1,
+    "Package fancyhdr Warning: \\fancyfoot's `E' option without twoside option is use": 1,
+    "Package microtype Warning: Unable to apply patch `footnote' on input line 84.": 1,
+    "Package microtype Warning: Unknown slot number of character": 402
+  },
+  "date_displayed": "2nd November 2026",
+  "build_timezone": "America/Toronto"
+}

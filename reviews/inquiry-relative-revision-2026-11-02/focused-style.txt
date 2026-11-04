@@ -1,0 +1,36 @@
+
+Found 1 potential style violation(s):
+
+
+=== reviews/inquiry-relative-revision-2026-11-02/focused-changed-excerpts.tex ===
+  Line 58: 'category label plus class' - use 'category' unless explicitly contrasting HPC class
+    Alternative & An undifferentiated interjection class, explicit subtypes, or i...
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- reviews/inquiry-relative-revision-2026-11-02/focused-changed-excerpts.tex ---
+    Line 56: AI pattern: possible false range; verify the endpoints form a real scale
+      Distinguish the observed contrast from its extension to new realizations, environments, or sign-t...
+    Line 83: AI pattern: possible false range; verify the endpoints form a real scale
+      elsewhere differs from defining the class to contain only uses already
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- reviews/inquiry-relative-revision-2026-11-02/focused-changed-excerpts.tex ---
+    85 sentences | median 14 | mean 14.7 | middle half 10-17 (7 words)
+         1-9  ################           19   22%
+       10-14  ######################     26   31%
+       15-19  ########################   28   33%
+       20-24  ####                        5    6%
+       25-29  #####                       6    7%
+       30-34  #                           1    1%
+       35-39                              0    0%
+         40+                              0    0%
+    [advisory] 66% of sentences fall in 12-26 words; the band is narrow, so check whether the rhythm has flattened
+    [advisory] middle half spans only 7 words (10-17); uniform length is more detectable than any single word choice
+

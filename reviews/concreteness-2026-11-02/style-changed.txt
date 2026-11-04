@@ -1,0 +1,25 @@
+
+Found 2 potential style violation(s):
+
+
+=== /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/reviews/concreteness-2026-11-02/changed-excerpts.tex ===
+  Line 161: [warning] Noticeable 'The X is Y' paragraph-opener cadence (3; lines 1, 73, 161) - vary if not defining, contrasting, or pivoting
+    The semantic grouping here is expressive signs: conventional uses whos; The b...
+  Line 112: Uncontracted demonstrative + auxiliary 'This is' - contract if natural or rephrase
+    This is a hypothetical research sequence using familiar constructions.
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/reviews/concreteness-2026-11-02/changed-excerpts.tex ---
+    170 sentences | median 13 | mean 13.5 | middle half 9-17 (8 words)
+         1-9  #################          43   25%
+       10-14  ########################   60   35%
+       15-19  ##############             35   21%
+       20-24  ##########                 26   15%
+       25-29  ##                          5    3%
+       30-34                              0    0%
+       35-39                              1    1%
+         40+                              0    0%
+

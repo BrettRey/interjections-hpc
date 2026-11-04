@@ -1,0 +1,30 @@
+File: inquiry-relative-evidence-supplement.tex
+Encoding: ascii
+Sum count: 3708
+Words in text: 3394
+Words in headers: 69
+Words outside text (captions, etc.): 235
+Number of headers: 17
+Number of floats/tables/figures: 5
+Number of math inlines: 10
+Number of math displayed: 0
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  96+4+6 (1/0/0/0) _top_
+  0+5+0 (1/0/0/0) Section: GloWbE measurement and model comparisons
+  284+3+0 (1/0/0/0) Subsection: Data and measurement
+  266+2+51 (1/1/0/0) Subsection: Geographic distributions
+  792+4+31 (1/1/0/0) Subsection: Concordance audit and sensitivity
+  235+2+0 (1/0/0/0) Subsection: Model specification
+  310+1+0 (1/0/3/0) Subsection: Results
+  0+7+0 (1/0/0/0) Section: Audit of the semantic-residue analysis in COHA
+  111+3+0 (1/0/0/0) Subsection: Design and extraction
+  196+4+0 (1/0/0/0) Subsection: Intended measures and implementation
+  94+5+0 (1/0/0/0) Subsection: Archived outputs and their limits
+  268+4+0 (1/0/3/0) Subsection: Reliability record and files
+  0+7+0 (1/0/0/0) Section: Audit of the \mentionhead{fie} analysis in COHA
+  230+4+0 (1/0/0/0) Subsection: Design, coding, and denominator
+  82+4+46 (1/1/1/0) Subsection: Archived agreement and proportions
+  262+4+40 (1/1/3/0) Subsection: Archived models and interpretation
+  168+6+61 (1/1/0/0) Section: Turnover in the tagged COHA inventory
+

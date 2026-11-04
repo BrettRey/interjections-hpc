@@ -1,0 +1,33 @@
+Concrete examples for §2.3 — bounded source check, 2026-11-02
+
+Read current §2.3 and the earlier coherence report. No manuscript or bibliography edits. Recommend three short utterances, with the first doing double duty for contribution/encoding and hypothetical disagreement.
+
+1. “The damn car won't start.”
+
+Preferred anchor: this CONSTRUCTED utterance retains the draft's prenominal bearer. In a failed-ignition context it reports a problem and conveys an attitude. “Expressive” identifies the contribution; “procedural” proposes how the wording guides emotional interpretation. Both descriptions can apply to the same sign. Wharton's title utterance, “That bloody so-and-so has retired,” is an alternative if a sourced string is preferred.
+
+An explicitly HYPOTHETICAL comparison can oppose a conceptual-only account, assigning representational content to this use, and a procedural-only account, assigning an encoded instruction guiding interpretation. Their mutually exclusive claims concern the same sign, even if both acknowledge the conveyed stance. Conceptual content must not be equated with an assertion that the speaker is annoyed. Neither exclusive account should be attributed to Potts or Wharton without further source support.
+
+Source: Wharton author manuscript, abstract, p. 1:
+https://research.brighton.ac.uk/files/379135/That_bloody_so-and-so%20has%20retired_post-reviewers_FINAL.pdf
+The indexed primary abstract supports procedural meaning plus showing emotion. Direct access returned HTTP 403; full-text analysis and published page mapping remain unverified. The setting and exclusive rivals are our illustrations, not Wharton's verified analyses or results.
+
+2. “Ouch!” after touching a hot pan.
+
+The form is Ameka's; the situation is CONSTRUCTED. Plain explanation: the speaker gives voice to a present painful sensation. This makes Ameka's emotive subtype concrete without treating the interjection as a sentence asserting a paraphrase about pain.
+
+3. “Aha!” on finding the missing keys beneath a newspaper.
+
+The form is Ameka's; the situation is CONSTRUCTED. Plain explanation: the speaker displays a change in what they know or recognize. That is the cognitive subtype. Knowledge/recognition needn't be an evaluative or affective stance, so Ameka's mental-state grouping can extend beyond the manuscript's narrower expressive grouping.
+
+Source for 2–3: Ameka (1992), §4, printed p. 113 (PDF page 13), local literature/ameka1992-interjections.pdf and .md. His examples explicitly include Ouch under sensations and Aha under knowledge/thought. P. 114 explicitly allows multifunctionality, so don't claim that Aha can never also express affect or that these readings exhaust either form. His short glosses are explanatory aids; citing them doesn't establish that the whole English paraphrase is the lexical encoding of the item.
+
+Carry-over from §2.2
+
+No fourth example is needed for expressive/depictive contribution: point back to the already-constructed Damn!/Bang! comparison. The relevant contrast is conveyed stance versus portrayal of a sound. The current draft correctly notes that depiction also involves iconic presentation and does not settle the conceptual/procedural question. Keeping this same pair avoids introducing another undefined category or another bearer.
+
+Potts guardrail
+
+Potts (2007), printed p. 181, explicitly models expressives as changing the expressive setting of the context, without changing descriptive content. The local primary text is literature/Potts - 2007 - The expressive dimension.pdf, PDF page 17. It would therefore be false to cast his alternative as simply adding the descriptive proposition that the speaker is annoyed. Nor do the available passages establish that a formal expressive-context update and a procedural account are incompatible merely because their vocabularies differ. Actual competition needs a claim one account affirms and the other denies, as in the explicitly hypothetical pair above.
+
+Recommended use: the constructed car utterance with one plain explanation and the marked hypothetical contrast, followed by the Ouch!/Aha! pair. This is enough to concretize §2.3 within the available evidence. No wider retrieval or theory adjudication is warranted by this check.

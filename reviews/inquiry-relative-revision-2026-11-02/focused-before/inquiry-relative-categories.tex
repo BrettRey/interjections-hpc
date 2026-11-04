@@ -1,0 +1,1217 @@
+\documentclass[12pt]{article}
+
+% Separate working manuscript. Canonical main.* files are unchanged.
+\input{.house-style/preamble.tex}
+\usepackage{xurl}
+\usepackage[normalem]{ulem}
+\setlength{\ULdepth}{1.8pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\headheight}{14pt}
+\newcommand{\exmention}[1]{\mention{#1}}
+\newcommand{\exfocus}[1]{\uline{#1}}
+\addbibresource{inquiry-relative-categories.bib}
+
+% Publisher-verified correction without changing the shared bibliography.
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map[overwrite=true]{
+      \step[fieldsource=entrykey, match=\regexp{\Aunuabonahdaniel2020\Z}, final]
+      \step[fieldset=doi, fieldvalue={10.1016/j.pragma.2020.04.004}]
+    }
+  }
+}
+
+\newif\ifblind
+\blindfalse
+\ifblind
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map[overwrite=true]{
+      \step[fieldsource=entrykey, match=\regexp{\Areynolds}, final]
+      \step[fieldset=author, fieldvalue={Author}]
+      \step[fieldset=title, fieldvalue={[Title removed for anonymous review]}]
+      \step[fieldset=note, null]
+      \step[fieldset=url, null]
+      \step[fieldset=doi, null]
+    }
+  }
+}
+\fi
+\hypersetup{
+  pdftitle={Inquiry-Relative Categories: English Interjections as a Worked Case},
+  pdfkeywords={inquiry-relative categories, category pluralism, projectibility, interjections, sign-types, path dependence},
+}
+\ifblind
+\hypersetup{pdfauthor={}}
+\else
+\hypersetup{pdfauthor={Brett Reynolds}}
+\fi
+\title{Inquiry-Relative Categories:\\English Interjections as a Worked Case}
+\ifblind
+\author{[Author removed for blind review]}
+\else
+\author{Brett Reynolds \orcidlink{0000-0003-0073-7195}%
+\thanks{Contact: \href{mailto:brett.reynolds@humber.ca}{brett.reynolds@humber.ca}}\\
+Humber Polytechnic \& University of Toronto}
+\fi
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Linguistic category disputes often combine different questions about the
+same expressions. I develop an account of inquiry-relative categories,
+using English interjections as a worked case. The account distinguishes
+useful descriptive classes from empirical categories whose co-occurring
+properties support induction for particular purposes. Expressive
+\mention{Damn!} and depictive \mention{Bang!} show why one inquiry into
+meaning can require several distinctions: conveying a stance and portraying
+a sound preserve different relations, despite similarities in grammatical
+distribution. Phonological resemblance likewise leaves grammatical
+membership unresolved. These comparisons locate the dispute in the
+inference being claimed: evidence can support a descriptive distinction
+without establishing category standing, and failure of one projection
+leaves independently supported distinctions intact. Several categories
+can serve one inquiry, just as one category can serve several
+inquiries. Their legitimacy depends on the inferences they support, making
+pluralism compatible with empirical grounds for rejecting particular proposals.
+\end{abstract}
+
+\noindent\textbf{Keywords:} inquiry-relative categories; category pluralism;
+projectibility; interjections; sign-types; path dependence
+
+\aidisclosure{Claude Opus 4.8, Claude Opus 5, Claude Opus 5.5, GPT-5.6 Sol,
+GPT-6 Astra Pro, and GPT-6 (Codex)}
+
+\section{Introduction}\label{sec:intro}
+
+Standalone \mention{Damn!}, complement-taking \mention{Damn these mosquitoes!},
+and prenominal \mention{damn} in \mention{the damn car} present different
+combinations of grammatical and semantic properties. The modifier participates
+in a noun phrase while retaining an expressive contribution. The standalone
+form can constitute a stance display. The complement-taking expression has
+internal structure even when the whole expression stands apart from a
+surrounding clause. A single judgment about whether \mention{damn} is an
+interjection leaves these differences unresolved.
+
+A comparison with depictive \mention{Bang!} exposes a further distinction.
+The selected \mention{damn} use conveys an evaluative stance; the selected
+\mention{Bang!} depicts a sound. Both concern meaning, but they motivate
+different groupings and different questions about interpretation. Grouping
+one under semantics and the other under semiotics would do nothing to
+resolve those questions. Nor would calling both interjections establish
+that they share the relevant semantic properties.
+
+This paper asks what warrants recognizing a category for an inquiry.
+An inquiry identifies a question and a standard of success; evidence
+constrains which grouping answers it. A field can pursue several inquiries,
+an inquiry can employ several categories, and a category can serve questions
+pursued across fields. English interjections make this many-to-many relation
+visible because grammatical, semantic, interactional, phonological, and
+historical descriptions repeatedly organize overlapping material.
+
+A terminological distinction is essential. Stipulating the membership
+conditions of a constructed \term{class} is unproblematic. I reserve
+\term{category} for empirical groupings whose co-occurring properties support
+induction for particular purposes, following the usage in
+\textit{Words That Won't Hold Still} \citep[ch.~2]{reynolds2025hpcbook}.
+\term{Classification} assigns objects under a chosen scheme;
+\term{categorization}, in this usage, identifies them with an empirical
+category. These are local conventions, not terminology imposed on the
+sources discussed below.
+
+A class can make measurement comparable or description informative without
+yet establishing such a category. The distinctions among \mention{damn}
+uses have descriptive value even before a new prediction is tested.
+\term{Projectibility}, the warrant for expecting more than was used to
+identify a case, is a further achievement \citep{Goodman1955}.
+Neither descriptive usefulness nor a successful projection identifies its
+own causal explanation. The paper separates these achievements so that
+evidence for one isn't made to stand in for another.
+
+Pluralism about useful and objectively grounded groupings has substantial
+precedents. \textcite[5--7, 17--18]{dupre1993disorder} relates the choice of
+classification to the goals of inquiry while rejecting one uniquely
+privileged division of things. \textcite[63--64, 69--72]{khalidi2013}
+defends crosscutting kinds answering different epistemic interests.
+Their wider metaphysical commitments needn't all be adopted to recognize
+that distinct questions can require overlapping groupings.
+
+Within linguistics, \textcite[663, 666, 680]{haspelmath2010} distinguishes
+language-particular descriptive categories from concepts designed for
+cross-language comparison. The division of labour here is different:
+several inquiries within English can organize the same expressions
+differently. The contribution is to connect that plurality with explicit
+bearers, comparisons among alternative groupings, and separate standards
+for description, projection, representation, and causal explanation.
+
+The worked cases are named for the relations they investigate: grammatical
+interjections, expressive signs, depictive signs, continuers, repair
+initiators, and closing formats. They needn't all operate at the same level
+of generality or retain an interjection label. In these comparisons, the
+common bearer is a conventionalized sign-type, an identifiable expression
+in a conventional use. Classifications of realizations or historical
+changes require explicit relations to these sign-types.
+
+The historical case concerns \term{path dependence}: development can leave
+source-specific traces after uses converge. Gehweiler's history of
+\mention{gee} supplies a documented explanation of one outcome; a verbal
+route to complement-taking \mention{damn} remains partly reconstructive.
+The corpus material has a narrower role, showing how tags and strings
+can fail to identify the intended bearers. A linked supplement preserves
+the detailed measurement checks and two withdrawn confirmatory analyses.
+
+Section~\ref{sec:worked} develops the named groupings and completes an
+expressive--depictive comparison. Section~\ref{sec:assessment} distinguishes
+their possible achievements. Sections~\ref{sec:phonology} and~\ref{sec:history}
+apply the assessment to phonological and historical claims;
+Section~\ref{sec:extensions} considers broader social and processing
+classes. The measurement case and discussion then draw out what changes
+when the object, grouping, and claim are kept explicit.
+
+\section{Several groupings of conventional signs}\label{sec:worked}
+
+Grammars and studies of meaning and interaction organize the traditional
+interjection domain differently. \textcite[90]{jespersen1924} treated
+interjection as a manner in which words of other categories are used.
+\textit{The Cambridge Grammar of the English Language} (\textit{CGEL})
+recognizes a lexical category \citep[22]{HuddlestonPullum2002}. The
+\textit{Longman Grammar of Spoken and Written English} places interjections
+within the broader class of inserts, while assigning \mention{damn},
+\mention{gosh}, and \mention{gee} to expletives
+\citep[1082--1083, 1094--1095]{Biber1999}.
+
+The disputes concern a well-studied domain. \textcite{libert2019} questions
+the description of interjections as neglected; \textcite[63]{cram2008}
+identifies their recurring role in controversies over the syntax--pragmatics
+and semantics--pragmatics boundaries. The following comparisons preserve
+what those traditions distinguish without treating each tradition as the
+source of exactly one category.
+
+\subsection{Grammatical interjections and expressive signs}
+
+The grammatical proposal begins with standalone and supplement distribution.
+In \mention{Damn, we're going to be late!}, \mention{damn} is appended to
+the clause without being its complement or modifier. \textit{CGEL} treats
+interjections as occurring on their own or functioning as supplements
+\citep[1350, 1361]{HuddlestonPullum2002}. In those conventional uses,
+they're characteristically invariant and resist the ordinary constituent
+positions available to nouns, verbs, or adjectives.
+
+Supplement function is shared by several categories. Compare the interjection
+with the relative clause and noun phrase in these examples, adapted from
+\textit{CGEL} \citep[1356--1357, 1360]{HuddlestonPullum2002}.
+
+\ea\label{ex:supplements}
+  \ea \exmention{\exfocus{Ah}, so you were there after all!}
+  \ex \exmention{We called in to see Sue's parents, \exfocus{which made us rather late}.}
+  \ex \exmention{A university lecturer, \exfocus{Dr Brown}, was arrested for the crime.}
+  \z
+\z
+
+Their external relation to a host leaves their internal grammatical
+differences intact. The same applies to \mention{Damn these mosquitoes!}:
+the whole phrase's detachment is compatible with complementation inside it.
+\textit{CGEL} tentatively treats the head as an exceptional interjection
+taking a noun-phrase complement \citep[1361 n.~70]{HuddlestonPullum2002}.
+A verbal analysis remains a substantive alternative. Neither the
+complement nor the whole phrase's independence decides between them alone.
+
+Prenominal \mention{damn}, in \mention{the damn car}, occurs inside the
+noun phrase while contributing an attitude toward its referent.
+\textcite[171, 182]{potts2007} distinguishes that expressive contribution
+from descriptive content. Grammatical integration leaves a
+semantic relation to standalone \mention{Damn!} available for analysis.
+A single degree of interjectionhood would conceal which respect is shared
+and which differs.
+
+The semantic grouping here is \term{expressive signs}: conventional uses
+whose deployment conveys an evaluative or affective stance, rather than
+merely describing that stance. This intended contribution is narrower than
+all non-descriptive or use-conditional meaning. A conventional instruction
+for managing interpretation or interaction needn't express such a stance.
+Potts's diagnostics include perspective dependence, immediacy, and
+intensifying repetition \citep[166--167]{potts2007}; whether they travel
+together across a proposed extension is an empirical question.
+
+The grouping is broader than grammatical interjections. The examples in
+this paper are a selected part of it, chosen from disputes about
+interjections; that selection supplies no additional semantic membership
+condition. A broader account of expressives can include integrated signs
+with no traditional interjection label. Its descriptive benefit here is
+to preserve the expressive--descriptive distinction across independently
+identified grammatical constructions.
+
+\subsection{Expressive and depictive signs}\label{sec:expressive-depictive}
+
+Compare the selected expressive use of \mention{Damn!} with a sound depiction
+\mention{Bang!} in a narrative. The bearer in each case is the conventional
+use, not every occurrence of the spelling. The question is what contribution
+the use makes to interpretation. The strongest simple alternative groups
+both as expressive interjections on the basis of their vividness and
+standalone packaging. That alternative still has to explain the difference
+between conveying an attitude and presenting a sound.
+
+A \term{depictive sign} conventionally presents a sound, event, or sensory
+scene through a resemblance between aspects of its performance and what
+it depicts. Dingemanse's account of ideophones supplies the wider comparison:
+conventional lexical items can depict sensory imagery, and their grammatical
+organization varies across languages \citep[2--3]{dingemanse2018}.
+The term \term{expressive} is itself used for ideophones in some traditions;
+that usage doesn't identify them with Potts's expressives.
+
+For the selected \mention{Bang!}, the relevant contribution is a portrayal
+of an impact sound. For \mention{Damn!}, it's the conveyed stance toward
+a situation. The distinction changes the interpretation of a possible
+modification. In a constructed narrative, \mention{bang, bang, bang} can
+portray several impacts; repeated \mention{damn} can intensify a stance
+without depicting a sequence of impacts. These examples articulate the
+contrast to be explained; they aren't results from a new elicitation study.
+
+The literature motivates those different targets. Potts treats repetition
+as potentially strengthening expressive contribution \citep[181--182]{potts2007}.
+Dingemanse connects depictive performance with iconic mappings between
+form and scene \citep[10--11]{dingemanse2018}. An investigation can
+ask whether repetition changes portrayed event structure, conveyed stance,
+or both. It needn't assume one answer for every form traditionally
+called an interjection.
+
+The descriptive comparison has a definite result. Separate expressive
+and depictive groupings preserve a difference in contribution that the
+undifferentiated alternative omits. A richer alternative could keep one
+superordinate class and record the difference as subtypes or dimensions.
+For this descriptive task, that's an acceptable equivalent if it retains
+the two relations. The result requires the distinction; it doesn't require
+a particular taxonomic rank.
+
+Projective category standing remains a further question. Identifying a use
+as depictive from its interpretation under repetition and then predicting
+that interpretation from the label would recycle the admission evidence.
+An independent test could identify the use from unrepeated contexts and
+examine modifications elsewhere. Existing accounts motivate that comparison;
+the two illustrations don't establish a general response to repetition or
+a complete partition of semantic signs.
+
+The groupings also needn't be disjoint. A depiction can convey an attitude,
+and an expressive performance can exploit resemblance. What matters is
+whether the relevant contribution is conventional in the selected use and
+what follows from it. Semantics can investigate both relations, or several
+more, without assigning each to a separate department or requiring one
+category to represent the semantic perspective as a whole.
+
+\subsection{Contribution, encoding, and competing analyses}
+
+Grouping by contribution differs from grouping by how that contribution
+is encoded. The depictive grouping already involves both a contribution
+and an iconic mode of presentation. The encoding question considered
+here is more specific: whether a sign supplies conceptual content or
+procedures guiding interpretation. An iconic presentation doesn't by
+itself decide between those accounts. \textcite{wharton2016expressives} develops a procedural account
+of expressive meaning, relating procedures for interpretation to the
+showing of emotion. On such an account, a sign can be expressive in its
+contribution and procedural in its encoding. Expressive and procedural
+aren't automatically complementary classes.
+
+Three situations need separating. Expressive and depictive groupings can
+distinguish contributions within one inquiry. A grouping by contribution
+and another by mode of encoding can crosscut one another. But two accounts
+making incompatible claims about how the same sign encodes its meaning
+compete. Inquiry relativity doesn't adjudicate that competition; their divergent consequences require assessment against evidence.
+
+An inquiry can also support finer groupings. \textcite[113]{ameka1992}
+distinguishes emotive and cognitive subtypes within his expressive class:
+one concerns feelings or sensations, the other knowledge or recognition.
+His mental-state grouping is broader than the evaluative or affective
+stance grouping used above: cognitive contribution alone doesn't meet
+that narrower criterion. The subtypes illustrate another possible
+organization whose value depends on the generalizations being pursued.
+
+\subsection{Interactional resource classes}
+
+Continuers, repair initiators, and closing formats answer different
+interactional questions. A continuer such as \mention{mm-hm} can support
+another speaker's ongoing turn. Repair \mention{huh?} makes a response to
+a problem of hearing or understanding relevant. Closing \mention{bye}
+participates in ending an encounter. Accounts of interjections in
+conversation make these sequential differences central
+\citep[257--259, 263--265]{dingemanse2024}.
+
+For comparison, these can be collected as conventional action formats:
+non-elliptical resources that can perform their action without a lexically
+specified host. The working class collects resources whose particular sequential
+consequences still need separate characterization. Such predictions belong initially to
+particular resource classes and environments. The contribution of a
+superordinate interactional category would need separate support.
+
+The criterion has consequences at the boundary. Response \mention{okay}
+and closing or thanking \mention{thanks} are candidates insofar as their
+selected uses conventionally perform the relevant action. A formulaic
+greeting \mention{how are you?} can qualify despite having several words.
+An ordinary imperative \mention{stop!} doesn't qualify merely because
+clause structure permits it to stand alone; a claim that it's also a
+conventional routine needs evidence beyond that structure.
+
+Host-dependent \mention{please} in \mention{please sit down} belongs to
+a different comparison. A standalone appeal \mention{Please!} would have
+to be assessed as that selected use. Thus the admission rule concerns
+conventional action formats, rather than brevity, wordhood, or every
+expression capable of being uttered alone. These constructed comparisons
+specify the proposal; they don't supply an annotated inventory.
+
+The grammatical treatment of \mention{mm-hm} and \mention{huh?} likewise
+needs more than standalone occurrence. \textcite[114]{ameka1992} includes the former among
+phatic interjections; \textcite[152]{wilkins1992} treats repair \mention{huh?}
+as a conventional utterance.
+For the selected uses, I adopt the non-elliptical analysis: neither needs
+a recovered nominal head or clause to supply its interpretation.
+The grammatical assignments below are defeasible analyses supported by
+these descriptions, rather than deductions from punctuation.
+
+Routine formulae expose competition within an inquiry.
+\textcite[108--110]{ameka1992} separates \mention{bye}, \mention{sorry},
+and \mention{thank you} from interjections, whereas
+\textcite[142]{wilkins1992} treats routines as a subtype. Both attend
+to meaning and interaction. Assigning each a disciplinary label would
+misdescribe their disagreement. The selected closing format can be
+compared with continuers without settling whether the wider grouping
+is the most useful category for either question.
+
+\subsection{Common bearers and distinct questions}
+
+A \term{sign-type} is an identifiable expression in a conventional use.
+Its \term{profile} is the combination of grammatical, semantic, interactional,
+and other properties attributed to it. A use can retain its identity
+while a proposed property turns out to be absent. Otherwise every
+surprising observation would identify a different object and leave the
+original proposal immune to correction.
+
+The recurrent contrast between standalone and prenominal \mention{damn}
+supports distinguishing their conventional uses. In the complement-taking
+case, Table~\ref{tab:contrasts} classifies the lexical head \mention{damn}
+in that construction. The whole phrase's external distribution is evidence
+about its environment, not a replacement bearer. The table records
+analytical judgments, not counts or results of a new annotation study.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Selected conventional uses and the relations preserved by named analyses.
+The columns organize descriptions; they don't allocate one category to each field.}
+\label{tab:contrasts}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{.24\textwidth}
+                  >{\raggedright\arraybackslash}p{.31\textwidth}
+                  >{\raggedright\arraybackslash}p{.37\textwidth}@{}}
+\toprule
+Selected bearer & Grammatical analysis & Meaning or action under comparison \\
+\midrule
+\mention{gee!}; stance \mention{damn!} & Interjection & Expressive contribution; stance display \\
+\addlinespace
+\mention{damn} in \mention{damn + NP} & Interjection head or verb: unresolved & Expressive contribution; the head's sequential affordances remain to be specified \\
+\addlinespace
+Prenominal \mention{damn} & Integrated modifier & Expressive contribution across a grammatical difference \\
+\addlinespace
+Continuer \mention{mm-hm} & Interjection analysis adopted & Continuation resource; no evaluative stance required by the selected reading \\
+\addlinespace
+Repair \mention{huh?} & Interjection analysis adopted & Open repair initiator; no evaluative stance required by the selected reading \\
+\addlinespace
+Closing \mention{bye} & Formulaic standalone expression & Closing resource \\
+\addlinespace
+Depictive \mention{Bang!} & Interjection or nominal-fragment analysis: unresolved & Sound depiction; stance is a separate question \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Several analyses can assign the same selected uses for different reasons.
+The examples establish expressive commonality across a grammatical
+difference and different contributions within a semantic comparison.
+They leave the overall relation between the grammatical and interactional
+extensions open. Agreement over selected cases neither supplies an
+extensional separation nor settles how far the groupings coincide.
+
+\mention{Bang!} makes the unresolved grammatical question concrete.
+English also has nominal \mention{bang}, as in the constructed
+\mention{a loud bang} and \mention{two bangs}. A standalone occurrence
+needs assessment against a nominal-fragment analysis.
+Its depictive interpretation can be recognized while that question remains
+open. Section~\ref{sec:phonology} completes the related assessment of
+what phonological evidence can decide.
+
+\section{What warrants a class, a category, or an explanation?}\label{sec:assessment}
+
+The expressive--depictive comparison establishes a descriptive distinction.
+Whether either grouping supports further induction is a different question.
+The same distinction applies to grammatical and interactional proposals:
+an inventory can organize the observed uses accurately while leaving
+its reach beyond those observations unknown. A common assessment should
+recognize both the value of that description and the additional commitment
+made when an empirical category is proposed.
+
+\subsection{Bearers, grouping, contribution, and alternatives}
+
+Four questions organize the assessment. What bears membership? What groups
+the members? What does the grouping help an investigator distinguish,
+infer, or explain? And what alternative would serve the same inquiry?
+Each proposal also needs a scope: a language or community, relevant
+conditions, and, where the claim concerns change, a period. These
+questions apply to established proposals and new candidates alike.
+
+The \term{bearer} is the object grouped. Here it can be a conventional
+sign-type; a phonologist may instead group realizations, and a historian
+may group changes linking earlier and later signs. A frequency of
+realizations doesn't immediately establish a number of types or a rate
+of change. The grammatical category of a head likewise differs from
+the external distribution of its containing phrase.
+
+The \term{grouping basis} is the evidence or relation used to assign
+members: distribution, expressive contribution, ancestry, or participation
+in a recognized repertoire, for example. A grouping can be sharp or
+graded and can use one diagnostic or several. A unique mechanism isn't
+a prerequisite for stating the proposal. Whether the proposed members
+support any particular induction or explanation remains to be assessed.
+
+The \term{contribution} identifies what the grouping accomplishes. A
+constructed class can fix a comparison set. A descriptive class can
+organize a recurrent relation across independently identified cases.
+A category claim requires evidence that co-occurring properties support
+induction beyond the application conditions. A causal claim requires
+evidence about the process producing an outcome. These achievements
+can accumulate, but evidence for an earlier one doesn't establish a
+later one automatically.
+
+Descriptive success can be assessed without requiring a second-property
+prediction. The expressive grouping preserves a semantic relation across
+standalone and integrated constructions; the expressive--depictive contrast
+records different contributions concealed by the broad cover term.
+Those are warranted uses of descriptive classes. Calling them descriptions
+doesn't diminish their scientific value. It specifies the achievement
+so that categoryhood, in the stronger sense used here, remains an
+answerable further question.
+
+An \term{alternative} can be a broader class, narrower subtypes, a
+continuous dimension, or an item-by-item account. In the worked semantic
+comparison, separate classes and a superordinate class with explicit
+subtypes both preserve the decisive distinction. For an inquiry into
+recipient responses, action-specific groupings may be more informative
+than their union. The number and rank of categories are outcomes of
+comparison, rather than requirements supplied by a field or inquiry.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Assessing the expressive grouping without conflating its achievements}
+\label{tab:inquiry-record}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{.17\textwidth}
+                  >{\raggedright\arraybackslash}p{.36\textwidth}
+                  >{\raggedright\arraybackslash}p{.39\textwidth}@{}}
+\toprule
+Question & Proposed answer & Evidential consequence \\
+\midrule
+Bearer & Conventional uses, including standalone and prenominal \mention{damn} &
+Identify each use without requiring the target property under investigation. \\
+\addlinespace
+Grouping & Deployment conventionally conveys evaluative or affective stance &
+Distinguish this from describing an emotion, depicting a scene, or managing interaction. \\
+\addlinespace
+Contribution & Preserve expressive commonality across grammatical constructions &
+Description preserves the contrast; prediction about a further diagnostic needs additional evidence. \\
+\addlinespace
+Alternative & An undifferentiated interjection class, explicit subtypes, or item-specific accounts &
+Compare which semantic relations each preserves and what further generalization each warrants. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{From proposal to category claim}
+
+A candidate earns consideration by making these questions answerable.
+Support depends on the contribution claimed. A coherent classification
+can warrant continued descriptive use while remaining a prospective
+category proposal. The conventional category labels inherited from the
+literature aren't independent evidence that every extension considered
+here has a projectible profile.
+
+The semantic comparison gives the stages concrete content. Assigning
+expressive uses by their conveyed stance fixes a class. Showing the
+same contrast across grammatical constructions establishes descriptive
+reach. Establishing that independently identified members share a
+further interpretive property would support category standing at the
+scope tested. The last claim can't be secured merely by defining the
+class to contain signs already known to share every target property.
+
+Supported category standing is limited to a profile and
+scope. A projection established for a subtype doesn't automatically
+extend to its superordinate class. Evidence for English expressive
+modifiers doesn't establish the same profile for all repair initiators
+or all ideophones. These limits permit comparison and revision without
+requiring one universal admission standard for every useful analytical
+tool.
+
+\subsection{Projection and identity}
+
+A projective claim states what's been observed, what's expected, and
+over which bearers and conditions. Its \term{warrant} is the evidence
+supporting that expectation \citep{Goodman1955}. A precise specification
+can have little warrant; a reliable association can remain causally
+unexplained. The content, evidential status, and proposed ground of a
+claim need separate assessment
+\citep[11--12]{reynolds2026projectibilityHistory}.
+
+Suppose source contexts identify an expressive use and the target is
+its interpretation under repetition. Repetition can't also supply the
+case-level evidence used to admit that use. Similarly, if resistance
+to determiner combination is the target, an unexpected determiner
+can't by itself justify excluding the case as conversion. A change
+to the identification rule creates a revised claim requiring assessment.
+
+Consider a hypothetical adverse case for standalone stance \mention{damn}.
+The initial identification uses its conventional reaction meaning and
+recurrence across independently sampled situations; the grammatical
+prediction concerns resistance to integration. A new occurrence retains
+that reaction meaning but appears inside a larger construction. The
+first response is to check the analysis of that occurrence and revise
+the proposed distribution if it stands. Its inconvenience isn't evidence
+for a second sign.
+
+A split becomes justified if independent observations establish a
+recurrent conventional use with a different contribution or distribution,
+as the familiar prenominal pattern does. A quoted token or a productive
+noun denoting an utterance is another possible analysis, but it needs
+evidence for quotation or nominal reference. In the hypothetical case,
+repetition of the unexpected distribution with the same reaction meaning
+would count against the original restriction, even if no new sign
+were recognized.
+
+An informative restriction also needs relevant opportunities. Failure
+to observe inflection says little if the sampled environments wouldn't
+elicit it under a rival analysis. A grammatical test needs source and
+target constructions; an interactional test needs actions and sequential
+environments. The common bearer allows these claims to concern the
+same use. It doesn't make their evidence interchangeable.
+
+\subsection{Representation and causal explanation}
+
+A category label computed deterministically from fully observed features
+adds no information to those features. A representation can still
+help an investigator working with incomplete or noisy observations:
+it can support pooling, reduce separate assumptions, or express relevant
+dependencies. Such benefits require a comparison for the specified task.
+They don't establish that the represented grouping has a unique causal
+ground.
+
+Intersections receive the same treatment. A joint grouping can be
+economical even though its membership follows from the component
+assignments. An advantage over one restricted model wouldn't give it
+priority for every inquiry. Conversely, derivability alone doesn't make
+it useless. The comparison needs to identify what the alternatives retain
+and what the investigator needs to infer.
+
+A historical explanation can remain informative after present structure
+is fully observed. If recruitment produced that structure, conditioning
+on it can remove the association through which the history is recognized.
+A test of additional prediction from present evidence differs
+from a test of the proposed history. For processing, too, conditioning
+on measured frequency doesn't by itself identify repetition's total or
+direct causal contribution to retrieval.
+
+\subsection{Hill's considerations for causal claims}\label{sec:hill}
+
+\textcite[295--299]{hill1965} offered nine viewpoints for assessing a
+causal interpretation of epidemiological associations: strength,
+consistency, specificity, temporality, biological gradient, plausibility,
+coherence, experiment, and analogy. He rejected a mechanical checklist:
+none guarantees proof, and the list isn't a set of individually mandatory
+requirements. Its purpose is to examine whether a causal explanation
+fits the evidence better than alternatives.
+
+Applied to linguistic inquiry, the viewpoints concern a specified
+cause and outcome, not the existence of a class. A claim that changed
+prosodic packaging contributes to changed distribution needs separate
+measures of both. Strength and consistency concern the observed relation;
+specificity directs attention to alternative outcomes and causes;
+temporality constrains the proposed direction. Plausibility and coherence
+connect the claim to independently supported knowledge, while experiment
+and analogy can supply further comparisons.
+
+A linguistic counterpart of biological gradient would need a justified
+intensity variable and outcome. Frequency is one possible exposure
+measure, but its causal role can't simply be assumed. Counting fulfilled
+viewpoints would add no evidence. And Hill's caution about mandatory
+requirements doesn't permit an effect to cause its own earlier proposed
+cause. Section~\ref{sec:history} applies these distinctions to the
+limited history of \mention{gee}.
+
+A recurring profile can be stable while its causal ordering remains
+unknown. Historical dependence can be supported without establishing
+inventory-wide recurrence. Maintenance requires evidence that a process
+preserves a profile; corrective control requires a response to disturbance.
+I reserve \term{homeostatic} for that stronger control claim, following
+\textcite{reynolds2026notEveryStableCluster}, a narrower use than
+\textcite[143]{boyd1999}. No such control claim is established here.
+
+\section{Phonological organization and situated realization}\label{sec:phonology}
+
+Phonological evidence already enters descriptions of interjections in two
+forms. Some signs permit sounds or combinations unusual elsewhere in a
+variety; particular occurrences also have distinctive prosodic packaging.
+These observations motivate different classifications. The first can group
+sign-types by their phonological possibilities. The second groups realizations
+by how speakers produce them in context. Their relation is empirically
+interesting precisely because they don't classify the same objects.
+
+\subsection{A phonological stratum of signs}
+
+English conversational clicks make the first possibility concrete. The
+click represented by \mention{tut-tut} differs from an ordinary spelling
+pronunciation \citep[147]{wilkins1992}. Forms such as \mention{ugh} permit
+sounds outside the usual phoneme inventory of standard British and
+American English \citep[853]{quirk1985}. A phonological inquiry can
+ask which conventional signs admit such resources, how their variants are
+organized, and how speakers acquire or adapt them.
+
+\textcite[112--113]{ameka1992} diagnoses a specific inference: unusual
+phonology shared with interjections has been used to include onomatopoeic
+words in the grammatical interjection category. His alternative is to
+recognize a phonological grouping whose members can belong to different
+grammatical categories. The following assessment develops the evidential
+consequence of that distinction.
+
+The grammatical claim concerns membership in a lexical category. The
+evidence offered concerns sounds or sound patterns unusual elsewhere in
+the language. That evidence supports a comparison of phonological
+possibilities across independently identified signs. It doesn't answer
+whether a particular use has nominal, verbal, or interjectional grammar.
+Nor does sound depiction itself entail phonological anomaly: resemblance
+and distribution within the sound system are different relations.
+
+For English \mention{Bang!}, the competing grammatical analysis is a
+standalone nominal fragment, supported as a possibility by the independently
+available noun in \mention{a loud bang}. A depictive interpretation leaves
+that analysis open. Even if an occurrence had unusual phonation, the
+additional observation would concern its realization. Choosing between
+nominal and interjectional analyses would still require distributional
+and constructional evidence about the selected conventional use.
+
+The strongest alternative retains one broad descriptive class and records
+phonology and grammar as separate attributes. For organizing known cases,
+that can preserve the same information. It becomes inadequate only if
+membership in the broad class is used to infer a grammatical assignment
+without the relevant evidence. The assessment rejects
+that inference while retaining the cross-grammatical phonological
+comparison. It doesn't establish a single projectible phonological stratum.
+
+An account of the stratum would gain projective reach if membership
+organized acquisition, adaptation, or alternation beyond the diagnostic
+used to identify it. For example, a class based on independently
+established segmental possibilities could be assessed against patterns of
+spelling pronunciation. That's a prospective comparison. The existence
+of unusual sounds and reported alternatives establishes a descriptive
+motivation; it doesn't yet show one phonological class with a uniform
+learning or adaptation profile.
+
+Regular phonology matters too. In a ten-language study of open repair
+interjections, \textcite{dingemanse2013huh} find broad phonetic similarities
+alongside language-specific vowel targets and intonation. The repair interjections in Icelandic and
+Cha'palaa have falling contours, consistent with local interrogative
+prosody. The study concerns comparable repair environments. It supplies
+no reason to assign every occurrence resembling \mention{huh} to one
+phonologically exceptional class.
+
+Phonological classification thus has work to do within ordinary linguistic
+organization as well as at its margins. An inquiry into repair intonation
+could group forms with interrogative resources; another into unusual
+segments could group conversational clicks with other marked forms.
+Both could be useful. A single label such as \term{phonological interjection} would obscure
+the difference unless the inquiry and grouping basis were specified.
+
+\subsection{Prosodic classes of realizations}
+
+A prosodic boundary is a property of a realization. A sign-type can
+characteristically occupy its own intonation phrase while allowing different
+realizations in different environments. Conversely, realizations of
+grammatically different signs can share a boundary pattern. Supplements
+provide a familiar example: interjections, noun phrases, and relative
+clauses can all be prosodically detached
+\citep[66, 1350]{HuddlestonPullum2002}.
+
+The relation can be stated in two steps. First identify an occurrence
+as a realization of a sign-type using evidence appropriate to that
+identification. Then classify its prosodic organization from the acoustic
+record. A claim about the sign-type concerns the distribution of those
+realizations over relevant environments. One detached occurrence is
+evidence about a possibility; an adequately sampled distribution is needed
+for a claim about what's characteristic.
+
+Interaction supplies some of those environments. \textcite{ogden2013clicks} describes English
+clicks and percussives in stance-taking, sequence management, word searches,
+and turn timing, with visual behaviour contributing to their interpretation. A classification of productions by timing and
+articulation can intersect an analysis of sequential practices.
+The range of jobs also cautions against assigning one conventional action
+or expressive meaning to every click.
+
+Written corpora provide indirect access to this relation. Punctuation
+and standalone position can indicate detachment, but editorial conventions
+and genre affect both. Using the same comma as evidence for prosodic
+isolation and syntactic independence can't then establish an independently
+observed association between the two. The phonological and grammatical
+inquiries may converge, but the evidence for their convergence has to
+preserve the distinction between their measures.
+
+The two phonological inquiries extend the family in different ways. Phonological strata can share their sign-type bearers and
+enter membership intersections. Prosodic classes of occurrences connect
+to them through realization and through distributions over contexts.
+Treating both as extra columns in the same sign-type table would hide
+the relation that the phonological inquiry is meant to explain.
+
+\section{Historical ancestry and classes of change}\label{sec:history}
+
+A historical classification asks how signs came to have their present
+properties. Signs with different current distributions can descend from
+related sources, while signs with similar current profiles can arrive by
+different routes. The inquiry can classify present signs by independently
+established ancestry. It can also classify historical changes, such as
+clipping or reanalysis. The first has sign-types as bearers; the second
+has changes linking sources and outcomes.
+
+\subsection{The documented route to \mentionhead{gee}}
+
+\textcite{gehweiler2008} traces \mention{gee} through an invocation of \mention{Jesus},
+an exclamatory use of the religious name, and a clipped form. In the invocation, the speaker addresses the deity.
+The exclamation can express a reaction without that address. Clipping
+then produces a form whose relation to the name can become opaque.
+The sequence separates semantic change from the later change of form.
+
+The transitions also have different proposed explanations. Gehweiler
+relates the first to gradual invited inference, aided by the syntactically
+peripheral invocation. She analyzes the clipping as an abrupt, taboo-motivated
+change involving hearer reanalysis \citep[84--88]{gehweiler2008}. The
+source invocation already permits peripheral packaging. Its development
+gives no reason to assume that a new prosodic boundary caused
+the semantic transition or that all the properties changed together.
+
+The history explains why the shape of \mention{gee} bears a relation
+to religious invocation even for a speaker who doesn't recognize that
+relation. Its present opacity alone wouldn't identify its ancestry.
+The documented sequence supplies the additional evidence for a
+restricted instance of path dependence: a particular route helps explain
+a feature of its outcome, without making every other outcome of that
+route predictable.
+
+The explanation concerns a particular outcome. It doesn't yet establish
+that a class of signs with religious ancestry outperforms alternatives
+or supports a common projection. That comparison would require independently
+documented histories and outcomes across more than this one route.
+
+Hill's considerations clarify a tempting stronger claim. If newly acquired
+prosodic isolation were proposed as a cause of the semantic change, the
+already peripheral invocation would fail to supply the required change
+in exposure. The cited history doesn't independently measure a prosodic
+innovation preceding the semantic transition. Plausibility of a
+prosody--syntax connection can't supply that missing temporal comparison.
+Gehweiler's proposed roles for invited inference and taboo-motivated
+clipping remain distinct historical claims with their own evidence.
+
+The distinction also corrects an ambiguity in \term{primary} and
+\term{secondary} interjections. Ameka's distinction concerns whether
+a form has other, non-interjectional uses in the language
+\citep[105--106]{ameka1992}. It isn't a partition into historically
+underived and historically derived signs. Gehweiler's primary
+\mention{gee} has a documented derived history. Conversely, an unknown
+etymology supplies a gap in knowledge, not a common origin shared by
+all forms whose sources remain unknown.
+
+\subsection{Source, mechanism, transmission, and trajectory}
+
+A useful historical description separates four relations. The
+\term{source} identifies an earlier sign or construction. The
+\term{mechanism} specifies a change, such as clipping or reanalysis.
+The \term{transmission setting} concerns how the innovation spreads,
+including borrowing where supported. The subsequent \term{trajectory}
+concerns further changes in use or form. Signs can share one relation
+without sharing the other three.
+
+For \mention{gee}, a religious invocation supplies the source and
+tabooistic clipping supplies one mechanism. Those facts don't establish
+the transmission history of every later community's use. Nor does a
+shared source force a common trajectory: an exclamatory religious name
+can remain phonologically close to its source without later undergoing
+clipping. Historical classes can be organized at several
+levels, according to which relation the inquiry needs.
+
+The proposed verbal route to complement-taking \mention{damn} illustrates
+unequal support among histories. \mention{God damn him} has the shape
+of an optative, a construction independently recognized in English
+\citep[944]{HuddlestonPullum2002}. Omission of the subject and increasing
+conventional expressive force offer a plausible route to \mention{damn
+him}. The surviving complement fits that reconstruction. These synchronic
+comparisons don't establish the sequence as independently as Gehweiler's
+historical record does.
+
+The source optative already uses plain-form \mention{damn}, so the
+reconstruction doesn't require loss of tense marking at that transition.
+And the present complement remains compatible with competing analyses
+of the head as verbal or interjectional. A classification by independently
+established verbal ancestry could cross that present grammatical boundary.
+Inferring the ancestry solely from the complement and then invoking
+the ancestry to predict that same complement would be circular.
+
+Classes of changes require a different representation. An instance of
+clipping relates an earlier form to an outcome; an instance of semantic
+reanalysis relates earlier and later interpretations. Neither is itself
+a sign-type alongside \mention{gee} and \mention{damn}. A process
+classification can support comparisons among developments, while explicit
+source--result relations connect those developments to classifications
+of their inputs and outputs.
+
+\subsection{What historical evidence can establish}
+
+Historical explanation and forward projection need different comparisons.
+A documented route may explain a present feature through the changes
+that produced it. A forward projection asks what information about the
+route warrants expecting in another case. For a verbal-source class,
+that target could concern surviving restrictions on dependents, provided
+those restrictions weren't used to assign the source. The present
+examples motivate that inquiry without establishing a category-wide result.
+
+Evidence for replication also needs to distinguish innovations from their
+descendants. Several communities' uses of a borrowed sign can be
+several outcomes of one innovation, rather than independent instances
+of a recruitment route. They may support an account of transmission
+or subsequent divergence. They provide a weaker comparison for the
+claim that the same source independently produces the same result.
+The sampling unit depends on which historical claim is at issue.
+
+An ancestry classification can still explain a present contrast even
+when ancestry adds no predictive information after all its consequences
+are observed. Conditioning on those consequences changes the question
+to whether ancestry contributes anything further. That can be a useful
+test of predictive economy; it isn't a general test of whether the
+documented process occurred or helped produce the contrast.
+
+Historical classes can have two kinds of payoff. They can
+organize independently supported source relations among present signs,
+and they can compare processes across developments. These are legitimate
+descriptive and explanatory contributions. An empirical ancestry category,
+in the stronger usage adopted here, also needs support for the
+inductions it licenses. The documented history of one sign can't supply
+that support for an entire source class.
+
+\section{Broader classes and further inquiries}\label{sec:extensions}
+
+The traditional interjection domain also intersects classes whose most
+informative members lie elsewhere. Social regulation can group forms
+by their appropriateness for audiences and settings. Processing inquiries
+can group familiar expressions by how they're produced or understood.
+An interjection's membership in either class needn't make the class
+interjection-specific. Three questions remain distinct: whether the
+broader class is supported, how it intersects the traditional domain,
+and whether an \term{interjection} label helps describe that intersection.
+
+\subsection{Social regulation and socially recognized repertoires}
+
+Religious exclamations make social regulation relevant to the worked
+case. In Gehweiler's account, taboo pressure contributes to clipping
+\mention{Jesus} into \mention{gee}. A present-day inquiry might instead
+group uses according to their evaluated appropriateness for an audience
+or setting. The historical cause of an innovation and the current
+regulation of its descendants are separate targets; evidence for one
+doesn't settle the other.
+
+\textcite{jayjanschewitz2008} examine ratings of hypothetical swearing scenarios,
+finding that judgments depend on the word, speaker--listener relations,
+and social and physical context. Such evidence
+supports contextual differentiation in evaluations of taboo language.
+It doesn't directly observe sanctions or show that corrective responses
+maintain a class of interjections. Those stronger proposals would need
+their own measures of behaviour and change.
+
+Social indexing poses a related but distinct inquiry. Agha's account
+of enregisterment concerns the social recognition of speech forms as
+indexing attributes of speakers, with a repertoire's associations and
+social reach subject to change \citep[38--40]{agha2005}. A classification
+by participation in a recognized repertoire could cross grammatical,
+semantic, and sequential divisions. The relevant evidence concerns
+recognition and use of those associations, beyond a frequency difference
+between geographical collections.
+
+These social classifications can matter even where the sequential
+action stays constant. Two forms might both register surprise while
+carrying different audience-sensitive evaluations. Conversely, one
+socially marked repertoire can include forms used for several actions.
+The intended contribution determines whether to group conventional
+sign-types, uses in a specified community, or particular selections
+in context. Where conventions differ by community, that scope belongs
+in the identification of the bearer.
+
+\subsection{Formulaicity and processing}
+
+Formulaicity offers a similarly broad comparison. A familiar greeting,
+a pause filler, and an idiom may share aspects of conventionalized
+production while differing in grammar and conversational function.
+An inquiry into their processing can group them on grounds that
+cross the grammatical, semantic, and interactional groupings developed earlier. Its appropriate
+name may be \term{formulaic expressions}, with an explicitly described
+interjectional intersection.
+
+\textcite{vanlanckersidtis2015} report differences in formulaic
+language production and comprehension across clinical groups and
+healthy participants. Their production
+analysis combines six kinds of formulaic material, including conversational
+formulae, pause fillers, sentence stems, and idioms. The results give
+empirical consequences to that broader organization. They don't
+isolate an interjection-specific processing class or locate a neural
+basis for grammatical interjections, expressive signs, or particular interactional resources.
+
+An investigation of a narrower class would need an independently
+motivated grouping and a specified processing contrast. Frequency,
+familiarity, conventional meaning, and contextual predictability are
+possible contributors to fluent retrieval. Their roles depend on
+the question. If repeated use is proposed to help establish the
+routine, statistical adjustment for measured frequency needs care.
+The resulting conditional association identifies a causal contribution
+only under additional assumptions about exposure, retrieval, and their
+relation to the measure.
+
+Evidence of different processing can also cut across a proposed
+class. A formulaicity measure might explain performance better than
+membership in any interjection category. That would favour the broader
+or continuous representation for this inquiry. The grammatical contrast
+between a filler and an idiom would remain available to an
+inquiry into syntax. Local comparative failure has a definite consequence
+without erasing independently supported distinctions elsewhere.
+
+\subsection{Keeping the family open without multiplying labels}
+
+Other inquiries are easy to motivate, but motivation alone doesn't
+establish their proposed categories. Table~\ref{tab:extensions} identifies
+several candidates and the contribution each would need to specify.
+The table is an agenda for distinguishing questions. It makes no
+claim that every row identifies a single class, that their extensions
+are independent, or that all deserve an interjection label.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Further inquiries and their possible bearers}
+\label{tab:extensions}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{.19\textwidth}
+                  >{\raggedright\arraybackslash}p{.31\textwidth}
+                  >{\raggedright\arraybackslash}p{.42\textwidth}@{}}
+\toprule
+Inquiry & Possible bearer & Contribution requiring assessment \\
+\midrule
+Morphological organization & Sign-types in identified constructions &
+Distinguish invariance, productive operations, and retained source material. \\
+\addlinespace
+Semiotic relations & Conventional signs, or sign--referent relations &
+Organize depiction, indexing, and conventional meaning across grammatical categories. \\
+\addlinespace
+Development and learning & Learners' repertoires or acquisition episodes &
+Identify acquisition patterns without equating a learner's repertoire with an adult inventory. \\
+\addlinespace
+Multimodal organization & Conventional complexes or situated performances &
+Explain contributions of vocal and visible components and their coordination. \\
+\addlinespace
+Graphic communication & Written sign-types or particular inscriptions &
+Distinguish conventional graphic forms from representations of spoken realizations. \\
+\addlinespace
+Annotation & Tokens under a stated coding scheme &
+Support reliable retrieval or comparison for the scheme's task. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Morphology illustrates the distinctions within a row. The absence of an inflectional paradigm differs from resistance
+to derivation. A retained plural shape in exclamatory \mention{heavens!}
+differs from a productive number contrast. Attested noun and verb
+uses of \mention{ouch} in child-directed speech show why a claim
+about invariance needs to specify the conventional use
+\citep[36]{stange2016}. These facts motivate several comparisons,
+without supplying one morphological definition of interjectionhood.
+
+Semiotic and graphic inquiries can likewise cross familiar boundaries.
+A depiction can be realized as a conventional spoken sign or an
+inscription, while an inscription can also represent a speaker's
+production. Work on ideophones distinguishes depictive resources
+from the predominantly indexical relation associated with interjections
+\citep{dingemanse2018,dingemanseakita2017}. Whether a particular graphic
+form is a transcription, an autonomous convention, or both requires
+evidence about its use; resemblance alone doesn't decide.
+
+Developmental and multimodal inquiries can change the bearer more
+radically. An acquisition episode has participants and a temporal
+course. A situated vocal--visual performance includes coordination
+that a lexical sign-type doesn't exhaust. Classifying either can
+be informative, provided the connection to the sign-type inventory
+is made through learning or realization relations. Their classes
+can't be intersected directly with a set of signs as though all
+were objects of the same kind.
+
+Annotation makes the practical stakes clear. A tag can be useful
+for retrieving conversational responses even if its extension combines
+several grammatical or semantic classes. Its success is then measured
+against the retrieval task and coding policy. That success doesn't
+establish a lexical category. Conversely, poor retrieval under a
+particular tag says little about the existence of a distinction
+the tagging scheme wasn't designed to record.
+
+\section{A measurement case: tags, strings, and uses}\label{sec:evidence}
+
+A corpus query can identify a useful class without recovering the intended
+linguistic bearers. The Corpus of Global Web-Based English (GloWbE)
+contains country-labelled web sections \citep{daviesfuchs2015}.
+An interjection tag, the string \mention{ha}, and a conventional
+interjectional use of \mention{ha} select different sets. Confusing them
+can turn a retrieval convention into apparent evidence about a category.
+
+The \mention{ha} record makes the consequence concrete. Some tagged
+occurrences abbreviate \term{hectare}, especially in agricultural prose.
+A rule-based screen of exported contexts changes Kenya's rank from fifth
+to fifteenth or sixteenth under six treatments of laughter and unclear
+cases; pooling gives ranks from fourteenth to sixteenth. The large
+movement is stable across those choices. Its exact size remains
+conditional on the screen and on the exported samples.
+
+The screen was tuned against forty Kenyan and Tanzanian examples;
+its resulting 39/40 binary agreement is a development check. It doesn't
+establish equivalent accuracy in every country section. The observed
+geographic distribution depends on both the linguistic
+phenomenon and the measurement procedure. An analysis of category
+variation would need independently identified uses and comparable
+opportunities for their occurrence.
+
+The retained frequency model answers a narrower question. It compares
+prediction of an omitted country--item aggregate while retaining the
+same item in nineteen other countries and seventeen other items in
+that country. Adding country intercepts has an imprecisely estimated
+advantage of 17.9 expected log predictive density units (standard error
+13.3). The target is prediction within the observed design; new items,
+new countries, and the proposed linguistic groupings weren't tested.
+
+Similarly, changing frequency ranks in the Corpus of Historical American
+English (COHA) describe a tagged inventory \citep{davies2010}.
+They don't establish persistence of a semantic or grammatical profile.
+Two further analyses, of derivatives and \mention{fie}, fail their
+intended confirmatory interpretation: the primary derivative pipeline
+assigned semantic residue rather than measuring it, and the \mention{fie}
+input retained ineligible optical character recognition substitutions.
+Their confirmatory claims are withdrawn.
+
+The \href{inquiry-relative-evidence-supplement.pdf}{evidence supplement}
+preserves the complete records: GloWbE measurement and model comparisons
+(Section~A), the derivative audit (Section~B), the \mention{fie} audit
+(Section~C), and inventory turnover (Section~D). These records locate
+the failure at the relevant claim. A useful retrieval class survives
+as a tool, but its output can't establish a linguistic category
+without evidence connecting that class to independently identified uses.
+
+\section{The general consequence}\label{sec:discussion}
+
+Named groupings expose what a broad interjection judgment can obscure.
+The grammatical analysis of prenominal \mention{damn} concerns its
+integration into the noun phrase; the expressive analysis concerns
+its contribution to interpretation. Depictive \mention{Bang!} poses
+another semantic question. Continuers and repair initiators organize
+different sequential environments. These relations needn't fit a
+fixed matrix with one column for each discipline.
+
+\subsection{Many-to-many relations and local failure}
+
+Dupr\'e's pluralism and Khalidi's crosscutting kinds make room for
+multiple defensible groupings. The linguistic cases add a practical
+requirement: specify which relation a proposed grouping preserves and
+which objects participate in it. Haspelmath's division between descriptive
+categories and comparative concepts supplies a related lesson about
+analytical purpose. Here, the same care is needed within a language
+and within an inquiry.
+
+The expressive--depictive comparison establishes that several groupings
+can be useful for one question about meaning contribution. A procedural
+account asks a different question about encoding, potentially cutting
+across those groupings. If two encoding accounts conflict,
+the conflict remains. Neither putting them in different fields nor
+assigning each a new label makes their claims compatible.
+
+Failure has correspondingly local consequences. A grouping can lack
+reliable application conditions, obscure the stated descriptive contrast,
+or fail to support a projected property. A historical explanation can
+lack independently supported source evidence. Revising the grouping or
+the question creates a new proposal; it doesn't preserve the support
+of a failed claim. Other distinctions survive only where they have
+their own evidence.
+
+This discipline also limits positive conclusions. The semantic comparison
+favours preserving expressive and depictive contributions, while leaving
+open whether separate classes, subtypes, or dimensions best serve a
+further task. The phonological comparison rejects an unsupported transfer
+to grammatical membership. The \mention{gee} history supports a particular
+explanation. These are substantive outcomes without a claim that this
+paper has validated a complete family of empirical categories.
+
+\subsection{Overlap, mechanisms, and category standing}
+
+For common bearers, intersections are well-defined and may be useful.
+Their value depends on the task and alternatives, including representations
+of separate memberships and their dependencies. No automatically privileged
+category follows from an overlap among grammatical interjections,
+expressives, and interactional resources. Nor is a useful intersection
+excluded merely because its membership can be derived.
+
+Distinct categories needn't be statistically independent, and they can
+share causal processes. Strong correlation doesn't make two questions
+identical; a shared history doesn't establish every present property.
+A causal network is one possible account, provided its variables and
+links have independent support. Hill's considerations help assess
+specified causal interpretations; they don't turn covariation into
+a mechanism by being applied to a diagram.
+
+Gradience is another separate issue. A class can have graded membership,
+sharp subtypes, or unresolved cases due to missing evidence. A prototype
+account organizes typicality and similarity \citep{rosch1975,taylor2003}.
+The assessment here asks what such organization accomplishes and what
+it licenses an investigator to infer. Either a prototype or a categorical
+representation can serve a task; neither gains empirical category standing
+from its form alone.
+
+A field supplies no fixed quota of categories, and an inquiry
+needn't end with just one. A grouping may serve several questions across
+fields, but warrant only specified projections under specified conditions.
+The historical label \term{interjection} identifies a meeting point for
+these inquiries. The evidence, rather than the label or departmental
+boundary, determines which proposed categories deserve recognition.
+
+\section{Conclusion}\label{sec:conclusion}
+
+English interjections expose a general difference between assembling a
+class and establishing an empirical category. Descriptive classes can
+make contrasts visible; category claims require co-occurring properties
+that support induction for particular purposes. Explanations require
+further evidence about how an outcome arose or is maintained. These
+achievements should be assessed for named groupings, not allocated in
+advance to grammar, semantics, and pragmatics.
+
+The expressive--depictive comparison shows why one semantic inquiry can
+need several groupings. The phonological case shows why evidence for
+one grouping leaves a different membership question open. A history
+can explain an outcome without validating an ancestry category, and a
+corpus tag can aid retrieval without identifying the intended sign-types.
+In each case, making the bearer, grouping basis, and intended contribution
+explicit changes what would count as support or counterevidence.
+An undifferentiated category judgment conceals those differences; the
+account developed here makes them available for adjudication.
+
+\ifblind\else
+\section*{Acknowledgements}
+
+This paper reanalyses material I compiled for the Wikipedia article
+\enquote{English interjections}.
+\href{https://github.com/BrettRey/interjections-hpc/tree/master}{The archived
+data and analysis code} accompany the linked evidence supplement.
+\fi
+
+\clearpage
+\begingroup
+\setlength{\emergencystretch}{3em}
+\printbibliography
+\endgroup
+\end{document}

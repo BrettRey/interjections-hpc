@@ -1,0 +1,36 @@
+item_id,form,use_gloss,form_family,analyst_tier,inclusion_rationale,rotation_universes
+AH,ah,"receipt/reaction use, as in: Ah, so you were there",ah,core,CGEL core list (p. 1361),INTJ;EXPR;SUPPL;DEPICT
+HEY,hey,attention-getting use,hey,core,CGEL core list; conative,INTJ;EXPR;SUPPL;DEPICT
+OH,oh,change-of-state / receipt use,oh,core,CGEL core list,INTJ;EXPR;SUPPL;DEPICT
+OOPS,oops,mishap reaction,oops,core,CGEL core list,INTJ;EXPR;SUPPL;DEPICT
+OUCH,ouch,pain reaction,ouch,core,CGEL core list,INTJ;EXPR;SUPPL;DEPICT
+SH,sh,silencing use,sh,core,CGEL core list; conative; vowelless form,INTJ;EXPR;SUPPL;DEPICT
+UGH,ugh,disgust/dismay reaction,ugh,core,CGEL core list; non-canonical phonology reported,INTJ;EXPR;SUPPL;DEPICT
+WOW,wow,amazement reaction,wow,core,CGEL core list,INTJ;EXPR;SUPPL;DEPICT
+ALAS,alas,dated lament,alas,core,CGEL additional example; secure but dated member,INTJ;EXPR;SUPPL;DEPICT
+AHA,aha,recognition / discovery display,aha,core,Ameka cognitive interjection,INTJ;EXPR;SUPPL;DEPICT
+GEE,gee,surprise/emphasis reaction,gee,boundary,Documented invocation-to-interjection history (Gehweiler 2008),INTJ;EXPR;SUPPL;DEPICT
+TUTTUT,tut-tut,disapproval click (spelling pronunciation excluded),tuttut,boundary,Click phonology (Wilkins 1992: 147),INTJ;EXPR;SUPPL;DEPICT
+DAMN_REACT,damn,"standalone and supplementary stance use: Damn! / Damn, we're late",damn,boundary,CGEL reanalysis-as-interjection case (p. 1361),INTJ;EXPR;SUPPL;DEPICT
+DAMN_NP,damn,complement-taking use: Damn these mosquitoes!,damn,boundary,CGEL p. 1361 n. 70; category unresolved in the draft,INTJ;EXPR;SUPPL;DEPICT
+DAMN_PRENOM,damn,prenominal modifier: the damn car,damn,boundary,Expressive outside the category in the draft,INTJ;EXPR;SUPPL;DEPICT
+BANG_DEPICT,bang,sound depiction in narrative: Bang!,bang,boundary,Depictive; category unresolved in the draft,INTJ;EXPR;SUPPL;DEPICT
+BANG_NOUN,bang,"count-noun use: a loud bang, two bangs",bang,control,Same-form nominal control for BANG_DEPICT,INTJ;EXPR;SUPPL;DEPICT
+MMHM,mm-hm,continuer use in storytelling,mmhm,boundary,Ameka phatic; draft adopts interjection analysis,INTJ;EXPR;SUPPL;DEPICT
+HUH,huh,open repair initiator: Huh?,huh,boundary,Draft adopts interjection analysis,INTJ;EXPR;SUPPL;DEPICT
+BYE,bye,closing use,bye,boundary,Ameka/Wilkins routine-formula dispute,INTJ;EXPR;SUPPL;DEPICT
+OKAY,okay,acceptance/response use,okay,boundary,Sequential response resource,INTJ;EXPR;SUPPL;DEPICT
+YES,yes,affirmative answer to polar question,yes,boundary,Stivers 2019 answer-slot evidence,INTJ;EXPR;SUPPL;DEPICT
+NO,no,negative answer to polar question,no,boundary,Stivers 2019 answer-slot evidence,INTJ;EXPR;SUPPL;DEPICT
+THANKS,thanks,thanking use,thanks,boundary,Ameka/Wilkins routine-formula dispute,INTJ;EXPR;SUPPL;DEPICT
+SORRY,sorry,apology use,sorry,boundary,Ameka/Wilkins routine-formula dispute,INTJ;EXPR;SUPPL;DEPICT
+HELLO,hello,greeting use,hello,boundary,Routine formula with interjection-like distribution,INTJ;EXPR;SUPPL;DEPICT
+BLOODY_PRENOM,bloody,prenominal modifier: the bloody car,bloody,boundary,Second prenominal expressive; parallels DAMN_PRENOM,INTJ;EXPR;SUPPL;DEPICT
+HEAVENS,heavens,exclamatory use: Heavens!,heavens,boundary,Retained plural shape; tests productive-inflection coding,INTJ;EXPR;SUPPL;DEPICT
+COFFEE,coffee,"count/mass noun, incl. answer use: Coffee. (reply to What would you like?)",coffee,control,Standalone-occurring noun control (draft sec. 2.1),INTJ;EXPR;SUPPL;DEPICT
+STOP,stop,imperative verb use: Stop! / Stop the car!,stop,control,Standalone-occurring verb control (draft sec. 2.1),INTJ;EXPR;SUPPL;DEPICT
+BLACK,black,"adjective, incl. answer use: Black. (reply about colour)",black,control,Wilkins 1992: 124-125 answer-economy control,INTJ;EXPR;SUPPL;DEPICT
+QUICKLY,quickly,ordinary manner adverb,quickly,control,Non-inflecting non-interjection control,INTJ;EXPR;SUPPL;DEPICT
+HOWAREYOU,how are you,formulaic greeting sequence,howareyou,control,Multiword formulaic control; internal clause structure,EXPR;SUPPL;DEPICT
+LAH,lah,Singapore/Malaysian English particle use,lah,extension,Tier 2: regional item; fill rate expected low,INTJ;EXPR;SUPPL;DEPICT
+HABA,haba,Nigerian English surprise/exclamation use,haba,extension,Tier 2: regional item; Unuabonah & Daniel 2020,INTJ;EXPR;SUPPL;DEPICT

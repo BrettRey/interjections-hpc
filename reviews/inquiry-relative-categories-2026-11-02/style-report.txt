@@ -1,0 +1,53 @@
+
+Found 4 potential style violation(s):
+
+
+=== inquiry-relative-categories.tex ===
+  Line 370: [warning] Noticeable 'The X is Y' paragraph-opener cadence (13; lines 119, 135, 370, 378, 999, ...) - vary if not defining, contrasting, or pivoting
+    The three classifications are examples within an open family. Phonolog; The p...
+  Line 143: [warning] Noticeable argumentative-object paragraph-opener cadence (9; lines 102, 127, 135, 143, 450, 680, ...) - vary by making the move directly where possible
+    This paper develops an account of inquiry-relative classification. Its; The g...
+  Line 950: Oxford spelling: 'imprecise' -> 'imprecize'
+    is positive but imprecise: 17.9 expected log predictive density
+  Line 1250: Oxford spelling: 'imprecise' -> 'imprecize'
+    The country-conditioned model has the highest expected log predictive density...
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    Line 88: AI pattern: while maintaining/preserving trade-off frame
+      in a noun phrase while retaining an expressive contribution. The standalone
+    Line 270: AI pattern: trailing evaluative -ing supplement
+      \mention{thank you} from interjections, emphasizing addressees, conventional
+    Line 440: AI pattern: possible false range; verify the endpoints form a real scale
+      \subsection{From candidate to supported classification}
+    Line 1204: AI pattern: possible false range; verify the endpoints form a real scale
+      The tagger's training on inner-circle English limits its treatment of regional forms, but recogni...
+    Line 1208: AI pattern: possible false range; verify the endpoints form a real scale
+      Coding tagged concordances across all twenty sections shows the sensitivity. Laughter constitutes...
+    Line 1286: AI pattern: possible false range; verify the endpoints form a real scale
+      An implementation audit changes the evidential status of the results. The archived primary-coding...
+
+  --- inquiry-relative-categories.tex ---
+    Line 955: AI phrase cluster - 4 signature phrase hits across 4 lines
+      "overall" x4 [lines 955,1181,1232,1256]
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    705 sentences | median 14 | mean 14.6 | middle half 10-19 (9 words)
+         1-9  #################         158   22%
+       10-14  ########################  226   32%
+       15-19  #################         164   23%
+       20-24  ############              111   16%
+       25-29  ####                       33    5%
+       30-34  #                           8    1%
+       35-39                              4    1%
+         40+                              1    0%
+    [advisory] 60% of sentences fall in 12-26 words; the band is narrow, so check whether the rhythm has flattened
+

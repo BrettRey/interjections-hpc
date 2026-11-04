@@ -1,0 +1,13 @@
+Local check of revised §§2.3, 3.2, and 3.3 — 2026-11-02
+
+No substantive issue found in the requested sections. No manuscript edits or further web retrieval.
+
+§2.3: The car utterance is explicitly constructed, and applying a procedural account to it is conditional. The exclusive conceptual/procedural rivals are explicitly hypothetical and are not attributed to Potts or Wharton. The text correctly avoids equating conceptual content with an asserted proposition of annoyance. The Bang example keeps iconic presentation distinct from the particular conceptual/procedural encoding question. Ouch/Aha are Ameka's actual examples (1992:113); the pan/keys situations are correctly identified as constructed, and the discussion preserves both the broader extension of Ameka's mental-state grouping and the possibility of affect in another Aha occurrence.
+
+§3.2: The examples distinguish another realization, a new interrogative environment, and a different expression/sign-type. They are proposed comparisons, not reported results. Re-testing the familiar stance contribution in an independently identified environment is not represented as discovering a differently named property. No new source claim or bearer confusion was introduced.
+
+§3.3: The failed integration prediction is explicitly about a hypothetical investigator's provisional identification rule, which does not require standalone position. The prenominal case challenges that original broad rule; later recognizing a separate conventional use does not retroactively validate its original projection. This is not presented as an empirical finding that standalone and prenominal damn must be one sign-type. The distinction between correcting a structural misanalysis and revising an admission rule is also preserved.
+
+Source limit retained: Wharton's broad procedural/showing account was checked against the primary author abstract in the earlier pass; the full article remained inaccessible. Nothing newly added here requires treating the constructed car sentence or the exclusive rivals as Wharton's own empirical analyses.
+
+Stopping rule reached: only the requested sections checked; no restructuring or polish recommendations.

@@ -1,0 +1,11 @@
+Bounded cross-domain projection check — 2026-11-03
+
+Compared the revised abstract, Sections 2.1–2.3 and 3.2, Section 4, discussion, and conclusion with the saved before copy. No actionable material issues found.
+
+The revision removes the earlier confinement of grammatical membership to grammatical predictions. Its wider profile is a qualitative, defeasible expectation: Ameka's descriptions support expressive/conative/phatic functions (literature/ameka1992-interjections.md:582–630, 660–665; pp. 113–115), separate intonation units (341–347; p. 108), and phonological anomaly as a tendency that does not cover every member (232–252; pp. 105–106). CGEL supplies the conventional grammatical core and its broad expressive characterization (literature/huddlestonpullum2002.md:41530; p. 1361).
+
+The revised distinction between a forward phonological expectation and an insufficient reverse diagnostic is coherent. Quirk p. 853 explicitly describes unusual phonological possibilities and lists relevant forms (literature/quirk-et-al-1985-comprehensive-grammar-of-the-english-language.md:34479–34497; checked against the page image). The parent has separately identified and is making the p. 74 citation addition for the precise BrE/AmE inventory claim.
+
+Potts directly supports repetition across supplementary and prenominal damn in example (34), rather than merely motivating a new test: literature/Potts - 2007 - The expressive dimension.md:349–356, pp. 181–182; the general characteristics are at lines 25–38, pp. 166–167. The revised text preserves that source warrant while identifying its own examples as illustrations. It asserts neither numerical predictive strength nor universal realization, and no residual disciplinary prohibition remains in the passages checked.
+
+No manuscript edits or outward retrieval. Stop reached after the requested read and bounded source checks.

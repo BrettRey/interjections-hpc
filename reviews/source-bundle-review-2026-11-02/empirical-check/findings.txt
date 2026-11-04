@@ -1,0 +1,71 @@
+INDEPENDENT CHECK OF THE TWO EMPIRICAL AUDITS
+2 November 2026 — Codex verification subagent
+
+Scope and verdict
+
+The revision is right to withdraw the original confirmatory interpretations of both studies. The defects are present in the local code and data; they are not merely allegations in the revision notes. All 18 inspected code/data/preregistration files are byte-identical to their versions at the revision's cited commit, 074dfb44cef5b18d292ac176ba5acbfedc76e3b1. The complete input hashes and arithmetic results are in results.json. audit.py regenerates that JSON without altering inputs, applying new linguistic coding, or fitting models. read_saved_fie.R reads the existing saved model output only.
+
+The important qualification is that the morphology-gain archive also contains a distinct 97-row second-pass coding record. The invalid all-success confirmatory result and undefined kappa do not logically erase whatever narrower evidence that pass could supply. Its claimed human/blind provenance is recorded internally rather than independently established by this audit. The revised Appendix B should make that distinction explicit. This qualification does not reinstate the original confirmatory result.
+
+1. Morphology-gain: implementation and arithmetic
+
+CONFIRMED — analysis/morphgain-confirmatory-code-primary.py:272-296 applies exclusion(row), then hard-codes verbal_syntax = 1 and semantic_residue = 1 to every retained row at lines 287-294. Excluded rows receive zeros at lines 275-284. There is no separate semantic-residue decision for retained tokens.
+
+CONFIRMED — The output has 1,462 rows, of which 969 are retained and 493 excluded. Retained counts are boo 364, ooh 52, shoo 410, wow 143. Every retained row has both confirmatory codes equal to one. All counts agree with revised source lines 1056-1077.
+
+CONFIRMED — Reconstructing the declared windows from the coding output and token key yields:
+  boo: 17/17 assigned successes, 1920, Jeffreys 95% [0.864522, 0.999972].
+  ooh: 10/10, 1960/1970/1980, [0.782804, 0.999952].
+  shoo: 16/16, 1890/1900, [0.856816, 0.999970].
+  wow: 11/11, 1930/1940, [0.800005, 0.999956].
+These reproduce the revised table's rounded values and the original output. The code defining windows and success is analysis/morphgain-confirmatory-analyze.py:58-98; the no-variation check suppressing the secondary model is at 158-165. Reproducing the arithmetic is not substantive validation of the assigned outcomes.
+
+CONFIRMED — The inclusion criteria intentionally select verbal uses (morphology-gain-coha-preregistration.md:78-96). Selecting verbal uses is not itself the defect. The syntax field cannot independently check its own inclusion rule, and the semantic field is assigned without separately measuring the intended target. The revision correctly distinguishes these points.
+
+CONFIRMED — The registration says existing corpus, disclosed earlier feasibility queries, and no further extraction/coding before the lock (morphology-gain-coha-preregistration.md:3-20). The cited lock f1a2193 was committed 27 May 2026 at 17:45:00 -04:00; extraction-metadata.json records confirmatory extraction starting at 21:52:47 UTC, after that lock. The revision's narrowed chronology is supported.
+
+2. Morphology-gain: reliability and the overcorrection to avoid
+
+CONFIRMED — The two comparison files have 97 matching IDs. Both margins are constant for exclusion (all 0), syntax (all 1), and semantics (all 1). Thus observed agreement and expected agreement are both 1, making Cohen's kappa 0/0, undefined. The original function returns 1 at analysis/morphgain-confirmatory-reliability.py:28-36. The revised correction is mathematically right.
+
+CONFIRMED — Secondary calculations reproduce:
+  Interactional residue: 86/97 agreements = 0.886598; kappa = 0.296638.
+  Targeted entity: 54/97 = 0.556701; kappa = 0.024784.
+
+CONFIRMED — The recode sample exactly matches random.Random(2026).sample over the 969 retained rows with ceil(0.10*N) = 97, as implemented at analysis/morphgain-confirmatory-analyze.py:129-156. It excludes all rejected rows, so it cannot audit false exclusions. Family composition is boo 37, ooh 6, shoo 39, wow 15, spanning the retained-data distribution rather than the confirmatory earliest windows.
+
+IMPORTANT QUALIFICATION — analysis/morphgain-confirmatory/RESULTS.md:69-71 says Brett completed a blind recode. The recode file contains 22 nonblank coder notes and secondary codes that differ from the primary record. These facts establish a distinct recorded coding pass and its internal attribution. They do not independently establish who made the judgments, whether original codes were concealed in practice, or how consistently the semantic criterion was applied. This audit did not inspect a signed provenance record or original interactive session and does not infer verified human independence from the filename, column label, or attribution alone.
+
+If that recode's provenance and application of the rubric are sound, its 97 positive semantic assignments provide limited descriptive evidence of source-content continuity among the sampled retained derivatives. Undefined kappa is not evidence that those 97 observations are worthless; it means this chance-corrected agreement statistic is uninformative in the constant-margin case. The semantic criterion is source-associated content (impressed/evaluative response, disapproval/contempt, appreciative/surprised response, or away-sending), as defined at morphology-gain-coha-preregistration.md:104-121. It is not a test that the derivative itself contributes use-conditionally. The revision's distinction between content continuity and continued expressive-category membership is sound.
+
+The sample cannot restore the claimed early-window confirmation: only 3 of its 97 rows belong to the 54 early-window rows — boo mgc0485 (1/17), ooh none (0/10), shoo mgc0575 (1/16), wow mgc0468 (1/11). It also cannot establish the coding accuracy of all 969 retained rows, the excluded population, or historical ordering merely by having 100% recorded semantic positives.
+
+Suggested qualification to the revision: source lines 1077 ("Semantic persistence wasn't independently measured among the included derivatives"), 1098 ("they establish neither semantic persistence"), and 1118 ("absent independent semantic measurement") are too categorical unless explicitly scoped to the primary pipeline/full confirmatory dataset. Retain the withdrawal, but state that the archived recode records semantic residue for 97 retained tokens and may supply narrower descriptive evidence if its provenance is confirmed; it neither validates the original full-data coding nor evaluates the preregistered early windows adequately. No new analysis or new reliability claim should be silently substituted for the withdrawn one.
+
+3. Fie: denominator, codes, and provenance
+
+CONFIRMED — The analyzed input contains 616 rows with all three human_* fields populated as binary values. Joint syntactic/semantic/interactional codes are 111:448, 000:139, 011:19, 100:8, 010:2. Exactly 350 human_notes entries start with "predicted". The strings supply a provenance warning, not proof that all predicted values are wrong. The revision's wording — that the archive does not establish independent manual verification of all assignments — is appropriately qualified.
+
+CONFIRMED — analysis/fie-confirmatory-model.R:13-25 reads this file, merges its decade key, and filters only missing syn codes. No exclusion-file filtering occurs. All 616 rows survive. The separate exclusion CSV contains 141 entries: OCR noise 134, metalinguistic mention 3, non-English 2, name fragment 2.
+
+CONFIRMED — F014 ("FIe stroked his closed eyelids"), F028 ("FIe drew her to him again"), and F043 ("FIe turned his attention back") are retained with 000. Their surrounding syntax makes the He-to-FIe OCR substitution apparent. They are not interjections showing loss of all three properties. Thus the recorded exclusion rule (fie-coha-preregistration.md:43-57) was not successfully implemented in the analyzed denominator.
+
+CONFIRMED — Deleting all 000s would not be a defensible repair. F450 is recorded as "Tee fie!" / "nonsense syllables"; F597 is a Stein sound-pattern occurrence. Their appropriate linguistic classification would require the rubric and source context; they are not simply the same OCR accident as the three He examples. The present audit does not recode them.
+
+CONFIRMED — The archived 62-row reliability values reproduce. Syntax: 54/62 = 87.0968%, kappa 0.679587. Semantics: 60/62 = 96.7742%, kappa 0.896667. Interaction: 60/62 = 96.7742%, kappa 0.902669. The key's original codes match the analyzed input. Agreement among codes does not validate eligibility, so these values do not cure the denominator defect.
+
+4. Fie: saved models, ordering, and a minor qualification
+
+CONFIRMED — Model code at analysis/fie-confirmatory-model.R:102-145 fits three separate decade-binomial logistic regressions with an intercept N(0,1.5), slope N(0,0.5) restricted to negatives, four chains, 2,000 warmup and 2,000 later iterations, seed 2026. This follows the declared monotonic restriction; it cannot model a revival. Separate outcome likelihoods leave within-token diagnostic dependence unmodelled. The audit does not estimate what a joint model would produce.
+
+CONFIRMED WITHOUT REFITTING — Reading analysis/fie-confirmatory-results.RData gives 8,000 saved tau draws for each outcome and an input total of 616. The saved and directly recalculated order probability are both 0.127875. Median and 95% interval values are syn 1946.640 [1937.189,1958.352], sem 1949.345 [1940.548,1960.214], int 1948.099 [1938.912,1958.510]. They round to the revised table. This validates faithful reporting of the saved numerical outputs, not their interpretation as linguistic erosion.
+
+Saved RData SHA-256: 176f30eb69d724b9fc71d57f84ef8963249b994ad6ec249c912bb1c49df2cb6f.
+
+CONFIRMED — For three iid continuous tau priors, exchangeability assigns each of the six strict orderings probability 1/6. The independent identical parameter priors induce identical continuous tau distributions. A 0.25 cutoff is therefore above that baseline; 0.13 alone is not strong evidence against the specific ordering. Overlapping marginal intervals cannot establish equality or simultaneity. The denominator failure independently blocks the advertised substantive interpretation.
+
+MINOR QUALIFICATION — Revised source line 1160 notes decade labels versus preregistered decade midpoints. This is literally true, but centering removes a common midpoint offset from the predictor: (d+c)-mean(d+c) equals d-mean(d). Only conversion back to calendar year changes by c (roughly five years); the fitted likelihoods, relative ordering, and probability of ordering do not change for this reason. Avoid presenting it as an additional failure of the ordered-erosion model. It is a calendar-origin convention/error, unlike the denominator failure.
+
+Limits
+
+No independent linguistic recoding, new corpus retrieval, model refit, or source-image OCR verification was performed. Human/blind provenance remains an internal-record attribution. The saved RData was checked locally but is not one of the 18 public-commit byte comparisons. There is enough evidence to adjudicate the implementation concerns without extending this audit. Neither a valid narrower sample description nor the possibility of future repairs justifies retaining the original confirmatory claims.

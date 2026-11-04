@@ -1,0 +1,96 @@
+{
+  "fie": {
+    "coded_rows": 616,
+    "joint_syn_sem_int_counts": {
+      "011": 19,
+      "111": 448,
+      "000": 139,
+      "100": 8,
+      "010": 2
+    },
+    "human_notes_predicted": 350,
+    "exclusion_rows": 141,
+    "exclusion_reasons": {
+      "OCR noise": 134,
+      "non-English": 2,
+      "name fragment": 2,
+      "metalinguistic mention": 3
+    },
+    "ocr_example_ids": [
+      "F014",
+      "F028",
+      "F043"
+    ]
+  },
+  "morphgain": {
+    "primary_rows": 1462,
+    "primary_counts": {
+      "exclude": {
+        "0": 969,
+        "1": 493
+      },
+      "verbal_syntax": {
+        "1": 969,
+        "0": 493
+      },
+      "semantic_residue": {
+        "1": 969,
+        "0": 493
+      },
+      "interactional_residue": {
+        "1": 867,
+        "0": 595
+      },
+      "targeted_entity": {
+        "0": 910,
+        "1": 552
+      }
+    },
+    "reliability_key_rows": 97,
+    "reliability_sheet_rows": 97,
+    "reliability_key_counts": {
+      "exclude": {
+        "0": 97
+      },
+      "verbal_syntax": {
+        "1": 97
+      },
+      "semantic_residue": {
+        "1": 97
+      },
+      "interactional_residue": {
+        "1": 86,
+        "0": 11
+      },
+      "targeted_entity": {
+        "0": 44,
+        "1": 53
+      }
+    },
+    "reliability_sheet_counts": {
+      "exclude": {
+        "0": 97
+      },
+      "verbal_syntax": {
+        "1": 97
+      },
+      "semantic_residue": {
+        "1": 97
+      },
+      "interactional_residue": {
+        "1": 91,
+        "0": 6
+      },
+      "targeted_entity": {
+        "1": 96,
+        "0": 1
+      }
+    },
+    "constant_margin_kappa_codes": [
+      "exclude",
+      "verbal_syntax",
+      "semantic_residue"
+    ]
+  },
+  "interpretation": "Existing output audit only. No linguistic recoding or model refit performed."
+}

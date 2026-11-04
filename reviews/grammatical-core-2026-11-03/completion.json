@@ -1,0 +1,41 @@
+{
+  "completed_at": "2026-11-03T19:33:01.687441+00:00",
+  "scope": "Approved grammatical-core revision of the separate working manuscript",
+  "source": "inquiry-relative-categories.tex",
+  "source_sha256": "20502c3be1feab66f150115ebd6082e58b9f1d73aecb00dfa3a9fb18dcb94392",
+  "core": [
+    "ah",
+    "hey",
+    "oh",
+    "oops",
+    "ouch",
+    "sh",
+    "ugh",
+    "wow"
+  ],
+  "core_note": "alas retains secure membership despite datedness; conventional uses, not every occurrence of each spelling",
+  "changes": [
+    "Positive grammatical profile and cross-environment expectations",
+    "Ordinary imperative and nominal-fragment contrasts",
+    "Conative diversity within the grammatical core",
+    "damn connects expressive commonality across grammatical differences",
+    "Abstract, introduction, assessment, table, discussion and conclusion aligned",
+    "Speculative extension catalogue shortened"
+  ],
+  "review": "Roughdraft Done Reviewing; comment c1: make it so, balancing interest with care",
+  "verification": "XeLaTeX + Biber + XeLaTeX twice, all exit 0; no unresolved citations or cross-references; source check found no material issue",
+  "pdf_pages": 22,
+  "render_check": "New examples on page 3 and comparison table on page 8 readable",
+  "polishing": "Stopped at draft-level verification as requested; retained non-blocking package and underfull-box notices",
+  "protected_unchanged": {
+    "main.tex": true,
+    "main.pdf": true,
+    "references-local.bib": true,
+    "inquiry-relative-evidence-supplement.tex": true,
+    "inquiry-relative-evidence-supplement.pdf": true,
+    "reviews/crosscutting-schematic-2026-11-02/faceted-bearers.html": true
+  },
+  "bundle": "inquiry-relative-categories-with-supplement.zip",
+  "bundle_verified": true,
+  "style_report": "style-final.txt; advisory/intentional/pre-existing flags not used for cosmetic revision"
+}

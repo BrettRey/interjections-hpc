@@ -1,0 +1,67 @@
+# Manuscript inventory
+
+- Source: /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/inquiry-relative-categories.tex
+- Word count: **7,977** (texcount)
+- Prose paragraphs inspected: **127**
+
+## Structure
+
+- L87: Introduction
+- L165: Several groupings of conventional signs
+- L184:   Grammatical interjections and expressive signs
+- L238:   Expressive and depictive signs
+- L296:   Contribution, encoding, and competing analyses
+- L323:   Interactional resource classes
+- L373:   Common bearers and distinct questions
+- L433: What warrants a class, a category, or an explanation?
+- L443:   Bearers, grouping, contribution, and alternatives
+- L518:   From proposal to category claim
+- L567:   Projection and identity
+- L615:   Representation and causal explanation
+- L648: Phonological organization and situated realization
+- L658:   A phonological stratum of signs
+- L730:   Prosodic classes of realizations
+- L769: Historical ancestry and classes of change
+- L828:   Source, mechanism, transmission, and trajectory
+- L871:   What historical evidence can establish
+- L904: Broader classes and further inquiries
+- L915:   Social regulation and socially recognized repertoires
+- L951:   Formulaicity and processing
+- L988:   Keeping the family open without multiplying labels
+- L1063: A measurement case: tags, strings, and uses
+- L1108: The general consequence
+- L1118:   Many-to-many relations and local failure
+- L1151:   Overlap, mechanisms, and category standing
+- L1183: Conclusion
+- L1204: Acknowledgements
+
+## Paragraphs over 100 words
+
+- None detected.
+
+## Sentences of 40 words or more
+
+- L24 (48 words): ] pdftitle= Inquiry-Relative Categories: English Interjections as a Worked Case , pdfkeywords= inquiry-relative categories, category pluralism, projectibility, interjections, sign-
+
+## Repeated three-word paragraph openings
+
+- **the expressive depictive** × 3 (lines 435, 1128, 1193)
+
+## Possible editorial scar tissue
+
+- L315 [revision-position reference]: An inquiry can also support finer groupings. ameka1992 distinguishes emotive and cognitive subtypes within his expressive class: one concerns feelings or sensations, the other know
+- L355 [revision-position reference]: The grammatical treatment of mm-hm and huh? likewise needs more than standalone occurrence. ameka1992 includes the former among phatic interjections; wilkins1992 treats repair huh?
+- L355 [fragile paired reference]: The grammatical treatment of mm-hm and huh? likewise needs more than standalone occurrence. ameka1992 includes the former among phatic interjections; wilkins1992 treats repair huh?
+- L452 [revision-position reference]: The bearer is the object grouped.
+- L466 [revision-position reference]: The contribution identifies what the grouping accomplishes.
+- L520 [fragile paired reference]: An admission rule fixes which cases enter a class.
+- L550 [revision-position reference]: This comparison concerns what membership licenses an investigator to expect.
+- L594 [revision-position reference]: Evaluate the original projection under the identification rule available when it was made.
+- L781 [revision-position reference]: traces gee through an invocation of Jesus , an exclamatory use of the religious name, and a clipped form.
+- L808 [revision-position reference]: Hill's considerations clarify a tempting stronger claim.
+- L830 [revision-position reference]: A useful historical description separates four relations.
+- L838 [revision-position reference]: For gee , a religious invocation supplies the source and tabooistic clipping supplies one mechanism.
+- L863 [revision-position reference]: Classes of changes require a different representation.
+- L953 [revision-position reference]: Formulaicity offers a similarly broad comparison.
+
+> This inventory is heuristic. Verify every candidate against the source, argument, and rendered artifact.

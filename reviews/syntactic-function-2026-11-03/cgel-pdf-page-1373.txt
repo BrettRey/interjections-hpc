@@ -1,0 +1,45 @@
+                                                § 5.1 General properties of supplementation         1353
+
+
+    The same contrast between dependency and supplementation constructions is com-
+  monly found with relative clauses and appositives:
+ [10] i a. The necklace which her mother gave to her was in the safe.            [modifier]
+         b. The necklace, which her mother gave to her, was in the safe.      [supplement]
+      ii a. They are working on a new production of the opera ‘Carmen’.          [modifier]
+         b. Bizet’s most popular opera, ‘Carmen’, was first produced in 1875. [supplement]
+  In [ia] the relative clause is a modifier of the head noun necklace and serves semantically
+  to identify which necklace is being referred to, but in [ib] it is a supplement to the anchor
+  NP the necklace, which is assumed to be identifiable independently of the information
+  given in the relative clause. Similarly, in [iia] the appositive Carmen is a modifier of
+  opera, identifying which opera is being referred to, while in [iib] it is a supplement to the
+  anchor NP Bizet’s most popular opera, and since there can be only one entity satisfying
+  that description the supplement is again non-restrictive.
+      However, we have noted in our description of relative clauses and appositives that the
+  integrated construction is not necessarily semantically restrictive – see Ch. 12, §4.2, and
+  Ch. 5, §14.3, respectively. Compare, then:
+ [11] i The father who had planned my life to the point of my unsought arrival in Brighton
+         took it for granted that in the last three weeks of his legal guardianship I would still
+         act as he directed.
+      ii This is my husband George.
+  In [i] the relative clause doesn’t distinguish one father from another: the narrator has
+  only one father, so the modifier provides non-restrictive information about him. And
+  [ii] does not convey that the speaker has more than one husband.
+      It is for this reason that we have departed from the traditional account of relative
+  clauses, in which the two main constructions are distinguished as ‘restrictive’ and ‘non-
+  restrictive’. A distinction in terms of integrated versus supplementary reflects the seman-
+  tic difference more accurately and also matches the prosodic difference that distinguishes
+  them in speech. It enables us, moreover, to capture the similarity between the uninte-
+  grated relatives and other elements that are semantically, prosodically, and syntactically
+  unintegrated with the rest of the sentence: these can all be subsumed under the concept
+  of supplement.
+
+ Syntactic representation of supplementation
+  A supplement, as we have seen, requires a semantically appropriate anchor: it cannot
+  occur, as a supplement, without the anchor. Thus if we drop the anchor from [10ib], for
+  example, the result is ungrammatical: ∗Which her mother gave to her, was in the safe. And
+  if we drop it from [10iib] ‘Carmen ’ takes on the status of an integrated dependent, the
+  subject: ‘Carmen’ was first produced in 1875. For this reason, we take the anchor and its
+  supplement to form a construction – a supplementation construction. But the lack of
+  integration of the supplement into the syntactic structure means that there is no good
+  reason to treat the supplementation as a syntactic constituent. We propose, therefore,
+  that in the syntactic representation supplements should be kept separate from the tree

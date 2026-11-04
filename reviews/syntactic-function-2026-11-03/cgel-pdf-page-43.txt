@@ -1,0 +1,48 @@
+                                              § 4.2.3 Grammatical constructions and functions       23
+
+
+    [5]      category                     label      example
+           i clause                       Clause     she saw something in there
+          ii verb phrase                  VP         saw something in there
+        iii noun phrase                   NP         this clear case of dedication to duty
+         iv nominal                       Nom        clear case of dedication to duty
+          v adjective phrase              AdjP       very eager for further news
+         vi adverb phrase                 AdvP       quite separately from this issue
+        vii preposition phrase            PP         right out of the area
+       viii determinative phrase          DP         almost every
+       We can represent the structure of sentences in more detail than is done in a diagram
+    like [2] if we show the category to which each constituent belongs, as in [6].
+
+    [6]                                     Clause
+
+
+
+                       NP                                           VP
+
+
+
+            D                       N                    V                       NP
+
+
+
+                                                                    D                        N
+
+
+            a                      bird                 hit         the                      car
+
+
+4.2.3 Grammatical constructions and functions
+    The third central theoretical idea we must introduce is that constituents always have
+    particular roles to play in the constructions, the larger units, that they belong to. We call
+    these roles grammatical functions. In our example sentence the phrases a bird and the
+    car belong to the same category, NP, but they have different functions, subject and object
+    respectively. They belong to the same category because they are alike in their internal
+    structure (both have a noun as the major element), but they have different functions
+    because they stand in different relations to the verb. The opposite type of situation is
+    illustrated in such a pair as:
+    [7]    a. His guilt was obvious.        b. That he was guilty was obvious.
+    Here the underlined constituents have the same function (subject) but belong to different
+    categories (NP and clause respectively). They have the same function because they stand
+    in the same relation to the predicate, and they belong to different categories because the
+    first is centred on a noun (guilt) while the second is centred, ultimately, on a verb (was).
+    We say that the subject is realised by an NP in [a], by a clause in [b].

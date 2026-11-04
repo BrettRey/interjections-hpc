@@ -1,0 +1,101 @@
+
+Found 32 potential style violation(s):
+
+
+=== inquiry-relative-categories.tex ===
+  Line 240: [warning] Noticeable 'The X is Y' paragraph-opener cadence (6; lines 151, 231, 240, 458, 465, ...) - vary if not defining, contrasting, or pivoting
+    The worked cases are named for the relations they investigate: grammat; The s...
+  Line 678: [warning] Noticeable argumentative-object paragraph-opener cadence (5; lines 108, 196, 388, 678, 813) - vary by making the move directly where possible
+    This paper asks what warrants recognizing a category for an inquiry. A; The g...
+  Line 73: Uncontracted negative auxiliary 'cannot' - prefer 'can't' unless contrast/emphasis requires the full form
+    one grouping cannot settle a grammatical assignment. Historical explanations
+  Line 226: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    from descriptive content. Grammatical integration therefore leaves a
+  Line 255: Modal 'must' - prefer 'have to', 'should', or a more precise claim
+    standalone packaging. That alternative must still explain the difference
+  Line 267: Uncontracted pronoun + auxiliary 'it is' - prefer 'it's'
+    of an impact sound. For \mention{Damn!}, it is the conveyed stance toward
+  Line 277: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    form and scene \citep[9--11]{dingemanse2018}. An investigation can therefore
+  Line 286: Uncontracted pronoun + auxiliary 'that is' - prefer 'that's'
+    For this descriptive task, that is an acceptable equivalent if it retains
+  Line 312: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    therefore aren't automatically complementary classes.
+  Line 319: Modal 'must' - prefer 'have to', 'should', or a more precise claim
+    bearing on their divergent consequences must do so.
+  Line 341: Uncontracted demonstrative + auxiliary 'This is' - contract if natural or rephrase
+    specified host. This is a working class, not an assertion that its members
+  Line 351: Uncontracted pronoun + auxiliary 'it is' - prefer 'it's'
+    clause structure permits it to stand alone; a claim that it is also a
+  Line 434: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    therefore needs assessment against a nominal-fragment analysis.
+  Line 445: Modal 'must' - prefer 'have to', 'should', or a more precise claim
+    its reach beyond those observations unknown. A common assessment must
+  Line 516: Uncontracted demonstrative + auxiliary 'This is' - contract if natural or rephrase
+    This is a descriptive achievement; prediction about a further diagnostic need...
+  Line 518: 'category label plus class' - use 'category' unless explicitly contrasting HPC class
+    Alternative & An undifferentiated interjection class, explicit subtypes, or i...
+  Line 541: Hackneyed connective/adverb 'consequently' - prefer simple coordinators
+    Supported category standing is consequently limited to a profile and
+  Line 556: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    claim therefore need separate assessment
+  Line 594: Hackneyed connective/adverb 'nevertheless' - prefer simple coordinators
+    adds no information to those features. A representation can nevertheless
+  Line 605: Modal 'must' - prefer 'have to', 'should', or a more precise claim
+    it useless. The comparison must identify what the alternatives retain
+  Line 611: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    A test of additional prediction from present evidence therefore differs
+  Line 698: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    without the relevant evidence. The completed assessment therefore rejects
+  Line 799: Uncontracted demonstrative + auxiliary 'This is' - contract if natural or rephrase
+    This is an explanation of a particular outcome. It doesn't yet establish
+  Line 809: Uncontracted negative auxiliary 'cannot' - prefer 'can't' unless contrast/emphasis requires the full form
+    prosody--syntax connection cannot supply that missing temporal comparison.
+  Line 894: Hackneyed connective/adverb 'additionally' - prefer simple coordinators
+    in the stronger usage adopted here, additionally needs support for the
+  Line 895: Uncontracted negative auxiliary 'cannot' - prefer 'can't' unless contrast/emphasis requires the full form
+    inductions it licenses. The documented history of one sign cannot supply
+  Line 1086: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    geographic distribution therefore depends on both the linguistic
+  Line 1096: Uncontracted demonstrative + auxiliary 'This is' - contract if natural or rephrase
+    13.3). This is prediction within the observed design; new items,
+  Line 1113: Uncontracted negative auxiliary 'cannot' - prefer 'can't' unless contrast/emphasis requires the full form
+    as a tool, but its output cannot establish a linguistic category
+  Line 1139: Hackneyed connective/adverb 'however' - prefer simple coordinators
+    across those groupings. If two encoding accounts conflict, however,
+  Line 1184: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    A field therefore supplies no fixed quota of categories, and an inquiry
+  Line 1186: Contrastive 'yet' - prefer 'but'
+    fields, yet warrant only specified projections under specified conditions.
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    Line 94: AI pattern: while maintaining/preserving trade-off frame
+      in a noun phrase while retaining an expressive contribution. The standalone
+    Line 524: AI pattern: possible false range; verify the endpoints form a real scale
+      \subsection{From proposal to category claim}
+    Line 699: AI pattern: while maintaining/preserving trade-off frame
+      that inference while retaining the cross-grammatical phonological
+    Line 1092: AI pattern: while maintaining/preserving trade-off frame
+      prediction of an omitted country--item aggregate while retaining the
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    565 sentences | median 14 | mean 14.0 | middle half 10-18 (8 words)
+         1-9  #################         130   23%
+       10-14  ########################  186   33%
+       15-19  ###################       149   26%
+       20-24  ##########                 81   14%
+       25-29  ##                         15    3%
+       30-34  #                           4    1%
+       35-39                              0    0%
+         40+                              0    0%
+    [advisory] 62% of sentences fall in 12-26 words; the band is narrow, so check whether the rhythm has flattened
+

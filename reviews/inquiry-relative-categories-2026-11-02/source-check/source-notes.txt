@@ -1,0 +1,47 @@
+Bounded primary-source check — 2026-11-02
+
+Scope: five requested candidate references, plus the existing Agha 2005 source. No manuscript claims or source files were edited. Candidate records are in candidate-references.bib. Metadata were checked against publisher records or publisher full text hosted in PMC; substantive support and limits are separated below. No quotations are proposed.
+
+dingemanse2013huh
+Record: Mark Dingemanse, Francisco Torreira, and N. J. Enfield (2013), “Is ‘Huh?’ a universal word? Conversational infrastructure and the convergent evolution of linguistic items.” PLOS ONE 8(11), e78273. DOI: 10.1371/journal.pone.0078273.
+Primary source: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078273
+Locations: Introduction (sampling restriction); Results, Vowel and Intonation subsections; Figures 3–6.
+Supported paraphrase: Repair interjections share broad phonetic similarities while retaining language-specific vowel targets and interrogative prosody. In the ten-language conversational sample, Icelandic and Cha'palaa have falling contours; most other sampled languages have rising contours. The acoustic comparison supports distinct vowel targets in Spanish and Cha'palaa.
+Limits: The evidence concerns the open other-initiated repair environment. The authors exclude surprise and response-pursuit uses for comparability. It does not establish one invariant rising contour or one undifferentiated cross-linguistic form across all uses. Convergent evolution is an explanatory proposal, not a longitudinal demonstration.
+Correction check: The publisher republished the article on 17 March 2014 to repair linguistic-symbol errors introduced during production. Use the corrected current article: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0094620
+
+ogden2013clicks
+Record: Richard Ogden (2013), “Clicks and percussives in English conversation.” Journal of the International Phonetic Association 43(3), 299–320. DOI: 10.1017/S0025100313000224.
+Primary source: https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/clicks-and-percussives-in-english-conversation/F2B5C9FA333AB7AE3C9205F04E97FAE8
+Location checked: Publisher abstract (article begins p. 299); full article not inspected in this bounded check.
+Supported paraphrase: English conversational clicks and percussives serve stance-taking, sequence-management, word-search, and turn-timing functions; their interpretation also involves accompanying visual behaviour and interactional context.
+Limits: The abstract warrants this range-of-functions claim. It does not establish that every click has one conventional meaning, belongs to a lexical interjection class, or has the full semantic profile of Potts-style expressives. Do not infer a complete category extension or a causal stabilization mechanism from the abstract.
+
+jayjanschewitz2008
+Record: Timothy Jay and Kristin Janschewitz (2008), “The pragmatics of swearing.” Journal of Politeness Research 4(2), 267–288. DOI: 10.1515/JPLR.2008.013.
+Primary source: https://www.degruyterbrill.com/document/doi/10.1515/JPLR.2008.013/html
+Location checked: Publisher abstract (article begins p. 267); full article not inspected in this bounded check.
+Supported paraphrase: Native and non-native English-speaking students rated hypothetical taboo-word scenarios. Judged appropriateness/offensiveness varied with speaker–listener relations, social and physical context, and the word used; some ratings also varied with gender or English-language experience.
+Limits: These are judgments about hypothetical scenarios, not direct observations of community sanctions, corrective feedback, or long-term maintenance. The study concerns swearing, not a separately operationalized interjection class. It can motivate contextual and normative conditioning but cannot by itself demonstrate an interjection-specific stabilizer.
+
+vanlanckersidtis2015
+Record: Diana Van Lancker Sidtis, JiHee Choi, Amy Alken, and John J. Sidtis (2015), “Formulaic language in Parkinson's disease and Alzheimer's disease: Complementary effects of subcortical and cortical dysfunction.” Journal of Speech, Language, and Hearing Research 58(5), 1493–1507. DOI: 10.1044/2015_JSLHR-L-14-0341.
+Primary full text: https://pmc.ncbi.nlm.nih.gov/articles/PMC4686310/
+Locations: Abstract; Method > Structured Conversation; Discussion > Limitations of the Study and Clinical Implications.
+Supported paraphrase: Speech samples from 16 Parkinson's, 12 Alzheimer's, and 18 healthy participants showed lower proportions of formulaic expressions in Parkinson's; comprehension performance differed in the opposite direction between the clinical groups. The authors interpret the results as supporting differentiated contributions of cerebral systems to formulaic production and comprehension.
+Limits: Six formulaic categories were collapsed: conversational formulas, conventional expressions, pause fillers, discourse elements, sentence stems, and idioms/proverbs. This is not an interjection-specific comparison or localization. The study itself flags limited formulaic coverage and difficulties testing pragmatic function. Use only as evidence that a broader formulaicity-based classification has empirical consequences; do not identify it with any proposed interjection category.
+
+lee2022lah
+Record: Junwen Lee (2022), “An analysis of Colloquial Singapore English lah and its interpretation across speech acts.” Languages 7(3), article 203. DOI: 10.3390/languages7030203.
+Primary source: https://www.mdpi.com/2226-471X/7/3/203
+Access: Direct open returned HTTP 429; the publisher's indexed full text was readable through web search. Metadata match references-standalone.bib in the reviewed source bundle.
+Locations: Abstract; §1; semantic discussion before §3.3; §§3.3, 4.2; §5 is identified in the introduction as the confirmation-seeking analysis.
+Supported paraphrase: Lee analyzes low-falling lah21 as adding not-at-issue content about the reliability of the grounds for the marked utterance. Different interpretations with assertions, directives, and confirmation-seeking statements depend on speech-act and contextual differences. The analysis distinguishes this content from its discourse effects.
+Limits: This concerns a specified tonal variant. It is an argued semantic/pragmatic analysis drawing on examples, consultants, and selected corpus material, not a preregistered predictive test. Not-at-issue status does not by itself establish the full Potts expressive profile. The source offers a plausible rival or refinement to a broad expressive label, not automatic confirmation of that label.
+
+agha2005 — existing reference; no new BibTeX entry supplied
+Primary local source: literature/agha2005-voice-footing-enregisterment.md (printed pp. 38–40; text lines 35–53 and 120–148).
+Supported paraphrase: Enregisterment concerns the social recognition of speech forms as indexing speaker attributes. Registers have both a range of personae and a social domain of people acquainted with those associations; interactional alignments can maintain or alter those associations.
+Limits: This supplies a general account of socially recognized indexical values. It does not show that any particular interjection is enregistered, that frequency concentration suffices for enregisterment, or that enregisterment maintains a complete grammatical–semantic–interactional profile.
+
+Completion: All five requested bibliographic records verified; no unresolved metadata. Ogden and Jay substantive grounding is deliberately limited to their publisher abstracts. Other support is from the indicated primary full-text sections. No wider survey or manuscript integration performed.

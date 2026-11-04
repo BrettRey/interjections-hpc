@@ -1,0 +1,46 @@
+1352      Chapter 15 Coordination and supplementation
+
+
+              ii a. This stipulation – that Harry could not touch the money until he was eighteen –
+                    annoyed him enormously.
+                 b. The codicil in the will – that Harry could not touch the money until he was eigh-
+                    teen – annoyed him enormously.
+         The examples in [i] belong to the integrated head + complement construction. Stipula-
+         tion licenses a declarative complement, but codicil does not: hence the ungrammaticality
+         of [ib]. In [ii] the content clause is a supplement, interpreted as specifying the content
+         of its anchor NP. And this time the codicil example is acceptable: the NP it heads denotes
+         an addition to a will and hence has propositional content which can be specified by a
+         declarative content clause.
+             As a second illustration of the difference between the integrated and non-integrated
+         constructions, consider:
+        [8]    i a. The question (of ) where the funding would come from wasn’t discussed.
+                 b. ∗The thing (of ) where the funding would come from was rather more important.
+              ii a. The second question – where the funding would come from – wasn’t discussed.
+                 b. The thing they didn’t discuss – where the funding would come from – was rather
+                    more important.
+         Here the content clause is interrogative. In [ia] it is a dependent within the NP headed
+         by the noun question : it may appear as an immediate complement or it may be related
+         to the head noun by the preposition of. Again, the complement needs to be licensed by
+         the head noun: question takes interrogative complements, but thing does not, so [ib]
+         is ungrammatical. In [ii] the interrogative clause is a supplement and is subject to the
+         weaker constraint that it be semantically compatible with its anchor. Example [iib] is
+         therefore admissible because the anchor NP as a whole denotes a potential topic of
+         discussion, so that the content of this topic can be specified by means of an interrogative
+         clause supplement.
+         Form and interpretation of supplements realised by clauses
+         A further important difference between supplements and dependents is that the former
+         may be realised by main clauses with their own illocutionary force:
+        [9]     Sue felt – can you blame her? – that she was being exploited.
+         The supplement here has the form and interpretation of a main clause: there is no change
+         in form or loss of independent illocutionary force such as is found with clauses realising
+         a dependent function.
+
+        Supplements and non-restrictiveness
+         By virtue of not being integrated into the syntactic structure, supplements are
+         necessarily semantically non-restrictive. Compare, for example, [8ia–iia]. In the former,
+         the integrated construction, the content clause is semantically restrictive, distinguishing
+         the question being referred to from other questions. It provides the identifying infor-
+         mation that makes it appropriate to use the definite article the. By contrast, in [iia], the
+         supplementation construction, the second question by itself constitutes a definite refer-
+         ring NP. The supplement doesn’t serve to distinguish one second question from other
+         second questions: it doesn’t restrict the denotation of the head nominal.

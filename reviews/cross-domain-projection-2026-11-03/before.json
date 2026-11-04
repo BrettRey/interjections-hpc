@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-11-03T21:11:08.379227+00:00",
+  "source": "inquiry-relative-categories.tex",
+  "authorized_scope": "Whole substantive pass implementing the agreed correction: grammatical category membership can support expectations across meaning, interaction, phonology and prosody; draft-level verification only.",
+  "protected": {
+    "main.tex": "98125e6a2cd26507d719d672e3285f4fb51b2d08254218935697a2088460e27f",
+    "main.pdf": "690c3e004c3921985b12207a720f72ff1e495d04edb9402d2912cb5e2106323a",
+    "references-local.bib": "71a60a4a32d6f783bed9564d83cdba3d3dd1525fac7266436e452f200676db92",
+    "inquiry-relative-evidence-supplement.tex": "ec16301e277faffba1d1b5dadf481f5fd627d2b91d10ddaa0693fcfd54d5dbe7",
+    "inquiry-relative-evidence-supplement.pdf": "bf0ffbc1005a02cedb7aa9b2a2eafff21565be5341f1c5393a23a08dde2f17df",
+    "reviews/crosscutting-schematic-2026-11-02/faceted-bearers.html": "25a8475c82d06675a6f8838e83544c570705a1847380efde65ee7da50688c261"
+  }
+}

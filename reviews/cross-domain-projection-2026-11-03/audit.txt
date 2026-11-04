@@ -1,0 +1,60 @@
+Cross-domain projection pass — 2026-11-03
+
+Target: inquiry-relative-categories.tex (separate working manuscript)
+Authorization: Brett's “yes, it needs a whole pass”, following the agreed distinction between category identification and inferential reach. Earlier instruction to treat this as a draft and avoid careful polishing retained.
+
+Diagnosis before editing
+The grammatical core had been framed as useful almost exclusively for distribution. That restriction recurred in the abstract, introduction, §2.1, §3.2 and conclusion; §4 stressed the failed inference from unusual phonology to grammatical membership while neglecting the supported forward expectation. It made the pluralism look like a division into disciplinary compartments.
+
+Changes
+The manuscript now treats grammatical interjectionhood as supporting a wider, defeasible profile of meaning, use and realization. Separate intonational packaging is characteristic; unusual segmental phonology is a recurring possibility, not a universal or measured prevalence. Potts's existing expressive generalizations receive positive weight across standalone and prenominal damn. Section 4 distinguishes the forward association, possible reverse evidential value, and an insufficient reverse membership test. The discussion and conclusion explain why partial associations make classifications mutually informative without rendering them interchangeable.
+
+Source grounding
+Ameka 1992 pp. 105–106: phonological anomaly described as a tendency, regular forms and non-interjectional anomalies recognized.
+Ameka 1992 p. 108: separate intonation units in co-occurrence; manuscript adopts a defeasible characteristic, rather than the source's universal wording.
+Ameka 1992 pp. 113–115: expressive, conative and phatic functions, with overlapping functions and concrete English cases.
+CGEL 2002 p. 1361: grammatical core and broad expressive characterization.
+Quirk et al. 1985 pp. 74, 853: unusual inventory possibilities and ugh; added p. 74 to support the precise standard BrE/AmE inventory claim.
+Potts 2007 pp. 166–167, 181–182: general expressive properties and example (34), which explicitly combines standalone and prenominal damn under repetition.
+No new sources or empirical results added. The independent bounded check is saved in revision-check.txt.
+
+Projectibility audit of the whole draft
+Declaration | GREEN | §2.1 identifies conventional uses and qualitative targets: characteristic contributions, intonational packaging, and unusual segmental possibilities.
+Inquiry, warrant and revision | GREEN | Established descriptions supply the warrant; no new calibration or held-out study is claimed. Prospective comparisons remain labelled as such.
+Non-trivial projection | GREEN | Distribution can establish membership while meaning or a new realization supplies the target; §3.2 distinguishes assignment evidence from predicted evidence.
+Warrant and worldly ground | GREEN | Descriptive association and causal explanation remain distinct in §3.4 and §5.
+World-side order | GREEN | The new associations do not purport to establish a causal ordering or maintenance mechanism.
+Stabilizer and controller | GREEN | No new homeostatic or corrective-control claim; historical account remains a specified route.
+Explanatory level and bearers | GREEN | §4.2 distinguishes sign-type propensity from occurrence-level boundary, allowing the former to predict the latter.
+Scope and inquiry relativity | GREEN | The classification basis no longer restricts its projections to that domain. English descriptions are not promoted to cross-linguistic universals.
+Failure and revision | GREEN | §3.3 retains the original identification rule for judging failure, and §8 retains local consequences of a failed projection.
+Positioning and conclusion | GREEN | Abstract, introduction and conclusion state cross-domain inferential reach and mutually informative but non-equivalent groupings.
+
+Projectibility is structural: classification now licenses expectations beyond membership evidence across inquiries. The strongest general commitment is to recurrent documented associations; the gee case separately supports a particular historical explanation. No category-wide maintenance or corrective control is inferred. No additional structural repair required for this pass.
+
+Verification
+XeLaTeX, Biber, XeLaTeX twice: exit 0. No unresolved references/citations or overfull/underfull boxes. Rendered pages 1, 4, 14 and 21 checked for readability. The final PDF is 24 pages. Existing fancyhdr/microtype warnings remain; cosmetic polishing deferred as requested.
+
+Changed-passage anchors:
+Wider core profile: line 276
+Identification versus reach: line 631
+Forward and reverse phonology: line 874
+Discussion: line 1277
+Conclusion: line 1369
+
+House-style sentence-length output (verbatim):
+SENTENCE LENGTH
+============================================================
+
+  --- inquiry-relative-categories.tex ---
+    683 sentences | median 13 | mean 13.9 | middle half 10-18 (8 words)
+         1-9  ##################        167   24%
+       10-14  ########################  229   34%
+       15-19  #################         164   24%
+       20-24  ##########                 96   14%
+       25-29  ##                         21    3%
+       30-34  #                           5    1%
+       35-39                              1    0%
+         40+                              0    0%
+    [advisory] 61% of sentences fall in 12-26 words; the band is narrow, so check whether the rhythm has flattened
+

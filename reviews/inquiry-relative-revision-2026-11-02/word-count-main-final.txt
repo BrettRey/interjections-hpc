@@ -1,0 +1,44 @@
+File: inquiry-relative-categories.tex
+Encoding: ascii
+Sum count: 8013
+Words in text: 7825
+Words in headers: 146
+Words outside text (captions, etc.): 42
+Number of headers: 32
+Number of floats/tables/figures: 3
+Number of math inlines: 0
+Number of math displayed: 0
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  191+9+6 (2/0/0/0) _top_
+  640+1+0 (1/0/0/0) Section: Introduction}\label{sec:intro
+  116+5+0 (1/0/0/0) Section: Several groupings of conventional signs}\label{sec:worked
+  363+5+0 (1/0/0/0) Subsection: Grammatical interjections and expressive signs
+  460+4+0 (1/0/0/0) Subsection: Expressive and depictive signs}\label{sec:expressive-depictive
+  214+5+0 (1/0/0/0) Subsection: Contribution, encoding, and competing analyses
+  359+3+0 (1/0/0/0) Subsection: Interactional resource classes
+  219+5+22 (1/1/0/0) Subsection: Common bearers and distinct questions
+  65+9+0 (1/0/0/0) Section: What warrants a class, a category, or an explanation?}\label{sec:assessment
+  390+5+8 (1/1/0/0) Subsection: Bearers, grouping, contribution, and alternatives
+  173+5+0 (1/0/0/0) Subsection: From proposal to category claim
+  313+3+0 (1/0/0/0) Subsection: Projection and identity
+  181+4+0 (1/0/0/0) Subsection: Representation and causal explanation
+  248+5+0 (1/0/0/0) Subsection: Hill's considerations for causal claims}\label{sec:hill
+  66+5+0 (1/0/0/0) Section: Phonological organization and situated realization}\label{sec:phonology
+  497+5+0 (1/0/0/0) Subsection: A phonological stratum of signs
+  303+4+0 (1/0/0/0) Subsection: Prosodic classes of realizations
+  68+6+0 (1/0/0/0) Section: Historical ancestry and classes of change}\label{sec:history
+  371+5+0 (1/0/0/0) Subsection: The documented route to \mentionhead{gee}
+  314+5+0 (1/0/0/0) Subsection: Source, mechanism, transmission, and trajectory
+  264+5+0 (1/0/0/0) Subsection: What historical evidence can establish
+  73+5+0 (1/0/0/0) Section: Broader classes and further inquiries}\label{sec:extensions
+  256+6+0 (1/0/0/0) Subsection: Social regulation and socially recognized repertoires
+  263+3+0 (1/0/0/0) Subsection: Formulaicity and processing
+  327+7+6 (1/1/0/0) Subsection: Keeping the family open without multiplying labels
+  378+7+0 (1/0/0/0) Section: A measurement case: tags, strings, and uses}\label{sec:evidence
+  58+3+0 (1/0/0/0) Section: The general consequence}\label{sec:discussion
+  241+5+0 (1/0/0/0) Subsection: Many-to-many relations and local failure
+  237+5+0 (1/0/0/0) Subsection: Overlap, mechanisms, and category standing
+  148+1+0 (1/0/0/0) Section: Conclusion}\label{sec:conclusion
+  29+1+0 (1/0/0/0) Section: Acknowledgements
+

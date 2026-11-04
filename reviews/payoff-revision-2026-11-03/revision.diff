@@ -1,0 +1,312 @@
+--- before/inquiry-relative-categories.tex
++++ inquiry-relative-categories.tex
+@@ -552,9 +552,9 @@
+ The expressive grouping connects standalone and prenominal \mention{damn}
+ across a grammatical difference. Within the semantic comparison, stance
+ and depiction distinguish what the selected \mention{Damn!} and \mention{Bang!}
+-contribute. These relations are sufficient to reject a single ordering
+-from less to more interjectional: the relevant similarities change with
+-the question.
++contribute. A single ordering from less to more interjectional can't
++substitute for these inquiry-specific distinctions without losing relevant
++information. An ordering may still be useful for a specified task.
+ 
+ \mention{Bang!} makes the unresolved grammatical question concrete.
+ English also has nominal \mention{bang}, as in the constructed
+@@ -613,10 +613,10 @@
+ a differently named property. The expressive grouping preserves a semantic relation across
+ standalone and integrated constructions; the expressive--depictive contrast
+ records different contributions concealed by the broad cover term.
+-Those are warranted uses of descriptive classes. Calling them descriptions
+-doesn't diminish their scientific value. It specifies the achievement
+-so that categoryhood, in the stronger sense used here, remains an
+-answerable further question.
++Those descriptive achievements establish which similarities an adequate
++account needs to preserve. Further projections can build on them,
++with their warrant assessed against the evidence for the particular
++expectation.
+ 
+ An \term{alternative} can be a broader class, narrower subtypes, a
+ continuous dimension, or an item-by-item account. In the worked semantic
+@@ -700,19 +700,25 @@
+ from that assignment would instead recycle the identification evidence.
+ 
+ I also adopt the action-specific categories for the sequential relations
+-documented in the cited descriptions. The semantic comparisons establish
+-expressive commonality and an expressive--depictive distinction; their broader
+-projective standing requires further assessment. The later phonological
+-and historical comparisons apply the same separation of achievements.
++documented in the cited descriptions. The same evidential policy applies
++across inquiries: established descriptions can warrant scoped semantic and
++interactional projections without a new experiment in this paper.
++
++The semantic comparisons here chiefly establish how expressive commonality
++crosses grammatical distinctions and how stance differs from depiction.
++Their focus reflects the question being pursued. Further expressive
++generalizations can draw on existing evidence just as the grammatical
++generalization does; each is assessed at the scope that evidence supports.
+ 
+ \subsection{Projection and identity}
+ 
+-A projective claim states what's been observed, what's expected, and
+-over which bearers and conditions. Its \term{warrant} is the evidence
+-supporting that expectation \citep{Goodman1955}. A precise specification
+-can have little warrant; a reliable association can remain causally
+-unexplained. The content, evidential status, and proposed ground of a
+-claim need separate assessment
++Revising the analysis of a conventional use can improve subsequent
++predictions without turning an earlier failure into a success. To
++keep those judgments separate, a projective claim states what's been
++observed, what's expected, and over which bearers and conditions.
++Its \term{warrant} is the evidence supporting that expectation
++\citep{Goodman1955}. Claim content, evidential status, and proposed causal
++ground can then be assessed separately
+ \citep[11--12]{reynolds2026projectibilityHistory}.
+ 
+ Suppose source contexts identify an expressive use and the target is
+@@ -787,21 +793,24 @@
+ 
+ \textcite[295--299]{hill1965} offered viewpoints for comparing causal
+ interpretations with alternatives, including temporal order and consistency
+-with independently supported knowledge. They concern specified causes
+-and outcomes; they neither establish category standing nor form a
+-mechanical checklist. Section~\ref{sec:history} applies the temporal
+-question to \mention{gee}. Recurrence alone identifies neither a causal
+-ordering nor a process that maintains a profile.
++with independently supported knowledge. These concern specified causes
++and outcomes. In the history of \mention{gee}, for example, the
++sequence of semantic change and clipping helps distinguish the processes
++that contributed to the present form (Section~\ref{sec:history}).
+ 
+ \section{Phonological organization and situated realization}\label{sec:phonology}
+ 
+-Phonological evidence already enters descriptions of interjections in two
+-forms. Some signs permit sounds or combinations unusual elsewhere in a
+-variety; particular occurrences also have distinctive prosodic packaging.
++Shared phonological possibilities can justify comparing signs across
++grammatical categories. The grammatical uncertainty about depictive \mention{Bang!}
++therefore leaves a phonological comparison available. Such comparisons
++can concern sounds or combinations unusual elsewhere in a variety,
++or the prosodic packaging of particular occurrences.
++
+ These observations motivate different classifications. The first can group
+ sign-types by their phonological possibilities. The second groups realizations
+-by how speakers produce them in context. Their relation is empirically
+-interesting precisely because they don't classify the same objects.
++by how speakers produce them in context. Their relation connects
++the resources available for a conventional sign with the ways speakers
++realize it on particular occasions.
+ 
+ \subsection{A phonological stratum of signs}
+ 
+@@ -916,13 +925,15 @@
+ 
+ \section{Historical ancestry and classes of change}\label{sec:history}
+ 
+-A historical classification asks how signs came to have their present
+-properties. Signs with different current distributions can descend from
+-related sources, while signs with similar current profiles can arrive by
+-different routes. The inquiry can classify present signs by independently
+-established ancestry. It can also classify historical changes, such as
+-clipping or reanalysis. The first has sign-types as bearers; the second
+-has changes linking sources and outcomes.
++The history of \mention{gee} explains a feature of its present form
++that a synchronic interjection label leaves unexplained. Signs with
++different current distributions can descend from related sources, while
++signs with similar current profiles can arrive by different routes.
++
++A historical inquiry can classify present signs by independently established
++ancestry. It can also classify changes, such as clipping or reanalysis.
++The first has sign-types as bearers; the second has changes linking
++sources and outcomes.
+ 
+ \subsection{The documented route to \mentionhead{gee}}
+ 
+@@ -936,9 +947,7 @@
+ relates the first to gradual invited inference, aided by the syntactically
+ peripheral invocation. She analyzes the clipping as an abrupt, taboo-motivated
+ change involving hearer reanalysis \citep[84--88]{gehweiler2008}. The
+-source invocation already permits peripheral packaging. Its development
+-gives no reason to assume that a new prosodic boundary caused
+-the semantic transition or that all the properties changed together.
++source invocation already permits peripheral packaging.
+ 
+ The history explains why the shape of \mention{gee} bears a relation
+ to religious invocation even for a speaker who doesn't recognize that
+@@ -952,17 +961,6 @@
+ that a class of signs with religious ancestry outperforms alternatives
+ or supports a common projection. That comparison would require independently
+ documented histories and outcomes across more than this one route.
+-
+-Hill's considerations clarify a tempting stronger claim. If newly acquired
+-prosodic isolation were proposed as a cause of the semantic change, the
+-already peripheral invocation would fail to supply the required change
+-in exposure. The cited history doesn't independently measure a prosodic
+-innovation preceding the semantic transition. Plausibility of a
+-prosody--syntax connection can't supply that missing temporal comparison.
+-An already present peripheral construction could still be an enabling
+-condition for later change.
+-Gehweiler's proposed roles for invited inference and taboo-motivated
+-clipping remain distinct historical claims with their own evidence.
+ 
+ The distinction also corrects an ambiguity in \term{primary} and
+ \term{secondary} interjections. Ameka's distinction concerns whether
+@@ -1053,7 +1051,7 @@
+ \section{Broader classes and further inquiries}\label{sec:extensions}
+ 
+ The traditional interjection domain also intersects classes whose most
+-informative members lie elsewhere. Social regulation can group forms
++informative members lie elsewhere. Social evaluation can group forms
+ by their appropriateness for audiences and settings. Processing inquiries
+ can group familiar expressions by how they're produced or understood.
+ An interjection's membership in either class needn't make the class
+@@ -1061,31 +1059,25 @@
+ broader class is supported, how it intersects the traditional domain,
+ and whether an \term{interjection} label helps describe that intersection.
+ 
+-\subsection{Social regulation and socially recognized repertoires}
+-
+-Religious exclamations make social regulation relevant to the worked
+-case. In Gehweiler's account, taboo pressure contributes to clipping
+-\mention{Jesus} into \mention{gee}. A present-day inquiry might instead
+-group uses according to their evaluated appropriateness for an audience
+-or setting. The historical cause of an innovation and the current
+-regulation of its descendants are separate targets; evidence for one
+-doesn't settle the other.
++\subsection{Social evaluation and recognized repertoires}
++
++Religious exclamations connect the historical case to a further classification.
++In Gehweiler's account, taboo pressure contributes to clipping \mention{Jesus}
++into \mention{gee}. A present-day inquiry can group uses by their
++evaluated appropriateness for an audience or setting. It asks how
++speakers assess the available forms in their own community.
+ 
+ \textcite{jayjanschewitz2008} examine ratings of hypothetical swearing scenarios,
+ finding that judgments depend on the word, speaker--listener relations,
+-and social and physical context. Such evidence
+-supports contextual differentiation in evaluations of taboo language.
+-It doesn't directly observe sanctions or show that corrective responses
+-maintain a class of interjections. Those stronger proposals would need
+-their own measures of behaviour and change.
++and social and physical context. These ratings support contextual
++differentiation in evaluations of taboo language.
+ 
+ Consider a proposed comparison of \mention{Gee!} and \mention{Jesus!}
+ as reactions to surprising news among close friends and during a
+ formal interview. Ratings would ask how appropriate each choice seems
+-in each setting. A listener actually correcting a speaker's choice
+-would be a different observation. Repeated corrections followed by
+-changes in use would be relevant to a further claim about regulation.
+-The comparison specifies possible evidence, not findings about these forms.
++in each setting. A difference in those ratings would distinguish
++social appropriateness without by itself changing the grammatical classification
++of the reaction.
+ 
+ Social indexing poses a related but distinct inquiry. Agha's account
+ of enregisterment concerns the social recognition of speech forms as
+@@ -1120,9 +1112,9 @@
+ healthy participants. Their production
+ analysis combines six kinds of formulaic material, including conversational
+ formulae, pause fillers, sentence stems, and idioms. The results give
+-empirical consequences to that broader organization. They don't
+-isolate an interjection-specific processing class or locate a neural
+-basis for grammatical interjections, expressive signs, or particular interactional resources.
++empirical consequences to a grouping that crosses grammatical categories:
++pause fillers can be studied alongside phrases and idioms despite
++their grammatical differences.
+ 
+ For the greeting, one question is whether \mention{How are you?} is
+ retrieved fluently because repeated use has helped establish a routine.
+@@ -1167,12 +1159,13 @@
+ 
+ \section{A measurement case: tags, strings, and uses}\label{sec:evidence}
+ 
+-A corpus query can identify a useful class without recovering the intended
+-linguistic bearers. The Corpus of Global Web-Based English (GloWbE)
+-contains country-labelled web sections \citep{daviesfuchs2015}.
+-An interjection tag, the string \mention{ha}, and a conventional
+-interjectional use of \mention{ha} select different sets. Confusing them
+-can turn a retrieval convention into apparent evidence about a category.
++A retrieval class can be useful for a corpus query and still give
++a misleading picture when treated as a linguistic category. In the
++Corpus of Global Web-Based English (GloWbE), which contains country-labelled
++web sections \citep{daviesfuchs2015}, the spelling \mention{ha} retrieves
++both reactions and abbreviations for hectares. A tag, a string, and
++a conventional use select different sets. The distinction changes the
++apparent geographical pattern.
+ 
+ The constructed strings \mention{12 ha of land} and \mention{Ha! I
+ knew it} make the difference visible. A search for the spelling
+@@ -1219,14 +1212,13 @@
+ 
+ \section{The general consequence}\label{sec:discussion}
+ 
+-The grammatical core gives a positive answer to one category question.
+-Its members share a distribution that licenses expectations about independent
+-and supplementary use, despite differences among their contributions.
+-The expressive grouping gives a different answer: it connects standalone
+-and prenominal \mention{damn}, which the grammar separates. Neither answer
+-supersedes the other. A grammatical classification has succeeded when
+-it supports the relevant grammatical expectations; expressive commonality
+-remains available for a question about meaning.
++A classification can preserve one supported pattern of similarities
++while crossing another. Conative \mention{sh} shares the grammatical profile
++of \mention{ouch} without requiring its affective contribution. Prenominal
++\mention{damn} shares expressive properties with standalone \mention{Damn!}
++without becoming an intermediate grammatical interjection. The relevant
++relations are available for different inquiries; failure to preserve
++them all in one grouping needn't be a classificatory defect.
+ 
+ Depictive \mention{Bang!} introduces a further semantic relation, and continuers
+ and repair initiators organize different sequential environments. These
+@@ -1281,10 +1273,6 @@
+ Distinct categories needn't be statistically independent, and they can
+ share causal processes. Strong correlation doesn't make two questions
+ identical; a shared history doesn't establish every present property.
+-A causal network is one possible account, provided its variables and
+-links have independent support. Hill's considerations help assess
+-specified causal interpretations; they don't turn covariation into
+-a mechanism by being applied to a diagram.
+ 
+ For \mention{Bang!}, uncertainty between a nominal-fragment and an
+ interjection analysis doesn't itself establish graded membership. The
+@@ -1313,23 +1301,22 @@
+ The semantic comparison with depictive \mention{Bang!} adds another
+ distinction within the same broad inquiry into meaning.
+ 
+-These analyses give more than one correct answer because they answer
+-different questions. The grammatical category's contribution lies in
+-its grammatical projections; the expressive grouping preserves a relation
+-across constructions. Neither has to absorb the other to succeed.
+-Several groupings can serve one inquiry, and a grouping can contribute
+-to several inquiries. Claims about a particular use can still conflict,
+-as the competing analyses of complement-taking \mention{damn} illustrate.
+-
+-The assessment distinguishes these positive achievements from stronger
+-projective and causal claims. It accepts the documented grammatical
+-profile, preserves the semantic distinctions, rejects an unsupported
+-phonology-to-grammar inference, and confines the \mention{gee} explanation
+-to the history it documents. Pluralism changes the question from
+-which classification should govern the whole domain to which relations
+-each classification supports. The evidence can then decide a disputed
+-claim without requiring every other classification to stand or fall
+-with it.
++Crosscutting classifications needn't be rival approximations to a single
++complete classification. Each can preserve a supported relation while
++disregarding another. Recognizing those relations separately changes the
++diagnosis of apparent anomalies: a conative use can be a grammatical
++interjection without expressing evaluative stance, and an integrated modifier
++can share expressive properties with an interjection without sharing
++its lexical category.
++
++The same approach distinguishes coexistence from competition. Expressive
++commonality leaves the rival grammatical analyses of complement-taking
++\mention{damn} unresolved; it doesn't reconcile them. A later distinction
++between conventional uses can improve predictions without erasing an
++earlier failure. And a retrieval class can remain useful after its
++output has proved misleading as a measure of linguistic uses.
++Pluralism permits several classifications to succeed while keeping particular
++claims answerable to evidence.
+ 
+ \ifblind\else
+ \section*{Acknowledgements}

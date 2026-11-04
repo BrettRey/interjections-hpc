@@ -1,0 +1,25 @@
+{
+  "completed_at": "2026-11-03T20:44:21.938950+00:00",
+  "scope": "Local revision responding to user feedback; grammatical core and existing structure retained",
+  "source_sha256": "ad352b9d2c7c90aa8fd89e996ad4dba98977741eba5c323659b2be3722f2d50f",
+  "changes": [
+    "Made inherited evidential policy explicit across grammatical, semantic and interactional inquiries",
+    "Narrowed single-ordering claim to substitution for inquiry-specific distinctions",
+    "Foregrounded consequences for apparent anomalies, rival analyses and failed predictions",
+    "Removed abandoned prosodic-cause argument and unnecessary corrective-maintenance/neural-localization denials",
+    "Repaired Hill forward reference and removed redundant causal-diagram caution"
+  ],
+  "verification": "XeLaTeX + Biber + XeLaTeX twice, all exit 0; no unresolved citations or cross-references",
+  "pdf_pages": 22,
+  "visual_check": "Changed passages on pages 11 and 20 readable",
+  "polishing": "Draft-level verification only; no cosmetic revision",
+  "protected_unchanged": {
+    "main.tex": true,
+    "main.pdf": true,
+    "references-local.bib": true,
+    "inquiry-relative-evidence-supplement.tex": true,
+    "inquiry-relative-evidence-supplement.pdf": true,
+    "reviews/crosscutting-schematic-2026-11-02/faceted-bearers.html": true
+  },
+  "bundle_verified": true
+}

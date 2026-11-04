@@ -1,0 +1,634 @@
+--- before/inquiry-relative-categories.tex
++++ inquiry-relative-categories.tex
+@@ -224,8 +224,11 @@
+ all non-descriptive or use-conditional meaning. A conventional instruction
+ for managing interpretation or interaction needn't express such a stance.
+ Potts's diagnostics include perspective dependence, immediacy, and
+-intensifying repetition \citep[166--167]{potts2007}; whether they travel
+-together across a proposed extension is an empirical question.
++intensifying repetition \citep[166--167]{potts2007}. For \mention{damn},
++these ask whose attitude is conveyed, whether the utterance displays
++that attitude on the occasion of speaking, and whether repeating the
++form strengthens it. Whether those properties travel together across
++the proposed extension is an empirical question.
+ 
+ The grouping is broader than grammatical interjections. The examples in
+ this paper are a selected part of it, chosen from disputes about
+@@ -293,42 +296,67 @@
+ more, without assigning each to a separate department or requiring one
+ category to represent the semantic perspective as a whole.
+ 
+-\subsection{Contribution, encoding, and competing analyses}
+-
+-Grouping by contribution differs from grouping by how that contribution
+-is encoded. The depictive grouping already involves both a contribution
+-and an iconic mode of presentation. The encoding question considered
+-here is more specific: whether a sign supplies conceptual content or
+-procedures guiding interpretation. An iconic presentation doesn't by
+-itself decide between those accounts. \textcite{wharton2016expressives} develops a procedural account
+-of expressive meaning, relating procedures for interpretation to the
+-showing of emotion. On such an account, a sign can be expressive in its
+-contribution and procedural in its encoding. Expressive and procedural
+-aren't automatically complementary classes.
+-
+-Three situations need separating. Expressive and depictive groupings can
+-distinguish contributions within one inquiry. A grouping by contribution
+-and another by mode of encoding can crosscut one another. But two accounts
+-making incompatible claims about how the same sign encodes its meaning
+-compete. Inquiry relativity doesn't adjudicate that competition; their divergent consequences require assessment against evidence.
+-
+-An inquiry can also support finer groupings. \textcite[113]{ameka1992}
+-distinguishes emotive and cognitive subtypes within his expressive class:
+-one concerns feelings or sensations, the other knowledge or recognition.
+-His mental-state grouping is broader than the evaluative or affective
+-stance grouping used above: cognitive contribution alone doesn't meet
+-that narrower criterion. The subtypes illustrate another possible
+-organization whose value depends on the generalizations being pursued.
++\subsection{Contribution, encoding, and competing analyses}\label{sec:encoding}
++
++Consider the constructed utterance \mention{The damn car won't start},
++said after several failed attempts at ignition. The speaker reports a
++starting problem and conveys a negative attitude. Calling \mention{damn}
++expressive identifies that second contribution. Asking how the wording
++helps a hearer recover the attitude raises a different question about
++its encoding.
++
++\textcite{wharton2016expressives} develops a procedural account of expressive
++meaning, connecting guidance for interpretation with the showing of emotion.
++Applied to the car example, such an account would treat \mention{damn}
++as a cue for recognizing the attitude being shown. The use could then
++be expressive in contribution and procedural in encoding. Those descriptions
++would answer different questions about the same utterance.
++
++Now imagine a narrator representing the car's backfire with \mention{Bang!}.
++The sign depicts a noise, and its performance can resemble what it
++depicts. That iconic presentation differs from \mention{damn}'s conveyed
++stance. Identifying the depiction still leaves open how the sign guides
++interpretation: resemblance alone doesn't decide whether it supplies
++conceptual content, an interpretive procedure, or some combination.
++
++Two accounts would compete if they made exclusive claims
++about the same \mention{damn} use. Suppose one assigned it only
++conceptual content, such as a negative evaluation, while the other
++assigned it only a procedure for recognizing an attitude. These are
++hypothetical rivals, not summaries of Potts and Wharton. The first
++needn't make annoyance part of what the sentence asserts. Their
++incompatible claims about encoding would require adjudication.
++
++Finer groupings also become visible in ordinary situations. Someone
++touches a hot pan and says \mention{Ouch!}; someone finds missing keys
++under a newspaper and says \mention{Aha!}. The situations are constructed;
++\textcite[113]{ameka1992} gives the forms as examples of emotive and
++cognitive interjections. The first gives voice to a sensation, the
++second displays a change in knowledge or recognition.
++
++Ameka's mental-state grouping is broader than the stance grouping used
++here. Finding the keys can be displayed with \mention{Aha!} without
++conventionally evaluating them. That reading motivates a cognitive subtype;
++it doesn't prevent another occurrence from also conveying affect.
++Different contributions, crosscutting accounts of encoding, and rival
++encoding hypotheses thus have different consequences even within this
++small set of expressions.
+ 
+ \subsection{Interactional resource classes}
+ 
+-Continuers, repair initiators, and closing formats answer different
+-interactional questions. A continuer such as \mention{mm-hm} can support
+-another speaker's ongoing turn. Repair \mention{huh?} makes a response to
+-a problem of hearing or understanding relevant. Closing \mention{bye}
+-participates in ending an encounter. Accounts of interjections in
+-conversation make these sequential differences central
+-\citep[257--259, 263--265]{dingemanse2024}.
++Consider two constructed exchanges. A teller says \mention{I tried the
++front door}, a listener responds \mention{Mm-hm}, and the teller continues
++\mention{but it was locked}. The listener supports continuation of the
++story. In a second exchange, someone says \mention{We meet at five};
++a recipient who missed the time responds \mention{Huh?}, and the first
++speaker repeats \mention{At five}. Here the response prompts repair.
++
++The difference concerns what happens next: the story proceeds after
++the continuer, while the meeting time is repeated after the repair
++initiator. Closing \mention{bye} has another job, participating in the
++end of an encounter. Accounts of interjections in conversation make
++these sequential differences central \citep[257--259, 263--265]{dingemanse2024}.
++Their union doesn't supply one expectation about the next turn.
+ 
+ For comparison, these can be collected as conventional action formats:
+ non-elliptical resources that can perform their action without a lexically
+@@ -449,19 +477,21 @@
+ conditions, and, where the claim concerns change, a period. These
+ questions apply to established proposals and new candidates alike.
+ 
+-The \term{bearer} is the object grouped. Here it can be a conventional
+-sign-type; a phonologist may instead group realizations, and a historian
+-may group changes linking earlier and later signs. A frequency of
+-realizations doesn't immediately establish a number of types or a rate
+-of change. The grammatical category of a head likewise differs from
+-the external distribution of its containing phrase.
+-
+-The \term{grouping basis} is the evidence or relation used to assign
+-members: distribution, expressive contribution, ancestry, or participation
+-in a recognized repertoire, for example. A grouping can be sharp or
+-graded and can use one diagnostic or several. A unique mechanism isn't
+-a prerequisite for stating the proposal. Whether the proposed members
+-support any particular induction or explanation remains to be assessed.
++The \term{bearer} is the object grouped. Two recordings of \mention{The
++damn car won't start} contain two realizations of the selected prenominal
++\mention{damn} use. Counting the recordings gives two occurrences, not
++two sign-types. A phonologist can classify the individual productions;
++a lexical inquiry can ask about the conventional use they realize.
++A historian may instead classify a change connecting an earlier sign
++with a later one.
++
++The \term{grouping basis} supplies the assignment evidence. Prenominal
++\mention{damn} enters the expressive grouping because of its conveyed
++stance, while its position inside \mention{the damn car} supplies
++grammatical evidence. Grouping it with standalone \mention{Damn!} for
++the first reason doesn't erase their difference in the second respect.
++Other proposals can use ancestry or participation in a social repertoire;
++each needs to identify the relation its membership records.
+ 
+ The \term{contribution} identifies what the grouping accomplishes. A
+ constructed class can fix a comparison set. A descriptive class can
+@@ -524,20 +554,20 @@
+ category standing names the latter achievement; it isn't a verdict
+ on whether a descriptive class is scientifically useful.
+ 
+-The reach of an expectation needs specifying. Evidence about a familiar
+-sign can warrant expectations about new realizations or environments.
+-Extending an expressive contrast to another construction can already
+-involve induction. This establishes reach for that sign without by
+-itself warranting the same expectation for another sign-type. A
+-category-level projection can make that further commitment about an
+-independently identified member.
+-
+-The target needn't be a differently named property. A familiar property
+-in a new environment can provide informative reach if it wasn't part
+-of the admission evidence. Assigning expressive uses by their stance
+-in one construction and investigating how that contribution behaves
+-elsewhere differs from defining the class to contain only uses already
+-known to exhibit the target behavior.
++Three constructed comparisons distinguish the reach of an expectation.
++After identifying the expressive contribution in \mention{The damn car
++won't start}, an investigator could examine another speaker's utterance
++of that sentence, the question \mention{Has the damn car broken down?},
++or \mention{The bloody car won't start}. These comparisons change the
++realization, the environment, and the expression respectively.
++
++The question supplies a concrete target: does the negative stance
++remain conveyed while the car's breakdown is put in question? Evidence
++from declaratives needn't settle that. The investigator can test the
++familiar property in a new environment without inventing a differently
++named property. Generalizing to independently identified \mention{bloody}
++makes a further commitment across sign-types. Neither move is licensed
++simply by defining the class to contain the desired cases.
+ 
+ An additional shared property isn't sufficient merely because it's
+ additional. If all members and nearly every sign outside a proposed
+@@ -581,15 +611,21 @@
+ can't by itself justify excluding the case as conversion. A change
+ to the identification rule creates a revised claim requiring assessment.
+ 
+-Consider a hypothetical adverse case for standalone stance \mention{damn}.
+-The initial identification uses its conventional reaction meaning and
+-recurrence across independently sampled situations; the grammatical
+-prediction concerns resistance to integration. A new occurrence retains
+-that reaction meaning but functions as an integrated dependent of a
+-larger constituent. The first response is to check that structural
+-analysis. If it stands, the occurrence counts against the proposed
+-distribution under the original identification rule. Its inconvenience
+-isn't evidence for a second sign.
++Imagine an investigator who's identified expressive \mention{damn}
++only in standalone reactions such as \mention{Damn! We've missed the
++train}. Their provisional identification uses the reaction meaning;
++it doesn't require standalone position. They predict that these uses
++resist grammatical integration. Encountering \mention{The damn car won't
++start} then presents an adverse case: the expression conveys stance
++while functioning as an integrated modifier inside the noun phrase.
++
++This is a hypothetical research sequence using familiar constructions.
++The investigator should check the structural analysis, but the confirmed
++prenominal occurrence counts against the restriction under the original
++identification rule. Its inconvenient distribution isn't by itself a
++reason to remove it from that assessment. Later recognizing a distinct
++prenominal use can improve the analysis without making the original
++prediction successful.
+ 
+ Evaluate the original projection under the identification rule available
+ when it was made. Later evidence may warrant distinguishing a recurrent
+@@ -614,28 +650,29 @@
+ 
+ \subsection{Representation and causal explanation}
+ 
+-A category label computed deterministically from fully observed features
+-adds no information to those features. A representation can still
+-help an investigator working with incomplete or noisy observations:
+-it can support pooling, reduce separate assumptions, or express relevant
+-dependencies. Such benefits require a comparison for the specified task.
+-They don't establish that the represented grouping has a unique causal
+-ground.
+-
+-Intersections receive the same treatment. A joint grouping can be
+-economical even though its membership follows from the component
+-assignments. An advantage over one restricted model wouldn't give it
+-priority for every inquiry. Conversely, derivability alone doesn't make
+-it useless. The comparison needs to identify what the alternatives retain
+-and what the investigator needs to infer.
+-
+-A historical explanation can remain informative after present structure
+-is fully observed. If recruitment produced that structure, conditioning
+-on it can remove the association through which the history is recognized.
+-A test of additional prediction from present evidence differs
+-from a test of the proposed history. For processing, too, conditioning
+-on measured frequency doesn't by itself identify repetition's total or
+-direct causal contribution to retrieval.
++Suppose an inventory records that a use occurs standalone and conveys
++stance. Adding the label \enquote{standalone stance use} abbreviates
++those two observations; it adds no information to a fully observed
++record. The combined grouping could still be useful when investigating
++something not yet recorded, such as interpretation under repetition.
++Pooling observations from its members might help estimate that pattern
++from sparse records. Whether it does is a comparative question.
++
++The grouping selects an intersection: stance \mention{Damn!} qualifies,
++while prenominal \mention{damn} in \mention{the damn car} fails the
++standalone condition. A model can represent that intersection as one
++label or keep its two component assignments. Their relative value
++depends on the information available and the target being predicted.
++A benefit for estimating repetition behavior wouldn't establish a
++unique cause of the shared properties or priority for every inquiry.
++
++Explanation asks another question. Once the present form of \mention{gee}
++has been recorded, knowing its religious source adds nothing to that
++already observed spelling. Its history can still explain how the form
++arose. More generally, conditioning a prediction on consequences of a
++historical process can remove the association through which that process
++is recognized. Section~\ref{sec:history} distinguishes this predictive
++comparison from assessment of the proposed history itself.
+ 
+ \textcite[295--299]{hill1965} offered viewpoints for comparing causal
+ interpretations with alternatives, including temporal order and consistency
+@@ -705,12 +742,12 @@
+ 
+ An account of the stratum would gain projective reach if membership
+ organized acquisition, adaptation, or alternation beyond the diagnostic
+-used to identify it. For example, a class based on independently
+-established segmental possibilities could be assessed against patterns of
+-spelling pronunciation. That's a prospective comparison. The existence
+-of unusual sounds and reported alternatives establishes a descriptive
+-motivation; it doesn't yet show one phonological class with a uniform
+-learning or adaptation profile.
++used to identify it. Consider the contrast between producing a click
++and pronouncing \mention{tut-tut} as spelled words. An investigation
++could first group signs by independently recorded articulations, then
++ask which permit a spelling pronunciation and in what settings.
++That prospective comparison would test a relation beyond the articulation
++used for grouping; the reported alternatives don't yet establish it.
+ 
+ Regular phonology matters too. In a ten-language study of open repair
+ interjections, \textcite{dingemanse2013huh} find broad phonetic similarities
+@@ -737,13 +774,13 @@
+ clauses can all be prosodically detached
+ \citep[66, 1350]{HuddlestonPullum2002}.
+ 
+-The relation can be stated in two steps. First identify an occurrence
+-as a realization of a sign-type using evidence appropriate to that
+-identification. Then classify its prosodic organization from the acoustic
+-record. A claim about the sign-type concerns the distribution of those
+-realizations over relevant environments. One detached occurrence is
+-evidence about a possibility; an adequately sampled distribution is needed
+-for a claim about what's characteristic.
++Take a recording of \mention{Damn, we're going to be late!}. The
++context can identify the reaction use while the acoustic record supplies
++evidence about a boundary, such as a pause or pitch movement. A
++second recording can realize the same use with different timing.
++Classifying these productions asks how that occurrence was packaged;
++a claim about characteristic packaging needs the distribution of
++productions across relevant environments.
+ 
+ Interaction supplies some of those environments. \textcite{ogden2013clicks} describes English
+ clicks and percussives in stance-taking, sequence management, word searches,
+@@ -752,13 +789,13 @@
+ The range of jobs also cautions against assigning one conventional action
+ or expressive meaning to every click.
+ 
+-Written corpora provide indirect access to this relation. Punctuation
+-and standalone position can indicate detachment, but editorial conventions
+-and genre affect both. Using the same comma as evidence for prosodic
+-isolation and syntactic independence can't then establish an independently
+-observed association between the two. The phonological and grammatical
+-inquiries may converge, but the evidence for their convergence has to
+-preserve the distinction between their measures.
++The comma in a transcript of \mention{Damn, we're going to be late!}
++is a different kind of observation. It may record a transcriber's
++analysis of detachment, but it isn't itself a pause or a grammatical
++relation. Entering that comma once as a prosodic boundary and again
++as syntactic independence would manufacture apparent agreement between
++the measures. An acoustic analysis and a constructional analysis can
++converge without relying on that single transcription decision.
+ 
+ The two phonological inquiries extend the family in different ways. Phonological strata can share their sign-type bearers and
+ enter membership intersections. Prosodic classes of occurrences connect
+@@ -879,12 +916,13 @@
+ examples motivate that inquiry without establishing a category-wide result.
+ 
+ Evidence for replication also needs to distinguish innovations from their
+-descendants. Several communities' uses of a borrowed sign can be
+-several outcomes of one innovation, rather than independent instances
+-of a recruitment route. They may support an account of transmission
+-or subsequent divergence. They provide a weaker comparison for the
+-claim that the same source independently produces the same result.
+-The sampling unit depends on which historical claim is at issue.
++descendants. Suppose one community coins a clipped exclamation and
++three others borrow it. Four community records then document one
++origin, not four independent instances of clipping. They can support
++an account of transmission or subsequent divergence. Testing whether
++the same source repeatedly gives rise to the same outcome would
++require independently established innovations. This hypothetical count
++makes the sampling unit depend on the historical claim.
+ 
+ An ancestry classification can still explain a present contrast even
+ when ancestry adds no predictive information after all its consequences
+@@ -930,6 +968,14 @@
+ maintain a class of interjections. Those stronger proposals would need
+ their own measures of behaviour and change.
+ 
++Consider a proposed comparison of \mention{Gee!} and \mention{Jesus!}
++as reactions to surprising news among close friends and during a
++formal interview. Ratings would ask how appropriate each choice seems
++in each setting. A listener actually correcting a speaker's choice
++would be a different observation. Repeated corrections followed by
++changes in use would be relevant to a further claim about regulation.
++The comparison specifies possible evidence, not findings about these forms.
++
+ Social indexing poses a related but distinct inquiry. Agha's account
+ of enregisterment concerns the social recognition of speech forms as
+ indexing attributes of speakers, with a repertoire's associations and
+@@ -939,24 +985,24 @@
+ recognition and use of those associations, beyond a frequency difference
+ between geographical collections.
+ 
+-These social classifications can matter even where the sequential
+-action stays constant. Two forms might both register surprise while
+-carrying different audience-sensitive evaluations. Conversely, one
+-socially marked repertoire can include forms used for several actions.
+-The intended contribution determines whether to group conventional
+-sign-types, uses in a specified community, or particular selections
+-in context. Where conventions differ by community, that scope belongs
+-in the identification of the bearer.
++For example, if listeners regularly associated \mention{Gee!} with an
++old-fashioned speaker persona, their judgments would support a social
++association. They wouldn't merely be rating whether it was acceptable
++in the interview. Both investigations could concern the same surprise
++reaction, while asking different questions about its social meaning.
++Such associations could also unite forms used for several actions.
++Any claimed convention would need a specified community and evidence
++of shared recognition.
+ 
+ \subsection{Formulaicity and processing}
+ 
+-Formulaicity offers a similarly broad comparison. A familiar greeting,
+-a pause filler, and an idiom may share aspects of conventionalized
+-production while differing in grammar and conversational function.
+-An inquiry into their processing can group them on grounds that
+-cross the grammatical, semantic, and interactional groupings developed earlier. Its appropriate
+-name may be \term{formulaic expressions}, with an explicitly described
+-interjectional intersection.
++Compare a familiar greeting, \mention{How are you?}, a pause filler,
++\mention{um}, and the idiom \mention{kick the bucket}. These illustrative
++forms differ in grammar and conversational job. A processing inquiry
++could ask whether speakers produce them as familiar routines.
++Its grouping would cross the earlier grammatical and semantic divisions;
++\term{formulaic expressions} might name it more clearly than another
++kind of interjection.
+ 
+ \textcite{vanlanckersidtis2015} report differences in formulaic
+ language production and comprehension across clinical groups and
+@@ -967,23 +1013,21 @@
+ isolate an interjection-specific processing class or locate a neural
+ basis for grammatical interjections, expressive signs, or particular interactional resources.
+ 
+-An investigation of a narrower class would need an independently
+-motivated grouping and a specified processing contrast. Frequency,
+-familiarity, conventional meaning, and contextual predictability are
+-possible contributors to fluent retrieval. Their roles depend on
+-the question. If repeated use is proposed to help establish the
+-routine, statistical adjustment for measured frequency needs care.
+-The resulting conditional association identifies a causal contribution
+-only under additional assumptions about exposure, retrieval, and their
+-relation to the measure.
+-
+-Evidence of different processing can also cut across a proposed
+-class. A formulaicity measure might explain performance better than
+-membership in any interjection category. That would favour the broader
+-or continuous representation for this inquiry. The grammatical contrast
+-between a filler and an idiom would remain available to an
+-inquiry into syntax. Local comparative failure has a definite consequence
+-without erasing independently supported distinctions elsewhere.
++For the greeting, one question is whether \mention{How are you?} is
++retrieved fluently because repeated use has helped establish a routine.
++A comparison at the same measured frequency asks how fluency differs
++among expressions with comparable recorded use. That adjustment doesn't
++by itself identify how much repetition contributed to the greeting's
++fluency. A causal interpretation still needs assumptions about exposure,
++retrieval, and how the frequency measure relates to speakers' experience.
++
++Suppose retrieval across \mention{How are you?}, \mention{um}, and
++\mention{kick the bucket} tracked familiarity more closely than any
++interjection grouping. That result would favour the broader or continuous
++representation for this processing inquiry. It wouldn't give the filler
++\mention{um} the internal grammar of \mention{kick the bucket}. The
++grammatical contrast would remain available for a different question,
++provided its own evidence held.
+ 
+ \subsection{Keeping the family open without multiplying labels}
+ 
+@@ -997,31 +1041,31 @@
+ \begin{table}[htbp]
+ \centering
+ \small
+-\caption{Further inquiries and their possible bearers}
++\caption{Further inquiries illustrated by constructed comparisons}
+ \label{tab:extensions}
+ \begin{tabular}{@{}>{\raggedright\arraybackslash}p{.19\textwidth}
+                   >{\raggedright\arraybackslash}p{.31\textwidth}
+                   >{\raggedright\arraybackslash}p{.42\textwidth}@{}}
+ \toprule
+-Inquiry & Possible bearer & Contribution requiring assessment \\
++Inquiry & Possible bearer & Concrete question to assess \\
+ \midrule
+ Morphological organization & Sign-types in identified constructions &
+-Distinguish invariance, productive operations, and retained source material. \\
++Does exclamatory \mention{heavens!} participate in a productive number contrast? \\
+ \addlinespace
+ Semiotic relations & Conventional signs, or sign--referent relations &
+-Organize depiction, indexing, and conventional meaning across grammatical categories. \\
++How do stance \mention{Damn!} and depictive \mention{Bang!} relate form to interpretation? \\
+ \addlinespace
+ Development and learning & Learners' repertoires or acquisition episodes &
+-Identify acquisition patterns without equating a learner's repertoire with an adult inventory. \\
++What changes between a child's first and later uses of \mention{ouch}? \\
+ \addlinespace
+ Multimodal organization & Conventional complexes or situated performances &
+-Explain contributions of vocal and visible components and their coordination. \\
++How does \mention{Bye!} coordinate with a wave, and what does each component contribute? \\
+ \addlinespace
+ Graphic communication & Written sign-types or particular inscriptions &
+-Distinguish conventional graphic forms from representations of spoken realizations. \\
++What does \mention{BANG} in a comic panel represent, compared with \mention{bang} in a transcript? \\
+ \addlinespace
+ Annotation & Tokens under a stated coding scheme &
+-Support reliable retrieval or comparison for the scheme's task. \\
++Should a query return both \mention{Ha! I knew it} and \mention{12 ha of land}? \\
+ \bottomrule
+ \end{tabular}
+ \end{table}
+@@ -1034,23 +1078,22 @@
+ \citep[36]{stange2016}. These facts motivate several comparisons,
+ without supplying one morphological definition of interjectionhood.
+ 
+-Semiotic and graphic inquiries can likewise cross familiar boundaries.
+-A depiction can be realized as a conventional spoken sign or an
+-inscription, while an inscription can also represent a speaker's
+-production. Work on ideophones distinguishes depictive resources
+-from the predominantly indexical relation associated with interjections
+-\citep{dingemanse2018,dingemanseakita2017}. Whether a particular graphic
+-form is a transcription, an autonomous convention, or both requires
+-evidence about its use; resemblance alone doesn't decide.
+-
+-Developmental and multimodal inquiries can change the bearer more
+-radically. An acquisition episode has participants and a temporal
+-course. A situated vocal--visual performance includes coordination
+-that a lexical sign-type doesn't exhaust. Classifying either can
+-be informative, provided the connection to the sign-type inventory
+-is made through learning or realization relations. Their classes
+-can't be intersected directly with a set of signs as though all
+-were objects of the same kind.
++In a constructed comic panel, \mention{BANG} beside a backfiring car
++can depict its noise without representing anyone's speech. In a
++transcript, \mention{bang} can instead record a narrator's spoken depiction.
++The inscriptions have the same letters but stand in different relations
++to speech and events. Work on ideophones distinguishes depiction from
++the predominantly indexical relation associated with interjections
++\citep{dingemanse2018,dingemanseakita2017}; identifying the relation in a
++particular inscription needs evidence about its use.
++
++Following a child learning \mention{ouch} would record a learner,
++occasions of use, and changes between them. Those episodes aren't
++additional entries in an adult inventory. Likewise, a recording of
++\mention{Bye!} with a wave includes the timing of a visible movement,
++which the lexical sign alone doesn't specify. Acquisition and performance
++can be classified, but their connection to sign-types runs through
++learning and realization rather than shared membership in one list.
+ 
+ Annotation makes the practical stakes clear. A tag can be useful
+ for retrieving conversational responses even if its extension combines
+@@ -1068,6 +1111,13 @@
+ An interjection tag, the string \mention{ha}, and a conventional
+ interjectional use of \mention{ha} select different sets. Confusing them
+ can turn a retrieval convention into apparent evidence about a category.
++
++The constructed strings \mention{12 ha of land} and \mention{Ha! I
++knew it} make the difference visible. A search for the spelling
++\mention{ha}, ignoring capitalization, can retrieve both. An investigation
++of the reaction use needs to distinguish them. A tag intended to
++make that distinction is still a measurement decision whose accuracy
++needs checking.
+ 
+ The \mention{ha} record makes the consequence concrete. Some tagged
+ occurrences abbreviate \term{hectare}, especially in agricultural prose.
+@@ -1125,20 +1175,21 @@
+ analytical purpose. Here, the same care is needed within a language
+ and within an inquiry.
+ 
+-The expressive--depictive comparison establishes that several groupings
+-can be useful for one question about meaning contribution. A procedural
+-account asks a different question about encoding, potentially cutting
+-across those groupings. If two encoding accounts conflict,
+-the conflict remains. Neither putting them in different fields nor
+-assigning each a new label makes their claims compatible.
+-
+-Failure has correspondingly local consequences. A grouping can lack
+-reliable application conditions, obscure the stated descriptive contrast,
+-or fail to support a projected property. A historical explanation can
+-lack independently supported source evidence. Revising the grouping or
+-the question creates a new proposal; it doesn't preserve the support
+-of a failed claim. Other distinctions survive only where they have
+-their own evidence.
++In \mention{The damn car won't start}, expressive contribution concerns
++the attitude conveyed; procedural encoding concerns how the wording
++guides its recognition. Both descriptions could hold. The contrast with
++depictive \mention{Bang!} concerns a different contribution, while the
++exclusive encoding hypotheses in Section~\ref{sec:encoding} disagree about
++the same use. Assigning the hypotheses to different fields wouldn't
++make their claims compatible.
++
++Failure has correspondingly local consequences. Suppose a repetition
++test found that an independently identified expressive use didn't
++strengthen stance under the specified conditions. The prediction of
++intensification would fail there; the observed distinction between
++conveying stance and depicting a sound wouldn't disappear with it.
++Restricting the prediction to another subtype would create a new
++claim. Its support couldn't be inherited from the failed generalization.
+ 
+ This discipline also limits positive conclusions. The semantic comparison
+ favours preserving expressive and depictive contributions, while leaving
+@@ -1150,12 +1201,12 @@
+ 
+ \subsection{Overlap, mechanisms, and category standing}
+ 
+-For common bearers, intersections are well-defined and may be useful.
+-Their value depends on the task and alternatives, including representations
+-of separate memberships and their dependencies. No automatically privileged
+-category follows from an overlap among grammatical interjections,
+-expressives, and interactional resources. Nor is a useful intersection
+-excluded merely because its membership can be derived.
++Selecting standalone stance uses includes expressive \mention{Damn!}
++and excludes prenominal \mention{damn} in \mention{the damn car}. That
++intersection is well-defined and can fix a useful comparison set.
++Its further value depends on the question: does restricting attention
++to those uses help with the proposed inference? Neither the overlap
++itself nor the availability of its component assignments answers that.
+ 
+ Distinct categories needn't be statistically independent, and they can
+ share causal processes. Strong correlation doesn't make two questions
+@@ -1165,13 +1216,14 @@
+ specified causal interpretations; they don't turn covariation into
+ a mechanism by being applied to a diagram.
+ 
+-Gradience is another separate issue. A class can have graded membership,
+-sharp subtypes, or unresolved cases due to missing evidence. A prototype
+-account organizes typicality and similarity \citep{rosch1975,taylor2003}.
+-The assessment here asks what such organization accomplishes and what
+-it licenses an investigator to infer. Either a prototype or a categorical
+-representation can serve a task; neither gains empirical category standing
+-from its form alone.
++For \mention{Bang!}, uncertainty between a nominal-fragment and an
++interjection analysis doesn't itself establish graded membership. The
++analysis may simply be unresolved. A separate inquiry could ask how
++typical speakers judge it compared with \mention{Damn!}; prototype
++accounts organize such typicality and similarity \citep{rosch1975,taylor2003}.
++Either a graded or a categorical representation can serve a task,
++but its form alone doesn't establish what it licenses an investigator
++to infer.
+ 
+ A field supplies no fixed quota of categories, and an inquiry
+ needn't end with just one. A grouping may serve several questions across
+@@ -1190,11 +1242,12 @@
+ achievements should be assessed for named groupings, not allocated in
+ advance to grammar, semantics, and pragmatics.
+ 
+-The expressive--depictive comparison shows why one semantic inquiry can
+-need several groupings. The phonological case shows why evidence for
+-one grouping leaves a different membership question open. A history
+-can explain an outcome without validating an ancestry category, and a
+-corpus tag can aid retrieval without identifying the intended sign-types.
++The contrast between stance \mention{Damn!} and depictive \mention{Bang!}
++shows why one semantic inquiry can need several groupings. Unusual
++phonation in \mention{Bang!} wouldn't by itself decide its grammar.
++The documented route to \mention{gee} explains an outcome without
++validating an ancestry category. A query for \mention{ha} can aid
++retrieval while also returning hectares.
+ In each case, making the bearer, grouping basis, and intended contribution
+ explicit changes what would count as support or counterevidence.
+ An undifferentiated category judgment conceals those differences; the

@@ -1,0 +1,543 @@
+--- before/inquiry-relative-categories.tex
++++ inquiry-relative-categories.tex
+@@ -60,22 +60,25 @@
+ \maketitle
+ 
+ \begin{abstract}
+-Linguistic category disputes often combine different questions about the
+-same expressions. I develop an account of inquiry-relative categories,
+-using English interjections as a worked case. The account distinguishes
+-useful descriptive classes from empirical categories whose co-occurring
+-properties support induction for particular purposes. Expressive
+-\mention{Damn!} and depictive \mention{Bang!} show why one inquiry into
+-meaning can require several distinctions: conveying a stance and portraying
+-a sound preserve different relations, despite similarities in grammatical
+-distribution. Phonological resemblance likewise leaves grammatical
+-membership unresolved. These comparisons locate the dispute in the
+-inference being claimed: evidence can support a descriptive distinction
+-without establishing category standing, and failure of one projection
+-leaves independently supported distinctions intact. Several categories
+-can serve one inquiry, just as one category can serve several
+-inquiries. Their legitimacy depends on the inferences they support, making
+-pluralism compatible with empirical grounds for rejecting particular proposals.
++Linguistic category disputes often seek one classification for expressions
++that support several kinds of inference. I develop an account of
++inquiry-relative categories through English interjections. Established
++grammatical descriptions support a core including \mention{ouch},
++\mention{oops}, \mention{hey}, and \mention{sh}: their conventional uses
++connect independent utterance with clausal supplementation and restricted
++integration. This profile licenses grammatical expectations across
++environments while grouping expressions with different meanings and
++conversational jobs. Expressive contribution, in turn, connects standalone
++\mention{Damn!} with prenominal \mention{damn} across a grammatical
++difference. Comparing stance with sound depiction in \mention{Bang!}
++shows why even one semantic inquiry can require several distinctions.
++These cases support a division of analytical labour: grammatical
++membership, expressive commonality, and depictive contribution answer
++different questions about overlapping material. The account distinguishes
++descriptive success from further projective and causal claims, whose
++evidence requires separate assessment. Several classifications can
++be correct without one superseding the others, while incompatible claims
++about the same use remain open to empirical adjudication.
+ \end{abstract}
+ 
+ \noindent\textbf{Keywords:} inquiry-relative categories; category pluralism;
+@@ -95,6 +98,15 @@
+ surrounding clause. A single judgment about whether \mention{damn} is an
+ interjection leaves these differences unresolved.
+ 
++A grammatical answer begins with a category whose members support
++expectations about their use in constructions. \mention{Ouch!} can
++constitute an utterance and supplement a clause in \mention{Ouch, that
++hurt}. Attention-getting \mention{hey} and silencing \mention{sh} share
++the broad grammatical profile despite their different conversational
++jobs. Establishing that profile gives us a basis for assessing the
++\mention{damn} uses without requiring all expressive signs to belong
++to the same lexical category.
++
+ A comparison with depictive \mention{Bang!} exposes a further distinction.
+ The selected \mention{damn} use conveys an evaluative stance; the selected
+ \mention{Bang!} depicts a sound. Both concern meaning, but they motivate
+@@ -131,12 +143,12 @@
+ language-particular descriptive categories from concepts designed for
+ cross-language comparison. The division of labour here is different:
+ several inquiries within English can organize the same expressions
+-differently. The assessment developed here identifies where evidence
+-for one claim leaves another unsupported. A semantic contrast can be
+-preserved without establishing category-wide projections; phonological
+-resemblance can leave grammatical membership unresolved. Specifying
+-the bearer, grouping, and intended inference makes those transitions
+-available for adjudication.
++differently. The assessment developed here starts with a positive grammatical
++case and follows its relation to other groupings. A grammatical category
++organizes expectations about constructions; an expressive grouping preserves
++a relation that crosses its boundary. Each succeeds for a different
++question. Specifying the bearer, grouping, and intended inference also
++shows when two analyses compete and what evidence could decide between them.
+ 
+ The worked cases are named for the relations they investigate: grammatical
+ interjections, expressive signs, depictive signs, continuers, repair
+@@ -154,9 +166,10 @@
+ can fail to identify the intended bearers. A linked supplement preserves
+ the detailed measurement checks and two withdrawn confirmatory analyses.
+ 
+-Section~\ref{sec:worked} develops the named groupings and completes an
+-expressive--depictive comparison. Section~\ref{sec:assessment} distinguishes
+-their possible achievements. Sections~\ref{sec:phonology} and~\ref{sec:history}
++Section~\ref{sec:worked} establishes a grammatical core, traces expressive
++commonality across grammatical differences, and compares expressive and depictive
++contributions. Section~\ref{sec:assessment} distinguishes the achievements
++of these groupings. Sections~\ref{sec:phonology} and~\ref{sec:history}
+ apply the assessment to phonological and historical claims;
+ Section~\ref{sec:extensions} considers broader social and processing
+ classes. The measurement case and discussion then draw out what changes
+@@ -181,15 +194,62 @@
+ what those traditions distinguish without treating each tradition as the
+ source of exactly one category.
+ 
+-\subsection{Grammatical interjections and expressive signs}
+-
+-The grammatical proposal begins with standalone and supplement distribution.
+-In \mention{Damn, we're going to be late!}, \mention{damn} is appended to
+-the clause without being its complement or modifier. \textit{CGEL} treats
+-interjections as occurring on their own or functioning as supplements
+-\citep[1350, 1361]{HuddlestonPullum2002}. In those conventional uses,
+-they're characteristically invariant and resist the ordinary constituent
+-positions available to nouns, verbs, or adjectives.
++\subsection{A grammatical core and what it projects}\label{sec:grammatical-core}
++
++Someone drops a cup and says \mention{Oops!}; someone catches a finger
++in a drawer and says \mention{Ouch!}. Either reaction can also accompany
++a clause. The following constructed pairs illustrate the two environments.
++
++\ea\label{ex:core-distribution}
++  \ea \exmention{Oops!}\qquad\exmention{Oops, I've dropped it!}
++  \ex \exmention{Ouch!}\qquad\exmention{Ouch, that hurt!}
++  \z
++\z
++
++In the independent utterances, the lexical item supplies the expression
++without an unspoken clause. In the longer examples, it functions as
++a supplement to the clause. \mention{I've dropped it} and \mention{that
++hurt} are already complete: the reaction fills no argument or integrated
++modifier position within them. These are two characteristic environments
++for the grammatical category \term{interjection}.
++
++I take \mention{ah}, \mention{hey}, \mention{oh}, \mention{oops},
++\mention{ouch}, \mention{sh}, \mention{ugh}, and \mention{wow}, in
++their conventional interjectional uses, as a working core. \textit{CGEL}
++identifies these as central members and attributes both independent
++and supplementary use to them \citep[1361]{HuddlestonPullum2002}.
++Its additional example \mention{alas} illustrates how a dated form
++can have a secure grammatical assignment. Here, \term{core} concerns
++the support for those assignments, rather than frequency or typicality.
++
++The shared profile combines these positive possibilities with restricted
++integration. The selected uses are characteristically invariant and don't
++participate in the ordinary argument, predicative, and modifier patterns
++of nouns, verbs, and adjectives. \textcite[105--106]{ameka1992} describes
++primary interjections through their independent utterance capacity, limited
++combination, and lack of productive inflection. \textcite[124--125]{wilkins1992}
++likewise identifies a formal profile of conventional lexical utterances,
++keeping their semantic and pragmatic properties available for separate
++investigation.
++
++This category licenses an inference between environments. An analyst who
++has established the grammatical assignment of reaction \mention{ouch}
++from independent uses can expect it also to supplement an intact
++clause. From an identified supplementary \mention{oops}, the analyst can
++expect an independent utterance without recovering a missing predicate.
++The grammatical descriptions warrant these expectations about the core;
++the pairs in (\ref{ex:core-distribution}) illustrate their application.
++Neither the examples nor the category claim imply free combination
++with every clause or a measured rate of predictive success.
++
++An isolated word can have a different analysis. Ordinary \mention{Stop!}
++is an imperative clause: the verb retains the possibilities illustrated
++by \mention{Stop the car!} and \mention{Don't stop!}. A reply
++\mention{Coffee} to \mention{What would you like?} retains nominal
++organization, also visible in \mention{Some coffee}. These constructed
++comparisons extend the contrast drawn by \textcite[124--125]{wilkins1992}
++with adjectival \mention{Black} as an answer to a question about colour.
++Utterance status alone doesn't reclassify the word.
+ 
+ Supplement function is shared by several categories. Compare the interjection
+ with the relative clause and noun phrase in these examples, adapted from
+@@ -202,21 +262,61 @@
+   \z
+ \z
+ 
+-Their external relation to a host leaves their internal grammatical
+-differences intact. The same applies to \mention{Damn these mosquitoes!}:
+-the whole phrase's detachment is compatible with complementation inside it.
+-\textit{CGEL} tentatively treats the head as an exceptional interjection
+-taking a noun-phrase complement \citep[1361 n.~70]{HuddlestonPullum2002}.
+-A verbal analysis remains a substantive alternative. Neither the
+-complement nor the whole phrase's independence decides between them alone.
++The relative clause and noun phrase retain their internal structure
++and other distributional possibilities. The interjection's assignment rests
++on the broader lexical profile. Treating all three as supplements
++answers a question about their relation to an anchor; distinguishing
++their categories answers questions about their internal organization and
++distribution elsewhere. The two classifications can both be correct.
++
++That grammatical core accommodates different contributions. A speaker can
++use \mention{Hey!} to attract attention and \mention{Sh!} to request
++silence, alongside \mention{Ouch!} as a reaction to pain.
++\textcite[113, 115]{ameka1992} groups the first two as conative,
++directed toward a listener's attention or action. Their shared grammar
++doesn't identify a single action or require the evaluative or affective
++stance characteristic of the expressive grouping developed below.
++
++\textit{CGEL}'s broad characterization of interjection meaning as expressive
++\citep[1361]{HuddlestonPullum2002} is compatible with recognizing these
++differences. It supplies no reason to identify all its grammatical
++members with a narrower semantic grouping. \textcite[114]{ameka1992}
++also allows functional overlap: an attention-getter can convey affect.
++The grammatical category is useful because of its distributional
++expectations, whether or not a particular use also belongs to an
++expressive or interactional grouping.\footnote{The grammatical analysis can
++itself be disputed. \textcite[126--127 n.~5]{wilkins1992} treats \mention{oh} in \mention{Oh, don't go
++on like an old fool} as a particle use, while reporting Ameka's
++co-utterance analysis. The core claim
++concerns identified conventional uses, not every occurrence of a spelling.}
++
++\subsection{Expressive commonality across a grammatical boundary}\label{sec:damn-profiles}
++
++Standalone \mention{Damn!} and supplementary \mention{damn} in
++\mention{Damn, we're going to be late!} extend the grammatical comparison
++to a form with an independently available verbal use. \textit{CGEL}
++analyzes the exclamatory uses as reanalysed interjections
++\citep[1361]{HuddlestonPullum2002}. Their distribution supplies the link
++to the core; their conveyed stance supplies a different link to
++expressive uses elsewhere in the grammar.
+ 
+ Prenominal \mention{damn}, in \mention{the damn car}, occurs inside the
+ noun phrase while contributing an attitude toward its referent.
+ \textcite[171, 182]{potts2007} distinguishes that expressive contribution
+ from descriptive content. Grammatical integration leaves a
+ semantic relation to standalone \mention{Damn!} available for analysis.
+-A single degree of interjectionhood would conceal which respect is shared
+-and which differs.
++The grammatical analysis separates these uses; the expressive analysis
++groups them together. Each preserves a relation needed for its own
++question.
++
++Complement-taking \mention{Damn these mosquitoes!} presents a further
++grammatical question. The phrase's external detachment is compatible with
++complementation inside it. \textit{CGEL} tentatively treats the head as
++an exceptional interjection taking a noun-phrase complement
++\citep[1361 n.~70]{HuddlestonPullum2002}. A verbal analysis remains a
++substantive alternative. This disagreement concerns the head's grammar;
++recognizing expressive commonality with the other \mention{damn} uses
++leaves it intact.
+ 
+ The semantic grouping here is \term{expressive signs}: conventional uses
+ whose deployment conveys an evaluative or affective stance, rather than
+@@ -230,13 +330,13 @@
+ form strengthens it. Whether those properties travel together across
+ the proposed extension is an empirical question.
+ 
+-The grouping is broader than grammatical interjections. The examples in
+-this paper are a selected part of it, chosen from disputes about
+-interjections; that selection supplies no additional semantic membership
+-condition. A broader account of expressives can include integrated signs
+-with no traditional interjection label. Its descriptive benefit here is
+-to preserve the expressive--descriptive distinction across independently
+-identified grammatical constructions.
++Expressive commonality extends across the grammatical boundary. Prenominal
++\mention{damn} qualifies because of its conveyed stance, while the
++grammatical core includes conative uses for which that stance isn't
++required. A fuller account of expressives can include integrated signs
++with no traditional interjection label. Selecting examples from interjection
++disputes lets us compare the two groupings without adding a semantic
++membership condition based on that traditional label.
+ 
+ \subsection{Expressive and depictive signs}\label{sec:expressive-depictive}
+ 
+@@ -426,6 +526,10 @@
+ \toprule
+ Selected bearer & Grammatical analysis & Meaning or action under comparison \\
+ \midrule
++Reaction \mention{ouch!}; \mention{oops!} & Core grammatical interjections & Pain or mishap reaction \\
++\addlinespace
++Attention-getting \mention{hey!}; silencing \mention{sh!} & Core grammatical interjections & Conative contributions; no evaluative or affective stance required by these selected readings \\
++\addlinespace
+ \mention{gee!}; stance \mention{damn!} & Interjection & Expressive contribution; stance display \\
+ \addlinespace
+ \mention{damn} in \mention{damn + NP} & Interjection head or verb: unresolved & Expressive contribution; the head's sequential affordances remain to be specified \\
+@@ -443,12 +547,14 @@
+ \end{tabular}
+ \end{table}
+ 
+-Several analyses can assign the same selected uses for different reasons.
+-The examples establish expressive commonality across a grammatical
+-difference and different contributions within a semantic comparison.
+-They leave the overall relation between the grammatical and interactional
+-extensions open. Agreement over selected cases neither supplies an
+-extensional separation nor settles how far the groupings coincide.
++The table records three useful relations. The grammatical core groups
++uses with different contributions, including reactions and conatives.
++The expressive grouping connects standalone and prenominal \mention{damn}
++across a grammatical difference. Within the semantic comparison, stance
++and depiction distinguish what the selected \mention{Damn!} and \mention{Bang!}
++contribute. These relations are sufficient to reject a single ordering
++from less to more interjectional: the relevant similarities change with
++the question.
+ 
+ \mention{Bang!} makes the unresolved grammatical question concrete.
+ English also has nominal \mention{bang}, as in the constructed
+@@ -460,13 +566,14 @@
+ 
+ \section{What warrants a class, a category, or an explanation?}\label{sec:assessment}
+ 
+-The expressive--depictive comparison establishes a descriptive distinction.
+-Whether either grouping supports further induction is a different question.
+-The same distinction applies to grammatical and interactional proposals:
+-an inventory can organize the observed uses accurately while leaving
+-its reach beyond those observations unknown. A common assessment should
+-recognize both the value of that description and the additional commitment
+-made when an empirical category is proposed.
++The grammatical core supports expectations connecting independent use,
++supplementation, and restricted integration. The expressive grouping preserves
++a semantic relation across a grammatical boundary; the expressive--depictive
++comparison distinguishes contributions within a semantic inquiry. Assessing
++these achievements separately explains how several classifications can
++succeed without becoming interchangeable. It also identifies the additional
++evidence needed when a descriptive distinction becomes the basis for
++a further prediction or a causal explanation.
+ 
+ \subsection{Bearers, grouping, contribution, and alternatives}
+ 
+@@ -585,14 +692,18 @@
+ support for a subtype doesn't automatically extend to its superordinate
+ class.
+ 
+-I provisionally accept the grammatical and action-specific categories
+-used here for the relations documented in the cited descriptions.
+-This inherits their evidential warrant at that scope; it doesn't
+-establish every extension considered here. The present comparisons
+-defend expressive and depictive distinctions and reject an unsupported
+-transfer from phonology to grammar. They leave the broader projective
+-standing of the proposed semantic, phonological, and ancestry groupings
+-open.
++For the grammatical core in Section~\ref{sec:grammatical-core}, the reach
++concerns use across environments: evidence about an independently identified
++supplementary use supports an expectation of independent utterance.
++The cited grammatical descriptions supply the warrant for that connection.
++Using both environments to assign a case and then predicting one
++from that assignment would instead recycle the identification evidence.
++
++I also adopt the action-specific categories for the sequential relations
++documented in the cited descriptions. The semantic comparisons establish
++expressive commonality and an expressive--depictive distinction; their broader
++projective standing requires further assessment. The later phonological
++and historical comparisons apply the same separation of achievements.
+ 
+ \subsection{Projection and identity}
+ 
+@@ -1029,79 +1140,30 @@
+ grammatical contrast would remain available for a different question,
+ provided its own evidence held.
+ 
+-\subsection{Keeping the family open without multiplying labels}
+-
+-Other inquiries are easy to motivate, but motivation alone doesn't
+-establish their proposed categories. Table~\ref{tab:extensions} identifies
+-several candidates and the contribution each would need to specify.
+-The table is an agenda for distinguishing questions. It makes no
+-claim that every row identifies a single class, that their extensions
+-are independent, or that all deserve an interjection label.
+-
+-\begin{table}[htbp]
+-\centering
+-\small
+-\caption{Further inquiries illustrated by constructed comparisons}
+-\label{tab:extensions}
+-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{.19\textwidth}
+-                  >{\raggedright\arraybackslash}p{.31\textwidth}
+-                  >{\raggedright\arraybackslash}p{.42\textwidth}@{}}
+-\toprule
+-Inquiry & Possible bearer & Concrete question to assess \\
+-\midrule
+-Morphological organization & Sign-types in identified constructions &
+-Does exclamatory \mention{heavens!} participate in a productive number contrast? \\
+-\addlinespace
+-Semiotic relations & Conventional signs, or sign--referent relations &
+-How do stance \mention{Damn!} and depictive \mention{Bang!} relate form to interpretation? \\
+-\addlinespace
+-Development and learning & Learners' repertoires or acquisition episodes &
+-What changes between a child's first and later uses of \mention{ouch}? \\
+-\addlinespace
+-Multimodal organization & Conventional complexes or situated performances &
+-How does \mention{Bye!} coordinate with a wave, and what does each component contribute? \\
+-\addlinespace
+-Graphic communication & Written sign-types or particular inscriptions &
+-What does \mention{BANG} in a comic panel represent, compared with \mention{bang} in a transcript? \\
+-\addlinespace
+-Annotation & Tokens under a stated coding scheme &
+-Should a query return both \mention{Ha! I knew it} and \mention{12 ha of land}? \\
+-\bottomrule
+-\end{tabular}
+-\end{table}
+-
+-Morphology illustrates the distinctions within a row. The absence of an inflectional paradigm differs from resistance
+-to derivation. A retained plural shape in exclamatory \mention{heavens!}
+-differs from a productive number contrast. Attested noun and verb
+-uses of \mention{ouch} in child-directed speech show why a claim
+-about invariance needs to specify the conventional use
+-\citep[36]{stange2016}. These facts motivate several comparisons,
+-without supplying one morphological definition of interjectionhood.
+-
+-In a constructed comic panel, \mention{BANG} beside a backfiring car
+-can depict its noise without representing anyone's speech. In a
+-transcript, \mention{bang} can instead record a narrator's spoken depiction.
+-The inscriptions have the same letters but stand in different relations
+-to speech and events. Work on ideophones distinguishes depiction from
+-the predominantly indexical relation associated with interjections
+-\citep{dingemanse2018,dingemanseakita2017}; identifying the relation in a
+-particular inscription needs evidence about its use.
+-
+-Following a child learning \mention{ouch} would record a learner,
+-occasions of use, and changes between them. Those episodes aren't
+-additional entries in an adult inventory. Likewise, a recording of
+-\mention{Bye!} with a wave includes the timing of a visible movement,
+-which the lexical sign alone doesn't specify. Acquisition and performance
+-can be classified, but their connection to sign-types runs through
+-learning and realization rather than shared membership in one list.
+-
+-Annotation makes the practical stakes clear. A tag can be useful
+-for retrieving conversational responses even if its extension combines
+-several grammatical or semantic classes. Its success is then measured
+-against the retrieval task and coding policy. That success doesn't
+-establish a lexical category. Conversely, poor retrieval under a
+-particular tag says little about the existence of a distinction
+-the tagging scheme wasn't designed to record.
++\subsection{Further inquiries and their objects}
++
++Morphological analysis can distinguish a retained plural shape in
++exclamatory \mention{heavens!} from a productive number contrast. Attested
++noun and verb uses of \mention{ouch} in child-directed speech likewise
++make the conventional use consequential for grammatical classification
++\citep[36]{stange2016}. The lexical profile of a reaction doesn't describe
++every construction containing the same spelling.
++
++Other inquiries change the object under investigation. A child's acquisition
++of \mention{ouch} concerns a learner and a series of learning episodes.
++A recording of \mention{Bye!} with a wave includes visible timing absent
++from a lexical inventory. In a constructed comic panel, \mention{BANG}
++can depict a noise without representing anyone's speech. Learning,
++multimodal performance, and graphic depiction connect to conventional signs
++through different relations, each requiring its own comparison.
++
++Annotation supplies a practical example. A tag can retrieve conversational
++responses while combining several grammatical or semantic classes. Its
++success concerns retrieval under a coding policy. To use the retrieved
++tokens as evidence about a lexical category, an investigator needs
++to establish how that policy relates to grammatical membership. The
++following measurement case shows the consequence of leaving that relation
++unchecked.
+ 
+ \section{A measurement case: tags, strings, and uses}\label{sec:evidence}
+ 
+@@ -1157,13 +1219,21 @@
+ 
+ \section{The general consequence}\label{sec:discussion}
+ 
+-Named groupings expose what a broad interjection judgment can obscure.
+-The grammatical analysis of prenominal \mention{damn} concerns its
+-integration into the noun phrase; the expressive analysis concerns
+-its contribution to interpretation. Depictive \mention{Bang!} poses
+-another semantic question. Continuers and repair initiators organize
+-different sequential environments. These relations needn't fit a
+-fixed matrix with one column for each discipline.
++The grammatical core gives a positive answer to one category question.
++Its members share a distribution that licenses expectations about independent
++and supplementary use, despite differences among their contributions.
++The expressive grouping gives a different answer: it connects standalone
++and prenominal \mention{damn}, which the grammar separates. Neither answer
++supersedes the other. A grammatical classification has succeeded when
++it supports the relevant grammatical expectations; expressive commonality
++remains available for a question about meaning.
++
++Depictive \mention{Bang!} introduces a further semantic relation, and continuers
++and repair initiators organize different sequential environments. These
++distinctions prevent pluralism from becoming a fixed arrangement with
++one category for grammar, another for semantics, and a third for interaction.
++The number and extension of the groupings depend on the questions
++and the relations supported by the evidence.
+ 
+ \subsection{Many-to-many relations and local failure}
+ 
+@@ -1191,13 +1261,13 @@
+ Restricting the prediction to another subtype would create a new
+ claim. Its support couldn't be inherited from the failed generalization.
+ 
+-This discipline also limits positive conclusions. The semantic comparison
+-favours preserving expressive and depictive contributions, while leaving
+-open whether separate classes, subtypes, or dimensions best serve a
+-further task. The phonological comparison rejects an unsupported transfer
+-to grammatical membership. The \mention{gee} history supports a particular
+-explanation. These are substantive outcomes without a claim that this
+-paper has validated a complete family of empirical categories.
++The resulting pluralism combines positive classifications with decisions
++about particular claims. The grammatical core supports distributional
++expectations; the semantic comparisons preserve expressive and depictive
++relations that a grammatical inventory alone leaves unspecified.
++The phonological comparison rejects an unsupported transfer to grammatical
++membership, while the \mention{gee} history supports a particular explanation.
++The success of one analysis gives no general priority over the others.
+ 
+ \subsection{Overlap, mechanisms, and category standing}
+ 
+@@ -1234,24 +1304,32 @@
+ 
+ \section{Conclusion}\label{sec:conclusion}
+ 
+-English interjections expose a general difference between assembling a
+-class and establishing an empirical category. Descriptive classes can
+-make contrasts visible; category claims require co-occurring properties
+-that support induction for particular purposes. Explanations require
+-further evidence about how an outcome arose or is maintained. These
+-achievements should be assessed for named groupings, not allocated in
+-advance to grammar, semantics, and pragmatics.
+-
+-The contrast between stance \mention{Damn!} and depictive \mention{Bang!}
+-shows why one semantic inquiry can need several groupings. Unusual
+-phonation in \mention{Bang!} wouldn't by itself decide its grammar.
+-The documented route to \mention{gee} explains an outcome without
+-validating an ancestry category. A query for \mention{ha} can aid
+-retrieval while also returning hectares.
+-In each case, making the bearer, grouping basis, and intended contribution
+-explicit changes what would count as support or counterevidence.
+-An undifferentiated category judgment conceals those differences; the
+-account developed here makes them available for adjudication.
++English interjections support several classifications because the relevant
++similarities crosscut. A grammatical core including \mention{ouch},
++\mention{oops}, \mention{hey}, and \mention{sh} supports expectations about
++independent utterance and clausal supplementation. Within that core,
++reactions and conatives differ in contribution. Across the grammatical boundary,
++standalone and prenominal \mention{damn} retain expressive commonality.
++The semantic comparison with depictive \mention{Bang!} adds another
++distinction within the same broad inquiry into meaning.
++
++These analyses give more than one correct answer because they answer
++different questions. The grammatical category's contribution lies in
++its grammatical projections; the expressive grouping preserves a relation
++across constructions. Neither has to absorb the other to succeed.
++Several groupings can serve one inquiry, and a grouping can contribute
++to several inquiries. Claims about a particular use can still conflict,
++as the competing analyses of complement-taking \mention{damn} illustrate.
++
++The assessment distinguishes these positive achievements from stronger
++projective and causal claims. It accepts the documented grammatical
++profile, preserves the semantic distinctions, rejects an unsupported
++phonology-to-grammar inference, and confines the \mention{gee} explanation
++to the history it documents. Pluralism changes the question from
++which classification should govern the whole domain to which relations
++each classification supports. The evidence can then decide a disputed
++claim without requiring every other classification to stand or fall
++with it.
+ 
+ \ifblind\else
+ \section*{Acknowledgements}

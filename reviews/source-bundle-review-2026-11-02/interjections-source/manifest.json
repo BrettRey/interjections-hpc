@@ -1,0 +1,74 @@
+{
+  "manuscript_source_sha256": "027a1f1c005732717b5855cdc70b5e6062af26ed0eefe20ab89dfaae3022ceea",
+  "archive_revision": "074dfb44cef5b18d292ac176ba5acbfedc76e3b1",
+  "files": {
+    ".house-style/preamble-original.tex": {
+      "bytes": 5806,
+      "sha256": "870e95045b08bd5ba26eabdf320b32d24295c3b5bad896c5d07cc92f160ac106"
+    },
+    ".house-style/preamble.tex": {
+      "bytes": 5972,
+      "sha256": "233ff8a843678b3d032978cfb6fd29700a181c151ac8fdcb92ed3d61da0d2c9e"
+    },
+    "README.txt": {
+      "bytes": 4695,
+      "sha256": "a245d20f17039ad9559f90f4333d45ee17bc2ede98a421a5bae5f121198e6473"
+    },
+    "audit/archive-provenance.json": {
+      "bytes": 2806,
+      "sha256": "89ffe3206a8c445387e03cac3e2366f212eb66d0b17703f13ffd134f8b857db5"
+    },
+    "audit/audit-summary.json": {
+      "bytes": 1804,
+      "sha256": "d03bd123619f039f640a0e66b3a233c15cc505fbac39ce147519e5e477383cc4"
+    },
+    "figures/country-variation.pdf": {
+      "bytes": 51108,
+      "sha256": "5c05d83cf5d4d2c0723d2b50428efdfc3b89274e176bf628db9cc56ddec0c863"
+    },
+    "figures/fie-raw-proportions.pdf": {
+      "bytes": 7170,
+      "sha256": "ff180d34cb36045a8263e86059ebf1d34b4462acd74927ad0d0a784ed168c73a"
+    },
+    "figures/fie-tau-posteriors.pdf": {
+      "bytes": 14747,
+      "sha256": "e91ec1d08e97c56632d87264e60300346a761178a794586c0a91fd902b9ef058"
+    },
+    "figures/interjection-turnover.pdf": {
+      "bytes": 25112,
+      "sha256": "9e9de54774ab9607c0aa8c692515db52603c395f9e912c09b3abe856778d8b0c"
+    },
+    "interjections-revised.pdf": {
+      "bytes": 376823,
+      "sha256": "db7e22779e449d6a462d4890ca9362b2fb1fa2fabc3cf0ab9562de0673c187c3"
+    },
+    "interjections-revised.tex": {
+      "bytes": 180322,
+      "sha256": "027a1f1c005732717b5855cdc70b5e6062af26ed0eefe20ab89dfaae3022ceea"
+    },
+    "langsci-gb4e.sty": {
+      "bytes": 31086,
+      "sha256": "48b068132f58fe5c79312686b8db37935cbcacf93b42e539ff983dec374dce63"
+    },
+    "references-standalone.bib": {
+      "bytes": 22696,
+      "sha256": "ac1d6e2e59e81413575b0e54a0d104ac61c4c74e3ff4d47e4cb5277aec36f994"
+    },
+    "revision-and-audit.txt": {
+      "bytes": 12530,
+      "sha256": "d33cbc2878b0f615eb79952a67e20b75f2d127af845a6eafcf759dc47a6468a4"
+    },
+    "validation/bibliography-provenance.json": {
+      "bytes": 3478,
+      "sha256": "33671fbabc83550f73f647899ccfb330a391cef5f5407aea41c51f67ca7118f5"
+    },
+    "validation/static-checks.json": {
+      "bytes": 616,
+      "sha256": "3ce84d9a6c0be004878332a8314c1d497dfb5829c09d3ce37ed8b309a71411f2"
+    },
+    "validation/validation-report.json": {
+      "bytes": 2750,
+      "sha256": "530f4b209ea48a78a8c955cc52b1d812347265404426fdd262c03162313bc099"
+    }
+  }
+}

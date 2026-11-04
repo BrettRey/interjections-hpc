@@ -1,0 +1,83 @@
+
+=== terminology audit: reviews/source-bundle-review-2026-11-02/interjections-source/interjections-revised.tex ===
+flag term                            first use   gloss  n   
+FLAG interjection                    title:88    NO     138 
+       ^ } English interjections bring together grammatical, semantic, and interactional
+FLAG path dependence                 title:90    NO     5   
+       ^ concerns path dependence: recruitment can leave source-specific residues after
+FLAG sign-type                       abstract:88 NO     28  
+       ^ ionalized sign-types, identified independently of the particular target a predic
+FLAG network                         abstract:90 NO     25  
+       ^ te causal network or excluding constructional alternatives. GloWbE and COHA prob
+FLAG predictive success              abstract:90 NO     7   
+       ^ fication, predictive success, representational advantage, and causal explanation
+FLAG stabilizer                      body:123    NO     7   
+       ^ encies or stabilizers. The classifications and the causal claims must remain sep
+FLAG uptake                          body:99     NO     4   
+       ^ recipient uptake. Those jobs don't line up neatly with a single grammatical dist
+FLAG anchoring                       body:753    NO     1   
+       ^ h (p.~4), anchoring the sampling frame to American frequency data. Country diffe
+     expressives                     abstract:88 yes    3   
+     profile                         body:109    NO     58  
+     question                        body:101    yes    53  
+     Token                           body:103    NO     29  
+     projectibility                  body:93     yes    20  
+     Warrant                         body:117    yes    11  
+     projection                      body:305    yes    11  
+     supplements                     body:93     yes    10  
+     non-referentiality              body:147    yes    9   
+     Stability                       body:316    yes    8   
+     routine formulae                body:111    yes    7   
+     onomatopoeia                    body:438    yes    7   
+     Grounds                         body:305    yes    5   
+     Corrective control              body:317    NO     5   
+     Proper noun                     body:386    NO     5   
+     Stabilizers                     body:123    NO     4   
+     proper name                     body:386    NO     4   
+     interactives                    body:362    NO     4   
+     hectare                         body:699    NO     4   
+     property cluster                body:115    NO     3   
+     change-of-state token           body:232    yes    3   
+     Interrogative                   body:388    NO     3   
+     conversational valence          body:256    yes    2   
+     projective declaration          body:246    yes    2   
+     Network order                   body:316    yes    2   
+     homeostatic                     body:317    NO     2   
+     predictive advantage            body:609    NO     2   
+     inserts                         body:107    NO     1   
+     licenses                        body:117    NO     1   
+     response token                  body:232    yes    1   
+     Causal support                  body:609    NO     1   
+     Category-driven projection      body:629    NO     1   
+     Cue-driven inference            body:629    NO     1   
+
+8 flag(s): term used unglossed in front matter, or watchlist term never glossed at first use.
+
+--- acronyms: reviews/source-bundle-review-2026-11-02/interjections-source/interjections-revised.tex ---
+flag acronym   first use     expanded  n   
+FLAG COHA      abstract:90   NO        15  
+       ^ loWbE and COHA probes describe country-level frequency variation and inventory t
+FLAG PM        body:525      NO        1   
+       ^ nces than PMs} \citep[69]{unuabonahdaniel2020}. \mention{Lah}, by contrast, is c
+FLAG OCR       body:567      later     7   
+       ^ ide clear OCR false positives assigned zeros on all three diagnostics and retain (expanded only at line 870)
+FLAG COCA      body:597      NO        1   
+       ^ rjection. COCA frequencies rise from 0.01 per million in 1990--94 to 1.09 in 201
+FLAG SD        body:697      NO        2   
+       ^ : country SD 0.44, 95\% CrI 0.28--0.65. Its estimated predictive improvement is
+FLAG ELPD      body:697      later     4   
+       ^ mately 18 ELPD units with SE 13. These results don't establish item-type-specifi (expanded only at line 812)
+FLAG SE        body:697      NO        2   
+       ^ nits with SE 13. These results don't establish item-type-specific conditioning,
+FLAG OED       body:701      NO        1   
+       ^ e \textit{OED} classes \mention{pop} in \mention{the cork went pop} as an adverb
+FLAG GO        body:829      NO        1   
+       ^ families GO: \begin{center} \end{center} \subsection{Intended measures and
+     CGEL      body:105      yes       7   
+free NP        body:119      NO        10  
+free IP        body:194      NO        3   
+free VP        body:469      NO        1   
+     PSIS      body:790      yes       2   
+     KWIC      body:827      yes       3   
+
+9 acronym flag(s): used before any expansion. Expand at first use, or mark free with --free for this venue.

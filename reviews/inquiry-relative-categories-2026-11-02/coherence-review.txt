@@ -1,0 +1,41 @@
+BOUNDED COHERENCE REVIEW — INQUIRY-RELATIVE CATEGORIES
+2 November 2026 — Codex, one complete read-only pass
+
+Verdict
+
+No major architectural incoherence found. The new manuscript now makes an open family of inquiry-relative classifications intelligible without silently treating the initial three as exhaustive or privileged. It applies the same bearer/grouping/contribution/scope/alternative questions to the initial and further candidates; distinguishes classification of signs from classification of realizations and changes; separates ancestry from the synchronic primary/secondary distinction; leaves the intersection's usefulness open; and keeps descriptive, projective, representational, and explanatory claims substantially apart. The empirical withdrawals and the narrower possible contribution of the 97-row recode are now stated accurately and without reinstating the original confirmatory result.
+
+Three localized issues merit correction. None calls for another redesign. Source-line references below were checked against the live file after the full read; concurrent style edits may shift them, so exact phrases and sections are also supplied.
+
+1. Projective success is briefly relabelled explanatory success.
+
+Location: lines 582–589, section "A phonological stratum of signs."
+Text: "An account of the stratum would gain explanatory reach if membership organized acquisition, adaptation, or alternation beyond the diagnostic used to identify it."
+
+Why consequential: Organizing a new outcome beyond an admission diagnostic can establish a projection or a representational benefit without identifying its cause. This sentence grants explanatory standing on a condition that the paper elsewhere correctly treats as insufficient for that standing. The spelling-pronunciation example is explicitly a prospective comparison, not evidence of an explanatory process.
+
+Smallest correction: Change "explanatory reach" to "projective reach" (or "inferential reach"). If explanation is intended, add that it requires an independently supported process linking the stratum to the outcome. The short replacement is sufficient here.
+
+2. The grammatical assignment of depictive Bang! needs more than the stated distributional reason.
+
+Location: lines 324–331, especially "Standalone distribution motivates its grammatical assignment"; compare lines 188–214 and the positive grammatical assignment in the contrast table, line 319.
+
+Why consequential: The manuscript has just correctly explained that external detachment does not determine lexical category: NPs and clauses can be supplements too. Standalone availability is likewise compatible with a fragmentary NP. The prose supplies no additional grammatical reason for the depictive sign's positive lexical-category assignment, although it uses that assignment as a worked case of cross-classification. This is a localized under-specification, not a demonstrated false assignment.
+
+Smallest correction: Say explicitly that standalone distribution is only one input and identify the independently supported internal/distributional analysis that licenses the interjection assignment for this conventional depictive use. If that analysis is not already available, mark the assignment provisional or unresolved. Do not invent a new diagnostic result merely to retain the checkmark. The contrast between depiction and expressive meaning remains usable either way.
+
+3. Frequency adjustment is described too directly as isolating what lies beyond a causal route.
+
+Location: lines 834–836, "controlling frequency estimates what remains beyond that route"; related wording at lines 529–533, "effects beyond frequency."
+
+Why consequential: Adjusting for a measured frequency variable gives a conditional association under a model. It does not automatically identify a direct effect excluding repetition, since observed frequency may be an imperfect proxy for accumulated exposure, a confounder, a mediator, or a consequence of fluent retrieval. The intended warning against indiscriminate adjustment is sound; the present wording unnecessarily implies a causal estimand that has not been identified.
+
+Smallest correction: "Adjusting for measured frequency asks what association remains conditional on that measure; without an independently supported causal account, it doesn't identify repetition's total or direct contribution." In the earlier paragraph, prefer "associations conditional on measured frequency" to "effects beyond frequency." No new model or literature search is needed for this qualification.
+
+Checks that do not require further correction
+
+The initial three are explicitly analytical reconstructions, and broad interactional membership does not inherit subtype-specific predictions. Common sign-type bearers permit intersections, while process and realization classifications are connected by explicit relations rather than put into the same membership table. The documented gee route is kept distinct from the reconstructed damn route and from a category-wide prediction. The primary/secondary discussion does not mistake a synchronic lexical distinction for historical non-derivation. The 97-row record is correctly described as internally attributed to a blind human pass, with provenance conditional rather than independently verified; its 3/54 early-window coverage and undefined kappa are correctly interpreted. The decade-midpoint issue is now properly separated from the fie denominator failure.
+
+Scope
+
+One full pass of inquiry-relative-categories.tex; no manuscript edits, new literature retrieval, linguistic recoding, model fitting, or full review board. This is a coherence assessment, not independent verification of every cited linguistic example or a new publication-readiness verdict.

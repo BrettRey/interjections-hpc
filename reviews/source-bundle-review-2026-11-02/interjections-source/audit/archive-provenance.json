@@ -1,0 +1,52 @@
+{
+  "repository": "BrettRey/interjections-hpc",
+  "ref": "074dfb44cef5b18d292ac176ba5acbfedc76e3b1",
+  "sources": [
+    {
+      "path": "fie-coha-preregistration.md",
+      "sha": "67d50aa30cb334bc140b8447fa21830ee96c9524",
+      "url": "https://github.com/BrettRey/interjections-hpc/blob/074dfb44cef5b18d292ac176ba5acbfedc76e3b1/fie-coha-preregistration.md"
+    },
+    {
+      "path": "analysis/fie-confirmatory-model.R",
+      "sha": "2b8984694f19bddece54fe4fded6276dcd513068",
+      "url": "https://github.com/BrettRey/interjections-hpc/blob/074dfb44cef5b18d292ac176ba5acbfedc76e3b1/analysis/fie-confirmatory-model.R"
+    },
+    {
+      "path": "analysis/fie-coding-sheet-annotated.csv",
+      "sha": "d0632488ea448b80502afa01f284f85abf52904e",
+      "url": "https://github.com/BrettRey/interjections-hpc/blob/074dfb44cef5b18d292ac176ba5acbfedc76e3b1/analysis/fie-coding-sheet-annotated.csv"
+    },
+    {
+      "path": "analysis/fie-excluded.csv",
+      "sha": "e95a792964d4639386e8304e6b2f749d08a208d9",
+      "url": "https://github.com/BrettRey/interjections-hpc/blob/074dfb44cef5b18d292ac176ba5acbfedc76e3b1/analysis/fie-excluded.csv"
+    },
+    {
+      "path": "analysis/morphgain-confirmatory-code-primary.py",
+      "sha": "ec6955eaa357e3ae20c30e7346654b7895711818",
+      "url": "https://github.com/BrettRey/interjections-hpc/blob/074dfb44cef5b18d292ac176ba5acbfedc76e3b1/analysis/morphgain-confirmatory-code-primary.py"
+    },
+    {
+      "path": "analysis/morphgain-confirmatory-reliability.py",
+      "sha": "073568364425f9150edef93f290444b989553fa8",
+      "url": "https://github.com/BrettRey/interjections-hpc/blob/074dfb44cef5b18d292ac176ba5acbfedc76e3b1/analysis/morphgain-confirmatory-reliability.py"
+    },
+    {
+      "path": "analysis/morphgain-confirmatory/morphgain-reliability-sheet.csv",
+      "sha": "17f4a788e13611452db0b10b5d5621faf1c9fd30",
+      "url": "https://github.com/BrettRey/interjections-hpc/blob/074dfb44cef5b18d292ac176ba5acbfedc76e3b1/analysis/morphgain-confirmatory/morphgain-reliability-sheet.csv"
+    },
+    {
+      "path": "analysis/morphgain-confirmatory/morphgain-reliability-key.csv",
+      "sha": "169f57821e629756c81724ebbebacd08e6b27ada",
+      "url": "https://github.com/BrettRey/interjections-hpc/blob/074dfb44cef5b18d292ac176ba5acbfedc76e3b1/analysis/morphgain-confirmatory/morphgain-reliability-key.csv"
+    },
+    {
+      "path": "analysis/morphgain-confirmatory/morphgain-coded-primary.csv",
+      "sha": "f4499b77213e1d45bcd36ee08c406154c2d0c708",
+      "url": "https://github.com/BrettRey/interjections-hpc/blob/074dfb44cef5b18d292ac176ba5acbfedc76e3b1/analysis/morphgain-confirmatory/morphgain-coded-primary.csv"
+    }
+  ],
+  "operations": "Read archived code and tabulate existing codes; no recoding, model refitting, or outcome replacement."
+}

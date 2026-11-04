@@ -1,0 +1,321 @@
+<div id="faceted-bearers">
+  <style>
+    #faceted-bearers { display: grid; gap: calc(var(--font-size-base) * .75); }
+    #faceted-bearers .controls, #faceted-bearers .legend { display: flex; flex-wrap: wrap; gap: calc(var(--font-size-base) * .75); align-items: center; }
+    #faceted-bearers .plot { width: 100%; }
+    #faceted-bearers svg { display: block; width: 100%; overflow: visible; }
+    #faceted-bearers svg text { fill: var(--foreground); font-family: inherit; }
+    #faceted-bearers .edge { stroke: var(--foreground); opacity: .13; stroke-width: 1; }
+    #faceted-bearers .leader { stroke: var(--foreground); opacity: .35; stroke-width: 1; fill: none; }
+    #faceted-bearers .face { stroke: color-mix(in srgb, var(--foreground) 30%, transparent); stroke-width: 1; stroke-linejoin: round; }
+    #faceted-bearers .legend-item { display: inline-flex; gap: calc(var(--font-size-base) * .35); align-items: center; }
+    #faceted-bearers .swatch { width: calc(var(--font-size-base) * .75); height: calc(var(--font-size-base) * .75); }
+    #faceted-bearers .repetition-pulse { fill: none; stroke: var(--foreground); stroke-width: 1.5; }
+    #faceted-bearers .repetition-intensity { fill: var(--foreground); }
+    #faceted-bearers .reading { fill: var(--muted-foreground); }
+  </style>
+  <h3>Different questions, shared bearers</h3>
+  <div class="controls" role="group" aria-label="Viewing direction">
+    <button class="btn" type="button" data-view="construction" aria-pressed="false">Packaging + contribution</button>
+    <button class="btn" type="button" data-view="family" aria-pressed="false">Form across uses</button>
+    <button class="btn" type="button" data-view="contribution" aria-pressed="false">Semantic contribution</button>
+    <button class="btn" type="button" data-view="oblique" aria-pressed="true">Between views</button>
+  </div>
+  <div class="text-small" data-question></div>
+  <div class="plot">
+    <svg role="img" aria-label="Eight conventional uses represented by rotating cubes with fixed coloured faces.">
+      <title>Three questions reveal crosscutting groupings</title>
+      <desc>The three views address different questions. Packaging and contribution distinguish standalone stance, sound depiction, integrated stance, and count nouns. Shared form pairs each standalone expression with another use of the same form. Semantic contribution groups the four expressive stance uses together, and distinguishes sound depiction from nominal sound description. Each grouping is encoded on a different fixed face of the same cubes. Repeat illustrates successive sounds for Bang! and Boom!, and stronger stance in standalone and prenominal damn. Other repetition readings remain unassessed. No view is ranked as the correct one.</desc>
+    </svg>
+  </div>
+  <div class="legend text-small" data-legend aria-label="Visible face colours"></div>
+  <div class="controls" role="group" aria-label="Separate comparison: repetition">
+    <span class="text-small">Modification: repetition</span>
+    <button class="btn" type="button" data-repeat aria-pressed="false" data-tooltip="Illustrate possible readings of repetition across the selected uses">Repeat</button>
+  </div>
+  <div class="text-small" data-state aria-live="polite"></div>
+  <div class="text-small text-muted">Constructed examples · schematic positions · illustrative readings</div>
+  <script>
+    (() => {
+      const root = document.getElementById('faceted-bearers');
+      const svg = root.querySelector('svg');
+      const plot = root.querySelector('.plot');
+      const legend = root.querySelector('[data-legend]');
+      const status = root.querySelector('[data-state]');
+      const question = root.querySelector('[data-question]');
+      const buttons = Array.from(root.querySelectorAll('[data-view]'));
+      const repeatButton = root.querySelector('[data-repeat]');
+      const ns = 'http://www.w3.org/2000/svg';
+      const labels = [
+        ['Damn!', 'Standalone expression of stance'],
+        ['Bang!', 'Standalone sound depiction in a narrative'],
+        ['Hell!', 'Standalone expression of stance'],
+        ['Boom!', 'Standalone sound depiction in a narrative'],
+        ['the damn car', 'Prenominal expressive damn'],
+        ['a loud bang', 'Count noun bang'],
+        ['what the hell', 'Integrated expressive hell in a question'],
+        ['a loud boom', 'Count noun boom']
+      ];
+      const constructionNames = ['Standalone stance', 'Sound depiction', 'Integrated stance', 'Count noun'];
+      const familyNames = ['damn', 'bang', 'hell', 'boom'];
+      const contributionNames = ['Expressive stance', 'Sound depiction', 'Sound description'];
+      const views = {
+        construction: {angle:0, elevation:0, perspective:0, question:'Which uses share packaging and contribution?', names:constructionNames},
+        family: {angle:90, elevation:0, perspective:0, question:'Where does the same form occur in different uses?', names:familyNames},
+        contribution: {angle:0, elevation:90, perspective:1, question:'What contribution does each selected use make?', names:contributionNames},
+        oblique: {angle:45, elevation:25, perspective:0, question:'Three questions · the same bearers', names:[]}
+      };
+      const points = [];
+      let index = 0;
+      for (const x of [-1, 1]) for (const y of [-1, 1]) for (const z of [-1, 1]) {
+        const [label, detail] = labels[index];
+        points.push({ id: 'ABCDEFGH'[index++], label, detail,
+          xyz: [x + .14 * y, y + .14 * x, .85 * z + .20 * x * y],
+          construction: (x + 1) + (z + 1) / 2,
+          family: (y + 1) + (z + 1) / 2,
+          contribution: z < 0 ? 0 : x < 0 ? 1 : 2
+        });
+      }
+      const corners = [];
+      for (const x of [-1.28, 1.28]) for (const y of [-1.28, 1.28]) for (const z of [-1.28, 1.28]) corners.push([x, y, z]);
+      const edges = [];
+      corners.forEach((p, i) => corners.forEach((q, j) => {
+        if (j > i && p.filter((v, k) => v !== q[k]).length === 1) edges.push([p, q]);
+      }));
+      const cube = [
+        {normal: [0, 1, 0], side: 'construction', vertices: [[-1,1,-1],[1,1,-1],[1,1,1],[-1,1,1]]},
+        {normal: [0,-1,0], side: 'construction', vertices: [[-1,-1,1],[1,-1,1],[1,-1,-1],[-1,-1,-1]]},
+        {normal: [-1,0,0], side: 'family', vertices: [[-1,-1,-1],[-1,1,-1],[-1,1,1],[-1,-1,1]]},
+        {normal: [1,0,0], side: 'family', vertices: [[1,-1,1],[1,1,1],[1,1,-1],[1,-1,-1]]},
+        {normal: [0,0,1], side: 'contribution', vertices: [[-1,-1,1],[-1,1,1],[1,1,1],[1,-1,1]]},
+        {normal: [0,0,-1], side: 'contribution', vertices: [[-1,-1,-1],[1,-1,-1],[1,1,-1],[-1,1,-1]]}
+      ];
+      const layer = document.createElementNS(ns, 'g');
+      svg.appendChild(layer);
+      const saved = window.openai?.widgetState?.privateContent;
+      let view = saved?.version === 5 && Object.hasOwn(views,saved.view) ? saved.view : 'oblique';
+      let angle = views[view].angle;
+      let elevation = views[view].elevation;
+      let perspective = views[view].perspective;
+      let turning = false;
+      let animation = 0;
+      let repeatAnimation = 0;
+      let repeated = saved?.version === 5 && saved.repeated === true;
+      let repeatProgress = repeated ? 3 : 0;
+      let repeating = false;
+      const repetition = {
+        A: {label:'Damn, damn, damn!', reading:'stronger stance', kind:'intensity'},
+        B: {label:'Bang, bang, bang!', reading:'successive sounds', kind:'events'},
+        D: {label:'Boom, boom, boom!', reading:'successive sounds', kind:'events'},
+        E: {label:'damn keys … damn car', reading:'stronger stance', kind:'intensity',
+          detail:'Prenominal damn repeated across noun phrases: I left my damn keys in the damn car.'}
+      };
+      const color = i => `var(--viz-series-${i + 1})`;
+      function element(tag, attrs, text, parent = layer) {
+        const node = document.createElementNS(ns, tag);
+        for (const [key, value] of Object.entries(attrs)) node.setAttribute(key, String(value));
+        if (text !== undefined) node.textContent = text;
+        parent.appendChild(node);
+        return node;
+      }
+      function draw() {
+        const width = Math.max(280, plot.getBoundingClientRect().width);
+        const height = Math.min(520, Math.max(420, width * .70));
+        svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+        svg.style.height = `${height}px`;
+        layer.replaceChildren();
+        const theta = angle * Math.PI / 180;
+        const phi = elevation * Math.PI / 180;
+        const cx = width / 2, cy = height / 2;
+        const camera = [-Math.sin(theta) * Math.cos(phi), Math.cos(theta) * Math.cos(phi), Math.sin(phi)];
+        const radius = Math.min(17, Math.max(11, width / 34));
+        function cameraCoordinates(p) {
+          const horizontal = p[0] * Math.cos(theta) + p[1] * Math.sin(theta);
+          const depth = -p[0] * Math.sin(theta) + p[1] * Math.cos(theta);
+          const vertical = p[2] * Math.cos(phi) - depth * Math.sin(phi);
+          const distance = depth * Math.cos(phi) + p[2] * Math.sin(phi);
+          const magnification = 1 / (1 - perspective * distance / 2.8);
+          return [horizontal * magnification, vertical * magnification, distance];
+        }
+        const projectedBounds = corners.map(cameraCoordinates);
+        const extentX = Math.max(...projectedBounds.map(p=>Math.abs(p[0])));
+        const extentY = Math.max(...projectedBounds.map(p=>Math.abs(p[1])));
+        const scale = Math.min((width-100)/(2*extentX), (height-130)/(2*extentY));
+        function project(p) {
+          const q=cameraCoordinates(p);
+          return [cx+scale*q[0],cy-scale*q[1],q[2]];
+        }
+        function projectMarker(p,v){
+          const center=project(p);
+          const horizontal=v[0]*Math.cos(theta)+v[1]*Math.sin(theta);
+          const depth=-v[0]*Math.sin(theta)+v[1]*Math.cos(theta);
+          const vertical=v[2]*Math.cos(phi)-depth*Math.sin(phi);
+          return [center[0]+radius*horizontal,center[1]-radius*vertical];
+        }
+        for (const [a, b] of edges) {
+          const p = project(a), q = project(b);
+          element('line', {x1:p[0], y1:p[1], x2:q[0], y2:q[1], class:'edge'});
+        }
+        const located = points.map(p => {
+          const screen=project(p.xyz);
+          const vertices=corners.map(v=>projectMarker(p.xyz,v.map(Math.sign)));
+          const left=Math.min(...vertices.map(v=>v[0])), right=Math.max(...vertices.map(v=>v[0]));
+          const top=Math.min(...vertices.map(v=>v[1])), bottom=Math.max(...vertices.map(v=>v[1]));
+          return {...p,screen,box:{x:left,y:top,w:right-left,h:bottom-top},
+            symbolRadius:Math.max(right-left,bottom-top)/2};
+        }).sort((a,b) => a.screen[2]-b.screen[2]);
+        if (repeated) {
+          for (const p of located) {
+            const effect = repetition[p.id];
+            if (!effect) continue;
+            const [x,y] = p.screen;
+            const radius=p.symbolRadius;
+            if (effect.kind === 'intensity') {
+              const strength = Math.min(1, repeatProgress / 3);
+              element('circle', {cx:x, cy:y, r:radius*(1.55+strength*.65),
+                class:'repetition-intensity', opacity:.04+strength*.15, 'data-effect':'stance-intensity'});
+              element('circle', {cx:x, cy:y, r:radius*(1.3+strength*.4),
+                class:'repetition-intensity', opacity:.04+strength*.12});
+            } else {
+              if (repeating) {
+                const phase = repeatProgress % 1;
+                element('circle', {cx:x,cy:y,r:radius*(1.55+phase*1.5),
+                  class:'repetition-pulse',opacity:(1-phase)*.6,'data-effect':'sound-pulse'});
+              }
+              const count = Math.min(3, Math.ceil(repeatProgress));
+              for (let i=0;i<count;i++) {
+                element('circle', {cx:x+(i-1)*8,cy:y+radius*1.7+5,r:2.5,
+                  fill:'var(--foreground)',opacity:.7,'data-effect':'sound-event'});
+              }
+            }
+          }
+        }
+        for (const p of located) {
+          const detail = repeated && repetition[p.id]?.detail ? repetition[p.id].detail : p.detail;
+          const group = element('g', {'data-bearer':p.id, 'data-tooltip':detail, 'aria-label':`${p.label}: ${detail}`});
+          for (const face of cube) {
+            if (face.normal.reduce((s,v,k) => s+v*camera[k],0) < .001) continue;
+            const coords = face.vertices.map(v => projectMarker(p.xyz,v));
+            element('polygon', {points:coords.map(v=>`${v[0]},${v[1]}`).join(' '), class:'face',
+              'data-face':face.side, fill:color(p[face.side])}, undefined, group);
+          }
+        }
+        const occupied = located.map(p=>{
+          if(repeated && repetition[p.id]){
+            const margin=p.symbolRadius*2.2;
+            return {x:p.screen[0]-margin,y:p.screen[1]-margin,w:margin*2,h:margin*2};
+          }
+          return {x:p.box.x-4,y:p.box.y-4,w:p.box.w+8,h:p.box.h+8};
+        });
+        const texts = [];
+        function overlap(a,b) {
+          return Math.max(0,Math.min(a.x+a.w,b.x+b.w)-Math.max(a.x,b.x))*Math.max(0,Math.min(a.y+a.h,b.y+b.h)-Math.max(a.y,b.y));
+        }
+        for (const p of [...located].sort((a,b)=>a.screen[1]-b.screen[1] || a.screen[0]-b.screen[0])) {
+          const [px,py] = p.screen;
+          const effect = repeated ? repetition[p.id] : null;
+          const label = element('text', {class:'text-small', 'data-label':p.id});
+          element('tspan', {x:0,dy:0}, effect?effect.label:p.label, label);
+          if(effect)element('tspan',{x:0,dy:'1.35em',class:'reading'},effect.reading,label);
+          const bounds = label.getBBox();
+          const w = bounds.width+8, h = bounds.height+6;
+          const d = (effect?p.symbolRadius*2.2:p.symbolRadius*1.5)+6;
+          const candidates = [[px-w/2,py-d-h],[px-w/2,py+d],[px+d,py-h/2],[px-d-w,py-h/2],
+            [px+d,py-d-h],[px-d-w,py+d],[px-d-w,py-d-h],[px+d,py+d],
+            [px-w/2,py-d-h-27],[px-w/2,py+d+27]];
+          let best;
+          candidates.forEach(([x,y],i)=>{
+            const r={x:Math.max(4,Math.min(width-w-4,x)),y:Math.max(4,Math.min(height-h-4,y)),w,h};
+            const score=occupied.reduce((s,q)=>s+overlap(r,q)*10,0)+i*3+Math.abs(r.x-x)+Math.abs(r.y-y);
+            if (!best || score<best.score) best={...r,score};
+          });
+          occupied.push(best);
+          label.setAttribute('transform',`translate(${best.x+4},${best.y+3-bounds.y})`);
+          const lx=Math.max(best.x,Math.min(best.x+best.w,px));
+          const ly=Math.max(best.y,Math.min(best.y+best.h,py));
+          if (Math.hypot(lx-px,ly-py)>p.symbolRadius*1.9) {
+            const line = element('line',{x1:px,y1:py,x2:lx,y2:ly,class:'leader'});
+            layer.insertBefore(line,layer.firstChild);
+          }
+          texts.push(label);
+        }
+        buttons.forEach(b=>b.setAttribute('aria-pressed',!turning && b.dataset.view===view?'true':'false'));
+        repeatButton.setAttribute('aria-pressed',repeated?'true':'false');
+        repeatButton.textContent=repeating?'Repeating…':repeated?'Clear repetition':'Repeat';
+      }
+      function describe() {
+        legend.replaceChildren();
+        const names=views[view].names;
+        names.forEach((name,i)=>{
+          const item=document.createElement('span'); item.className='legend-item';
+          const swatch=document.createElement('span'); swatch.className='swatch'; swatch.style.background=color(i); swatch.setAttribute('aria-hidden','true');
+          item.append(swatch,document.createTextNode(name)); legend.appendChild(item);
+        });
+        if (!names.length) legend.textContent='Three sets of fixed faces: packaging, shared form, and semantic contribution';
+        question.textContent=views[view].question;
+        status.textContent=repeated?'Successive sounds link Bang! and Boom!; stronger stance links standalone and prenominal damn. Other uses: unassessed.':'Repetition compares possible responses to modification across the views.';
+      }
+      function persist() {
+        window.openai?.setWidgetState?.({modelContent:{view,question:views[view].question,repetition:repeated?'illustrated: successive sounds for Bang and Boom, stronger stance for standalone and prenominal damn':'not shown'},privateContent:{version:5,view,repeated}})?.catch(()=>{});
+      }
+      function toggleRepetition() {
+        cancelAnimationFrame(repeatAnimation);
+        if(repeated){
+          repeated=false;repeating=false;repeatProgress=0;draw();describe();persist();return;
+        }
+        repeated=true;repeatProgress=0;
+        if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+          repeatProgress=3;draw();describe();persist();return;
+        }
+        repeating=true;
+        describe();
+        const start=performance.now();
+        function frame(now){
+          repeatProgress=Math.min(3,(now-start)/900);
+          if(repeatProgress>=3)repeating=false;
+          draw();
+          if(repeating)repeatAnimation=requestAnimationFrame(frame);
+          else{describe();persist();}
+        }
+        repeatAnimation=requestAnimationFrame(frame);
+      }
+      function move(targetView) {
+        cancelAnimationFrame(animation);
+        const from={angle,elevation,perspective};
+        const target=views[targetView];
+        view=targetView;
+        if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+          angle=target.angle;elevation=target.elevation;perspective=target.perspective;
+          turning=false;draw();describe();persist();return;
+        }
+        turning=true;
+        legend.textContent='Turning · fixed coordinates and face colours';
+        const start=performance.now();
+        function frame(now){
+          const t=Math.min(1,(now-start)/1800);
+          const eased=t*t*(3-2*t);
+          angle=from.angle+(target.angle-from.angle)*eased;
+          elevation=from.elevation+(target.elevation-from.elevation)*eased;
+          perspective=from.perspective+(target.perspective-from.perspective)*eased;
+          if(t>=1)turning=false;
+          draw();
+          if(t<1)animation=requestAnimationFrame(frame);else{describe();persist();}
+        }
+        animation=requestAnimationFrame(frame);
+      }
+      buttons.forEach(b=>b.addEventListener('click',()=>move(b.dataset.view)));
+      repeatButton.addEventListener('click',toggleRepetition);
+      new ResizeObserver(draw).observe(plot);
+      window.addEventListener('openai:set_globals',event=>{
+        const state=event.detail?.globals?.widgetState?.privateContent;
+        if(state?.version===5 && Object.hasOwn(views,state.view)){
+          cancelAnimationFrame(animation);cancelAnimationFrame(repeatAnimation);
+          view=state.view;angle=views[view].angle;elevation=views[view].elevation;perspective=views[view].perspective;
+          turning=false;repeated=state.repeated===true;
+          repeating=false;repeatProgress=repeated?3:0;draw();describe();
+        }
+      });
+      draw();describe();
+    })();
+  </script>
+</div>

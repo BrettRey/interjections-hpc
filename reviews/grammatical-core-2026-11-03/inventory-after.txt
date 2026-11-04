@@ -1,0 +1,73 @@
+# Manuscript inventory
+
+- Source: /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/inquiry-relative-categories.tex
+- Word count: **9,158** (texcount)
+- Prose paragraphs inspected: **146**
+
+## Structure
+
+- L90: Introduction
+- L178: Several groupings of conventional signs
+- L197:   A grammatical core and what it projects
+- L293:   Expressive commonality across a grammatical boundary
+- L341:   Expressive and depictive signs
+- L399:   Contribution, encoding, and competing analyses
+- L445:   Interactional resource classes
+- L501:   Common bearers and distinct questions
+- L567: What warrants a class, a category, or an explanation?
+- L578:   Bearers, grouping, contribution, and alternatives
+- L655:   From proposal to category claim
+- L708:   Projection and identity
+- L762:   Representation and causal explanation
+- L796: Phonological organization and situated realization
+- L806:   A phonological stratum of signs
+- L878:   Prosodic classes of realizations
+- L917: Historical ancestry and classes of change
+- L976:   Source, mechanism, transmission, and trajectory
+- L1019:   What historical evidence can establish
+- L1053: Broader classes and further inquiries
+- L1064:   Social regulation and socially recognized repertoires
+- L1108:   Formulaicity and processing
+- L1143:   Further inquiries and their objects
+- L1168: A measurement case: tags, strings, and uses
+- L1220: The general consequence
+- L1238:   Many-to-many relations and local failure
+- L1272:   Overlap, mechanisms, and category standing
+- L1305: Conclusion
+- L1335: Acknowledgements
+
+## Paragraphs over 100 words
+
+- L280 (106 words): CGEL 's broad characterization of interjection meaning as expressive HuddlestonPullum2002 is compatible with recognizing these differences.
+
+## Sentences of 40 words or more
+
+- L24 (48 words): ] pdftitle= Inquiry-Relative Categories: English Interjections as a Worked Case , pdfkeywords= inquiry-relative categories, category pluralism, projectibility, interjections, sign-
+- L225 (58 words): The selected uses are characteristically invariant and don't participate in the ordinary argument, predicative, and modifier patterns of nouns, verbs, and adjectives. ameka1992 des
+
+## Repeated three-word paragraph openings
+
+- None occurring three or more times.
+
+## Possible editorial scar tissue
+
+- L272 [revision-position reference]: That grammatical core accommodates different contributions.
+- L483 [revision-position reference]: The grammatical treatment of mm-hm and huh? likewise needs more than standalone occurrence. ameka1992 includes the former among phatic interjections; wilkins1992 treats repair huh?
+- L483 [fragile paired reference]: The grammatical treatment of mm-hm and huh? likewise needs more than standalone occurrence. ameka1992 includes the former among phatic interjections; wilkins1992 treats repair huh?
+- L587 [revision-position reference]: The bearer is the object grouped.
+- L603 [revision-position reference]: The contribution identifies what the grouping accomplishes.
+- L657 [fragile paired reference]: An admission rule fixes which cases enter a class.
+- L664 [fragile paired reference]: Three constructed comparisons distinguish the reach of an expectation.
+- L687 [revision-position reference]: This comparison concerns what membership licenses an investigator to expect.
+- L702 [revision-position reference]: I also adopt the action-specific categories for the sequential relations documented in the cited descriptions.
+- L733 [revision-position reference]: This is a hypothetical research sequence using familiar constructions.
+- L741 [revision-position reference]: Evaluate the original projection under the identification rule available when it was made.
+- L929 [revision-position reference]: traces gee through an invocation of Jesus , an exclamatory use of the religious name, and a clipped form.
+- L956 [revision-position reference]: Hill's considerations clarify a tempting stronger claim.
+- L978 [revision-position reference]: A useful historical description separates four relations.
+- L986 [revision-position reference]: For gee , a religious invocation supplies the source and tabooistic clipping supplies one mechanism.
+- L1011 [revision-position reference]: Classes of changes require a different representation.
+- L1110 [revision-position reference]: Compare a familiar greeting, How are you? , a pause filler, um , and the idiom kick the bucket .
+- L1110 [assumed obviousness]: Compare a familiar greeting, How are you? , a pause filler, um , and the idiom kick the bucket .
+
+> This inventory is heuristic. Verify every candidate against the source, argument, and rendered artifact.

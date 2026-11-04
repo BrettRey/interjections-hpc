@@ -1,0 +1,47 @@
+1350      Chapter 15 Coordination and supplementation
+
+
+        Conclusion: coordination provides a criterion, other things being equal
+         Coordination clearly does not provide a simple and absolute criterion for constituent struc-
+         ture: the qualification ‘in general’ in [35] is indispensable. It nevertheless remains a useful
+         criterion: if a sequence X can be coordinated, then the simplest account will be one where it is
+         a constituent entering into basic coordination, and we will adopt some other, more complex,
+         analysis only if there are independent reasons for doing so.
+
+
+
+        5 Supplementation
+
+         We turn now to supplementation constructions, illustrated in such examples as:
+         [1]     i Pat – the life and soul of the party – had invited all the neighbours.
+                ii The best solution, it seems to me, would be to readvertise the position.
+               iii Jill sold her internet shares in January – a very astute move.
+         The underlined expressions are supplements, elements which occupy a position in linear
+         sequence without being integrated into the syntactic structure of the sentence.
+
+
+       5.1 General properties of supplementation
+         In the clear and central cases, supplements have the character of interpolations
+         or appendages. An interpolation, as in [1i–ii], is located at a position between the
+         beginning and end of a main clause: it represents an interruption to the flow of the
+         clause. An appendage is attached loosely at the beginning or end of a clause. In speech,
+         supplements are marked as such by the prosody: they are intonationally separate from
+         the rest of the sentence. In writing, they are normally set off from the rest of the sentence
+         by punctuation marks – commas, or stronger marks such as dashes, parentheses, or (in
+         the cases of appendages in end position) a colon. Punctuation allows for different degrees
+         of separation, as described in Ch. 20, §§4–5.
+
+        Supplementation in relation to dependency constructions and coordination
+         It is the lack of integration into the syntactic structure that distinguishes supplemen-
+         tation from dependency constructions and coordination. But supplementation is like
+         coordination in being non-headed: since the supplement is not integrated into the struc-
+         ture it cannot function as a dependent to any head. The three types of construction are
+         thus distinguished as shown in:
+         [2]                                         integrated? headed?
+                 i dependency construction               Yes       Yes
+                ii coordination                          Yes       No
+               iii supplementation                       No        No
+         It should be noted, however, that expressions introduced by a coordinator can have the
+         status of supplements rather than coordinates in an (integrated) coordination cons-
+         truction:
+         [3]      Jill – and I don’t blame her – left before the meeting had ended.       [supplement]

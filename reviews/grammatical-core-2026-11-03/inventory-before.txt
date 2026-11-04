@@ -1,0 +1,69 @@
+# Manuscript inventory
+
+- Source: /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/english-interjections/reviews/grammatical-core-2026-11-03/before/inquiry-relative-categories.tex
+- Word count: **8,421** (texcount)
+- Prose paragraphs inspected: **134**
+
+## Structure
+
+- L87: Introduction
+- L165: Several groupings of conventional signs
+- L184:   Grammatical interjections and expressive signs
+- L241:   Expressive and depictive signs
+- L299:   Contribution, encoding, and competing analyses
+- L345:   Interactional resource classes
+- L401:   Common bearers and distinct questions
+- L461: What warrants a class, a category, or an explanation?
+- L471:   Bearers, grouping, contribution, and alternatives
+- L548:   From proposal to category claim
+- L597:   Projection and identity
+- L651:   Representation and causal explanation
+- L685: Phonological organization and situated realization
+- L695:   A phonological stratum of signs
+- L767:   Prosodic classes of realizations
+- L806: Historical ancestry and classes of change
+- L865:   Source, mechanism, transmission, and trajectory
+- L908:   What historical evidence can establish
+- L942: Broader classes and further inquiries
+- L953:   Social regulation and socially recognized repertoires
+- L997:   Formulaicity and processing
+- L1032:   Keeping the family open without multiplying labels
+- L1106: A measurement case: tags, strings, and uses
+- L1158: The general consequence
+- L1168:   Many-to-many relations and local failure
+- L1202:   Overlap, mechanisms, and category standing
+- L1235: Conclusion
+- L1257: Acknowledgements
+
+## Paragraphs over 100 words
+
+- None detected.
+
+## Sentences of 40 words or more
+
+- L24 (48 words): ] pdftitle= Inquiry-Relative Categories: English Interjections as a Worked Case , pdfkeywords= inquiry-relative categories, category pluralism, projectibility, interjections, sign-
+
+## Repeated three-word paragraph openings
+
+- None occurring three or more times.
+
+## Possible editorial scar tissue
+
+- L383 [revision-position reference]: The grammatical treatment of mm-hm and huh? likewise needs more than standalone occurrence. ameka1992 includes the former among phatic interjections; wilkins1992 treats repair huh?
+- L383 [fragile paired reference]: The grammatical treatment of mm-hm and huh? likewise needs more than standalone occurrence. ameka1992 includes the former among phatic interjections; wilkins1992 treats repair huh?
+- L480 [revision-position reference]: The bearer is the object grouped.
+- L496 [revision-position reference]: The contribution identifies what the grouping accomplishes.
+- L550 [fragile paired reference]: An admission rule fixes which cases enter a class.
+- L557 [fragile paired reference]: Three constructed comparisons distinguish the reach of an expectation.
+- L580 [revision-position reference]: This comparison concerns what membership licenses an investigator to expect.
+- L622 [revision-position reference]: This is a hypothetical research sequence using familiar constructions.
+- L630 [revision-position reference]: Evaluate the original projection under the identification rule available when it was made.
+- L818 [revision-position reference]: traces gee through an invocation of Jesus , an exclamatory use of the religious name, and a clipped form.
+- L845 [revision-position reference]: Hill's considerations clarify a tempting stronger claim.
+- L867 [revision-position reference]: A useful historical description separates four relations.
+- L875 [revision-position reference]: For gee , a religious invocation supplies the source and tabooistic clipping supplies one mechanism.
+- L900 [revision-position reference]: Classes of changes require a different representation.
+- L999 [revision-position reference]: Compare a familiar greeting, How are you? , a pause filler, um , and the idiom kick the bucket .
+- L999 [assumed obviousness]: Compare a familiar greeting, How are you? , a pause filler, um , and the idiom kick the bucket .
+
+> This inventory is heuristic. Verify every candidate against the source, argument, and rendered artifact.

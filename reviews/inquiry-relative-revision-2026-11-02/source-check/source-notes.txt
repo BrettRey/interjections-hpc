@@ -1,0 +1,82 @@
+Bounded source grounding: positioning, terminology, and Hill
+Checked 2026-11-02. Scope restricted to the named sources and DOI issue. No manuscript or existing bibliography edited.
+
+1. Local holdings and existing records
+
+Central references.bib resolves to ../../../.house-style/references.bib. Existing usable keys: dupre1993disorder; khalidi2013; khalidi_1998_natural_kinds_crosscutting_categories; haspelmath2010; unuabonahdaniel2020. The last record needs the DOI correction below. No Hill record was found. candidate-references.bib therefore supplies only hill1965; the existing sources are not duplicated.
+
+Read local primary texts: ../../../literature/dupre_1993_the_disorder_of_things.pdf and .md; ../../../literature/khalidi2013.pdf and .md; ../../../literature/haspelmath2010.pdf and .md. Haspelmath-Comparativeconceptsdescriptive-2010.md/.pdf is also held. Mendeley holds Khalidi's 2013 book at /Users/brettreynolds/Documents/Mendeley Desktop/Khalidi/Unknown/Khalidi - 2013 - Natural categories and human kinds Classification in the natural and social sciences.pdf. The bounded filename search found no Hill 1965 or Khalidi 1998 original there.
+
+2. Dupré: purpose-relative selection and realist pluralism
+
+Existing key: dupre1993disorder. The Disorder of Things (1993), printed pp. 5–7, 17–18.
+Primary support: pp. 5–6 explicitly relate the appropriate assignment of an object to a kind to the goal of the investigation. Pp. 6–7 introduce promiscuous realism. Pp. 17–18 contrast merely sharp, objective divisions with informative classifications, then defend multiple objectively grounded, potentially cross-classifying ways of dividing things.
+Supported positioning: inquiry-relative selection of a classification is compatible with realist commitments; distinct legitimate classifications need not collapse into one uniquely privileged scheme.
+Limits: This is a substantive metaphysical pluralism, not merely a recommendation to retain several useful labels. A linguistics paper may draw on the classificatory point while declining to establish Dupré's wider anti-reductionist metaphysics. Objective membership in a convenient class is not, by itself, enough to show its significance; p. 18 explicitly distinguishes these issues. Dupré uses classification for legitimate knowledge-producing practices, so he is not the source of a category/classification terminological opposition.
+
+The user-provided URL is a DIFFERENT work:
+https://classes.matthewjbrown.net/teaching-files/hps/dupre.pdf
+It contains “Metaphysical Disorder and Scientific Disunity,” printed pp. 101–117, rather than the 1993 book. The supplied chapter's pp. 105–106 are directly relevant: p. 105 argues for multiple overlapping, equally real kinds without a uniquely privileged kind for each individual; p. 106 relates selection among inquiries to their goals while retaining an objective distinction between good and bad science. This is consistent with the cited book passages. Cite the 1993 book for those book passages; do not attach its date/page numbers to quotations from the linked chapter. No additional chapter record is necessary if the revision uses the already-held book. Full chapter text at the supplied URL was readable through the web tool; a separate direct download returned HTTP 406.
+
+3. Khalidi: epistemic purposes and crosscutting kinds
+
+Existing key: khalidi2013. Natural Categories and Human Kinds (2013), printed pp. 63–64 and 69–72, especially p. 71.
+Primary support: p. 63 explicitly accepts purpose-relative plurality while privileging epistemic purposes over Dupré's broader range of purposes. Pp. 63–64 distinguish scientific/epistemic value from mere usefulness for aesthetic or other purposes. Section 2.5, pp. 69–72, rejects the requirement that natural kinds form a nested hierarchy. Pp. 70–71 use nuclides and developmental stages as crosscutting examples; p. 71 says these need not be competing theories because they answer different explanatory interests. P. 72 restates the connection to induction and explanation and the more restricted pluralism relative to Dupré.
+Supported positioning: different explanatory questions can support partially overlapping kinds without rivalry; inquiry-relative does not mean whatever grouping serves any purpose.
+Limits: Khalidi makes claims about natural kinds and causal/epistemic success. Borrowing his pluralism does not establish that the proposed linguistic categories are natural kinds, or that their predictive/explanatory value has already been demonstrated. The three-way linguistic proposal remains its own empirical application. Classification is not his term for merely convenient grouping.
+
+Existing key: khalidi_1998_natural_kinds_crosscutting_categories.
+Record: Muhammad Ali Khalidi, “Natural Kinds and Crosscutting Categories,” The Journal of Philosophy 95(1) (1998), 33–50; DOI 10.2307/2564567.
+Primary scan: https://philpapers.org/archive/KHANKA-5.pdf
+Access limit: the first printed page (p. 33) and article metadata were readable, and the article abstract was available at https://philarchive.org/rec/KHANKA-5 . Subsequent full-text access returned HTTP 403. P. 33 distinguishes several senses of naturalness and introduces the issue of unique versus coexisting legitimate classification schemes. This check does NOT verify finer page claims from the remainder of the 1998 article. Use the fully checked 2013 pp. 70–72 for the detailed crosscutting point; those pages themselves refer to the 1998 treatment. No further retrieval attempted.
+
+4. Haspelmath: a related but different division of analytical tasks
+
+Existing key: haspelmath2010. “Comparative concepts and descriptive categories in crosslinguistic studies,” Language 86(3) (2010), 663–687; DOI 10.1353/lan.2010.0021.
+Primary author-deposited record: https://zenodo.org/records/1303024
+Locations: p. 663; p. 666; p. 680, sections 8–9. The local PDF's text layer truncates some lines, so p. 680 was visually checked against its rendered page.
+Primary support: p. 663 distinguishes language-specific descriptive categories from concepts constructed for cross-language comparison. P. 666 emphasizes that matching a comparative concept does not make two language-specific categories identical. P. 680 relates selection of comparative concepts to research goals and rejects a single standard list; it also rejects a simple taxonomic relationship between comparative concepts and descriptive categories.
+Supported positioning: both projects resist assuming that a shared label guarantees a single category, but their tasks differ. Haspelmath addresses comparison across languages versus description within a language. The proposed interjection account distinguishes inquiries within English; that extension is the paper's own proposal.
+Limits: Comparative concepts are deliberately designed tools for informative comparisons, not merely arbitrary convenience classes. Haspelmath's distinction is not category versus class, and it does not independently validate three English interjection categories.
+
+5. Category/categorization versus class/classification
+
+Terminological finding: None of the checked passages establishes the requested lexical convention in which category/categorization denotes an empirically warranted grouping and class/classification is reserved for a convenience grouping. Dupré and Khalidi use classification positively for epistemically serious organization. Haspelmath contrasts descriptive categories with comparative concepts, not with classes.
+
+Recommendation (our analysis, not a source claim): mark the category/class distinction explicitly as a local stipulation. Define the empirical warrant expected of a category separately from the act of grouping. Do not cite these authors as if they prescribed this wording, and preserve their terminology when explaining their positions. The stipulation must not itself establish that a proposed category exists or earns any further inferential role. A convenient class can contain real objects and be objectively specifiable; that differs from demonstrating a category's informative or explanatory value.
+
+6. Hill's original nine viewpoints and warning
+
+Austin Bradford Hill (1965), “The Environment and Disease: Association or Causation?” Proceedings of the Royal Society of Medicine 58(5), 295–300. DOI 10.1177/003591576505800503.
+Original record: https://pmc.ncbi.nlm.nih.gov/articles/PMC1898525/
+Original-page scan inspected: https://epiville.ccnmtl.columbia.edu/assets/pdfs/Hill_1965.pdf
+The Columbia file has a modern editorial cover, followed by the original printed pages. Original pp. 295–299 were rendered and visually read. These page numbers are the original article's, not the reproduction's outer page numbers. Official 2015 republication: https://pmc.ncbi.nlm.nih.gov/articles/PMC4291332/ ; its DOI/date are different and must not replace the 1965 record.
+
+Original headings and starting pages:
+1. Strength — p. 295
+2. Consistency — p. 296
+3. Specificity — p. 297
+4. Temporality — p. 297
+5. Biological gradient — p. 298
+6. Plausibility — p. 298
+7. Coherence — p. 298
+8. Experiment — p. 298
+9. Analogy — p. 299
+
+At p. 299 Hill rejects mandatory rules, denies that any viewpoint delivers indisputable proof, and denies that each is individually required. Their role is to compare causal interpretation with alternative explanations. He calls them viewpoints, not an additive score. Pp. 297–298 directly consider reversed temporal direction; p. 299 also denies that significance tests answer the causal question.
+
+Proposed role here (our adaptation, not Hill's own linguistic proposal): use the considerations only when assessing a specified causal-explanatory contribution, such as whether an independently measured change in prosodic packaging helps explain an independently measured distributional change. They can organize converging evidence, rival explanations, temporal ordering, and intervention evidence. They cannot establish a category's existence, extension, descriptive adequacy, or incremental predictive value by themselves. Keep causal assessment distinct from those tasks.
+
+Do not make the nine into pass/fail requirements or a count of boxes ticked. Retain the original heading Biological gradient in the historical list; any linguistic analogue requires an independently justified exposure/intensity variable and response, and should be labelled an adaptation. Hill's blanket caution about required viewpoints must not be used to excuse reverse temporal ordering in a directional causal claim. A missing causal effect cannot be supplied by relabelling observed covariation or by repeatedly applying the list.
+
+7. Unuabonah–Daniel DOI correction
+
+Verified publisher metadata:
+https://www.sciencedirect.com/science/article/abs/pii/S0378216620300801
+Foluke Olayinka Unuabonah and Florence Oluwaseyi Daniel (2020), “Haba! Bilingual interjections in Nigerian English: A corpus-based study,” Journal of Pragmatics 163, 66–77.
+CORRECT DOI: 10.1016/j.pragma.2020.04.004
+CURRENT INCORRECT DOI in central references.bib: 10.1016/j.pragma.2020.04.006
+
+The publisher's indexed metadata explicitly pairs .004 with this title, authors, volume, and page range. Direct article opening returned HTTP 403; no article-content claim is being inferred from that access. Correct the existing unuabonahdaniel2020 record rather than creating a duplicate key. This pass has not changed it.
+
+Completion: Hill headings/caution, Dupré positioning, Khalidi 2013 positioning, Haspelmath task contrast, the stipulative terminology boundary, and the DOI correction are supported to the levels stated. The only unresolved source access is the body of Khalidi 1998 beyond its first page/abstract; no page-specific claim from that body is recommended.
