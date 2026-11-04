@@ -1,0 +1,3 @@
+{"cells": [{"item_id": "OUCH", "value": "Y", "quote": "They could be used as co-utterances with other units.", "source_file": "ameka1992-interjections.md", "location": "line~212", "source_wording": "co-utterances", "evidence_scope": "CLASS"}]}
+
+[STDERR]

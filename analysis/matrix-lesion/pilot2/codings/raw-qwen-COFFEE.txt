@@ -1,0 +1,1 @@
+{"cells": [{"item_id": "COFFEE", "value": "U", "quote": null, "source_file": null, "location": null, "source_wording": null, "evidence_scope": "NONE"}]}

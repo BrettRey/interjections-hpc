@@ -1,0 +1,11 @@
+{
+  "cells": [
+    {
+      "item_id": "BLACK",
+      "value": "U",
+      "quote": null,
+      "source_file": null,
+      "location": null
+    }
+  ]
+}

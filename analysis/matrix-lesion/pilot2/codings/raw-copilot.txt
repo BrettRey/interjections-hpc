@@ -1,0 +1,106 @@
+<!-- secs=37.0 exit=0 -->
+```json
+{
+  "cells": [
+    {
+      "item_id": "DAMN_PRENOM",
+      "value": "U",
+      "quote": null,
+      "source_file": null,
+      "location": null,
+      "source_wording": null,
+      "evidence_scope": "NONE"
+    },
+    {
+      "item_id": "GEE",
+      "value": "Y",
+      "quote": "They could be used as co-utterances with other units. Consider this example: Gee. you look like you had it! (Williams 1961: 8)",
+      "source_file": "ameka1992-interjections.md",
+      "location": "line~216",
+      "source_wording": "co-utterances with other units",
+      "evidence_scope": "ITEM"
+    },
+    {
+      "item_id": "WOW",
+      "value": "Y",
+      "quote": "They could be used as co-utterances with other units.",
+      "source_file": "ameka1992-interjections.md",
+      "location": "line~212",
+      "source_wording": "co-utterances with other units",
+      "evidence_scope": "CLASS"
+    },
+    {
+      "item_id": "BLACK",
+      "value": "N",
+      "quote": "black is not commonly used as an utterance on its own and it is not a word which English speakers think of as one which they could use as an utterance without any preceding linguistic context",
+      "source_file": "wilkins1992.md",
+      "location": "line~53",
+      "source_wording": "not commonly used as an utterance on its own",
+      "evidence_scope": "ITEM"
+    },
+    {
+      "item_id": "BANG_DEPICT",
+      "value": "U",
+      "quote": null,
+      "source_file": null,
+      "location": null,
+      "source_wording": null,
+      "evidence_scope": "NONE"
+    },
+    {
+      "item_id": "COFFEE",
+      "value": "U",
+      "quote": null,
+      "source_file": null,
+      "location": null,
+      "source_wording": null,
+      "evidence_scope": "NONE"
+    },
+    {
+      "item_id": "BLOODY_PRENOM",
+      "value": "N",
+      "quote": "Shit! Get the bloody thing out of my cheek!",
+      "source_file": "heine_2023_grammar-of-interactives_ch1.md",
+      "location": "line~43",
+      "source_wording": "entering into construction",
+      "evidence_scope": "ITEM"
+    },
+    {
+      "item_id": "MMHM",
+      "value": "Y",
+      "quote": "Mm hm exhibits what I will call 'Passive Recipiency'",
+      "source_file": "dingemanse_2024_interjections-heart-of-language.md",
+      "location": "line~65",
+      "source_wording": "Passive Recipiency",
+      "evidence_scope": "ITEM"
+    },
+    {
+      "item_id": "STOP",
+      "value": "U",
+      "quote": null,
+      "source_file": null,
+      "location": null,
+      "source_wording": null,
+      "evidence_scope": "NONE"
+    },
+    {
+      "item_id": "OUCH",
+      "value": "Y",
+      "quote": "Primary interjections...do not normally enter into construction with other word classes, for example, Ouch!, Wow!, Gee!, Oho!, Oops!, etc. They could be used as co-utterances with other units.",
+      "source_file": "ameka1992-interjections.md",
+      "location": "line~212",
+      "source_wording": "co-utterances with other units",
+      "evidence_scope": "CLASS"
+    }
+  ]
+}
+```
+
+
+[STDERR]
+
+
+Changes    +0 -0
+AI Credits 5.98 (34s)
+Tokens     ↑ 35.5k (35.5k written) • ↓ 3.1k (2.1k reasoning)
+Resume     copilot --resume=46710062-6c9a-4dc7-bcbe-e2d6e54f603b

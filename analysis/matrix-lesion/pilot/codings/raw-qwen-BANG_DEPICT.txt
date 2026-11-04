@@ -1,0 +1,11 @@
+{
+  "cells": [
+    {
+      "item_id": "BANG_DEPICT",
+      "value": "U",
+      "quote": null,
+      "source_file": null,
+      "location": null
+    }
+  ]
+}

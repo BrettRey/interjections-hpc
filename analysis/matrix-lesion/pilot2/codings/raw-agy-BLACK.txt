@@ -1,0 +1,17 @@
+```json
+{
+  "cells": [
+    {
+      "item_id": "BLACK",
+      "value": "U",
+      "quote": null,
+      "source_file": null,
+      "location": null,
+      "source_wording": null,
+      "evidence_scope": "NONE"
+    }
+  ]
+}
+```
+
+[STDERR]

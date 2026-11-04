@@ -1,0 +1,417 @@
+{
+ "values": {
+  "OUCH": {
+   "agy": "Y",
+   "copilot": "U",
+   "qwen": "U",
+   "Claude": "Y"
+  },
+  "WOW": {
+   "agy": "Y",
+   "copilot": "U",
+   "qwen": "U",
+   "Claude": "Y"
+  },
+  "GEE": {
+   "agy": "Y",
+   "copilot": "Y",
+   "qwen": "U",
+   "Claude": "Y"
+  },
+  "DAMN_PRENOM": {
+   "agy": "U",
+   "copilot": "U",
+   "qwen": "U",
+   "Claude": "U"
+  },
+  "BANG_DEPICT": {
+   "agy": "U",
+   "copilot": "U",
+   "qwen": "U",
+   "Claude": "U"
+  },
+  "MMHM": {
+   "agy": "U",
+   "copilot": "U",
+   "qwen": "U",
+   "Claude": "U"
+  },
+  "BLOODY_PRENOM": {
+   "agy": "U",
+   "copilot": "U",
+   "qwen": "U",
+   "Claude": "U"
+  },
+  "COFFEE": {
+   "agy": "U",
+   "copilot": "U",
+   "qwen": "U",
+   "Claude": "U"
+  },
+  "STOP": {
+   "agy": "U",
+   "copilot": "U",
+   "qwen": "U",
+   "Claude": "U"
+  },
+  "BLACK": {
+   "agy": "U",
+   "copilot": "U",
+   "qwen": "U",
+   "Claude": "U"
+  }
+ },
+ "verification": {
+  "agy": {
+   "BANG_DEPICT": "NA-U",
+   "BLACK": "NA-U",
+   "BLOODY_PRENOM": "NA-U",
+   "COFFEE": "NA-U",
+   "DAMN_PRENOM": "NA-U",
+   "GEE": "VERIFIED",
+   "MMHM": "NA-U",
+   "OUCH": "VERIFIED",
+   "STOP": "NA-U",
+   "WOW": "VERIFIED"
+  },
+  "copilot": {
+   "DAMN_PRENOM": "NA-U",
+   "GEE": "VERIFIED",
+   "WOW": "NA-U",
+   "BLACK": "NA-U",
+   "BANG_DEPICT": "NA-U",
+   "COFFEE": "NA-U",
+   "BLOODY_PRENOM": "NA-U",
+   "MMHM": "NA-U",
+   "STOP": "NA-U",
+   "OUCH": "NA-U"
+  },
+  "qwen": {
+   "BANG_DEPICT": "NA-U",
+   "BLACK": "NA-U",
+   "BLOODY_PRENOM": "NA-U",
+   "COFFEE": "NA-U",
+   "DAMN_PRENOM": "NA-U",
+   "GEE": "NA-U",
+   "MMHM": "NA-U",
+   "OUCH": "NA-U",
+   "STOP": "NA-U",
+   "WOW": "NA-U"
+  },
+  "Claude": {
+   "WOW": "VERIFIED",
+   "BLACK": "NA-U",
+   "BLOODY_PRENOM": "NA-U",
+   "OUCH": "VERIFIED",
+   "BANG_DEPICT": "NA-U",
+   "GEE": "VERIFIED",
+   "MMHM": "NA-U",
+   "DAMN_PRENOM": "NA-U",
+   "COFFEE": "NA-U",
+   "STOP": "NA-U"
+  }
+ },
+ "fleiss_kappa_indep": 0.13461538461538455,
+ "consensus": {
+  "OUCH": "U",
+  "WOW": "U",
+  "GEE": "Y",
+  "DAMN_PRENOM": "U",
+  "BANG_DEPICT": "U",
+  "MMHM": "U",
+  "BLOODY_PRENOM": "U",
+  "COFFEE": "U",
+  "STOP": "U",
+  "BLACK": "U"
+ },
+ "coded": {
+  "agy": {
+   "BANG_DEPICT": {
+    "item_id": "BANG_DEPICT",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "BLACK": {
+    "item_id": "BLACK",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "BLOODY_PRENOM": {
+    "item_id": "BLOODY_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "COFFEE": {
+    "item_id": "COFFEE",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "DAMN_PRENOM": {
+    "item_id": "DAMN_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "GEE": {
+    "item_id": "GEE",
+    "value": "Y",
+    "quote": "They could be used as co-utterances with other units. Consider this example: Gee. you look like you had it! (Williams 1961: 8)",
+    "source_file": "ameka1992-interjections.md",
+    "location": "line~213"
+   },
+   "MMHM": {
+    "item_id": "MMHM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "OUCH": {
+    "item_id": "OUCH",
+    "value": "Y",
+    "quote": "for example, Ouch!, Wow!, Gee!, Oho!, Oops!, etc. They could be used as co-utterances with other units. Consider this example: Gee. you look like you had it! (Williams 1961: 8)",
+    "source_file": "ameka1992-interjections.md",
+    "location": "line~212"
+   },
+   "STOP": {
+    "item_id": "STOP",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "WOW": {
+    "item_id": "WOW",
+    "value": "Y",
+    "quote": "for example, Ouch!, Wow!, Gee!, Oho!, Oops!, etc. They could be used as co-utterances with other units. Consider this example: Gee. you look like you had it! (Williams 1961: 8)",
+    "source_file": "ameka1992-interjections.md",
+    "location": "line~212"
+   }
+  },
+  "copilot": {
+   "DAMN_PRENOM": {
+    "item_id": "DAMN_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "GEE": {
+    "item_id": "GEE",
+    "value": "Y",
+    "quote": "Gee. you look like you had it!",
+    "source_file": "ameka1992-interjections.md",
+    "location": "line~216"
+   },
+   "WOW": {
+    "item_id": "WOW",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "BLACK": {
+    "item_id": "BLACK",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "BANG_DEPICT": {
+    "item_id": "BANG_DEPICT",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "COFFEE": {
+    "item_id": "COFFEE",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "BLOODY_PRENOM": {
+    "item_id": "BLOODY_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "MMHM": {
+    "item_id": "MMHM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "STOP": {
+    "item_id": "STOP",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "OUCH": {
+    "item_id": "OUCH",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   }
+  },
+  "qwen": {
+   "BANG_DEPICT": {
+    "item_id": "BANG_DEPICT",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "BLACK": {
+    "item_id": "BLACK",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "BLOODY_PRENOM": {
+    "item_id": "BLOODY_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "COFFEE": {
+    "item_id": "COFFEE",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "DAMN_PRENOM": {
+    "item_id": "DAMN_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "GEE": {
+    "item_id": "GEE",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "MMHM": {
+    "item_id": "MMHM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "OUCH": {
+    "item_id": "OUCH",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "STOP": {
+    "item_id": "STOP",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "WOW": {
+    "item_id": "WOW",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   }
+  },
+  "Claude": {
+   "WOW": {
+    "item_id": "WOW",
+    "value": "Y",
+    "quote": "for example, Ouch!, Wow!, Gee!, Oho!, Oops!, etc. They could be used as co-utterances with other units.",
+    "source_file": "ameka1992-interjections.md",
+    "location": "line~212"
+   },
+   "BLACK": {
+    "item_id": "BLACK",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "BLOODY_PRENOM": {
+    "item_id": "BLOODY_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "OUCH": {
+    "item_id": "OUCH",
+    "value": "Y",
+    "quote": "for example, Ouch!, Wow!, Gee!, Oho!, Oops!, etc. They could be used as co-utterances with other units.",
+    "source_file": "ameka1992-interjections.md",
+    "location": "line~212"
+   },
+   "BANG_DEPICT": {
+    "item_id": "BANG_DEPICT",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "GEE": {
+    "item_id": "GEE",
+    "value": "Y",
+    "quote": "for example, Ouch!, Wow!, Gee!, Oho!, Oops!, etc. They could be used as co-utterances with other units. Consider this example: Gee. you look like you had it!",
+    "source_file": "ameka1992-interjections.md",
+    "location": "line~213"
+   },
+   "MMHM": {
+    "item_id": "MMHM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "DAMN_PRENOM": {
+    "item_id": "DAMN_PRENOM",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "COFFEE": {
+    "item_id": "COFFEE",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   },
+   "STOP": {
+    "item_id": "STOP",
+    "value": "U",
+    "quote": null,
+    "source_file": null,
+    "location": null
+   }
+  }
+ }
+}

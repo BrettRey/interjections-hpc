@@ -1,0 +1,75 @@
+{
+ "cells": [
+  {
+   "item_id": "STOP",
+   "value": "U",
+   "quote": null,
+   "source_file": null,
+   "location": null
+  },
+  {
+   "item_id": "MMHM",
+   "value": "U",
+   "quote": null,
+   "source_file": null,
+   "location": null
+  },
+  {
+   "item_id": "WOW",
+   "value": "U",
+   "quote": null,
+   "source_file": null,
+   "location": null
+  },
+  {
+   "item_id": "COFFEE",
+   "value": "U",
+   "quote": null,
+   "source_file": null,
+   "location": null
+  },
+  {
+   "item_id": "BANG_DEPICT",
+   "value": "U",
+   "quote": null,
+   "source_file": null,
+   "location": null
+  },
+  {
+   "item_id": "BLOODY_PRENOM",
+   "value": "U",
+   "quote": null,
+   "source_file": null,
+   "location": null
+  },
+  {
+   "item_id": "OUCH",
+   "value": "U",
+   "quote": null,
+   "source_file": null,
+   "location": null
+  },
+  {
+   "item_id": "GEE",
+   "value": "U",
+   "quote": null,
+   "source_file": null,
+   "location": null
+  },
+  {
+   "item_id": "BLACK",
+   "value": "U",
+   "quote": null,
+   "source_file": null,
+   "location": null
+  },
+  {
+   "item_id": "DAMN_PRENOM",
+   "value": "U",
+   "quote": null,
+   "source_file": null,
+   "location": null
+  }
+ ],
+ "secs_total": 360.8
+}

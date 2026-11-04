@@ -1,0 +1,13 @@
+{
+  "cells": [
+    {
+      "item_id": "OUCH",
+      "value": "Y",
+      "quote": "Primary interjections are little words or non-words which in terms of their distribution can constitute an utterance by themselves and do not normally enter into construction with other word classes, for example, Ouch!, Wow!, Gee!, Oho!, Oops!, etc. They could be used as co-utterances with other units.",
+      "source_file": "ameka1992-interjections.md",
+      "location": "line~212",
+      "source_wording": "co-utterances with other units",
+      "evidence_scope": "CLASS"
+    }
+  ]
+}

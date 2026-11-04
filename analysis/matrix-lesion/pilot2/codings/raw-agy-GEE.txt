@@ -1,0 +1,3 @@
+{"cells": [{"item_id": "GEE", "value": "Y", "quote": "They could be used as co-utterances with other units. Consider this example: Gee. you look like you had it! (Williams 1961: 8)", "source_file": "ameka1992-interjections.md", "location": "line~213", "source_wording": "co-utterances", "evidence_scope": "ITEM"}]}
+
+[STDERR]

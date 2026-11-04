@@ -137,16 +137,28 @@ Item-list decisions for Brett (drafted, not settled):
 ## 4. Properties
 
 `properties.csv` gives the 14 columns, values, assignment eligibility, and
-the standard a negative cell must meet. Operational definitions (the coder-
-facing text is derived from these and from nothing else):
+the standard a negative cell must meet. The property descriptions below
+guide extraction of source-supported observations; they are not
+definitions of the categories under investigation, and a source is never
+required to use the heading's label. Coders preserve the source's own
+wording in the coding record. Coder-facing text is derived from these
+descriptions and from nothing else:
 
 - **P01 STANDALONE.** In this use, the sign can constitute a complete
   utterance without a recoverable elided clause or head. Answer-economy
   fragments ("Coffee." in reply to an offer) code N: their interpretation
   depends on recovered structure.
-- **P02 SUPPLEMENT.** In this use, the sign can function as a supplement to
-  an intact clausal or nominal anchor (CGEL sense: outside integrated
-  structure, anchor complete without it).
+- **P02 SUPPLEMENT.** Sources describe or exemplify the sign in this use
+  occurring with a complete clausal or nominal unit while retaining a
+  separate, utterance-like status and not entering integrated construction
+  with that unit. Relevant source wording may include *supplement*,
+  *co-utterance*, occurrence with another utterance, and contrasts between
+  entering and not entering construction with other expressions. No one
+  framework's wording is a gate. Brett's reading of Ameka (1992: 105) is
+  the calibration example: its *co-utterances* occur in an explicitly
+  distributional discussion contrasting utterance status with entering
+  into construction, which is close to the syntactic territory CGEL treats
+  under supplement function.
 - **P03 INTEGRATED.** In this use, the sign occurs as an integrated
   constituent inside clause or NP structure (modifier, head, argument).
 - **P04 DEPENDENTS.** In this use, the sign takes complements or other
@@ -247,6 +259,20 @@ frozen but untestable on literature evidence alone, the fill pattern
 itself is reported (it is a finding about the descriptive record), and no
 lesion results are presented. No reduction of the property set to pass
 the gate after coding.
+
+**Outcome firewall.** Before the approved freeze is registered, design work
+may inspect fake-data outcomes and explicitly discarded pilot artifacts, but
+not lesion outcomes or cross-property patterns from the full study matrix.
+During full coding, no one computes or inspects category assignments across
+complete rows, cross-column associations, lesion scores, predictor
+comparisons, or tier outcomes. Permitted pre-unblinding checks are confined
+to the siloed coding task itself: schema validity, verbatim-quote
+verification, packet-only adjudication of individual disagreements, and the
+pre-specified known-cell counts needed for the go/no-go gate. The consensus
+matrix is assembled by the committed script, hashed, and left unexamined
+until the frozen primary lesion configuration is run. Any accidental
+inspection beyond this firewall is recorded in `DEVIATIONS.md`, and any
+analysis begun after the primary reveal is labelled exploratory.
 
 ## 6. Assignment rules (frozen before coding)
 
