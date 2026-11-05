@@ -245,6 +245,17 @@ posterior probability of the member class.
   shared diagnostic, so that drift between them through it is visible.
   P07 stays in both primary sets: meaning is one of the converging
   diagnostics for the lexical category, not only a target.
+- **Families and derived states (2026-11-05).** Diagnostics of one
+  family (section 6) are pooled: a row's visible cells in one family
+  share weight 1 in the fit, as a testimony unit's cells do, so one
+  mechanism doesn't count as several. Correlated properties are not
+  merged unless one follows logically from the other. Derived states
+  (the POSITION family's standalone-only state, and every x) are never
+  coded and never enter the fit. The relatedness facts (roots and word
+  form, section 6) are never diagnostics; the analysis runs with and
+  without them, pooled by base.
+- **Copies check.** Before any result is read, the rows of each form
+  family are duplicated and the verdict must not move.
 - **Estimability [BRETT TO APPROVE NUMBERS].** A grouping's membership
   is reported as not estimable, and its projections as insufficient
   information, unless all four checks pass on the post-concealment
@@ -259,9 +270,12 @@ posterior probability of the member class.
   rescue a split that fails (d). A failure is a finding, never a reason
   to fall back on a tally or a single property. A two-class model on two
   yes/no diagnostics can't settle which split is the member class, and P11
-  is inapplicable for uses with no host, so standalone rows carry at most
-  three EXPRESSIVE diagnostics; the yield audit reports the counts these
-  checks need (section 12).
+  is x (not applicable) for uses with no host environment, so such rows
+  carry at most three EXPRESSIVE diagnostics. The x state is derived from
+  the recorded host environment, never coded. A standalone-only use has
+  no host unless an independent adjacent turn counts as one, which is
+  open (section 13). The yield audit reports the counts these checks
+  need (section 12).
 - **Sensitivity:** a three-class model, so that a heterogeneous
   complement can split; reported beside the primary, never substituted
   for it.
@@ -546,8 +560,13 @@ retained source can be supported without relying on the target
 observation, on a proposition that entails it, or on the source's
 classification of the item. This dependence classification is
 semantic-audited, and its frequency is reported for each projection.
-Whether the same rule applies symmetrically to reference rows remains
-a Brett decision (deeper v3 triage, adapt item 3).
+The rule applies to reference rows as well as target rows (section 2,
+step 3; Brett, 2026-11-04). P11's x state is derived from the POSITION
+family and the host record (section 6), so it is never coded and never
+enters the membership fit. P11 values on rows with a host stay visible:
+EXPRESSIVE projections onto P01–P03 conceal only P11's inapplicability
+and missingness indicators, cell by cell, never the whole column
+(2026-11-05).
 
 ## 5. Items, bearers, and rotations
 
@@ -654,6 +673,15 @@ not definitions, and sources need not use the heading. The current
 starting set is `properties.csv` (P01-P14), with the following
 pre-approval repairs required rather than inherited silently:
 
+Since 2026-11-05, `properties-v4.csv` codes every property as a
+possibility claim (subsection *Polarity, joint states and families*
+below). P07 is coded as P07D, P11 as P11E, P12 as P12S and P12I, and P10
+adds P10A and P10R; the old rows are kept as the record (type
+superseded). Mentions of P07, P10, P11 and P12 elsewhere in this
+protocol refer to the property, coded under the new identifiers. Where
+the polarity is reversed, so is the member-class orientation: lower
+P07D for both groupings, lower P11E for EXPRESSIVE.
+
 - **P01:** separate solitary occurrence, contextual dependence, and a
   source's explicit conventional-utterance characterization. Do not infer
   syntactic ellipsis merely from context dependence.
@@ -733,12 +761,65 @@ does not govern. The yield audit codes under `properties-v4.csv`. If a property 
 the split, identifiers, and derivation from assertions are frozen before
 production coding.
 
+### Polarity, joint states and families (2026-11-05)
+
+Adopted from the determinatives-as-nouns codebook
+(`papers/queue/determinatives-as-nouns/planning/codebook.md`, sections
+1, 4 and 6) at Brett's request ("make those fixes"). The audit behind
+them is `notes/2026-11-05-complement-columns.md`.
+
+- **One polarity.** Every property states a possibility. Y needs one
+  admissible instance; N means never, held to the evidence rules of
+  section 4. A universal stated negatively is reversed: P07 becomes
+  P07D, *may contribute descriptive content*, which converts
+  mechanically. Where conversion isn't mechanical, old cells become U:
+  P11N becomes P11E, *may be interpreted inside the scope of host
+  negation*, whose N (the wide reading is forced; Potts 2007, p. 172) is
+  the expressive value.
+- **x, not U.** A property that can't arise for a use is x, a status
+  that is derived, never coded. P10S, P10M and P10R are x where the
+  pattern is unavailable (P10A = N); P11E, P12S and P12I where the use
+  has no host environment.
+- **The POSITION family.** P01–P03 are three possibility claims over the
+  positions a use occurs in, not a partition. N on all three is
+  impossible. *Standalone only* (P01 Y, P02 N, P03 N) is a derived joint
+  state. A statement that a use is always integrated or always
+  standalone supports two cells as one proposition (dependence state:
+  entailed).
+- **Pairs give three states.** P12S with P12I, and P10S with P10R, give
+  always, never, or either. There is no fourth state.
+- **Contraries with gaps get their extension stated.** P09's N is
+  "doesn't depict", which a non-iconic characterization supports; an
+  iconic use that doesn't depict isn't thereby Y.
+- **P06** records which disjunct supports Y. A conversion analysis is
+  contrast evidence: U in the primary record, N in a predeclared
+  sensitivity, as for P08.
+- **Families.** Correlated properties stay separate unless one follows
+  logically from the other, and are pooled by family in assignment
+  (section 2). TRUTH_CONDITIONAL groups P07D and P11E: on Gutzmann's
+  account (2013, pp. 32–37) both follow from use-conditional content
+  not being truth-conditional.
+- **Roots and word form.** Relatedness facts are drafted by rule in
+  `morphology-facts-v4.csv` (`morphology_facts_v4.py`, string identity
+  only, for Brett to approve): shared bases (*damn*, *bloody*,
+  *bastard*, *bang*, *the*, *you*), the suffix *-ly*, and phrasal,
+  reduplicated and sub-word forms. They take no m and link bearers (the
+  four *damn* uses, the three *bloody* uses). They are never
+  diagnostics or targets, they are pooled by base, and the tests run
+  with and without them. Whether the uses of one form are one lexeme is
+  not coded by rule (section 13).
+- **Frames** (P10 patterns, P11 operators, P12's hosted environment)
+  are proposed blind and frozen before Brett judges any cell. A frame
+  needs a contrast within one use, and a property is split by frame
+  only where some bearer's value changes across frames.
+
 ## 7. Coding and adjudication
 
 - Coding is siloed by property. A coder sees one property description,
   shuffled bearers with controls interleaved, and a source packet for each
   bearer. It does not see other columns, assignments, item tiers, or
-  rotation hypotheses.
+  rotation hypotheses. Bearers are described in plain words, never by
+  identifiers that carry an analysis (DAMN_REACT, BASTARD_SUPP).
 - Packets separate item-form passages from class/context passages and
   preserve source wording. Publication page, section, and packet hash are
   recorded. A class/context passage supports a cell only under the
@@ -903,6 +984,18 @@ adjudicated values, and sensitivity values. Raw model outputs must never
 be overwritten by cleaned results.
 
 ## 12. Development record
+
+### Incorporated 2026-11-05
+
+The polarity, joint-state, family and morphology rules (section 6), the
+family pooling, derived-state and copies rules (section 2), the P11
+concealment ruling (section 4), and plain-word bearer descriptions for
+coders (section 7), after the determinatives-as-nouns codebook (Brett:
+"make those fixes"; "what about the morphology columns, which include
+roots. That would link bearers"). Round 7's results were produced
+before these changes (`round7/RESULTS.md`). The 12-item target audit's
+P10–P12 codings were made under the old standards; they are
+development data and aren't converted.
 
 ### Incorporated into v4 (2026-11-04)
 
@@ -1120,6 +1213,25 @@ needed before this draft can freeze:
    requirements for production coding.
 7. Registration venue and timing after the consolidated freeze is
    signed.
+
+8. The polarity recode of 2026-11-05 (section 6) and the rules in
+   `morphology-facts-v4.csv`, including the function-word bases *the*
+   and *you*.
+9. Whether an independent adjacent turn counts as a host for P11E and
+   P12S. `properties-v4.csv` lists it as a host relation; section 2 had
+   treated standalone uses as hostless.
+10. Whether the uses of one form (*damn*, *bloody*, *bastard*, *bang*)
+    are one lexeme. Until decided, the analysis runs both ways.
+11. Forks from the determinatives project, not yet designed: holding
+    out whole rows or form families rather than single cells; a
+    property frame drawn from a source no grouping chose, balanced
+    across perspectives; an *accepted* status for cells all model
+    families agree on, audited by a stratified random gold sample.
+12. Whether a class-level "never" statement (Potts 2007, p. 172;
+    Gutzmann 2013, p. 37) supports P11E = N for the members it names.
+    Under section 4's inheritance rules it does, as one testimony unit;
+    under P11E the item-level evidence comes mostly from Y cells on
+    controls.
 
 Until those items are settled, this is a development protocol. It does
 not authorize production coding.

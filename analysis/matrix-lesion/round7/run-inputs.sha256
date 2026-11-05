@@ -1,0 +1,9 @@
+80066ea7e0862d77ae1529cdef96fdf29e37eab15bcb45d1abd1162394ee8bac  harness.py
+910cd8cb1881d28e07341b1f9183d8bb74b01c44e7d11df29db66e612a0c2b6e  RULE.md
+Thu  5 Nov 2026 06:36:36 EST
+# post-run (2026-11-05 08:25 EST run end; exit 0, 6523.7 s)
+2e9dffd96103d98574f8b6d0b6c2cea02f25927fce8542556304fed1805f9f8f  results-round7-raw.json.gz
+c241d009bfd04e84b569be31aaa5c2c60ce1a639eddd988f43bf5da81b9f2806  harness.py (summary harness, after Codex v2 fixes; simulation harness 80066ea7… kept at as-run-v2/harness-80066ea7.py)
+7c0cbf8d9197ead437e096811d7be4bf253d6a6ba88e9a785ca587629560bb54  results-round7.json (rebuilt by resummarize)
+005dde59dd3f4bc358d46013493d6055f2c6137ac27948ecfb6f68770169161c  RESULTS.md (with corrections after the proceed consult)
+d6384b8bb33b22abc9bea8df60989a8bb1ceeaa00d7f7c4ab691641bbc02eb46  harness.py (2026-11-05 polarity fixes: joint position draw, applicability from P01-P03; not run)
