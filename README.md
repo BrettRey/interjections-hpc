@@ -33,7 +33,23 @@ source("analysis/conditioning-model.R")
 
 ## License
 
-CC-BY 4.0
+Brett Reynolds's original text, code, and data in this repository are
+licensed under CC BY 4.0 (see `LICENSE`).
+
+The licence does not cover material by others that is included as a
+research record:
+
+- quotations and excerpts from published sources, including the coding
+  packets and prompts under `analysis/matrix-lesion/` (`pilot*/packets*`,
+  `pilot*/prompt-*`), which remain under their owners' copyright;
+- the editorial decision letter and referee reports in
+  `notes/2026-07-23-jop-decision-letter-and-reviews.md`, which belong to
+  their authors;
+- any other quoted third-party text, reproduced for scholarly purposes
+  only.
+
+Third-party corpora (for example CABNC) are not included in the
+repository.
 
 ## Citation
 
