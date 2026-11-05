@@ -1,0 +1,104 @@
+diff --git a/reviews/perspective-precision-2026-11-03/after-round6.tex b/inquiry-relative-categories.tex
+index e8b7515..9668294 100644
+--- a/reviews/perspective-precision-2026-11-03/after-round6.tex
++++ b/inquiry-relative-categories.tex
+@@ -263,9 +263,9 @@ lexical category. \textit{CGEL} assigns lexemes to categories \enquote{on
+ the basis of their inflection, the kinds of dependent they take and the
+ function in larger constructions of the phrases they head}
+ \citep[30]{HuddlestonPullum2002}. Interjections characteristically take no
+-inflection \citep[106]{ameka1992} and no dependents, with one exceptional
+-type discussed in Section~\ref{sec:damn-profiles}, and they occur on their
+-own or as supplements. \textit{CGEL}'s general definition adds meaning:
++inflection or derivation \citep[106]{ameka1992} and no dependents, with one
++exceptional type discussed in Section~\ref{sec:damn-profiles}, and they
++occur on their own or as supplements. \textit{CGEL}'s general definition adds meaning:
+ interjections \enquote{do not combine with other words in integrated
+ syntactic constructions, and have expressive rather than propositional
+ meaning} \citep[1361]{HuddlestonPullum2002}. \textit{CGEL} reserves meaning
+@@ -275,7 +275,10 @@ and \textcite[105--106]{ameka1992} and \textcite[124--125]{wilkins1992}
+ likewise characterize the class through its distributional and
+ morphological profile. I treat meaning as one of the converging diagnostics,
+ as \textit{CGEL}'s own treatment of \mention{damn} in
+-Section~\ref{sec:damn-profiles} does in practice.
++Section~\ref{sec:damn-profiles} does in practice. Most of these diagnostics
++are absences (no inflection, no dependents, no integrated position, no
++propositional content), and an absence weighs in the convergence like any
++other property.
+ 
+ No one diagnostic decides membership. Ordinary \mention{Stop!} is an
+ imperative clause: the verb retains the possibilities illustrated by
+@@ -296,8 +299,9 @@ licenses expecting the others. An analyst who has met reaction
+ to pain, can expect it also to supplement an intact clause. From an
+ identified supplementary \mention{oops}, the analyst can expect an
+ independent utterance without recovering a missing predicate. Membership
+-also licenses expecting a member to resist determiners and number marking,
+-so a token such as \mention{It's a big ouch}, attested in child-directed
++also licenses expecting what a member lacks: it shouldn't take determiners,
++number marking, or quantification (*\mention{every ouch}) or fill an
++argument position, so a token such as \mention{It's a big ouch}, attested in child-directed
+ speech \citep[36]{stange2016}, needs a conversion analysis with evidence of
+ its own rather than an exemption.
+ 
+@@ -427,8 +431,8 @@ integration but has no anchor, being an independent utterance. The
+ expressive analysis groups all three. In prenominal position \mention{damn}
+ is integrated into the noun phrase and lacks a supplement's separate
+ packaging, and those diagnostics converge against membership in the
+-interjection category. Its lack of inflection and dependents doesn't
+-outweigh them, since many words outside the category share both. I leave
++interjection category. Its lack of inflection and dependents weighs
++toward membership, but not enough to outweigh them. I leave
+ open which category it does belong to.
+ 
+ Complement-taking \mention{Damn these mosquitoes!} presents a further
+@@ -451,13 +455,18 @@ this narrower sense from here on; a conventional instruction for managing
+ interpretation or interaction is non-propositional without necessarily
+ expressing such a stance. Like a proper name, the category has a
+ cluster. \textcite[166--167]{potts2007} lists six properties of
+-expressives, among them independence from descriptive content, perspective
+-dependence, and strengthening under repetition. Among the category's
++expressives, and several are absences. Expressive content isn't part of the
++descriptive content, isn't interpreted in the scope of negation,
++conditionals, modals, or tense \citep[170--171]{potts2007}, and resists
++satisfactory paraphrase in descriptive terms. It's also evaluated from a
++perspective, usually the speaker's, takes effect in being uttered, and
++strengthens rather than becoming redundant when repeated. Among the category's
+ properties of another kind is membership in the lexical category
+-interjection, with the independent or supplementary use that goes with it. For \mention{damn}, the
+-semantic properties raise the questions of whose attitude is conveyed and
+-whether repeating the form strengthens it, on either side of the category
+-boundary.
++interjection, with the independent or supplementary use that goes with it. For \mention{damn}, these
++properties raise the questions of whose attitude is conveyed, whether
++\mention{The damn car didn't start} still conveys it despite the negation,
++and whether repeating the form strengthens it, on either side of the
++category boundary.
+ 
+ The expressive grouping and the lexical category come apart in both
+ directions, as names and proper nouns do. The category's core includes
+@@ -571,7 +580,12 @@ The difference concerns what happens next: the story proceeds after
+ the continuer, while the meeting time is repeated after the repair
+ initiator. Closing \mention{bye} has another job, participating in the
+ end of an encounter. Accounts of interjections in conversation make
+-these sequential differences central \citep[257--259, 263--265]{dingemanse2024}.
++these sequential differences central \citep[257--259, 263--265]{dingemanse2024},
++and part of each class's profile is what its members don't do. A continuer
++provides evidence of attention \enquote{without attempting to take the
++conversational floor} \citep[266]{dingemanse2024}, and \mention{huh?},
++\enquote{the most generic way of asking for clarification}, leaves the
++trouble in the prior turn unlocated \citep[267]{dingemanse2024}.
+ Membership in the lexical category can orient expectations toward reactive
+ or interaction-managing uses; these finer categories identify the particular
+ sequential relation.
+@@ -598,9 +612,9 @@ to be assessed as that selected use.
+ 
+ Assigning \mention{mm-hm} and \mention{huh?} to the lexical category
+ needs the same converging evidence as the core, since standalone occurrence
+-alone doesn't classify a word. Absence of inflection and dependents is weak
+-evidence in standalone responses, where a rival analysis wouldn't show them
+-either (Section~\ref{sec:assessment}). The assignment rests on the
++alone doesn't classify a word. Absence of inflection and dependents weighs for
++membership, though less in standalone responses, where a rival analysis
++wouldn't show them either (Section~\ref{sec:assessment}). The assignment rests on the
+ non-elliptical analysis adopted here, under which neither needs a recovered
+ nominal head or clause to supply its interpretation, and on their
+ non-propositional meaning. \textcite[114]{ameka1992}

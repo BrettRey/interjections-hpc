@@ -1,0 +1,23 @@
+diff --git a/reviews/perspective-precision-2026-11-03/after-round7.tex b/inquiry-relative-categories.tex
+index 9668294..e4fbbb9 100644
+--- a/reviews/perspective-precision-2026-11-03/after-round7.tex
++++ b/inquiry-relative-categories.tex
+@@ -298,11 +298,13 @@ licenses expecting the others. An analyst who has met reaction
+ \mention{ouch} only as an independent utterance, uninflected and reacting
+ to pain, can expect it also to supplement an intact clause. From an
+ identified supplementary \mention{oops}, the analyst can expect an
+-independent utterance without recovering a missing predicate. Membership
+-also licenses expecting what a member lacks: it shouldn't take determiners,
+-number marking, or quantification (*\mention{every ouch}) or fill an
+-argument position, so a token such as \mention{It's a big ouch}, attested in child-directed
+-speech \citep[36]{stange2016}, needs a conversion analysis with evidence of
++independent utterance without recovering a missing predicate. The
++absences project as well. An analyst who's seen \mention{ouch} take no
++complement or modifier and no inflection hasn't thereby seen it with a
++determiner or a plural, and membership licenses expecting neither
++(*\mention{every ouch}, *\mention{two ouches}). A token such as
++\mention{It's a big ouch}, attested in child-directed speech
++\citep[36]{stange2016}, then needs a conversion analysis with evidence of
+ its own rather than an exemption.
+ 
+ Meaning is a diagnostic and also a target of projection. For a form

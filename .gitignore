@@ -46,3 +46,6 @@ submission/venue-sweep-2026-11-02/
 notes/intake-2026-11-02/
 notes/attribution-audit-2026-11-02/
 reviews/gap-filling-2026-11-02/
+
+# LibreOffice lock files
+.~lock.*#

@@ -1,0 +1,47 @@
+item_id,form,use_gloss,form_family,analyst_tier,inclusion_rationale,rotation_universes
+AH,ah,"receipt/reaction use, as in: Ah, so you were there",ah,core,CGEL core list (p. 1361),INTJ;EXPR
+HEY,hey,attention-getting use,hey,core,CGEL core list; conative,INTJ;EXPR
+OH,oh,change-of-state / receipt use,oh,core,CGEL core list,INTJ;EXPR
+OOPS,oops,mishap reaction,oops,core,CGEL core list,INTJ;EXPR
+OUCH,ouch,pain reaction,ouch,core,CGEL core list,INTJ;EXPR
+SH,sh,silencing use,sh,core,CGEL core list; conative; vowelless form,INTJ;EXPR
+UGH,ugh,disgust/dismay reaction,ugh,core,CGEL core list; non-canonical phonology reported,INTJ;EXPR
+WOW,wow,amazement reaction,wow,core,CGEL core list,INTJ;EXPR
+ALAS,alas,dated lament,alas,core,CGEL additional example; secure but dated member,INTJ;EXPR
+AHA,aha,recognition / discovery display,aha,core,Ameka cognitive interjection,INTJ;EXPR
+GEE,gee,surprise/emphasis reaction,gee,boundary,Documented invocation-to-interjection history (Gehweiler 2008),INTJ;EXPR
+TUTTUT,tut-tut,disapproval click (spelling pronunciation excluded),tuttut,boundary,Click phonology (Wilkins 1992: 147),INTJ;EXPR
+DAMN_REACT,damn,"standalone and supplementary stance use: Damn! / Damn, we're late",damn,boundary,CGEL reanalysis-as-interjection case (p. 1361),INTJ;EXPR
+DAMN_NP,damn,complement-taking use: Damn these mosquitoes!,damn,boundary,CGEL p. 1361 n. 70; category unresolved in the draft,INTJ;EXPR
+DAMN_PRENOM,damn,prenominal modifier: the damn car,damn,boundary,Expressive outside the category in the draft,INTJ;EXPR
+BANG_DEPICT,bang,sound depiction in narrative: Bang!,bang,boundary,Depictive; category unresolved in the draft,INTJ;EXPR
+BANG_NOUN,bang,"count-noun use: a loud bang, two bangs",bang,control,Same-form nominal control for BANG_DEPICT,INTJ;EXPR
+MMHM,mm-hm,continuer use in storytelling,mmhm,boundary,Ameka phatic; draft adopts interjection analysis,INTJ;EXPR
+HUH,huh,open repair initiator: Huh?,huh,boundary,Draft adopts interjection analysis,INTJ;EXPR
+BYE,bye,closing use,bye,boundary,Ameka/Wilkins routine-formula dispute,INTJ;EXPR
+OKAY,okay,acceptance/response use,okay,boundary,Sequential response resource,INTJ;EXPR
+YES,yes,affirmative answer to polar question,yes,boundary,Stivers 2019 answer-slot evidence,INTJ;EXPR
+NO,no,negative answer to polar question,no,boundary,Stivers 2019 answer-slot evidence,INTJ;EXPR
+THANKS,thanks,thanking use,thanks,boundary,Ameka/Wilkins routine-formula dispute,INTJ;EXPR
+SORRY,sorry,apology use,sorry,boundary,Ameka/Wilkins routine-formula dispute,INTJ;EXPR
+HELLO,hello,greeting use,hello,boundary,Routine formula with interjection-like distribution,INTJ;EXPR
+BLOODY_PRENOM,bloody,prenominal modifier: the bloody car,bloody,boundary,Second prenominal expressive; parallels DAMN_PRENOM,INTJ;EXPR
+HEAVENS,heavens,exclamatory use: Heavens!,heavens,boundary,Retained plural shape; tests productive-inflection coding,INTJ;EXPR
+COFFEE,coffee,"count/mass noun, incl. answer use: Coffee. (reply to What would you like?)",coffee,control,Standalone-occurring noun control (draft sec. 2.1),INTJ;EXPR
+STOP,stop,imperative verb use: Stop! / Stop the car!,stop,control,Standalone-occurring verb control (draft sec. 2.1),INTJ;EXPR
+BLACK,black,"adjective, incl. answer use: Black. (reply about colour)",black,control,Wilkins 1992: 124-125 answer-economy control,INTJ;EXPR
+QUICKLY,quickly,ordinary manner adverb,quickly,control,Non-inflecting non-interjection control,INTJ;EXPR
+HOWAREYOU,how are you,formulaic greeting sequence,howareyou,control,Multiword formulaic control; internal clause structure,EXPR
+LAH,lah,Singapore/Malaysian English particle use,lah,extension,Tier 2: regional item; fill rate expected low,INTJ;EXPR
+HABA,haba,Nigerian English surprise/exclamation use,haba,extension,Tier 2: regional item; Unuabonah & Daniel 2020,INTJ;EXPR
+BASTARD_SUPP,the bastard,"supplementary epithet: He's taken my chair again, the bastard",bastard,expr-core,"CGEL p. 1413 (supplementary epithet: non-referential, expresses the speaker's attitude, own intonation unit); Ljung 2011 p. 34 (epithets)",EXPR
+YOU_BASTARD,you bastard,exclamatory NP: You bastard!,bastard,expr-core,CGEL p. 353 n. 14 (exclamatory construction; never in complement position); Ljung 2011 (name-calling),EXPR
+BLOODY_INTENS,bloody,degree modifier: It's bloody marvellous,bloody,expr-core,"CGEL p. 584 (adverbial modifiers of adjectives, not of verbs); Ljung 2011 p. 33 (intensifier)",INTJ;EXPR
+DAMN_DEGREE,damn,degree modifier: They drove damn fast,damn,expr-core,CGEL pp. 584-585 (same list; *I damn hated it); Ljung 2011 p. 33,INTJ;EXPR
+FUCKING_PRENOM,fucking,attributive-only expletive: a fucking investigation,fucking,expr-core,CGEL p. 558 (expressive attributives; no contribution to propositional meaning); Potts 2007,INTJ;EXPR
+BLOODY_INFIX,-bloody-,infix (tmesis): abso-bloody-lutely,bloody,expr-core,"Quirk et al. 1985 App. I.75, p. 1584 (tmesis); Ljung 2011 p. 34 (infixation). No non-expressive English infix exists as a control",EXPR
+THE_HELL_WH,the hell,emotive modifier after an interrogative: What the hell is she trying to do?,hell,expr-core,CGEL p. 1087 (emotive modifiers only immediately after an interrogative head); Ljung 2011 p. 34,EXPR
+VERY_INTENS,very,degree modifier without stance: They drove very fast,very,expr-control,CGEL p. 584 (same list as bloody and damn),INTJ;EXPR
+EXACTLY_WH,exactly,modifier after an interrogative: What exactly do you mean?,exactly,expr-control,CGEL p. 1087 (contrasted with emotive modifiers),INTJ;EXPR
+MAIN_PRENOM,main,particularising attributive: the main objection,main,expr-control,"CGEL p. 558 (particularising attributives, contrasted with expressive attributives on the same page)",INTJ;EXPR
+PROBABLE_PRENOM,probable,modal attributive: the probable result,probable,expr-control,CGEL p. 557 (modal attributives),INTJ;EXPR

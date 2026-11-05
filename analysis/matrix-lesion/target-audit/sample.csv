@@ -1,0 +1,13 @@
+item_id,stratum,selection_reason
+OUCH,canonical-reaction,Core primary interjection; hosted prosody and repetition are plausible literature topics
+WOW,canonical-reaction,Core primary interjection with rich descriptive record
+GEE,canonical-reaction,Secondary stance form with diachronic and descriptive sources
+DAMN_REACT,domain-family,Standalone/supplementary member of the damn family
+DAMN_PRENOM,domain-family,Integrated prenominal expressive in the same form family
+BLOODY_PRENOM,integrated-expressive,Independent integrated expressive comparison
+BANG_DEPICT,depictive,Explicit depictive case; repetition dimension is especially relevant
+MMHM,interactional,Continuer use; tests hosted versus turn-sequential evidence separation
+HUH,interactional,Repair initiator with extensive sequential literature
+OKAY,interactional,Response/acceptance use with broad descriptive record
+COFFEE,lexical-control,Ordinary nominal control including answer use
+STOP,lexical-control,Ordinary imperative verb control

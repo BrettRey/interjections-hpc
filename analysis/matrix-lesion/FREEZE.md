@@ -1,6 +1,8 @@
 # DRAFT FREEZE: Property-matrix lesion study for Inquiry-Relative Categories
 
-**Status: DRAFT, NOT APPROVED, NOT FROZEN.** Prepared 2026-11-03 by Muse
+**Status: SUPERSEDED DEVELOPMENT DRAFT.** Retained as the record of design
+development. The current consolidated proposal is `FREEZE-v2.md`, which
+remains unapproved. Prepared originally 2026-11-03 by Muse
 Code (muse-wonder-full-1.0) at Brett's request. Nothing in this document
 binds anyone until Brett approves it in writing (a DECISIONS.md entry counts)
 and the approved version is committed to git. The commit hash of the approved

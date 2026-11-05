@@ -1,0 +1,350 @@
+{
+ "including_pass_weak": {
+  "pair_level_by_property": {
+   "P10": {
+    "SILENCE": 8,
+    "ITEM-DIRECT": 4
+   },
+   "P11": {
+    "SILENCE": 4,
+    "ADJACENT-ONLY": 4,
+    "ITEM-DIRECT": 2,
+    "CLASS-INHERITED": 2
+   },
+   "P12": {
+    "CLASS-INHERITED": 7,
+    "ADJACENT-ONLY": 4,
+    "SILENCE": 1
+   }
+  },
+  "pair_level_by_stratum": {
+   "P10": {
+    "depictive:SILENCE": 1,
+    "integrated-expressive:SILENCE": 1,
+    "lexical-control:SILENCE": 2,
+    "domain-family:ITEM-DIRECT": 2,
+    "canonical-reaction:SILENCE": 3,
+    "interactional:ITEM-DIRECT": 2,
+    "interactional:SILENCE": 1
+   },
+   "P11": {
+    "depictive:SILENCE": 1,
+    "integrated-expressive:ADJACENT-ONLY": 1,
+    "lexical-control:ITEM-DIRECT": 1,
+    "domain-family:ADJACENT-ONLY": 1,
+    "domain-family:CLASS-INHERITED": 1,
+    "canonical-reaction:SILENCE": 1,
+    "interactional:ADJACENT-ONLY": 2,
+    "interactional:SILENCE": 1,
+    "canonical-reaction:ITEM-DIRECT": 1,
+    "lexical-control:SILENCE": 1,
+    "canonical-reaction:CLASS-INHERITED": 1
+   },
+   "P12": {
+    "depictive:CLASS-INHERITED": 1,
+    "integrated-expressive:ADJACENT-ONLY": 1,
+    "lexical-control:ADJACENT-ONLY": 1,
+    "domain-family:ADJACENT-ONLY": 1,
+    "domain-family:CLASS-INHERITED": 1,
+    "canonical-reaction:CLASS-INHERITED": 3,
+    "interactional:CLASS-INHERITED": 2,
+    "interactional:ADJACENT-ONLY": 1,
+    "lexical-control:SILENCE": 1
+   }
+  },
+  "unit_level": {
+   "P10": {
+    "distributed-recurrence[mixed]|strengthening -> ITEM-DIRECT": 2,
+    "distributed-recurrence[mixed]|redundancy -> ITEM-DIRECT": 2,
+    "adjacent-repetition|none-stated-occurrence-only -> ITEM-DIRECT": 1,
+    "unclear|strengthening -> ITEM-DIRECT": 1
+   },
+   "P11": {
+    "evaluative-stance|integrated -> ADJACENT-ONLY": 3,
+    "descriptive-content|integrated -> ITEM-DIRECT": 1,
+    "depictive-content|integrated -> ADJACENT-ONLY": 1,
+    "evaluative-stance|external-co-utterance -> CLASS-INHERITED": 3,
+    "sequential-action|independent-adjacent-turn -> ADJACENT-ONLY": 2,
+    "sequential-action|unclear -> ADJACENT-ONLY": 1,
+    "evaluative-stance|no-host -> ITEM-DIRECT": 1
+   },
+   "P12": {
+    "recurrent-characteristic -> CLASS-INHERITED": 7,
+    "attested-possible -> ADJACENT-ONLY": 5,
+    "attested-possible -> CLASS-INHERITED": 3
+   }
+  },
+  "pair_level": {
+   "P10/BANG_DEPICT": "SILENCE",
+   "P10/BLOODY_PRENOM": "SILENCE",
+   "P10/COFFEE": "SILENCE",
+   "P10/DAMN_PRENOM": "ITEM-DIRECT",
+   "P10/DAMN_REACT": "ITEM-DIRECT",
+   "P10/GEE": "SILENCE",
+   "P10/HUH": "ITEM-DIRECT",
+   "P10/MMHM": "SILENCE",
+   "P10/OKAY": "ITEM-DIRECT",
+   "P10/OUCH": "SILENCE",
+   "P10/STOP": "SILENCE",
+   "P10/WOW": "SILENCE",
+   "P11/BANG_DEPICT": "SILENCE",
+   "P11/BLOODY_PRENOM": "ADJACENT-ONLY",
+   "P11/COFFEE": "ITEM-DIRECT",
+   "P11/DAMN_PRENOM": "ADJACENT-ONLY",
+   "P11/DAMN_REACT": "CLASS-INHERITED",
+   "P11/GEE": "SILENCE",
+   "P11/HUH": "ADJACENT-ONLY",
+   "P11/MMHM": "SILENCE",
+   "P11/OKAY": "ADJACENT-ONLY",
+   "P11/OUCH": "ITEM-DIRECT",
+   "P11/STOP": "SILENCE",
+   "P11/WOW": "CLASS-INHERITED",
+   "P12/BANG_DEPICT": "CLASS-INHERITED",
+   "P12/BLOODY_PRENOM": "ADJACENT-ONLY",
+   "P12/COFFEE": "ADJACENT-ONLY",
+   "P12/DAMN_PRENOM": "ADJACENT-ONLY",
+   "P12/DAMN_REACT": "CLASS-INHERITED",
+   "P12/GEE": "CLASS-INHERITED",
+   "P12/HUH": "CLASS-INHERITED",
+   "P12/MMHM": "CLASS-INHERITED",
+   "P12/OKAY": "ADJACENT-ONLY",
+   "P12/OUCH": "CLASS-INHERITED",
+   "P12/STOP": "SILENCE",
+   "P12/WOW": "CLASS-INHERITED"
+  },
+  "unit_detail": {
+   "P10/BANG_DEPICT": {},
+   "P10/BLOODY_PRENOM": {},
+   "P10/COFFEE": {},
+   "P10/DAMN_PRENOM": {
+    "distributed-recurrence[mixed]|strengthening": "ITEM-DIRECT",
+    "distributed-recurrence[mixed]|redundancy": "ITEM-DIRECT"
+   },
+   "P10/DAMN_REACT": {
+    "distributed-recurrence[mixed]|strengthening": "ITEM-DIRECT",
+    "distributed-recurrence[mixed]|redundancy": "ITEM-DIRECT"
+   },
+   "P10/GEE": {},
+   "P10/HUH": {
+    "adjacent-repetition|none-stated-occurrence-only": "ITEM-DIRECT"
+   },
+   "P10/MMHM": {},
+   "P10/OKAY": {
+    "unclear|strengthening": "ITEM-DIRECT"
+   },
+   "P10/OUCH": {},
+   "P10/STOP": {},
+   "P10/WOW": {},
+   "P11/BANG_DEPICT": {},
+   "P11/BLOODY_PRENOM": {
+    "evaluative-stance|integrated": "ADJACENT-ONLY"
+   },
+   "P11/COFFEE": {
+    "descriptive-content|integrated": "ITEM-DIRECT"
+   },
+   "P11/DAMN_PRENOM": {
+    "evaluative-stance|integrated": "ADJACENT-ONLY"
+   },
+   "P11/DAMN_REACT": {
+    "depictive-content|integrated": "ADJACENT-ONLY",
+    "evaluative-stance|external-co-utterance": "CLASS-INHERITED"
+   },
+   "P11/GEE": {},
+   "P11/HUH": {
+    "sequential-action|independent-adjacent-turn": "ADJACENT-ONLY"
+   },
+   "P11/MMHM": {},
+   "P11/OKAY": {
+    "sequential-action|independent-adjacent-turn": "ADJACENT-ONLY",
+    "sequential-action|unclear": "ADJACENT-ONLY"
+   },
+   "P11/OUCH": {
+    "evaluative-stance|no-host": "ITEM-DIRECT",
+    "evaluative-stance|external-co-utterance": "CLASS-INHERITED",
+    "evaluative-stance|integrated": "ADJACENT-ONLY"
+   },
+   "P11/STOP": {},
+   "P11/WOW": {
+    "evaluative-stance|external-co-utterance": "CLASS-INHERITED"
+   },
+   "P12/BANG_DEPICT": {
+    "recurrent-characteristic": "CLASS-INHERITED",
+    "attested-possible": "ADJACENT-ONLY"
+   },
+   "P12/BLOODY_PRENOM": {},
+   "P12/COFFEE": {
+    "attested-possible": "ADJACENT-ONLY"
+   },
+   "P12/DAMN_PRENOM": {},
+   "P12/DAMN_REACT": {
+    "recurrent-characteristic": "CLASS-INHERITED",
+    "attested-possible": "ADJACENT-ONLY"
+   },
+   "P12/GEE": {
+    "recurrent-characteristic": "CLASS-INHERITED",
+    "attested-possible": "ADJACENT-ONLY"
+   },
+   "P12/HUH": {
+    "recurrent-characteristic": "CLASS-INHERITED",
+    "attested-possible": "CLASS-INHERITED"
+   },
+   "P12/MMHM": {
+    "recurrent-characteristic": "CLASS-INHERITED",
+    "attested-possible": "ADJACENT-ONLY"
+   },
+   "P12/OKAY": {},
+   "P12/OUCH": {
+    "attested-possible": "CLASS-INHERITED",
+    "recurrent-characteristic": "CLASS-INHERITED"
+   },
+   "P12/STOP": {},
+   "P12/WOW": {
+    "recurrent-characteristic": "CLASS-INHERITED",
+    "attested-possible": "CLASS-INHERITED"
+   }
+  },
+  "clusters": {
+   "PROP-P10-DING-HUH": [
+    "copilot:HUH:A1-huh-adjacent-rep"
+   ],
+   "PROP-P10-POTTS-34": [
+    "agy:DAMN_PRENOM:a1",
+    "claude:DAMN_PRENOM:P10-DAMNPRENOM-A1",
+    "claude:DAMN_PRENOM:P10-DAMNPRENOM-A2",
+    "claude:DAMN_REACT:P10-DAMNREACT-A1",
+    "claude:DAMN_REACT:P10-DAMNREACT-A2"
+   ],
+   "PROP-P10-QUIRK-EMPH": [
+    "agy:OKAY:ast-quirk-okay-p10",
+    "claude:OKAY:P10-OKAY-A1"
+   ],
+   "PROP-P11-CGEL-OR": [
+    "claude:COFFEE:A-P11-COFFEE-1"
+   ],
+   "PROP-P11-CGEL-SCOPE": [
+    "agy:OUCH:ast-ouch-p11-cgel-01",
+    "claude:DAMN_REACT:A-P11-DAMN_REACT-1",
+    "claude:OUCH:A-P11-OUCH-2",
+    "claude:WOW:A-P11-WOW-1"
+   ],
+   "PROP-P11-HEINE-NEG": [
+    "agy:OUCH:ast-ouch-p11-heine-01",
+    "claude:OUCH:A-P11-OUCH-1"
+   ],
+   "PROP-P12-ANDRASON": [
+    "agy:OUCH:ast-ouch-p12-001"
+   ],
+   "PROP-P12-HEINE-LEFTPERIPH": [
+    "agy:WOW:ast-p12-wow-pos",
+    "qwen:WOW:A1"
+   ],
+   "PROP-P12-HEINE-SETOFF": [
+    "agy:BANG_DEPICT:ast-bang-depict-p12-01",
+    "agy:HUH:ast_p12_huh_att_01",
+    "agy:HUH:ast_p12_huh_rec_01",
+    "claude:DAMN_REACT:DAMNR-BEH1",
+    "claude:GEE:GEE-BEH1",
+    "claude:OUCH:OUCH-BEH1",
+    "claude:WOW:WOW-BEH2",
+    "copilot:DAMN_REACT:A3-class-inherited-prosodic-isolation",
+    "copilot:MMHM:A3",
+    "copilot:OUCH:Heine-prosodic-class"
+   ],
+   "PROP-P12-WHARTON": [
+    "agy:WOW:ast-p12-wow-cat",
+    "agy:WOW:ast-p12-wow-rec",
+    "claude:WOW:WOW-BEH1"
+   ]
+  },
+  "support_mix": {
+   "P10:item-specific": 8,
+   "P11:item-specific": 3,
+   "P11:class-inherited": 4,
+   "P12:class-inherited": 16
+  },
+  "source_target_relation": {
+   "P10:same-observation": 3,
+   "P10:distinct-propositions-shared-passage": 4,
+   "P10:unknown": 1,
+   "P11:distinct-propositions-shared-passage": 5,
+   "P11:same-observation": 2,
+   "P12:distinct-propositions-shared-passage": 11,
+   "P12:distinct-observations": 2,
+   "P12:same-observation": 2,
+   "P12:inseparable": 1
+  }
+ },
+ "strict_pass_only": {
+  "pair_level_by_property": {
+   "P10": {
+    "SILENCE": 10,
+    "ITEM-DIRECT": 2
+   },
+   "P11": {
+    "SILENCE": 4,
+    "ADJACENT-ONLY": 4,
+    "ITEM-DIRECT": 2,
+    "CLASS-INHERITED": 2
+   },
+   "P12": {
+    "ADJACENT-ONLY": 10,
+    "SILENCE": 1,
+    "CLASS-INHERITED": 1
+   }
+  },
+  "pair_level_by_stratum": {
+   "P10": {
+    "depictive:SILENCE": 1,
+    "integrated-expressive:SILENCE": 1,
+    "lexical-control:SILENCE": 2,
+    "domain-family:ITEM-DIRECT": 2,
+    "canonical-reaction:SILENCE": 3,
+    "interactional:SILENCE": 3
+   },
+   "P11": {
+    "depictive:SILENCE": 1,
+    "integrated-expressive:ADJACENT-ONLY": 1,
+    "lexical-control:ITEM-DIRECT": 1,
+    "domain-family:ADJACENT-ONLY": 1,
+    "domain-family:CLASS-INHERITED": 1,
+    "canonical-reaction:SILENCE": 1,
+    "interactional:ADJACENT-ONLY": 2,
+    "interactional:SILENCE": 1,
+    "canonical-reaction:ITEM-DIRECT": 1,
+    "lexical-control:SILENCE": 1,
+    "canonical-reaction:CLASS-INHERITED": 1
+   },
+   "P12": {
+    "depictive:ADJACENT-ONLY": 1,
+    "integrated-expressive:ADJACENT-ONLY": 1,
+    "lexical-control:ADJACENT-ONLY": 1,
+    "domain-family:ADJACENT-ONLY": 2,
+    "canonical-reaction:ADJACENT-ONLY": 2,
+    "interactional:ADJACENT-ONLY": 3,
+    "lexical-control:SILENCE": 1,
+    "canonical-reaction:CLASS-INHERITED": 1
+   }
+  },
+  "unit_level": {
+   "P10": {
+    "distributed-recurrence[mixed]|strengthening -> ITEM-DIRECT": 2,
+    "distributed-recurrence[mixed]|redundancy -> ITEM-DIRECT": 2
+   },
+   "P11": {
+    "evaluative-stance|integrated -> ADJACENT-ONLY": 3,
+    "descriptive-content|integrated -> ITEM-DIRECT": 1,
+    "depictive-content|integrated -> ADJACENT-ONLY": 1,
+    "evaluative-stance|external-co-utterance -> CLASS-INHERITED": 3,
+    "sequential-action|independent-adjacent-turn -> ADJACENT-ONLY": 2,
+    "sequential-action|unclear -> ADJACENT-ONLY": 1,
+    "evaluative-stance|no-host -> ITEM-DIRECT": 1
+   },
+   "P12": {
+    "attested-possible -> ADJACENT-ONLY": 7,
+    "recurrent-characteristic -> ADJACENT-ONLY": 5,
+    "recurrent-characteristic -> CLASS-INHERITED": 1
+   }
+  }
+ },
+ "unreviewed": []
+}

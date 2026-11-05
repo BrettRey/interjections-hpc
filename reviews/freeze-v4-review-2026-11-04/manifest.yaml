@@ -1,0 +1,9 @@
+date: 2026-11-04
+inspected: analysis/matrix-lesion/FREEZE-v4.md (pre-review sha256 not captured; mechanical fixes applied during review)
+prompt_sha256: ec20e2ce1f51368ce9b0546de2052c1cd2ac9b1ec7aab64da4e79a79a1c50995
+codex:
+  output_sha256: e4a18fd5b4d09e9b820f08043f3b6bcd25587ab29d6b80587bdedef239772b3e
+muse:
+  output_sha256: a51f2dedc66958483c3b3aaa50be28559acf599ca02a33942faf5bbe722af524
+freeze_v4_sha256_after: 2cbbd7dc29af573ad9c444d18e1c8613cd207e0f2d25ed757d59181a5855ebd8
+dependence: both read the same files and prompt; different model families (OpenAI via Codex CLI; Meta via Muse)

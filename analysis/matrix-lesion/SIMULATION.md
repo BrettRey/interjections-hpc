@@ -190,3 +190,113 @@ Readings:
   supplementary adverbial) whose non-supplement cells are mostly U and
   which are scored only within this rotation. Drafted as a FREEZE
   amendment for Brett, not yet added to items.csv.
+
+## Round 5: repaired v2 machinery and dependence-aware worlds (2026-11-04)
+
+Code: the v2 additions in `lesion.py` and `sim_round5.py`; results in
+`results-round5.json`. The run type changed to exhaustive one-cell
+source-complete lesions. M1 now receives exactly the rotation's
+permitted source columns, represented as imputed values plus missingness
+indicators. The analysis records assignment coverage and resolved-only
+scores, supports categorical targets, and distinguishes membership
+inferred from surviving evidence from membership retained from before
+the lesion. A provisional per-projection evidence gate was applied for
+diagnosis only; its numbers are not proposed freeze values.
+
+Primary target in this table is P12 for INTJ. Gains are log-loss
+reductions: `d20 = M0 - M2`, `d10 = M0 - M1`, and
+`compression cost = loss(M2) - loss(M1)` (positive is a cost; negative means the category predictor has the lower loss in that simulation). Forty simulated datasets per condition.
+
+| World | n | Gate pass | d20 | d10 | Compression cost | Hit d20 ≥ .03 | Coverage |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| null | 33 | 0.45 | -0.023 | -0.097 | -0.060 | 0.05 | 0.70 |
+| latent_class | 33 | 0.60 | +0.071 | +0.072 | -0.020 | 0.68 | 0.84 |
+| latent_class | 60 | 1.00 | +0.160 | +0.074 | -0.088 | 1.00 | 0.84 |
+| crosscutting | 33 | 0.75 | +0.057 | +0.061 | -0.018 | 0.57 | 0.86 |
+| copied_class | 33 | 0.78 | +0.093 | +0.118 | +0.005 | 0.57 | 0.87 |
+| selective_latent | 33 | 0.85 | +0.129 | +0.106 | -0.039 | 0.88 | 0.84 |
+| latent, retain, P01/P02 concealed | 33 | 0.57 | +0.119 | +0.033 | -0.062 | 0.80 | 0.80 |
+| latent, infer, P01/P02 concealed | 33 | 0.00 | +0.014 | +0.011 | -0.020 | 0.38 | 0.41 |
+
+Three results matter most:
+
+1. **Copied class assertions can manufacture an apparent whole-matrix
+   success.** In that world the median overall gain is +0.093, but it is
+   +0.150 on class-inherited targets and -0.064 on item-level targets.
+   Assertion identifiers and the item-level sensitivity are therefore
+   not bookkeeping refinements; they can reverse the interpretation.
+2. **Selective documentation inflates recovery.** Making knownness depend
+   on a class-like profile and on the target value raises the median gain
+   from +0.071 in ordinary latent_class to +0.129. Coverage and
+   missingness must be reported as part of the result.
+3. **Retained membership is a different experiment.** Concealing P01 and
+   P02 leaves gain at +0.119 with 80% assignment coverage when prior
+   membership is retained, but only +0.014 with 41% coverage when
+   membership must be inferred from surviving sources. The two results
+   must never be pooled or described with the same claim.
+
+Two cautions remain. First, the direct logistic model can overfit small
+reference sets (the null world's d10 is -0.097), so compression relative
+to this M1 is partly a finite-sample estimator comparison. A one-feature
+convergence score and leading-single-property predictors remain needed.
+Second, copied class-inherited successes are not meaningless for a
+fixed-inventory recovery claim: they show how the descriptive record is
+organized. They are not multiplied confirmations of the source's class
+generalization. Both results belong in the report, under separate labels.
+
+## Round 6: eligibility gate and multi-target aggregate (2026-11-04)
+
+Script: `sim_round6_eligibility.py`; results:
+`results-round6-eligibility.json`. Worlds null, latent_class,
+crosscutting, hub, multianchor at n=33, 25 datasets each, under
+uniform fill (0.65) and scarce-negative knownness (Y documented at
+0.80, N at 0.35). Evidence layer simulated per known cell
+(item-direct probability 0.5, inherited cells sharing 3 propositions
+per property). INTJ P08/P09 targets block P07 on half of rows to
+model proposition sharing. Three gates compared: A counts-only
+(round-5 style), B counts plus item-direct, proposition-count, and
+concentration criteria, C relaxed counts plus weaker evidence
+criteria.
+
+Findings:
+
+- No gate creates positive aggregate bias under the null.
+  Property-weighted admitted gains centre at -0.01 to -0.03 in every
+  null condition; the fraction of null datasets reaching +0.03 is
+  0.00 except in scarce-negative INTJ subsets where almost no
+  dataset admits anything (noisy small denominators).
+- Gate C admits nearly every candidate under uniform fill (median
+  6 of 7 INTJ, 7 to 10 EXPRESSIVE candidates, including under the
+  null). It is an availability floor, not an evidence standard.
+  Gates A and B admit a median 2 to 5 INTJ targets under structured
+  uniform worlds.
+- Evidence criteria (B over A) rarely bind in simulation because the
+  simulated evidence layer is benign (half of cells item-direct).
+  The corrected real audit is the discriminating calibration: hosted
+  P12 (0 item-direct cells, single-proposition shares near 1.0)
+  passes count-style reasoning at pair level but fails B decisively.
+  Keep B-type criteria on audit grounds.
+- Scarce-negative knownness collapses A/B admissions (medians 0 to
+  2). Negative-cell scarcity, not total fill, is the binding
+  constraint, matching the demanding negative standards in
+  `properties.csv`.
+- EXPRESSIVE admission is bottlenecked by assignment resolution:
+  membership requires visible P08, so resolved counts track P08 fill
+  and a resolved >= 15 rule fails borderline at 0.65 fill. Draft v3
+  therefore uses resolved >= 12 with member and nonmember floors.
+- Aggregates dilute crossed structure, as designed worlds show:
+  crosscutting INTJ per-property gains are strongly positive for
+  P12 (+0.136) and P13 (+0.112) and negative for P10/P11, while the
+  property-weighted mean is +0.046. Multianchor admitted means are
+  near zero or negative despite anchored subsets. Per-projection
+  gains must remain primary; any aggregate is a family summary.
+- Hub world INTJ gains are positive (assignment proxies the hub).
+  Only the M2 versus M1 compression cost, reported per projection
+  in the real run, separates grouping value from direct-source
+  recovery there. Round 6 did not summarise aggregate cost; no
+  hub conclusion beyond that caution is drawn.
+
+Candidate thresholds carried into FREEZE-v3 as draft numbers for
+Brett's approval combine gate B evidence criteria with slightly
+relaxed count floors (scored >= 18, resolved >= 12). They are not
+frozen by this simulation.

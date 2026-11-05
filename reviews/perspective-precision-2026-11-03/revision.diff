@@ -1,5 +1,5 @@
 diff --git a/reviews/perspective-precision-2026-11-03/before/inquiry-relative-categories.tex b/inquiry-relative-categories.tex
-index e911338..e8b7515 100644
+index e911338..9668294 100644
 --- a/reviews/perspective-precision-2026-11-03/before/inquiry-relative-categories.tex
 +++ b/inquiry-relative-categories.tex
 @@ -62,21 +62,23 @@ Humber Polytechnic \& University of Toronto}
@@ -214,7 +214,7 @@ index e911338..e8b7515 100644
  
  \ea\label{ex:core-distribution}
    \ea \exmention{Oops!}\qquad\exmention{Oops, I've dropped it!}
-@@ -223,82 +246,100 @@ without an unspoken clause. In the longer examples, it functions as
+@@ -223,82 +246,104 @@ without an unspoken clause. In the longer examples, it functions as
  a supplement to the clause. \mention{I've dropped it} and \mention{that
  hurt} are already complete: the reaction fills no argument or integrated
  modifier position within them. These are two characteristic environments
@@ -283,9 +283,9 @@ index e911338..e8b7515 100644
 +the basis of their inflection, the kinds of dependent they take and the
 +function in larger constructions of the phrases they head}
 +\citep[30]{HuddlestonPullum2002}. Interjections characteristically take no
-+inflection \citep[106]{ameka1992} and no dependents, with one exceptional
-+type discussed in Section~\ref{sec:damn-profiles}, and they occur on their
-+own or as supplements. \textit{CGEL}'s general definition adds meaning:
++inflection or derivation \citep[106]{ameka1992} and no dependents, with one
++exceptional type discussed in Section~\ref{sec:damn-profiles}, and they
++occur on their own or as supplements. \textit{CGEL}'s general definition adds meaning:
 +interjections \enquote{do not combine with other words in integrated
 +syntactic constructions, and have expressive rather than propositional
 +meaning} \citep[1361]{HuddlestonPullum2002}. \textit{CGEL} reserves meaning
@@ -295,7 +295,10 @@ index e911338..e8b7515 100644
 +likewise characterize the class through its distributional and
 +morphological profile. I treat meaning as one of the converging diagnostics,
 +as \textit{CGEL}'s own treatment of \mention{damn} in
-+Section~\ref{sec:damn-profiles} does in practice.
++Section~\ref{sec:damn-profiles} does in practice. Most of these diagnostics
++are absences (no inflection, no dependents, no integrated position, no
++propositional content), and an absence weighs in the convergence like any
++other property.
 +
 +No one diagnostic decides membership. Ordinary \mention{Stop!} is an
 +imperative clause: the verb retains the possibilities illustrated by
@@ -316,8 +319,9 @@ index e911338..e8b7515 100644
 +to pain, can expect it also to supplement an intact clause. From an
 +identified supplementary \mention{oops}, the analyst can expect an
 +independent utterance without recovering a missing predicate. Membership
-+also licenses expecting a member to resist determiners and number marking,
-+so a token such as \mention{It's a big ouch}, attested in child-directed
++also licenses expecting what a member lacks: it shouldn't take determiners,
++number marking, or quantification (*\mention{every ouch}) or fill an
++argument position, so a token such as \mention{It's a big ouch}, attested in child-directed
 +speech \citep[36]{stange2016}, needs a conversion analysis with evidence of
 +its own rather than an exemption.
 +
@@ -388,7 +392,7 @@ index e911338..e8b7515 100644
  itself be disputed. \textcite[126--127 n.~5]{wilkins1992} treats \mention{oh} in \mention{Oh, don't go
  on like an old fool} as a particle use, while reporting Ameka's
  co-utterance analysis. The core claim
-@@ -332,89 +373,111 @@ have clausal anchors; \mention{Dr Brown} has the noun phrase
+@@ -332,89 +377,116 @@ have clausal anchors; \mention{Dr Brown} has the noun phrase
  groups them by that relation. Category classification preserves differences
  relevant to their internal organization and distribution elsewhere.
  
@@ -479,8 +483,8 @@ index e911338..e8b7515 100644
 +expressive analysis groups all three. In prenominal position \mention{damn}
 +is integrated into the noun phrase and lacks a supplement's separate
 +packaging, and those diagnostics converge against membership in the
-+interjection category. Its lack of inflection and dependents doesn't
-+outweigh them, since many words outside the category share both. I leave
++interjection category. Its lack of inflection and dependents weighs
++toward membership, but not enough to outweigh them. I leave
 +open which category it does belong to.
  
  Complement-taking \mention{Damn these mosquitoes!} presents a further
@@ -528,13 +532,18 @@ index e911338..e8b7515 100644
 +interpretation or interaction is non-propositional without necessarily
 +expressing such a stance. Like a proper name, the category has a
 +cluster. \textcite[166--167]{potts2007} lists six properties of
-+expressives, among them independence from descriptive content, perspective
-+dependence, and strengthening under repetition. Among the category's
++expressives, and several are absences. Expressive content isn't part of the
++descriptive content, isn't interpreted in the scope of negation,
++conditionals, modals, or tense \citep[170--171]{potts2007}, and resists
++satisfactory paraphrase in descriptive terms. It's also evaluated from a
++perspective, usually the speaker's, takes effect in being uttered, and
++strengthens rather than becoming redundant when repeated. Among the category's
 +properties of another kind is membership in the lexical category
-+interjection, with the independent or supplementary use that goes with it. For \mention{damn}, the
-+semantic properties raise the questions of whose attitude is conveyed and
-+whether repeating the form strengthens it, on either side of the category
-+boundary.
++interjection, with the independent or supplementary use that goes with it. For \mention{damn}, these
++properties raise the questions of whose attitude is conveyed, whether
++\mention{The damn car didn't start} still conveys it despite the negation,
++and whether repeating the form strengthens it, on either side of the
++category boundary.
 +
 +The expressive grouping and the lexical category come apart in both
 +directions, as names and proper nouns do. The category's core includes
@@ -560,7 +569,7 @@ index e911338..e8b7515 100644
  
  \subsection{Expressive and depictive signs}\label{sec:expressive-depictive}
  
-@@ -422,61 +485,51 @@ Compare the selected expressive use of \mention{Damn!} with a sound depiction
+@@ -422,61 +494,51 @@ Compare the selected expressive use of \mention{Damn!} with a sound depiction
  \mention{Bang!} in a narrative. The bearer in each case is the conventional
  use, not every occurrence of the spelling. The question is what contribution
  the use makes to interpretation. The strongest simple alternative groups
@@ -647,7 +656,7 @@ index e911338..e8b7515 100644
  said after several failed attempts at ignition. The speaker reports a
  starting problem and conveys a negative attitude. Calling \mention{damn}
  expressive identifies that second contribution. Asking how the wording
-@@ -505,24 +558,9 @@ hypothetical rivals, not summaries of Potts and Wharton. The first
+@@ -505,24 +567,9 @@ hypothetical rivals, not summaries of Potts and Wharton. The first
  needn't make annoyance part of what the sentence asserts. Their
  incompatible claims about encoding would require adjudication.
  
@@ -675,12 +684,19 @@ index e911338..e8b7515 100644
  front door}, a listener responds \mention{Mm-hm}, and the teller continues
  \mention{but it was locked}. The listener supports continuation of the
  story. In a second exchange, someone says \mention{We meet at five};
-@@ -534,13 +572,13 @@ the continuer, while the meeting time is repeated after the repair
+@@ -533,14 +580,19 @@ The difference concerns what happens next: the story proceeds after
+ the continuer, while the meeting time is repeated after the repair
  initiator. Closing \mention{bye} has another job, participating in the
  end of an encounter. Accounts of interjections in conversation make
- these sequential differences central \citep[257--259, 263--265]{dingemanse2024}.
+-these sequential differences central \citep[257--259, 263--265]{dingemanse2024}.
 -Grammatical interjectionhood can orient expectations toward reactive or
 -interaction-managing uses; these finer categories identify the particular
++these sequential differences central \citep[257--259, 263--265]{dingemanse2024},
++and part of each class's profile is what its members don't do. A continuer
++provides evidence of attention \enquote{without attempting to take the
++conversational floor} \citep[266]{dingemanse2024}, and \mention{huh?},
++\enquote{the most generic way of asking for clarification}, leaves the
++trouble in the prior turn unlocated \citep[267]{dingemanse2024}.
 +Membership in the lexical category can orient expectations toward reactive
 +or interaction-managing uses; these finer categories identify the particular
  sequential relation.
@@ -692,7 +708,7 @@ index e911338..e8b7515 100644
  consequences need separate characterization. Predictions about whether
  another turn continues a story or repairs an utterance belong to
  particular resource classes and environments. A broader grouping can
-@@ -556,34 +594,38 @@ conventional routine needs evidence beyond that structure.
+@@ -556,34 +608,38 @@ conventional routine needs evidence beyond that structure.
  
  Host-dependent \mention{please} in \mention{please sit down} belongs to
  a different comparison. A standalone appeal \mention{Please!} would have
@@ -713,9 +729,9 @@ index e911338..e8b7515 100644
 +
 +Assigning \mention{mm-hm} and \mention{huh?} to the lexical category
 +needs the same converging evidence as the core, since standalone occurrence
-+alone doesn't classify a word. Absence of inflection and dependents is weak
-+evidence in standalone responses, where a rival analysis wouldn't show them
-+either (Section~\ref{sec:assessment}). The assignment rests on the
++alone doesn't classify a word. Absence of inflection and dependents weighs for
++membership, though less in standalone responses, where a rival analysis
++wouldn't show them either (Section~\ref{sec:assessment}). The assignment rests on the
 +non-elliptical analysis adopted here, under which neither needs a recovered
 +nominal head or clause to supply its interpretation, and on their
 +non-propositional meaning. \textcite[114]{ameka1992}
@@ -749,7 +765,7 @@ index e911338..e8b7515 100644
  while a proposed property turns out to be absent. Otherwise every
  surprising observation would identify a different object and leave the
  original proposal immune to correction.
-@@ -594,20 +636,16 @@ separates category from function or constructional status. The category
+@@ -594,20 +650,16 @@ separates category from function or constructional status. The category
  column concerns the listed expression, whether a lexical item, phrase,
  or clause. In \mention{damn + NP}, it concerns the head \mention{damn};
  the whole phrase's distribution remains a distinct observation.
@@ -775,7 +791,7 @@ index e911338..e8b7515 100644
  Functional assignments concern the indicated constructions; independent utterance
  is a status, not a syntactic function.}
  \label{tab:contrasts}
-@@ -626,7 +664,7 @@ Attention-getting \mention{hey}; silencing \mention{sh} & Interjection & Supplem
+@@ -626,7 +678,7 @@ Attention-getting \mention{hey}; silencing \mention{sh} & Interjection & Supplem
  \addlinespace
  \mention{damn} in \mention{damn + NP} & Interjection or verb; unresolved & Head taking an NP complement & Expressive contribution \\
  \addlinespace
@@ -784,7 +800,7 @@ index e911338..e8b7515 100644
  \addlinespace
  Continuer \mention{mm-hm} & Interjection analysis adopted & Independent utterance in the exchange & Continuation resource \\
  \addlinespace
-@@ -645,15 +683,12 @@ Depictive \mention{Bang!} & Interjection or noun; unresolved & Independent utter
+@@ -645,15 +697,12 @@ Depictive \mention{Bang!} & Interjection or noun; unresolved & Independent utter
  
  The table records crossings within syntax as well as across inquiries.
  Supplement function connects interjections, a noun phrase, and a relative
@@ -803,7 +819,7 @@ index e911338..e8b7515 100644
  \mention{a loud bang} and \mention{two bangs}. A standalone occurrence
  needs assessment against a nominal-fragment analysis.
  Its depictive interpretation can be recognized while that question remains
-@@ -662,17 +697,19 @@ what phonological evidence can decide.
+@@ -662,17 +711,19 @@ what phonological evidence can decide.
  
  \section{What warrants a class, a category, or an explanation?}\label{sec:assessment}
  
@@ -828,7 +844,7 @@ index e911338..e8b7515 100644
  
  Four questions organize the assessment. What bears membership? What groups
  the members? What does the grouping help an investigator distinguish,
-@@ -684,39 +721,38 @@ questions apply to established proposals and new candidates alike.
+@@ -684,39 +735,38 @@ questions apply to established proposals and new candidates alike.
  The \term{bearer} is the object grouped. Two recordings of \mention{The
  damn car won't start} contain two realizations of the selected prenominal
  \mention{damn} use. Counting the recordings gives two occurrences, not
@@ -885,7 +901,7 @@ index e911338..e8b7515 100644
  constructed class can fix a comparison set. A descriptive class can
  organize a recurrent relation across independently identified cases.
  A category claim requires evidence that co-occurring properties support
-@@ -725,9 +761,8 @@ evidence about the process producing an outcome. These achievements
+@@ -725,9 +775,8 @@ evidence about the process producing an outcome. These achievements
  can accumulate, but evidence for an earlier one doesn't establish a
  later one automatically.
  
@@ -897,7 +913,7 @@ index e911338..e8b7515 100644
  records different contributions concealed by the broad cover term.
  Those descriptive achievements establish which similarities an adequate
  account needs to preserve. Further projections can build on them,
-@@ -735,12 +770,12 @@ with their warrant assessed against the evidence for the particular
+@@ -735,12 +784,12 @@ with their warrant assessed against the evidence for the particular
  expectation.
  
  An \term{alternative} can be a broader class, narrower subtypes, a
@@ -912,7 +928,7 @@ index e911338..e8b7515 100644
  
  \begin{table}[htbp]
  \centering
-@@ -759,11 +794,11 @@ Identify each use without requiring the target property under investigation. \\
+@@ -759,11 +808,11 @@ Identify each use without requiring the target property under investigation. \\
  Grouping & Deployment conventionally conveys evaluative or affective stance &
  Distinguish this from describing an emotion, depicting a scene, or managing interaction. \\
  \addlinespace
@@ -926,7 +942,7 @@ index e911338..e8b7515 100644
  \bottomrule
  \end{tabular}
  \end{table}
-@@ -777,7 +812,7 @@ warranting those expectations can succeed or fail separately. Here,
+@@ -777,7 +826,7 @@ warranting those expectations can succeed or fail separately. Here,
  category standing names the latter achievement; it isn't a verdict
  on whether a descriptive class is scientifically useful.
  
@@ -935,7 +951,7 @@ index e911338..e8b7515 100644
  After identifying the expressive contribution in \mention{The damn car
  won't start}, an investigator could examine another speaker's utterance
  of that sentence, the question \mention{Has the damn car broken down?},
-@@ -797,45 +832,35 @@ additional. If all members and nearly every sign outside a proposed
+@@ -797,45 +846,35 @@ additional. If all members and nearly every sign outside a proposed
  grouping exhibit the target repetition behavior, membership supplies
  little additional guidance about it. An imperfect probabilistic association can be
  informative when it changes a warranted expectation at the stated
@@ -1000,7 +1016,7 @@ index e911338..e8b7515 100644
  
  \subsection{Projection and identity}
  
-@@ -859,40 +884,27 @@ Imagine an investigator who's identified expressive \mention{damn}
+@@ -859,40 +898,27 @@ Imagine an investigator who's identified expressive \mention{damn}
  only in standalone reactions such as \mention{Damn! We've missed the
  train}. Their provisional identification uses the reaction meaning;
  it doesn't require standalone position. They predict that these uses
@@ -1049,7 +1065,7 @@ index e911338..e8b7515 100644
  
  \subsection{Representation and causal explanation}
  
-@@ -902,7 +914,7 @@ those two observations; it adds no information to a fully observed
+@@ -902,7 +928,7 @@ those two observations; it adds no information to a fully observed
  record. The combined grouping could still be useful when investigating
  something not yet recorded, such as interpretation under repetition.
  Pooling observations from its members might help estimate that pattern
@@ -1058,7 +1074,7 @@ index e911338..e8b7515 100644
  
  The grouping selects an intersection: stance \mention{Damn!} qualifies,
  while prenominal \mention{damn} in \mention{the damn car} fails the
-@@ -920,22 +932,15 @@ historical process can remove the association through which that process
+@@ -920,22 +946,15 @@ historical process can remove the association through which that process
  is recognized. Section~\ref{sec:history} distinguishes this predictive
  comparison from assessment of the proposed history itself.
  
@@ -1086,7 +1102,7 @@ index e911338..e8b7515 100644
  
  These observations motivate different classifications. The first can group
  sign-types by their phonological possibilities. The second groups realizations
-@@ -953,8 +958,8 @@ American English \citep[74, 853]{quirk1985}. A phonological inquiry can
+@@ -953,8 +972,8 @@ American English \citep[74, 853]{quirk1985}. A phonological inquiry can
  ask which conventional signs admit such resources, how their variants are
  organized, and how speakers acquire or adapt them.
  
@@ -1097,7 +1113,7 @@ index e911338..e8b7515 100644
  consider a wider range of conventional sound patterns than the ordinary
  word phonology would allow \citep[105--106]{ameka1992}. Some members
  use that range and others have ordinary phonology. Membership guides
-@@ -962,43 +967,38 @@ expectations without predicting an anomalous segment in every item.
+@@ -962,43 +981,38 @@ expectations without predicting an anomalous segment in every item.
  
  \textcite[112--113]{ameka1992} diagnoses a different inference: unusual
  phonology shared with interjections has been used to include onomatopoeic
@@ -1162,7 +1178,7 @@ index e911338..e8b7515 100644
  phonological stratum would require its own family of supported expectations.
  
  An account of the stratum would gain projective reach if membership
-@@ -1015,15 +1015,15 @@ interjections, \textcite{dingemanse2013huh} find broad phonetic similarities
+@@ -1015,15 +1029,15 @@ interjections, \textcite{dingemanse2013huh} find broad phonetic similarities
  alongside language-specific vowel targets and intonation. The repair interjections in Icelandic and
  Cha'palaa have falling contours, consistent with local interrogative
  prosody. The study concerns comparable repair environments. It supplies
@@ -1181,7 +1197,7 @@ index e911338..e8b7515 100644
  
  \subsection{Prosodic classes of realizations}
  
-@@ -1032,7 +1032,7 @@ characteristic packaging supports expectations about its realizations.
+@@ -1032,7 +1046,7 @@ characteristic packaging supports expectations about its realizations.
  For an independently identified interjection, separate intonational
  phrasing is a reasonable default \citep[108]{ameka1992}, with
  variation across environments. Realizations of
@@ -1190,7 +1206,7 @@ index e911338..e8b7515 100644
  provide a familiar example: interjections, noun phrases, and relative
  clauses can all be prosodically detached
  \citep[66, 1350]{HuddlestonPullum2002}.
-@@ -1061,13 +1061,14 @@ or expressive meaning to every click.
+@@ -1061,13 +1075,14 @@ or expressive meaning to every click.
  
  The comma in a transcript of \mention{Damn, we're going to be late!}
  is a different kind of observation. It may record a transcriber's
@@ -1208,7 +1224,7 @@ index e911338..e8b7515 100644
  enter membership intersections. Prosodic classes of occurrences connect
  to them through realization and through distributions over contexts.
  A sign-type table can record a propensity for separate intonational
-@@ -1098,7 +1099,11 @@ The transitions also have different proposed explanations. Gehweiler
+@@ -1098,7 +1113,11 @@ The transitions also have different proposed explanations. Gehweiler
  relates the first to gradual invited inference, aided by the syntactically
  peripheral invocation. She analyzes the clipping as an abrupt, taboo-motivated
  change involving hearer reanalysis \citep[84--88]{gehweiler2008}. The
@@ -1221,7 +1237,7 @@ index e911338..e8b7515 100644
  
  The history explains why the shape of \mention{gee} bears a relation
  to religious invocation even for a speaker who doesn't recognize that
-@@ -1153,7 +1158,8 @@ The source optative already uses plain-form \mention{damn}, so the
+@@ -1153,7 +1172,8 @@ The source optative already uses plain-form \mention{damn}, so the
  reconstruction doesn't require loss of tense marking at that transition.
  And the present complement remains compatible with competing analyses
  of the head as verbal or interjectional. A classification by independently
@@ -1231,7 +1247,7 @@ index e911338..e8b7515 100644
  Inferring the ancestry solely from the complement and then invoking
  the ancestry to predict that same complement would be circular.
  
-@@ -1187,14 +1193,14 @@ makes the sampling unit depend on the historical claim.
+@@ -1187,14 +1207,14 @@ makes the sampling unit depend on the historical claim.
  An ancestry classification can still explain a present contrast even
  when ancestry adds no predictive information after all its consequences
  are observed. Conditioning on those consequences changes the question
@@ -1248,7 +1264,7 @@ index e911338..e8b7515 100644
  in the stronger usage adopted here, also needs support for the
  inductions it licenses. The documented history of one sign can't supply
  that support for an entire source class.
-@@ -1227,17 +1233,17 @@ Consider a proposed comparison of \mention{Gee!} and \mention{Jesus!}
+@@ -1227,17 +1247,17 @@ Consider a proposed comparison of \mention{Gee!} and \mention{Jesus!}
  as reactions to surprising news among close friends and during a
  formal interview. Ratings would ask how appropriate each choice seems
  in each setting. A difference in those ratings would distinguish
@@ -1272,7 +1288,7 @@ index e911338..e8b7515 100644
  
  For example, if listeners regularly associated \mention{Gee!} with an
  old-fashioned speaker persona, their judgments would support a social
-@@ -1251,10 +1257,10 @@ of shared recognition.
+@@ -1251,10 +1271,10 @@ of shared recognition.
  \subsection{Formulaicity and processing}
  
  Compare a familiar greeting, \mention{How are you?}, a pause filler,
@@ -1286,7 +1302,7 @@ index e911338..e8b7515 100644
  \term{formulaic expressions} might name it more clearly than another
  kind of interjection.
  
-@@ -1263,9 +1269,9 @@ language production and comprehension across clinical groups and
+@@ -1263,9 +1283,9 @@ language production and comprehension across clinical groups and
  healthy participants. Their production
  analysis combines six kinds of formulaic material, including conversational
  formulae, pause fillers, sentence stems, and idioms. The results give
@@ -1299,7 +1315,7 @@ index e911338..e8b7515 100644
  
  For the greeting, one question is whether \mention{How are you?} is
  retrieved fluently because repeated use has helped establish a routine.
-@@ -1278,9 +1284,8 @@ retrieval, and how the frequency measure relates to speakers' experience.
+@@ -1278,9 +1298,8 @@ retrieval, and how the frequency measure relates to speakers' experience.
  Suppose retrieval across \mention{How are you?}, \mention{um}, and
  \mention{kick the bucket} tracked familiarity more closely than any
  interjection grouping. That result would favour the broader or continuous
@@ -1311,7 +1327,7 @@ index e911338..e8b7515 100644
  provided its own evidence held.
  
  \subsection{Further inquiries and their objects}
-@@ -1288,23 +1293,23 @@ provided its own evidence held.
+@@ -1288,23 +1307,23 @@ provided its own evidence held.
  Morphological analysis can distinguish a retained plural shape in
  exclamatory \mention{heavens!} from a productive number contrast. Attested
  noun and verb uses of \mention{ouch} in child-directed speech likewise
@@ -1339,7 +1355,7 @@ index e911338..e8b7515 100644
  following measurement case shows the consequence of leaving that relation
  unchecked.
  
-@@ -1318,7 +1323,7 @@ both reactions and abbreviations for hectares. A tag, a string, and
+@@ -1318,7 +1337,7 @@ both reactions and abbreviations for hectares. A tag, a string, and
  a conventional use select different sets. The distinction changes the
  apparent geographical pattern.
  
@@ -1348,7 +1364,7 @@ index e911338..e8b7515 100644
  knew it} make the difference visible. A search for the spelling
  \mention{ha}, ignoring capitalization, can retrieve both. An investigation
  of the reaction use needs to distinguish them. A tag intended to
-@@ -1343,15 +1348,13 @@ opportunities for their occurrence.
+@@ -1343,15 +1362,13 @@ opportunities for their occurrence.
  
  Similarly, changing frequency ranks in the Corpus of Historical American
  English (COHA) describe a tagged inventory \citep{davies2010}.
@@ -1371,7 +1387,7 @@ index e911338..e8b7515 100644
  (Section~A), the derivative audit (Section~B), the \mention{fie} audit
  (Section~C), and inventory turnover (Section~D). Its retained model
  comparison predicts an omitted country--item cell within the observed
-@@ -1363,11 +1366,11 @@ without evidence connecting that class to independently identified uses.
+@@ -1363,11 +1380,11 @@ without evidence connecting that class to independently identified uses.
  
  \section{The general consequence}\label{sec:discussion}
  
@@ -1388,7 +1404,7 @@ index e911338..e8b7515 100644
  even when its members vary in the associated properties.
  
  Within syntax, category and function preserve different generalizations.
-@@ -1375,31 +1378,30 @@ Supplement function connects an interjection with a noun phrase and
+@@ -1375,31 +1392,30 @@ Supplement function connects an interjection with a noun phrase and
  a relative clause, supporting expectations about their packaging. Noun-phrase
  category connects supplementary \mention{Dr Brown} with its subject
  use. The same syntactician needs both analyses. Some of the interjection's
@@ -1440,7 +1456,7 @@ index e911338..e8b7515 100644
  categories and comparative concepts supplies a related lesson about
  analytical purpose. Here, the same care is needed within a language
  and within an inquiry.
-@@ -1421,13 +1423,12 @@ Restricting the prediction to another subtype would create a new
+@@ -1421,13 +1437,12 @@ Restricting the prediction to another subtype would create a new
  claim. Its support couldn't be inherited from the failed generalization.
  
  The classifications are mutually informative without being interchangeable.
@@ -1460,7 +1476,7 @@ index e911338..e8b7515 100644
  
  \subsection{Overlap, mechanisms, and category standing}
  
-@@ -1467,30 +1468,31 @@ English interjections support several classifications because the relevant
+@@ -1467,30 +1482,31 @@ English interjections support several classifications because the relevant
  properties recur in partially aligned patterns. Within syntax, lexical
  and phrasal categories crosscut functions: an interjection, a noun phrase,
  and a relative clause can all serve as supplements, with shared

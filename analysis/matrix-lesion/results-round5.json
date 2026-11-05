@@ -1,0 +1,121 @@
+[
+ {
+  "world": "null",
+  "n": 33,
+  "kw": {},
+  "sims": 40,
+  "gate_pass_rate": 0.45,
+  "median_coverage": 0.7029411764705882,
+  "median_d20": -0.0226626704177762,
+  "median_d10": -0.09733824063992524,
+  "median_compression_cost": -0.05994080119157302,
+  "median_d20_resolved": -0.03476156554279214,
+  "hit_d20_003": 0.05
+ },
+ {
+  "world": "latent_class",
+  "n": 33,
+  "kw": {},
+  "sims": 40,
+  "gate_pass_rate": 0.6,
+  "median_coverage": 0.8366666666666667,
+  "median_d20": 0.07065178620224827,
+  "median_d10": 0.07216962432014828,
+  "median_compression_cost": -0.019814247971364635,
+  "median_d20_resolved": 0.0781838183132999,
+  "hit_d20_003": 0.675
+ },
+ {
+  "world": "latent_class",
+  "n": 60,
+  "kw": {},
+  "sims": 40,
+  "gate_pass_rate": 1.0,
+  "median_coverage": 0.8356867779204107,
+  "median_d20": 0.15983199964071054,
+  "median_d10": 0.07405087519591791,
+  "median_compression_cost": -0.08811694693519206,
+  "median_d20_resolved": 0.20241656029317148,
+  "hit_d20_003": 1.0
+ },
+ {
+  "world": "crosscutting",
+  "n": 33,
+  "kw": {},
+  "sims": 40,
+  "gate_pass_rate": 0.75,
+  "median_coverage": 0.8603896103896104,
+  "median_d20": 0.05685109270469296,
+  "median_d10": 0.06075091180055914,
+  "median_compression_cost": -0.018289173449131335,
+  "median_d20_resolved": 0.07089527263990586,
+  "hit_d20_003": 0.575
+ },
+ {
+  "world": "copied_class",
+  "n": 33,
+  "kw": {},
+  "sims": 40,
+  "gate_pass_rate": 0.775,
+  "median_coverage": 0.8651515151515152,
+  "median_d20": 0.09277335037377615,
+  "median_d10": 0.11831248597657568,
+  "median_compression_cost": 0.004919768763652715,
+  "median_d20_resolved": 0.10679679074137205,
+  "hit_d20_003": 0.575,
+  "median_d20_item_level_only": -0.06371501324435414,
+  "median_d20_inherited_only": 0.14992796312658907,
+  "median_n_item_level": 7.0
+ },
+ {
+  "world": "selective_latent",
+  "n": 33,
+  "kw": {},
+  "sims": 40,
+  "gate_pass_rate": 0.85,
+  "median_coverage": 0.8377192982456141,
+  "median_d20": 0.12893447432678118,
+  "median_d10": 0.10552512839344946,
+  "median_compression_cost": -0.03907796864243071,
+  "median_d20_resolved": 0.14965914182989426,
+  "hit_d20_003": 0.875
+ },
+ {
+  "world": "latent_class",
+  "n": 33,
+  "kw": {
+   "membership_mode": "retain",
+   "concealed": [
+    0,
+    1
+   ]
+  },
+  "sims": 40,
+  "gate_pass_rate": 0.575,
+  "median_coverage": 0.7958333333333334,
+  "median_d20": 0.11918073459564538,
+  "median_d10": 0.03261064434646266,
+  "median_compression_cost": -0.06220139127604235,
+  "median_d20_resolved": 0.1383012209571618,
+  "hit_d20_003": 0.8
+ },
+ {
+  "world": "latent_class",
+  "n": 33,
+  "kw": {
+   "membership_mode": "infer",
+   "concealed": [
+    0,
+    1
+   ]
+  },
+  "sims": 40,
+  "gate_pass_rate": 0.0,
+  "median_coverage": 0.4128787878787879,
+  "median_d20": 0.01361301482170535,
+  "median_d10": 0.010967863436643965,
+  "median_compression_cost": -0.0203279460097337,
+  "median_d20_resolved": 0.03078770484255472,
+  "hit_d20_003": 0.375
+ }
+]

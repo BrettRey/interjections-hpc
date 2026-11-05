@@ -1,0 +1,1332 @@
+[
+ {
+  "world": "null",
+  "regime": "uniform",
+  "sims": 25,
+  "intj": {
+   "A_counts": {
+    "median_n_admitted": 3.0,
+    "admission_rate_by_property": {
+     "P06": 0.36,
+     "P08": 0.48,
+     "P09": 0.16,
+     "P10": 0.4,
+     "P11": 0.56,
+     "P12": 0.48,
+     "P13": 0.2
+    },
+    "median_prop_weighted_d20": -0.02223491234788359,
+    "median_cell_weighted_d20": -0.02293920983475181,
+    "frac_datasets_prop_weighted_ge_003": 0.0
+   },
+   "B_evidence": {
+    "median_n_admitted": 2.0,
+    "admission_rate_by_property": {
+     "P06": 0.24,
+     "P08": 0.48,
+     "P09": 0.16,
+     "P10": 0.36,
+     "P11": 0.56,
+     "P12": 0.44,
+     "P13": 0.2
+    },
+    "median_prop_weighted_d20": -0.02602055449772737,
+    "median_cell_weighted_d20": -0.026195397598322286,
+    "frac_datasets_prop_weighted_ge_003": 0.043478260869565216
+   },
+   "C_relaxed": {
+    "median_n_admitted": 6.0,
+    "admission_rate_by_property": {
+     "P06": 0.88,
+     "P08": 0.92,
+     "P09": 0.8,
+     "P10": 0.84,
+     "P11": 0.92,
+     "P12": 1.0,
+     "P13": 0.44
+    },
+    "median_prop_weighted_d20": -0.019266643082061292,
+    "median_cell_weighted_d20": -0.019216862929916097,
+    "frac_datasets_prop_weighted_ge_003": 0.0
+   },
+   "ungated_median_d20": {
+    "P06": -0.024642117677939446,
+    "P08": -0.01992898372312757,
+    "P09": -0.0194225083901719,
+    "P10": -0.031876938158695856,
+    "P11": -0.03966551393889384,
+    "P12": -0.03780111903087369,
+    "P13": -0.025526156554288304
+   }
+  },
+  "expr": {
+   "A_counts": {
+    "median_n_admitted": 0.0,
+    "admission_rate_by_property": {
+     "P01": 0.12,
+     "P02": 0.16,
+     "P03": 0.16,
+     "P04": 0.12,
+     "P05": 0.12,
+     "P06": 0.04,
+     "P09": 0.12,
+     "P10": 0.04,
+     "P11": 0.24,
+     "P12": 0.16,
+     "P13": 0.04
+    },
+    "median_prop_weighted_d20": -0.009777658666040984,
+    "median_cell_weighted_d20": -0.009013567941050451,
+    "frac_datasets_prop_weighted_ge_003": 0.0
+   },
+   "B_evidence": {
+    "median_n_admitted": 0.0,
+    "admission_rate_by_property": {
+     "P01": 0.12,
+     "P02": 0.16,
+     "P03": 0.16,
+     "P04": 0.12,
+     "P05": 0.12,
+     "P06": 0.0,
+     "P09": 0.12,
+     "P10": 0.04,
+     "P11": 0.24,
+     "P12": 0.12,
+     "P13": 0.04
+    },
+    "median_prop_weighted_d20": -0.014368675680644094,
+    "median_cell_weighted_d20": -0.014619829333028522,
+    "frac_datasets_prop_weighted_ge_003": 0.0
+   },
+   "C_relaxed": {
+    "median_n_admitted": 7.0,
+    "admission_rate_by_property": {
+     "P01": 0.72,
+     "P02": 0.64,
+     "P03": 0.8,
+     "P04": 0.48,
+     "P05": 0.6,
+     "P06": 0.52,
+     "P09": 0.52,
+     "P10": 0.56,
+     "P11": 0.76,
+     "P12": 0.68,
+     "P13": 0.4
+    },
+    "median_prop_weighted_d20": -0.01372474890493014,
+    "median_cell_weighted_d20": -0.01372474890493014,
+    "frac_datasets_prop_weighted_ge_003": 0.0
+   },
+   "ungated_median_d20": {
+    "P01": -0.0164321481992038,
+    "P02": -0.01786818924761735,
+    "P03": -0.03158995710003565,
+    "P04": -0.0013487990029652508,
+    "P05": -0.027731805166953616,
+    "P06": -0.021340268847798105,
+    "P09": -0.015966085609588898,
+    "P10": -0.024675500033744635,
+    "P11": -0.018184900918062352,
+    "P12": -0.02912302647559073,
+    "P13": -0.014568162513675431
+   }
+  }
+ },
+ {
+  "world": "null",
+  "regime": "scarce_negative",
+  "sims": 25,
+  "intj": {
+   "A_counts": {
+    "median_n_admitted": 0.0,
+    "admission_rate_by_property": {
+     "P06": 0.0,
+     "P08": 0.0,
+     "P09": 0.0,
+     "P10": 0.0,
+     "P11": 0.12,
+     "P12": 0.2,
+     "P13": 0.04
+    },
+    "median_prop_weighted_d20": -0.03245629914662282,
+    "median_cell_weighted_d20": -0.03260131557950202,
+    "frac_datasets_prop_weighted_ge_003": 0.125
+   },
+   "B_evidence": {
+    "median_n_admitted": 0.0,
+    "admission_rate_by_property": {
+     "P06": 0.0,
+     "P08": 0.0,
+     "P09": 0.0,
+     "P10": 0.0,
+     "P11": 0.12,
+     "P12": 0.2,
+     "P13": 0.04
+    },
+    "median_prop_weighted_d20": -0.03245629914662282,
+    "median_cell_weighted_d20": -0.03260131557950202,
+    "frac_datasets_prop_weighted_ge_003": 0.125
+   },
+   "C_relaxed": {
+    "median_n_admitted": 3.0,
+    "admission_rate_by_property": {
+     "P06": 0.36,
+     "P08": 0.52,
+     "P09": 0.28,
+     "P10": 0.56,
+     "P11": 0.64,
+     "P12": 0.76,
+     "P13": 0.24
+    },
+    "median_prop_weighted_d20": -0.02088292873810227,
+    "median_cell_weighted_d20": -0.02102411483074494,
+    "frac_datasets_prop_weighted_ge_003": 0.0
+   },
+   "ungated_median_d20": {
+    "P06": -0.019305744154458182,
+    "P08": -0.010521999904752333,
+    "P09": -0.017129901678470838,
+    "P10": -0.02205073958210879,
+    "P11": -0.01505150223683216,
+    "P12": -0.029512983123911374,
+    "P13": -0.021358333454221667
+   }
+  },
+  "expr": {
+   "A_counts": {
+    "median_n_admitted": 0.0,
+    "admission_rate_by_property": {
+     "P01": 0.0,
+     "P02": 0.0,
+     "P03": 0.0,
+     "P04": 0.0,
+     "P05": 0.0,
+     "P06": 0.0,
+     "P09": 0.0,
+     "P10": 0.0,
+     "P11": 0.0,
+     "P12": 0.0,
+     "P13": 0.0
+    },
+    "median_prop_weighted_d20": null,
+    "median_cell_weighted_d20": null,
+    "frac_datasets_prop_weighted_ge_003": null
+   },
+   "B_evidence": {
+    "median_n_admitted": 0.0,
+    "admission_rate_by_property": {
+     "P01": 0.0,
+     "P02": 0.0,
+     "P03": 0.0,
+     "P04": 0.0,
+     "P05": 0.0,
+     "P06": 0.0,
+     "P09": 0.0,
+     "P10": 0.0,
+     "P11": 0.0,
+     "P12": 0.0,
+     "P13": 0.0
+    },
+    "median_prop_weighted_d20": null,
+    "median_cell_weighted_d20": null,
+    "frac_datasets_prop_weighted_ge_003": null
+   },
+   "C_relaxed": {
+    "median_n_admitted": 2.0,
+    "admission_rate_by_property": {
+     "P01": 0.48,
+     "P02": 0.28,
+     "P03": 0.16,
+     "P04": 0.12,
+     "P05": 0.12,
+     "P06": 0.08,
+     "P09": 0.12,
+     "P10": 0.24,
+     "P11": 0.24,
+     "P12": 0.32,
+     "P13": 0.12
+    },
+    "median_prop_weighted_d20": -0.009669899884411961,
+    "median_cell_weighted_d20": -0.012144274917877753,
+    "frac_datasets_prop_weighted_ge_003": 0.0
+   },
+   "ungated_median_d20": {
+    "P01": -0.03083013596545159,
+    "P02": -0.02894503908615942,
+    "P03": -0.028013068220886006,
+    "P04": 0.0,
+    "P05": -0.01389292346497173,
+    "P06": -0.01611858756945983,
+    "P09": 0.0,
+    "P10": -0.019407508423474273,
+    "P11": -0.027371559050612393,
+    "P12": -0.014173647923577115,
+    "P13": 0.0
+   }
+  }
+ },
+ {
+  "world": "latent_class",
+  "regime": "uniform",
+  "sims": 25,
+  "intj": {
+   "A_counts": {
+    "median_n_admitted": 4.0,
+    "admission_rate_by_property": {
+     "P06": 0.68,
+     "P08": 0.8,
+     "P09": 0.16,
+     "P10": 0.68,
+     "P11": 0.76,
+     "P12": 0.72,
+     "P13": 0.4
+    },
+    "median_prop_weighted_d20": 0.04695096777792024,
+    "median_cell_weighted_d20": 0.0469554391218037,
+    "frac_datasets_prop_weighted_ge_003": 0.72
+   },
+   "B_evidence": {
+    "median_n_admitted": 4.0,
+    "admission_rate_by_property": {
+     "P06": 0.56,
+     "P08": 0.8,
+     "P09": 0.16,
+     "P10": 0.64,
+     "P11": 0.72,
+     "P12": 0.72,
+     "P13": 0.24
+    },
+    "median_prop_weighted_d20": 0.05115146605882673,
+    "median_cell_weighted_d20": 0.051025964428057,
+    "frac_datasets_prop_weighted_ge_003": 0.76
+   },
+   "C_relaxed": {
+    "median_n_admitted": 6.0,
+    "admission_rate_by_property": {
+     "P06": 0.88,
+     "P08": 1.0,
+     "P09": 0.36,
+     "P10": 0.96,
+     "P11": 0.96,
+     "P12": 0.96,
+     "P13": 0.68
+    },
+    "median_prop_weighted_d20": 0.04054414649719878,
+    "median_cell_weighted_d20": 0.04251220904589154,
+    "frac_datasets_prop_weighted_ge_003": 0.6
+   },
+   "ungated_median_d20": {
+    "P06": 0.04404717170232231,
+    "P08": 0.023115743488840934,
+    "P09": -0.028350012497022237,
+    "P10": 0.07073337653024125,
+    "P11": 0.0384041703195136,
+    "P12": 0.07039165701380268,
+    "P13": -0.013178041546216268
+   }
+  },
+  "expr": {
+   "A_counts": {
+    "median_n_admitted": 3.0,
+    "admission_rate_by_property": {
+     "P01": 0.36,
+     "P02": 0.32,
+     "P03": 0.24,
+     "P04": 0.28,
+     "P05": 0.28,
+     "P06": 0.36,
+     "P09": 0.04,
+     "P10": 0.16,
+     "P11": 0.24,
+     "P12": 0.28,
+     "P13": 0.16
+    },
+    "median_prop_weighted_d20": -0.006501183232909297,
+    "median_cell_weighted_d20": -0.007429887116674386,
+    "frac_datasets_prop_weighted_ge_003": 0.2857142857142857
+   },
+   "B_evidence": {
+    "median_n_admitted": 3.0,
+    "admission_rate_by_property": {
+     "P01": 0.36,
+     "P02": 0.24,
+     "P03": 0.24,
+     "P04": 0.28,
+     "P05": 0.28,
+     "P06": 0.32,
+     "P09": 0.04,
+     "P10": 0.12,
+     "P11": 0.24,
+     "P12": 0.28,
+     "P13": 0.12
+    },
+    "median_prop_weighted_d20": -0.006501183232909297,
+    "median_cell_weighted_d20": -0.007429887116674386,
+    "frac_datasets_prop_weighted_ge_003": 0.2857142857142857
+   },
+   "C_relaxed": {
+    "median_n_admitted": 9.0,
+    "admission_rate_by_property": {
+     "P01": 0.84,
+     "P02": 0.84,
+     "P03": 0.92,
+     "P04": 0.92,
+     "P05": 0.84,
+     "P06": 0.8,
+     "P09": 0.32,
+     "P10": 0.88,
+     "P11": 0.84,
+     "P12": 0.84,
+     "P13": 0.64
+    },
+    "median_prop_weighted_d20": 0.019654165508432242,
+    "median_cell_weighted_d20": 0.0196966229156106,
+    "frac_datasets_prop_weighted_ge_003": 0.4
+   },
+   "ungated_median_d20": {
+    "P01": -0.02162046209992996,
+    "P02": -0.03272538011342008,
+    "P03": -0.004626070788702696,
+    "P04": 0.0018843676736667314,
+    "P05": 0.013331584456200862,
+    "P06": 0.04679564876940956,
+    "P09": -0.021025912136187097,
+    "P10": 0.01726788146041114,
+    "P11": 0.029437784663631672,
+    "P12": -0.012296136618138664,
+    "P13": -0.017854528939696634
+   }
+  }
+ },
+ {
+  "world": "latent_class",
+  "regime": "scarce_negative",
+  "sims": 25,
+  "intj": {
+   "A_counts": {
+    "median_n_admitted": 1.0,
+    "admission_rate_by_property": {
+     "P06": 0.04,
+     "P08": 0.36,
+     "P09": 0.0,
+     "P10": 0.52,
+     "P11": 0.4,
+     "P12": 0.2,
+     "P13": 0.04
+    },
+    "median_prop_weighted_d20": 0.059448366749490056,
+    "median_cell_weighted_d20": 0.059448366749490056,
+    "frac_datasets_prop_weighted_ge_003": 0.7619047619047619
+   },
+   "B_evidence": {
+    "median_n_admitted": 1.0,
+    "admission_rate_by_property": {
+     "P06": 0.04,
+     "P08": 0.32,
+     "P09": 0.0,
+     "P10": 0.48,
+     "P11": 0.32,
+     "P12": 0.2,
+     "P13": 0.04
+    },
+    "median_prop_weighted_d20": 0.053008608440976546,
+    "median_cell_weighted_d20": 0.05043243471630074,
+    "frac_datasets_prop_weighted_ge_003": 0.7368421052631579
+   },
+   "C_relaxed": {
+    "median_n_admitted": 5.0,
+    "admission_rate_by_property": {
+     "P06": 0.6,
+     "P08": 0.88,
+     "P09": 0.04,
+     "P10": 0.88,
+     "P11": 0.96,
+     "P12": 0.88,
+     "P13": 0.28
+    },
+    "median_prop_weighted_d20": 0.05029375115641459,
+    "median_cell_weighted_d20": 0.05423818700899065,
+    "frac_datasets_prop_weighted_ge_003": 0.64
+   },
+   "ungated_median_d20": {
+    "P06": 0.007539655992908623,
+    "P08": 0.017195531412650955,
+    "P09": -0.019004295948667482,
+    "P10": 0.03015171890969426,
+    "P11": 0.023710263262223863,
+    "P12": 0.09847988969903088,
+    "P13": -0.00035077815160999837
+   }
+  },
+  "expr": {
+   "A_counts": {
+    "median_n_admitted": 0.0,
+    "admission_rate_by_property": {
+     "P01": 0.04,
+     "P02": 0.0,
+     "P03": 0.04,
+     "P04": 0.0,
+     "P05": 0.04,
+     "P06": 0.0,
+     "P09": 0.0,
+     "P10": 0.08,
+     "P11": 0.08,
+     "P12": 0.04,
+     "P13": 0.0
+    },
+    "median_prop_weighted_d20": 0.026844802335948548,
+    "median_cell_weighted_d20": 0.026844802335948548,
+    "frac_datasets_prop_weighted_ge_003": 0.5
+   },
+   "B_evidence": {
+    "median_n_admitted": 0.0,
+    "admission_rate_by_property": {
+     "P01": 0.04,
+     "P02": 0.0,
+     "P03": 0.04,
+     "P04": 0.0,
+     "P05": 0.04,
+     "P06": 0.0,
+     "P09": 0.0,
+     "P10": 0.08,
+     "P11": 0.04,
+     "P12": 0.04,
+     "P13": 0.0
+    },
+    "median_prop_weighted_d20": 0.03379621241170949,
+    "median_cell_weighted_d20": 0.03379621241170949,
+    "frac_datasets_prop_weighted_ge_003": 0.5714285714285714
+   },
+   "C_relaxed": {
+    "median_n_admitted": 3.0,
+    "admission_rate_by_property": {
+     "P01": 0.52,
+     "P02": 0.36,
+     "P03": 0.4,
+     "P04": 0.32,
+     "P05": 0.24,
+     "P06": 0.2,
+     "P09": 0.0,
+     "P10": 0.48,
+     "P11": 0.56,
+     "P12": 0.56,
+     "P13": 0.12
+    },
+    "median_prop_weighted_d20": 0.005766380124384228,
+    "median_cell_weighted_d20": 0.005577226639843549,
+    "frac_datasets_prop_weighted_ge_003": 0.3181818181818182
+   },
+   "ungated_median_d20": {
+    "P01": -0.005269248953977734,
+    "P02": 0.0,
+    "P03": -0.009259915568489152,
+    "P04": 0.014584542521432375,
+    "P05": 0.016275888984426334,
+    "P06": 0.05795497302665831,
+    "P09": -0.010203958123227608,
+    "P10": -0.012494655483873518,
+    "P11": -0.001136140539746311,
+    "P12": 0.0,
+    "P13": -0.026152915677434718
+   }
+  }
+ },
+ {
+  "world": "crosscutting",
+  "regime": "uniform",
+  "sims": 25,
+  "intj": {
+   "A_counts": {
+    "median_n_admitted": 5.0,
+    "admission_rate_by_property": {
+     "P06": 0.68,
+     "P08": 0.72,
+     "P09": 0.48,
+     "P10": 0.76,
+     "P11": 0.64,
+     "P12": 0.72,
+     "P13": 0.72
+    },
+    "median_prop_weighted_d20": 0.044009354086756845,
+    "median_cell_weighted_d20": 0.04265866586828724,
+    "frac_datasets_prop_weighted_ge_003": 0.72
+   },
+   "B_evidence": {
+    "median_n_admitted": 4.0,
+    "admission_rate_by_property": {
+     "P06": 0.68,
+     "P08": 0.68,
+     "P09": 0.32,
+     "P10": 0.72,
+     "P11": 0.64,
+     "P12": 0.72,
+     "P13": 0.68
+    },
+    "median_prop_weighted_d20": 0.04639934687078778,
+    "median_cell_weighted_d20": 0.04639934687078778,
+    "frac_datasets_prop_weighted_ge_003": 0.72
+   },
+   "C_relaxed": {
+    "median_n_admitted": 7.0,
+    "admission_rate_by_property": {
+     "P06": 0.92,
+     "P08": 0.92,
+     "P09": 0.8,
+     "P10": 0.96,
+     "P11": 1.0,
+     "P12": 0.92,
+     "P13": 0.96
+    },
+    "median_prop_weighted_d20": 0.04444813189357247,
+    "median_cell_weighted_d20": 0.04534304207011214,
+    "frac_datasets_prop_weighted_ge_003": 0.68
+   },
+   "ungated_median_d20": {
+    "P06": 0.03732911178470388,
+    "P08": -0.015013481647736526,
+    "P09": -0.030811730290527972,
+    "P10": -0.034034134540652516,
+    "P11": -0.025872570857717214,
+    "P12": 0.1356537959976446,
+    "P13": 0.11239717921192893
+   }
+  },
+  "expr": {
+   "A_counts": {
+    "median_n_admitted": 1.0,
+    "admission_rate_by_property": {
+     "P01": 0.24,
+     "P02": 0.2,
+     "P03": 0.2,
+     "P04": 0.12,
+     "P05": 0.16,
+     "P06": 0.2,
+     "P09": 0.16,
+     "P10": 0.2,
+     "P11": 0.24,
+     "P12": 0.24,
+     "P13": 0.2
+    },
+    "median_prop_weighted_d20": -0.0001322617505901791,
+    "median_cell_weighted_d20": -0.0009605064866647472,
+    "frac_datasets_prop_weighted_ge_003": 0.3333333333333333
+   },
+   "B_evidence": {
+    "median_n_admitted": 1.0,
+    "admission_rate_by_property": {
+     "P01": 0.24,
+     "P02": 0.16,
+     "P03": 0.2,
+     "P04": 0.12,
+     "P05": 0.12,
+     "P06": 0.16,
+     "P09": 0.12,
+     "P10": 0.2,
+     "P11": 0.24,
+     "P12": 0.24,
+     "P13": 0.2
+    },
+    "median_prop_weighted_d20": -0.004178205140079323,
+    "median_cell_weighted_d20": -0.0036097602160512976,
+    "frac_datasets_prop_weighted_ge_003": 0.35714285714285715
+   },
+   "C_relaxed": {
+    "median_n_admitted": 9.0,
+    "admission_rate_by_property": {
+     "P01": 0.84,
+     "P02": 0.84,
+     "P03": 0.8,
+     "P04": 0.88,
+     "P05": 0.8,
+     "P06": 0.88,
+     "P09": 0.72,
+     "P10": 0.88,
+     "P11": 0.88,
+     "P12": 0.88,
+     "P13": 0.88
+    },
+    "median_prop_weighted_d20": -0.007848253879158702,
+    "median_cell_weighted_d20": -0.008181450755511842,
+    "frac_datasets_prop_weighted_ge_003": 0.04
+   },
+   "ungated_median_d20": {
+    "P01": -0.02533380323370893,
+    "P02": -0.021823926466991828,
+    "P03": -0.023341328069124923,
+    "P04": -0.033791040480384615,
+    "P05": -0.022460827030562736,
+    "P06": -0.02636744255971668,
+    "P09": -0.014568162513675431,
+    "P10": 0.04607634367734981,
+    "P11": 0.012708467618156472,
+    "P12": -0.036607930530778154,
+    "P13": -0.017783169998287662
+   }
+  }
+ },
+ {
+  "world": "crosscutting",
+  "regime": "scarce_negative",
+  "sims": 25,
+  "intj": {
+   "A_counts": {
+    "median_n_admitted": 1.0,
+    "admission_rate_by_property": {
+     "P06": 0.0,
+     "P08": 0.2,
+     "P09": 0.0,
+     "P10": 0.32,
+     "P11": 0.2,
+     "P12": 0.28,
+     "P13": 0.32
+    },
+    "median_prop_weighted_d20": 0.0017873264542985767,
+    "median_cell_weighted_d20": 0.0017873264542985767,
+    "frac_datasets_prop_weighted_ge_003": 0.45
+   },
+   "B_evidence": {
+    "median_n_admitted": 1.0,
+    "admission_rate_by_property": {
+     "P06": 0.0,
+     "P08": 0.12,
+     "P09": 0.0,
+     "P10": 0.24,
+     "P11": 0.2,
+     "P12": 0.28,
+     "P13": 0.24
+    },
+    "median_prop_weighted_d20": 0.02383956893172029,
+    "median_cell_weighted_d20": 0.02461732658232947,
+    "frac_datasets_prop_weighted_ge_003": 0.5
+   },
+   "C_relaxed": {
+    "median_n_admitted": 5.0,
+    "admission_rate_by_property": {
+     "P06": 0.48,
+     "P08": 0.88,
+     "P09": 0.4,
+     "P10": 0.8,
+     "P11": 0.92,
+     "P12": 0.92,
+     "P13": 0.96
+    },
+    "median_prop_weighted_d20": 0.02937114924110678,
+    "median_cell_weighted_d20": 0.025925726934468873,
+    "frac_datasets_prop_weighted_ge_003": 0.44
+   },
+   "ungated_median_d20": {
+    "P06": -0.004222449050716337,
+    "P08": -0.02184186891878115,
+    "P09": -0.014349153016250948,
+    "P10": -0.03645590776977137,
+    "P11": -0.04171557354752198,
+    "P12": 0.09059724015447701,
+    "P13": 0.09245526943326965
+   }
+  },
+  "expr": {
+   "A_counts": {
+    "median_n_admitted": 0.0,
+    "admission_rate_by_property": {
+     "P01": 0.0,
+     "P02": 0.0,
+     "P03": 0.0,
+     "P04": 0.04,
+     "P05": 0.04,
+     "P06": 0.0,
+     "P09": 0.0,
+     "P10": 0.0,
+     "P11": 0.0,
+     "P12": 0.0,
+     "P13": 0.0
+    },
+    "median_prop_weighted_d20": -0.04246272001295698,
+    "median_cell_weighted_d20": -0.04246272001295698,
+    "frac_datasets_prop_weighted_ge_003": 0.0
+   },
+   "B_evidence": {
+    "median_n_admitted": 0.0,
+    "admission_rate_by_property": {
+     "P01": 0.0,
+     "P02": 0.0,
+     "P03": 0.0,
+     "P04": 0.04,
+     "P05": 0.04,
+     "P06": 0.0,
+     "P09": 0.0,
+     "P10": 0.0,
+     "P11": 0.0,
+     "P12": 0.0,
+     "P13": 0.0
+    },
+    "median_prop_weighted_d20": -0.04246272001295698,
+    "median_cell_weighted_d20": -0.04246272001295698,
+    "frac_datasets_prop_weighted_ge_003": 0.0
+   },
+   "C_relaxed": {
+    "median_n_admitted": 4.0,
+    "admission_rate_by_property": {
+     "P01": 0.44,
+     "P02": 0.52,
+     "P03": 0.4,
+     "P04": 0.52,
+     "P05": 0.4,
+     "P06": 0.12,
+     "P09": 0.16,
+     "P10": 0.2,
+     "P11": 0.4,
+     "P12": 0.4,
+     "P13": 0.48
+    },
+    "median_prop_weighted_d20": -0.01041542157628624,
+    "median_cell_weighted_d20": -0.01283925545330495,
+    "frac_datasets_prop_weighted_ge_003": 0.047619047619047616
+   },
+   "ungated_median_d20": {
+    "P01": -0.021449594916935877,
+    "P02": -0.017197942373891828,
+    "P03": -0.01855746969164984,
+    "P04": -0.027697447130795694,
+    "P05": -0.015712359291335798,
+    "P06": -0.03411410126639958,
+    "P09": -0.012769080162097879,
+    "P10": 0.022003747541439966,
+    "P11": 0.03451901591258233,
+    "P12": -0.027257935292722135,
+    "P13": -0.02748867986774839
+   }
+  }
+ },
+ {
+  "world": "hub",
+  "regime": "uniform",
+  "sims": 25,
+  "intj": {
+   "A_counts": {
+    "median_n_admitted": 5.0,
+    "admission_rate_by_property": {
+     "P06": 0.76,
+     "P08": 0.64,
+     "P09": 0.72,
+     "P10": 0.8,
+     "P11": 0.6,
+     "P12": 0.8,
+     "P13": 0.8
+    },
+    "median_prop_weighted_d20": 0.05390517999174311,
+    "median_cell_weighted_d20": 0.0538226586936336,
+    "frac_datasets_prop_weighted_ge_003": 0.72
+   },
+   "B_evidence": {
+    "median_n_admitted": 5.0,
+    "admission_rate_by_property": {
+     "P06": 0.76,
+     "P08": 0.64,
+     "P09": 0.68,
+     "P10": 0.76,
+     "P11": 0.6,
+     "P12": 0.8,
+     "P13": 0.8
+    },
+    "median_prop_weighted_d20": 0.05341390431012435,
+    "median_cell_weighted_d20": 0.050004382150664384,
+    "frac_datasets_prop_weighted_ge_003": 0.72
+   },
+   "C_relaxed": {
+    "median_n_admitted": 7.0,
+    "admission_rate_by_property": {
+     "P06": 1.0,
+     "P08": 0.96,
+     "P09": 0.96,
+     "P10": 1.0,
+     "P11": 1.0,
+     "P12": 1.0,
+     "P13": 0.92
+    },
+    "median_prop_weighted_d20": 0.066010735408876,
+    "median_cell_weighted_d20": 0.06033914811511866,
+    "frac_datasets_prop_weighted_ge_003": 0.76
+   },
+   "ungated_median_d20": {
+    "P06": 0.07538461221632331,
+    "P08": 0.04998196059198501,
+    "P09": 0.02427316009191527,
+    "P10": 0.0768785589711175,
+    "P11": 0.06583200066347772,
+    "P12": 0.027704526231785098,
+    "P13": 0.043835341449250054
+   }
+  },
+  "expr": {
+   "A_counts": {
+    "median_n_admitted": 1.0,
+    "admission_rate_by_property": {
+     "P01": 0.24,
+     "P02": 0.32,
+     "P03": 0.2,
+     "P04": 0.2,
+     "P05": 0.16,
+     "P06": 0.08,
+     "P09": 0.24,
+     "P10": 0.24,
+     "P11": 0.2,
+     "P12": 0.2,
+     "P13": 0.16
+    },
+    "median_prop_weighted_d20": 0.007742499147632698,
+    "median_cell_weighted_d20": 0.007742499147632698,
+    "frac_datasets_prop_weighted_ge_003": 0.3333333333333333
+   },
+   "B_evidence": {
+    "median_n_admitted": 1.0,
+    "admission_rate_by_property": {
+     "P01": 0.2,
+     "P02": 0.32,
+     "P03": 0.16,
+     "P04": 0.2,
+     "P05": 0.16,
+     "P06": 0.08,
+     "P09": 0.2,
+     "P10": 0.24,
+     "P11": 0.2,
+     "P12": 0.2,
+     "P13": 0.16
+    },
+    "median_prop_weighted_d20": 0.007742499147632698,
+    "median_cell_weighted_d20": 0.007742499147632698,
+    "frac_datasets_prop_weighted_ge_003": 0.26666666666666666
+   },
+   "C_relaxed": {
+    "median_n_admitted": 9.0,
+    "admission_rate_by_property": {
+     "P01": 0.76,
+     "P02": 0.84,
+     "P03": 0.76,
+     "P04": 0.8,
+     "P05": 0.88,
+     "P06": 0.76,
+     "P09": 0.72,
+     "P10": 0.84,
+     "P11": 0.84,
+     "P12": 0.84,
+     "P13": 0.84
+    },
+    "median_prop_weighted_d20": 0.015578317504527194,
+    "median_cell_weighted_d20": 0.014771448907630777,
+    "frac_datasets_prop_weighted_ge_003": 0.36
+   },
+   "ungated_median_d20": {
+    "P01": 0.018606490366586348,
+    "P02": -0.01275759065369475,
+    "P03": 0.022180331387439134,
+    "P04": -0.012614048425741875,
+    "P05": -0.007999443829893815,
+    "P06": 0.0017910547323065629,
+    "P09": -0.001151644969236365,
+    "P10": -0.0014687394100382223,
+    "P11": -0.015922824628319177,
+    "P12": -0.013635103499099244,
+    "P13": 0.0
+   }
+  }
+ },
+ {
+  "world": "hub",
+  "regime": "scarce_negative",
+  "sims": 25,
+  "intj": {
+   "A_counts": {
+    "median_n_admitted": 3.0,
+    "admission_rate_by_property": {
+     "P06": 0.48,
+     "P08": 0.4,
+     "P09": 0.32,
+     "P10": 0.2,
+     "P11": 0.48,
+     "P12": 0.6,
+     "P13": 0.4
+    },
+    "median_prop_weighted_d20": 0.06242546315190315,
+    "median_cell_weighted_d20": 0.06056121146756843,
+    "frac_datasets_prop_weighted_ge_003": 0.68
+   },
+   "B_evidence": {
+    "median_n_admitted": 2.0,
+    "admission_rate_by_property": {
+     "P06": 0.48,
+     "P08": 0.36,
+     "P09": 0.24,
+     "P10": 0.16,
+     "P11": 0.44,
+     "P12": 0.44,
+     "P13": 0.36
+    },
+    "median_prop_weighted_d20": 0.059692619381365934,
+    "median_cell_weighted_d20": 0.058153194375832606,
+    "frac_datasets_prop_weighted_ge_003": 0.7083333333333334
+   },
+   "C_relaxed": {
+    "median_n_admitted": 7.0,
+    "admission_rate_by_property": {
+     "P06": 1.0,
+     "P08": 0.88,
+     "P09": 1.0,
+     "P10": 0.92,
+     "P11": 0.92,
+     "P12": 0.96,
+     "P13": 0.96
+    },
+    "median_prop_weighted_d20": 0.056123494556608464,
+    "median_cell_weighted_d20": 0.05041995262264713,
+    "frac_datasets_prop_weighted_ge_003": 0.84
+   },
+   "ungated_median_d20": {
+    "P06": 0.03786548932413725,
+    "P08": 0.026466553000071946,
+    "P09": 0.05800991608230399,
+    "P10": 0.06316454719096154,
+    "P11": 0.027845142439385517,
+    "P12": 0.012299039055284622,
+    "P13": 0.0848283744390067
+   }
+  },
+  "expr": {
+   "A_counts": {
+    "median_n_admitted": 0.0,
+    "admission_rate_by_property": {
+     "P01": 0.0,
+     "P02": 0.12,
+     "P03": 0.0,
+     "P04": 0.12,
+     "P05": 0.0,
+     "P06": 0.04,
+     "P09": 0.08,
+     "P10": 0.0,
+     "P11": 0.08,
+     "P12": 0.16,
+     "P13": 0.04
+    },
+    "median_prop_weighted_d20": -0.00376936824625046,
+    "median_cell_weighted_d20": -0.004222928954127704,
+    "frac_datasets_prop_weighted_ge_003": 0.0
+   },
+   "B_evidence": {
+    "median_n_admitted": 0.0,
+    "admission_rate_by_property": {
+     "P01": 0.0,
+     "P02": 0.12,
+     "P03": 0.0,
+     "P04": 0.12,
+     "P05": 0.0,
+     "P06": 0.04,
+     "P09": 0.08,
+     "P10": 0.0,
+     "P11": 0.04,
+     "P12": 0.16,
+     "P13": 0.04
+    },
+    "median_prop_weighted_d20": -0.00376936824625046,
+    "median_cell_weighted_d20": -0.004222928954127704,
+    "frac_datasets_prop_weighted_ge_003": 0.0
+   },
+   "C_relaxed": {
+    "median_n_admitted": 6.0,
+    "admission_rate_by_property": {
+     "P01": 0.32,
+     "P02": 0.44,
+     "P03": 0.44,
+     "P04": 0.48,
+     "P05": 0.44,
+     "P06": 0.68,
+     "P09": 0.48,
+     "P10": 0.56,
+     "P11": 0.68,
+     "P12": 0.6,
+     "P13": 0.36
+    },
+    "median_prop_weighted_d20": -0.004589740557292055,
+    "median_cell_weighted_d20": -0.005758718841852566,
+    "frac_datasets_prop_weighted_ge_003": 0.08
+   },
+   "ungated_median_d20": {
+    "P01": -0.00930731639259863,
+    "P02": -0.010258316204934781,
+    "P03": 0.002943383722226689,
+    "P04": -0.015654856439828002,
+    "P05": 0.006936887995454,
+    "P06": -0.00932783726149422,
+    "P09": -0.004807538280650947,
+    "P10": -0.009999703833356133,
+    "P11": 0.0018448060657725307,
+    "P12": -0.01721209032939286,
+    "P13": -0.01359309236348194
+   }
+  }
+ },
+ {
+  "world": "multianchor",
+  "regime": "uniform",
+  "sims": 25,
+  "intj": {
+   "A_counts": {
+    "median_n_admitted": 5.0,
+    "admission_rate_by_property": {
+     "P06": 0.56,
+     "P08": 0.64,
+     "P09": 0.52,
+     "P10": 0.68,
+     "P11": 0.68,
+     "P12": 0.44,
+     "P13": 0.68
+    },
+    "median_prop_weighted_d20": -0.014647968645592369,
+    "median_cell_weighted_d20": -0.015533664559244962,
+    "frac_datasets_prop_weighted_ge_003": 0.08695652173913043
+   },
+   "B_evidence": {
+    "median_n_admitted": 5.0,
+    "admission_rate_by_property": {
+     "P06": 0.44,
+     "P08": 0.6,
+     "P09": 0.48,
+     "P10": 0.64,
+     "P11": 0.64,
+     "P12": 0.44,
+     "P13": 0.6
+    },
+    "median_prop_weighted_d20": -0.01857514255919835,
+    "median_cell_weighted_d20": -0.016939380724611545,
+    "frac_datasets_prop_weighted_ge_003": 0.09090909090909091
+   },
+   "C_relaxed": {
+    "median_n_admitted": 7.0,
+    "admission_rate_by_property": {
+     "P06": 0.8,
+     "P08": 0.84,
+     "P09": 0.68,
+     "P10": 0.96,
+     "P11": 0.92,
+     "P12": 0.88,
+     "P13": 1.0
+    },
+    "median_prop_weighted_d20": -0.007758098418530527,
+    "median_cell_weighted_d20": -0.007933594880602886,
+    "frac_datasets_prop_weighted_ge_003": 0.04
+   },
+   "ungated_median_d20": {
+    "P06": 0.011890225003284516,
+    "P08": -0.021610906196996682,
+    "P09": -0.019698057707600636,
+    "P10": -0.023605816449757455,
+    "P11": -0.03285174880285391,
+    "P12": -0.008484711256155797,
+    "P13": -0.007947548541817007
+   }
+  },
+  "expr": {
+   "A_counts": {
+    "median_n_admitted": 3.0,
+    "admission_rate_by_property": {
+     "P01": 0.28,
+     "P02": 0.24,
+     "P03": 0.24,
+     "P04": 0.24,
+     "P05": 0.2,
+     "P06": 0.32,
+     "P09": 0.2,
+     "P10": 0.16,
+     "P11": 0.32,
+     "P12": 0.24,
+     "P13": 0.24
+    },
+    "median_prop_weighted_d20": -0.018096493846572415,
+    "median_cell_weighted_d20": -0.017590538654486832,
+    "frac_datasets_prop_weighted_ge_003": 0.058823529411764705
+   },
+   "B_evidence": {
+    "median_n_admitted": 3.0,
+    "admission_rate_by_property": {
+     "P01": 0.28,
+     "P02": 0.24,
+     "P03": 0.24,
+     "P04": 0.24,
+     "P05": 0.2,
+     "P06": 0.28,
+     "P09": 0.2,
+     "P10": 0.16,
+     "P11": 0.28,
+     "P12": 0.24,
+     "P13": 0.24
+    },
+    "median_prop_weighted_d20": -0.018096493846572415,
+    "median_cell_weighted_d20": -0.017590538654486832,
+    "frac_datasets_prop_weighted_ge_003": 0.0
+   },
+   "C_relaxed": {
+    "median_n_admitted": 10.0,
+    "admission_rate_by_property": {
+     "P01": 0.88,
+     "P02": 0.8,
+     "P03": 0.84,
+     "P04": 0.76,
+     "P05": 0.68,
+     "P06": 0.76,
+     "P09": 0.68,
+     "P10": 0.84,
+     "P11": 0.68,
+     "P12": 0.8,
+     "P13": 0.88
+    },
+    "median_prop_weighted_d20": -0.013169402047240847,
+    "median_cell_weighted_d20": -0.012775352142659853,
+    "frac_datasets_prop_weighted_ge_003": 0.04
+   },
+   "ungated_median_d20": {
+    "P01": -0.021685995108543743,
+    "P02": -0.02909127339798767,
+    "P03": -0.026006048892991407,
+    "P04": -0.024887502123669303,
+    "P05": -0.023457168981607546,
+    "P06": -0.029353089608968985,
+    "P09": -0.021882343940606064,
+    "P10": -0.015834791700585105,
+    "P11": 0.01798620926313821,
+    "P12": -0.03606300559693354,
+    "P13": -0.005066153548678232
+   }
+  }
+ },
+ {
+  "world": "multianchor",
+  "regime": "scarce_negative",
+  "sims": 25,
+  "intj": {
+   "A_counts": {
+    "median_n_admitted": 1.0,
+    "admission_rate_by_property": {
+     "P06": 0.0,
+     "P08": 0.2,
+     "P09": 0.04,
+     "P10": 0.28,
+     "P11": 0.24,
+     "P12": 0.64,
+     "P13": 0.0
+    },
+    "median_prop_weighted_d20": -0.006747089348459079,
+    "median_cell_weighted_d20": -0.007445575309574377,
+    "frac_datasets_prop_weighted_ge_003": 0.15789473684210525
+   },
+   "B_evidence": {
+    "median_n_admitted": 1.0,
+    "admission_rate_by_property": {
+     "P06": 0.0,
+     "P08": 0.12,
+     "P09": 0.04,
+     "P10": 0.28,
+     "P11": 0.24,
+     "P12": 0.52,
+     "P13": 0.0
+    },
+    "median_prop_weighted_d20": -0.017246519605586708,
+    "median_cell_weighted_d20": -0.01653092727020535,
+    "frac_datasets_prop_weighted_ge_003": 0.21052631578947367
+   },
+   "C_relaxed": {
+    "median_n_admitted": 4.0,
+    "admission_rate_by_property": {
+     "P06": 0.48,
+     "P08": 0.8,
+     "P09": 0.44,
+     "P10": 0.76,
+     "P11": 0.8,
+     "P12": 0.88,
+     "P13": 0.28
+    },
+    "median_prop_weighted_d20": -0.0068444064911918154,
+    "median_cell_weighted_d20": -0.006346800492398901,
+    "frac_datasets_prop_weighted_ge_003": 0.125
+   },
+   "ungated_median_d20": {
+    "P06": 0.01162820439449741,
+    "P08": -0.03289759078409438,
+    "P09": -0.017460310660286305,
+    "P10": -0.03386306067652611,
+    "P11": -0.0349026588487501,
+    "P12": 0.017648345718888847,
+    "P13": -0.02403677529198056
+   }
+  },
+  "expr": {
+   "A_counts": {
+    "median_n_admitted": 0.0,
+    "admission_rate_by_property": {
+     "P01": 0.0,
+     "P02": 0.0,
+     "P03": 0.04,
+     "P04": 0.0,
+     "P05": 0.04,
+     "P06": 0.0,
+     "P09": 0.0,
+     "P10": 0.04,
+     "P11": 0.0,
+     "P12": 0.08,
+     "P13": 0.0
+    },
+    "median_prop_weighted_d20": -0.04324172183634478,
+    "median_cell_weighted_d20": -0.04324172183634478,
+    "frac_datasets_prop_weighted_ge_003": 0.2
+   },
+   "B_evidence": {
+    "median_n_admitted": 0.0,
+    "admission_rate_by_property": {
+     "P01": 0.0,
+     "P02": 0.0,
+     "P03": 0.04,
+     "P04": 0.0,
+     "P05": 0.04,
+     "P06": 0.0,
+     "P09": 0.0,
+     "P10": 0.04,
+     "P11": 0.0,
+     "P12": 0.04,
+     "P13": 0.0
+    },
+    "median_prop_weighted_d20": -0.03210263818239928,
+    "median_cell_weighted_d20": -0.03210263818239928,
+    "frac_datasets_prop_weighted_ge_003": 0.25
+   },
+   "C_relaxed": {
+    "median_n_admitted": 4.0,
+    "admission_rate_by_property": {
+     "P01": 0.36,
+     "P02": 0.52,
+     "P03": 0.6,
+     "P04": 0.56,
+     "P05": 0.52,
+     "P06": 0.28,
+     "P09": 0.24,
+     "P10": 0.32,
+     "P11": 0.36,
+     "P12": 0.56,
+     "P13": 0.0
+    },
+    "median_prop_weighted_d20": -0.018477503658472616,
+    "median_cell_weighted_d20": -0.018168137762698322,
+    "frac_datasets_prop_weighted_ge_003": 0.13043478260869565
+   },
+   "ungated_median_d20": {
+    "P01": -0.03334215405728047,
+    "P02": -0.02212939018859872,
+    "P03": -0.024280459471533566,
+    "P04": -0.006375490825157204,
+    "P05": -0.02586295068878053,
+    "P06": -0.0069418607771403185,
+    "P09": -0.01951376640915148,
+    "P10": -0.019407508423474273,
+    "P11": 0.002918659263377199,
+    "P12": -0.03336115285232755,
+    "P13": -0.016262671174998355
+   }
+  }
+ }
+]

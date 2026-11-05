@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Target-evidence audit assertion",
+  "type": "object",
+  "required": [
+    "assertion_id",
+    "proposition_id",
+    "observation_id",
+    "item_id",
+    "property_id",
+    "availability_contribution",
+    "source_file",
+    "location",
+    "spans",
+    "source_wording",
+    "support_type",
+    "supported_value",
+    "supported_claim_strength",
+    "quantifier_modality",
+    "language_variety",
+    "use_slice",
+    "construction_environment",
+    "also_carries_assignment_evidence",
+    "source_target_observation_relation",
+    "coder_family",
+    "model_provenance",
+    "adjudication_state"
+  ],
+  "properties": {
+    "assertion_id": {"type": "string", "minLength": 1},
+    "proposition_id": {"type": "string", "minLength": 1},
+    "observation_id": {"type": ["string", "null"]},
+    "item_id": {"type": "string", "minLength": 1},
+    "property_id": {"enum": ["P10", "P11", "P12"]},
+    "availability_contribution": {
+      "enum": [
+        "ITEM-DIRECT",
+        "CLASS-INHERITED",
+        "ADJACENT-ONLY",
+        "CONFLICT",
+        "SILENCE",
+        "RETRIEVAL-FAILURE-SUSPECTED",
+        "INAPPLICABLE"
+      ]
+    },
+    "source_file": {"type": "string", "minLength": 1},
+    "location": {
+      "type": "object",
+      "required": ["markdown_line"],
+      "properties": {
+        "publication_page": {"type": ["string", "null"]},
+        "section": {"type": ["string", "null"]},
+        "markdown_line": {"type": "integer", "minimum": 1}
+      },
+      "additionalProperties": false
+    },
+    "spans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["quote", "role"],
+        "properties": {
+          "quote": {"type": "string", "minLength": 1},
+          "role": {
+            "enum": [
+              "target-behaviour",
+              "class-inclusion",
+              "use-identification",
+              "environment",
+              "counterevidence"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "source_wording": {"type": ["string", "null"]},
+    "support_type": {
+      "enum": ["item-specific", "class-inherited", "context-only", "none"]
+    },
+    "inherited_class": {"type": ["string", "null"]},
+    "supported_value": {"type": ["string", "array"],
+      "items": {"type": "string"}},
+    "supported_claim_strength": {
+      "enum": [
+        "attested-possible",
+        "recurrent-characteristic",
+        "categorical-default",
+        "unclear",
+        "none"
+      ]
+    },
+    "quantifier_modality": {
+      "enum": [
+        "categorical",
+        "possible",
+        "usual",
+        "characteristic",
+        "normally",
+        "obligatory",
+        "unspecified",
+        "other"
+      ]
+    },
+    "language_variety": {"type": "string", "minLength": 1},
+    "use_slice": {"type": "string", "minLength": 1},
+    "construction_environment": {"type": "string", "minLength": 1},
+    "repetition_pattern": {
+      "enum": [
+        "adjacent-repetition",
+        "distributed-recurrence",
+        "lengthening",
+        "lexicalized-reduplication",
+        "not-applicable",
+        "unclear",
+        null
+      ]
+    },
+    "repetition_positions": {
+      "type": ["array", "null"],
+      "items": {
+        "enum": [
+          "specified-use",
+          "another-use-or-row",
+          "mixed",
+          "unclear"
+        ]
+      }
+    },
+    "contribution_assessed": {
+      "enum": [
+        "evaluative-stance",
+        "depictive-content",
+        "sequential-action",
+        "descriptive-content",
+        "mixed",
+        "unclear",
+        "not-applicable",
+        null
+      ]
+    },
+    "host_relationship": {
+      "enum": [
+        "integrated",
+        "external-co-utterance",
+        "independent-adjacent-turn",
+        "no-host",
+        "unclear",
+        "not-applicable",
+        null
+      ]
+    },
+    "source_lineage": {"type": ["string", "null"]},
+    "also_carries_assignment_evidence": {"type": "boolean"},
+    "source_target_observation_relation": {
+      "enum": [
+        "distinct-observations",
+        "distinct-propositions-shared-passage",
+        "same-observation",
+        "inseparable",
+        "unknown"
+      ]
+    },
+    "eligibility": {
+      "type": ["object", "null"],
+      "properties": {
+        "status": {
+          "enum": ["eligible", "proposed-inapplicable",
+                   "human-confirmed-inapplicable"]
+        },
+        "basis": {"type": ["string", "null"]},
+        "human_checker": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "coder_family": {"type": "string", "minLength": 1},
+    "model_provenance": {"type": "string", "minLength": 1},
+    "adjudication_state": {
+      "enum": ["raw", "mechanical-valid", "semantic-checked", "rejected"]
+    },
+    "rationale": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}
