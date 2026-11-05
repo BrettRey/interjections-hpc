@@ -77,6 +77,15 @@ as record reconstruction unless those further conditions are met and
 stated. Neither claim says anything about causal order, maintenance, or a
 category's standing in general.
 
+**What is estimated.** In Slater's terms, the record-reconstruction claim
+concerns *cliquish stability* in the documented record: whether
+possessing some of a cluster's properties "reliably (if imperfectly)
+indicates the possession of whole cluster". It doesn't concern *instance
+stability* (whether members resist losing cluster properties), and it
+doesn't concern what maintains the cluster. Slater 2015 (*BJPS* 66(2):
+375–411), as used in *Words That Won't Hold Still* ch. 4; the quotation is
+from the held copy, a 2011 draft (§5.2), so no published page is given.
+
 ## 2. Principal lesion and comparisons
 
 The principal experiment is **source-complete, membership inferred**:
@@ -300,6 +309,18 @@ evidence, and the model can't tell which. A mixed-membership
 (grade-of-membership) model, in which partial membership is part of the
 model, is the closer match to HPC; it is not adopted in v1 and is
 untested at this size.
+
+**Round 7 candidate: two crosscutting latent features.** Instead of two
+separate one-grouping fits, a single model with two independent binary
+latent features, one anchored in INTJ's diagnostics and one in
+EXPRESSIVE's. Each row may have either feature, both, or neither, and
+each candidate target may depend on either feature or both. Because the
+features don't sum to one, the model represents crosscutting categories
+directly, which a grade-of-membership model doesn't, and its target
+loadings show which grouping carries which target. That is a more direct
+test of inquiry dependence than comparing two separate fits. Round 7
+tests whether it is estimable at 46 rows; if it isn't, the two separate
+fits stay.
 
 **Residual-dependence checks.** After each fit, report the pairwise
 associations among diagnostics, and between diagnostics and targets,
