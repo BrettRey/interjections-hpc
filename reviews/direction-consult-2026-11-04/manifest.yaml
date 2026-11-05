@@ -1,0 +1,18 @@
+date: 2026-11-04
+question: what Brett should work on 2026-11-05 in light of the eight readings in notes/source-readings-2026-11-04/
+prompt_sha256: e5a66f5e09fccc3e07309a4c58409b404a8c1938a0ba98110b8b695f5ba15fc2
+codex:
+  route: tools/codex/bin/codex-readonly
+  model: gpt-6.1-sol
+  output_sha256: a200259d8bf0fcc7907f184964d5be1333ab1172e243f67925062f10212fd0dd
+muse:
+  route: muse exec --disable-write --sandbox-network restricted
+  output_sha256: 8b3b90e7b2930b164e3021962b56380ce7056f17e26799233db619d65a7b54fe
+inspected:
+  analysis/matrix-lesion/FREEZE-v4.md: e3bb1a0430af2c092978f3ddb2b7e50d2e4849d538378c3febe8b9489abebaf1
+  inquiry-relative-categories.tex: 6e8e1010e4019f10e013d0a316ffef0e3d28703f2f0131a25cce7275a0f71ce2
+  analysis/matrix-lesion/yield-audit/DESIGN.md: d2c133abd9df97825c22f7538b1dfcefe16e56cff92ebe23f2cbd04a56d2de42
+  analysis/matrix-lesion/CONVERGENCE-CHECK.md: 1542e41f668c5ea51aca1e7d6db996060b00de9f1f45f9a41a71e46d78cb916a
+parent_check: span_check.py (LCA log-odds in M1 feature span; unweighted residual ~1e-14, row-weighted 1.6)
+synthesis: DIRECTION.md (parent, Claude Opus 5.5)
+dependence: same prompt and files; different model families (OpenAI via Codex CLI; Meta via Muse); neither saw the other. Correlated, not independent: both read the same Claude-written reading notes (sources spot-checked only), the same parent-written candidate-edit list, and a brief whose question 3 asked whether the design is "over-built for 46 rows" and which quoted Brett's proportionality request (prompt.md lines 37, 43). Added 2026-11-05 after a side-agent flag, verified by the parent.

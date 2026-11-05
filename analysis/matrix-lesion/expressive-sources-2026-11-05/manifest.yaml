@@ -1,0 +1,17 @@
+date: 2026-11-05
+question: what do the expressive literature's sources state of particular bearers in items-v4, property by property? (Brett: "start by getting Gutzmann and McCready and reading Ljung. Then give me a matrix with the relevant bearers and properties")
+brief: BRIEF.md (shared by the four extraction agents)
+sources:
+  ljung2011: {file: literature/ljung_2011_swearing-cross-cultural.pdf, sha256: 57dac38a684106e1752efd3064fcfaff4e3e0eca46e46e88189e3930b1ed7b65, offset: printed = pdf - 13}
+  potts2007: {file: "literature/Potts - 2007 - The expressive dimension.pdf", sha256: cf00b03033830403fa9314d02862d28c02b6f733df90791500baa6d35aa9ce3e, offset: printed = pdf + 164}
+  mccready2010: {file: literature/mccready_2010_varieties-of-conventional-implicature.pdf, sha256: 58ac32fe38daeecfccf088e66ec82ec35f6ac7c571ad5d12f2a5b7fef69137f7, obtained: "semprag.org, open access, 2026-11-05", offset: printed = pdf}
+  gutzmann2013: {file: literature/gutzmann_2013_expressives-and-beyond.pdf, sha256: 0baeb2dc3d65d8ea885f902772ff7f4edcbb665da80a76660a5214964dfe3a09, obtained: "author-posted final version, danielgutzmann.squarespace.com, 2026-11-05", text: "tesseract OCR (PDF text layer enciphered)", offset: printed = pdf - 1}
+agents:
+  route: Claude Code subagents, type responsibility-reader (Read, Grep, Glob only), one per source, in parallel
+  model: Claude Opus 5.5
+  reports: {ljung2011: REPORT-ljung2011.md, potts2007: REPORT-potts2007.md, mccready2010: REPORT-mccready2010.md, gutzmann2013: REPORT-gutzmann2013.md}
+  report_sha256: {ljung2011: b4308eb8086393d470df4fc6e50626bf0a6575050b4ab2bcf0b6245585dfcaff, potts2007: 7baa14c8f7c7175a0de40642e6a5fe926d3fc9d3b2818539b4a8e3715e72bc04, mccready2010: 430120c286dd8d4bf085b6b27790503713f47ea27ac7a5ffc171615a6b300229, gutzmann2013: e2b94c3f47e831c10d018a7fda056d2b7c1764f31e00f1684703aa9330e0a933}
+  notes: the Ljung agent hit its turn limit and delivered a partial report on request (unread sections listed in its section 4)
+verification: Gutzmann 2013 quotations are checked against the tesseract OCR text, not the printed page (its PDF text layer is enciphered); the two cells resting on the garbled brace display (3) on p. 5 were checked against the page image and their quotation replaced with the printed reading; check any other Gutzmann wording against the PDF before quoting it. Every quotation in the report tables, and ten quotations used from the warnings sections, string-checked by the parent against page-marked source text with check_quotes.py; results in quote-checks/RESULTS.txt (no quotation missing; a few found on the adjacent page)
+outputs: long.csv (build_long.py), matrix.json and MATRIX.md (build_matrix.py), published on the Bearers by Perspective page
+status: development data under FREEZE-v4 section 9, not study data; contains short copyrighted excerpts, so keep private

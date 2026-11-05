@@ -1,0 +1,12 @@
+date: 2026-11-05
+question: does round7/harness.py v2 fix the v1 findings and compute what RULE.md v2 says?
+route: tools/codex/bin/codex-readonly
+model: gpt-6.1-sol
+prompt_sha256: 698c3bcc871d3be974fa5a0b66954c2fd5d49f4b6ce1cbe6280783f0ef326e85
+inspected:
+  round7/harness.py: 80066ea7e0862d77ae1529cdef96fdf29e37eab15bcb45d1abd1162394ee8bac
+  round7/RULE.md: 910cd8cb1881d28e07341b1f9183d8bb74b01c44e7d11df29db66e612a0c2b6e
+output_sha256: 5e60db58905cb8d451bbfdcde00a256594bc18b0aab66dc862c9e30fd3667343
+report: REPORT-codex.md (parent-saved verbatim copy)
+dependence: same model family as the v1 review, and it saw its own earlier report
+disposition: applied 2026-11-05 after the full run ended (exit 0); all four findings fixed in the summary harness (c241d009bfd04e84b569be31aaa5c2c60ce1a639eddd988f43bf5da81b9f2806) and results rebuilt from the raw records with `harness.py resummarize`; simulation unchanged (80066ea7…, kept at round7/as-run-v2/); self-tests and leak test passed after patching

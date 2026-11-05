@@ -49,3 +49,20 @@ reviews/gap-filling-2026-11-02/
 
 # LibreOffice lock files
 .~lock.*#
+
+# Held back from the public repo (Brett, 2026-11-05): source passages and raw
+# agent codings from the target audit, and the 2026-11-03 evaluation bundle
+analysis/matrix-lesion/target-audit/packets-v3.json
+analysis/matrix-lesion/target-audit/packets-v3.md
+analysis/matrix-lesion/target-audit/codings/
+analysis/matrix-lesion/target-audit/prompt-claude-*.txt
+analysis/matrix-lesion/target-audit/audit-results.json
+analysis/matrix-lesion/target-audit/review-queue.md
+matrix-lesion-study-plan-evaluation-2026-11-03.zip
+# Raw CLI stdout/stderr from model reviews (the verbatim REPORT files are kept)
+reviews/**/codex-stdout.txt
+reviews/**/codex-stderr.txt
+reviews/**/muse-stdout.txt
+reviews/**/muse-stderr.txt
+analysis/matrix-lesion/round7/review-*/codex-stdout.txt
+analysis/matrix-lesion/round7/review-*/codex-stderr.txt

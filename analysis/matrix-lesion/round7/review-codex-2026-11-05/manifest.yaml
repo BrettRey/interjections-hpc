@@ -1,0 +1,10 @@
+date: 2026-11-05
+question: does round7/harness.py (v1) implement RULE.md v1 and the FREEZE-v4 procedure?
+route: tools/codex/bin/codex-readonly
+model: gpt-6.1-sol
+prompt_sha256: 47870851de654c1b564f379b96f714b7aa7a1a638f68f6816a59151912ef95f8
+inputs: inputs.sha256 (harness v1, RULE v1, prompt); reviewed harness kept as harness-as-reviewed.py (0576d297cf270e68aff6deab60c2a672f8647dfb8c5a3e2c696cf04758a9913c)
+output_sha256: e93354789fdd3d2df80b5e7fc65fd7002ca6c16a608d0a1232c8aabf958afc90
+report: REPORT-codex.md (parent-saved verbatim copy of codex-stdout.txt)
+dependence: one model family (OpenAI); saw only the files named in prompt.md
+disposition: all eight findings accepted and fixed in harness v2; the responsibility notice resolved by those fixes before any full run (DECISIONS.md, 2026-11-05, plan v2 entry)

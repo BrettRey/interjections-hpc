@@ -1,0 +1,7 @@
+ljung2011: {'OK': 73, 'PAGE': 1, 'MISSING': 0}
+potts2007: {'OK': 43, 'PAGE': 10, 'MISSING': 0}
+mccready2010: {'OK': 41, 'PAGE': 1, 'MISSING': 0}
+gutzmann2013: {'OK': 60, 'PAGE': 1, 'MISSING': 0}
+warnings: {'OK': 10, 'PAGE': 0, 'MISSING': 0}
+
+Note: the ten potts2007 PAGE results are table-B rows (uses outside the 46) whose page column the parser misread; the checker found each quotation on its stated page.

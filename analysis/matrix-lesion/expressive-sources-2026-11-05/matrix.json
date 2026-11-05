@@ -1,0 +1,3684 @@
+{
+ "sources": {
+  "L": "Ljung 2011, Swearing (Palgrave)",
+  "P": "Potts 2007, Theoretical Linguistics 33(2)",
+  "M": "McCready 2010, Semantics & Pragmatics 3(8)",
+  "G": "Gutzmann 2013, in Beyond Expressives (Brill)"
+ },
+ "columns": [
+  {
+   "id": "P01",
+   "kind": "distribution"
+  },
+  {
+   "id": "P02",
+   "kind": "distribution"
+  },
+  {
+   "id": "P03",
+   "kind": "distribution"
+  },
+  {
+   "id": "P04",
+   "kind": "distribution"
+  },
+  {
+   "id": "after wh-word",
+   "kind": "distribution"
+  },
+  {
+   "id": "insertion into word/phrase",
+   "kind": "distribution"
+  },
+  {
+   "id": "degree modifier of adj/adv",
+   "kind": "distribution"
+  },
+  {
+   "id": "degree with gradable noun",
+   "kind": "distribution"
+  },
+  {
+   "id": "You X! frame",
+   "kind": "distribution"
+  },
+  {
+   "id": "emphasis before non-NP",
+   "kind": "distribution"
+  },
+  {
+   "id": "combines into formula",
+   "kind": "distribution"
+  },
+  {
+   "id": "slot filler (Ljung)",
+   "kind": "distribution"
+  },
+  {
+   "id": "host-class specialization",
+   "kind": "distribution"
+  },
+  {
+   "id": "creates epithet NP",
+   "kind": "distribution"
+  },
+  {
+   "id": "optative verb form",
+   "kind": "morphology"
+  },
+  {
+   "id": "has homonym in other class",
+   "kind": "morphology"
+  },
+  {
+   "id": "no word class",
+   "kind": "morphology"
+  },
+  {
+   "id": "P07",
+   "kind": "meaning"
+  },
+  {
+   "id": "P08",
+   "kind": "meaning"
+  },
+  {
+   "id": "P10S",
+   "kind": "meaning"
+  },
+  {
+   "id": "P11N",
+   "kind": "meaning"
+  },
+  {
+   "id": "Potts:independence",
+   "kind": "meaning"
+  },
+  {
+   "id": "Potts:nondisplaceability",
+   "kind": "meaning"
+  },
+  {
+   "id": "Potts:perspective",
+   "kind": "meaning"
+  },
+  {
+   "id": "Potts:ineffability",
+   "kind": "meaning"
+  },
+  {
+   "id": "scopeless (McCready)",
+   "kind": "meaning"
+  },
+  {
+   "id": "unbindable",
+   "kind": "meaning"
+  },
+  {
+   "id": "denial-immune",
+   "kind": "meaning"
+  },
+  {
+   "id": "emphasis",
+   "kind": "meaning"
+  },
+  {
+   "id": "valence shift",
+   "kind": "meaning"
+  },
+  {
+   "id": "expressive strength",
+   "kind": "meaning"
+  },
+  {
+   "id": "modifiable by expressives",
+   "kind": "meaning"
+  },
+  {
+   "id": "main expressive content",
+   "kind": "meaning"
+  },
+  {
+   "id": "takes an argument (Gutzmann)",
+   "kind": "meaning"
+  },
+  {
+   "id": "resource-sensitive",
+   "kind": "meaning"
+  },
+  {
+   "id": "Gutzmann type",
+   "kind": "meaning"
+  },
+  {
+   "id": "attitude target",
+   "kind": "meaning"
+  },
+  {
+   "id": "multifunctional",
+   "kind": "meaning"
+  },
+  {
+   "id": "P13",
+   "kind": "realization"
+  },
+  {
+   "id": "stress cue",
+   "kind": "realization"
+  },
+  {
+   "id": "taboo load",
+   "kind": "social and lexical"
+  },
+  {
+   "id": "interchangeable swear word",
+   "kind": "social and lexical"
+  },
+  {
+   "id": "grammatically regular",
+   "kind": "social and lexical"
+  }
+ ],
+ "rows": [
+  {
+   "id": "BASTARD_SUPP",
+   "form": "the bastard",
+   "gloss": "supplementary epithet: He's taken my chair again, the bastard",
+   "tier": "expr-core",
+   "cells": {
+    "P01": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "127",
+       "q": "the exclamation The fool/idiot! must be a response to information provided by an interlocutor.",
+       "hedge": "Use match uncertain or evidence weak in the source report.",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "P08": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "127",
+       "q": "the exclamation The fool/idiot! must be a response to information provided by an interlocutor.",
+       "hedge": "Use match uncertain or evidence weak in the source report.",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "BLOODY_INFIX",
+   "form": "-bloody-",
+   "gloss": "infix (tmesis): abso-bloody-lutely",
+   "tier": "expr-core",
+   "cells": {
+    "insertion into word/phrase": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "34",
+       "q": "Emphasis may also take the form of infixation in a word as in Absobloodylutely, Infuckingcredible, Kangabloodyroo",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "slot filler (Ljung)": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "30",
+       "q": "involve placing a ‘swear word’ in the right slot in a given string, as for instance in What the hell do you mean? and absobloodylutely.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "no word class": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "40",
+       "q": "uses of fuck that can no longer be accounted for in terms of traditional word classes, as when it is used ‘intrusively’",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "emphasis": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "34",
+       "q": "Emphasis may also take the form of infixation in a word as in Absobloodylutely, Infuckingcredible, Kangabloodyroo",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "BLOODY_INTENS",
+   "form": "bloody",
+   "gloss": "degree modifier: It's bloody marvellous",
+   "tier": "expr-core",
+   "cells": {
+    "P03": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "147",
+       "q": "In (1) and (3) the degree adverbs damn and bloody indicate a high degree of the following adverbs well and quickly, and in (2) and (4) the same degree adverbs modify the adjectives sure and hard in the same way.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "degree modifier of adj/adv": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 3,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "33",
+       "q": "A very common slot-filler function is that of intensifier expressing a high degree of the following adjective or adverb",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "22",
+       "q": "(1) as degree adverbs, for instance in bloody impressive, goddamn quickly",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "148",
+       "q": "The adverbs considered here obviously belong to the first category, that is, they are amplifiers",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "taboo load": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "147",
+       "q": "they function in the same way as very, highly or extremely, with the difference that these three words lack the taboo load",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "grammatically regular": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "19",
+       "q": "From a grammatical point of view, there is no difference between the two examples above and examples like He’s so very lazy",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "DAMN_DEGREE",
+   "form": "damn",
+   "gloss": "degree modifier: They drove damn fast",
+   "tier": "expr-core",
+   "cells": {
+    "P03": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 2,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "147",
+       "q": "In (1) and (3) the degree adverbs damn and bloody indicate a high degree of the following adverbs well and quickly, and in (2) and (4) the same degree adverbs modify the adjectives sure and hard in the same way.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "54",
+       "q": "intensifiers or adjectives of dislike as in English She is damn(ed) clever! and The damn(ed) car wouldn’t start!",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "degree modifier of adj/adv": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 2,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "33",
+       "q": "A very common slot-filler function is that of intensifier expressing a high degree of the following adjective or adverb",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "148",
+       "q": "The adverbs considered here obviously belong to the first category, that is, they are amplifiers",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "emphasis before non-NP": {
+     "v": "N",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "L",
+       "page": "151",
+       "q": "both bloody and fucking are found as emphasizers before all sorts of clause constituents. Note that it is impossible to use damn(ed) in such a way.",
+       "hedge": "Said of damn(ed) as an emphasizer before verbs, a use not in the inventory.",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "host-class specialization": {
+     "v": "N",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "L",
+       "page": "173",
+       "q": "as an intensifier of adverbs than of adjectives, while damn does not show similar tendencies towards specialization.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "taboo load": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "147",
+       "q": "they function in the same way as very, highly or extremely, with the difference that these three words lack the taboo load",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "FUCKING_PRENOM",
+   "form": "fucking",
+   "gloss": "attributive-only expletive: a fucking investigation",
+   "tier": "expr-core",
+   "cells": {
+    "P03": {
+     "v": "Y",
+     "srcs": [
+      "G",
+      "L",
+      "M"
+     ],
+     "primary": 3,
+     "hedged": false,
+     "n": 3,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "19",
+       "q": "the use of fucking, bloody, goddamned, etc. as intensifiers and as adjectival attributes",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "10",
+       "q": "by the content of ‘(I) hate the damn/fucking Germans.’",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "5",
+       "q": "I hear your {∅ / blasted / bloody / damn / fucking} dog barking. [example (3), read from the page image]",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "P07": {
+     "v": "Y",
+     "srcs": [
+      "G",
+      "P"
+     ],
+     "primary": 2,
+     "hedged": false,
+     "n": 2,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "187",
+       "q": "Denotations (45) and (47) are identical except for the fact that fucking must deﬁne a narrower interval.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "10",
+       "q": "I have characterized fucking and bloody as expressive adjectives, in which case they are expletive UCIs that contribute nothing to the truth-conditional level of meaning.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P08": {
+     "v": "Y/N",
+     "srcs": [
+      "L",
+      "P"
+     ],
+     "primary": 2,
+     "hedged": false,
+     "n": 4,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "14",
+       "q": "using alternately bloody, fucking, damned, goddamned, flipping to express negative attitude or simply emphasis",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "N",
+       "src": "L",
+       "page": "150",
+       "q": "In (14) there may be an additional element of dislike but not in (15).",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "40",
+       "q": "fucking which serves both as emphatic and/or derogatory adjective and as adverb of degree",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "187",
+       "q": "Conditions (45b.iii) and (47b.iii) ensure that damn and fucking are neg- ative expressives.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "emphasis": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "149",
+       "q": "There are also cases which undoubtedly express dislike on the part of the speaker, but whose main function seems to be to place emphasis on a certain noun",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "valence shift": {
+     "v": "Y",
+     "srcs": [
+      "P"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "188",
+       "q": "But they are not always negative.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "expressive strength": {
+     "v": "Y",
+     "srcs": [
+      "P"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "187",
+       "q": "Denotations (45) and (47) are identical except for the fact that fucking must deﬁne a narrower interval.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "THE_HELL_WH",
+   "form": "the hell",
+   "gloss": "emotive modifier after an interrogative: What the hell is she trying to do?",
+   "tier": "expr-core",
+   "cells": {
+    "P03": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "12",
+       "q": "Where the fuck/the hell/the Devil/ did you put it?",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "after wh-word": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 2,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "12",
+       "q": "In such constructions the taboo words may be replaced by the prepositional phrases like on earth, in the whole world, in God’s name, in the name of God",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "34",
+       "q": "placing certain swear words immediately after an interrogative pronoun or adverb",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "slot filler (Ljung)": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "30",
+       "q": "involve placing a ‘swear word’ in the right slot in a given string, as for instance in What the hell do you mean? and absobloodylutely.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "interchangeable swear word": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "16",
+       "q": "The function of hell in who the hell is clearly just emphatic and the word can be replaced with the Devil, the fuck, etc.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "YOU_BASTARD",
+   "form": "you bastard",
+   "gloss": "exclamatory NP: You bastard!",
+   "tier": "expr-core",
+   "cells": {
+    "P01": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "128",
+       "q": "(10) You bastard/son of a bitch/dickhead!/Bastard!/Son of a bitch!",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "P02": {
+     "v": "Y",
+     "srcs": [
+      "P"
+     ],
+     "primary": 1,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "177",
+       "q": "Here’s To You, Ya Bastard!",
+       "hedge": "Use match uncertain or evidence weak in the source report.",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "You X! frame": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "126",
+       "q": "By testing different nouns in such utterances we can conclude that the nouns traitor, idiot and snob, for example, are all epithets",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "P08": {
+     "v": "Y",
+     "srcs": [
+      "P"
+     ],
+     "primary": 1,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "177",
+       "q": "Here’s To You, Ya Bastard!",
+       "hedge": "Use match uncertain or evidence weak in the source report.",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "Potts:ineffability": {
+     "v": "Y",
+     "srcs": [
+      "P"
+     ],
+     "primary": 1,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "176",
+       "q": "But this paraphrase misses its wide range of a¤ectionate uses",
+       "hedge": "Use match uncertain or evidence weak in the source report.",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "EXACTLY_WH",
+   "form": "exactly",
+   "gloss": "modifier after an interrogative: What exactly do you mean?",
+   "tier": "expr-control",
+   "cells": {}
+  },
+  {
+   "id": "MAIN_PRENOM",
+   "form": "main",
+   "gloss": "particularising attributive: the main objection",
+   "tier": "expr-control",
+   "cells": {}
+  },
+  {
+   "id": "PROBABLE_PRENOM",
+   "form": "probable",
+   "gloss": "modal attributive: the probable result",
+   "tier": "expr-control",
+   "cells": {}
+  },
+  {
+   "id": "VERY_INTENS",
+   "form": "very",
+   "gloss": "degree modifier without stance: They drove very fast",
+   "tier": "expr-control",
+   "cells": {
+    "P07": {
+     "v": "N",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "G",
+       "page": "46",
+       "q": "This reasoning should also apply to truth-conditional intensifiers like very if used more than once.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P10S": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "46",
+       "q": "there are also truth-conditional expressions that do not lead to redundancy but whose regular semantic effect is strengthened if used repetitively",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "denial-immune": {
+     "v": "N",
+     "srcs": [
+      "M"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "M",
+       "page": "41",
+       "q": "(= Bill is not very rich.)",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "taboo load": {
+     "v": "N",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "L",
+       "page": "147",
+       "q": "they function in the same way as very, highly or extremely, with the difference that these three words lack the taboo load",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "grammatically regular": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "19",
+       "q": "From a grammatical point of view, there is no difference between the two examples above and examples like He’s so very lazy",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "AH",
+   "form": "ah",
+   "gloss": "receipt/reaction use, as in: Ah, so you were there",
+   "tier": "core",
+   "cells": {
+    "P13": {
+     "v": "N",
+     "srcs": [
+      "l"
+     ],
+     "primary": 0,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "L",
+       "page": "77",
+       "q": "forms like Ah!, Aha!, Mm!, Oh!, Ouch! and Wow!",
+       "hedge": "Ljung reporting Quirk et al.; no forms transcribed, so P13's N standard may not be met.",
+       "secondary": "Preceded on p. 76 by \"the class as such also includes phonologically regular\". Reported from Quirk et al. No forms are transcribed, so this may fall short of P1",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "AHA",
+   "form": "aha",
+   "gloss": "recognition / discovery display",
+   "tier": "core",
+   "cells": {
+    "P13": {
+     "v": "N",
+     "srcs": [
+      "l"
+     ],
+     "primary": 0,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "L",
+       "page": "77",
+       "q": "forms like Ah!, Aha!, Mm!, Oh!, Ouch! and Wow!",
+       "hedge": "Ljung reporting Quirk et al.; no forms transcribed, so P13's N standard may not be met.",
+       "secondary": "Preceded on p. 76 by \"the class as such also includes phonologically regular\". Reported from Quirk et al. No forms are transcribed, so this may fall short of P1",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "OH",
+   "form": "oh",
+   "gloss": "change-of-state / receipt use",
+   "tier": "core",
+   "cells": {
+    "P01": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "6",
+       "q": "That is, even without any truth-conditional content, the examples in (6) express attitudes of anger, pain, awkwardness, or surprise respectively.",
+       "hedge": "Gutzmann glosses Oh! as surprise; the inventory's OH is the change-of-state or receipt use.",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P02": {
+     "v": "Y",
+     "srcs": [
+      "g"
+     ],
+     "primary": 0,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "6",
+       "q": "Oh, I have another suit.",
+       "hedge": "Gutzmann glosses Oh! as surprise; the inventory's OH is the change-of-state or receipt use.",
+       "secondary": "(5c), cited from Ameka 1992.",
+       "ocr": true
+      }
+     ]
+    },
+    "P07": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "6",
+       "q": "That is, even without any truth-conditional content, the examples in (6) express attitudes of anger, pain, awkwardness, or surprise respectively.",
+       "hedge": "Gutzmann glosses Oh! as surprise; the inventory's OH is the change-of-state or receipt use.",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P08": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "6",
+       "q": "That is, even without any truth-conditional content, the examples in (6) express attitudes of anger, pain, awkwardness, or surprise respectively.",
+       "hedge": "Gutzmann glosses Oh! as surprise; the inventory's OH is the change-of-state or receipt use.",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "takes an argument (Gutzmann)": {
+     "v": "N",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "G",
+       "page": "6",
+       "q": "Following Potts (2005: 65), I call such examples isolated UCIs.",
+       "hedge": "Gutzmann glosses Oh! as surprise; the inventory's OH is the change-of-state or receipt use.",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P13": {
+     "v": "N",
+     "srcs": [
+      "l"
+     ],
+     "primary": 0,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "L",
+       "page": "77",
+       "q": "forms like Ah!, Aha!, Mm!, Oh!, Ouch! and Wow!",
+       "hedge": "Ljung reporting Quirk et al.; no forms transcribed, so P13's N standard may not be met.",
+       "secondary": "Preceded on p. 76 by \"the class as such also includes phonologically regular\". Reported from Quirk et al. No forms are transcribed, so this may fall short of P1",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "OOPS",
+   "form": "oops",
+   "gloss": "mishap reaction",
+   "tier": "core",
+   "cells": {
+    "P01": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "6",
+       "q": "That is, even without any truth-conditional content, the examples in (6) express attitudes of anger, pain, awkwardness, or surprise respectively.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P03": {
+     "v": "N",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "G",
+       "page": "6",
+       "q": "*I’ve lost my oops keys.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P07": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "48",
+       "q": "These are interjections like Kaplan’s (1999) ouch and oops that contribute use conditions by themselves, without need- ing any argument (—functional), and which do not contribute anything to the truth-conditional dimension of meaning (—2-dimensional).",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P08": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "6",
+       "q": "That is, even without any truth-conditional content, the examples in (6) express attitudes of anger, pain, awkwardness, or surprise respectively.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P10S": {
+     "v": "N",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "G",
+       "page": "47",
+       "q": "#Oops! I forgot my keys. Oops! They are in the car. Oops!",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "Potts:independence": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "43",
+       "q": "It is a direct expression of that observation, rather than a statement about it.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "Potts:ineffability": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "43",
+       "q": "It is a direct expression of that observation, rather than a statement about it.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "takes an argument (Gutzmann)": {
+     "v": "N",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "G",
+       "page": "48",
+       "q": "These are interjections like Kaplan’s (1999) ouch and oops that contribute use conditions by themselves, without need- ing any argument (—functional), and which do not contribute anything to the truth-conditional dimension of meaning (—2-dimensional).",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "Gutzmann type": {
+     "v": "isolated expletive",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "isolated expletive",
+       "src": "G",
+       "page": "48",
+       "q": "provided by isolated expletives. These are interjections like Kaplan’s (1999) ouch and oops",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "OUCH",
+   "form": "ouch",
+   "gloss": "pain reaction",
+   "tier": "core",
+   "cells": {
+    "P01": {
+     "v": "Y",
+     "srcs": [
+      "G",
+      "M"
+     ],
+     "primary": 2,
+     "hedged": false,
+     "n": 2,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "35",
+       "q": "(38a) is an appropriate utterance in either Situation 1 or Situation 2.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "6",
+       "q": "That is, even without any truth-conditional content, the examples in (6) express attitudes of anger, pain, awkwardness, or surprise respectively.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P02": {
+     "v": "Y",
+     "srcs": [
+      "g"
+     ],
+     "primary": 0,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "6",
+       "q": "Ouch, I’ve hit my thumb!",
+       "hedge": "",
+       "secondary": "(5a), from Kaplan 1999. On p. 7, (8) gives the sentence's truth-conditional meaning as \"the semantic content of the sentence without the interjection\".",
+       "ocr": true
+      }
+     ]
+    },
+    "P07": {
+     "v": "Y",
+     "srcs": [
+      "G",
+      "M"
+     ],
+     "primary": 2,
+     "hedged": false,
+     "n": 2,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "36",
+       "q": "But the main point for our purposes here is that ouch is a bearer of purely expressive content.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "48",
+       "q": "These are interjections like Kaplan’s (1999) ouch and oops that contribute use conditions by themselves, without need- ing any argument (—functional), and which do not contribute anything to the truth-conditional dimension of meaning (—2-dimensional).",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P08": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "27",
+       "q": "the interjection ouch directly expresses the emotion of pain without needing an argument",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P10S": {
+     "v": "N",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "G",
+       "page": "47",
+       "q": "#Ouch! I’ve hit my thumb. Ouch! It was the hammer. Ouch!",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "Potts:nondisplaceability": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "39",
+       "q": "an expressive interjection like ouch behaves more like the GRRR of a dog with respect to displacement than its truth-conditional counterpart in (82)",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "modifiable by expressives": {
+     "v": "Y",
+     "srcs": [
+      "M"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 2,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "36",
+       "q": "These considerations are enough to make it clear that man is in fact doing something to the meaning of ouch in (38b), and so some kind of composition is at work.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "36",
+       "q": "It turns out that these modifiers can also modify purely expressive items in some dialects of English.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "main expressive content": {
+     "v": "Y",
+     "srcs": [
+      "M"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "35",
+       "q": "If we assume that ouch denotes something of type t s , though, we can avoid this situation.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "takes an argument (Gutzmann)": {
+     "v": "N",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "G",
+       "page": "27",
+       "q": "the interjection ouch directly expresses the emotion of pain without needing an argument",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "Gutzmann type": {
+     "v": "isolated expletive",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "isolated expletive",
+       "src": "G",
+       "page": "48",
+       "q": "provided by isolated expletives. These are interjections like Kaplan’s (1999) ouch and oops",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P13": {
+     "v": "N",
+     "srcs": [
+      "l"
+     ],
+     "primary": 0,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "L",
+       "page": "77",
+       "q": "forms like Ah!, Aha!, Mm!, Oh!, Ouch! and Wow!",
+       "hedge": "Ljung reporting Quirk et al.; no forms transcribed, so P13's N standard may not be met.",
+       "secondary": "Preceded on p. 76 by \"the class as such also includes phonologically regular\". Reported from Quirk et al. No forms are transcribed, so this may fall short of P1",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "SH",
+   "form": "sh",
+   "gloss": "silencing use",
+   "tier": "core",
+   "cells": {
+    "P13": {
+     "v": "Y",
+     "srcs": [
+      "l"
+     ],
+     "primary": 0,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "76",
+       "q": "deviant forms some of which exhibit peculiarities in the relation between spelling and pronunciation, for instance tsktsk, tut-tut, sh and ugh",
+       "hedge": "",
+       "secondary": "Ljung reporting Quirk et al. 1985 §2.58 Note (\"quasi-linguistic noises\"). No phonetic forms are given. For TUTTUT, the brief excludes the spelling pronunciation",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "UGH",
+   "form": "ugh",
+   "gloss": "disgust/dismay reaction",
+   "tier": "core",
+   "cells": {
+    "P13": {
+     "v": "Y",
+     "srcs": [
+      "l"
+     ],
+     "primary": 0,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "76",
+       "q": "deviant forms some of which exhibit peculiarities in the relation between spelling and pronunciation, for instance tsktsk, tut-tut, sh and ugh",
+       "hedge": "",
+       "secondary": "Ljung reporting Quirk et al. 1985 §2.58 Note (\"quasi-linguistic noises\"). No phonetic forms are given. For TUTTUT, the brief excludes the spelling pronunciation",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "WOW",
+   "form": "wow",
+   "gloss": "amazement reaction",
+   "tier": "core",
+   "cells": {
+    "P13": {
+     "v": "N",
+     "srcs": [
+      "l"
+     ],
+     "primary": 0,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "L",
+       "page": "77",
+       "q": "forms like Ah!, Aha!, Mm!, Oh!, Ouch! and Wow!",
+       "hedge": "Ljung reporting Quirk et al.; no forms transcribed, so P13's N standard may not be met.",
+       "secondary": "Preceded on p. 76 by \"the class as such also includes phonologically regular\". Reported from Quirk et al. No forms are transcribed, so this may fall short of P1",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "BLOODY_PRENOM",
+   "form": "bloody",
+   "gloss": "prenominal modifier: the bloody car",
+   "tier": "boundary",
+   "cells": {
+    "P03": {
+     "v": "Y",
+     "srcs": [
+      "G",
+      "L"
+     ],
+     "primary": 2,
+     "hedged": false,
+     "n": 2,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "19",
+       "q": "the use of fucking, bloody, goddamned, etc. as intensifiers and as adjectival attributes",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "5",
+       "q": "I hear your {∅ / blasted / bloody / damn / fucking} dog barking. [example (3), read from the page image]",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "degree with gradable noun": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "148",
+       "q": "A strong case can be made for including bloody, damn and their equivalents among the intensifying adjectives when they are used to indicate degree with regard to a following gradable noun",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "creates epithet NP": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "127",
+       "q": "the speaker actually creates a kind of epithet NP by including bloody before a normally non-epithet noun",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "P07": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "10",
+       "q": "I have characterized fucking and bloody as expressive adjectives, in which case they are expletive UCIs that contribute nothing to the truth-conditional level of meaning.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P08": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 5,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "148",
+       "q": "Obviously there is also an element of dislike however.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "149",
+       "q": "DISLIKE constructions in which bloody, damn, etc. serve to express the speaker’s dislike of the referent(s) of a following noun",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "22",
+       "q": "as adjectives of dislike as in I can’t stand that bloody cashier.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "14",
+       "q": "using alternately bloody, fucking, damned, goddamned, flipping to express negative attitude or simply emphasis",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "127",
+       "q": "the speaker actually creates a kind of epithet NP by including bloody before a normally non-epithet noun",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "emphasis": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 3,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "149",
+       "q": "There are also cases which undoubtedly express dislike on the part of the speaker, but whose main function seems to be to place emphasis on a certain noun",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "152",
+       "q": "By placing damn and bloody immediately after worst, every, 30 and no, the speaker emphasizes these elements, which are also no doubt pronounced with heavy stress.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "151",
+       "q": "these words often occur in what looks like typical NP modifier positions and that when they are used in this position it is difficult to free oneself from the impulse to regard them as modifiers",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "stress cue": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "150",
+       "q": "Heavy stress on book and doctor would have supported the second interpretation.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "DAMN_NP",
+   "form": "damn",
+   "gloss": "complement-taking use: Damn these mosquitoes!",
+   "tier": "boundary",
+   "cells": {
+    "P01": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "54",
+       "q": "curses like Damn you!, Damn this place! with the basic meanings ‘May you/this place be damned!’",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "P02": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "108",
+       "q": "(21) . . . they’re not doing a bad job, damn them. (BNC KGX 139)",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "P04": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "54",
+       "q": "curses like Damn you!, Damn this place! with the basic meanings ‘May you/this place be damned!’",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "optative verb form": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "31",
+       "q": "where Damn, Fuck and Sod are examples of optative subjunctives of the same kind as live in Long live the Queen!",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "interchangeable swear word": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "13",
+       "q": "despite the clearly different literal meanings of fuck, damn and sod, these words are freely",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "DAMN_PRENOM",
+   "form": "damn",
+   "gloss": "prenominal modifier: the damn car",
+   "tier": "boundary",
+   "cells": {
+    "P03": {
+     "v": "Y",
+     "srcs": [
+      "M",
+      "P",
+      "g"
+     ],
+     "primary": 2,
+     "hedged": false,
+     "n": 3,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "171",
+       "q": "Whenever I pour wine, the damn bottle drips.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "6",
+       "q": "That damn John didn’t come to the party.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "5",
+       "q": "your damn dog barking",
+       "hedge": "",
+       "secondary": "(2a), from Potts 2005: 18. OCR reads \"[hear\" for \"I hear\". Also fn 17 \"I’ve spilled that damn bottle again.\" p. 12, and \"that damn dog\" p. 48.",
+       "ocr": true
+      }
+     ]
+    },
+    "degree with gradable noun": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "148",
+       "q": "A strong case can be made for including bloody, damn and their equivalents among the intensifying adjectives when they are used to indicate degree with regard to a following gradable noun",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "P07": {
+     "v": "Y",
+     "srcs": [
+      "G",
+      "P"
+     ],
+     "primary": 2,
+     "hedged": false,
+     "n": 2,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "186",
+       "q": "The output of this computation is just a new context.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "30",
+       "q": "Functional expletives like damn pass their argument back to the truth-conditional layer. Truth-conditionally, the damn dog makes the same contribution as the dog.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P08": {
+     "v": "Y",
+     "srcs": [
+      "G",
+      "L",
+      "M",
+      "P"
+     ],
+     "primary": 4,
+     "hedged": false,
+     "n": 9,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "54",
+       "q": "intensifiers or adjectives of dislike as in English She is damn(ed) clever! and The damn(ed) car wouldn’t start!",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "148",
+       "q": "Obviously there is also an element of dislike however.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "149",
+       "q": "DISLIKE constructions in which bloody, damn, etc. serve to express the speaker’s dislike of the referent(s) of a following noun",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "14",
+       "q": "using alternately bloody, fucking, damned, goddamned, flipping to express negative attitude or simply emphasis",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "171",
+       "q": "we infer from the speaker’s use of damn that he is in a heighted emotional state right this minute.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "175",
+       "q": "registers that cJ regards d negatively somehow",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "187",
+       "q": "Conditions (45b.iii) and (47b.iii) ensure that damn and fucking are neg- ative expressives.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "7",
+       "q": "In these sentences, the content of the appositive, that John is a swimmer, and of the expressive adjective, that John is in some way bad, is indeed projected.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "5",
+       "q": "whatever use-conditional content is expressed by applying damn to dog, e.g. that the speaker has a negative attitude towards the addressee’s dog",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P10S": {
+     "v": "Y",
+     "srcs": [
+      "P",
+      "g"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 2,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "182",
+       "q": "we ﬁnd a heightening of the emotional state of the judge (speaker) as we move down the list",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "46",
+       "q": "The more instances of damn are used, the stronger (the expression of the) emotional attitude of the speaker or judge gets, with no redundancy at all.",
+       "hedge": "",
+       "secondary": "(101a–c), from Potts 2007c: 182: an initial interjective Damn (DAMN_REACT), then one and then two prenominal damns (DAMN_PRENOM). Pattern: recurrence spread acr",
+       "ocr": true
+      }
+     ]
+    },
+    "P11N": {
+     "v": "Y",
+     "srcs": [
+      "M"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "7",
+       "q": "In these examples, it is clear that the content of the nominal appositives is not affected by the negation or by the conditional, and similarly for the expressive adjective damn.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "Potts:independence": {
+     "v": "Y",
+     "srcs": [
+      "G",
+      "P"
+     ],
+     "primary": 2,
+     "hedged": false,
+     "n": 2,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "186",
+       "q": "The output of this computation is just a new context.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "30",
+       "q": "Functional expletives like damn pass their argument back to the truth-conditional layer. Truth-conditionally, the damn dog makes the same contribution as the dog.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "Potts:nondisplaceability": {
+     "v": "Y",
+     "srcs": [
+      "P"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "171",
+       "q": "we infer from the speaker’s use of damn that he is in a heighted emotional state right this minute.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "Potts:perspective": {
+     "v": "Y",
+     "srcs": [
+      "P"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "175",
+       "q": "registers that cJ regards d negatively somehow",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "Potts:ineffability": {
+     "v": "Y",
+     "srcs": [
+      "M"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "9",
+       "q": "the degree of difficulty seems to be different for the cases of green and (e.g.) damn. A paraphrase of the latter cannot even be attempted without using expressives",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "scopeless (McCready)": {
+     "v": "Y",
+     "srcs": [
+      "M"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "7",
+       "q": "In these examples, it is clear that the content of the nominal appositives is not affected by the negation or by the conditional, and similarly for the expressive adjective damn.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "unbindable": {
+     "v": "Y",
+     "srcs": [
+      "M"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "7",
+       "q": "# If I hate John, then that damn John came to the party.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "denial-immune": {
+     "v": "Y",
+     "srcs": [
+      "M"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 2,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "8",
+       "q": "A: That damn John came to the party last night.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "8",
+       "q": "≠ ‘There’s nothing wrong with John.’",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "emphasis": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 2,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "149",
+       "q": "There are also cases which undoubtedly express dislike on the part of the speaker, but whose main function seems to be to place emphasis on a certain noun",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "152",
+       "q": "By placing damn and bloody immediately after worst, every, 30 and no, the speaker emphasizes these elements, which are also no doubt pronounced with heavy stress.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "valence shift": {
+     "v": "Y",
+     "srcs": [
+      "P"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "188",
+       "q": "If I am speaking a¤ectionately about Sam, then my use of damn in connection with him will probably be construed as a¤ectionate.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "expressive strength": {
+     "v": "Y",
+     "srcs": [
+      "P"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "187",
+       "q": "This makes damn a mild expressive.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "takes an argument (Gutzmann)": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "30",
+       "q": "A functional expletive UCI, like the adjective damn for instance, needs a nominal argument to which the negative attitude conveyed can apply.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "resource-sensitive": {
+     "v": "N",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "G",
+       "page": "30",
+       "q": "Functional expletives like damn pass their argument back to the truth-conditional layer. Truth-conditionally, the damn dog makes the same contribution as the dog.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "Gutzmann type": {
+     "v": "functional expletive",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "functional expletive",
+       "src": "G",
+       "page": "48",
+       "q": "functional expletives like damn in that damn dog",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "attitude target": {
+     "v": "nominal (main text); event/proposition (footnote)",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "nominal (main text); event/proposition (footnote)",
+       "src": "G",
+       "page": "12 (fn 17)",
+       "q": "The most natural reading of (i) is one in which the speaker has a negative emotion regarding his spilling of the bottle, not regarding the bottle or bottles in general.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "multifunctional": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "10",
+       "q": "a UCI like damn can be used as an expressive attributive adjective or as an expressive interjection. In the same vein, many UCIs are multifunctional.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "stress cue": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "150",
+       "q": "Heavy stress on book and doctor would have supported the second interpretation.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "DAMN_REACT",
+   "form": "damn",
+   "gloss": "standalone and supplementary stance use: Damn! / Damn, we're late",
+   "tier": "boundary",
+   "cells": {
+    "P01": {
+     "v": "Y",
+     "srcs": [
+      "G",
+      "L"
+     ],
+     "primary": 2,
+     "hedged": false,
+     "n": 3,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "54",
+       "q": "it may take the form of interjections like English Damn!",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "94",
+       "q": "REACT: Reactive interjection, GF: gap filler, BC: before clause",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "6",
+       "q": "That is, even without any truth-conditional content, the examples in (6) express attitudes of anger, pain, awkwardness, or surprise respectively.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P02": {
+     "v": "Y",
+     "srcs": [
+      "G",
+      "L",
+      "P"
+     ],
+     "primary": 3,
+     "hedged": false,
+     "n": 4,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "77",
+       "q": "in supplements like . . . Damn, we’ve missed the bus again . . . are best regarded as having been reanalysed as interjections.",
+       "hedge": "",
+       "secondary": "Secondary: Ljung is quoting Huddleston & Pullum 2002: 1361",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "87",
+       "q": "the most common position is before a clause over which they have scope.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "P",
+       "page": "182",
+       "q": "Damn, I left my keys in the car.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      },
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "6",
+       "q": "Damn, I’ve lost my keys!",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "combines into formula": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "171",
+       "q": "DAMN: Damn it 2, Damn 2 = 4",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "P07": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "6",
+       "q": "That is, even without any truth-conditional content, the examples in (6) express attitudes of anger, pain, awkwardness, or surprise respectively.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P08": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "6",
+       "q": "That is, even without any truth-conditional content, the examples in (6) express attitudes of anger, pain, awkwardness, or surprise respectively.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "P10S": {
+     "v": "Y",
+     "srcs": [
+      "g"
+     ],
+     "primary": 0,
+     "hedged": true,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "46",
+       "q": "The more instances of damn are used, the stronger (the expression of the) emotional attitude of the speaker or judge gets, with no redundancy at all.",
+       "hedge": "Potts's added tokens in (34) are all prenominal; DAMN_REACT is never repeated (Potts report).",
+       "secondary": "(101a–c), from Potts 2007c: 182: an initial interjective Damn (DAMN_REACT), then one and then two prenominal damns (DAMN_PRENOM). Pattern: recurrence spread acr",
+       "ocr": true
+      }
+     ]
+    },
+    "takes an argument (Gutzmann)": {
+     "v": "N",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "G",
+       "page": "6",
+       "q": "Following Potts (2005: 65), I call such examples isolated UCIs.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "multifunctional": {
+     "v": "Y",
+     "srcs": [
+      "G"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "G",
+       "page": "10",
+       "q": "a UCI like damn can be used as an expressive attributive adjective or as an expressive interjection. In the same vein, many UCIs are multifunctional.",
+       "hedge": "",
+       "secondary": "",
+       "ocr": true
+      }
+     ]
+    },
+    "interchangeable swear word": {
+     "v": "Y",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "13",
+       "q": "despite the clearly different literal meanings of fuck, damn and sod, these words are freely",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "GEE",
+   "form": "gee",
+   "gloss": "surprise/emphasis reaction",
+   "tier": "boundary",
+   "cells": {
+    "P03": {
+     "v": "N",
+     "srcs": [
+      "L"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "L",
+       "page": "11",
+       "q": "Outside of the interjectional context, God and Jesus may never be replaced by Gosh and Gee",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    },
+    "has homonym in other class": {
+     "v": "N",
+     "srcs": [
+      "l"
+     ],
+     "primary": 0,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "N",
+       "src": "L",
+       "page": "79",
+       "q": "the examples Crikey!, gee! and gosh! have no homonyms",
+       "hedge": "",
+       "secondary": "Gehweiler 2008 as reported. Figure 4.1 (p. 80) puts Gee! among the primary (−homonym) \"moderated expletives\". p. 78: gee evolved via Jesus!",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "THANKS",
+   "form": "thanks",
+   "gloss": "thanking use",
+   "tier": "boundary",
+   "cells": {
+    "P01": {
+     "v": "Y",
+     "srcs": [
+      "M"
+     ],
+     "primary": 1,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "M",
+       "page": "34",
+       "q": "Thanks!",
+       "hedge": "",
+       "secondary": "",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "TUTTUT",
+   "form": "tut-tut",
+   "gloss": "disapproval click (spelling pronunciation excluded)",
+   "tier": "boundary",
+   "cells": {
+    "P13": {
+     "v": "Y",
+     "srcs": [
+      "l"
+     ],
+     "primary": 0,
+     "hedged": false,
+     "n": 1,
+     "entries": [
+      {
+       "v": "Y",
+       "src": "L",
+       "page": "76",
+       "q": "deviant forms some of which exhibit peculiarities in the relation between spelling and pronunciation, for instance tsktsk, tut-tut, sh and ugh",
+       "hedge": "",
+       "secondary": "Ljung reporting Quirk et al. 1985 §2.58 Note (\"quasi-linguistic noises\"). No phonetic forms are given. For TUTTUT, the brief excludes the spelling pronunciation",
+       "ocr": false
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "classes": [
+  {
+   "cls": "expletive interjections",
+   "col": "P08",
+   "v": "Y",
+   "src": "L",
+   "page": "74",
+   "q": "exclamations of irritation, pain or surprise containing expletives"
+  },
+  {
+   "cls": "interjections (swearing)",
+   "col": "P08",
+   "v": "Y",
+   "src": "L",
+   "page": "22",
+   "q": "Interjections generally express surprise, pain, fear, anger,"
+  },
+  {
+   "cls": "reactive expletive interjections",
+   "col": "P07",
+   "v": "Y",
+   "src": "L",
+   "page": "86",
+   "q": "reactive interjections do not have meanings in the established sense of the term."
+  },
+  {
+   "cls": "pragmatic (non-reactive) expletive interjections",
+   "col": "P07",
+   "v": "Y",
+   "src": "L",
+   "page": "87",
+   "q": "they have little or no propositional meaning"
+  },
+  {
+   "cls": "pragmatic expletive interjections",
+   "col": "P02",
+   "v": "Y",
+   "src": "L",
+   "page": "86",
+   "q": "It appears that the non-reactive expletive interjections meet all of these criteria"
+  },
+  {
+   "cls": "interjections (Huddleston & Pullum, quoted)",
+   "col": "P03",
+   "v": "N",
+   "src": "L",
+   "page": "77",
+   "q": "do not combine with other words in integrated syntactic constructions, and have expressive rather than propositional meaning"
+  },
+  {
+   "cls": "interjections (Huddleston & Pullum, quoted)",
+   "col": "P01",
+   "v": "Y",
+   "src": "L",
+   "page": "77",
+   "q": "used as expressive exclamations, on their own, or as supplements with clausal anchors"
+  },
+  {
+   "cls": "interjections (Huddleston & Pullum, quoted)",
+   "col": "P02",
+   "v": "Y",
+   "src": "L",
+   "page": "77",
+   "q": "used as expressive exclamations, on their own, or as supplements with clausal anchors"
+  },
+  {
+   "cls": "interjections (Carter & McCarthy, quoted)",
+   "col": "P08",
+   "v": "Y",
+   "src": "L",
+   "page": "78",
+   "q": "positive or negative emotional reactions to what is being or has just been said or to something in the situation"
+  },
+  {
+   "cls": "WH-emphasizers (the hell, the heck, the devil, the fuck)",
+   "col": "after wh-word",
+   "v": "Y",
+   "src": "L",
+   "page": "22",
+   "q": "are used as pure emphasizers after interrogative WH-words"
+  },
+  {
+   "cls": "wh-the-X strings",
+   "col": "formulaic",
+   "v": "Y",
+   "src": "L",
+   "page": "19",
+   "q": "resist semantic and syntactic analysis and have to be learnt as wholes."
+  },
+  {
+   "cls": "intensifying uses of bloody, damn",
+   "col": "P03",
+   "v": "Y",
+   "src": "L",
+   "page": "149",
+   "q": "they are modifiers, viz. their scope is local, extending no further than the nearest element to the right."
+  },
+  {
+   "cls": "intensifying uses of bloody, damn",
+   "col": "local scope",
+   "v": "Y",
+   "src": "L",
+   "page": "149",
+   "q": "they are modifiers, viz. their scope is local, extending no further than the nearest element to the right."
+  },
+  {
+   "cls": "intensifying uses of bloody, damn",
+   "col": "P07",
+   "v": "N",
+   "src": "L",
+   "page": "149",
+   "q": "they have clearly defined meanings"
+  },
+  {
+   "cls": "adjectives of dislike",
+   "col": "P08",
+   "v": "Y",
+   "src": "L",
+   "page": "34",
+   "q": "Another slot-filler function for swear words is to indicate that the speaker dislikes the referent of the following noun."
+  },
+  {
+   "cls": "expletive slot fillers (bloody, damn, damned, goddamn(ed), fucking)",
+   "col": "P01",
+   "v": "N",
+   "src": "L",
+   "page": "143",
+   "q": "By definition, the expletive slot fillers are all used inside larger units."
+  },
+  {
+   "cls": "slot fillers inside NPs and words",
+   "col": "P08",
+   "v": "Y",
+   "src": "L",
+   "page": "143",
+   "q": "the main – or perhaps even the only – function of the swearing expressions is to express the speaker’s attitudes and feelings."
+  },
+  {
+   "cls": "slot fillers inside NPs and words",
+   "col": "P07",
+   "v": "Y",
+   "src": "L",
+   "page": "143",
+   "q": "the main – or perhaps even the only – function of the swearing expressions is to express the speaker’s attitudes and feelings."
+  },
+  {
+   "cls": "insertion emphasis",
+   "col": "insertion into word/phrase",
+   "v": "Y",
+   "src": "L",
+   "page": "153",
+   "q": "insertion of the expletive element into linguistic units normally considered to be impenetrable, viz. words and phrases"
+  },
+  {
+   "cls": "direct-address name-calling",
+   "col": "P08",
+   "v": "Y",
+   "src": "L",
+   "page": "126",
+   "q": "exclamations with or without an initial You used to express the speaker’s negative attitude towards the addressee."
+  },
+  {
+   "cls": "name-calling nouns",
+   "col": "P08",
+   "v": "Y",
+   "src": "L",
+   "page": "33",
+   "q": "The nouns used in these constructions are all evaluative: they are used to express the speaker’s – negative or positive – opinion of"
+  },
+  {
+   "cls": "expletive epithets",
+   "col": "P07",
+   "v": "Y",
+   "src": "L",
+   "page": "129",
+   "q": "present-day uses/meanings of the words which are non-denotative and merely express the speaker’s negative opinion"
+  },
+  {
+   "cls": "expletive epithets",
+   "col": "P08",
+   "v": "Y",
+   "src": "L",
+   "page": "129",
+   "q": "present-day uses/meanings of the words which are non-denotative and merely express the speaker’s negative opinion"
+  },
+  {
+   "cls": "name-calling",
+   "col": "Potts:nondisplaceability",
+   "v": "Y",
+   "src": "L",
+   "page": "114",
+   "q": "The standard insults, the unfriendly suggestions and name-calling express the speaker’s feelings towards the addressee at the moment of speech."
+  },
+  {
+   "cls": "non-serious (expletive) curses",
+   "col": "P08",
+   "v": "Y",
+   "src": "L",
+   "page": "108",
+   "q": "expressing the speaker’s dislike of something or somebody and meeting the requirements that neither God nor the Devil are used referentially"
+  },
+  {
+   "cls": "expletive expressions",
+   "col": "Potts:ineffability",
+   "v": "Y",
+   "src": "L",
+   "page": "22",
+   "q": "what we can do, more or less adequately, is to describe the range of ‘meanings’ that may be assigned to such"
+  },
+  {
+   "cls": "emotive language (swearing criterion 4)",
+   "col": "Potts:perspective",
+   "v": "Y",
+   "src": "L",
+   "page": "21",
+   "q": "aims a direct expression of the speaker’s attitude toward what he is speaking about"
+  },
+  {
+   "cls": "expressives",
+   "col": "Potts:independence",
+   "v": "Y",
+   "src": "P",
+   "page": "166",
+   "q": "Expressive content contributes a dimension of meaning that is separate from the regular descriptive content."
+  },
+  {
+   "cls": "expressives",
+   "col": "P07",
+   "v": "Y",
+   "src": "P",
+   "page": "177",
+   "q": "The facts suggest that expressive content is not propositional, that it is distinct from the meanings we typically assign to sentences."
+  },
+  {
+   "cls": "expressives",
+   "col": "P07",
+   "v": "Y",
+   "src": "P",
+   "page": "181",
+   "q": "So expressives do not change the descriptive content at all."
+  },
+  {
+   "cls": "expressives",
+   "col": "Potts:nondisplaceability",
+   "v": "Y",
+   "src": "P",
+   "page": "169",
+   "q": "Expressives cannot (outside of direct quotation) be used to report on past events, attitudes, or emotions, nor can they express mere possibilities, conjectures, or suppositions."
+  },
+  {
+   "cls": "expressives",
+   "col": "P11N",
+   "v": "Y",
+   "src": "P",
+   "page": "172",
+   "q": "As we have seen, essen- tially no kind of syntactic embedding delivers the possibility of a semanti- cally embedded interpretation."
+  },
+  {
+   "cls": "expressives",
+   "col": "Potts:perspective",
+   "v": "Y",
+   "src": "P",
+   "page": "166",
+   "q": "In general, the perspective is the speaker’s, but there can be deviations if conditions are right."
+  },
+  {
+   "cls": "expressives",
+   "col": "Potts:perspective",
+   "v": "Y",
+   "src": "P",
+   "page": "175",
+   "q": "This is typical of expressives: they do not shift perspective mid- computation."
+  },
+  {
+   "cls": "expressives",
+   "col": "P08",
+   "v": "Y",
+   "src": "P",
+   "page": "173",
+   "q": "Almost invariably, a speaker’s expressives indicate that she is in a height- ened emotional state"
+  },
+  {
+   "cls": "expressives",
+   "col": "Potts:ineffability",
+   "v": "Y",
+   "src": "P",
+   "page": "166",
+   "q": "Speakers are never fully satisﬁed when they paraphrase expressive content using descriptive, i.e., nonexpressive, terms."
+  },
+  {
+   "cls": "expressives",
+   "col": "Potts:ineffability",
+   "v": "Y",
+   "src": "P",
+   "page": "176",
+   "q": "Expressives in general manifest this descriptive in- e¤ability."
+  },
+  {
+   "cls": "expressives",
+   "col": "Potts:immediacy",
+   "v": "Y",
+   "src": "P",
+   "page": "167",
+   "q": "Like performatives, expressives achieve their intended act simply by being uttered; they do not o¤er content so much as inﬂict it."
+  },
+  {
+   "cls": "expressives",
+   "col": "Potts:immediacy",
+   "v": "Y",
+   "src": "P",
+   "page": "180",
+   "q": "I claim that this immediacy property generalizes to the full class of expres- sives."
+  },
+  {
+   "cls": "expressives",
+   "col": "Potts:immediacy",
+   "v": "Y",
+   "src": "P",
+   "page": "165",
+   "q": "Expressives like damn and bastard have, when uttered, an immediate and powerful impact on the context."
+  },
+  {
+   "cls": "expressives",
+   "col": "P10S",
+   "v": "Y",
+   "src": "P",
+   "page": "182",
+   "q": "For expressives, the basic observation is that repetition leads to strengthening rather than redundancy."
+  },
+  {
+   "cls": "expressives",
+   "col": "P10S",
+   "v": "Y",
+   "src": "P",
+   "page": "189",
+   "q": "The context of interpretation changes after each expressive is en- countered, and these changes can build through a sentence."
+  },
+  {
+   "cls": "epithets",
+   "col": "Potts:immediacy",
+   "v": "Y",
+   "src": "P",
+   "page": "180",
+   "q": "Epithets provide an es- pecially clear example of this."
+  },
+  {
+   "cls": "CIE items",
+   "col": "P11N",
+   "v": "Y",
+   "src": "M",
+   "page": "6",
+   "q": "CIE items, by definition, do not participate in at-issue semantic processes"
+  },
+  {
+   "cls": "CIE items",
+   "col": "scopeless (McCready)",
+   "v": "Y",
+   "src": "M",
+   "page": "6",
+   "q": "CIE items, by definition, do not participate in at-issue semantic processes"
+  },
+  {
+   "cls": "CIE items",
+   "col": "P11N",
+   "v": "Y",
+   "src": "M",
+   "page": "6",
+   "q": "In particular, they are not affected by semantic operators."
+  },
+  {
+   "cls": "CIE items",
+   "col": "scopeless (McCready)",
+   "v": "Y",
+   "src": "M",
+   "page": "6",
+   "q": "In particular, they are not affected by semantic operators."
+  },
+  {
+   "cls": "CIE content",
+   "col": "denial-immune",
+   "v": "Y",
+   "src": "M",
+   "page": "7",
+   "q": "CIE content does not participate in denials."
+  },
+  {
+   "cls": "CIE content",
+   "col": "unbindable",
+   "v": "Y",
+   "src": "M",
+   "page": "7",
+   "q": "Such binding does not happen for CIE content."
+  },
+  {
+   "cls": "expressives (Potts 2007a, reported)",
+   "col": "Potts:ineffability",
+   "v": "Y",
+   "src": "M",
+   "page": "9",
+   "q": "according to which expressives have the property of ‘ineffability,’ meaning that they literally cannot be paraphrased in ways not involving other expressives"
+  },
+  {
+   "cls": "emotive expressives (Potts 2007, reported)",
+   "col": "P08",
+   "v": "Y",
+   "src": "M",
+   "page": "10",
+   "q": "the function of (emotive) expressives is to narrow down a subinterval of R used as a model of a range of emotion displayed with respect to some object"
+  },
+  {
+   "cls": "shunting-type objects",
+   "col": "main expressive content",
+   "v": "Y",
+   "src": "M",
+   "page": "18",
+   "q": "types for those semantic objects that ‘shunt’ information from one dimension to another, without leaving anything behind"
+  },
+  {
+   "cls": "mixed content bearers",
+   "col": "P07",
+   "v": "N",
+   "src": "M",
+   "page": "23",
+   "q": "they can serve as main predicates and are affected (in part) by various semantic operators"
+  },
+  {
+   "cls": "mixed content bearers",
+   "col": "scopeless (McCready)",
+   "v": "N",
+   "src": "M",
+   "page": "23",
+   "q": "they can serve as main predicates and are affected (in part) by various semantic operators"
+  },
+  {
+   "cls": "non-modifying expressives (salutations, fully expressive exclamations)",
+   "col": "P07",
+   "v": "Y",
+   "src": "M",
+   "page": "34",
+   "q": "Expressions like these lack truth conditions, though they can be expressively correct (appropriate) or not. They plainly do not assert anything"
+  },
+  {
+   "cls": "stand-alone particles",
+   "col": "main expressive content",
+   "v": "Y",
+   "src": "M",
+   "page": "34",
+   "q": "Clearly, on either analysis, stand-alone particles provide another case where the conventionally implicated content is the primary content of the utterance."
+  },
+  {
+   "cls": "Kaplan-type expressive particles",
+   "col": "modifiable by expressives",
+   "v": "Y",
+   "src": "M",
+   "page": "35",
+   "q": "But certain operators are able to act on expressive particles such as those discussed by Kaplan: namely, other particles."
+  },
+  {
+   "cls": "expressive small clauses",
+   "col": "P07",
+   "v": "Y",
+   "src": "M",
+   "page": "44",
+   "q": "Utterances like this one do not exhibit any at-issue content; there is nothing for truth-directed denials to target, for example."
+  },
+  {
+   "cls": "expressive small clauses",
+   "col": "denial-immune",
+   "v": "Y",
+   "src": "M",
+   "page": "44",
+   "q": "Utterances like this one do not exhibit any at-issue content; there is nothing for truth-directed denials to target, for example."
+  },
+  {
+   "cls": "exclamatives",
+   "col": "main expressive content",
+   "v": "Y",
+   "src": "M",
+   "page": "43",
+   "q": "exclamatives, which have the combinatory properties one would expect from shunting-typed objects in terms of further combinatorics"
+  },
+  {
+   "cls": "expressives in the narrow sense",
+   "col": "P08",
+   "v": "Y",
+   "src": "G",
+   "page": "4",
+   "q": "expressions that express some emotional and evaluative attitude with a high degree of affect- edness"
+  },
+  {
+   "cls": "epithets and expressive attributive adjectives",
+   "col": "P07",
+   "v": "Y",
+   "src": "G",
+   "page": "5",
+   "q": "Both epithets and expressive attributive adjectives contribute use-condi- tional content and no truth-conditional meaning."
+  },
+  {
+   "cls": "expressive attributive adjectives and epithets",
+   "col": "takes an argument (Gutzmann)",
+   "v": "Y",
+   "src": "G",
+   "page": "12",
+   "q": "modal particles mirror expressive attributive adjectives and epithets insofar as they are not saturated and hence not as isolated as the interjections"
+  },
+  {
+   "cls": "expressive adjectives in intensifier use",
+   "col": "P07",
+   "v": "N",
+   "src": "G",
+   "page": "10",
+   "q": "fucking or goddamn cannot be considered as exple- tive but as mixed UCIs, because they make a contribution to the truth- conditional dimension by grading the adjective they modify"
+  },
+  {
+   "cls": "interjections",
+   "col": "P01",
+   "v": "Y",
+   "src": "G",
+   "page": "6",
+   "q": "just as interjections can be omitted without effect on truth-conditions, the rest of the sentence can be dropped, leaving the use-conditional attitude intact"
+  },
+  {
+   "cls": "interjections",
+   "col": "P03",
+   "v": "N",
+   "src": "G",
+   "page": "6",
+   "q": "This is mirrored by the syntactic fact that they appear only in peripheral positions."
+  },
+  {
+   "cls": "interjections",
+   "col": "P07",
+   "v": "Y",
+   "src": "G",
+   "page": "6",
+   "q": "interjections like these are expletive UCIs and do not add anything to the truth conditions of the sentence"
+  },
+  {
+   "cls": "interjections",
+   "col": "takes an argument (Gutzmann)",
+   "v": "N",
+   "src": "G",
+   "page": "6",
+   "q": "interjections do not need a truth-conditional argument—they are already saturated and convey an use-conditional attitude without further ado"
+  },
+  {
+   "cls": "interjections",
+   "col": "Potts:nondisplaceability",
+   "v": "Y",
+   "src": "G",
+   "page": "39",
+   "q": "Interjections are an extreme example since they are very isolated from the linguistic context."
+  },
+  {
+   "cls": "isolated UCIs",
+   "col": "P10S",
+   "v": "N",
+   "src": "G",
+   "page": "47",
+   "q": "interjections and other isolated UCIs are not repeatable without sounding odd"
+  },
+  {
+   "cls": "isolated UCIs",
+   "col": "resource-sensitive",
+   "v": "INAPPLICABLE",
+   "src": "G",
+   "page": "28",
+   "q": "isolated UCIs do not take any argument and therefore, the question whether an application is resource-sensitive or not does not arise"
+  },
+  {
+   "cls": "UCIs (all types)",
+   "col": "Potts:independence",
+   "v": "Y",
+   "src": "G",
+   "page": "33",
+   "q": "Since independence follows directly from the fact that use-conditional content is not truth-conditional content, it holds for all kinds of UCIs."
+  },
+  {
+   "cls": "UCIs",
+   "col": "P11N",
+   "v": "Y",
+   "src": "G",
+   "page": "37",
+   "q": "Use-conditional content cannot be negated by ordinary negation."
+  },
+  {
+   "cls": "UCIs",
+   "col": "Potts:independence",
+   "v": "Y",
+   "src": "G",
+   "page": "37",
+   "q": "Use-conditional content cannot be negated by ordinary negation."
+  },
+  {
+   "cls": "UCIs",
+   "col": "Potts:nondisplaceability",
+   "v": "Y",
+   "src": "G",
+   "page": "38",
+   "q": "This is mostly impossible for UCIs."
+  },
+  {
+   "cls": "UCIs",
+   "col": "Potts:perspective",
+   "v": "Y",
+   "src": "G",
+   "page": "40",
+   "q": "By default, UCIs display the emotions or attitudes of the speaker."
+  },
+  {
+   "cls": "UCIs",
+   "col": "Potts:ineffability",
+   "v": "Y",
+   "src": "G",
+   "page": "44",
+   "q": "It is impossible to paraphrase use-con- ditional content using only truth-conditional expressions without changing the modus of expressing."
+  },
+  {
+   "cls": "UCIs",
+   "col": "Potts:immediacy",
+   "v": "Y",
+   "src": "G",
+   "page": "44",
+   "q": "UCIs behave in the same way, as we have already seen from some examples."
+  },
+  {
+   "cls": "UCIs",
+   "col": "P09",
+   "v": "N",
+   "src": "G",
+   "page": "48",
+   "q": "And even if UCIs are (of course) arbitrarily and by"
+  },
+  {
+   "cls": "UCIs",
+   "col": "P09",
+   "v": "N",
+   "src": "G",
+   "page": "48",
+   "q": "convention connected with the content they express"
+  }
+ ],
+ "stats": {
+  "cells": 113,
+  "with_primary": 101,
+  "with_two_primary": 12,
+  "primary_unhedged": 91
+ }
+}
