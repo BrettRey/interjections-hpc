@@ -1,0 +1,3522 @@
+
+=== W:ah:Etymology1:0 === (revid 93782184; bearers sharing this page: AH)
+From , enm, enm, of , or from , ang, from , gmw-pro. Earliest recorded use is circa 1175 in the Ormulum: A, Maȝȝstre! icc wat tatt tu full wiss Arrt Godess Sune ("Ah, Master! I know for sure that thou art God's Son"). Some propose that the Middle English is borrowed from (represented by modern ).<ref></ref><ref></ref>
+Compare also , fy, , nl, , , goh, goh (whence modern ), , , is, .
+
+=== W:ah:Pronunciation:0 === (revid 93782184; bearers sharing this page: AH)
+*
+*
+*
+*
+
+=== W:ah:Interjection:0 === (revid 93782184; bearers sharing this page: AH)
+HEADWORD: {{en-intj}}
+
+=== W:ah:Interjection:1 === (revid 93782184; bearers sharing this page: AH)
+An expression of relief, relaxation, comfort, confusion, understanding, wonder, awe, etc. according to uttered inflection.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:ah:Interjection:2 === (revid 93782184; bearers sharing this page: AH)
+A syllable used to fill space, particularly in music.
+QUOTATION: {{quote-song|en|year=2008|author=Britney Spears|title=Womanizer
+
+=== W:ah:Noun:0 === (revid 93782184; bearers sharing this page: AH)
+HEADWORD: {{en-noun}}
+
+=== W:ah:Noun:1 === (revid 93782184; bearers sharing this page: AH)
+An instance of the interjection ah.
+EXAMPLE: the crowd's oohs and ahs at the fireworks
+
+=== W:ah:Verb:0 === (revid 93782184; bearers sharing this page: AH)
+HEADWORD: {{en-verb}}
+
+=== W:ah:Verb:1 === (revid 93782184; bearers sharing this page: AH)
+To give a cry of "ah".
+QUOTATION: {{quote-book|en|year=2005|author=T. R. Rhoads|title=Sinner, Sailor: A Memoir|page=221
+
+=== W:ah:Pronoun:0 === (revid 93782184; bearers sharing this page: AH)
+HEADWORD: {{en-pron|desc=personal pronoun|plural|we|possessive adjective|mah}}
+
+=== W:ah:Pronoun:1 === (revid 93782184; bearers sharing this page: AH)
+.
+QUOTATION: 
+
+=== W:ah:Etymology3:0 === (revid 93782184; bearers sharing this page: AH)
+From and {{bor|en|nan-tws|啊|tr=a}}, reinforced by {{ncog|ta|-ஆ|pos=}} among Tamil speakers (Baskaran, 1988).
+
+=== W:ah:Pronunciation:0 === (revid 93782184; bearers sharing this page: AH)
+* *
+** *The different senses of this word are distinguished by lexical tone.
+
+=== W:ah:Particle:0 === (revid 93782184; bearers sharing this page: AH)
+HEADWORD: {{en-head|pcl}} {{tlb|en|Manglish|Singlish|clause-final [[w:Discourse marker|discourse particle]]}}
+
+=== W:ah:Particle:1 === (revid 93782184; bearers sharing this page: AH)
+( Marks a yes–no tag question prompting the listener to clarify or confirm something.
+EXAMPLE: <small>Pitch contour: <u>low-mid</u> </small>
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:ah:Particle:2 === (revid 93782184; bearers sharing this page: AH)
+( Reinforces a short, non-rhetorical wh-question.
+EXAMPLE: <small>Pitch contour: <u>rising</u> </small>
+EXAMPLE: 
+QUOTATION: 
+
+=== W:ah:Particle:3 === (revid 93782184; bearers sharing this page: AH)
+Emphasizes the need for absolute confirmation, permission or acknowledgment.
+EXAMPLE: <small>Pitch contour: <u>rising</u> </small>
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:ah:Particle:4 === (revid 93782184; bearers sharing this page: AH)
+A particle indicating the Topic and comment
+EXAMPLE: <small>Pitch contour: <u>rising</u> </small>
+EXAMPLE: 
+QUOTATION: 
+
+=== W:ah:Particle:5 === (revid 93782184; bearers sharing this page: AH)
+A confirmative final particle used in the middle of a sentence to ascertain the continued attention of the listener.
+EXAMPLE: <small>Pitch contour: <u>rising</u> </small>
+EXAMPLE: 
+QUOTATION: 
+
+=== W:ah:Particle:6 === (revid 93782184; bearers sharing this page: AH)
+(less common) Tagged at the end of non-interrogative sentence to convey a sense of informality or resignation.
+EXAMPLE: <small>Pitch contour: <u>mid-falling</u> </small>
+
+=== W:ah:Particle:7 === (revid 93782184; bearers sharing this page: AH)
+A {{glossary|vocative , used for direct address (over telephone calls, or to directly address the listener).}}
+EXAMPLE: <small>Pitch contour: <u>low-mid</u> </small>
+EXAMPLE: 
+QUOTATION: 
+
+=== W:ah:Particle:8 === (revid 93782184; bearers sharing this page: AH)
+Used as an intensifier in fixed expressions, sometimes exhortative in meaning.
+EXAMPLE: <small>Pitch contour: <u>mid-falling</u> , <u>low-mid</u> </small>
+EXAMPLE: 
+
+=== W:ah:Interjection:0 === (revid 93782184; bearers sharing this page: AH)
+HEADWORD: {{en-intj}}
+
+=== W:ah:Interjection:1 === (revid 93782184; bearers sharing this page: AH)
+(Manglish, Singlish) An expression, used when it has become clear that there is a straightforward conclusion or resolution to something.
+EXAMPLE: <small>Pitch contour: <u>mid-falling</u> , <u>falling</u> , sometimes nasalized</small>
+QUOTATION: 
+
+=== W:ah:Interjection:2 === (revid 93782184; bearers sharing this page: AH)
+(Manglish, Singlish) A condescending expression, used in response to someone holding stubborn beliefs when it has become clear that they were wrong all the time, somewhat like see? or
+EXAMPLE: <small>Pitch contour: <u>mid-falling</u> , <u>falling</u> , sometimes nasalized</small>
+
+=== W:ah:Etymology4:0 === (revid 93782184; bearers sharing this page: AH)
+Imitative of a person gagging.
+
+=== W:ah:Pronunciation:0 === (revid 93782184; bearers sharing this page: AH)
+*
+*
+
+=== W:ah:Interjection:0 === (revid 93782184; bearers sharing this page: AH)
+HEADWORD: {{en-intj}}
+
+=== W:ah:Interjection:1 === (revid 93782184; bearers sharing this page: AH)
+Yuck.
+
+=== W:hey:Pronunciation:0 === (revid 93484001; bearers sharing this page: HEY)
+* ,
+**
+**
+**
+*
+*
+
+=== W:hey:Etymology1:0 === (revid 93484001; bearers sharing this page: HEY)
+From , enm, also without h- in enm, from , ang, attested as first element in ang, ang. Cognate with , nl, , and , , , and , , , ; see heigh. Probably a expression, as may be inferred from its presence with similar meaning in many other unrelated languages: for example, , , Unami hè, and , and various sound-alikes as and , la, . See also hello.
+
+=== W:hey:Interjection:0 === (revid 93484001; bearers sharing this page: HEY)
+HEADWORD: {{en-intj}} {{tlb|en|informal}}
+
+=== W:hey:Interjection:1 === (revid 93484001; bearers sharing this page: HEY)
+An exclamation to get attention.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:hey:Interjection:2 === (revid 93484001; bearers sharing this page: HEY)
+A protest or reprimand.
+EXAMPLE: 
+
+=== W:hey:Interjection:3 === (revid 93484001; bearers sharing this page: HEY)
+An expression of surprise.
+EXAMPLE: 
+
+=== W:hey:Interjection:4 === (revid 93484001; bearers sharing this page: HEY)
+An informal greeting, similar to hi.
+EXAMPLE: 
+
+=== W:hey:Interjection:5 === (revid 93484001; bearers sharing this page: HEY)
+A request for repetition or explanation; an expression of confusion.
+EXAMPLE: 
+
+=== W:hey:Interjection:6 === (revid 93484001; bearers sharing this page: HEY)
+Used as a tag question, to emphasise what goes before or to request that the listener express an opinion about what has been said.
+QUOTATION: 
+
+=== W:hey:Interjection:7 === (revid 93484001; bearers sharing this page: HEY)
+A meaningless beat marker or extra, filler syllable in song lyrics.
+EXAMPLE: 
+
+=== W:hey:Verb:0 === (revid 93484001; bearers sharing this page: HEY)
+HEADWORD: {{en-verb}}
+
+=== W:hey:Verb:1 === (revid 93484001; bearers sharing this page: HEY)
+To greet with a "hey"
+
+=== W:hey:Etymology2:0 === (revid 93484001; bearers sharing this page: HEY)
+From , with reference to the weaving patterns used in hedgelaying. .
+
+=== W:hey:Noun:0 === (revid 93484001; bearers sharing this page: HEY)
+HEADWORD: {{en-noun}}
+
+=== W:hey:Noun:1 === (revid 93484001; bearers sharing this page: HEY)
+(country dancing) A choreographic figure in which three or more dancers weave between one another, passing by left and right shoulder alternately.
+
+=== W:hey:Etymology3:0 === (revid 93484001; bearers sharing this page: HEY)
+See he.
+
+=== W:hey:Noun:0 === (revid 93484001; bearers sharing this page: HEY)
+HEADWORD: {{en-noun}}
+
+=== W:hey:Noun:1 === (revid 93484001; bearers sharing this page: HEY)
+.
+
+=== W:oh:Pronunciation:0 === (revid 93740167; bearers sharing this page: OH)
+*
+**
+***
+**
+**
+**
+*
+**
+**
+**
+**
+*
+*
+*
+*
+
+=== W:oh:Etymology1:0 === (revid 93740167; bearers sharing this page: OH)
+
+
+=== W:oh:Interjection:0 === (revid 93740167; bearers sharing this page: OH)
+HEADWORD: {{en-intj}}
+
+=== W:oh:Interjection:1 === (revid 93740167; bearers sharing this page: OH)
+Expression of surprise.
+EXAMPLE: 
+
+=== W:oh:Interjection:2 === (revid 93740167; bearers sharing this page: OH)
+Expression of wonder, amazement, or awe.
+EXAMPLE: 
+
+=== W:oh:Interjection:3 === (revid 93740167; bearers sharing this page: OH)
+Expression of understanding, affirmation, recognition, or realization.
+EXAMPLE: 
+
+=== W:oh:Interjection:4 === (revid 93740167; bearers sharing this page: OH)
+A word to precede an annoyed remark.
+EXAMPLE: 
+
+=== W:oh:Interjection:5 === (revid 93740167; bearers sharing this page: OH)
+A word to precede an added or offhand comment or afterthought.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:oh:Interjection:6 === (revid 93740167; bearers sharing this page: OH)
+An invocation or address (similar to the vocative in languages with noun declension), often with a term of endearment.
+EXAMPLE: 
+QUOTATION: 1998, Max Martin, ...Baby One More Time (song performed by Britney Spears)
+QUOTATION: : Oh baby, baby, how was I supposed to know / That something wasn't right here?
+
+=== W:oh:Interjection:7 === (revid 93740167; bearers sharing this page: OH)
+(often, poetic) Exclamation for drama or emphasis.
+EXAMPLE: 
+QUOTATION: {{RQ:Raleigh Historie of the World|chapter=Preface|page=32|passage=Oh by what plots, by what forſwearings, betrayings, oppreſsions, impriſonments, tortures, poyſonings, and vnder what reaſons of State, and politique ſubteltie, haue theſe forenamed Kings, pulled the vengeance of GOD vpon them-ſelues,
+QUOTATION: {{quote-book|en|year=1703|author=Lawrence Smith|title=The Evidence of Things Not Seen|page=143
+
+=== W:oh:Interjection:8 === (revid 93740167; bearers sharing this page: OH)
+Expression of pain. See ouch.
+EXAMPLE: 
+QUOTATION: {{RQ:Cleland Fanny Hill|letter=1|page=83|passage="Oh! Oh!——I can't bear it————It is too much.——I die.—————I am going——" were Pollys expreſſions of extaſy: }}
+
+=== W:oh:Interjection:9 === (revid 93740167; bearers sharing this page: OH)
+Space filler or extra syllable, especially in (popular) music.
+QUOTATION: 
+
+=== W:oh:Interjection:10 === (revid 93740167; bearers sharing this page: OH)
+(interrogative) Expression of mild scepticism.
+EXAMPLE: 
+
+=== W:oh:Noun:0 === (revid 93740167; bearers sharing this page: OH)
+HEADWORD: {{en-noun}}
+
+=== W:oh:Noun:1 === (revid 93740167; bearers sharing this page: OH)
+An utterance of oh; a spoken expression of surprise, acknowledgement, etc.
+QUOTATION: {{quote-book|en|year=2011|author=Seabert Parsons|title=The Lost Codex of Palenque|page=240
+
+=== W:oh:Verb:0 === (revid 93740167; bearers sharing this page: OH)
+HEADWORD: {{en-verb}}
+
+=== W:oh:Verb:1 === (revid 93740167; bearers sharing this page: OH)
+(intransitive) To utter the interjection oh; to express surprise, etc.
+QUOTATION: {{quote-journal|en|year=1852|journal=Merry's museum and Parley's magazine|volume=23-24|page=46
+
+=== W:oh:Etymology2:0 === (revid 93740167; bearers sharing this page: OH)
+
+From , enm, from , from .
+
+=== W:oh:Noun:0 === (revid 93740167; bearers sharing this page: OH)
+HEADWORD: {{en-noun}}
+
+=== W:oh:Noun:1 === (revid 93740167; bearers sharing this page: OH)
+
+QUOTATION: {{quote-book|en|year=2006|author=w:Ben Bova|title=Titan|page=33
+QUOTATION: {{quote-book|en|year=2011|author=Shallon Lester
+
+=== W:oh:Etymology3:0 === (revid 93740167; bearers sharing this page: OH)
+From o, extended use of letter O name based on similar shape of the number 0.
+
+=== W:oh:Noun:0 === (revid 93740167; bearers sharing this page: OH)
+HEADWORD: {{en-noun}}
+
+=== W:oh:Noun:1 === (revid 93740167; bearers sharing this page: OH)
+The digit 0 (especially in representations of speech)
+QUOTATION: 
+QUOTATION: 
+
+=== W:oh:Etymology4:0 === (revid 93740167; bearers sharing this page: OH)
+
+# .
+
+=== W:oops:Etymology:0 === (revid 91527396; bearers sharing this page: OOPS)
+A presumably 'natural' exclamation, attested in writing since 1921. Related to or a variation of whoops (itself attested since 1933). A shortening of whoops-a-daisy, whoopsie-daisy, or oops-a-daisy, which in turn is a mispronunciation of ups-a-daisy or upsy-daisy.
+
+=== W:oops:Pronunciation:0 === (revid 91527396; bearers sharing this page: OOPS)
+*
+:*
+:*
+:**
+:*
+:**
+:*
+:*
+*
+
+=== W:oops:Interjection:0 === (revid 91527396; bearers sharing this page: OOPS)
+HEADWORD: {{en-intj}}
+
+=== W:oops:Interjection:1 === (revid 91527396; bearers sharing this page: OOPS)
+(informal) Used to acknowledge a small mistake or accident.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:oops:Interjection:2 === (revid 91527396; bearers sharing this page: OOPS)
+(informal) Used to indicate mild surprise or shock.
+EXAMPLE: 
+
+=== W:oops:Noun:0 === (revid 91527396; bearers sharing this page: OOPS)
+HEADWORD: {{en-noun|+|*}}
+
+=== W:oops:Noun:1 === (revid 91527396; bearers sharing this page: OOPS)
+A minor mistake or unforeseen difficulty.
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:oops:Verb:0 === (revid 91527396; bearers sharing this page: OOPS)
+HEADWORD: {{en-verb}}
+
+=== W:oops:Verb:1 === (revid 91527396; bearers sharing this page: OOPS)
+(intransitive, colloquial) To make a mistake; to blunder.
+
+=== W:ouch:Etymology1:0 === (revid 92541057; bearers sharing this page: OUCH)
+. Some sources say the interjection is attested since 1838<ref></ref> (and specifically in American English) and derives ultimately from ,<ref name="DC"></ref><ref name="OED1933"> ([https://archive.org/details/in.ernet.dli.2015.99996/page/n521 "ouch"])</ref> perhaps specifically via , as early attestations of the interjection are from Pennsylvania.<ref name="OED1933"/> However, others say the inte
+
+=== W:ouch:Pronunciation:0 === (revid 92541057; bearers sharing this page: OUCH)
+*
+*
+*
+
+=== W:ouch:Interjection:0 === (revid 92541057; bearers sharing this page: OUCH)
+HEADWORD: {{en-intj}}
+
+=== W:ouch:Interjection:1 === (revid 92541057; bearers sharing this page: OUCH)
+An expression of one's own physical pain.
+EXAMPLE: 
+
+=== W:ouch:Interjection:2 === (revid 92541057; bearers sharing this page: OUCH)
+An expression in sympathy at another's pain.
+EXAMPLE: 
+
+=== W:ouch:Interjection:3 === (revid 92541057; bearers sharing this page: OUCH)
+A reply to an insult seen as savage (frequently one that is tongue-in-cheek or joking).
+EXAMPLE: 
+
+=== W:ouch:Interjection:4 === (revid 92541057; bearers sharing this page: OUCH)
+An expression of disappointment.
+EXAMPLE: 
+
+=== W:ouch:Interjection:5 === (revid 92541057; bearers sharing this page: OUCH)
+(slang) Expressing surprise at the high price of something.
+EXAMPLE: 
+
+=== W:ouch:Noun:0 === (revid 92541057; bearers sharing this page: OUCH)
+HEADWORD: {{en-noun}}
+
+=== W:ouch:Noun:1 === (revid 92541057; bearers sharing this page: OUCH)
+(informal) Something that causes discomfort or pain.
+EXAMPLE: 
+QUOTATION: 
+
+=== W:ouch:Verb:0 === (revid 92541057; bearers sharing this page: OUCH)
+HEADWORD: {{en-verb}}
+
+=== W:ouch:Verb:1 === (revid 92541057; bearers sharing this page: OUCH)
+(intransitive) To exclaim "ouch!" in discomfort or pain.
+QUOTATION: 
+
+=== W:ouch:Etymology2:0 === (revid 92541057; bearers sharing this page: OUCH)
+Variant forms.
+
+=== W:ouch:Noun:0 === (revid 92541057; bearers sharing this page: OUCH)
+HEADWORD: {{en-noun}}
+
+=== W:ouch:Noun:1 === (revid 92541057; bearers sharing this page: OUCH)
+alternative form of ouche.
+
+=== W:sh:Interjection:0 === (revid 91807069; bearers sharing this page: SH)
+HEADWORD: {{en-intj}}
+
+=== W:sh:Interjection:1 === (revid 91807069; bearers sharing this page: SH)
+.
+QUOTATION: 
+
+=== W:ugh:Pronunciation:0 === (revid 93729975; bearers sharing this page: UGH)
+*
+* Any low-back vowel followed by a fricative articulated between the velum and the throat.
+**Note: may be nasalized.
+* , ,
+
+=== W:ugh:Interjection:0 === (revid 93729975; bearers sharing this page: UGH)
+HEADWORD: {{en-intj}}
+
+=== W:ugh:Interjection:1 === (revid 93729975; bearers sharing this page: UGH)
+Used to express repugnance, disgust, or annoyance.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: {{quote-book|en|year=1855|author=w:Robert Browning|title=s:Childe Roland to the Dark Tower Came|section=XXI
+QUOTATION: 
+QUOTATION: 
+
+=== W:ugh:Interjection:2 === (revid 93729975; bearers sharing this page: UGH)
+Used to express inarticulate vocalisations, such as used by a caveman.
+QUOTATION: 
+
+=== W:wow:Etymology1:0 === (revid 95414889; bearers sharing this page: WOW)
+
+Attested since the 16th century; borrowed from ; ultimately a natural exclamation.
+
+=== W:wow:Pronunciation:0 === (revid 95414889; bearers sharing this page: WOW)
+* ,
+**
+*
+**
+**
+
+=== W:wow:Interjection:0 === (revid 95414889; bearers sharing this page: WOW)
+HEADWORD: {{en-intj}}
+
+=== W:wow:Interjection:1 === (revid 95414889; bearers sharing this page: WOW)
+An indication of excitement, surprise, astonishment, or pleasure.
+EXAMPLE: 
+QUOTATION: {{quote-book|en|year=1513|author=w:Gavin Douglas|title=Virgil Æneid (translation) vi. Prol. 19
+
+=== W:wow:Interjection:2 === (revid 95414889; bearers sharing this page: WOW)
+An expression of amazement, awe, or admiration.
+EXAMPLE: 
+
+=== W:wow:Interjection:3 === (revid 95414889; bearers sharing this page: WOW)
+Used sarcastically to express disapproval of something.
+EXAMPLE: 
+
+=== W:wow:Verb:0 === (revid 95414889; bearers sharing this page: WOW)
+HEADWORD: {{en-verb}}
+
+=== W:wow:Verb:1 === (revid 95414889; bearers sharing this page: WOW)
+(transitive, informal) To amaze or awe.
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:wow:Verb:2 === (revid 95414889; bearers sharing this page: WOW)
+(intransitive, dialect) To wail; to cry mournfully.
+
+=== W:wow:Verb:3 === (revid 95414889; bearers sharing this page: WOW)
+(intransitive, dialect) Of a cat, to mew.
+
+=== W:wow:Verb:4 === (revid 95414889; bearers sharing this page: WOW)
+(intransitive, dialect) Of a dog, to howl.
+
+=== W:wow:Noun:0 === (revid 95414889; bearers sharing this page: WOW)
+HEADWORD: {{en-noun}}
+
+=== W:wow:Noun:1 === (revid 95414889; bearers sharing this page: WOW)
+(informal) Anything exceptionally surprising, unbelievable, outstanding, etc.
+QUOTATION: 
+QUOTATION: 
+
+=== W:wow:Noun:2 === (revid 95414889; bearers sharing this page: WOW)
+(informal) An utterance of "wow".
+QUOTATION: {{quote-journal|en|year=2009|month=April|journal=MotorBoating|page=43
+QUOTATION: {{quote-book|en|date=2021-08-25|author=Jason King|title=The Climate Planner: Overcoming Pushback Against Local Mitigation and Adaptation Plans|publisher=Routledge|isbn=9781000422627
+
+=== W:wow:Etymology2:0 === (revid 95414889; bearers sharing this page: WOW)
+Imitative.
+
+=== W:wow:Noun:0 === (revid 95414889; bearers sharing this page: WOW)
+HEADWORD: {{en-noun|~}}
+
+=== W:wow:Noun:1 === (revid 95414889; bearers sharing this page: WOW)
+(audio) A relatively slow form of flutter (pitch variation) which can affect both gramophone records and tape recorders.
+QUOTATION: 
+QUOTATION: {{quote-book|en|year=1970|author=Larry G. Goodwin; Thomas Koehring|title=Closed-circuit Television Production Techniques|page=80
+
+=== W:alas:Etymology1:0 === (revid 95371164; bearers sharing this page: ALAS)
+From , from (French fr), from fro + fro, from . Compare , , .
+
+=== W:alas:Pronunciation:0 === (revid 95371164; bearers sharing this page: ALAS)
+*
+*
+*
+*
+*
+*
+
+=== W:alas:Interjection:0 === (revid 95371164; bearers sharing this page: ALAS)
+HEADWORD: {{en-intj}}
+
+=== W:alas:Interjection:1 === (revid 95371164; bearers sharing this page: ALAS)
+Used to express sorrow, regret, compassion, grief, resignation, or disappointment.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: {{quote-book|en|year=c. 1521|author=w:John Skelton|title=Speke Parott
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:alas:Etymology2:0 === (revid 95371164; bearers sharing this page: ALAS)
+right|thumb|An alas, filled by a lake, in [[Yakutia.]]
+
+From .
+
+=== W:alas:Pronunciation:0 === (revid 95371164; bearers sharing this page: ALAS)
+* <!-- |a=US,UK --><!--sometimes also /ˈɑˌlɑs/ -->
+
+=== W:alas:Noun:0 === (revid 95371164; bearers sharing this page: ALAS)
+HEADWORD: {{en-noun|+|alasses}}
+
+=== W:alas:Noun:1 === (revid 95371164; bearers sharing this page: ALAS)
+A type of geological depression formed by the subsidence of permafrost, sometimes (partially) filled by a lake.
+EXAMPLE: 
+QUOTATION: {{quote-book|en|year=1973|title=Arctic Bulletin|page=35
+QUOTATION: {{quote-book|en|year=2007|author=Mary Chapman|title=The Geology of Mars: Evidence from Earth-Based Analogs|page=292
+QUOTATION: {{quote-book|en|year=2018|author=Colin K. Ballantyne|title=Periglacial Geomorphology|page=129
+QUOTATION: {{quote-book|en|year=2019|author=Takeshi Ohta; Tetsuya Hiyama; Yoshihiro Iijima|title=Water-Carbon Dynamics in Eastern Siberia|page=195
+
+=== W:aha:Etymology:0 === (revid 95117440; bearers sharing this page: AHA)
+From , enm, . Equivalent to ah + ha.
+
+=== W:aha:Pronunciation:0 === (revid 95117440; bearers sharing this page: AHA)
+*
+* ,
+*
+*
+
+=== W:aha:Interjection:0 === (revid 95117440; bearers sharing this page: AHA)
+HEADWORD: {{en-intj}}
+
+=== W:aha:Interjection:1 === (revid 95117440; bearers sharing this page: AHA)
+An exclamation of understanding, realization, invention, or recognition.
+EXAMPLE: 
+
+=== W:aha:Interjection:2 === (revid 95117440; bearers sharing this page: AHA)
+An exclamation of surprise, exaltation, or contempt.
+EXAMPLE: 
+
+=== W:gee:Etymology1:0 === (revid 93788712; bearers sharing this page: GEE)
+A shortening of Jesus, perhaps as in the oath by Jesus.
+
+=== W:gee:Pronunciation:0 === (revid 93788712; bearers sharing this page: GEE)
+*
+*
+
+=== W:gee:Interjection:0 === (revid 93788712; bearers sharing this page: GEE)
+HEADWORD: {{en-intj}}
+
+=== W:gee:Interjection:1 === (revid 93788712; bearers sharing this page: GEE)
+(somewhat, dated) A general exclamation of surprise or frustration.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:gee:Usage notes:0 === (revid 93788712; bearers sharing this page: GEE)
+Gee is generally considered somewhat dated or juvenile. It is often used for ironic or sarcastic effect, with the speaker putting on an air of youthful innocence.
+
+=== W:gee:Etymology2:0 === (revid 93788712; bearers sharing this page: GEE)
+.
+
+=== W:gee:Pronunciation:0 === (revid 93788712; bearers sharing this page: GEE)
+*
+*
+
+=== W:gee:Verb:0 === (revid 93788712; bearers sharing this page: GEE)
+HEADWORD: {{en-verb}}
+
+=== W:gee:Verb:1 === (revid 93788712; bearers sharing this page: GEE)
+(intransitive) Of a horse, pack animal, etc.: to move forward; go faster; or turn in a direction away from the driver, typically to the right.
+EXAMPLE: 
+
+=== W:gee:Verb:2 === (revid 93788712; bearers sharing this page: GEE)
+(transitive) To cause an animal to move in this way.
+EXAMPLE: 
+
+=== W:gee:Verb:3 === (revid 93788712; bearers sharing this page: GEE)
+(UK, dialect, obsolete) To agree; to harmonize.
+QUOTATION: {{quote-book|en|year=1918|author=Mary Stanbery Watts|title=The Boardman Family|page=342
+QUOTATION: 
+
+=== W:gee:Noun:0 === (revid 93788712; bearers sharing this page: GEE)
+HEADWORD: {{en-noun}}
+
+=== W:gee:Noun:1 === (revid 93788712; bearers sharing this page: GEE)
+A gee-gee, a horse.
+QUOTATION: {{quote-book|en|1879|W. S. Gilbert|author2=&#91;Arthur Sullivan, composer&#93;|Original Plays|chapter=The Pirates of Penzance|location=London|publisher=w:Chatto & Windus|year_published=1899|page=318|text=You'll say a better major-general has never sat a gee|pageurl=https://www.google.com/books/editi
+
+=== W:gee:Interjection:0 === (revid 93788712; bearers sharing this page: GEE)
+HEADWORD: {{en-intj}}
+
+=== W:gee:Interjection:1 === (revid 93788712; bearers sharing this page: GEE)
+A command to a horse, pack animal, etc., which may variously mean “move forward”, “go faster”, or “turn to the right”.
+EXAMPLE: 
+
+=== W:gee:Etymology3:0 === (revid 93788712; bearers sharing this page: GEE)
+From , from , from .
+
+=== W:gee:Pronunciation:0 === (revid 93788712; bearers sharing this page: GEE)
+*
+*
+
+=== W:gee:Noun:0 === (revid 93788712; bearers sharing this page: GEE)
+HEADWORD: {{en-noun}}
+
+=== W:gee:Noun:1 === (revid 93788712; bearers sharing this page: GEE)
+
+EXAMPLE: 
+QUOTATION: {{quote-journal|en|year=1773|journal=The Monthly Review Or Literary Journal Enlarged|month=October
+QUOTATION: {{quote-book|en|year=2004|author=Will Rogers|title=The Stonking Steps|page=170
+
+=== W:gee:Noun:2 === (revid 93788712; bearers sharing this page: GEE)
+(slang) alternative form of grand; a thousand dollars.
+EXAMPLE: ten gees
+
+=== W:gee:Noun:3 === (revid 93788712; bearers sharing this page: GEE)
+(physics) alternative form of gravity; the unit of acceleration equal to that exerted by gravity at the earth's surface.
+QUOTATION: {{quote-journal
+QUOTATION: {{quote-book
+
+=== W:gee:Noun:4 === (revid 93788712; bearers sharing this page: GEE)
+(US, slang) A guy.
+QUOTATION: {{quote-book|en|year=1939|author=w:Raymond Chandler|title=The Big Sleep|page=197|publisher=Penguin|year_published=2011
+
+=== W:gee:Etymology4:0 === (revid 93788712; bearers sharing this page: GEE)
+. Possibly from gowl, a slang term in Ireland. Compare .
+
+=== W:gee:Pronunciation:0 === (revid 93788712; bearers sharing this page: GEE)
+*
+**
+*
+*
+
+=== W:gee:Noun:0 === (revid 93788712; bearers sharing this page: GEE)
+HEADWORD: {{en-noun}}
+
+=== W:gee:Noun:1 === (revid 93788712; bearers sharing this page: GEE)
+(Ireland, slang) Vagina, vulva.<ref></ref>
+QUOTATION: {{quote-book|en|year=1987|author=w:Roddy Doyle|title=w:The Commitments|publisher=King Farouk|location=Dublin
+QUOTATION: {{quote-book|en|year=1991|author=w:Roddy Doyle|title=The Van (novel)|page=65|publisher=. Secker & Warburg|isbn=0-436-20052-X
+QUOTATION: {{quote-book|en|year=1992|author=w:Samuel Beckett|title=w:Dream of Fair to Middling Women|page=71|publisher=. John Calder|isbn=978-0714542133
+QUOTATION: {{quote-book|en|year=1995|author=w:Joseph O'Connor|title=w:Red Roses and Petrol|page=7|publisher=. Methuen|isbn=978-0413699909
+
+=== W:gee:Etymology5:0 === (revid 93788712; bearers sharing this page: GEE)
+.
+
+=== W:gee:Pronunciation:0 === (revid 93788712; bearers sharing this page: GEE)
+*
+*
+
+=== W:gee:Verb:0 === (revid 93788712; bearers sharing this page: GEE)
+HEADWORD: {{en-verb}}
+
+=== W:gee:Verb:1 === (revid 93788712; bearers sharing this page: GEE)
+To suit or fit.
+QUOTATION: {{quote-book
+
+=== W:gee:Verb:0 === (revid 93788712; bearers sharing this page: GEE)
+HEADWORD: {{en-verb}}
+
+=== W:gee:Verb:1 === (revid 93788712; bearers sharing this page: GEE)
+(obsolete, dialect) To give.
+QUOTATION: {{RQ:Hughes Tom Brown|passage=And good old Holmes delivered his soul on the walk home of many wise sayings, and, as the song says, <br>"Gee'd 'em a sight of good advice;" }}
+
+=== W:tut-tut:Interjection:0 === (revid 89191759; bearers sharing this page: TUTTUT)
+HEADWORD: {{en-intj}}
+
+=== W:tut-tut:Interjection:1 === (revid 89191759; bearers sharing this page: TUTTUT)
+An expression of annoyance or impatience.
+
+=== W:tut-tut:Verb:0 === (revid 89191759; bearers sharing this page: TUTTUT)
+HEADWORD: {{en-verb|++}}
+
+=== W:tut-tut:Verb:1 === (revid 89191759; bearers sharing this page: TUTTUT)
+To express such a sound, especially as a mild reproof
+
+=== W:tut:Etymology1:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+Imitative.
+
+=== W:tut:Pronunciation:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+*
+*
+*
+*
+
+=== W:tut:Interjection:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+HEADWORD: {{en-intj}}
+
+=== W:tut:Interjection:1 === (revid 93746309; bearers sharing this page: TUTTUT)
+Tut tut; an expression of disapproval.
+
+=== W:tut:Interjection:2 === (revid 93746309; bearers sharing this page: TUTTUT)
+Hush; be silent.<!--Webster 1913-->
+
+=== W:tut:Verb:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+HEADWORD: {{en-verb}}
+
+=== W:tut:Verb:1 === (revid 93746309; bearers sharing this page: TUTTUT)
+To make a tut tut sound of disapproval.
+
+=== W:tut:Etymology2:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+Shortening of tutorial.
+
+=== W:tut:Pronunciation:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+*
+*
+
+=== W:tut:Noun:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+HEADWORD: {{en-noun}}
+
+=== W:tut:Noun:1 === (revid 93746309; bearers sharing this page: TUTTUT)
+(Internet slang, and, Oxford University slang) A tutorial.
+EXAMPLE: 
+QUOTATION: 
+
+=== W:tut:Etymology3:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+Compare , .
+
+=== W:tut:Pronunciation:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+*
+
+=== W:tut:Noun:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+HEADWORD: {{en-noun}}
+
+=== W:tut:Noun:1 === (revid 93746309; bearers sharing this page: TUTTUT)
+(UK, obsolete, dialect) A hassock.<ref></ref>
+
+=== W:tut:Etymology4:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+
+
+=== W:tut:Noun:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+HEADWORD: {{en-noun}}
+
+=== W:tut:Noun:1 === (revid 93746309; bearers sharing this page: TUTTUT)
+(obsolete) A piece of work.
+
+=== W:tut:Etymology5:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+
+
+=== W:tut:Pronunciation:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+* (noun)
+* (verb)
+
+=== W:tut:Noun:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+HEADWORD: {{en-noun|-}}
+
+=== W:tut:Noun:1 === (revid 93746309; bearers sharing this page: TUTTUT)
+(Southern English) Rubbish.
+QUOTATION: {{quote-song|en|year=1977|author=Ian Drury; the Blockheads|title=Clever Trevor
+QUOTATION: {{quote-book|en|year=2012|author=M.T. Maguire|title=The Wrong Stuff: K'Barthan Series: Part 2
+QUOTATION: {{quote-book|en|year=2017|author=Marilyn Messik|title=Witch Dust
+
+=== W:tut:Verb:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+HEADWORD: {{en-verb}}
+
+=== W:tut:Verb:1 === (revid 93746309; bearers sharing this page: TUTTUT)
+(obsolete) To work by the piece; to carry out tut-work.
+
+=== W:tut:Etymology6:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+See tutting.
+
+=== W:tut:Verb:0 === (revid 93746309; bearers sharing this page: TUTTUT)
+HEADWORD: {{en-verb}}
+
+=== W:tut:Verb:1 === (revid 93746309; bearers sharing this page: TUTTUT)
+To dance in the style known as tutting.
+
+=== W:damn:Etymology:0 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+
+From , from , from , from la.
+
+=== W:damn:Pronunciation:0 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+*
+*
+*
+*
+**
+**
+***
+*
+**
+**
+*
+*
+*
+*
+
+=== W:damn:Verb:0 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+HEADWORD: {{en-verb}}
+
+=== W:damn:Verb:1 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+(theology, transitive, intransitive) To condemn.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:damn:Verb:2 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+To condemn; to declare guilty; to doom; to adjudge to punishment.
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:damn:Verb:3 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+To put out of favor; to ruin; to label negatively.
+EXAMPLE: 
+
+=== W:damn:Verb:4 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+To condemn as unfit, harmful, invalid, immoral or illegal.
+EXAMPLE: 
+QUOTATION: 1708 November 8, Alexander Pope, letter to Henry Cromwell
+QUOTATION: : You are not so arrant a critic as to damn them [the works of modern poets] without hearing.
+QUOTATION: 
+
+=== W:damn:Verb:5 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+(slang, slightly <<vulgar>>) To curse; put a curse upon.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:damn:Verb:6 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+(archaic) To invoke damnation; to curse.
+EXAMPLE: 
+QUOTATION: c. 1767-1774, Oliver Goldsmith, letter to Mrs. Bunbury
+QUOTATION: : while I inwardly damn.
+
+=== W:damn:Adjective:0 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+HEADWORD: {{en-adj|-}}
+
+=== W:damn:Adjective:1 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+(slang, slightly <<vulgar>>) Generic intensifier. Fucking; bloody.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:damn:Adverb:0 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+HEADWORD: {{en-adv|-}}
+
+=== W:damn:Adverb:1 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+(slang, slightly <<vulgar>>) Very; extremely.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:damn:Interjection:0 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+HEADWORD: {{en-intj}}
+
+=== W:damn:Interjection:1 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+(slang, slightly, vulgar) Used to express anger, irritation, disappointment, annoyance, contempt or surprise, etc. See also dammit.
+EXAMPLE: 
+
+=== W:damn:Noun:0 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+HEADWORD: {{en-noun}} {{lb|en|slang|slightly <<vulgar>>}}
+
+=== W:damn:Noun:1 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+The word "damn" employed as a curse.
+EXAMPLE: 
+
+=== W:damn:Noun:2 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+(chiefly in the negative) A small, negligible quantity, being of little value; a whit or jot.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:damn:Noun:3 === (revid 94551986; bearers sharing this page: DAMN_REACT, DAMN_NP, DAMN_PRENOM, DAMN_DEGREE)
+(chiefly in the negative) The smallest amount of concern or consideration.
+EXAMPLE: 
+
+=== W:bang:Pronunciation:0 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+*
+**
+*
+*
+*
+*
+*
+*
+*
+
+=== W:bang:Etymology1:0 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+
+From , from or borrowed from ; both from , from .
+
+Cognate with , sco, , "to hammer"; whence modern , , da, , nds, , fy, , , de.
+
+In the sense of a fringe of hair, from bang off.
+In the sense of abrupt left turn, from Boston left and associated risk of a crash.
+
+=== W:bang:Noun:0 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+HEADWORD: {{en-noun}}
+
+=== W:bang:Noun:1 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+A sudden percussive noise.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:bang:Noun:2 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+A heavy strike upon an object causing such a noise.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:bang:Noun:3 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(informal) An explosion.
+EXAMPLE: 
+
+=== W:bang:Noun:4 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(US, archaic) : hair hanging over the forehead, especially a hairstyle with such hair cut straight across.
+QUOTATION: {{quote-book|en|year=1880|author=w:William Dean Howells|title=The Undiscovered Country
+QUOTATION: 
+
+=== W:bang:Noun:5 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(chiefly, US) The symbol mul, known as an exclamation point.
+EXAMPLE: 
+QUOTATION: 
+
+=== W:bang:Noun:6 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(mathematics) A factorial, in mathematics, because the factorial of n is written as n!
+
+=== W:bang:Noun:7 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(vulgar, slang) An act of sexual intercourse.
+
+=== W:bang:Noun:8 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+An offbeat figure typical of reggae songs and played on guitar and piano.
+
+=== W:bang:Noun:9 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(slang, mining) An explosive product.
+EXAMPLE: 
+
+=== W:bang:Noun:10 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(slang) An injection, a shot (of a narcotic drug).
+QUOTATION: 
+QUOTATION: 
+
+=== W:bang:Noun:11 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(slang, US, Boston area) An abrupt left turn.
+
+=== W:bang:Noun:12 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(Ireland, colloquial, slang) strong smell (of)
+EXAMPLE: 
+
+=== W:bang:Noun:13 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(slang) A thrill.
+QUOTATION: 
+QUOTATION: {{quote-book|en|year=1993|author=Douglas Woolf; Sandra Braman|title=Hypocritic Days & Other Tales|page=40
+QUOTATION: {{quote-book|en|year=2000|author=James Hadley Chase|title=Make the Corpse Walk|page=31
+
+=== W:bang:Verb:0 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+HEADWORD: {{en-verb}}
+
+=== W:bang:Verb:1 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(intransitive) To make sudden loud noises, often repeatedly, especially by exploding or hitting something.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:bang:Verb:2 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(transitive) To hit (something) hard, making a loud noise.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:bang:Verb:3 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(transitive) To cause or suffer (one thing) to hit (another).
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:bang:Verb:4 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(intransitive, generally with a preposition) To hit (on, against, etc. something).
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:bang:Verb:5 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(slang, ambitransitive, vulgar) To engage in sexual intercourse.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:bang:Verb:6 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(transitive) To cut squarely across, as the tail of a horse, or a person's forelock; to cut (the hair).
+QUOTATION: {{quote-book|en|year=c. 1883|author=w:Frank Hamilton Cushing|title=Becomin a Zuni
+
+=== W:bang:Verb:7 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(transitive, slang, drugs) To inject intravenously.
+EXAMPLE: 
+
+=== W:bang:Verb:8 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(finance, transitive, dated) To depress the prices in (a market).
+QUOTATION: {{quote-book|en|year=1821|author=Bank of England|title=The Bank - The Stock Exchange - The Bankers ...|page=64
+QUOTATION: {{quote-journal|en|year=1902|journal=Truth|volume=50|page=1138
+
+=== W:bang:Verb:9 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(slang, transitive, obsolete) To excel or surpass. <!--Hotten's slang dict. 1873-->
+
+=== W:bang:Verb:10 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(intransitive, stative, slang) To be excellent; to be banging
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:bang:Verb:11 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(Nigeria, slang) To fail, especially an exam; to flunk.
+
+=== W:bang:Verb:12 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(New England, slang, intransitive) To make a turn in a vehicle; to hang a right, left, or uey.
+EXAMPLE: 
+
+=== W:bang:Verb:13 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(US slang, ) To gangbang; to participate in street gang criminal activity.
+EXAMPLE: 
+
+=== W:bang:Verb:14 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(sports) To play a sport aggressively.
+
+=== W:bang:Adverb:0 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+HEADWORD: {{en-adv|-}}
+
+=== W:bang:Adverb:1 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(informal) Right, directly.
+EXAMPLE: 
+QUOTATION: {{quote-journal|en|date=September 18, 2011
+
+=== W:bang:Adverb:2 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(informal) Precisely, exactly, completely.
+EXAMPLE: 
+QUOTATION: 
+
+=== W:bang:Adverb:3 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(informal) With a sudden impact.
+EXAMPLE: 
+
+=== W:bang:Adverb:4 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+(informal) Used as a general intensifier.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:bang:Interjection:0 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+HEADWORD: {{en-intj}}
+
+=== W:bang:Interjection:1 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+A sudden percussive sound, such as made by the firing of a gun, slamming of a door, etc.
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:bang:Noun:0 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+HEADWORD: {{en-noun|-}}
+
+=== W:bang:Noun:1 === (revid 94586626; bearers sharing this page: BANG_DEPICT, BANG_NOUN)
+.
+
+=== W:mm-hm:Interjection:0 === (revid 87656132; bearers sharing this page: MMHM)
+HEADWORD: {{en-intj}}
+
+=== W:mm-hm:Interjection:1 === (revid 87656132; bearers sharing this page: MMHM)
+.
+
+=== W:huh:Etymology:0 === (revid 93626740; bearers sharing this page: HUH)
+Attested from . Compare .
+
+=== W:huh:Pronunciation:0 === (revid 93626740; bearers sharing this page: HUH)
+*
+*
+*
+*
+*
+**
+*
+
+=== W:huh:Interjection:0 === (revid 93626740; bearers sharing this page: HUH)
+HEADWORD: {{en-intj}}
+
+=== W:huh:Interjection:1 === (revid 93626740; bearers sharing this page: HUH)
+(with rising pitch) Used to express doubt or confusion.
+EXAMPLE: 
+
+=== W:huh:Interjection:2 === (revid 93626740; bearers sharing this page: HUH)
+(with falling pitch) Used to express amusement or subtle surprise.
+EXAMPLE: 
+
+=== W:huh:Interjection:3 === (revid 93626740; bearers sharing this page: HUH)
+(with rising pitch) Used to reinforce a question.
+EXAMPLE: 
+
+=== W:huh:Interjection:4 === (revid 93626740; bearers sharing this page: HUH)
+(slang, with falling pitch) Used either to belittle the issuer of a statement/question, or sarcastically to indicate utter agreement, and that the statement being responded to is an extreme understatement. The intonation is changed to distinguish between the two meanings - implied dullness for belittlement, and feigned surprise for utter agreement.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:huh:Interjection:5 === (revid 93626740; bearers sharing this page: HUH)
+(informal, with rising pitch) Used to indicate that one did not hear what was said.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:huh:Interjection:6 === (revid 93626740; bearers sharing this page: HUH)
+(informal, with falling pitch) Used to create a tag question.
+EXAMPLE: 
+
+=== W:huh:Interjection:7 === (revid 93626740; bearers sharing this page: HUH)
+(onomatopoeia) Representing the sound of heavy breathing.
+QUOTATION: 
+QUOTATION: 
+
+=== W:huh:Interjection:8 === (revid 93626740; bearers sharing this page: HUH)
+(onomatopoeia) Representing a chuckling sound.
+QUOTATION: 
+QUOTATION: {{quote-book|en|author=Meg Howrey|title=The Wanderers|location=London|publisher=Scribner|year=2017|page=173|pageurl=https://archive.org/details/wanderers0000howr_v5z7/page/n10/mode/1up|isbn=1-471-14666-9|passage=Helen starts laughing, properly now. Huh-huh-huh.}}
+
+=== W:huh:Interjection:9 === (revid 93626740; bearers sharing this page: HUH)
+(martial arts) A kiai, shouted as a limb is swung in attack.
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:bye:Pronunciation:0 === (revid 93682799; bearers sharing this page: BYE)
+* ,
+**
+**
+**
+*
+**
+**
+**
+
+=== W:bye:Etymology1:0 === (revid 93682799; bearers sharing this page: BYE)
+Variant form of by, from .
+
+=== W:bye:Noun:0 === (revid 93682799; bearers sharing this page: BYE)
+HEADWORD: {{en-noun}}
+
+=== W:bye:Noun:1 === (revid 93682799; bearers sharing this page: BYE)
+The position of a person or team in a tournament or competition who draws no opponent in a particular round so advances to the next round unopposed, or is awarded points for a win in a league table; also the phantom opponent of such a person or team.
+EXAMPLE: 
+QUOTATION: 
+
+=== W:bye:Noun:2 === (revid 93682799; bearers sharing this page: BYE)
+(cricket) An extra scored when the batsmen take runs after the ball has passed the striker without hitting either the bat or the batsman.
+
+=== W:bye:Noun:3 === (revid 93682799; bearers sharing this page: BYE)
+(obsolete) A thing not directly aimed at; a secondary or subsidiary object, course, path, undertaking, issue, etc.
+QUOTATION: {{RQ:Fuller Church History
+QUOTATION: 
+
+=== W:bye:Noun:4 === (revid 93682799; bearers sharing this page: BYE)
+(Scotland) An unspecified way or place.
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:bye:Noun:5 === (revid 93682799; bearers sharing this page: BYE)
+(card games) A pass.
+
+=== W:bye:Adjective:0 === (revid 93682799; bearers sharing this page: BYE)
+HEADWORD: {{en-adj}}
+
+=== W:bye:Adjective:1 === (revid 93682799; bearers sharing this page: BYE)
+Out of the way; remote.
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:bye:Adjective:2 === (revid 93682799; bearers sharing this page: BYE)
+Secondary; supplementary.
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:bye:Etymology2:0 === (revid 93682799; bearers sharing this page: BYE)
+
+Shortened form of goodbye.
+
+=== W:bye:Interjection:0 === (revid 93682799; bearers sharing this page: BYE)
+HEADWORD: {{en-intj}}
+
+=== W:bye:Interjection:1 === (revid 93682799; bearers sharing this page: BYE)
+(colloquial) Goodbye.
+
+=== W:bye:Interjection:2 === (revid 93682799; bearers sharing this page: BYE)
+(AAVE, slang) An exclamation of disbelief or dismissal.
+EXAMPLE: 
+QUOTATION: {{quote-book|en|author=Amir Abrams|title=Diva Rules|publisher=Dafina Books|year=2015|page=151|isbn=978-0-7582-9480-7|passage=“Okay, busted. But you see all them muscles, girl?” She shakes her head, laughing. “Nope. I only have eyes for my boo.” “Girl, bye. You can still look.” She giggles. “Well, I 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:bye:Noun:0 === (revid 93682799; bearers sharing this page: BYE)
+HEADWORD: {{en-noun}}
+
+=== W:bye:Noun:1 === (revid 93682799; bearers sharing this page: BYE)
+(computing) A command to exit a session.
+
+=== W:bye:Noun:0 === (revid 93682799; bearers sharing this page: BYE)
+HEADWORD: {{en-noun}}
+
+=== W:bye:Noun:1 === (revid 93682799; bearers sharing this page: BYE)
+.
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:bye:Etymology4:0 === (revid 93682799; bearers sharing this page: BYE)
+Alternative forms.
+
+=== W:bye:Preposition:0 === (revid 93682799; bearers sharing this page: BYE)
+HEADWORD: {{en-head|prep}}
+
+=== W:bye:Preposition:1 === (revid 93682799; bearers sharing this page: BYE)
+.
+
+=== W:bye:Noun:0 === (revid 93682799; bearers sharing this page: BYE)
+HEADWORD: {{en-noun|?}}
+
+=== W:bye:Noun:1 === (revid 93682799; bearers sharing this page: BYE)
+.
+
+=== W:okay:Etymology:0 === (revid 94565122; bearers sharing this page: OKAY)
+A respelling of OK.
+
+=== W:okay:Pronunciation:0 === (revid 94565122; bearers sharing this page: OKAY)
+*
+**
+*
+**
+*
+*
+**
+*
+*
+
+=== W:okay:Noun:0 === (revid 94565122; bearers sharing this page: OKAY)
+HEADWORD: {{en-noun}}
+
+=== W:okay:Noun:1 === (revid 94565122; bearers sharing this page: OKAY)
+.
+
+=== W:okay:Verb:0 === (revid 94565122; bearers sharing this page: OKAY)
+HEADWORD: {{en-verb}}
+
+=== W:okay:Verb:1 === (revid 94565122; bearers sharing this page: OKAY)
+.
+QUOTATION: {{quote-book|en|year=1970|author=w:Leslie Waller|chapter=8|title=The American: A Novel|location=New York, N.Y.|publisher=G. P. Putnam’s Sons|page=60|pageurl=https://archive.org/details/americannovel0000lesl/page/60/mode/1up|lccn=78-105591|oclc=92708|passage=They turned her over to the mercies of the
+
+=== W:okay:Adjective:0 === (revid 94565122; bearers sharing this page: OKAY)
+HEADWORD: {{en-adj|more,er}}
+
+=== W:okay:Adjective:1 === (revid 94565122; bearers sharing this page: OKAY)
+.
+QUOTATION: 
+
+=== W:okay:Adverb:0 === (revid 94565122; bearers sharing this page: OKAY)
+HEADWORD: {{en-adv}}
+
+=== W:okay:Adverb:1 === (revid 94565122; bearers sharing this page: OKAY)
+.
+
+=== W:okay:Interjection:0 === (revid 94565122; bearers sharing this page: OKAY)
+HEADWORD: {{en-intj}}
+
+=== W:okay:Interjection:1 === (revid 94565122; bearers sharing this page: OKAY)
+.
+
+=== W:yes:Etymology:0 === (revid 94609407; bearers sharing this page: YES)
+
+From , from , derived from the same root as yea. Compare .
+
+=== W:yes:Pronunciation:0 === (revid 94609407; bearers sharing this page: YES)
+*
+**
+**
+**
+*
+*
+*
+
+=== W:yes:Particle:0 === (revid 94609407; bearers sharing this page: YES)
+HEADWORD: {{en-head|pcl}}
+
+=== W:yes:Particle:1 === (revid 94609407; bearers sharing this page: YES)
+Used to show agreement or acceptance.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 2016, [https://web.archive.org/web/20171030003034/https://learningenglish.voanews.com/a/lets-learn-english-lesson-8-are-you-busy/3253185.html VOA Learning English] (public domain)
+QUOTATION: : Hi, Jonathan. Are you busy? &mdash; Yes, I’m busy.
+
+=== W:yes:Particle:2 === (revid 94609407; bearers sharing this page: YES)
+Used to indicate disagreement or dissent in reply to a negative statement.
+EXAMPLE: 
+
+=== W:yes:Particle:3 === (revid 94609407; bearers sharing this page: YES)
+(humorous) Answer to a question presuming one answer when all answers are correct.
+EXAMPLE: 
+EXAMPLE: (Countless examples can be found on the [https://www.reddit.com/r/InclusiveOr/ “Inclusive&nbsp;Or” subreddit], which is a forum dedicated to this joke.)
+
+=== W:yes:Usage notes:0 === (revid 94609407; bearers sharing this page: YES)
+* In Old and Middle English, yes was a more forceful affirmative than yea.
+* An example of yes used to disagree with a statement: the questions "You don’t want it, do you?" and "Don’t you want it?" are answered by "yes" if the respondent does want the item, and "no" if not. Many languages use a specific word for this purpose; see translation table below.
+
+=== W:yes:Interjection:0 === (revid 94609407; bearers sharing this page: YES)
+HEADWORD: {{en-intj}}
+
+=== W:yes:Interjection:1 === (revid 94609407; bearers sharing this page: YES)
+An exclamation of pleasure or approval, usually transcribed with an exclamation point.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:yes:Interjection:2 === (revid 94609407; bearers sharing this page: YES)
+Response that confirms that the user is paying attention.
+
+=== W:yes:Interjection:3 === (revid 94609407; bearers sharing this page: YES)
+(interrogative) Used to ask for more information with a request.
+EXAMPLE: 
+
+=== W:yes:Noun:0 === (revid 94609407; bearers sharing this page: YES)
+HEADWORD: {{en-noun|+|yesses}}
+
+=== W:yes:Noun:1 === (revid 94609407; bearers sharing this page: YES)
+An affirmative expression; an answer that shows agreement or acceptance.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:yes:Noun:2 === (revid 94609407; bearers sharing this page: YES)
+A vote of support or in favor of something.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:yes:Verb:0 === (revid 94609407; bearers sharing this page: YES)
+HEADWORD: {{en-verb|~es,~ses}}
+
+=== W:yes:Verb:1 === (revid 94609407; bearers sharing this page: YES)
+(colloquial, transitive) To agree with, affirm, approve.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:yes:Verb:2 === (revid 94609407; bearers sharing this page: YES)
+(colloquial, intransitive) To say .
+QUOTATION: 
+QUOTATION: 
+QUOTATION: {{quote-book|en|year=2005|author=Tyree Campbell|chapter=11|title=Nyx|location=Cedar Rapids, Ia.|publisher=Sam’s Dot Publishing|page=93|pageurl=https://archive.org/details/isbn_9781930847699/page/93/mode/1up|passage=" Are you—?" / ".&nbsp;.&nbsp;. all right?" / We yessed simultaneously. / "At least, 
+
+=== W:yes:Verb:3 === (revid 94609407; bearers sharing this page: YES)
+(slang) To attempt to flatter someone by habitually agreeing
+
+=== W:yes:Determiner:0 === (revid 94609407; bearers sharing this page: YES)
+HEADWORD: {{head|en|determiner}}
+
+=== W:yes:Determiner:1 === (revid 94609407; bearers sharing this page: YES)
+(humorous) Countering a statement using the
+
+=== W:yes:Determiner:2 === (revid 94609407; bearers sharing this page: YES)
+There is; indicating the existence of something.
+
+=== W:yes:Determiner:3 === (revid 94609407; bearers sharing this page: YES)
+* {{quote-newsgroup|en|date=9 July 1997|author=Marky J|title=No Games?<!--sic--> … Yes games!!|newsgroup=rec.games.video.nintendo|archiveurl=https://web.archive.org/web/20251205121852/https://groups.google.com/g/rec.games.video.nintendo/c/oDWp9fKevvI/m/eLks6RyLBHwJ|passage=Have you heard this before? "Nintendo 64 has no games!" Well, I did a little researching, and here's what I found: }}
+
+=== W:yes:Determiner:4 === (revid 94609407; bearers sharing this page: YES)
+* {{quote-newsgroup|en|date=15 December 1997|author=^.^|title=No water...|newsgroup=alt.home.repair|archiveurl=https://web.archive.org/web/20251205122044/https://groups.google.com/g/alt.home.repair/c/-nWbbPg82Uc/m/8eWagZDOkL8J|passage= No water... YES WATER! / We have water again!}}
+
+=== W:yes:Determiner:5 === (revid 94609407; bearers sharing this page: YES)
+*
+
+=== W:yes:Determiner:6 === (revid 94609407; bearers sharing this page: YES)
+*
+
+=== W:yes:Determiner:7 === (revid 94609407; bearers sharing this page: YES)
+Indicating the possibility or allowance of something.
+
+=== W:yes:Determiner:8 === (revid 94609407; bearers sharing this page: YES)
+*
+
+=== W:yes:Determiner:9 === (revid 94609407; bearers sharing this page: YES)
+*
+
+=== W:yes:Determiner:10 === (revid 94609407; bearers sharing this page: YES)
+*
+
+=== W:no:Pronunciation:0 === (revid 95308599; bearers sharing this page: NO)
+*
+**
+***
+**
+**
+**
+***
+****
+***
+*
+**
+*
+*
+**
+*
+*
+*
+
+=== W:no:Etymology1:0 === (revid 95308599; bearers sharing this page: NO)
+, enm, enm, a reduced form of enm, enm, enm used before consonants (compare a to an), from , from , from , equivalent to . .
+Cognate with , , ofs "no, not any, none"; > {{cog|stq|naan, stq, }}, "no, not any, none"; > , . Compare also "not any"; > , (/dum, ), , (> ). More at no, one.
+
+=== W:no:Determiner:0 === (revid 95308599; bearers sharing this page: NO)
+HEADWORD: {{en-head|det}}
+
+=== W:no:Determiner:1 === (revid 95308599; bearers sharing this page: NO)
+Not any.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:no:Determiner:2 === (revid 95308599; bearers sharing this page: NO)
+Hardly any.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:no:Determiner:3 === (revid 95308599; bearers sharing this page: NO)
+Not any possibility or allowance of (something).
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:no:Determiner:4 === (revid 95308599; bearers sharing this page: NO)
+Not (a); not properly, not really; not fully.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:no:Etymology2:0 === (revid 95308599; bearers sharing this page: NO)
+, enm, from , ang, from , from , from gem-pro + gem-pro, equivalent to . Cognate with , , , fy, , , , dialectal , , , . .
+
+=== W:no:Adverb:0 === (revid 95308599; bearers sharing this page: NO)
+HEADWORD: {{en-adv|-}}
+
+=== W:no:Adverb:1 === (revid 95308599; bearers sharing this page: NO)
+(with following adjective) Not, not at all.
+
+=== W:no:Adverb:2 === (revid 95308599; bearers sharing this page: NO)
+Used before different, before comparatives with more and
+
+=== W:no:Adverb:3 === (revid 95308599; bearers sharing this page: NO)
+:
+
+=== W:no:Adverb:4 === (revid 95308599; bearers sharing this page: NO)
+:
+
+=== W:no:Adverb:5 === (revid 95308599; bearers sharing this page: NO)
+:
+
+=== W:no:Adverb:6 === (revid 95308599; bearers sharing this page: NO)
+:
+
+=== W:no:Adverb:7 === (revid 95308599; bearers sharing this page: NO)
+:
+
+=== W:no:Adverb:8 === (revid 95308599; bearers sharing this page: NO)
+(informal) Used idiomatically before certain other adjectives.
+
+=== W:no:Adverb:9 === (revid 95308599; bearers sharing this page: NO)
+:
+
+=== W:no:Adverb:10 === (revid 95308599; bearers sharing this page: NO)
+:
+
+=== W:no:Adverb:11 === (revid 95308599; bearers sharing this page: NO)
+(without adjective, now, Scotland, informal) Not.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: {{quote-book|en|year=1725|author=w:Daniel Defoe|title=An essay on the history and reality of apparitions
+
+=== W:no:Adverb:12 === (revid 95308599; bearers sharing this page: NO)
+(colloquial, usually, humorous) Not, does not, do not, etc.
+EXAMPLE: 
+
+=== W:no:Usage notes:0 === (revid 95308599; bearers sharing this page: NO)
+* When used humorously to mean or , this word usually implies a simplistic or caveman-like way of speaking.
+
+=== W:no:Particle:0 === (revid 95308599; bearers sharing this page: NO)
+HEADWORD: {{en-head|pcl}}
+
+=== W:no:Particle:1 === (revid 95308599; bearers sharing this page: NO)
+Used to show disagreement, negation, denial, refusal, or prohibition.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: {{quote-av|en|date=February 5 2000|author=Douglas Watkinson; et al|chapter=Beyond the Grave|title=Midsomer Murders
+
+=== W:no:Particle:2 === (revid 95308599; bearers sharing this page: NO)
+Used to ask for confirmation.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:no:Particle:3 === (revid 95308599; bearers sharing this page: NO)
+Used to express sadness or disappointment.
+EXAMPLE: 
+
+=== W:no:Particle:4 === (revid 95308599; bearers sharing this page: NO)
+Used to express disbelief.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:no:Particle:5 === (revid 95308599; bearers sharing this page: NO)
+Used to show agreement with a negative question.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:no:Particle:6 === (revid 95308599; bearers sharing this page: NO)
+(colloquial) Used together with an affirmative word or phrase to show agreement.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:no:Preposition:0 === (revid 95308599; bearers sharing this page: NO)
+HEADWORD: {{en-head|prep}}
+
+=== W:no:Preposition:1 === (revid 95308599; bearers sharing this page: NO)
+Without.
+EXAMPLE: 
+
+=== W:no:Preposition:2 === (revid 95308599; bearers sharing this page: NO)
+Like.
+
+=== W:no:Noun:0 === (revid 95308599; bearers sharing this page: NO)
+HEADWORD: {{anchor|English-Noun}}
+HEADWORD: {{en-noun|es|s}}
+
+=== W:no:Noun:1 === (revid 95308599; bearers sharing this page: NO)
+A negating expression; an answer that shows disagreement, denial, refusal, or disapproval.
+QUOTATION: 
+
+=== W:no:Noun:2 === (revid 95308599; bearers sharing this page: NO)
+A vote not in favor, or opposing a proposition.
+EXAMPLE: 
+
+=== W:no:Verb:0 === (revid 95308599; bearers sharing this page: NO)
+HEADWORD: {{en-verb|~es}}
+
+=== W:no:Verb:1 === (revid 95308599; bearers sharing this page: NO)
+(intransitive, colloquial) To say .
+QUOTATION: {{quote-book|en|year=1983|author=Sasha Moorsom|chapter=5|title=In the Shadow of the Paradise Tree|location=London&#59; Melbourne, Vic.&#59; Henley-on-Thame, Oxfordshire|publisher=Routledge & Kegan Paul|page=80|pageurl=https://archive.org/details/inshadowofparadi0000moor/page/80/mode/1up|isbn=0-7100-
+QUOTATION: 
+QUOTATION: 
+
+=== W:no:Verb:2 === (revid 95308599; bearers sharing this page: NO)
+(transitive, colloquial) To answer with ; to decline, reject.
+QUOTATION: {{quote-journal|en|year=1835|month=April|title=The Whimsey Papers.—No. II. Vague Conclusions Concerning Selfishness and Benevolence—Vivid the Casuist—Skinflint the Misanthrope—Green, the Good-Natured Man.|editor=|journal=The Court Magazine,|volume=VI|issue=IV|location=London|publisher=Edward Churton
+QUOTATION: {{quote-journal|en|date=17 March 1940|title=Back of the CAA Fight: Independence or Closer Executive Control of Aviation Agency|editor=David Lawrence|journal=The United States News|location=Washington, D.C.|publisher=United States News Publishing Corporation|page=33|pageurl=https://archive.org/detail
+QUOTATION: 
+
+=== W:no:Etymology3:0 === (revid 95308599; bearers sharing this page: NO)
+Variant of No., from the scribal abbreviation for .
+
+=== W:no:Adverb:0 === (revid 95308599; bearers sharing this page: NO)
+HEADWORD: {{en-adv|-}}
+
+=== W:no:Adverb:1 === (revid 95308599; bearers sharing this page: NO)
+(archaic) alternative form of No.
+
+=== W:no:Noun:0 === (revid 95308599; bearers sharing this page: NO)
+HEADWORD: {{en-noun}}
+
+=== W:no:Noun:1 === (revid 95308599; bearers sharing this page: NO)
+alternative form of No.
+
+=== W:thanks:Etymology:0 === (revid 94633800; bearers sharing this page: THANKS)
+
+From , enm, from , from , nominative plural of gem-pro, from . More at thank.
+
+=== W:thanks:Pronunciation:0 === (revid 94633800; bearers sharing this page: THANKS)
+*
+**
+***
+***
+****
+***
+**
+***
+****
+*****
+****
+*
+*
+
+=== W:thanks:Interjection:0 === (revid 94633800; bearers sharing this page: THANKS)
+HEADWORD: {{en-intj}}
+
+=== W:thanks:Interjection:1 === (revid 94633800; bearers sharing this page: THANKS)
+Used to express appreciation or gratitude.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:thanks:Noun:0 === (revid 94633800; bearers sharing this page: THANKS)
+HEADWORD: {{en-noun|p|sg=thank<l:obsolete>}}
+
+=== W:thanks:Noun:1 === (revid 94633800; bearers sharing this page: THANKS)
+An expression of appreciation or gratitude.
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:thanks:Noun:2 === (revid 94633800; bearers sharing this page: THANKS)
+Grateful feelings or thoughts; favour, goodwill, graciousness.
+QUOTATION: 
+
+=== W:thanks:Noun:0 === (revid 94633800; bearers sharing this page: THANKS)
+HEADWORD: {{head|en|noun form}}
+
+=== W:thanks:Noun:1 === (revid 94633800; bearers sharing this page: THANKS)
+(obsolete)
+
+=== W:thanks:Verb:0 === (revid 94633800; bearers sharing this page: THANKS)
+HEADWORD: {{head|en|verb form}}
+
+=== W:thanks:Verb:1 === (revid 94633800; bearers sharing this page: THANKS)
+
+
+=== W:sorry:Etymology:0 === (revid 94572503; bearers sharing this page: SORRY)
+From , from , from , from , from . Cognate with , , , , dialectal de, Swedish sv. . Unrelated to sorrow despite the similarity in form and meaning.
+
+=== W:sorry:Pronunciation:0 === (revid 94572503; bearers sharing this page: SORRY)
+*
+**
+*
+**
+**
+*
+**
+***
+*
+*
+*
+*
+*
+
+=== W:sorry:Adjective:0 === (revid 94572503; bearers sharing this page: SORRY)
+HEADWORD: {{en-adj|er}}
+
+=== W:sorry:Adjective:1 === (revid 94572503; bearers sharing this page: SORRY)
+Of a person, regretful or apologetic for one's actions.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:sorry:Adjective:2 === (revid 94572503; bearers sharing this page: SORRY)
+Of a person, grieved or saddened, especially by the loss of something or someone.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:sorry:Adjective:3 === (revid 94572503; bearers sharing this page: SORRY)
+Poor, pitifully sad or regrettable.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:sorry:Adjective:4 === (revid 94572503; bearers sharing this page: SORRY)
+Pathetic; contemptibly inadequate.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:sorry:Interjection:0 === (revid 94572503; bearers sharing this page: SORRY)
+HEADWORD: {{en-intj}}
+
+=== W:sorry:Interjection:1 === (revid 94572503; bearers sharing this page: SORRY)
+Expresses regret, remorse, or sorrow.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:sorry:Interjection:2 === (revid 94572503; bearers sharing this page: SORRY)
+Said as a request to excuse one's unintentional behaviors.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:sorry:Interjection:3 === (revid 94572503; bearers sharing this page: SORRY)
+Said as a request to pass somebody.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:sorry:Interjection:4 === (revid 94572503; bearers sharing this page: SORRY)
+Used as a request for someone to repeat something not heard or understood clearly.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:sorry:Interjection:5 === (revid 94572503; bearers sharing this page: SORRY)
+Used to correct oneself in speech.
+EXAMPLE: 
+
+=== W:sorry:Interjection:6 === (revid 94572503; bearers sharing this page: SORRY)
+Used as a hedge
+EXAMPLE: 
+
+=== W:sorry:Usage notes:0 === (revid 94572503; bearers sharing this page: SORRY)
+* The interjection is generally understood as a clipping of I'm sorry.
+* A typically sarcastic use slows down the rhythm and stresses the final syllable, as . This is often spelled as sorree or emphatically as something like sor-REE!! in print.
+
+=== W:sorry:Noun:0 === (revid 94572503; bearers sharing this page: SORRY)
+HEADWORD: {{en-noun|+|s}}
+
+=== W:sorry:Noun:1 === (revid 94572503; bearers sharing this page: SORRY)
+The act of saying sorry; an apology.
+QUOTATION: {{quote-book|en|year=2007|author=Christopher Levan|title=Give Us This Day: Lenten Reflections on Baking Bread and Discipleship|page=107
+QUOTATION: 
+
+=== W:sorry:Verb:0 === (revid 94572503; bearers sharing this page: SORRY)
+HEADWORD: {{en-verb}}
+
+=== W:sorry:Verb:1 === (revid 94572503; bearers sharing this page: SORRY)
+(intransitive, transitive, rare) To feel sorry (for someone).
+QUOTATION: 
+
+=== W:hello:Etymology:0 === (revid 95307852; bearers sharing this page: HELLO)
+. From holla, hollo (attested 1588). This variant of hallo is often credited to Thomas Edison as a coinage for telephone use, but its appearance in print predates the invention of the telephone by several decades.
+Ultimately from a variant of , such as ang, which was used colloquially at the time similarly to how hey and (in some dialects) hi are used nowadays. Thus, equivalent to a compound of hey and lo. Used when drawing attention to yourself.
+Possibly influenced by , of osx, used in hailing a ferryman, akin to , goh, imperative forms of goh, goh. For more information, see hallo.
+The Oxford English Dictionary and Merriam-Webster Dictionary also suggested that it is a variant of holla, a variant of holloo. Further beyond, the origin remains uncertain. OED and Merriam-Webster suggested that it has a connection between hallow, which came from Old French fro, which, according to Altfranzösisches Wörterbuch, is from .
+
+=== W:hello:Pronunciation:0 === (revid 95307852; bearers sharing this page: HELLO)
+*
+**
+**
+***
+****
+***
+**
+***
+**
+**
+*
+*
+{| class="wikitable"
+! Sense
+! UK
+! US
+|-
+|
+|
+|
+|-
+|
+|
+|
+|-
+|
+|
+|
+|-
+|
+|
+|
+|-
+|
+|
+|
+|}
+
+=== W:hello:Interjection:0 === (revid 95307852; bearers sharing this page: HELLO)
+HEADWORD: {{en-intj}}
+
+=== W:hello:Interjection:1 === (revid 95307852; bearers sharing this page: HELLO)
+A greeting (salutation) said when meeting someone or acknowledging someone’s arrival or presence.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:hello:Interjection:2 === (revid 95307852; bearers sharing this page: HELLO)
+A greeting used when answering the telephone.
+EXAMPLE: 
+QUOTATION: 2016, [https://web.archive.org/web/20170918070146/https://learningenglish.voanews.com/a/lets-learn-english-lesson-3-i-am-here/3126527.html VOA Learning English] (public domain)
+QUOTATION: : Hello. This is Marsha. ― Yes, Marsha.
+
+=== W:hello:Interjection:3 === (revid 95307852; bearers sharing this page: HELLO)
+A call for response if it is not clear if anyone is present or listening, or if a telephone conversation may have been disconnected.
+EXAMPLE: 
+QUOTATION: {{RQ:Lincoln Pratt's Patients|chapter=7|passage=I made a speaking trumpet of my hands and commenced to whoop “Ahoy!” and “Hello!” at the top of my lungs. The Colonel woke up, and, after asking what in brimstone was the matter, opened his mouth and roared “Hi!” and “Hello!” like the bull of Bashan.}}
+
+=== W:hello:Interjection:4 === (revid 95307852; bearers sharing this page: HELLO)
+(colloquial) Used sarcastically to imply that the person addressed has done something the speaker considers to be foolish, or missed something that should have been obvious.
+EXAMPLE: 
+QUOTATION: {{quote-av|en|year=1995|writer=w:Amy Heckerling|title=w:Clueless|actor=w:Stacey Dash|actor2=w:Alicia Silverstone|role=w:Dionne Davenport|role2=w:Cher Horowitz
+QUOTATION: {{quote-video game|en|year=2004|tlr=w:Nintendo of America|title=w:Paper Mario: The Thousand-Year Door|developer=Intelligent Systems|publisher=w:Nintendo|system=w:GameCube|level=Rogueport
+
+=== W:hello:Interjection:5 === (revid 95307852; bearers sharing this page: HELLO)
+(chiefly, UK) An expression of puzzlement or discovery.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:hello:Usage notes:0 === (revid 95307852; bearers sharing this page: HELLO)
+The greeting hello is among the most universal and neutral in use. It may be heard in nearly all social situations and nearly all walks of life and is unlikely to offend.
+In the derived senses, the word-final stress may be emphasized to focus attention, but word-initial stress is also heard in certain contexts, such as some uses of hello there, and even in isolation.
+
+=== W:hello:Noun:0 === (revid 95307852; bearers sharing this page: HELLO)
+HEADWORD: {{en-noun|s,es}}
+
+=== W:hello:Noun:1 === (revid 95307852; bearers sharing this page: HELLO)
+"Hello!" or an equivalent greeting.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: {{RQ:NYT|en|date=2007-04-29|author=Stephanie Rosenbloom|title=A Beautiful Day in the Neighborhood|url=http://www.nytimes.com/2007/04/29/fashion/29condo.html
+
+=== W:hello:Verb:0 === (revid 95307852; bearers sharing this page: HELLO)
+HEADWORD: {{en-verb|+,~es}}
+
+=== W:hello:Verb:1 === (revid 95307852; bearers sharing this page: HELLO)
+(transitive) To greet (someone) with "hello".
+QUOTATION: {{quote-journal|en|year=1891|journal=Records and Briefs in Cases Decided by the Supreme Court of Minnesota|page=227
+QUOTATION: {{quote-journal|en|year=1927|journal=Ohio State Engineer|page=18
+QUOTATION: {{quote-book|en|year=2012|author=w:Mark Dolan|title=Do You Mind if I Put My Hand on it?: Journeys into the Worlds of the Weird|publisher=w:HarperCollins|isbn=9780007481873
+QUOTATION: {{quote-book|en|year=2013|author=Ivan Doig|title=English Creek|page=139
+
+=== W:bloody:Pronunciation:0 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+*
+*
+*
+*
+*
+*
+*
+
+=== W:bloody:Etymology1:0 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+From , enm, from , ang, from , from , equivalent to . Cognate with , stq, stq, , , , , , , , . See Wikipedia for thoughts on sense evolution.
+
+=== W:bloody:Adjective:0 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+HEADWORD: {{en-adj|er}}
+
+=== W:bloody:Adjective:1 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+Covered in blood.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:bloody:Adjective:2 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+Characterised by bloodshed.
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: {{quote-book|en|year=2007|author=Lucinda Mallows; Lucy Mallows|title=Slovakia: The Bradt Travel Guide|pageurl=http://books.google.com.au/books?id=E-xg8GbdZykC&pg=PA169&dq=%22bloody%22%7C%22bloodier%22%7C%22bloodiest%22+-intitle:%22bloody%7Cbloodier%7Cbloodiest&hl=en&sa=X&ei=RoL0Tu6CBMjcmAWLzpitAg&re
+QUOTATION: 
+
+=== W:bloody:Adjective:3 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+(informal, Britain, Ireland, Commonwealth, Hawaii, mildly vulgar) Used as an intensifier.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 1916 May 31, David Beatty, 1st Earl Beatty during the Battle of Jutland:
+QUOTATION: : There seems to be something wrong with our bloody ships today.
+QUOTATION: 
+QUOTATION: {{quote-book|en|year=2003|author=w:Mark Haddon|title=w:The Curious Incident of the Dog in the Night-Time|pageurl=http://books.google.com.au/books?id=_828x3WNBd8C&pg=PA92&dq=%22bloody%22+-intitle:%22bloody%22&hl=en&sa=X&ei=4nH0To6fC-aOiAew-8GpDA&redir_esc=y#v=onepage&q=%22bloody%22%20-intitle%3A%22bl
+QUOTATION: 2007, James MacFarlane, Avenge My Kin, Book 2: A Time of Testing, [http://books.google.com.au/books?id=AE2APs3A4QYC&pg=PA498&dq=%22bloody%22+-intitle:%22bloody%22&hl=en&sa=X&ei=JHv0Tqh9x5SJB6__4cQB&redir_esc=y#v=onepage&q=%22bloody%22%20-intitle%3A%22bloody%22&f=false page 498]
+QUOTATION: : “You bloody fool, I could′ve stabbed you in the heart,” David said in mock anger, and then smiled widely.
+QUOTATION: 
+
+=== W:bloody:Adjective:4 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+(dated) Badly behaved; unpleasant; beastly.
+QUOTATION: 
+
+=== W:bloody:Usage notes:0 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+As an intensifier in Commonwealth usage, bloody is sometimes considered a swear word, and it was formerly considered one of the strongest profanities in British English (approximately between 1750 and 1920). Its offensiveness decreased significantly over the 20th century, and a 2021 survey by OFCOM found most members of the British public considered it mild and "unlikely to cause concern in most c
+
+=== W:bloody:Adverb:0 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+HEADWORD: {{en-adv}}
+
+=== W:bloody:Adverb:1 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+(informal, Australia, Britain, India, Ireland, Newfoundland, NZ, South Africa, mildly vulgar) Used to express anger, annoyance, or shock, or for emphasis.
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:bloody:Etymology2:0 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+From , enm (attested as enm, enm), from , ang, from , from . Cognate with , , .
+
+=== W:bloody:Verb:0 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+HEADWORD: {{en-verb}}
+
+=== W:bloody:Verb:1 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+(transitive) To stain with blood.
+EXAMPLE: 
+
+=== W:bloody:Verb:2 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+(transitive) To draw blood from (one's opponent) in a fight.
+
+=== W:bloody:Verb:3 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+(transitive) To demonstrably harm (the cause of an opponent).
+
+=== W:bloody:Etymology3:0 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+.
+
+=== W:bloody:Noun:0 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+HEADWORD: {{en-noun}}
+
+=== W:bloody:Noun:1 === (revid 94548228; bearers sharing this page: BLOODY_PRENOM, BLOODY_INTENS, BLOODY_INFIX)
+(informal) .
+
+=== W:heavens:Pronunciation:0 === (revid 93699288; bearers sharing this page: HEAVENS)
+*
+**
+*
+*
+
+=== W:heavens:Noun:0 === (revid 93699288; bearers sharing this page: HEAVENS)
+HEADWORD: {{en-noun|p}}
+
+=== W:heavens:Noun:1 === (revid 93699288; bearers sharing this page: HEAVENS)
+(often with 'the') The distant sky of the sun, moon, and stars.
+QUOTATION: {{RQ:Shakespeare Comedy of Errors|I|i|66|2|For what obſcured light the heauens did grant,}}
+QUOTATION: {{quote-book|en|year=1625|author=Nathanæl Carpenter|title=Geography delineated forth in two bookes|section=I iv 77
+QUOTATION: 
+QUOTATION: {{quote-book|en|year=1981|author=E.R. Harrison|title=Cosmology|section=XII 250
+
+=== W:heavens:Noun:2 === (revid 93699288; bearers sharing this page: HEAVENS)
+(religion) : the abode of God or the gods; the abode of the blessed departed.
+QUOTATION: {{quote-book|en|year=1832|author=Charles Coleman|title=The Mythology of the Hindus|section=XIII 220
+QUOTATION: {{quote-journal|en|date=July 30 1906|journal=Washington Post|section=12 4
+
+=== W:heavens:Noun:3 === (revid 93699288; bearers sharing this page: HEAVENS)
+(rare) : the near sky of the weather, etc.
+
+=== W:heavens:Noun:4 === (revid 93699288; bearers sharing this page: HEAVENS)
+(rare) the will of God or the gods, Providence.
+QUOTATION: {{RQ:King James Version|Daniel|4|26|page=947|column=1|text=after that thou ſhalt haue knowen that the heauens doe rule.}}
+
+=== W:heavens:Usage notes:0 === (revid 93699288; bearers sharing this page: HEAVENS)
+*The plural form "heavens" or "the heavens" has been typical in reference to the impersonal sky since the 17th century. The plural form became less common in reference to the abode of God, the gods, or the blessed departed as the medieval view of celestial spheres was disproven; it is still commonly used, however, in discussing theologies such as Buddhism which retain numerous heavens or levels of
+* The term is capitalized as Heavens or "the Heavens" when (infrequently) used as a proper name.
+
+=== W:heavens:Interjection:0 === (revid 93699288; bearers sharing this page: HEAVENS)
+HEADWORD: {{en-intj}}
+
+=== W:heavens:Interjection:1 === (revid 93699288; bearers sharing this page: HEAVENS)
+(informal) An expression of surprise, contempt, outrage, disgust, boredom, or frustration.
+EXAMPLE: 
+QUOTATION: {{RQ:Chambers Younger Set|chapter=Chapter IX: A Novice|page=359|passage=“Heavens!” exclaimed Nina, “the blue-stocking and the fogy!—and yours are pale blue, Eileen!—you’re about as self-conscious as Drina—slumping there with your hair tumbling à la Mérode! Oh, it's very picturesque, of course, but a
+
+=== W:heavens:Verb:0 === (revid 93699288; bearers sharing this page: HEAVENS)
+HEADWORD: {{head|en|verb form}}
+
+=== W:heavens:Verb:1 === (revid 93699288; bearers sharing this page: HEAVENS)
+
+
+=== W:coffee:Etymology:0 === (revid 95372560; bearers sharing this page: COFFEE)
+
+
+, from , from , from .<ref name="OnlineED"></ref><ref name="OxfordED"></ref> and cognate with the words for "coffee" in other major European languages, most of which are derived from the Turkish and Italian words.<ref name="OxfordED"/>
+
+
+=== W:coffee:Pronunciation:0 === (revid 95372560; bearers sharing this page: COFFEE)
+*
+*
+**
+*
+**
+**
+***
+*
+*
+*
+*
+*
+*
+*
+
+=== W:coffee:Noun:0 === (revid 95372560; bearers sharing this page: COFFEE)
+HEADWORD: {{en-noun|~}}
+
+=== W:coffee:Noun:1 === (revid 95372560; bearers sharing this page: COFFEE)
+(uncountable) A beverage made by infusing the beans of the coffee plant in hot water. <ref name="OxfordED"/>
+EXAMPLE: 
+QUOTATION: {{RQ:Burton Melancholy|edition=2nd|part=II|section=5|member=1|subsection=v|passage=The Turks have a drink called coffa (for they use no wine), so named of a berry as black as soot, and as bitter, which they sip still of, and sup as warm as they can suffer.}}
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: {{RQ:Economist|date=2013-06-22|volume=407|issue=8841|page=68
+
+=== W:coffee:Noun:2 === (revid 95372560; bearers sharing this page: COFFEE)
+(countable) A serving of this beverage.
+QUOTATION: {{quote-journal|en|date=12 April 2008|author=Agnes Poirier|journal=The Guardian
+
+=== W:coffee:Noun:3 === (revid 95372560; bearers sharing this page: COFFEE)
+The seeds of the plant used to make coffee, called ‘beans’ due to their shape.
+
+=== W:coffee:Noun:4 === (revid 95372560; bearers sharing this page: COFFEE)
+The powder made by roasting and grinding the seeds.
+
+=== W:coffee:Noun:5 === (revid 95372560; bearers sharing this page: COFFEE)
+A tropical plant of the genus .
+
+=== W:coffee:Noun:6 === (revid 95372560; bearers sharing this page: COFFEE)
+A pale brown color, like that of milky coffee.
+EXAMPLE: 
+
+=== W:coffee:Noun:7 === (revid 95372560; bearers sharing this page: COFFEE)
+The end of a meal, when coffee is served.
+EXAMPLE: 
+
+=== W:coffee:Adjective:0 === (revid 95372560; bearers sharing this page: COFFEE)
+HEADWORD: {{en-adj|-}}
+
+=== W:coffee:Adjective:1 === (revid 95372560; bearers sharing this page: COFFEE)
+Of a pale brown colour, like that of milk coffee.
+
+=== W:coffee:Adjective:2 === (revid 95372560; bearers sharing this page: COFFEE)
+Of a table: a small, low table suitable for people in lounge seating to put coffee cups on.
+
+=== W:coffee:Verb:0 === (revid 95372560; bearers sharing this page: COFFEE)
+HEADWORD: {{en-verb|+|+|+,~'d}}
+
+=== W:coffee:Verb:1 === (revid 95372560; bearers sharing this page: COFFEE)
+(intransitive) To drink coffee.
+QUOTATION: {{quote-book|en|year=1839|author=Thomas Chandler Haliburton|title=The Clockmaker
+QUOTATION: {{quote-book|en|editor=w:Clement Kinloch-Cooke|title=A Memoir of Her Royal Highness Princess Mary Adelaide, Duchess of Teck: Based on Her Private Diaries and Letters|year=1900|page=224
+QUOTATION: {{quote-journal|en|journal=Pearson’s Magazine|year=1912|page=225
+QUOTATION: {{quote-journal|en|author=Ellen Snebley|title=Teapot Tattle|journal=Santa Ana Journal|volume=1|issue=52|location=Santa Ana, Calif.|date=29 June 1935|page=eight|pageurl=https://archive.org/details/csta_000052/page/n7/mode/1up
+QUOTATION: {{quote-book|en|editor=Ralph Straus|title=Sala: The Portrait of an Eminent Victorian|year=1942|page=228
+QUOTATION: {{quote-book|en|title=Journal of François Mignon|date=24 January 1956|page=7794
+QUOTATION: {{quote-book|en|author=w:Thea Astley|title=w:The Slow Natives|year=1965|page=196
+QUOTATION: {{quote-journal|en|journal=Western Fisheries|year=1969|page=51
+QUOTATION: {{quote-journal|en|journal=Audience|year=1972|page=80
+QUOTATION: {{quote-book|en|title=Experiences in Rural Mental Health: Developing Citizen Participation|year=1973|page=25
+QUOTATION: {{quote-book|en|author=w:William Goldman|title=Magic|location=New York, N.Y.|publisher=Delacorte Press|year=1976|page=10|isbn=0-440-05159-2
+QUOTATION: 
+QUOTATION: {{quote-book|en|author=Robert H. Morneau; Robert R. Rockwell|title=Sex, Motivation, and the Criminal Offender|year=1980|page=136
+QUOTATION: {{quote-book|en|author=Daisy Hepburn|chapter=The Farmer|title=Lead, Follow Or Get Out of the Way!|location=Ventura, Calif.|publisher=Regal Books|year=1982|page=98|pageurl=https://archive.org/details/leadfolloworgeto00hep_co8/page/98/mode/1up
+QUOTATION: {{quote-journal|en|journal=Horseless Carriage Gazette|year=1983|page=14
+QUOTATION: {{quote-book|en|author=w:Rachel Cohn|title=Gingerbread|publisher=Simon & Schuster Books for Young Readers|year=2002|pages=64–65|isbn=0-689-84337-2
+QUOTATION: {{quote-book|en|author=Larry Baker|title=Athens, America|publisher=First Coast Books|year=2005|page=252|isbn=0-9755724-0-7
+QUOTATION: {{quote-book|en|author=Rebecca Schoenkopf|title=Commie Girl in the OC|location=London; New York|publisher=Verso|year=2008|pages=11–12|isbn=9781844672585
+QUOTATION: {{quote-book|en|author=Jeff Collignon|title=The Glass Eye of Hell|year=2010|page=160|isbn=978-0-557-31841-4
+QUOTATION: {{quote-book|en|year=2010|author=Patrick Day|title=Too Late in the Afternoon: One Man's Triumph Over Depression
+QUOTATION: {{quote-book|en|author=N.S. David|title=TLC (Tranquility Logistics Corporation)|publisher=w:AuthorHouse|year=2010|page=31|isbn=978-1-4520-5105-5
+QUOTATION: {{quote-book|en|author=Terrence Douglas|chapter=Dead Princess|title=Does a Footstep Linger?|location=Bloomington, Ind.|publisher=iUniverse, Inc.|year=2011|page=55|isbn=978-1-4620-3852-7
+QUOTATION: {{quote-book|en|author=Kat Meads|title=2:12 a.m.|location=Nacogdoches, Tex.|publisher=Stephen F. Austin State University Press|year=2013|page=65
+QUOTATION: {{quote-book|en|author=Bett Taylor|chapter=The Operation|title=Coffee Breaks, Short Stories and Poems|publisher=w:Xlibris|year=2013|page=113|isbn=978-1-4836-0761-0
+QUOTATION: {{quote-book|en|author=Johnny D. Boggs|title=Hard Winter: A Western Story|publisher=w:Skyhorse Publishing|year=2013
+QUOTATION: {{quote-book|en|author=w:Wednesday Martin|chapter=Introduction|title=Primates of Park Avenue: A Memoir|publisher=w:Simon & Schuster|year=2015|page=8
+QUOTATION: {{quote-book|en|author=Doug Jordan|title=The Maxim Chronicles: A Year with a Champion Poodle|publisher=AFS Publishing|year=2016|page=181|isbn=978-1-365-20018-2
+QUOTATION: {{quote-book|en|author=Melanie Dimmitt|title=Special: Antidotes to the Obsessions That Come with a Child’s Disability|publisher=Ventura Press|year=2019|isbn=978-1-920727-33-8
+QUOTATION: {{quote-book|en|author=Rebecca Crowley|title=Off the Record|series=The London Phoenix Series|publisher=Tule Publishing|year=2020|isbn=978-1-951190-81-1
+QUOTATION: {{quote-book|en|author=Diane E. Peeling|chapter=I Am|title=Connected Life Awareness|publisher=Strategic Book Publishing & Rights|year=2021|page=6|isbn=978-1-68235-294-6
+QUOTATION: {{quote-web|en|work=w:The Jerusalem Post|url=https://www.jpost.com/israel-news/three-ladies-three-lattes-still-coffee-ing-after-all-these-years-656966|date=28 January 2021
+
+=== W:coffee:Verb:2 === (revid 95372560; bearers sharing this page: COFFEE)
+(transitive) To give coffee to.
+QUOTATION: {{quote-journal|en|title=City’s Veteran Firemen. New Year Reception. The Rooms of the Association Filled with Guests. Reminiscences, Reunion, and Refreshments,<!--sic-->|journal=The Pittsfield Sun|volume=97|issue=26|location=Pittsfield, Mass.|date=7 January 1897|page=7|pageurl=https://www.newspapers
+QUOTATION: {{quote-journal|en|author=Dumas Malone|title=The Ring and the Red Triangle: How the Men Who Wear the New Insignia Go With the Army|journal=The Macon Daily Telegraph|location=Macon, Ga.|date=11 November 1917|section=first section, article section “The Ever-Ready Hut”|page=four|pageurl=https://www.new
+QUOTATION: {{quote-book|en|author=Howard W[allace] Peak|title=A Ranger of Commerce or 52 Years on the Road|year=1929|page=87
+QUOTATION: {{quote-journal|en|title=Who Clipped the Soldiers’—Hair?|journal=Harrisburg Telegraph|volume=CXII|issue=206|location=Harrisburg, Pa.|date=31 August 1942|section=second section|page=9|pageurl=https://www.newspapers.com/newspage/42897648/
+QUOTATION: {{quote-journal|en|author=Charles House|title=Charlie Pauses at 75-Mile Mark To Recount Latest Adventures|journal=Appleton Post-Crescent|volume=LI|issue=88|location=Appleton-Neenah-Menasha, Wis.|date=7 October 1959|section=section “Coffee Break”|page=A16|pageurl=https://www.newspapers.com/newspage/2
+QUOTATION: {{quote-journal|en|author=Gene Cowles|journal=Valley Times|volume=27|issue=246|location=San Fernando Valley, Calif.|date=13 October 1964|page=15|pageurl=https://www.newspapers.com/newspage/580453739/
+QUOTATION: {{quote-journal|en|journal=Pamphlets on Forestry in California|year=1973|page=225
+QUOTATION: {{quote-journal|en|author=Kathleen Merryman|title=Freedom Train fires up parties|journal=The Billings Gazette|volume_plain=90th year|issue=165|location=Billings, Mont.|date=14 October 1975|page=11-A|pageurl=https://www.newspapers.com/newspage/413190549/
+QUOTATION: {{quote-journal|en|author=Joan Flanagan|title=cassidy’s mob|journal=The Sydney Morning Herald|issue=43,275|date=28 August 1976|page=14|pageurl=https://www.newspapers.com/newspage/122643430/
+QUOTATION: {{quote-book|en|author=w:Terry C. Johnston|title=Wolf Mountain Moon: The Fort Peck Expedition, the Fight at Ash Creek, and the Battle of the Butte—January 8, 1877|publisher=w:Bantam Books|year=1997|page=397|
+QUOTATION: {{quote-book|en|editor=Michael F. Anderson|title=A Gathering of Grand Canyon Historians: Ideas, Arguments, and First-Person Accounts: Proceedings of the Inaugural Grand Canyon History Symposium, January 2002|publisher=Grand Canyon Association|year=2005|page=55|isbn=0-938216-83-X
+QUOTATION: {{quote-book|en|author=Steve Ulfelder|chapter=58|title=Wolverine Bros. Freight & Storage: A Conway Sax Mystery|publisher=Minotaur Books|year=2014|page=305|isbn=978-1-250-02811-2
+
+=== W:stop:Pronunciation:0 === (revid 94626203; bearers sharing this page: STOP)
+*
+*
+**
+*
+**
+*
+**
+*
+*
+*
+*
+
+=== W:stop:Etymology1:0 === (revid 94626203; bearers sharing this page: STOP)
+
+
+From , enm, from , from , from , gem-pro, from , ine-pro, from ine-pro.
+Cognate with , , , , , , , , , gmh. More at stuff, stump.
+Alternative etymology derives Proto-West Germanic *stoppōn from an assumed , la, from la, la, la, from , grc. This derivation, however, is doubtful, as the earliest instances of the Germanic verb do not carry the meaning of "stuff, stop with tow". Rather, these senses developed later in response to influence from similar sounding words in Latin and Romance.<ref>The Century Dictionary and Cyclopedi
+
+=== W:stop:Verb:0 === (revid 94626203; bearers sharing this page: STOP)
+HEADWORD: {{en-verb}}
+
+=== W:stop:Verb:1 === (revid 94626203; bearers sharing this page: STOP)
+(intransitive) To cease moving.
+EXAMPLE: 
+
+=== W:stop:Verb:2 === (revid 94626203; bearers sharing this page: STOP)
+(intransitive) Not to continue.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: {{RQ:Maxwell Mirror and the Lamp|chapter=5|passage=Then everybody once more knelt, and soon the blessing was pronounced. The choir and the clergy trooped out slowly, , down the nave to the western door. At a seemingly immense distance the surpliced group stopped to say the last prayer.}}
+
+=== W:stop:Verb:3 === (revid 94626203; bearers sharing this page: STOP)
+(transitive) To cause (something) to cease moving or progressing.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: {{RQ:Economist|date=2013-06-01|volume=407|issue=8838
+
+=== W:stop:Verb:4 === (revid 94626203; bearers sharing this page: STOP)
+(transitive) To cease; to no longer continue.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:stop:Verb:5 === (revid 94626203; bearers sharing this page: STOP)
+(transitive) To cause (something) to come to an end.
+EXAMPLE: 
+
+=== W:stop:Verb:6 === (revid 94626203; bearers sharing this page: STOP)
+(causative, transitive) To interrupt, prevent or end the activity of someone or something.
+EXAMPLE: 
+QUOTATION: 
+
+=== W:stop:Verb:7 === (revid 94626203; bearers sharing this page: STOP)
+(transitive) To close or block an opening.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:stop:Verb:8 === (revid 94626203; bearers sharing this page: STOP)
+(transitive, intransitive, photography, often with "up" or "down") To adjust the aperture of a camera lens.
+EXAMPLE: 
+
+=== W:stop:Verb:9 === (revid 94626203; bearers sharing this page: STOP)
+(intransitive) To stay; to spend a short time; to reside or tarry temporarily.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:stop:Verb:10 === (revid 94626203; bearers sharing this page: STOP)
+(music) To regulate the sounds of (musical strings, etc.) by pressing them against the fingerboard with the finger, or otherwise shortening the vibrating part.
+
+=== W:stop:Verb:11 === (revid 94626203; bearers sharing this page: STOP)
+(obsolete) To punctuate.
+QUOTATION: {{RQ:Landor Imaginary Conversations|edition=2nd|volume=II|conv=XIII|chapter= Alfieri and Salomon, the Florentine Jew|page=415|passage= Guicciardini, if his sentences were properly stopt, would be found in general both full and concise, whatever may be asserted to the contrary by the fastidious and i
+
+=== W:stop:Verb:12 === (revid 94626203; bearers sharing this page: STOP)
+(nautical) To make fast; to stopper.
+
+=== W:stop:Verb:13 === (revid 94626203; bearers sharing this page: STOP)
+(phonetics, transitive) To pronounce (a phoneme) as a stop.
+EXAMPLE: 
+
+=== W:stop:Verb:14 === (revid 94626203; bearers sharing this page: STOP)
+(finance, transitive) To delay the purchase or sale of (a stock) while agreeing the price for later.
+QUOTATION: 
+
+=== W:stop:Verb:15 === (revid 94626203; bearers sharing this page: STOP)
+To take out of service for repair, servicing or examination.
+QUOTATION: 
+
+=== W:stop:Verb:16 === (revid 94626203; bearers sharing this page: STOP)
+To quit partaking in the use of or participation in (something).
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:stop:Usage notes:0 === (revid 94626203; bearers sharing this page: STOP)
+* This is a catenative verb that takes the gerund -ing to indicate the ending action (stop thinking), or the to infinitive to indicate the purpose of the interruption (stop to think). See Appendix:English catenative verbs for more information.
+* When used causatively, the verb can either be followed directly by its dependent clause (for example, to stop them exploding) or take a helper word, usually from, before the clause (to stop them from exploding). The former usage is more common in Britain, and the latter usage more common in America.
+
+=== W:stop:Noun:0 === (revid 94626203; bearers sharing this page: STOP)
+HEADWORD: {{en-noun}}
+
+=== W:stop:Noun:1 === (revid 94626203; bearers sharing this page: STOP)
+A (usually marked) place where buses, trams or trains halt to let passengers get on and off, usually smaller than a station.
+EXAMPLE: Related terms: halt, station.
+EXAMPLE: 
+
+=== W:stop:Noun:2 === (revid 94626203; bearers sharing this page: STOP)
+An action of stopping; interruption of travel.
+EXAMPLE: 
+QUOTATION: {{RQ:Defoe Plague Year|passage=It is doubtful whether it contributed anything to the stop of the infection.}}
+QUOTATION: {{RQ:Newton Opticks
+QUOTATION: {{RQ:Locke Education|107
+
+=== W:stop:Noun:3 === (revid 94626203; bearers sharing this page: STOP)
+That which stops, impedes, or obstructs; an obstacle; an impediment.
+QUOTATION: 
+QUOTATION: {{quote-book|en|year=a. 1729|author=John Rogers (priest)|title=The Advantages of conversing with good Men
+
+=== W:stop:Noun:4 === (revid 94626203; bearers sharing this page: STOP)
+A device intended to block the path of a moving object
+EXAMPLE: 
+
+=== W:stop:Noun:5 === (revid 94626203; bearers sharing this page: STOP)
+(engineering) A device, or piece, as a pin, block, pawl, etc., for arresting or limiting motion, or for determining the position to which another part shall be brought.
+
+=== W:stop:Noun:6 === (revid 94626203; bearers sharing this page: STOP)
+(architecture) A member, plain or moulded, formed of a separate piece and fixed to a jamb, against which a door or window shuts.
+
+=== W:stop:Noun:7 === (revid 94626203; bearers sharing this page: STOP)
+(phonetics) A consonant sound in which the passage of air is temporarily blocked by the lips, tongue, or glottis.
+EXAMPLE: 
+
+=== W:stop:Noun:8 === (revid 94626203; bearers sharing this page: STOP)
+A symbol used for purposes of punctuation and representing a pause or separating clauses, particularly a full stop, comma, colon or semicolon.
+
+=== W:stop:Noun:9 === (revid 94626203; bearers sharing this page: STOP)
+(music) A knob or pin used to regulate the flow of air in an organ.
+EXAMPLE: 
+
+=== W:stop:Noun:10 === (revid 94626203; bearers sharing this page: STOP)
+(music) One of the vent-holes in a wind instrument, or the place on the wire of a stringed instrument, by the stopping or pressing of which certain notes are produced.
+
+=== W:stop:Noun:11 === (revid 94626203; bearers sharing this page: STOP)
+(tennis) A very short shot which touches the ground close behind the net and is intended to bounce as little as possible.
+
+=== W:stop:Noun:12 === (revid 94626203; bearers sharing this page: STOP)
+(football) A save; preventing the opposition from scoring a goal.
+QUOTATION: 
+
+=== W:stop:Noun:13 === (revid 94626203; bearers sharing this page: STOP)
+(zoology) The depression in a dog’s face between the skull and the nasal bones.
+EXAMPLE: 
+
+=== W:stop:Noun:14 === (revid 94626203; bearers sharing this page: STOP)
+A marking on a rabbit's hind foot.
+EXAMPLE: 
+
+=== W:stop:Noun:15 === (revid 94626203; bearers sharing this page: STOP)
+(photography) A part of a photographic system that reduces the amount of light.
+
+=== W:stop:Noun:16 === (revid 94626203; bearers sharing this page: STOP)
+(photography) A unit of exposure corresponding to a doubling of the brightness of an image.
+
+=== W:stop:Noun:17 === (revid 94626203; bearers sharing this page: STOP)
+(photography) An f-stop.
+
+=== W:stop:Noun:18 === (revid 94626203; bearers sharing this page: STOP)
+The diaphragm used in optical instruments to cut off the marginal portions of a beam of light passing through lenses.
+
+=== W:stop:Noun:19 === (revid 94626203; bearers sharing this page: STOP)
+(fencing) A coup d'arret, or stop thrust.
+
+=== W:stop:Noun:20 === (revid 94626203; bearers sharing this page: STOP)
+(UK, grammar, informal) .
+
+=== W:stop:Etymology2:0 === (revid 94626203; bearers sharing this page: STOP)
+
+From , from , from , from . See stoup.
+
+Cognate with , no, , gmh (German de). Related also to , , , , . Cognate to .
+
+
+=== W:stop:Noun:0 === (revid 94626203; bearers sharing this page: STOP)
+HEADWORD: {{en-noun}}
+
+=== W:stop:Noun:1 === (revid 94626203; bearers sharing this page: STOP)
+(UK dialectal) A small well-bucket; a milk-pail.
+
+=== W:stop:Etymology3:0 === (revid 94626203; bearers sharing this page: STOP)
+
+
+=== W:stop:Noun:0 === (revid 94626203; bearers sharing this page: STOP)
+HEADWORD: {{en-noun}}
+
+=== W:stop:Noun:1 === (revid 94626203; bearers sharing this page: STOP)
+(physics) The squark that is the superpartner of a top quark.
+QUOTATION: {{quote-journal|en|year=2016|date=|author=ATLAS Collaboration|title=Search for pair production of gluinos decaying via stop and sbottom in events with <math>b</math>-jets and large missing transverse momentum in <math>pp</math> collisions at <math>\sqrt{s} = 13</math> TeV with the ATLAS detector|jou
+
+=== W:black:Etymology:0 === (revid 95358143; bearers sharing this page: BLACK)
+
+From , enm, enm, from , from , from , possibly from .
+See also , ,<ref>https://www.koeblergerhard.de/mnd/mnd_b.html</ref> ; also compare , , .
+is a .
+
+=== W:black:Pronunciation:0 === (revid 95358143; bearers sharing this page: BLACK)
+*
+*
+**
+*
+**
+*
+*
+*
+
+=== W:black:Adjective:0 === (revid 95358143; bearers sharing this page: BLACK)
+HEADWORD: {{en-adj|er,more}}
+
+=== W:black:Adjective:1 === (revid 95358143; bearers sharing this page: BLACK)
+(of an object) Absorbing all light and reflecting none; dark and hueless.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:black:Adjective:2 === (revid 95358143; bearers sharing this page: BLACK)
+(of a location or setting) Without light.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:black:Adjective:3 === (revid 95358143; bearers sharing this page: BLACK)
+(sometimes, capitalized) Belonging to or descended from any of various (African, Aboriginal, etc.) ethnic groups which typically have dark pigmentation of the skin.
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:black:Adjective:4 === (revid 95358143; bearers sharing this page: BLACK)
+(US, UK, South Africa) to or descended from any of various sub-Saharan African ethnic groups which typically have dark pigmentation of the skin.
+
+=== W:black:Adjective:5 === (revid 95358143; bearers sharing this page: BLACK)
+(chiefly, historical) Designated for use by those ethnic groups (as described above).
+EXAMPLE: 
+
+=== W:black:Adjective:6 === (revid 95358143; bearers sharing this page: BLACK)
+(card games, of a card) Of the spades or clubs suits.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:black:Adjective:7 === (revid 95358143; bearers sharing this page: BLACK)
+; evil; ill-omened.
+EXAMPLE: 
+QUOTATION: {{quote-book|en|year=1655|author=Benjamin Needler|title=Expository notes, with practical observations; towards the opening of the five first chapters of the first book of Moses called Genesis.|location=London|publisher=N. Webb and W. Grantham|page=168| passage= what a black day would that be, when t
+QUOTATION: 
+QUOTATION: 
+
+=== W:black:Adjective:8 === (revid 95358143; bearers sharing this page: BLACK)
+Expressing menace or discontent; threatening; sullen.
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: {{quote-book|en|year=1907|author=Ronald M. Burrows|title=The Discoveries In Crete|page=14|text=We see the impression that the perils of these unknown seas made on Minoan art in a clay seal impression that comes from Knossos. A sea monster, with head and jaws like a dog's, is rising from the waves an
+
+=== W:black:Adjective:9 === (revid 95358143; bearers sharing this page: BLACK)
+(of objects or markets) Illegitimate, illegal or disgraced.
+QUOTATION: {{quote-journal|en|year=1952|journal=The Contemporary Review|volume=182|page=338
+
+=== W:black:Adjective:10 === (revid 95358143; bearers sharing this page: BLACK)
+; dirty, soiled.
+QUOTATION: 
+
+=== W:black:Adjective:11 === (revid 95358143; bearers sharing this page: BLACK)
+(Ireland, informal) .<ref></ref>
+
+=== W:black:Adjective:12 === (revid 95358143; bearers sharing this page: BLACK)
+(of coffee or tea) Without any cream, milk or creamer.
+EXAMPLE: 
+
+=== W:black:Adjective:13 === (revid 95358143; bearers sharing this page: BLACK)
+(board games, chess) Of or relating to the playing pieces of a board game deemed to belong to the "black" set (in chess, the set used by the player who moves second) .
+EXAMPLE: 
+QUOTATION: 
+
+=== W:black:Adjective:14 === (revid 95358143; bearers sharing this page: BLACK)
+(typography) Said of a symbol or character that is solid, filled with color.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:black:Adjective:15 === (revid 95358143; bearers sharing this page: BLACK)
+(politics) Of or pertaining to anarchism; anarchist.
+
+=== W:black:Adjective:16 === (revid 95358143; bearers sharing this page: BLACK)
+(German politics) Related to the Christian Democratic Union (Germany) of Germany.
+EXAMPLE: 
+
+=== W:black:Adjective:17 === (revid 95358143; bearers sharing this page: BLACK)
+; relating to a political, military, or espionage operation or site, the existence or details of which is withheld from the general public.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:black:Adjective:18 === (revid 95358143; bearers sharing this page: BLACK)
+; relating to something (such as mystical or magical knowledge) which is unknown to or kept secret from the general public.
+QUOTATION: 
+QUOTATION: 
+
+=== W:black:Adjective:19 === (revid 95358143; bearers sharing this page: BLACK)
+(Ireland, now, pejorative) Protestant, often with the implication of being militantly pro-British or anti-Catholic. {{q|1=Compare blackmouth ("Presbyterian").<ref>Baraniuk, Carol (2015). [https://books.google.ie/books?id=brY6CgAAQBAJ&pg=PA128 James Orr, Poet and Irish Radical]. Routledge. p. 128. ; Barkley, John Monteith (1959) A Short History of the Presbyterian Church in Ireland p.36</ref>}}
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 1841 March 20, [https://books.google.ie/books?id=ghSKsL7nLp8C&pg=PA27 "Intelligence; Catholicity in Ulster"] Catholic Herald (Bengal), Vol. 2 No. 1, p. 27:
+QUOTATION: : Even in the "black North"—in " Protestant Ulster"—Catholicity is progressing at a rate that must strike terror into its enemies, and impart pride and hope to the professors of the faith of our sainted forefathers.
+QUOTATION: 
+QUOTATION: 1914 May 27, [https://babel.hathitrust.org/cgi/pt?id=mdp.39015084608945;view=1up;seq=584 "Review of The North Afire by W. Douglas Newton"], The Sketch: A Journal of Art and Actuality, volume 86, page t<!-- yes, the pages use letters -->:
+QUOTATION: : Now April's brother, once also holding a commission in that regiment, was an Ulster Volunteer, her father a staunch, black Protestant, her family tremulously "loyal" to the country whose Parliament was turning them out of its councils.
+QUOTATION: 
+QUOTATION: 
+
+=== W:black:Adjective:20 === (revid 95358143; bearers sharing this page: BLACK)
+Having one or more features (hair, fur, armour, clothes, bark, etc.) that is dark (or black).
+EXAMPLE: 
+
+=== W:black:Adjective:21 === (revid 95358143; bearers sharing this page: BLACK)
+(taxonomy, especially) Dark in comparison to another species with the same base name.
+
+=== W:black:Adjective:22 === (revid 95358143; bearers sharing this page: BLACK)
+:
+
+=== W:black:Adjective:23 === (revid 95358143; bearers sharing this page: BLACK)
+(Singapore, Singlish, of someone's face) and solemn; bad-tempered and unhappy.
+QUOTATION: 
+
+=== W:black:Usage notes:0 === (revid 95358143; bearers sharing this page: BLACK)
+* In the United States, United Kingdom, and South Africa, black typically refers to people of African descent, including indirect African descent via the Caribbean, and including those with light skin. In Australia, Aboriginal Australians are often referred to as or identify as black. In New Zealand, Maori people are sometimes referred to as or identify as black.<ref>Mark Williams, "Ethnicity and 
+* Some style guides recommend capitalizing Black in reference to the racial group,<ref></ref><ref></ref> while others advise using lowercase (black);<ref>[https://www.cjr.org/analysis/capital-b-black-styleguide.php Columbia Journalism Review, referring also to the Chicago Manual of Style]</ref> lowercase is more common.
+
+=== W:black:Noun:0 === (revid 95358143; bearers sharing this page: BLACK)
+HEADWORD: {{en-noun|~}}
+
+=== W:black:Noun:1 === (revid 95358143; bearers sharing this page: BLACK)
+(countable, and, uncountable) The colour/color perceived in the absence of light, but also when no light is reflected, but rather absorbed.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:black:Noun:2 === (revid 95358143; bearers sharing this page: BLACK)
+(countable, and, uncountable) A black dye or pigment.
+EXAMPLE: 
+
+=== W:black:Noun:3 === (revid 95358143; bearers sharing this page: BLACK)
+(countable) A pen, pencil, crayon, etc., made of black pigment.
+
+=== W:black:Noun:4 === (revid 95358143; bearers sharing this page: BLACK)
+(in the plural) Black cloth hung up at funerals.
+QUOTATION: {{quote-book|en|year=1625|author=Francis Bacon|chapter=Of Death|title=Essays
+
+=== W:black:Noun:5 === (revid 95358143; bearers sharing this page: BLACK)
+(countable, sometimes capitalised, often, offensive) A member or descendant of any of various (African, Aboriginal, etc) ethnic groups which typically have dark pigmentation of the skin.
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: {{RQ:Cooper Miles Wallingford|chapter=XXIV|passage="How! They surely cannot pretend that the black is an Englishman?" "There are all kinds of Englishmen, black and white, when seamen grow scarce. "}}
+QUOTATION: {{RQ:Reade Hard Cash|passage=But presently the negro seized the Hindoo by the throat; the Hindoo just pricked him in the arm with his knife, and the next moment his own head was driven against the side of the cabin with a stunning crackThe cabin was now full, and Sharpe was for putting both the blac
+QUOTATION: 
+QUOTATION: 
+
+=== W:black:Noun:6 === (revid 95358143; bearers sharing this page: BLACK)
+(uncountable, informal) Blackness, the condition of belonging to or being descended from one of these ethnic groups.
+EXAMPLE: 
+
+=== W:black:Noun:7 === (revid 95358143; bearers sharing this page: BLACK)
+(countable, billiards, snooker, pool) The black ball.
+
+=== W:black:Noun:8 === (revid 95358143; bearers sharing this page: BLACK)
+(countable, baseball) The edge of home plate.
+
+=== W:black:Noun:9 === (revid 95358143; bearers sharing this page: BLACK)
+(countable, British) A type of firecracker that is really more dark brown in colour.
+
+=== W:black:Noun:10 === (revid 95358143; bearers sharing this page: BLACK)
+(informal, chiefly, UK, mostly, uncountable) syrup or crème de cassis used for cocktails.
+EXAMPLE: 
+
+=== W:black:Noun:11 === (revid 95358143; bearers sharing this page: BLACK)
+(countable, chess) The person playing with the black set of pieces.
+EXAMPLE: 
+QUOTATION: 
+
+=== W:black:Noun:12 === (revid 95358143; bearers sharing this page: BLACK)
+(countable) Something, or a part of a thing, which is black.
+QUOTATION: 
+
+=== W:black:Noun:13 === (revid 95358143; bearers sharing this page: BLACK)
+(obsolete, countable) A stain; a spot.
+QUOTATION: {{quote-book|en|year=1619|author=w:William Rowley|title=All's Lost by Lust
+
+=== W:black:Noun:14 === (revid 95358143; bearers sharing this page: BLACK)
+A dark smut fungus, harmful to wheat.
+
+=== W:black:Noun:15 === (revid 95358143; bearers sharing this page: BLACK)
+(US, slang) Marijuana.
+QUOTATION: 
+
+=== W:black:Noun:16 === (revid 95358143; bearers sharing this page: BLACK)
+(firefighting) The blackened, burned-out area at the centre of a fire.
+QUOTATION: {{quote-book|en|year=2024|author=Karl Brauneis|title=The Blackwater Fire and the Men Who Fought It
+QUOTATION: {{quote-book|en|year=2013|author=Jaylynn Wylie|title=Fireline
+
+=== W:black:Usage notes:0 === (revid 95358143; bearers sharing this page: BLACK)
+* Use of the noun black to refer to a person is often considered offensive, especially in the singular, and several guides and dictionaries recommend against its usage.<ref> "Use of the noun Black in the singular to refer to a person is considered offensive. The plural form Blacks is still commonly used by Black people and others to refer to Black people as a group or community, but the plural for
+* See the usage notes in the adjective section regarding the capitalization and scope of the term.
+
+=== W:black:Verb:0 === (revid 95358143; bearers sharing this page: BLACK)
+HEADWORD: {{en-verb}}
+
+=== W:black:Verb:1 === (revid 95358143; bearers sharing this page: BLACK)
+(transitive) To make black; to blacken.
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: {{quote-book|en|year=1922|author=John Galsworthy|title=A Family Man: In Three Acts|url=http://books.google.com/books?vid=OCLC00645065&id=vw6G-rbudVUC&pg=PA93&lpg=PA93&dq=%22black+his+eye%22&as_brr=1
+
+=== W:black:Verb:2 === (revid 95358143; bearers sharing this page: BLACK)
+(transitive) To apply blacking to (something).
+QUOTATION: {{quote-book|1=en|year=1853|author=Harriet Beecher Stowe|title=The Key to Uncle Tom's Cabin|url=http://etext.lib.virginia.edu/etcbin/ot2www-pubeng?specfile=%2Ftexts%2Fenglish%2Fmodeng%2Fpublicsearch%2Fmodengpub.o2w|passage= he must catch, curry, and saddle his own horse; he must black his own brogan
+QUOTATION: 
+QUOTATION: 
+
+=== W:black:Verb:3 === (revid 95358143; bearers sharing this page: BLACK)
+(British, transitive) To boycott, usually as part of an industrial dispute.
+EXAMPLE: 
+QUOTATION: {{quote-book|en|year=2003|author=Alun Howkins|title=The Death of Rural England|page=175
+
+=== W:quickly:Etymology:0 === (revid 94594919; bearers sharing this page: QUICKLY)
+From , enm, enm, enm, enm, from . .
+
+=== W:quickly:Pronunciation:0 === (revid 94594919; bearers sharing this page: QUICKLY)
+*
+*
+*
+
+=== W:quickly:Adverb:0 === (revid 94594919; bearers sharing this page: QUICKLY)
+HEADWORD: {{en-adv|er,more}}
+
+=== W:quickly:Adverb:1 === (revid 94594919; bearers sharing this page: QUICKLY)
+; with speed; fast; with expedition.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:quickly:Adverb:2 === (revid 94594919; bearers sharing this page: QUICKLY)
+Very soon.
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:quickly:Usage notes:0 === (revid 94594919; bearers sharing this page: QUICKLY)
+* Although the comparative (quicklier) and superlative (quickliest) one-word forms exist and are and have been in limited use, the two-word forms (more quickly and most quickly) are much more common.
+
+=== W:how are you:Pronunciation:0 === (revid 95308720; bearers sharing this page: HOWAREYOU)
+*
+*
+**
+*
+**
+
+=== W:how are you:Phrase:0 === (revid 95308720; bearers sharing this page: HOWAREYOU)
+HEADWORD: {{en-head|phr|head=?}}
+
+=== W:how are you:Phrase:1 === (revid 95308720; bearers sharing this page: HOWAREYOU)
+(idiomatic) An informal greeting, not requiring a literal response. In form a question, and thus followed by a question mark. Typical responses include:
+EXAMPLE: 
+
+=== W:how are you:Phrase:2 === (revid 95308720; bearers sharing this page: HOWAREYOU)
+(idiomatic, Ireland) (Following a noun phrase; stress on are) An expression of derision, that the preceding referent is unworthy of the name. In form of an exclamation, and thus often followed by an exclamation mark.
+QUOTATION: 1967 July 20: [https://web.archive.org/web/20190923030706/https://www.oireachtas.ie/en/debates/debate/dail/1967-07-20/26/ Questions. Oral Answers. — Free Travel for Old Age Pensioners.] Dáil Éireann debates
+QUOTATION: Mr. Dunne: "A small point", says the Minister for Justice.
+QUOTATION: Mr. Ryan: Justice, how are you! He would not recognise it in this world or the next.
+QUOTATION: 
+
+=== W:lah:Pronunciation:0 === (revid 93508393; bearers sharing this page: LAH)
+*
+**
+*
+
+=== W:lah:Etymology1:0 === (revid 93508393; bearers sharing this page: LAH)
+
+An anglicised spelling of la.
+
+=== W:lah:Noun:0 === (revid 93508393; bearers sharing this page: LAH)
+HEADWORD: {{en-noun}}
+
+=== W:lah:Noun:1 === (revid 93508393; bearers sharing this page: LAH)
+(music) .
+
+=== W:lah:Etymology2:0 === (revid 93508393; bearers sharing this page: LAH)
+
+
+
+From , and {{zh-l|啦|tr=laa}}. in colloquial Hong Kong English.
+Lim (2007) lists multiple sources:
+* Bazaar Malay, for its use as a particle of emphasis (akin to ), and the senses expressing commands, invitations and "solidarity, familiarity [and] informality".
+* , which indicates finality, completion and confirmation-seeking, as well as "emphasis, persuasiveness, dismissiveness [and] listing".
+* {{zh-l|啦|tr=laa}}, expressing a "general lack of definiteness or forcefulness", and for its role in softening commands.
+
+=== W:lah:Pronunciation:0 === (revid 93508393; bearers sharing this page: LAH)
+* *
+** *The different senses of this word are distinguished by lexical tone.
+** Variant for senses 1–4:
+
+=== W:lah:Particle:0 === (revid 93508393; bearers sharing this page: LAH)
+HEADWORD: {{en-head|pcl}} {{tlb|en|Manglish|Singlish|clause-final [[w:Discourse marker|discourse particle]]}}
+
+=== W:lah:Particle:1 === (revid 93508393; bearers sharing this page: LAH)
+Placed at the end of a sentence to accentuate the mood or attitude of the speaker.
+EXAMPLE: <small>Pitch contour: <u>low-mid</u> , <u>mid-falling</u> </small>
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: {{quote-book|en|author=Leong Choon Cheong|title=Youth in the Army|location=Singapore|publisher=Federal Publications|year=1978|page=75|oclc=6144357|passage=Don’t know lah this is very hard to say.}}
+QUOTATION: 
+QUOTATION: 
+QUOTATION: {{quote-journal|en|author=Clement Yong|title=Theatre review: National Day Charade mimes familiar criticisms of NDP but doles out a lesson or two|newspaper=w:The Straits Times|location=Singapore|publisher=Singapore Press Holdings Limited|date=16 July 2024|passage=In a few months that have been both d
+QUOTATION: 
+
+=== W:lah:Particle:2 === (revid 93508393; bearers sharing this page: LAH)
+Placed at the end of a sentence to convey reassurance or express solidarity.
+EXAMPLE: <small>Pitch contour: <u>low-mid</u> , <u>mid-falling</u> </small>
+EXAMPLE: 
+QUOTATION: 
+
+=== W:lah:Particle:3 === (revid 93508393; bearers sharing this page: LAH)
+Indicates an attempt at expressing sympathy, conveying informality or sincerity, or establishing a rapport with the listener.
+EXAMPLE: <small>Pitch contour: <u>low-mid</u> </small>
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:lah:Particle:4 === (revid 93508393; bearers sharing this page: LAH)
+Placed at the end of an assertive statement to express denial or dismissiveness.
+EXAMPLE: <small>Pitch contour: <u>low-mid</u> , <u>mid-falling</u> </small>
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:lah:Particle:5 === (revid 93508393; bearers sharing this page: LAH)
+Used after an assertive statement to reinforce its authoritativeness, or to show that the speaker is confident with what they are saying.
+EXAMPLE: <small>Pitch contour: <u>low-mid</u> , <u>mid-falling</u> </small>
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: {{quote-book|en|author=w:Preeta Samarasan|title=Evening Is the Whole Day|year=2008|page=116|text=“Keretapi Tanah Melayu means railway lah thanggachi <small>[ta, term of address for a younger woman]</small>,” the man went on. “Means Malay Land Railway. Malay Land that means Malaysia lah [Sense 6], th
+
+=== W:lah:Particle:6 === (revid 93508393; bearers sharing this page: LAH)
+Asserts that something is clear, obvious or straightforward.
+EXAMPLE: <small>Pitch contour: <u>falling</u> </small>
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: {{quote-book|en|author=w:Alfian Sa'at|title=Collected Plays Three|chapter=Nadirah|location=Singapore|year=2009|page=57|section=Scene ii|isbn=9789811400421|passage= You never told me Sally was leaving. I didn't even have the chance to say goodbye.<br/> You visit her lah when you go to KL.}}
+
+=== W:lah:Particle:7 === (revid 93508393; bearers sharing this page: LAH)
+Used to tone down an imperative sentence, so it sounds more like a request or suggestion.
+EXAMPLE: <small>Pitch contour: <u>falling</u> </small>
+QUOTATION: 
+
+=== W:lah:Particle:8 === (revid 93508393; bearers sharing this page: LAH)
+Indicates strong persuasion at the end of an imperative sentence.
+EXAMPLE: <small>Pitch contour: <u>mid-falling</u> </small>
+EXAMPLE: 
+QUOTATION: {{quote-book|en|year=2014|author=Danielle Lim|title=The Sound of SCH: A Mental Breakdown, A Life Journey|publisher=Ethos Books|isbn=9789811176043|passage= I say politely, No thank you, it’s okay. But he insists, Take lah, never mind, no need to pai-seh!}}
+
+=== W:lah:Particle:9 === (revid 93508393; bearers sharing this page: LAH)
+Indicates a retrospective remark or a reassessment of one’s opinion.
+EXAMPLE: <small>Pitch contour: <u>low-mid</u> , <u>mid-falling</u> </small>
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: {{quote-hansard|en|date=5 March 2019|speaker=w:Ong Ye Kung|debate=Committee of Supply – Head K (Ministry of Education)|report=Parliamentary Debates: Official Report|volume=94|house=Parliament of Singapore|text=He said that in the past, a teacher might admonish a noisy class and say: “4N(T), keep qui
+QUOTATION: 
+QUOTATION: {{quote-book|en|year=2022|author=Bernice Loh|title=Tween Girls' Dressing and Young Femininity in Singapore: Too Much, Too Young, Too Fast?|isbn=9789811695117|publisher=Springer Nature Singapore|page=94|chapter=4|passage= But what is expensive to your parents? Like $50 for a dress?<br> Er ... it’s no
+
+=== W:lah:Particle:10 === (revid 93508393; bearers sharing this page: LAH)
+Reinforces a suggestion with the implication that it is the more practical option.
+EXAMPLE: <small>Pitch contour: <u>low-mid</u> , <u>mid-falling</u> </small>
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:lah:Particle:11 === (revid 93508393; bearers sharing this page: LAH)
+Indicates confirmation-seeking at the end of an inferential statement.
+EXAMPLE: <small>Pitch contour: <u>falling</u> </small>
+EXAMPLE: 
+QUOTATION: 
+
+=== W:lah:Particle:12 === (revid 93508393; bearers sharing this page: LAH)
+Used to express realisation, or vexation when something is already obvious.
+EXAMPLE: <small>Pitch contour: <u>falling</u> </small>
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:lah:Particle:13 === (revid 93508393; bearers sharing this page: LAH)
+(less common) Reinforces the factuality of an assertive statement made to correct an inaccurate, underlying assumption.
+EXAMPLE: <small>Pitch contour: <u>mid-rising</u> </small>
+EXAMPLE: 
+
+=== W:lah:Particle:14 === (revid 93508393; bearers sharing this page: LAH)
+(less common) Used to convey a slight sense of dissatisfaction or irritation.
+EXAMPLE: <small>Pitch contour: <u>mid-rising</u> </small>
+
+=== W:lah:Particle:15 === (revid 93508393; bearers sharing this page: LAH)
+(less common) Used for enumeration (when listing examples).
+EXAMPLE: <small>Pitch contour: <u>mid</u> </small>
+QUOTATION: {{quote-book|en|author=w:Haresh Sharma|title=Those Who Can't, Teach|year=2010|section=Act I, scene ii|publisher=Epigram Books|text=He teach them how to cook lah, learn computer lah... }}
+QUOTATION: 
+
+=== W:lah:Particle:16 === (revid 93508393; bearers sharing this page: LAH)
+(chiefly, Malaysia, less common in Singapore) An assertive separator, used to reverse the order of the usual topic–comment structure of a sentence.
+EXAMPLE: <small>Pitch contour: <u>low-mid</u> </small>
+EXAMPLE: 
+QUOTATION: {{quote-book|en|author=Latha [K. Kanagalatha]|title=The Goddesses in the Living Room|year=2014|publisher=Epigram Books|location=Singapore|isbn=9814615153|page=102|passage=“Who lah that Panjali? A real ‘number nine’ <small>[From {{ncog|ta|
+
+=== W:lah:Particle:17 === (revid 93508393; bearers sharing this page: LAH)
+(less common) Used sarcastically.
+EXAMPLE: <small>Pitch contour: <u>low-mid</u> , (in the example below) <u>high-mid</u> </small>
+EXAMPLE: 
+
+=== W:lah:Usage notes:0 === (revid 93508393; bearers sharing this page: LAH)
+As demonstrated by German & Prevot (2014), lah is more likely to occur after clauses ending in a lexically stressed syllable (e.g., No need, lah!) than after clauses ending in an unstressed syllable, generally speaking. In later research, they posit that "speakers may avoid using lah when doing so would result in a long sequence of unstressed syllables" (German & Prevot, 2016).
+
+=== W:bastard:Etymology:0 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+
+right|thumb|220px|'ƿyllelm bastard' in the Anglo-Saxon Chronicle, 1066
+From , enm, from , from , , perhaps via , of origin.
+Likely from + , fro. Frankish *bāst derives from a North Sea Germanic variety of , from and is related to , , and more distantly to . The term probably originally referred to a child from a polygynous marriage of heathen Germanic custom — a practice not sanctioned by the Christian churches.
+Alternatively, and less likely, Old French bastart may have originated from the Old French term fro, meaning a child conceived on an improvised bed (medieval saddles often doubled as beds while travelling). However chronology makes this difficult, as bastard is attested in Old French from 1089 (Middle Latin bastardus as early as 1010), yet Old French bast (modern ), though attested since 1130 with
+
+=== W:bastard:Pronunciation:0 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+*
+**
+***
+**
+*
+**
+*
+
+=== W:bastard:Noun:0 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+HEADWORD: {{en-noun|~}}
+
+=== W:bastard:Noun:1 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+(dated) A person who was born out of wedlock, and hence often considered an illegitimate descendant.
+EXAMPLE: 
+QUOTATION: {{quote-av|en|year=1965|title=w:The Big Valley
+
+=== W:bastard:Noun:2 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+A mongrel biological cross between different breeds, groups or varieties.
+
+=== W:bastard:Noun:3 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+(vulgar, offensive, or, pejorative, usually, referring specifically to a man) A contemptible, inconsiderate, overly or arrogantly rude or spiteful person.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 1997, South Park television program:
+QUOTATION: : “Oh my God, they killed Kenny!” “You bastards!”
+
+=== W:bastard:Noun:4 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+(vulgar, endearing, or, humorous) A man, a fellow, a male friend.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:bastard:Noun:5 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+(vulgar, often preceded by ‘poor’) A suffering person deemed deserving of compassion.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:bastard:Noun:6 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+(informal) A child who does not know their father.
+
+=== W:bastard:Noun:7 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+(informal) Something extremely difficult or unpleasant to deal with.
+EXAMPLE: 
+
+=== W:bastard:Noun:8 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+A variation that is not genuine; something irregular or inferior or of dubious origin, fake or counterfeit.
+EXAMPLE: 
+QUOTATION: {{quote-book|en|year=1622|author=w:Francis Bacon|title=Bacon's History of the Reign of King Henry VII|page=62|publisher=Cambridge University Press|year_published=1902
+
+=== W:bastard:Noun:9 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+A bastard file.
+
+=== W:bastard:Noun:10 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+A kind of sweet wine.
+QUOTATION: {{RQ:Shakespeare Measure|3|2|72|2|passage= we ſhall haue all the world drinke browne & white baſtard.}}
+
+=== W:bastard:Noun:11 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+A sword that is midway in length between a short-sword and a long sword; also bastard sword.
+
+=== W:bastard:Noun:12 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+An inferior quality of soft brown sugar, obtained from syrups that have been boiled several times.
+
+=== W:bastard:Noun:13 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+A large mould for straining sugar.
+
+=== W:bastard:Noun:14 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+A writing paper of a particular size.
+EXAMPLE: 
+
+=== W:bastard:Noun:15 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+(UK, politics, pejorative) A Eurosceptic Conservative MP, especially in the government of John Major.
+QUOTATION: {{quote-book|en|year=2000|author=Peter Hobday|title=Managing the message|publisher=Allison & Busby
+QUOTATION: {{quote-book|en|year=2011|author=Duncan Hall|title=A2 Government and Politics: Ideologies and Ideologies in Action|publisher=Lulu.com|isbn=9781447733997|page=62
+QUOTATION: {{quote-book|en|date=2014-09-23|author=Stanley Johnson|title=Stanley, I Resume: Further recollections of an exuberant life|publisher=Biteback Publishing|isbn=9781849547994|text=In the UK, Conservative Maastricht rebels (the bastards) almost brought down Conservative Prime Minister John Major's gover
+QUOTATION: {{quote-book|en|year=2014|author=Melvin J. Lasky|title=Profanity, Obscenity and the Media|publisher=Transaction Publishers|isbn=9781412832014
+QUOTATION: {{quote-book|en|date=2020-09-03|author=Ian Buruma|title=The Churchill Complex: The Rise and Fall of the Special Relationship from Winston and FDR to Trump and Johnson|publisher=Atlantic Books|isbn=9781786494665
+
+=== W:bastard:Usage notes:0 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+* Not always regarded as a stigma (though it is one in e.g. canon law, prohibitive for clerical office without papal indult): Norman duke William, the Conqueror of England, is referred to in state documents as "William the Bastard"; a Burgundian prince was even officially styled Great Bastard of Burgundy.
+* "Bastard" used as a term of endearment is particularly characteristic of Australian English usage. See Appendix:Australian English terms for people for more.
+
+=== W:bastard:Adjective:0 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+HEADWORD: {{en-adj}}
+
+=== W:bastard:Adjective:1 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+Of or like a bastard illegitimate human descendant.
+
+=== W:bastard:Adjective:2 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+Of or like a bastard bad person.
+
+=== W:bastard:Adjective:3 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+Of or like a mongrel, bastardized creature/cross.
+
+=== W:bastard:Adjective:4 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+Of abnormal, irregular or otherwise inferior qualities .
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:bastard:Adjective:5 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+Spurious, lacking authenticity: counterfeit, fake.
+
+=== W:bastard:Adjective:6 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+*
+
+=== W:bastard:Adjective:7 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+(of a language) Imperfect; not spoken or written well or in the classical style; broken.
+
+=== W:bastard:Adjective:8 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+*
+
+=== W:bastard:Adjective:9 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+Used in the vernacular name of a species to indicate that it is similar in some way to another species, often (but not always) one of another genus.
+EXAMPLE: 
+
+=== W:bastard:Adjective:10 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+(UK, Irish, vulgar) Very unpleasant.
+EXAMPLE: 
+
+=== W:bastard:Adjective:11 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+(printing) Abbreviated, as the half title in a page preceding the full title page of a book.
+
+=== W:bastard:Adjective:12 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+(theater lighting) Consisting of one predominant color blended with small amounts of complementary color; used to replicate natural light because of their warmer appearance.
+EXAMPLE: 
+
+=== W:bastard:Interjection:0 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+HEADWORD: {{en-intj|head=!}}
+
+=== W:bastard:Interjection:1 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+(vulgar, rare) Exclamation of strong dismay or strong sense of being upset.
+QUOTATION: {{quote-book|en|year=2001|author=w:Stephen King|chapter=w:The Death of Jack Hamilton|title=w:Everything's Eventual|pageurl=http://books.google.com/books?id=XCMu2NrzCpwC&pg=PA90&dq=bastard|page=90|publisher=Simon and Schuster|year_published=2007|isbn=978-1-4165-4985-7
+QUOTATION: {{quote-book|en|year=2004|author=Cecelia Ahern|title=PS, I Love You|pageurl=http://books.google.com/books?id=Qo__56Y0ZgUC&dq=bastard&q=bastard|page=7|publisher=Hyperion|isbn=978-1-4013-0090-6
+QUOTATION: {{quote-book|en|year=2006|author=Emily Franklin|title=Love from London|publisher=Penguin|isbn=978-0-451-21773-8|pageurl=http://books.google.com/books?id=r92FSi1lnx4C&pg=PA212&dq=bastard|page=212
+
+=== W:bastard:Verb:0 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+HEADWORD: {{en-verb}}
+
+=== W:bastard:Verb:1 === (revid 93943925; bearers sharing this page: BASTARD_SUPP, YOU_BASTARD)
+(obsolete) To bastardize.
+QUOTATION: {{RQ:Bacon Henry 7
+
+=== W:fucking:Etymology:0 === (revid 94556233; bearers sharing this page: FUCKING_PRENOM)
+
+
+=== W:fucking:Pronunciation:0 === (revid 94556233; bearers sharing this page: FUCKING_PRENOM)
+*
+*
+**
+*
+*
+*
+*
+
+=== W:fucking:Noun:0 === (revid 94556233; bearers sharing this page: FUCKING_PRENOM)
+HEADWORD: {{en-noun|~}} {{lb|en|vulgar}}
+
+=== W:fucking:Noun:1 === (revid 94556233; bearers sharing this page: FUCKING_PRENOM)
+An act of sexual intercourse, especially one lacking passion or a feeling of sincere love.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: c 1674, John Wilmot, Earl of Rochester, A Satyr on Charles II
+QUOTATION: : Like the French fool, that wanders up and down
+QUOTATION: : Starving his people, hazarding his crown.
+QUOTATION: : Peace is his aim, his gentleness is such,
+QUOTATION: : And love he loves, for he loves fucking much.
+
+=== W:fucking:Noun:2 === (revid 94556233; bearers sharing this page: FUCKING_PRENOM)
+(figuratively) An act of mistreatment.
+EXAMPLE: 
+
+=== W:fucking:Adjective:0 === (revid 94556233; bearers sharing this page: FUCKING_PRENOM)
+HEADWORD: {{en-adj|-}} {{lb|en|vulgar|attributive}}
+
+=== W:fucking:Adjective:1 === (revid 94556233; bearers sharing this page: FUCKING_PRENOM)
+An intensifier, often applying more to the whole utterance than to the specific word it grammatically modifies.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:fucking:Adjective:2 === (revid 94556233; bearers sharing this page: FUCKING_PRENOM)
+, annoying or worthless.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:fucking:Verb:0 === (revid 94556233; bearers sharing this page: FUCKING_PRENOM)
+HEADWORD: {{en-head|verb form}}
+
+=== W:fucking:Verb:1 === (revid 94556233; bearers sharing this page: FUCKING_PRENOM)
+
+
+=== W:fucking:Adverb:0 === (revid 94556233; bearers sharing this page: FUCKING_PRENOM)
+HEADWORD: {{en-adv|-}}
+
+=== W:fucking:Adverb:1 === (revid 94556233; bearers sharing this page: FUCKING_PRENOM)
+(vulgar) Really, very; having intensive force, often applying to the whole sentence or clause.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: {{quote-book|en|year=2010|author=w:Christopher Hitchens|title=Hitch-22|publisher=Atlantic|year_published=2011|page=81
+
+=== W:fucking:Infix:0 === (revid 94556233; bearers sharing this page: FUCKING_PRENOM)
+HEADWORD: {{head|en|infix}}
+
+=== W:fucking:Infix:1 === (revid 94556233; bearers sharing this page: FUCKING_PRENOM)
+(vulgar) alternative form of -fucking-, used when the infix is put between two words.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: {{quote-journal|en|year=1992|author=w:Roger Waters|journal=Q Magazine
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:-bloody-:Infix:0 === (revid 94533988; bearers sharing this page: BLOODY_INFIX)
+HEADWORD: {{head|en|infix}}
+
+=== W:-bloody-:Infix:1 === (revid 94533988; bearers sharing this page: BLOODY_INFIX)
+(British, Australian, slang) An intensifier.
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:-bloody-:Usage notes:0 === (revid 94533988; bearers sharing this page: BLOODY_INFIX)
+: Usually inserted before the stressed syllable.
+: An example of tmesis.
+
+=== W:the hell:Pronunciation:0 === (revid 93727586; bearers sharing this page: THE_HELL_WH)
+*
+*
+
+=== W:the hell:Adverb:0 === (revid 93727586; bearers sharing this page: THE_HELL_WH)
+HEADWORD: {{en-adv|-}}
+
+=== W:the hell:Adverb:1 === (revid 93727586; bearers sharing this page: THE_HELL_WH)
+(sometimes, vulgar) Used to indicate emphatic rejection of an assertion or request.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: {{quote-book|en|year=1990|author=Stephen King|title=The Moving Finger (short story)
+
+=== W:the hell:Adverb:2 === (revid 93727586; bearers sharing this page: THE_HELL_WH)
+(sometimes, vulgar) Expletive used for emphasis, typically after an interrogative term or relative pronoun.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:the hell:Interjection:0 === (revid 93727586; bearers sharing this page: THE_HELL_WH)
+HEADWORD: {{en-intj}}
+
+=== W:the hell:Interjection:1 === (revid 93727586; bearers sharing this page: THE_HELL_WH)
+(mildly, vulgar) .
+QUOTATION: {{quote-book|en|year=2013|author=w:Jonathan Latimer|title=The Lady in the Morgue|ISBN=9781471910715|url=https://books.google.ca/books?id=Yqo4AgAAQBAJ&pg=PT42&lpg=PT42&dq=%22The+hell,+exclaimed%22+-what&source=bl&ots=-GxG69IEeF&sig=96C_sxGn4_Srt0qEv6C99vA9rTw&hl=en&sa=X&ved=0CCIQ6AEwAmoVChMI7oG1pIWWy
+
+=== W:the hell:Pronoun:0 === (revid 93727586; bearers sharing this page: THE_HELL_WH)
+HEADWORD: {{en-pron}}
+
+=== W:the hell:Pronoun:1 === (revid 93727586; bearers sharing this page: THE_HELL_WH)
+(mildly, profane, slang, interrogative) .
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:hell:Pronunciation:0 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+* ,
+**
+**
+*
+
+=== W:hell:Etymology1:0 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+
+From , enm, enm, enm, from , ang, from , from , from . .
+
+Cognate with , , , , , , , , li, li, , , wym, , da, , , is, , nn, , sv, , , ; also , , , , , , , , , , , ru, , sh, sh, sh, , .
+Also related to the Hel of Germanic mythology. See also hele.
+
+
+=== W:hell:Proper noun:0 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+HEADWORD: {{en-proper noun}}
+
+=== W:hell:Proper noun:1 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+(in many religions, often, capitalized) A place of torment where some or all sinners are believed to go after death and evil spirits are believed to be.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+
+=== W:hell:Proper noun:2 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+(in many religions, often, capitalized, inexact) alternative form of underworld
+
+=== W:hell:Usage notes:0 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+In English, Hell or hell is typically conflated with present Christian and Islamic beliefs about a fiery underworld of eternal punishment inflicted by demons on the wicked, which may or may not include Limbo, a realm for the virtuous dead of other faiths. Similar beliefs in other traditions are oftenbut not univerallydistinguished by using specific alternative names (e.g. Diyu for the traditional 
+Informally, any underground afterworld may be called Hell but scholarly treatment usually distinguishes such neutral and general beliefs as the Hebrew Sheol, the Greco-Roman Hades, and Sumerian Kur with more neutral terms, such as underworld, afterlife, or land of the dead.
+
+=== W:hell:Noun:0 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+HEADWORD: {{en-noun|~}}
+
+=== W:hell:Noun:1 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+(countable, hyperbole, figuratively) A place or situation of great suffering in life.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 1879, General William T. Sherman, commencement address at the Michigan Military Academy
+QUOTATION: :
+QUOTATION: 
+QUOTATION: 
+
+=== W:hell:Noun:2 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+(countable) A place for gambling.
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 
+QUOTATION: {{RQ:Conrad Secret Agent|edition=copyright|chapter=II|page=15|passage=But there was also about him an indescribable air which no mechanic could have acquired in the practice of his handicraft however dishonestly exercised: the air of moral nihilism common to keepers of gambling hells and disorderly 
+
+=== W:hell:Noun:3 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+(figuratively) An extremely hot place.
+EXAMPLE: 
+QUOTATION: (≃ This will never happen.)
+
+=== W:hell:Noun:4 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+(mildly, vulgar) Used as an
+QUOTATION: {{RQ:Stephenson Snow Crash|page=321
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:hell:Noun:5 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+(obsolete) A place into which a tailor throws shreds, or a printer discards broken type.
+QUOTATION: 
+
+=== W:hell:Noun:6 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+In certain games of chase, a place to which those who are caught are carried for detention. <!--Webster 1913-->
+
+=== W:hell:Noun:7 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+(colloquial, usually with on) Something extremely painful or harmful (to)
+EXAMPLE: 
+
+=== W:hell:Interjection:0 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+HEADWORD: {{en-intj}} {{tlb|en|colloquial|sometimes|vulgar}}
+
+=== W:hell:Interjection:1 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+Used to express discontent, unhappiness, or anger.
+EXAMPLE: 
+QUOTATION: {{RQ:Shakespeare Merchant of Venice|II|7|text=O hell! what have we here?<br>A carrion Death, within whose empty eye<br>There is a written scroll! }}
+
+=== W:hell:Interjection:2 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+(non-productive) Used to emphasize.
+EXAMPLE: 
+
+=== W:hell:Interjection:3 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+Used to introduce an intensified statement following an understated one; nay; not only that, but.
+EXAMPLE: 
+
+=== W:hell:Adverb:0 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+HEADWORD: {{en-adv|-}}
+
+=== W:hell:Adverb:1 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+(postpositional) alternative form of the hell or like hell.
+QUOTATION: 1990, Mama's Family (television sitcom), "Look Who's Breathing" (season 6, episode 18)
+QUOTATION: : - Oh, aren't they sweet?<br>- Sweet, hell. They look like Tweedledum and Tweedledumber.
+QUOTATION: {{RQ:Fry Liar|page=24|passage=‘ I know whether a boy is telling me the truth or not.’<br>‘Thank you, sir.’<br>Did he hell. They never bloody did.}}
+
+=== W:hell:Adverb:2 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+(Australia, NZ, colloquial, sometimes, vulgar) ; used to emphasize strongly.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:hell:Verb:0 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+HEADWORD: {{en-verb}}
+
+=== W:hell:Verb:1 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+To make hellish; to place (someone) in hell; to make (a place) into a hell.
+
+=== W:hell:Verb:2 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+To hurry, rush.
+QUOTATION: {{quote-book|en|year=1929|author=w:William Faulkner|title=The Sound and the Fury
+
+=== W:hell:Verb:3 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+(intransitive) To move quickly and loudly; to raise hell as part of motion.
+EXAMPLE: 
+
+=== W:hell:Etymology2:0 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+From . Related to and .
+
+=== W:hell:Verb:0 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+HEADWORD: {{en-verb}}
+
+=== W:hell:Verb:1 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+(rare, metal-working) To add luster to; to burnish (silver or gold).
+QUOTATION: {{quote-book|en|year=1770|author=Godfrey Smith|title=The Laboratory: Or, School of Arts
+
+=== W:hell:Etymology3:0 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+From , from , from , from . Cognate with , , . See also .
+
+=== W:hell:Verb:0 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+HEADWORD: {{en-verb}}
+
+=== W:hell:Verb:1 === (revid 94509893; bearers sharing this page: THE_HELL_WH)
+(rare) To pour.
+QUOTATION: 18th century, Josiah Relph, The Harvest; or Bashful Shepherd
+QUOTATION: : Gosh, the sickle went into me handː Down hell'd the bluid.
+
+=== W:very:Etymology:0 === (revid 94591570; bearers sharing this page: VERY_INTENS)
+
+
+From , from , from , from , derived from la, from , from .
+Distantly cognate with . Over time displaced the use of a number of Germanic words or prefixes to convey the sense 'very' such as fele, ang, ang, enm, ang, ang, (partially) enm.
+
+=== W:very:Pronunciation:0 === (revid 94591570; bearers sharing this page: VERY_INTENS)
+*
+**
+**
+*
+**
+*
+*
+*
+*
+*
+
+=== W:very:Adverb:0 === (revid 94591570; bearers sharing this page: VERY_INTENS)
+HEADWORD: {{en-adv|-}}
+
+=== W:very:Adverb:1 === (revid 94591570; bearers sharing this page: VERY_INTENS)
+To a great extent or degree.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: {{RQ:Belloc Lowndes Lodger|II|0091
+QUOTATION: {{RQ:Maxwell Mirror and the Lamp|chapter=13|passage=“&nbsp;They talk of you as if you were Croesus—and I expect the beggars sponge on you unconscionably.” And Vickers launched forth into a tirade very different from his platform utterances. He spoke with extreme contempt of the dense stupidity exhib
+
+=== W:very:Adverb:2 === (revid 94591570; bearers sharing this page: VERY_INTENS)
+Conforming to fact, reality or rule; true.
+EXAMPLE: 
+
+=== W:very:Adverb:3 === (revid 94591570; bearers sharing this page: VERY_INTENS)
+(with superlatives) Used to firmly establish that nothing else surpasses in some respect.
+EXAMPLE: 
+EXAMPLE: 
+
+=== W:very:Usage notes:0 === (revid 94591570; bearers sharing this page: VERY_INTENS)
+* Commonly intensified by , as in very, very important person.
+* When used in their senses as degree adverbs, and too never modify verbs (except in some dialects influenced by Chinese: see citations).
+
+=== W:very:Adjective:0 === (revid 94591570; bearers sharing this page: VERY_INTENS)
+HEADWORD: {{en-adj|-,er}}
+
+=== W:very:Adjective:1 === (revid 94591570; bearers sharing this page: VERY_INTENS)
+(literary) True, real, actual.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: {{RQ:Shakespeare Henry 4-1|II|2|text= I am the veriest varlet that ever chewed with a tooth.}}
+QUOTATION: 
+QUOTATION: 
+QUOTATION: 1659, Henry Hammond, A Paraphrase and Annotations upon All the Books of the New Testament, London: Richard Davis, 2nd edition, The First Epistle of Paul the Apostle to the Corinthians, Chapter 3, verse 19, p. 517,<sup>[http://name.umdl.umich.edu/A45436.0001.001]</sup>
+QUOTATION: : they that think to be wiser then other men, are by so much verier fools then others, and so are discerned to be.
+QUOTATION: 
+QUOTATION: {{quote-book|en|year=1855|title=Chambers's Journal|page=257
+QUOTATION: 
+QUOTATION: 
+QUOTATION: {{RQ:en:New York Times|date=November 7, 2012|author=Matt Bai|title=Winning a Second Term, Obama Will Confront Familiar Headwinds|url=http://www.nytimes.com/2012/11/07/us/politics/in-president-obamas-second-term-familiar-challenges.html?pagewanted=all&_r=0
+
+=== W:very:Adjective:2 === (revid 94591570; bearers sharing this page: VERY_INTENS)
+The same; identical.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:very:Adjective:3 === (revid 94591570; bearers sharing this page: VERY_INTENS)
+With limiting effect: mere.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+QUOTATION: {{quote-book|en|year=2004|author=Paul Campos|title=The Obesity Myth: Why America's Obsession with Weight is Hazardous to Your Health|publisher=Penguin|isbn=9781101216590
+
+=== W:very:Usage notes:0 === (revid 94591570; bearers sharing this page: VERY_INTENS)
+* Exclusively used attributively and never predicatively.
+
+=== W:exactly:Etymology:0 === (revid 93692915; bearers sharing this page: EXACTLY_WH)
+From .
+
+=== W:exactly:Pronunciation:0 === (revid 93692915; bearers sharing this page: EXACTLY_WH)
+*
+*
+
+=== W:exactly:Adverb:0 === (revid 93692915; bearers sharing this page: EXACTLY_WH)
+HEADWORD: {{en-adv}}
+
+=== W:exactly:Adverb:1 === (revid 93692915; bearers sharing this page: EXACTLY_WH)
+Of a manner, without approximation; precisely.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: {{quote-book|en|title=The Engliſh Teacher|first=Chriſtopher|last=Cooper|chapter=Chap. XIX: Of Barbarous Speaking|page=77-78|publisher2=Scolar Press|location2=Menston|publisher=John Richardſon, for the Author|location=London|year2=1969|year=1687|pageurl=https://archive.org/details/englishteacher1600c
+QUOTATION: 
+
+=== W:exactly:Adverb:2 === (revid 93692915; bearers sharing this page: EXACTLY_WH)
+Of a focus, precisely, used to provide emphasis.
+EXAMPLE: 
+QUOTATION: 
+
+=== W:exactly:Interjection:0 === (revid 93692915; bearers sharing this page: EXACTLY_WH)
+HEADWORD: {{en-intj}}
+
+=== W:exactly:Interjection:1 === (revid 93692915; bearers sharing this page: EXACTLY_WH)
+Signifies agreement or recognition.
+EXAMPLE: 
+
+=== W:main:Pronunciation:0 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+* ,
+**
+*
+*
+*
+
+=== W:main:Etymology1:0 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+
+From , enm, enm, enm, enm, from enm (see further at etymology 2); compare <ref></ref> and , non.
+The word is cognate with (modern , de), and also akin to . See also may.
+
+=== W:main:Adjective:0 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+HEADWORD: {{en-adj|-}}
+
+=== W:main:Adjective:1 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+Of chief or leading importance; prime, principal.
+EXAMPLE: 
+QUOTATION: {{RQ:Tillotson Works|sermon=I|passage=Religion direct us rather to ſecure inward peace than outward eaſe, to be more careful to avoid everlaſting and intolerable torment than ſhort and light afflictions which are but for a moment; In a word, our main intereſt is to be as happy as we can, and as long
+QUOTATION: 
+QUOTATION: {{quote-book|en|author=[George Goodchild]|chapter=5|title=Death on the Centre Court; a McLean Mystery|location=London|publisher=Hodder and Stoughton|year=1935|oclc=80449799|passage=By one o'clock the place was choc-a-bloc. The restaurant was packed, and the promenade between the two main courts and 
+
+=== W:main:Adjective:2 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+Chief, most important, or principal in extent, size, or strength; consisting of the largest part.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: {{RQ:Milton Paradise Lost|book=VI|page=170|lines=470–471|passage=Not uninvented that, which thou aright / Beleivſt ſo main to our ſucceſs, I bring; |year=1873}}
+QUOTATION: {{RQ:Economist|title=The Future of Oil: Yesterday’s fuel|url=https://www.economist.com/leaders/2013/08/03/yesterdays-fuel|archiveurl=https://web.archive.org/web/20130801154742/http://www.economist.com/news/leaders/21582516-worlds-thirst-oil-could-be-nearing-peak-bad-news-producers-excellent|archived
+
+=== W:main:Adjective:3 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(nautical) Belonging to or connected with the principal mast in a vessel.
+
+=== W:main:Adjective:4 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(archaic, of force, strength, etc.) Full, sheer, undivided.
+QUOTATION: {{RQ:Scott Rob Roy|volume=I|page=281|passage= I shall never forget the diabolical sneer which writhed Rashleigh's wayward features, as I was forced from the apartment by the main strength of two of these youthful Titans.}}
+QUOTATION: 
+
+=== W:main:Adjective:5 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(Appalachia) , exceptional.
+QUOTATION: 1924, James Watt Raine, The Land Of Saddle-Bags, page 103:
+QUOTATION: : He’s a main worker; he has breskit.
+QUOTATION: 1930, Anne Armstrong, This Day and Time, page 231:
+QUOTATION: : Ivy pulled him toward the shed by main force.
+QUOTATION: 1937, respondent from Cataloochee (NC), recorded by Joseph S. Hall, "Recorded interviews and other material, on deposit in Joseph Sargent Hall Collection, Archives of Appalachia, East Tennessee State University", quoted in Michael Montgomery et al., Dictionary of Southern Appalachian English (2021):
+QUOTATION: : He took after [the turkey], had a main race down there till the turkey flopped up agin a big log and couldn’t get over it, and there they caught it.
+QUOTATION: 1991, James Still, The Wolfpen Notebooks, page 85:
+QUOTATION: : Goose grease is the main-est thing for waterproofing shoes.
+
+=== W:main:Adjective:6 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(dialectal) Big; angry.
+
+=== W:main:Adjective:7 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(obsolete) Great in size or degree; important, powerful, strong, vast.
+QUOTATION: {{quote-book|en|author=w:Samuel Daniel|chapter=The History of the Civil War. Book V.|title=The Poetical Works of Mr. Samuel Daniel, Author of the English History.|location=London|publisher=Printed for R. Gosling, W. Mears, and J. Browne|year=1718|volume=II|section=stanza LXXXIX|page=167|pageurl=http
+
+=== W:main:Adverb:0 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+HEADWORD: {{en-adv}}
+
+=== W:main:Adverb:1 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(Britain, dialectal) Exceedingly, extremely, greatly, mightily, very, very much.
+QUOTATION: {{quote-book|en|author=w:Samuel Foote|chapter=The Knights|title=The Knights. A Comedy, in Two Acts.|location=Dublin|publisher=Printed by Richard James,|year=1754|section=act II|page=35|pageurl=https://books.google.com.sg/books?id=1xZgAAAAcAAJ&pg=PA51|oclc=7748527|passage=Suck[y]. A Draught of Ale, F
+QUOTATION: {{quote-book|en|author=w:Richard Brinsley Sheridan|chapter=The Camp: A Musical Entertainment|title=The Dramatic Works of Richard Brinsley Sheridan. With a Memoir of the Author|series=Dove’s English Classics|location=London|publisher=Printed and published by J. F. Dove,|year=1778|year_published=c. 18
+QUOTATION: {{RQ:Stevenson Treasure Island|text=It was main hot, and the windy was open, and I hear that old song comin’ out as clear as clear }}
+
+=== W:main:Verb:0 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+HEADWORD: {{en-verb}}
+
+=== W:main:Verb:1 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(transitive, slang) .
+
+=== W:main:Verb:2 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(transitive, gaming) To mainly play a specific character or side, or with specific equipment, during a game.
+EXAMPLE: 
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:main:Verb:3 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(obsolete) To convert (a road) into a main or primary road.
+QUOTATION: 
+QUOTATION: 
+
+=== W:main:Etymology2:0 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+From , enm, enm, enm, enm, from ,<ref></ref> from , gem-pro, from .
+The word is cognate with , goh, , non, non, .<ref>{{R:OED2|entry=main, sb.|page=216|columns=1–2}}</ref> More recent senses are derived from the adjective.
+
+=== W:main:Noun:0 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+HEADWORD: {{en-noun}}
+
+=== W:main:Noun:1 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(not in generic modern use) That which is chief or principal; the chief or main portion; the bulk, the greater part, gross.
+QUOTATION: {{quote-book|en|author=w:Humphrey Prideaux|title=The Old and New Testaments Connected in the History of the Jews and Neighbouring Nations, from the Declension of the Kingdoms of Israel and Judah to the Time of Christ|edition=3rd|location=London|publisher=Printed for R. Knaplock and [[w:Jacob Tonson|
+QUOTATION: {{quote-book|en|author=w:Francis Bacon|chapter=The History of the Reign of King Henry the Seventh|title=The Works of Francis Bacon, Baron of Verulam, Viscount St. Alban, and Lord High Chancellor of England. In Ten Volumes|volume=V|location=London|publisher=Printed for J. Johnson [et al.];|year=1803|
+
+=== W:main:Noun:2 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(video gaming) The primary character that one plays in a video game in which one can play more than one character.
+
+=== W:main:Noun:3 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+:
+
+=== W:main:Noun:4 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+:
+
+=== W:main:Noun:5 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(Internet slang) A main account.
+
+=== W:main:Noun:6 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+:
+
+=== W:main:Noun:7 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+:
+
+=== W:main:Noun:8 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+A large cable or pipe providing utility service to an area or a building, such as a water main or electric main.
+EXAMPLE: 
+QUOTATION: {{quote-journal|en|title=Appendix. Report from the Committee on the State of the Pavements, &c. in the Streets of Dublin|journal=The Journals of the House of Commons, of the Kingdom of Ireland,|location=Dublin|publisher=Printed by Abraham Bradley and Abraham Bradley King,|date=3 April 1778|year_publ
+QUOTATION: 
+
+=== W:main:Noun:9 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(informal) .
+EXAMPLE: 
+
+=== W:main:Noun:10 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(now, poetic) The high seas.
+QUOTATION: 
+QUOTATION: {{RQ:Dryden Virgil|chapter=The Fifth Book of the Æneis|page=360|lines=1115–1119|passage=The God, inſulting with ſuperiour Strength, / Fell heavy on him, plung'd him in the Sea, / And, with the Stern, the Rudder tore away, / Headlong he fell, and, ſtrugling in the Main, / Cry'd out for helping hands,
+QUOTATION: {{quote-book|en|author=Thomas Broughton (libretto); George Frideric Handel (music)|chapter=Hercules: An Oratorio|title=The Miscellaneous Pieces, as Set to Music, of Geo. Fred. Handel.|location=London|publisher=Printed for T. Heptinstall,|year=c. 1744|year_published=1799|volume_plain=part II|section=
+QUOTATION: 
+QUOTATION: {{quote-book|en|author=w:Rudyard Kipling|chapter=w:The Sons of Martha|title=Rudyard Kipling’s Verse: Inclusive Edition 1885–1918|location=London|publisher=Hodder and Stoughton Ltd.|year=1907|year_published=1927|pages=436–437|pageurl=https://archive.org/stream/in.ernet.dli.2015.34375/2015.34375.Rudya
+QUOTATION: 
+
+=== W:main:Noun:11 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(now, archaic, US dialectal) The mainland.
+QUOTATION: {{quote-book|en|author=w:Francis Bacon|chapter=Considerations Touching a War with Spain. Inscribed to Prince Charles, An. 1624.|title=The Works of Francis Bacon, Baron of Verulam, Viscount St. Alban, and Lord High Chancellor of England|location=London|publisher=Printed for J[ohn] Walthoe,|year=1624|
+QUOTATION: {{RQ:Donne Devotions|chapter=17. Meditation|pages=415–416|pageref=416|passage=No man is an Iland, intire of it ſelfe; euery man is a peece of the Continent, a part of the maine; }}
+QUOTATION: 
+QUOTATION: {{RQ:Melville Moby-Dick|chapter=Knights and Squires|page=131|passage=Tashtego's long, lean, sable hair, his high cheek bones, and black rounding eyes— all this sufficiently proclaimed him an inheritor of the unvitiated blood of those proud warrior hunters, who, in quest of the great New England moos
+
+=== W:main:Noun:12 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(nautical) .
+
+=== W:main:Noun:13 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(obsolete, except in might and main) Force, power, strength, violent effort.
+QUOTATION: 
+
+=== W:main:Etymology3:0 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+; probably from the adjective main. Evidence is lacking for a derivation from .<ref>{{R:OED2|entry=main, sb.|page=217|column=1}}</ref>
+
+=== W:main:Noun:0 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+HEADWORD: {{en-noun}}
+
+=== W:main:Noun:1 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(obsolete, gaming) A hand or match in a game of dice.
+QUOTATION: {{quote-book|en|author=Mr. Prior &#91;Matthew Prior?&#93;|chapter=Epistle to Fleetwood Shephard, Esq.|mainauthor=“Mr. Gentleman” [pseudonym]|title=The New Pleasing Instructor: Or, Entertaining Moralist.|location=York, Yorkshire|publisher=Printed by C. Etherington, for John Bell, and C. Etherington,|
+QUOTATION: 1876, Charles Dickens, All the Year Round <!--volume 16? 36? page 156-->
+QUOTATION: : That no minute might be wasted, the gay gallants of the time generally had a dice-box and a cast of dice in their pockets. This was convenient in the extreme, as, in the intervals of racing, a main could be thrown
+QUOTATION: 
+
+=== W:main:Noun:2 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(obsolete, gaming) The largest throw in a match at dice; in the game of hazard, a number from one to nine called out by a person before the dice are thrown.
+QUOTATION: 
+QUOTATION: 
+
+=== W:main:Noun:3 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(obsolete, gaming) A stake played for at dice.
+QUOTATION: 
+
+=== W:main:Noun:4 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(obsolete, gaming, sports) A sporting contest or match, especially a cockfighting match.
+QUOTATION: {{RQ:Thackeray Henry Esmond|volume=I|chapter=After Good Fortune Comes Evil|page=171|passage=My lord was hunting all day when the ſeaſon admitted; he frequented all the cockfights and fairs in the country, and would ride twenty miles to ſee a main fought, or two clowns break their heads at a cudgelli
+
+=== W:main:Noun:5 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+A banker's shovel for coins.
+
+=== W:main:Etymology4:0 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+, possibly from .
+
+=== W:main:Noun:0 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+HEADWORD: {{en-noun}}
+
+=== W:main:Noun:1 === (revid 94593410; bearers sharing this page: MAIN_PRENOM)
+(obsolete, rare) A basket for gathering grapes.
+QUOTATION: {{quote-book|en|author=Robert Ainsworth; w:Samuel Patrick|chapter=A main|chapterurl=https://books.google.com/books?id=fv9YAAAAcAAJ&pg=PA123|title=Thesaurus Linguæ Latinæ Compendiarius: Or, A Compendious Dictionary of the Latin Tongue:|edition=3rd|location=London|publisher=Printed by C. and J. Ackers
+
+=== W:probable:Etymology:0 === (revid 93031544; bearers sharing this page: PROBABLE_PRENOM)
+
+From , from , from , from la; see probe, probity, prove. Compare recent doublet provable.
+
+=== W:probable:Pronunciation:0 === (revid 93031544; bearers sharing this page: PROBABLE_PRENOM)
+*
+*
+**
+*
+
+=== W:probable:Adjective:0 === (revid 93031544; bearers sharing this page: PROBABLE_PRENOM)
+HEADWORD: {{en-adj}}
+
+=== W:probable:Adjective:1 === (revid 93031544; bearers sharing this page: PROBABLE_PRENOM)
+Likely or most likely to be true.
+EXAMPLE: 
+EXAMPLE: 
+QUOTATION: 
+
+=== W:probable:Adjective:2 === (revid 93031544; bearers sharing this page: PROBABLE_PRENOM)
+Likely to happen.
+EXAMPLE: 
+
+=== W:probable:Adjective:3 === (revid 93031544; bearers sharing this page: PROBABLE_PRENOM)
+Supporting, or giving ground for, belief, but not demonstrating.
+QUOTATION: 
+QUOTATION: 
+
+=== W:probable:Adjective:4 === (revid 93031544; bearers sharing this page: PROBABLE_PRENOM)
+(obsolete) Capable of being proved.
+
+=== W:probable:Noun:0 === (revid 93031544; bearers sharing this page: PROBABLE_PRENOM)
+HEADWORD: {{en-noun}}
+
+=== W:probable:Noun:1 === (revid 93031544; bearers sharing this page: PROBABLE_PRENOM)
+Something that is likely.
+QUOTATION: 
+
+=== W:probable:Noun:2 === (revid 93031544; bearers sharing this page: PROBABLE_PRENOM)
+A person who is likely to appear or do a certain thing.

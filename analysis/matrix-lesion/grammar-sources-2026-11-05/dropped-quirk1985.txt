@@ -1,0 +1,12 @@
+quirk1985	4	SH, UGH	P13	DROP: U
+quirk1985	5	SH, UGH	P13	DROP: U
+quirk1985	23	CLASS:exclamatory NP	P06 (determiner)	DROP: a frequency statement, not a possibility claim
+quirk1985	25	CLASS:vocative	P06	DROP: no determiner required is not a possibility claim
+quirk1985	30	THE_HELL_WH	form variant (with or without *in*)	DROP
+quirk1985	32	THE_HELL_WH	grouped with emphasizer asseveratives	DROP
+quirk1985	36	CLASS:emphasizer (adverb)	P04	DROP: same claim as row 35
+quirk1985	50	DAMN_PRENOM?	P03	DROP: a damn sight is an NP idiom (CGEL p. 327 n. 1), not DAMN_PRENOM
+quirk1985	53	CLASS:expletive	position doesn't match scope	DROP
+quirk1985	55	CLASS:expletive	prosody as an alternative to the word	DROP
+quirk1985	58	CLASS:emotive emphasis	class membership	DROP
+quirk1985: 59 rows, 11 dropped

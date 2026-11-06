@@ -1,0 +1,32 @@
+biber2021	1	DAMN_REACT	class membership	DROP
+biber2021	2	DAMN_REACT	frequency	DROP: frequency
+biber2021	3	DAMN_REACT	frequency	DROP: frequency
+biber2021	6	DAMN_PRENOM	(register)	DROP: register
+biber2021	8	DAMN_DEGREE	frequency	DROP: frequency
+biber2021	9	DAMN_DEGREE	frequency	DROP: frequency
+biber2021	11	BLOODY_INTENS	(register/dialect)	DROP: register
+biber2021	15	BLOODY_PRENOM / BLOODY_INTENS	outside the insert/expletive class	DROP: classification (outside expletives); kept in the report
+biber2021	16	bloody (use?)	P05 INFLECTS	DROP: use can't be matched (probably literal bloody)
+biber2021	18	fucking (degree use; no row)	–	DROP: degree fucking, not in the inventory
+biber2021	19	YOU_BASTARD	outside expletives; meaning tied to class	DROP: classification and meaning; kept in the report
+biber2021	24	THE_HELL_WH	category assignment	DROP: classification (hell as a noun); kept in the report
+biber2021	25	(the heck after wh; no row)	–	DROP: not an inventory bearer
+biber2021	26	(on earth after wh; no row)	–	DROP: not an inventory bearer
+biber2021	27	(bloody hell / fucking hell’s bells)	formulaic combination with expletive nouns	DROP
+biber2021	31	OH	frequency	DROP: frequency
+biber2021	34	AH	frequency	DROP: frequency
+biber2021	56	OKAY	position	DROP: position frequencies
+biber2021	69	HOWAREYOU	–	DROP: a different string from HOWAREYOU
+biber2021	74	MAIN_PRENOM	class	DROP: classifier list; 'generally non-gradable' is a tendency
+biber2021	77	QUICKLY	P05	DROP: 'not Y' is not a statement
+biber2021	78	EXACTLY_WH	–	DROP: frequency
+biber2021	83	CLASS:inserts	P03	DROP: 'in general'; not N
+biber2021	85	CLASS:inserts	morphology	DROP
+biber2021	86	CLASS:inserts	form identity	DROP: criterion (5), noted in the report
+biber2021	89	CLASS:inserts (formulae)	fixedness	DROP: N only for the combinations shown
+biber2021	90	CLASS:interjections	openness	DROP
+biber2021	93	CLASS:expletives	co-occurrence	DROP
+biber2021	96	CLASS:attributive-only	caution	DROP
+biber2021	100	CLASS:polite formulae	P04 changes the category	DROP: category change, noted in the report
+biber2021	102	CLASS:tags	position	DROP
+biber2021: 103 rows, 31 dropped

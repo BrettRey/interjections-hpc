@@ -1,0 +1,15 @@
+<!-- Additions to the existing English entry at [[bastard]], Noun section (Etymology 1). Insert the subsense under sense 3 ("A contemptible, inconsiderate, overly or arrogantly rude or spiteful person"), add the usage-note bullet to the Noun's Usage notes, and add the reference. -->
+
+<!-- 1. Subsense, under sense 3 -->
+## {{lb|en|vulgar|offensive}} Used non-referentially, as a supplement or exclamation, to express contempt for someone mentioned elsewhere in the utterance.
+##: {{ux|en|He's taken my chair again, '''the bastard'''.}}
+##: {{ux|en|'''The bastard'''! Max has taken my chair again.}}
+
+<!-- 2. Usage-note bullet, in ====Usage notes==== under the Noun -->
+* As an epithet, ''bastard'' occurs in constructions in which it doesn't refer to anyone, but expresses the speaker's attitude to someone referred to elsewhere.
+** It can follow the clause (''He's taken my chair again, the bastard''), sit inside it (''Max, the bastard, has taken my chair again''), or precede it (''The bastard! Max has taken my chair again''). This supplementary epithet differs from a left-dislocated noun phrase (''That bastard next door, he's just won a million''), which does refer.
+** When it precedes the clause it forms a separate intonation unit, and in writing an exclamation mark or dash is often preferred to a comma.
+** Source for both points: ''Huddleston & Pullum 2002'', p. 1413. For the exclamatory ''You bastard!'', see {{l|en|you bastard}}.
+
+<!-- 3. Reference, under ===References=== -->
+* {{cite-book|author=Rodney Huddleston; Geoffrey K. Pullum|year=2002|title=The Cambridge Grammar of the English Language|publisher=Cambridge University Press|page=1413}}

@@ -1,0 +1,31 @@
+==English==
+
+===Alternative forms===
+* {{alter|en|habba|habaa|haaba|haabaa}}
+
+===Etymology===
+{{bor+|en|ha|haba}}.
+
+===Pronunciation===
+{{rfp|en}}
+
+===Interjection===
+{{en-intj}}
+
+# {{lb|en|Nigeria}} Expressing strong surprise, often mixed with disbelief or disapproval; ''you can't be serious!'', ''no way!''
+#* {{quote-journal|en|year=2020|author=Foluke Olayinka Unuabonah; Florence Oluwaseyi Daniel|title=Haba! Bilingual interjections in Nigerian English: A corpus-based study|journal=Journal of Pragmatics|volume=163|page=67|doi=10.1016/j.pragma.2020.04.004|passage=Now candidates pay N1,000 to JAMB to print the result themselves. '''Haba'''. There should be some decency and fairness in "revenue generation".|footer=(quoting the Nigerian component of the International Corpus of English)}}
+#* {{quote-journal|en|year=2020|author=Foluke Olayinka Unuabonah; Florence Oluwaseyi Daniel|title=Haba! Bilingual interjections in Nigerian English: A corpus-based study|journal=Journal of Pragmatics|volume=163|page=69|doi=10.1016/j.pragma.2020.04.004|passage=Nija women, wake up pleaaaaaaase and stand up for yourselves. '''Haba''', marriage should be about coming together to become one.|footer=(quoting a web post in the Nigerian component of the GloWbE corpus)}}
+# {{lb|en|Nigeria}} Expressing other strong feelings, such as distress, pity, disgust or despair; occasionally positive surprise.
+#* {{quote-journal|en|year=2020|author=Foluke Olayinka Unuabonah; Florence Oluwaseyi Daniel|title=Haba! Bilingual interjections in Nigerian English: A corpus-based study|journal=Journal of Pragmatics|volume=163|page=70|doi=10.1016/j.pragma.2020.04.004|passage=Cos I'm so upset '''haba'''! Must people make money in such pity, terrible and sad situation like tht|footer=(quoting a web post in the Nigerian component of the GloWbE corpus)}}
+#* {{quote-journal|en|year=2020|author=Foluke Olayinka Unuabonah; Florence Oluwaseyi Daniel|title=Haba! Bilingual interjections in Nigerian English: A corpus-based study|journal=Journal of Pragmatics|volume=163|page=70|doi=10.1016/j.pragma.2020.04.004|passage='''Haba''' Nigerians! Where are we going?|footer=(quoting a web post in the Nigerian component of the GloWbE corpus)}}
+
+====Usage notes====
+* ''Haba'' is free-standing. It usually precedes the utterance it reacts to: 167 of 248 tokens in the Nigerian component of GloWbE precede it, and 81 follow it.
+* It is often followed by an address term (''Haba Jade'', ''Haba, Achebe''), and occasionally preceded by ''but''.
+* ''Haba'' is the usual spelling.
+
+====See also====
+* {{l|en|kai}}, {{l|en|mtchew}}
+
+===References===
+* {{cite-journal|author=Foluke Olayinka Unuabonah; Florence Oluwaseyi Daniel|year=2020|title=Haba! Bilingual interjections in Nigerian English: A corpus-based study|journal=Journal of Pragmatics|volume=163|pages=66–77|doi=10.1016/j.pragma.2020.04.004}}, pages 69–70, 74

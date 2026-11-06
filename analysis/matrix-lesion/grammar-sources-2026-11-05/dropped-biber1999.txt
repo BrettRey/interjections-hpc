@@ -1,0 +1,16 @@
+biber1999	3	CLASS:insert	P03	DROP: 'in general' inability; not N
+biber1999	5	CLASS:insert	morphology	DROP
+biber1999	8	CLASS:insert	boundary	DROP
+biber1999	9	CLASS:insert formulae (thank you, excuse me, good God)	P04 for the variants shown	DROP: N only for the combinations shown (*thank you a lot)
+biber1999	10	CLASS:interjection (LGSWE: oh, ah, wow, ooh, cor, aha, oops/whoops, ugh, ow, ouch, aargh, urgh, tt, hm, ha, yippee, whoopee, wowee, yuck)	definition	DROP
+biber1999	15	CLASS:expletive	scope	DROP: scope of the class (bloody, fucking excluded); kept in the report
+biber1999	17	CLASS:expletive	multiword formulae	DROP
+biber1999	18	CLASS:exclamatory NP, addressee type (you little devil, you silly cow, lazy lot of buggers you; *you bastard!* is assigned here)	position	DROP
+biber1999	23	CLASS:response form	definition and sequence	DROP
+biber1999	24	CLASS:response form	phonetic variant tied to meaning	DROP
+biber1999	25	CLASS:negative backchannels (huh uh, unh unh)	prosody	DROP: prosody of huh uh, unh unh, not inventory bearers
+biber1999	27	CLASS:greetings	initial position	DROP
+biber1999	28	CLASS:discourse markers (well, right, now, I mean, you know, you see; also oh, okay)	position	DROP
+biber1999	36	THE_HELL_WH	category	DROP
+biber1999	58	YES/NO	variants	DROP
+biber1999: 70 rows, 15 dropped

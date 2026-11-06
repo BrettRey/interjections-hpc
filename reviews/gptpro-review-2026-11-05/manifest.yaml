@@ -1,0 +1,9 @@
+date: 2026-11-05
+reviewer: GPT-Pro (ChatGPT), route Brett's own account; output pasted by Brett
+reviewed_bundle: {file: matrix-lesion-review-2026-11-05.zip, sha256: 09f1d49d7c6b8d9d6b9d33871e2a93ceb5e236146c860bc4a6d2b8381920ed42, readme: matrix-lesion-review-2026-11-05/README-REVIEW-HANDOFF.md}
+review: {file: REVIEW.md, saved_by: parent session (Claude Opus 5.5), verbatim, sha256: 68c1b42d1939b44525dbc1a38022080e63ab9f3055e2dd65d4d31e6807e15ddc}
+naive_property_list: {file: NAIVE-PROPERTY-LIST.md, note: "Brett's prompt to a fresh GPT-Pro instance with no project context, and its reply, verbatim; model judgments, not evidence", sha256: 1bebf03691258ec4ec44e58918391a8d0fc6bb778ce0ccc22d60866510c0992e}
+attachment: {file: ~/Downloads/rows-wiktionary.tsv, note: byte-identical to analysis/matrix-lesion/wiktionary-2026-11-05/rows-wiktionary.tsv (the bundle's own file)}
+dependence: shares the record with the Codex and Muse consults of 2026-11-04/05 (all read RESULTS.md and the same files); the bundle excluded their reports
+triage: {file: TRIAGE.md, by: Claude Opus 5.5}
+fixes_applied: [build_long.py scope and value qualifiers (A, B), build_matrix.py hedge lookup and class fields (E), FINDINGS.md criterion and cross-slot candidates, Bearers by Perspective page Version 10]

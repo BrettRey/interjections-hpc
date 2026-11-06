@@ -59,6 +59,9 @@ analysis/matrix-lesion/target-audit/prompt-claude-*.txt
 analysis/matrix-lesion/target-audit/audit-results.json
 analysis/matrix-lesion/target-audit/review-queue.md
 matrix-lesion-study-plan-evaluation-2026-11-03.zip
+# The 2026-11-05 review bundle and its staging folder (copyrighted excerpts, OED notes)
+matrix-lesion-review-2026-11-05.zip
+matrix-lesion-review-2026-11-05/
 # Raw CLI stdout/stderr from model reviews (the verbatim REPORT files are kept)
 reviews/**/codex-stdout.txt
 reviews/**/codex-stderr.txt
@@ -66,3 +69,7 @@ reviews/**/muse-stdout.txt
 reviews/**/muse-stderr.txt
 analysis/matrix-lesion/round7/review-*/codex-stdout.txt
 analysis/matrix-lesion/round7/review-*/codex-stderr.txt
+matrix-lesion-review-2026-11-05-r2.zip
+matrix-lesion-review-2026-11-05-r2/
+# OED quotations, read through UofT access; the file itself says keep private (2026-11-05)
+analysis/matrix-lesion/oed-2026-11-05/

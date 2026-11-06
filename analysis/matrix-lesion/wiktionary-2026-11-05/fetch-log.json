@@ -1,0 +1,352 @@
+[
+ {
+  "page": "ah",
+  "items": [
+   "AH"
+  ],
+  "status": "ok",
+  "revid": 93782184
+ },
+ {
+  "page": "hey",
+  "items": [
+   "HEY"
+  ],
+  "status": "ok",
+  "revid": 93484001
+ },
+ {
+  "page": "oh",
+  "items": [
+   "OH"
+  ],
+  "status": "ok",
+  "revid": 93740167
+ },
+ {
+  "page": "oops",
+  "items": [
+   "OOPS"
+  ],
+  "status": "ok",
+  "revid": 91527396
+ },
+ {
+  "page": "ouch",
+  "items": [
+   "OUCH"
+  ],
+  "status": "ok",
+  "revid": 92541057
+ },
+ {
+  "page": "sh",
+  "items": [
+   "SH"
+  ],
+  "status": "ok",
+  "revid": 91807069
+ },
+ {
+  "page": "ugh",
+  "items": [
+   "UGH"
+  ],
+  "status": "ok",
+  "revid": 93729975
+ },
+ {
+  "page": "wow",
+  "items": [
+   "WOW"
+  ],
+  "status": "ok",
+  "revid": 95414889
+ },
+ {
+  "page": "alas",
+  "items": [
+   "ALAS"
+  ],
+  "status": "ok",
+  "revid": 95371164
+ },
+ {
+  "page": "aha",
+  "items": [
+   "AHA"
+  ],
+  "status": "ok",
+  "revid": 95117440
+ },
+ {
+  "page": "gee",
+  "items": [
+   "GEE"
+  ],
+  "status": "ok",
+  "revid": 93788712
+ },
+ {
+  "page": "tut-tut",
+  "items": [
+   "TUTTUT"
+  ],
+  "status": "ok",
+  "revid": 89191759
+ },
+ {
+  "page": "tut",
+  "items": [
+   "TUTTUT"
+  ],
+  "status": "ok",
+  "revid": 93746309
+ },
+ {
+  "page": "damn",
+  "items": [
+   "DAMN_REACT",
+   "DAMN_NP",
+   "DAMN_PRENOM",
+   "DAMN_DEGREE"
+  ],
+  "status": "ok",
+  "revid": 94551986
+ },
+ {
+  "page": "bang",
+  "items": [
+   "BANG_DEPICT",
+   "BANG_NOUN"
+  ],
+  "status": "ok",
+  "revid": 94586626
+ },
+ {
+  "page": "mm-hm",
+  "items": [
+   "MMHM"
+  ],
+  "status": "ok",
+  "revid": 87656132
+ },
+ {
+  "page": "huh",
+  "items": [
+   "HUH"
+  ],
+  "status": "ok",
+  "revid": 93626740
+ },
+ {
+  "page": "bye",
+  "items": [
+   "BYE"
+  ],
+  "status": "ok",
+  "revid": 93682799
+ },
+ {
+  "page": "okay",
+  "items": [
+   "OKAY"
+  ],
+  "status": "ok",
+  "revid": 94565122
+ },
+ {
+  "page": "yes",
+  "items": [
+   "YES"
+  ],
+  "status": "ok",
+  "revid": 94609407
+ },
+ {
+  "page": "no",
+  "items": [
+   "NO"
+  ],
+  "status": "ok",
+  "revid": 95308599
+ },
+ {
+  "page": "thanks",
+  "items": [
+   "THANKS"
+  ],
+  "status": "ok",
+  "revid": 94633800
+ },
+ {
+  "page": "sorry",
+  "items": [
+   "SORRY"
+  ],
+  "status": "ok",
+  "revid": 94572503
+ },
+ {
+  "page": "hello",
+  "items": [
+   "HELLO"
+  ],
+  "status": "ok",
+  "revid": 95307852
+ },
+ {
+  "page": "bloody",
+  "items": [
+   "BLOODY_PRENOM",
+   "BLOODY_INTENS",
+   "BLOODY_INFIX"
+  ],
+  "status": "ok",
+  "revid": 94548228
+ },
+ {
+  "page": "heavens",
+  "items": [
+   "HEAVENS"
+  ],
+  "status": "ok",
+  "revid": 93699288
+ },
+ {
+  "page": "coffee",
+  "items": [
+   "COFFEE"
+  ],
+  "status": "ok",
+  "revid": 95372560
+ },
+ {
+  "page": "stop",
+  "items": [
+   "STOP"
+  ],
+  "status": "ok",
+  "revid": 94626203
+ },
+ {
+  "page": "black",
+  "items": [
+   "BLACK"
+  ],
+  "status": "ok",
+  "revid": 95358143
+ },
+ {
+  "page": "quickly",
+  "items": [
+   "QUICKLY"
+  ],
+  "status": "ok",
+  "revid": 94594919
+ },
+ {
+  "page": "how are you",
+  "items": [
+   "HOWAREYOU"
+  ],
+  "status": "ok",
+  "revid": 95308720
+ },
+ {
+  "page": "lah",
+  "items": [
+   "LAH"
+  ],
+  "status": "ok",
+  "revid": 93508393
+ },
+ {
+  "page": "haba",
+  "items": [
+   "HABA"
+  ],
+  "status": "ok",
+  "revid": 92722400
+ },
+ {
+  "page": "bastard",
+  "items": [
+   "BASTARD_SUPP",
+   "YOU_BASTARD"
+  ],
+  "status": "ok",
+  "revid": 93943925
+ },
+ {
+  "page": "you bastard",
+  "items": [
+   "YOU_BASTARD"
+  ],
+  "status": "missingtitle"
+ },
+ {
+  "page": "fucking",
+  "items": [
+   "FUCKING_PRENOM"
+  ],
+  "status": "ok",
+  "revid": 94556233
+ },
+ {
+  "page": "-bloody-",
+  "items": [
+   "BLOODY_INFIX"
+  ],
+  "status": "ok",
+  "revid": 94533988
+ },
+ {
+  "page": "the hell",
+  "items": [
+   "THE_HELL_WH"
+  ],
+  "status": "ok",
+  "revid": 93727586
+ },
+ {
+  "page": "hell",
+  "items": [
+   "THE_HELL_WH"
+  ],
+  "status": "ok",
+  "revid": 94509893
+ },
+ {
+  "page": "very",
+  "items": [
+   "VERY_INTENS"
+  ],
+  "status": "ok",
+  "revid": 94591570
+ },
+ {
+  "page": "exactly",
+  "items": [
+   "EXACTLY_WH"
+  ],
+  "status": "ok",
+  "revid": 93692915
+ },
+ {
+  "page": "main",
+  "items": [
+   "MAIN_PRENOM"
+  ],
+  "status": "ok",
+  "revid": 94593410
+ },
+ {
+  "page": "probable",
+  "items": [
+   "PROBABLE_PRENOM"
+  ],
+  "status": "ok",
+  "revid": 93031544
+ }
+]

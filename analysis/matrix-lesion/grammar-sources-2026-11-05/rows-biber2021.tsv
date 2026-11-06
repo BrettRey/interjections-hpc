@@ -1,0 +1,104 @@
+source	item_id	property	value	scope	quote	page	note
+biber2021c14	DAMN_REACT	P01 STANDALONE	Y	item	A: I know what I forgot to get in town. Damn!	1089	Complete turn; listed as a taboo expletive.
+biber2021c14	DAMN_REACT	class membership	–	item	damn, classed above as a taboo expletive because of its taboo religious associations, is a much milder term	1089	So the CLASS:expletives position and prosody rows apply to DAMN_REACT.
+biber2021c14	DAMN_REACT	frequency	–	item	primarily expletives (as inserts)	1093	Symbol counts from the text extraction; check against the PDF.
+biber2021c14	DAMN_REACT	frequency	–	item	each ⬛ represents c. 50 ⎕ represents less than 25	1093	Symbol counts from the text extraction; check against the PDF.
+biber2021c14	DAMN_NP	P04 DEPENDENTS	Y	item	damn you, bugger me (BrE), fuck that, sod the choir (BrE). These have the appearance of imperatives, but are clearly not – in the first example, an imperative would contain yourself not you.	1097	"""Historically, they are subjunctive clauses, but in the present context we treat them simply as formulae with phrasal elaborations"" (same page)."
+biber2021c14	DAMN_PRENOM	P03 INTEGRATED	Y	item	Let’s serve this damn chilli.	1034	"Also ""particularly the use of deictics in D2 (this damn chilli)"" (1037). *This* determines *chilli*, not *damn*, so this is no P06 evidence for damn."
+biber2021c14	DAMN_PRENOM	(register)	–	item	lexical choice (e.g. of get, damn, and cute)	1044	Vernacular word choice. Use not specified.
+biber2021c07	DAMN_DEGREE	P03 INTEGRATED	Y	item	I got that speeding ticket and now I’m making damn [sure] I don’t speed.	560	Listed as an informal amplifier.
+biber2021c07	DAMN_DEGREE	frequency	–	item	immediately preceding adjectives	561	
+biber2021c07	DAMN_DEGREE	frequency	–	item	each • represents 50	561	
+biber2021c07	BLOODY_INTENS	P03 INTEGRATED	Y	item	You’re stupid, you’re bloody [stupid]!	560	"Also ""it were bloody rank, it was."" (1118, 14.4.5)."
+biber2021c07	BLOODY_INTENS	(register/dialect)	–	item	bloody and absolutely are more common in BrE.	560	Table 7.12: bloody BrE ••, AmE none, ACAD none (561).
+biber2021c07	BLOODY_INTENS	occurs inside a standalone AP	–	item	Excellent! Bloody brilliant! Rough! Uncanny! Sorry! Alright! Oh horrible!	518	The AP is the exclamation; bloody is a modifier inside it. Not P01 for bloody itself.
+biber2021c14	BLOODY_PRENOM	P03 INTEGRATED	Y	item	Such words are not themselves inserts, and can combine with other words in the normal clausal syntax of English, as in It cost me ten bucks just to get the bloody picture taken (AmE).	1089	"Further examples: ""those two rooms look as if a bloody tip has hit it!"" (1049); ""This is, God, a bloody afternoon wasted!"" (1089); ""Oh, make your bloody mind up boy!"" (1104)."
+biber2021c14	BLOODY_PRENOM	inside an exclamatory NP	–	item	The bloody key! – The key to the bloody boiler!	1097	The NP is the exclamation; bloody is inside it.
+biber2021c14	BLOODY_PRENOM / BLOODY_INTENS	outside the insert/expletive class	–	class	We do not include under expletives non-exclamatory taboo expressions (‘swearwords’), such as the adjectives or adverbs bloody (especially BrE) and fucking	1089	"Exception given: ""unless these are habitually combined with words otherwise classed as expletives, as in bloody hell"" (the quote breaks at ""ha-/bitually"")."
+biber2021c07	bloody (use?)	P05 INFLECTS	Y?	item	Common examples usually taking -er, -est include: angry, bloody, busy, crazy, dirty	520	**Can't tell which use.** Probably literal *bloody* ('covered in blood'). Don't code BLOODY_PRENOM or BLOODY_INTENS from this.
+biber2021c14	FUCKING_PRENOM	P03 INTEGRATED	Y	item	Shit, play a fucking domino goddammit.	1089	"Also ""we make more fucking money than anyone"" (1089): fucking sits between *more* and the head."
+biber2021c14	fucking (degree use; no row)	–	–	item	Fuck, I feel fucking sweaty, I can feel it already.	1089	"A degree use with an adjective host. Biber calls fucking ""adjectives or adverbs"" and never says attributive-only. This bears on the ""attributive-only"" gloss of FUCKING_PRENOM."
+biber2021c14	YOU_BASTARD	outside expletives; meaning tied to class	–	item	We also exclude taboo insults such as you bastard (14.3.4.2G), which are abusive exclamations, and refer to people, whereas true expletives have a vaguer situational application.	1089	Biber ties the exclusion to reference to people.
+biber2021c14	YOU_BASTARD	P01 STANDALONE	Y	item	You bastard, Peter!	1105	"Comes with a vocative tag: ""both types of noun phrase can occur in the same utterance, with the vocative modifying the insult""."
+biber2021c14	YOU_BASTARD	P02 SUPPLEMENT	Y	class (insulting exclamatory NPs)	These exclamatory noun phrases superficially resemble vocatives, and can combine, like vocatives, with an imperative or other clausal unit	1097	"Examples given are ""you little devil"", ""you silly cow"", not *you bastard* itself. NP-internal form: ""One type (referring to the addressee) contains you either at the beginning or the end or both"" (1097)."
+biber2021c14	BASTARD_SUPP	P06 NOMINAL_COMB (determiner)	Y	class	Another type is directed to third persons, and can be introduced by the definite article	1097	Example *the dirty bugger*, not *the bastard*. **Can't tell** whether the use is supplementary or standalone.
+biber2021c14	THE_HELL_WH	P03 INTEGRATED (inside an interrogative)	Y	item	I thought I wonder where the hell he’s gone	1047	"Also ""Don’t know where the hell she’ll sleep,"" (1073). These are examples only, with no statement about after-wh position."
+biber2021c14	THE_HELL_WH	category assignment	–	class	Note: Taboo or semi-taboo terms like fuck, shit, hell, and heck are often more frequent in non-expletive uses, which are not counted here. For example, with such uses these forms function as verbs or nouns: Fuck off, What the hell…	1092	Biber classes *hell* in *What the hell* as a noun use and excludes it from the insert counts.
+biber2021c14	(the heck after wh; no row)	–	–	item	what the heck’s the name of that hotel we stayed?	1059	Parallel to THE_HELL_WH.
+biber2021c14	(on earth after wh; no row)	–	–	item	Ah, daddy what on earth did you let him do that for dear?	1103	Example only.
+biber2021c14	(bloody hell / fucking hell’s bells)	formulaic combination with expletive nouns	–	class	we do include purely formulaic multi-word, expressions, such as my God or bloody hell.	1089	"Also ""Fucking hell’s bells – Hell’s bells and little fishes you"" (1097)."
+biber2021c14	OH	P01	Y	item	words like Oh, Yeah, and Uh huh, for example, frequently occur alone as a response turn	1077	"Also ""A: Oh."" (1071)."
+biber2021c14	OH	P02	Y	item	Oh, I should have let you read the paper, I never thought of it.	1078	
+biber2021c14	OH	medial occurrence	Y	item	I went up to, oh, I went up to <unclear> yesterday.	1070	Inside a restart.
+biber2021c14	OH	frequency	–	item	each ⬛ represents c. 500	1091	"""Oh is by far the most common interjection."" (1078)."
+biber2021c14	AH	P01	Y	item	Seriously! Ah! It’s people like him / really bug me	1078	"Biber writes ""Ah (in its core use)13"". The footnote text isn't in the file, so I can't confirm the core use matches the AH receipt use."
+biber2021c14	AH	P02 / P12I (by transcription)	Y	item	B: Ah isn’t that nice.	1078	No punctuation, which Biber reads as attachment.
+biber2021c14	AH	frequency	–	item	each ⬛ represents c. 50	1092	Check the BrE count against the PDF.
+biber2021c14	WOW	P01 / P02	Y / Y	item	B: Wow.	1078	Table 14.10: AmE 8, BrE 1 (1092).
+biber2021c14	WOW	P01 / P02	Y / Y	item	Oh wow, they really did that tree nice. Wow.	1078	Table 14.10: AmE 8, BrE 1 (1092).
+biber2021c14	OOPS	P02	Y	item	Yeah you can go right thro – oops maybe you can’t	1079	After a self-interruption.
+biber2021c14	OOPS	P10A (adjacent)	Y	item	Ooh! I’ve got too many. Oops oops.	1079	"""Oops and Whoops can be seen as variants of the same interjection""."
+biber2021c14	OUCH	P02 / P12I (by transcription)	Y	item	Tt ooh! Ouch my neck hurts. Mm.	1079	"Meaning: ""ow and ouch give voice to (typically physical) pain""."
+biber2021c14	UGH	P01 / P02	Y / Y	item	A: Ugh.	1079	
+biber2021c14	UGH	P01 / P02	Y / Y	item	B: Ugh it reeks.	1079	
+biber2021c14	UGH	P13	Y	class	un-English consonants such as the velar fricative /x/; medial /h/; lack of an oral vowel sound. – e.g. /mhm/	1076	"Ugh is named in the group (""this applies to interjections (such as ugh, ooh)""), but /x/ isn't assigned to ugh specifically. Class scope only."
+biber2021c14	TUTTUT	P13	Y	item	Tt (an alveolar click, which is often repeated) registers some degree of regret or disapproval	1079	The same quotation supports P10A Y (repetition). Table 14.10: tt AmE ⎕, BrE ⬛ (1092).
+biber2021c14	AHA	medial, between clauses	Y	item	Let’s see, aha, this one is yours.	1079	Table 14.10: AmE ⎕, BrE ⬛⬛⬛⬛.
+biber2021c14	GEE	P02	Y	item	Oh boy, gee you’ve got some nice pictures.	1090	Classed as a moderated expletive.
+biber2021c14	GEE	P08	Y	item	some expletives in this class (e.g. gosh and gee) can easily associate with pleasant, as well as unpleasant, experiences.	1090	"Same page: ""similar in function to interjections such as oh and wow""."
+biber2021c14	HEAVENS	P01	Y	item	B: Heavens!	1090	"Table 14.10 lists ""(good) heavens"" among less frequent forms (1093)."
+biber2021c14	HEY	P02	Y	item	Hey Rob do you want to lend me fifty p?	1083	"Also ""hey in the following simply adds an emotive ‘punch’ to the speaker’s remark"" (1083)."
+biber2021c14	HEY	medial	Y	item	Oh you’re not, hey you’re not supposed to say that.	1083	
+biber2021c14	HEY	P10A / P10S (adjacent)	Y / Y?	item	4–6 show clear cases of deliberate repetition for intensifying or attention-getting purposes	1050	"Example 5 is ""Hey, hey, hey, hey, hey"". The stated purpose is a disjunction, so P10S is only a candidate. Hey as an AmE greeting (1080) is a different use. Table 14.10: AmE 12, BrE 2 (1092)."
+biber2021c14	MMHM	P01	Y	item	B: Mhm.	1085	"Mhm is listed with mm and uh huh as forms ""more likely to take a backchannel function""."
+biber2021c14	MMHM	P13	Y	item	lack of an oral vowel sound. – e.g. /mhm/	1076	Explicit for mhm.
+biber2021c14	HUH	P01	Y	item	B: Huh?	1087	"Same use as the row: ""As response forms, they signal lack of understanding and a wish to have the message repeated."" (1086). Table 14.10: AmE 10, BrE 1 (filed under response elicitors)."
+biber2021c14	OKAY	P01 / P02	Y / Y	item	A: Okay.	1085	"""Okay serves as a routine compliant response not only to directives but to a range of other speech acts relating to future actions"" (1085)."
+biber2021c14	OKAY	P01 / P02	Y / Y	item	A: Okay, I’ll meet you over there. / Alright.	1069	"""Okay serves as a routine compliant response not only to directives but to a range of other speech acts relating to future actions"" (1085)."
+biber2021c14	OKAY	position	–	item	approximately one okay in ten is preceded by an unfilled pause, whereas one okay in 113 is preceded by a filled pause (uh or um)	1048	"""okay is very typically used as an insert coming at the beginning or end of a major grammatical unit"" (1048). Table 14.9: AmE 11 ⬛, BrE 1 ⬛ (c. 500 each) (1091)."
+biber2021c14	YES	P01 / P02	Y / Y	item	A: Yes.	1096	"""yeah (/jɛә/), is appropriately treated as canonical in conversational English, where it is considerably more frequent than yes"" (1084). Table 14.9: yes AmE 3, BrE 6 (1091)."
+biber2021c14	YES	P01 / P02	Y / Y	item	B: Yes It was very pleasant.	1084	"""yeah (/jɛә/), is appropriately treated as canonical in conversational English, where it is considerably more frequent than yes"" (1084). Table 14.9: yes AmE 3, BrE 6 (1091)."
+biber2021c07	NO	P01 / P02	Y / Y	item	B: No.	548	Table 14.9: no AmE 11, BrE 11 (1091), insert use only.
+biber2021c14	NO	P01 / P02	Y / Y	item	B: No, I’m going to stick it in an envelope	1084	Table 14.9: no AmE 11, BrE 11 (1091), insert use only.
+biber2021c14	HELLO	P01 / P02	Y / Y	item	A: Hello, Joyce.	1080	"""a vocative commonly follows the greeting word, which can also introduce a more extended utterance"". Table 14.10: AmE 4, BrE 6 (1092)."
+biber2021c14	HELLO	P01 / P02	Y / Y	item	Hello, can I have a three pound fifty car wash please.	1080	"""a vocative commonly follows the greeting word, which can also introduce a more extended utterance"". Table 14.10: AmE 4, BrE 6 (1092)."
+biber2021c14	BYE	P01	Y	item	A: Okay. Bye Butch.	1080	"Lexicalized reduplication: ""B: Bye bye."" Table 14.10: bye AmE 2/BrE 2, bye bye AmE 2/BrE 1 (1092)."
+biber2021c14	THANKS	P04	Y	item	Hey thanks for the note, Tom.	1075	"Also ""Thanks a lot, sorry about that."" (1098) and ""*thank you a lot (contrast thanks a lot)"" (1077). Biber stops calling formulae inserts when they take complements (§3)."
+biber2021c14	SORRY	P01 / P02 / P04	Y / Y / Y	item	B: Sorry. <apologizing>	1088	Same caveat as THANKS. Sorry also appears among adjectives as exclamations on p. 518.
+biber2021c14	SORRY	P01 / P02 / P04	Y / Y / Y	item	Sorry, I didn’t mean to scare you.	1087	Same caveat as THANKS. Sorry also appears among adjectives as exclamations on p. 518.
+biber2021c14	SORRY	P01 / P02 / P04	Y / Y / Y	item	Sorry to keep bothering you.	1088	Same caveat as THANKS. Sorry also appears among adjectives as exclamations on p. 518.
+biber2021c14	STOP	P04	Y	item	Hey stop bitching (BrE)	1083	
+biber2021c14	HOWAREYOU	–	–	–	hey, howdy, and how (are) you doing in AmE	1080	"Not the same string as the row. Also ""How do you do?"" (1104)."
+biber2021c07	VERY_INTENS	P03 / class	Y	class	Some of these modify gradable adjectives and indicate degrees on a scale. They include more, very, so, too, extremely, and good and (7.10.2)	551	Very and bloody/damn are in the same amplifier class and the same table. Table 7.12: very BrE 16 •, AmE 12, ACAD 12 (561).
+biber2021c14	VERY_INTENS	P10A (adjacent)	Y	item	Thank you very, very, very, very much.	1088	
+biber2021c14	VERY_INTENS	inside a standalone AP	–	item	Very special. Prawns in it and all sort	1096	"The same host-standalone pattern as ""Bloody brilliant!""."
+biber2021c14	VERY_INTENS	inside a standalone AP	–	item	B: Very pretty.	1078	"The same host-standalone pattern as ""Bloody brilliant!""."
+biber2021c07	MAIN_PRENOM	class	–	class	final, following, general, initial, internal, left, main, maximum	507	"Relational classifier. Grading: ""Classifier adjectives are generally non-gradable."" (519), so U (tend.). Table 7.3: main NEWS ⬛, ACAD ⬛⬛ (510). No attributive-only statement for main."
+biber2021c07	BLACK	P03, P05, P04, P07D	Y	class (central adjectives)	central adjectives – such as black, big, new – all have the core defining characteristics of adjectives: they are descriptive in meaning, gradable, inflected morphologically, and can be used in both attributive and predicative roles	505	"Continues: ""descriptive in meaning, gradable, inflected morpho-[logically], and can be used in both attributive and predicative roles""."
+biber2021c07	QUICKLY	P04	Y	item	It couldn’t turn [quickly enough] to follow them.	547	"Also ""[more quickly] than anyone expects"" (546)."
+biber2021c07	QUICKLY	P05	not Y	item	(i.e. quicker v. more quickly)	547	The inflected comparative belongs to *quick*. *Quickly* only shows phrasal comparison.
+biber2021c07	EXACTLY_WH	–	–	–	at least 200	557	"""B: Exactly. Exactly."" (548) is the standalone agreement use, a different use. No exactly-after-wh found."
+biber2021c07	(else after wh; no row)	after-wh postmodifier	Y	item	else is used as a postmodifier of indefinite and wh-pronouns	559	"""[What] else happened at school today?"": a non-expressive item that occurs after wh-words."
+biber2021c14	CLASS:inserts (central)	P01	Y	class	(1) They may appear on their own, i.e. not as part of a larger grammatical structure.	1077	Oh, Yeah, Uh huh, Hi, ugh, ooh, mhm, mm, uh
+biber2021c14	CLASS:inserts	P12I	Y	class	(2) On the other hand, they may appear attached (prosodically, or, in the transcription, by absence of punctuation) to a larger structure	1077	Identified by transcription, not by audio.
+biber2021c14	CLASS:inserts	medial position	U (tend.)	class	(3) They rarely occur medially in a syntactic structure.	1077	"""rarely"" is not N."
+biber2021c14	CLASS:inserts	P03	U (tend.)	class	they are stand-alone words which are characterized in general by their inability to enter into syntactic relations with other structures.	1076	"Hedged by ""in general""."
+biber2021c14	CLASS:inserts	P04	Y	class	(sometimes occurring with added modifiers, as in Hi there)	1076	
+biber2021c14	CLASS:inserts	morphology	–	class	(4) They are morphologically simple.	1077	Not an invariance statement, so not P05 N.
+biber2021c14	CLASS:inserts	form identity	–	class	(5) They are not homonyms of words in other word classes.	1077	Sorry, God, okay, right, yes and no fail this criterion (§3).
+biber2021c14	CLASS:inserts	P07D	N	class	(6) Semantically, they have no denotative meaning their use is defined rather by their pragmatic	1077	A defining criterion for central members only.
+biber2021c14	CLASS:inserts	P13	Y	class	Such vocables as these often have uncharacteristic features	1076	Pairs with the /x/, /h/, /mhm/ quotation above.
+biber2021c14	CLASS:inserts (formulae)	fixedness	N for the starred forms	class	?*thank me, *thank you a lot (contrast thanks a lot), ?*excuse me a little (non-occurring as an apology), ?*almighty God	1077	
+biber2021c14	CLASS:interjections	openness	–	class	It is, indeed, to some extent an open-ended class.	1080	"Defined by meaning: ""inserts which have an exclamatory function, ex-[pressive]"" (1078)."
+biber2021c14	CLASS:expletives (inserts)	position	Y for standalone and initial; occasional final; medial U (tend.)	class	Their most common positions are (a) stand-alone occurrence, often as a complete turn, and (b) initial occurrence within a clause, utterance, or turn.	1088	"Continues: ""They also occasionally occur in final position in a clause. Medial position is very rare, except in the special case of introducing direct speech quotation"". Members: God, my God, damn, hell, shit, fuck, Christ, gosh, gee, heavens, etc. (Table 14.10, 1093)."
+biber2021c14	CLASS:expletives	P12I	Y	class	Like other inserts, expletives are relatively detached elements, although they can be linked prosodically to a larger syntactic unit.	1088	
+biber2021c14	CLASS:expletives	co-occurrence	–	class	Expletives also very often co-occur with other inserts, especially interjections like Oh hell.	1089	
+biber2021c07	CLASS:amplifiers (informal)	register	–	class	They include: bloody (in BrE conversation), damn, incredibly, terribly, real (especially in AmE conversation), and really	560	"Introduced as ""informal amplifiers which are generally not used in academic prose"". The list includes non-expressive really, real and terribly."
+biber2021c07	CLASS:attributive-only / predicative-only	N (starred)	N for unable and mere	class	cf. *An unable Heisenberg could not answer them.	505	"Also ""*... by a boy who was mere"" and ""unable is used only predicatively, while mere is used only attributively."" No expressive form is listed."
+biber2021c07	CLASS:attributive-only	caution	–	class	However, these patterns are usually not absolute: rather, most peripheral adjectives show a strong preference for either an attributive or a predicative role	506	"""the adjective mere is attested only in attributive position."" (506)"
+biber2021c07	CLASS:non-gradable / classifiers	P04/grading N (starred)	N for previous, motionless, continuous, dental	class	such as *more previous, *very motionless, and *most continuous	519	"Also ""admits no comparison (*more dental, *dentalest) and no degree modification (*very dental)"" and ""*absolutely utter or *quite previous""."
+biber2021c07	CLASS:adverbs standing alone	P01	Y	class	adverbs can stand alone as structurally unconnected elements (see 3.15 and 14.3.4), and even as complete utterances.	547	
+biber2021c07	CLASS:adjectives as exclamations	P01 (AP)	Y	class	(A number of these could alternatively be regarded as inserts; 2.5).	518	Great!, Good!, Sorry!, Bloody brilliant!
+biber2021c14	CLASS:polite formulae	P04 changes the category	–	class	In such constructions we do not consider them to be inserts, since they take part in free constructions	1088	
+biber2021c14	CLASS:hesitators	medial position	Y	class	Filled pauses occur at lesser or medial syntactic boundaries	1048	uh/er, um/erm
+biber2021c14	CLASS:tags	position	–	class	tags seem to be fairly free in their ordering, and this underlines their character as items which are peripheral to syntax and positionally relatively unconstrained	1076	

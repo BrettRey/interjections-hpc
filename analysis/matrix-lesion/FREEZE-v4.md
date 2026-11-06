@@ -245,11 +245,18 @@ posterior probability of the member class.
   shared diagnostic, so that drift between them through it is visible.
   P07 stays in both primary sets: meaning is one of the converging
   diagnostics for the lexical category, not only a target.
-- **Families and derived states (2026-11-05).** Diagnostics of one
-  family (section 6) are pooled: a row's visible cells in one family
-  share weight 1 in the fit, as a testimony unit's cells do, so one
-  mechanism doesn't count as several. Correlated properties are not
-  merged unless one follows logically from the other. Derived states
+- **Families and derived states (2026-11-05).** How a family (section 6)
+  is pooled depends on what it records, so that one mechanism doesn't
+  count as several and distinct facts aren't counted as one. A family
+  declared to record one fact (TRUTH_CONDITIONAL: P07D and P11E) counts
+  once: its visible cells on a row share weight 1, as a testimony unit's
+  cells do. A family of distinct facts under a joint constraint
+  (POSITION: P01–P03) keeps full weight per cell, with the constraint
+  enforced. The determinatives codebook pools columns within
+  super-columns partially, in a hierarchical model; the two-class model
+  here has no such level, so the rule is stated family by family.
+  Correlated properties are not merged unless one follows logically
+  from the other. Derived states
   (the POSITION family's standalone-only state, and every x) are never
   coded and never enter the fit. The relatedness facts (roots and word
   form, section 6) are never diagnostics; the analysis runs with and
@@ -746,7 +753,10 @@ P07D for both groupings, lower P11E for EXPRESSIVE.
   boundary is not by itself the target observation.
 - **P13:** state the speech community whose phonology supplies the
   baseline and distinguish a permitted variant's existence from evidence
-  excluding all such variants.
+  excluding all such variants. A documented ordinary pronunciation is
+  recorded as the descriptor P13D and leaves P13 unknown in the primary
+  record. A declared sensitivity reads P13D = Y as P13 = N and reports how
+  many IPA lines each cell rests on (decision call 3, Brett, 2026-11-05).
 - **P14:** identifying glosses are descriptors of rows, not independently
   recovered sequential consequences. P14 is not a candidate target in
   its current form.

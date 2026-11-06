@@ -1,0 +1,11 @@
+cgel2002	2	CLASS:attributive-only adjectives	definition	DROP
+cgel2002	12	BLOODY_INTENS	modifies verbs (–v)	DROP: U (no -v mark is silence)
+cgel2002	15	DAMN_DEGREE (use uncertain)	clause-level *damn well*	DROP: damn well is a clause-level use not in the inventory
+cgel2002	18	VERY (adjective, not VERY_INTENS)	homonymy	DROP: the adjective very, not VERY_INTENS
+cgel2002	19	CLASS:degree adverbs	no 'intensifier' category	DROP: warning, kept in the report
+cgel2002	26	PROBABLE_PRENOM	P04 / pro-form	DROP: U
+cgel2002	29	CLASS:interjection	members	DROP
+cgel2002	35	DAMN_REACT	reanalysis	DROP
+cgel2002	40	BASTARD_SUPP	meaning tied to supplement function	DROP
+cgel2002	43	CLASS:epithet	form tied to epithet use	DROP: a preference for some over a, not a possibility claim
+cgel2002: 67 rows, 10 dropped

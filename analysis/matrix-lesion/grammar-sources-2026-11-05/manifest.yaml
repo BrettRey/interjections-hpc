@@ -1,0 +1,22 @@
+date: 2026-11-05
+question: "what do the reference grammars state about the bearers' form (distribution, position, morphology, prosody), so that form properties can be tested against rows of every kind, not only same-slot controls? (Brett: \"you say the remaining place is the grammars. OK, look there\"; then \"get Carter & McCarthy and the full Biber through UofT\"; reading targeted, \"ok, targeted is fine\")"
+brief: BRIEF.md (GBRIEF, shared by the grammar agents)
+sources:
+  cgel2002: {letter: H, file: literature/00-CGEL.pdf, sha256: fcc672b9f0dc47a9215b81207dd543d11af967f21d531ed60b89be61331bad31, text: "pdftotext -layout, page-marked (cgel2002-paged.txt, sha256 3bea304335b91ec51e933c01e98b3726b602cca4d183135c465af7ae2cda093b)", offset: "printed = pdf - 20"}
+  quirk1985: {letter: Q, file: literature/quirk-et-al-1985-comprehensive-grammar-of-the-english-language.pdf, sha256: fb9b4314ce8c341c708434d4e3d94bf90d69705acb31c15e176c79d4326b1af1, text: "pdftotext -layout of an OCR'd scan, two-page spreads, page-marked (quirk1985-paged.txt, sha256 c2c7482aac7445bb9158e71fc386a39987814c4606d31f6992d6611dbb7533ce)", offset: "none; checked against running heads"}
+  sie2005: {letter: S, file: literature/huddleston_pullum_2005_students_introduction_english_grammar.pdf, sha256: 61fa851d1a4e6a5792ded59b650685e685f55031d96d95ea2c5d5d13de506989, text: "sie2005-paged.txt, sha256 0a690acd5ca7b9dcd36ddf8c58e1d90721ef3fea1e02f675cc052c2d59e80b87", offset: "printed = pdf - 8"}
+  biber1999: {letter: B, file: literature/biber1999-lgswe-inserts-ocr.txt, sha256: e23f482777f8ef891ae8f0c22f3f4f95cb4cba3319250d4cec24546d9bba967a, text: "OCR of ch. 14 pp. 1079-1104, two-page spreads", offset: "none; checked against running heads"}
+  biber2021: {letter: R, files: "literature/biber_et_al_2021_gswe_c07.pdf, _c14.pdf (UofT access, 2026-11-05)", text: "biber2021-c07-paged.txt, biber2021-c14-paged.txt", offset: "c07 printed = pdf + 499; c14 printed = pdf + 1029"}
+testimony_families: "H with S; Q with B and R (Leech co-wrote all three; Biber et al. 2021, p. xxxii, borrowed Quirk's 'grammatical framework of concepts and terminology' 'with few exceptions'). Separate letters, one count each family (build_matrix.py FAMILY)."
+agents:
+  route: Claude Code subagents, type responsibility-reader (Read, Grep, Glob only), model Claude Opus 5.5
+  reports:
+    REPORT-cgel2002.md: 2014064bcc89ba6cf62b0f4ced0a67031d83d172def0b4bb297f797f938f9e9b
+    REPORT-quirk1985.md: a5b4adaae5a1f76a931510e616ef30f31604cefbef71854908307cf40de53984
+    REPORT-biber2021.md: dd61b7a8f116ab651f9aa287a94d80ff6cf598e3dd6b28793ed9dcaf4aafb07d
+    REPORT-sie2005-biber1999.md: d149651387fdd41af1728db85c116cecb4ce937774569f72dcdcc8ca703cd4bd
+  notes: "the Quirk agent delivered a partial report on request (unread sections in its section 4); reports saved verbatim by the parent with extract_report.py"
+pipeline: "parse_tables.py / parse_bullets.py (Biber 2021: an inline parser, its class table having no scope column; rows routed to c07 or c14 by page) -> rows-<src>.tsv; check_quotes_g.py (results quote-checks/RESULTS.txt: no quotation missing; PAGE flags explained there); normalize_grammar.py (hand mapping of every report row to a matrix column, with polarity and hedges; dropped rows and reasons in quote-checks/DROPPED.txt) -> norm-<src>.tsv; build_long.py and build_matrix.py in ../expressive-sources-2026-11-05/"
+status: development data under FREEZE-v4 section 9, not study data; reports and rows contain short copyrighted excerpts
+quote_check_totals: "CGEL 67/67; Quirk 59 found, 52 on a readable head, 7 on PDF 715/717 whose heads are unreadable (neighbouring spreads place them as cited); SIEG 17/17; LGSWE 70 found, 69 on the cited page, 1 parse defect repaired; GSWE 103/103. None missing."
+page_image_readings: "Quirk §18.59 Note [b] opening (PDF 717)"

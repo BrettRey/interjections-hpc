@@ -1,0 +1,21 @@
+== cgel2002
+{'OK': 67, 'PAGE': 0, 'MISSING': 0}
+== quirk1985
+PAGE	quirk1985	CLASS:tag exclamation	clause edges (final or initial)	cited 1418	found pdf717(heads 14/18/1929/1968/1970/1971/1972)	The exclamatory tag is furtller distinguished by being capable of (i) referring 
+PAGE	quirk1985	BLOODY_INTENS	P03	cited 1418	found pdf717(heads 14/18/1929/1968/1970/1971/1972)	His lwork is'bloody iwl'ull
+PAGE	quirk1985	CLASS:expletive (in a clause)	placed just before the point of main emphasis	cited 1418	found pdf717(heads 14/18/1929/1968/1970/1971/1972)	Compare tniesis (App 1.76 Note [c]) where the inserted amplific;~tionis usui~lly
+PAGE	quirk1985	CLASS:expletive	position doesn't match scope	cited 1418	found pdf717(heads 14/18/1929/1968/1970/1971/1972)	it is not of course thc final noun phrase as such that calls for...expletive com
+PAGE	quirk1985	CLASS:expletive	P10A, distributed recurrence of different expletives	cited 1418	found pdf717(heads 14/18/1929/1968/1970/1971/1972)	colouring (especially in exasperation) is expressed at addition;ll points in the
+PAGE	quirk1985	CLASS:expletive	prosody as an alternative to the word	cited 1418	found pdf717(heads 14/18/1929/1968/1970/1971/1972)	Alternatively the 'scope' of the colouring as well as the colouring itself can b
+PAGE	quirk1985	CLASS:emotive emphasis	class membership	cited 1414	found pdf715(heads 10/11/30/55/8)	provides means of giving a unit purely emotive emphasis....interjections (cf 11.
+{'OK': 52, 'PAGE': 7, 'MISSING': 0}
+== sie2005
+{'OK': 17, 'PAGE': 0, 'MISSING': 0}
+== biber1999
+PAGE	biber1999	THE_HELL_WH	P03	cited 	found pdf551(heads 1/10/1079/1080/2/4/7)	"Don’t know where the hell she'll sleep,
+{'OK': 69, 'PAGE': 1, 'MISSING': 0}
+
+PAGE results: Quirk PDF 715 and 717 have unreadable running heads; PDF 716 reads pp. 1416/1417, so 715 = 1414/1415 and 717 = 1418/1419, matching the cited pages. LGSWE THE_HELL_WH (L19) is on PDF 551 = pp. 1079/1080, as cited; its quotation contains '||', which split the report's table cell and left the page field empty after parsing.
+== biber2021 (row 75 quotation extended by the parent to the checked continuation, c07 L230-232)
+{'OK': 103, 'PAGE': 0, 'MISSING': 0}
+Quirk row 52 (§18.59 Note [b], p. 1418): OCR lost the note's opening; the parent read it from the page image (PDF 717, 220 dpi) and uses that reading in norm-quirk1985.tsv.

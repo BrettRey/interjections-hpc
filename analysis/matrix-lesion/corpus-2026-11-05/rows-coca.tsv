@@ -1,0 +1,7 @@
+source	item_id	property	value	scope	quote	page	pattern	note
+coca	OUCH	P10A	Y	item	Ouch, ouch, ouch, ouch, ouch.	COCA 2003 MOV The Wild Parrots of Telegraph Hill	adjacent	74 runs in 58 texts, of 3,140 ouch tokens (8 unpunctuated, 66 with one mark between); ouch-oops-repetition-coca.md
+coca	OUCH	P10A	Y	item	No! Ouch! No! Ouch! Please! Stop! Ouch!	COCA 2017 MOV Despicable Me 3	recurring: separate events	about 12 passages in the window searches; ouch-oops-window-coca.md
+coca	OUCH	P10A	Y	item	Ouch. Hold on a fucking second. Ouch! Fuck, that hurts, man.	COCA 2017 TV Bosch	recurring: one event	about 5 passages (also mediaite.com 2012, NPR 2018, CBS 1999, Salmagundi 1996); against Gutzmann 2013 p. 47 (#); ouch-oops-window-coca.md
+coca	OOPS	P10A	Y	item	Oops, oops, oops. Guess I was really tired.	COCA 1992 TV Superboy	adjacent	15 runs in 13 texts, of 4,223 oops tokens, all with a punctuation mark between (none run together); ouch-oops-repetition-coca.md
+coca	OOPS	P10A	Y	item	Oops! Got you again! Oops!	COCA 2019 FIC NewEnglandRev	recurring: separate events	about 7 passages in the window searches; ouch-oops-window-coca.md
+coca	OOPS	P10A	Y	item	Oops. Got our wires crossed. Oops. But I'm here now.	COCA 2017 TV Sleepy Hollow	recurring: one event	2 or 3 passages (also The Italian Job 2003, and one in CBS 2002 where a speaker voices someone else); against Gutzmann 2013 p. 47 (#); ouch-oops-window-coca.md

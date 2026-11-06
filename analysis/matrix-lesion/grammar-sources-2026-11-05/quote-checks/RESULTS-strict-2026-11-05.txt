@@ -1,0 +1,16 @@
+# Strict check, 2026-11-05 (order enforced, ellipsis refused, Quirk on single-page crops; sha256 of quirk1985-split.txt 4c6ad92e10dd455d...)
+== norm-cgel2002
+{'OK': 57, 'PAGE': 0, 'MISSING': 0, 'ELLIPSIS': 0, 'IMAGE': 0}
+== norm-quirk1985
+PAGE	quirk1985	BLOODY_INTENS	P03	cited 1418	found pdf(717, 'left')(heads 11/14/18/1929/1970/1971/1972/1)	His lwork is'bloody iwl'ull
+PAGE	quirk1985	CLASS:expletives in a clause	NEW:SPREADS	cited 1418	found pdf(717, 'left')(heads 11/14/18/1929/1970/1971/1972/1)	colouring (especially in exasperation) is expressed at addition;ll points in the
+{'OK': 47, 'PAGE': 2, 'MISSING': 0, 'ELLIPSIS': 0, 'IMAGE': 2}
+== norm-sie2005
+{'OK': 13, 'PAGE': 0, 'MISSING': 0, 'ELLIPSIS': 0, 'IMAGE': 0}
+== norm-biber1999
+PAGE	biber1999	THE_HELL_WH	P03; NEW:POST_WH	cited 	found pdf551(heads 1/10/1079/1080/2/4/7)	"Don’t know where the hell she'll sleep,
+{'OK': 55, 'PAGE': 1, 'MISSING': 0, 'ELLIPSIS': 0, 'IMAGE': 0}
+== rows-biber2021
+ELLIPSIS	biber2021c14	THE_HELL_WH	category assignment	cited 1092	Note: Taboo or semi-taboo terms like fuck, shit, hell, and heck are often more f
+{'OK': 102, 'PAGE': 0, 'MISSING': 0, 'ELLIPSIS': 1, 'IMAGE': 0}
+Notes: the two Quirk PAGE rows are on PDF 717, whose running head the OCR can't read (as before). The biber2021 ELLIPSIS row (THE_HELL_WH, category assignment, p. 1092) is dropped in normalization, so it reaches no cell.

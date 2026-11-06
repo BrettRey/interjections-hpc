@@ -1,0 +1,127 @@
+bearer	column	page	verdict	reason	quote
+BASTARD_SUPP	P06	W:bastard:E1:Noun:3	OTHER_USE	the example is the argument use (Some bastard stole my car), not the epithet	Some bastard stole my car while I was helping an injured person.
+BASTARD_SUPP	historical source	v1 W:bastard:Etymology:0	DUP	v1 text garbled by template stripping; the v2 row from the same revision has the full text	Frankish *bāst derives from a North Sea Germanic variety of
+BASTARD_SUPP	historical source	W:bastard:E1:Etymology:0	ROUTE	the word's etymology ('illegitimate child'); the abusive use's development is the OED's to date (not yet read)	from Old English bastard (used as an epithet), from Anglo-Norman bastard, Old French bastart (“illegitimate child”)
+BASTARD_SUPP	P13	W:bastard:E1:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈbɑːs.təd/
+BLOODY_INFIX	insertion into word/phrase	v1 W:-bloody-:Usage notes:0	USE	the page is -bloody- itself	An example of tmesis.
+BLOODY_INFIX	placed before stress	v1 W:-bloody-:Usage notes:0	USE	the page is -bloody- itself	Usually inserted before the stressed syllable.
+BLOODY_INTENS	historical source	W:bloody:E1:Etymology:0	ROUTE	the adjective's etymology; the OED calls the origin of the intensifying use 'uncertain and disputed'	From Middle English blody, blodi, from Old English blōdiġ, blōdeġ (“bloody”)
+BLOODY_INTENS	P13	W:bloody:E0:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈblɜ.ɖiː/
+DAMN_DEGREE	historical source	W:damn:E1:Etymology:0	ROUTE	the verb's etymology; the OED derives damn adj. & adv. by clipping damned adj.	From Middle English dampnen, from Old French damner, from Latin damnāre (“to condemn, inflict loss upon”), from damnum (
+DAMN_DEGREE	P13	W:damn:E1:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈdæm/, [ˈdæm] ~ [ˈdam]
+FUCKING_PRENOM	historical source	W:fucking:E1:Etymology:0	WORD	fuck + -ing; the OED (fucking adj. & adv.) agrees	From fuck + -ing.
+FUCKING_PRENOM	P13	W:fucking:E1:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈfʌkɪŋ/, [ˈfɐkɪŋ]
+THE_HELL_WH	historical source	W:hell:E1:Etymology:0	ROUTE	the noun hell's etymology; the hell as an intensifier after wh-words is a later development (OED not yet read)	From Middle English hel, hell, helle, hælle, from Old English hel, hell, from Proto-West Germanic *hallju, from Proto-Ge
+THE_HELL_WH	P13	W:the hell:E0:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ðəˈhɛl/
+THE_HELL_WH	glossed by its use	W:hell:E1:Noun:4	USE	the hell sense 'used as an intensifier' is this use	Used as an intensifier in phrases grammatically requiring a noun.
+YOU_BASTARD	historical source	v1 W:bastard:Etymology:0	DUP	v1 text garbled by template stripping; the v2 row from the same revision has the full text	Frankish *bāst derives from a North Sea Germanic variety of
+YOU_BASTARD	historical source	W:bastard:E1:Etymology:0	ROUTE	the word's etymology ('illegitimate child'); the abusive use's development is the OED's to date (not yet read)	from Old English bastard (used as an epithet), from Anglo-Norman bastard, Old French bastart (“illegitimate child”)
+YOU_BASTARD	P13	W:bastard:E1:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈbɑːs.təd/
+EXACTLY_WH	P03	W:exactly:E1:Adverb:2	OTHER_USE	the example is the focusing use (exactly to prove the point), not the modifier after a wh-word	He did it that way exactly to prove the point.
+EXACTLY_WH	historical source	W:exactly:E1:Etymology:0	WORD	the adverb's word history	From exact
+EXACTLY_WH	P13	W:exactly:E1:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ɪɡˈzæk(t).li/
+MAIN_PRENOM	historical source	W:main:E1:Etymology:0	WORD	the adjective's word history	From Middle English mayn, main, maine, mæin, meyn, from main (noun) (see further at etymology 2)
+MAIN_PRENOM	P13	W:main:E0:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/meɪn/
+PROBABLE_PRENOM	historical source	W:probable:E1:Etymology:0	WORD	the adjective's word history	From Middle English probable, from Old French probable, from Latin probābilis (“that may be proved, credible”)
+PROBABLE_PRENOM	P13	W:probable:E1:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈpɹɒbəbl̩/
+VERY_INTENS	modifies verbs	v1 W:very:Usage notes:0	DUP	v1 text garbled by template stripping; the v2 row from the same revision has the full text	When used in their senses as degree adverbs, and too never modify verbs (except in some dialects influenced by Chinese: 
+VERY_INTENS	modifies verbs	W:very:E1:Usage notes:0	USE	the note names the degree-adverb senses	very and too never modify verbs (except in some dialects influenced by Chinese: see citations)
+VERY_INTENS	historical source	v1 W:very:Etymology:0	DUP	v1 text garbled by template stripping; the v2 row from the same revision has the full text	derived from la
+VERY_INTENS	historical source	W:very:E1:Etymology:0	WORD	very's word history; its degree use developed from it	From Middle English verray, from Old French verai (“true”), from Early Medieval Latin vērāgus
+VERY_INTENS	P10A	v1 W:very:Usage notes:0	DUP	v1 text garbled by template stripping; the v2 row from the same revision has the full text	Commonly intensified by , as in very, very important person.
+VERY_INTENS	P10A	W:very:E1:Usage notes:0	USE	the note names the degree use (very, very important)	Commonly intensified by reduplication, as in very, very important person.
+VERY_INTENS	P10S	v1 W:very:Usage notes:0	DUP	v1 text garbled by template stripping; the v2 row from the same revision has the full text	Commonly intensified by , as in very, very important person.
+VERY_INTENS	P10S	W:very:E1:Usage notes:0	USE	the note names the degree use (very, very important)	Commonly intensified by reduplication, as in very, very important person.
+VERY_INTENS	P13	W:very:E1:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈvɛɾe/
+AH	delocutive noun	v1 W:ah:Noun:1	USE	the derived sense is defined by reference to this use (an utterance of the interjection)	An instance of the interjection ah.
+AH	delocutive verb	v1 W:ah:Verb:1	USE	the derived sense is defined by reference to this use (an utterance of the interjection)	"To give a cry of ""ah""."
+AH	historical source	W:ah:E1:Etymology:0	USE	the interjection's own page and etymology	From Middle English ah, aa, a (“ah”), of imitative origin, or from Old English ēa, *eah (“oh, alas”), from Proto-West Ge
+AH	imitative or natural origin	W:ah:E1:Etymology:0	USE	the interjection's own page and etymology	of imitative origin
+AHA	historical source	v1 W:aha:Etymology:0	DUP	v1 row superseded by the v2 row from the same revision	Equivalent to ah + ha.
+AHA	historical source	W:aha:E1:Etymology:0	USE	the interjection's own page and etymology	From Middle English a ha, aha, natural expression. Equivalent to ah + ha!.
+AHA	imitative or natural origin	W:aha:E1:Etymology:0	USE	the interjection's own page and etymology	natural expression
+ALAS	historical source	v1 W:alas:Etymology1:0	DUP	v1 text garbled by template stripping; the v2 row from the same revision has the full text	from fro + fro
+ALAS	historical source	W:alas:E1:Etymology:0	USE	the interjection's own page and etymology	From Middle English alas, from Old French a las (French hélas), from a (“ah”) + las, from Latin lassus (“weary”).
+HEY	delocutive verb	v1 W:hey:Verb:1	USE	the derived sense is defined by reference to this use (an utterance of the interjection)	"To greet with a ""hey"""
+HEY	historical source	W:hey:E1:Etymology:0	USE	the interjection's own page and etymology	From Middle English hey, hei, also without h- in ey, from Old English *hē, ēa (interjection), attested as first element 
+HEY	imitative or natural origin	W:hey:E1:Etymology:0	USE	the interjection's own page and etymology	Probably a natural expression, as may be inferred from its presence with similar meaning in many other unrelated languag
+OH	delocutive noun	v1 W:oh:Noun:1	USE	the derived sense is defined by reference to this use (an utterance of the interjection)	An utterance of oh; a spoken expression of surprise, acknowledgement, etc.
+OH	delocutive verb	v1 W:oh:Verb:1	USE	the derived sense is defined by reference to this use (an utterance of the interjection)	(intransitive) To utter the interjection oh; to express surprise, etc.
+OH	historical source	W:oh:E1:Etymology:0	USE	the interjection's own page and etymology	Inherited from Middle English o.
+OOPS	historical source	v1 W:oops:Etymology:0	USE	the interjection's own page and etymology	A shortening of whoops-a-daisy, whoopsie-daisy, or oops-a-daisy, which in turn is a mispronunciation of ups-a-daisy or u
+OOPS	imitative or natural origin	v1 W:oops:Etymology:0	USE	the interjection's own page and etymology	A presumably 'natural' exclamation, attested in writing since 1921.
+OUCH	delocutive verb	v1 W:ouch:Verb:1	USE	the derived sense is defined by reference to this use (an utterance of the interjection)	"To exclaim ""ouch!"" in discomfort or pain."
+OUCH	historical source	W:ouch:E1:Etymology:0	USE	the interjection's own page and etymology	Some sources say the interjection is attested since 1838 (and specifically in American English) and derives ultimately f
+OUCH	imitative or natural origin	W:ouch:E1:Etymology:0	USE	the interjection's own page and etymology	"""natural"" exclamation attested since the mid 1600s"
+UGH	P13	v1 W:ugh:Pronunciation:0	USE	the page is the interjection's (or particle's); the transcription is of this use	Any low-back vowel followed by a fricative articulated between the velum and the throat.
+UGH	P13	W:ugh:E0:Pronunciation:0	USE	the page is the interjection's (or particle's); the transcription is of this use	(lexically) IPA(key): /ʌɣ/, /ʌ(ɡ)/, /ʌx/, /əː/
+WOW	delocutive noun	v1 W:wow:Noun:2	USE	the interjection's own page and etymology; the v1 text lost a template, but 'ultimately a natural exclamation' is intact	"An utterance of ""wow""."
+WOW	historical source	W:wow:E1:Etymology:0	USE	the interjection's own page and etymology	Attested since the 16th century; borrowed from Scots wow; ultimately a natural exclamation.
+WOW	imitative or natural origin	v1 W:wow:Etymology1:0	USE	the interjection's own page and etymology; the v1 text lost a template, but 'ultimately a natural exclamation' is intact	Attested since the 16th century; borrowed from ; ultimately a natural exclamation.
+BANG_DEPICT	historical source	W:bang:E1:Etymology:0	ROUTE	the verb's etymology; whether the depictive Bang! is imitative in its own right is the OED's (not yet read)	From Middle English *bangen, from Old English *bangian or borrowed from Old Norse banga (“to pound, hammer”)
+BANG_DEPICT	P13	W:bang:E0:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈbeɪ̯ŋ/, [ˈbeɪ̯ŋ], [ˈbɛ̃ŋ]
+BLOODY_PRENOM	P05	W:bloody:E1:Adjective:0	OTHER_USE	the headword line's bloodier/bloodiest belong to the descriptive adjective; CGEL treats expletive bloody as attributive-only	bloody (comparative bloodier, superlative bloodiest)
+BLOODY_PRENOM	comparable	v1 W:bloody:Adjective:0	OTHER_USE	the headword template's comparison belongs to the descriptive adjective	{{en-adj|er}}
+BLOODY_PRENOM	historical source	W:bloody:E1:Etymology:0	ROUTE	the adjective's etymology; the OED calls the origin of the intensifying use 'uncertain and disputed'	From Middle English blody, blodi, from Old English blōdiġ, blōdeġ (“bloody”)
+BLOODY_PRENOM	P13	W:bloody:E0:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈblɜ.ɖiː/
+BYE	historical source	v1 W:bye:Etymology2:0	USE	Etymology 2 is the interjection's (shortened goodbye); the OED (bye int.) agrees	Shortened form of goodbye.
+DAMN_NP	P05	W:damn:E1:Verb:0	OTHER_USE	the verb's paradigm; it doesn't show this use (Damn these mosquitoes!) inflecting	damn (third-person singular simple present damns, present participle damning, simple past and past participle damned)
+DAMN_NP	historical source	W:damn:E1:Etymology:0	WORD	the verb's etymology; the use is the verb or comes from it	From Middle English dampnen, from Old French damner, from Latin damnāre (“to condemn, inflict loss upon”), from damnum (
+DAMN_NP	P13	W:damn:E1:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈdæm/, [ˈdæm] ~ [ˈdam]
+DAMN_PRENOM	historical source	W:damn:E1:Etymology:0	ROUTE	the verb's etymology; the OED derives damn adj. & adv. by clipping damned adj.	From Middle English dampnen, from Old French damner, from Latin damnāre (“to condemn, inflict loss upon”), from damnum (
+DAMN_PRENOM	P13	W:damn:E1:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈdæm/, [ˈdæm] ~ [ˈdam]
+DAMN_REACT	historical source	W:damn:E1:Etymology:0	WORD	the verb's etymology; the OED derives damn int. from the verb by conversion	From Middle English dampnen, from Old French damner, from Latin damnāre (“to condemn, inflict loss upon”), from damnum (
+DAMN_REACT	P13	W:damn:E1:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈdæm/, [ˈdæm] ~ [ˈdam]
+GEE	historical source	v1 W:gee:Etymology1:0	USE	Etymology 1, the Jesus etymology, is the interjection's; the OED (gee int.2) agrees	A shortening of Jesus, perhaps as in the oath by Jesus.
+GEE	ironic use	v1 W:gee:Usage notes:0	USE	usage note on the interjection	It is often used for ironic or sarcastic effect, with the speaker putting on an air of youthful innocence.
+HEAVENS	frozen plural	v1 W:heavens:Usage notes:0	OTHER_USE	the note is about the plural noun for the sky, not the exclamation (OED heavens int. not yet read)	"The plural form ""heavens"" or ""the heavens"" has been typical in reference to the impersonal sky since the 17th century."
+HELLO	delocutive noun	v1 W:hello:Noun:1	USE	the derived sense is defined by reference to this use (an utterance of the interjection)	"""Hello!"" or an equivalent greeting."
+HELLO	delocutive verb	v1 W:hello:Verb:1	USE	the derived sense is defined by reference to this use (an utterance of the interjection)	"To greet (someone) with ""hello""."
+HELLO	historical source	v1 W:hello:Etymology:0	DUP	v1 row superseded by the v2 row from the same revision	From holla, hollo (attested 1588).
+HELLO	historical source	W:hello:E1:Etymology:0	USE	the interjection's own page and etymology	Ultimately from a variant of Old English ēalā, such as hēlā, which was used colloquially at the time similarly to how he
+HELLO	stress tied to use	v1 W:hello:Usage notes:0	USE	usage note on the interjection or greeting	word-initial stress is also heard in certain contexts, such as some uses of hello there, and even in isolation.
+HUH	P13	W:huh:E1:Pronunciation:0	USE	the page is the interjection's (or particle's); the transcription is of this use	(General American) IPA(key): /hʌ/, [hʌ̃], /hə/, [hə̃]
+NO	delocutive noun	v1 W:no:Noun:1	USE	the derived sense is defined by reference to this use (an utterance of the interjection)	A negating expression; an answer that shows disagreement, denial, refusal, or disapproval.
+NO	delocutive verb	v1 W:no:Verb:1	DUP	v1 text garbled by template stripping; the v2 row from the same revision has the full text	(intransitive, colloquial) To say .
+NO	delocutive verb	W:no:E2:Verb:1	USE	the derived sense is defined by reference to this use (an utterance of the interjection)	(intransitive, colloquial) To say “no”.
+NO	historical source	v1 W:no:Etymology2:0	DUP	v1 text garbled by template stripping; the v2 row from the same revision has the full text	from gem-pro + gem-pro, equivalent to .
+NO	historical source	W:no:E2:Etymology:0	USE	Etymology 2, the answer particle's (E1 is the determiner)	Inherited from Middle English no, na, from Old English nā, nō (“no, not, not ever, never”), from Proto-West Germanic *na
+OKAY	historical source	v1 W:okay:Etymology:0	USE	the interjection's own page and etymology	A respelling of OK.
+SORRY	delocutive noun	v1 W:sorry:Noun:1	USE	the derived sense is defined by reference to this use (an utterance of the interjection)	The act of saying sorry; an apology.
+SORRY	historical source	v1 W:sorry:Usage notes:0	WORD	the adjective's etymology; the interjection comes from it through I'm sorry (usage note)	The interjection is generally understood as a clipping of I'm sorry.
+SORRY	historical source	W:sorry:E1:Etymology:0	WORD	the adjective's etymology; the interjection comes from it through I'm sorry (usage note)	From Middle English sory, from Old English sāriġ (“feeling or expressing grief, sorry, grieved, sorrowful, sad, mournful
+SORRY	ironic use	v1 W:sorry:Usage notes:0	USE	usage note on the interjection	A typically sarcastic use slows down the rhythm and stresses the final syllable, as . This is often spelled as sorree or
+SORRY	stress tied to use	v1 W:sorry:Usage notes:0	USE	usage note on the interjection or greeting	A typically sarcastic use slows down the rhythm and stresses the final syllable, as . This is often spelled as sorree or
+THANKS	frozen plural	v1 W:thanks:Etymology:0	USE	the plural noun's etymology; the interjection is that noun used alone. The v1 text is garbled by template stripping; the v2 etymology block from the same revision gives 'nominative plural'	nominative plural of gem-pro, from . More at thank.
+THANKS	historical source	v1 W:thanks:Etymology:0	DUP	v1 text garbled by template stripping; the v2 row from the same revision has the full text	nominative plural of gem-pro, from . More at thank.
+THANKS	historical source	W:thanks:E1:Etymology:0	WORD	the plural noun's etymology; the interjection is that noun used alone	From Middle English thanks, thankes, from Old English þancas (“thanks”), from Proto-Germanic *þankōs, nominative plural 
+TUTTUT	delocutive verb	v1 W:tut-tut:Verb:1	USE	the derived sense is defined by reference to this use (an utterance of the interjection)	To express such a sound, especially as a mild reproof
+TUTTUT	imitative or natural origin	v1 W:tut:Etymology1:0	USE	the interjection's own page and etymology	Imitative.
+TUTTUT	P13	W:tut:E1:Pronunciation:0	USE	the page is the interjection's (or particle's); the transcription is of this use	IPA(key): /tʌt/, [ǀ]
+YES	delocutive noun	v1 W:yes:Noun:1	USE	the derived sense is defined by reference to this use (an utterance of the interjection)	An affirmative expression; an answer that shows agreement or acceptance.
+YES	delocutive verb	v1 W:yes:Verb:2	DUP	v1 row superseded by the v2 row from the same revision	We yessed simultaneously.
+YES	delocutive verb	W:yes:E1:Verb:2	USE	the derived sense is defined by reference to this use (an utterance of the interjection)	(colloquial, intransitive) To say “yes”.
+YES	historical source	v1 W:yes:Etymology:0	DUP	v1 row superseded by the v2 row from the same revision	derived from the same root as yea
+YES	historical source	W:yes:E1:Etymology:0	USE	the answer word's etymology	From Middle English yes, from Old English ġīese (“by all means, of course, yes”), derived from the same root as yea.
+BANG_NOUN	P06	W:bang:E1:Noun:0	USE	the noun's headword line, and the use is the noun	bang (plural bangs)
+BANG_NOUN	historical source	W:bang:E1:Etymology:0	WORD	Wiktionary's one etymology for verb and noun; the noun use is ordinary	From Middle English *bangen, from Old English *bangian or borrowed from Old Norse banga (“to pound, hammer”)
+BANG_NOUN	P13	W:bang:E0:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈbeɪ̯ŋ/, [ˈbeɪ̯ŋ], [ˈbɛ̃ŋ]
+BLACK	comparable	v1 W:black:Adjective:0	USE	the adjective's headword line, and the use is the adjective	{{en-adj|er,more}}
+BLACK	historical source	W:black:E1:Etymology:0	WORD	the adjective control's own word history	From Middle English blak, black, blake, from Old English blæc
+BLACK	P13	W:black:E1:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/blæk/
+COFFEE	P06	W:coffee:E1:Noun:0	USE	the noun's headword line, and the use is the noun	coffee (countable and uncountable, plural coffees)
+COFFEE	historical source	W:coffee:E1:Etymology:0	WORD	the noun control's own word history	Borrowed from Dutch koffie, from Italian caffè, from Ottoman Turkish
+COFFEE	P13	W:coffee:E1:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈkɒfi/
+QUICKLY	P05	v1 W:quickly:Usage notes:0	USE	usage note on the adverb quickly itself	Although the comparative (quicklier) and superlative (quickliest) one-word forms exist and are and have been in limited 
+QUICKLY	historical source	W:quickly:E1:Etymology:0	WORD	the adverb's word history	From Middle English quykly, quikliche, quicliche, cwikliche, cwickliche, from Old English cwiculīċe.
+QUICKLY	P13	W:quickly:E1:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/ˈkwɪk.li/
+STOP	P04	v1 W:stop:Usage notes:0	USE	the verb use	This is a catenative verb that takes the gerund -ing to indicate the ending action (stop thinking), or the to infinitive
+STOP	catenative	v1 W:stop:Usage notes:0	USE	the verb use	This is a catenative verb that takes the gerund -ing to indicate the ending action (stop thinking), or the to infinitive
+STOP	historical source	W:stop:E1:Etymology:0	WORD	the verb's word history	From Middle English stoppen, stoppien, from Old English stoppian (“to stop, close”)
+STOP	P13	W:stop:E0:Pronunciation:0	PRON	one documented pronunciation of the form, which this use shares; it doesn't exclude other variants (call 3)	/(ɪ)sʈɔp/
+LAH	historical source	v1 W:lah:Etymology2:0	DUP	v1 row superseded by the v2 row from the same revision	Bazaar Malay, for its use as a particle of emphasis
+LAH	historical source	W:lah:E2:Etymology:0	USE	Etymology 2, the particle's	From Malay lah, Hokkien 啦 (--la) and Cantonese 啦 (laa1).
+LAH	P13	v1 W:lah:Pronunciation:0	USE	the page is the interjection's (or particle's); the transcription is of this use	The different senses of this word are distinguished by lexical tone.
+LAH	P13	W:lah:E2:Pronunciation:0	USE	the page is the interjection's (or particle's); the transcription is of this use	Variant for senses 1–4: IPA(key): [lɑh˨]
+LAH	lexical tone	v1 W:lah:Pronunciation:0	USE	the particle's pronunciation	The different senses of this word are distinguished by lexical tone.
+LAH	host-stress conditioned	v1 W:lah:Usage notes:0	USE	usage note on the particle	lah is more likely to occur after clauses ending in a lexically stressed syllable (e.g., No need, lah!) than after claus

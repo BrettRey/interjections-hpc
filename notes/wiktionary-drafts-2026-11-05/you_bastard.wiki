@@ -1,0 +1,27 @@
+==English==
+
+===Etymology===
+From {{m|en|you}} (as a determinative) + {{m|en|bastard}}.
+
+===Pronunciation===
+{{rfp|en}}
+
+===Interjection===
+{{en-intj}}
+
+# {{lb|en|vulgar|offensive}} Used to insult the person addressed, expressing anger or contempt.
+#* {{quote-av|en|year=1997|title=South Park|passage=“Oh my God, they killed Kenny!” “'''You bastards'''!”}}
+
+====Usage notes====
+* The phrase is an exclamatory noun phrase used as an utterance on its own. Such phrases never occupy a complement position in ordinary clause structure, so one can't say *''You bastard are late'' (compare ''Huddleston & Pullum 2002'', p. 353 note 14).
+* ''You'' here is a determinative, not the head, as with other derogatory terms of address (''you stupid bastard''; ''Huddleston & Pullum 2002'', p. 523). The noun can therefore be modified (''you stupid bastard'', ''you sick bastard'') and can be singular, though ''you'' as a determinative otherwise takes a plural head.
+* The bare noun is used in the same way (''Bastard!''). Other nouns that can fill the frame ''You X!'', such as ''idiot'', ''traitor'' and ''son of a bitch'', are terms of name-calling (''Ljung 2011'', pp. 126–128).
+* Among friends the phrase can be affectionate (compare sense 4 of {{l|en|bastard}}). ''Potts 2007'' (p. 177) cites the slogan "Here's To You, Ya Bastard!" from an advertisement.
+
+====Synonyms====
+* {{l|en|you son of a bitch}}
+
+===References===
+* {{cite-book|author=Rodney Huddleston; Geoffrey K. Pullum|year=2002|title=The Cambridge Grammar of the English Language|publisher=Cambridge University Press|pages=353, 523}}
+* {{cite-book|author=Magnus Ljung|year=2011|title=Swearing: A Cross-Cultural Linguistic Study|publisher=Palgrave Macmillan|pages=126–128}}
+* {{cite-journal|author=Christopher Potts|year=2007|title=The expressive dimension|journal=Theoretical Linguistics|volume=33|issue=2|pages=165–198|doi=10.1515/TL.2007.011}}, page 177

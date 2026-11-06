@@ -1,0 +1,5 @@
+sie2005	0	CLASS:interjection (oh, hello, wow, ouch)	coverage	DROP: SIEG's silence on interjections is stated policy
+sie2005	2	same	sense relativity	DROP
+sie2005	3	CLASS:gradability	none	DROP
+sie2005	5	CLASS:exclamatory expressions (the hell, fantastic, so pathetically)	restriction to clause type	DROP: 'independent of clause type' covers Get the hell out, a use not in the inventory
+sie2005: 17 rows, 4 dropped

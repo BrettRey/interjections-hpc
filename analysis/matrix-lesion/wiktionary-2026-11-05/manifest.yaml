@@ -1,0 +1,18 @@
+date: 2026-11-05
+question: what English Wiktionary records for each items-v4 bearer, in one vocabulary across bearers and controls (Brett: "what about searching en.wiktionary for the individual bearers", then "please")
+source: en.wiktionary.org via the MediaWiki API (action=parse for wikitext and revision ids; action=expandtemplates, POST, for v2), CC BY-SA 4.0; revision ids in fetch-log.json and each block header. One request per 6 s after a 429 at 1 s spacing; Retry-After honoured.
+coverage: 43 pages for 46 bearers; 42 fetched; "you bastard" has no page (missingtitle); haba has no English section (a confirmed negative)
+texts:
+  v1: {file: wiktionary-senses-v1.txt, sha256: c95b6ba81dcba2bb245ffcd214a2d16894cdeaadfb987113c12b227337ad6cff, defect: "templates stripped (IPA, etymons, examples, quotations, some glosses); block ids repeated across etymologies; found by both extraction agents"}
+  v2: {file: wiktionary-senses-v2.txt, sha256: 1e91dbc064cb7870aaa709d1a8713654240527e0da94bae8b0e1f8d67596c461, built_by: expand_wiktionary.py, ids: "W:<page>:E<k>:<section>[#n]:<sense>, unique"}
+agents: Claude Code subagents, type responsibility-reader, model Claude Opus 5.5; briefs BRIEF-W.md (v1) and BRIEF-W2.md (v2 supplement)
+reports: {v1_interjections: 93e07e3ccea1a98a7d9654fb437fd39d19395b90c7422bc7a2f5c80f043cd43b, v1_expressive_controls: c706eb6df544ee760bbec3ebc46102b3719f7f1b765bcca7cc6fd4686ecc99d6, v2_interjections: d0559762615335f7100862301db4a4ea3d7200669a6258fbb885ab1d0b2e2668, v2_expressive_controls: 897fbf8595d40c1e2a8925d299b57f785acf87387a1c6ed2fa862c9c11cf601c}
+verification: 245 quotations string-checked (127 v1 rows against v1 with check_quotes_w1.py, which searches every block sharing an id; 36 + 82 v2 rows against v2 with check_quotes_w.py); none missing
+settlements: merge_rows.py (template-default comparability dropped; AH's Middle English P02 dropped; conditional, candidate, neighbour and constructed-example P01 rows hedged)
+classification: Wiktionary's part-of-speech headings are recorded in notes, never used as property values
+post_fetch_edits:
+  note: "Brett posted entries drafted in this session (notes/wiktionary-drafts-2026-11-05/) after the fetch. The matrix's W rows come only from the revisions fetched below, before his edits. His edits restate CGEL, Ljung 2011, Potts 2007 and Unuabonah & Daniel 2020, so a W row resting on them would count those sources twice and would cite the study's author. Any re-fetch must pin these pages to the revisions below or exclude rows that rest on the later ones."
+  checked: "2026-11-05, MediaWiki API action=query prop=revisions"
+  haba: {fetched_rev: 92722400, brett_rev: 95428451, brett_time: "2026-11-05T17:48:30Z", change: "add English"}
+  bastard: {fetched_rev: 93943925, brett_revs: [95428489, 95428495], brett_time: "2026-11-05T17:52:50Z to 17:53:13Z", change: "non-referential sense, usage note, CGEL reference"}
+  you_bastard: {fetched: "missingtitle", brett_rev: 95428501, brett_time: "2026-11-05T17:54:05Z", change: "create page", later: "rev 95428621 (2026-11-05T18:04:34Z, another editor) added {{rfv|en|SOP}}, a request to verify it isn't sum of parts"}

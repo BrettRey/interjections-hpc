@@ -1,0 +1,18 @@
+source	item_id	property	value	scope	quote	page	note
+sie2005	CLASS:interjection (oh, hello, wow, ouch)	coverage	none	class	Leaving aside the minor category of interjections (covering words like oh, hello, wow, ouch, etc.,	16	"L1007–1008. It continues ""about which there really isn't anything inter­esting for a grammar to say)"", with a soft hyphen at the line break. SIEG's silence on interjections is policy."
+sie2005	CLASS:attributive-only adj. ([25]: damn, eventual, former, future, main, mere, only, own, principal, putative, sole, veritable; also utter; by sense only: certain, late, lawful)	predicative use (no P-id)	N	class	Utter is an exceptional case: an attributive-only adjective, which can't be used predicatively	120	"L6411–6412. Class statement at L6417: ""NPs containing a sample of other adjectives that are attributive-only are given in [25]:"". Starred example: ""* That nonsense was utter."" (L6406)"
+sie2005	same	sense relativity	none	class	As with the gradable vs non-gradable distinction, the restrictions often apply just to certain senses of a lexeme.	120	L6432–6433
+sie2005	CLASS:gradability	none	none	class	the gradable vs non-gradable distinction applies to uses rather than lexemes as such.	118	L6316–6317. No bearer appears in the non-gradable list [17].
+sie2005	CLASS:degree adverbs very, pretty, too	host restriction (no P-id)	Y: adjectives only	class	there are some adverbs that can modify adjectives but not verbs. They include very	115	"L6188–6189. Starred: ""*1 very love her."" (116, L6201; ""1"" = I [OCR])"
+sie2005	CLASS:exclamatory expressions (the hell, fantastic, so pathetically)	restriction to clause type	N	class	The exclamatory meaning is expressed here by the hell in [i] , fantastic [ii] , and so pathetically in [iii] , but these are independent of clause type.	168	"L8848–8849. Contrast exclamative *what*, which is restricted: ""* Don 't be what a tyrant."" (L8855)"
+sie2005	CLASS:supplement (a function, not a class of bearers)	P12S	Y	class	Supplements are set apart intonationally from the rest of the clause: they are spoken as separate units of intonation	79	L4299–4300. No bearer is named.
+sie2005	DAMN_PRENOM	P03	Y	item	these damn budget cuts	120	L6419
+sie2005	DAMN_PRENOM	predicative use	N	item	NPs containing a sample of other adjectives that are attributive-only are given in [25]:	120	L6417. Damn is first in [25]. There's no starred damn example.
+sie2005	THE_HELL_WH	P03	Y	item	What the hell are you doing ?	168	L8844 [20ib], an open interrogative
+sie2005	VERY_INTENS	P03	Y	item	I 'm very fond of her.	116	L6203
+sie2005	VERY_INTENS	host restriction	Y (N for modifying verbs)	item	*1 very love her.	116	"L6201 [OCR ""1""]"
+sie2005	MAIN_PRENOM	P03	Y	item	the main problem	120	L6420
+sie2005	MAIN_PRENOM	predicative use	N	item	NPs containing a sample of other adjectives that are attributive-only are given in [25]:	120	Same list [25] as damn
+sie2005	QUICKLY	P05	N	item	we find neither *quicklier nor *quickerly	123	"L6572–6573. Comparatives are formed ""by means of more and most rather than by inflection"" (L6574)."
+sie2005	BLACK	P03	Y	item	black hair	112	"L6012. Predicative ""Her hair is black."" (L6013)"
+sie2005	YES, NO	P02	Y	item	two answers to the closed question Is Sue here ? - namely Yes, she 's here and No, she isn 't here.	160	L8392–8393

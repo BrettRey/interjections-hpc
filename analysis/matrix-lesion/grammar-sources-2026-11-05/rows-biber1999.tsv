@@ -1,0 +1,71 @@
+source	item_id	property	value	scope	quote	page	note
+biber1999	CLASS:insert (central members)	P01	Y	class	They may appear on their own, i.e. not as part of a larger grammatical	1081	"L225; ""structure."" follows after a blank line (L227). This is criterion (1) of six, for ""more central members""."
+biber1999	CLASS:insert	P12I	Y	class	they may appear attached (prosodically, or, in the transcription, by absence of punctuation) to a larger structure	1081	"L229–231. Also ""inserts have a tendency to attach themselves prosodically to a larger structure"" (L209–210)."
+biber1999	CLASS:insert	clause-edge / medial position (no P-id)	tendency, not N	class	They rarely occur medially in a syntactic structure.	1081	"L233. ""Rarely"" is not ""never""."
+biber1999	CLASS:insert	P03	not coded	class	stand-alone words which are characterized in general by their inability to enter into syntactic relations with other structures	1081	"L208–209. Hedged with ""in general"", so this isn't N."
+biber1999	CLASS:insert	P04	Y	class	sometimes occurring with added modifiers, as in Hi there	1081	"L194–195. Counts against ""no modification"" as an insert property."
+biber1999	CLASS:insert	morphology	none	class	They are morphologically simple.	1081	L235. This isn't a statement of invariance, so it doesn't support P05 N.
+biber1999	CLASS:insert	P07D	N	class	Semantically, they have no denotative meaning: their use is defined rather by their pragmatic function.	1081	L239–240. A defining criterion, listed alongside the form criteria.
+biber1999	CLASS:insert (interjections, response forms, hesitators)	P13	Y	class	Such vocables as these often have uncharacteristic features of pronunciation (e.g. un-English consonants such as the velar fricative /x/; medial /h/; lack of an oral vowel sound—e.g. /mhm/),	1081	"L215–217. Members at L213–215: ""ugit, ooli"" [OCR: ugh, ooh?], ""uh huh, mhm"", ""mm, uli"" [OCR: uh?]."
+biber1999	CLASS:insert	boundary	none	class	the boundary between inserts and syntactic non-clausal units is a gradual one.	1081	L219–220
+biber1999	CLASS:insert formulae (thank you, excuse me, good God)	P04 for the variants shown	N	class	*thank you a lot (contrast thanks a lot)	1083 §14.3.3	"L272–273. Also ""?*almighty God"" and ""?*thank me"". N only for the variants shown."
+biber1999	CLASS:interjection (LGSWE: oh, ah, wow, ooh, cor, aha, oops/whoops, ugh, ow, ouch, aargh, urgh, tt, hm, ha, yippee, whoopee, wowee, yuck)	definition	none	class	inserts which have an exclamatory function, expressive of the speaker’s emotion.	1083 §14.3.3.1	"L287–288. No form property beyond the insert class. ""It is, indeed, to some extent an open-ended class."" (1085, L430–431)"
+biber1999	CLASS:expletive (taboo: God, Jesus, damn, shit, bloody hell, goddammit, fuck, goddamn; moderated: gosh, geez, gee, heavens, good grief, good Lord, heck, golly; Table 14.10 adds crumbs, crikey, (God) dang (it), (gosh) darn (it), goodness (me), blimey)	P01 + clause-edge position	Y (P01); position is a tendency	class	Their most common positions are (a) stand-alone occurrence, often as a complete turn, and (b) initial occurrence within a clause, utterance, or turn. They also occasionally occur in final position in a clause.	1093	L1034–1037
+biber1999	CLASS:expletive	medial position	tendency, not N	class	Medial position is very rare, except in the special case of introducing direct speech quotation:	1093	"L1037–1038. The section's own example ""This is, God, a bloody afternoon wasted! (BrR)"" (1095–96, L1087) has God medially."
+biber1999	CLASS:expletive	P12I	Y	class	Like other inserts, expletives are relatively detached elements, although they can be linked prosodically to a larger syntactic unit.	1093	L1033–1034
+biber1999	CLASS:expletive	P02	Y	class	Shit, play a fucking domino goddammit. (ams)	1095	"L1097: initial *shit* and final *goddammit* beside an imperative. Also ""Fuck, I feel fucking sweaty"" (L1107)."
+biber1999	CLASS:expletive	scope	none	class	We do not include under expletives non-exclamatory taboo expressions (‘swearwords’), such as the adjectives or adverbs bloody {especially BrE) and fucking, unless these are habitually combined with words otherwise classed as expletives, as in bloody hell.	1093	"L1065–1068; ""{especially"" [OCR]. Removes BLOODY_* and FUCKING_PRENOM from the class in the rows above."
+biber1999	CLASS:moderated expletive	phonetic modification (no P-id)	Y	class	which camouflage their taboo origin by various phonetic modifications (e.g. gosh for God) or by substitution of different but related words (e.g. goodness for God).	1093	"L1057–1059. Also ""gawd and gosh are euphemistic variants of the expletive God."" (1083, L258–259)"
+biber1999	CLASS:expletive	multiword formulae	none	class	we do include purely formulaic multi-word expressions, such as my God or bloody hell.	1093	L1050–1051. Variable expressions are excluded (L1047–1049).
+biber1999	CLASS:exclamatory NP, addressee type (you little devil, you silly cow, lazy lot of buggers you; *you bastard!* is assigned here)	position	none	class	One type (referring to the addressee) contains you either at the beginning or the end or both:	1102 §14.3.4.2G	L1542–1543
+biber1999	same	P02	Y	class	These exclamatory noun phrases superficially resemble vocatives, and can combine, like vocatives, with an imperative or other clausal unit, as the examples show.	1102	L1551–1553
+biber1999	same	P04	Y	class	How did you get two of those phones, you little devil? (Amz)	1102	"L1545. Also ""Come on you silly cow"" (L1547)."
+biber1999	CLASS:exclamatory NP, third-person type	P06 (determiner)	Y	class	Another type is directed to third persons, and can be introduced by the definite article: e.g. the dirty bugger (sre).	1102	L1553–1554. P04 Y as well (*dirty*). The source doesn't show whether this type stands alone or is supplementary, so it can't be matched to BASTARD_SUPP.
+biber1999	CLASS:expletive formulae (damn you, bugger me, fuck that, sod the choir)	non-imperative form	none	class	These have the appearance of imperatives, but are clearly not—in the first example, an imperative would contain yourself, not you.	1102	L1558–1559. The same test is applied to *thank you* at 1083 (L269–271).
+biber1999	CLASS:response form	definition and sequence	none	class	Response forms are inserts used as brief and routinized responses to a previous remark by a different speaker.	1089	L712–713
+biber1999	CLASS:response form	phonetic variant tied to meaning	none	class	The spellings yep and nope represent variants of yeah and no with a stop consonant—in effect, an abrupt lip closure—at the end. They sound more abrupt aud peremptory than the more common variants with a final vowel.	1089	"L753–755; ""aud"" [OCR]"
+biber1999	CLASS:negative backchannels (huh uh, unh unh)	prosody	none	class	Uh huh and mhm also have negative counterparts normally spelt huh uh and unh unh. Both are often spoken with a rising tone.	1091	"L854–855. ""Both"" refers to the negative pair, not to MMHM."
+biber1999	CLASS:polite formulae (thank you, thanks, sorry, please, pardon, excuse me)	P05	N	class	These formulae behave as invariable items, in effect as inserts, but they can also combine with grammatical constructions such as prepositional phrases and complement clauses:	1093	"L1004–1006. LGSWE then reclassifies those combinations: ""In such constructions we do not consider them to be inserts, since they take part in free constructions"" (L1014–1015)."
+biber1999	CLASS:greetings	initial position	none	class	As these examples show, a voeative commonly follows the greeting word, which can also introduce a more extended utterance:	1085 §14.3.3.2	"L447–448; ""voeative"" [OCR]"
+biber1999	CLASS:discourse markers (well, right, now, I mean, you know, you see; also oh, okay)	position	tendency	class	are inserts which tend to occur at the beginning of a turn or utterance	1086 §14.3.3.3	L488–489
+biber1999	DAMN_REACT	P01	Y	item	A: I know what I forgot to get in town. Damn!	1095	"L1091, under taboo expletives. P02 is Y at class level only; there's no damn-specific ""Damn, …"" instance."
+biber1999	DAMN_NP	P04	Y	item	damn you, bugger me (Bre), fuck that, sod the choir (Bre).	1102	L1557–1558. *Damn you* matches the complement-taking use; see the non-imperative CLASS row.
+biber1999	BLOODY_PRENOM	P03	Y	item	It cost me ten bucks just to get the bloody picture taken (ame).	1093	"L1069–1070. Also L1087 ""a bloody afternoon wasted"" and ""The key to the bloody boiler!"" (1102, L1533)."
+biber1999	BLOODY_PRENOM / BLOODY_INTENS	insert status	not an insert	item	Such words are not themselves inserts, and can combine with other words in the normal clausal syntax of English	1093	"L1068–1069. The statement names ""adjectives or adverbs bloody"", so it covers both uses, but the only example is prenominal. There's no degree example of bloody."
+biber1999	FUCKING_PRENOM	P03	Y	item	Shit, play a fucking domino goddammit. (ams)	1095	"L1097. Also ""more fucking money"" (L1103). ""I feel fucking sweaty"" (L1107) is a degree use, which has no row in items-v4."
+biber1999	YOU_BASTARD	P01	Y	item	We also exclude taboo insults such as you bastard! (14.3.4.2G), which are abusive exclamations, and refer to people, whereas true expletives have a vaguer situational application.	1093	L1070–1072. Class properties are in the addressee-type rows.
+biber1999	THE_HELL_WH	P03	Y	item	"""Don’t know where the hell she'll sleep,"		"she got to sleep in the living room."""
+biber1999	THE_HELL_WH	category	none	item	with such uses these forms function as verbs or nouns: Fuck off, What the hell... (14.3.4.2G),	1097	L1289–1290, Table 14.10 note. Hell here is a noun and isn't counted as an insert.
+biber1999	VERY_INTENS	P10A adjacent repetition	Y	item	Thank you very, very, very, very much. (Brs)	1093	L1010. No effect is stated, so P10S and P10R aren't coded.
+biber1999	STOP	P04	Y	item	Hey stop bitching (sra)	1087	L659
+biber1999	OH	P01	Y	item	In Tunisia in hospital? Oh! Shit! That’s pretty good (Brg)	1095	L1101
+biber1999	OH	P02	Y	item	B: Oh, it is a mosaic. (amp)	1084	"L309. Position: ""Its routine use to introduce utterances or to respond to the utterances of others often gives it the character of a discourse marker."" (1083, L294–296)"
+biber1999	AH	P01	Y	item	Seriously! Ah! It’s people like him / really bug me (ame)	1084	L331
+biber1999	AH	P02	Y	item	B: Ah isn’t that nice. (arp)	1084	L335
+biber1999	WOW	P01, P02	Y, Y	item	A: Oh wow, they really did that tree nice. Wow.	1084	"L337. Also a lone ""Wow."" turn at L341."
+biber1999	AHA	P02	Y	item	Let’s see, aha, this one is yours.	1084	L353
+biber1999	OOPS	P02	Y	item	oops maybe you can’t	1084	L363
+biber1999	OOPS	P10A adjacent	Y	item	Ooh! I’ve got too many. Oops oops. (srk)	1084	L367. Effect not stated.
+biber1999	OUCH	P02	Y	item	Tt ooh! Ouch my neck hurts, Mm. (sre f)	1085	L408
+biber1999	UGH	P01	Y	item	Ugh.	1085	L402, a lone turn (the speaker label was lost in OCR)
+biber1999	UGH	P02	Y	item	Ugh it reeks, (Amz)	1085	L397
+biber1999	UGH	P13	Y	item	this applies to interjections (such as ugit, ooli)	1081	"L213–214; ""ugit"" [OCR, presumably ugh]"
+biber1999	TUTTUT	P13 and P10A	Y, Y	item	Tt (an alveolar click, which is often repeated) registers some degree of regret or disapproval	1085	L391–392. The click and the repetition are stated together with the meaning.
+biber1999	TUTTUT	P02	Y	item	B: Um, tt, I guess I tend to snack a lot. (Ame)	1085	L416
+biber1999	GEE	P02	Y	item	Oh boy, gee you've got some nice pictures. (AmB)	1095	L1118. LGSWE classes gee as a moderated expletive, not an interjection.
+biber1999	HEAVENS	P01	Y	item	B; Heavens!	1095	"L1129, "";"" [OCR]. Moderated expletive. Table 14.10 lists ""(good) heavens"" (L1286)."
+biber1999	HEY	P02	Y	item	Hey Rob do you want to lend me fifty p? (Br)	1087	"L643. Combination: ""especially where followed by a directive (e.g. Hey stop bitching (sra)), or in combination with the vocative you:"" (L658–660)"
+biber1999	YES	P01	Y	item	Yes.	1101	"L1445, answering ""; Are you serious?"" (L1444)"
+biber1999	NO	P02	Y	item	B: No, I’m going to stick it in an envelope with a little card and just mail it	1089	L744. There's no instance of bare *No*.
+biber1999	YES/NO	variants	none	item	In this they resemble not only interjections but alsa response forms such as yes and no, which can similarly undergo phonetic modifications reflected in spellings like yeah, yep, and nope.	1083	"L259–261; ""alsa"" [OCR]"
+biber1999	OKAY	P01	Y	item	Okay.	1089	"L797. Versatility: ""Okay can act as discourse marker, response elicitor, and response form."" (1083, L280–281)"
+biber1999	MMHM	P01	Y	item	B: Mhm. (ame)	1091	L846, as a backchannel
+biber1999	MMHM	P13	Y	item	lack of an oral vowel sound—e.g. /mhm/	1081	"L217. Also ""Their pronunciations are /mhm/ and /aha/, the former being the nasal variant, and the latter the oral variant of the same basic form."" (L851–852)"
+biber1999	HUH	P01	Y	item	> Huh?	1091	"L905. Function: ""As response forms, they signal lack of understanding and a wish to have the message repeated."" (L899–901)"
+biber1999	HELLO	P02	Y	item	Hello is that Cindy Jones? (sre)	1086	L454
+biber1999	BYE	P01, P10A (lexicalized reduplication)	Y, Y	item	: Bye bye.	1086	L471
+biber1999	THANKS	P02	Y	item	A: Thanks Cari, I appreciate it. <thanking>	1093	L966
+biber1999	THANKS	P04	Y	item	*thank you a lot (contrast thanks a lot)	1083	"L272–273. Also ""Thanks a lot, sorry about that."" (1103–04, L1615)"
+biber1999	SORRY	P01	Y	item	B; Sorry. (srg) <apologizing>	1093	L977
+biber1999	SORRY	P02	Y	item	A: Sorry, I didn’t mean to scare you. <apologizing>	1093	L972
+biber1999	SORRY	P04	Y	item	Sorry to keep bothering you. (Amz)	1093	"L1012. LGSWE then says such uses are not inserts (L1014–1015). Source category: ""God and sorry when used in exclamatory isolation, even though lexically (and in meaning) these forms derive from another word class"" (1083, L255–256)"
